@@ -1,0 +1,6 @@
+[submodule "vtes-rulings"]
+	path = vtes-rulings
+	url = https://github.com/vtes-biased/vtes-rulings.git
+[submodule "rulebook2024"]
+	path = rulebook2024
+	url = https://github.com/GiottoVerducci/rulebook2024.git
