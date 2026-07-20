@@ -16,6 +16,13 @@ The repository has **no commits yet** and `docs/` is untracked.
 `docs/_work/` holds the machinery for producing the document; it is scaffolding, not
 output.
 
+**It is tracked deliberately and is meant to be deleted.** Everything under `_work/` is
+in-flight tooling — kept in git only so mid-pipeline state survives across iterations
+(the Phase 3 classification output in particular is thousands of agent judgments that
+cost real work to reproduce). When the document is finished, remove `docs/_work/`
+wholesale in a cleanup commit. Do not treat its presence as a sign it should be
+maintained, and do not let it accumulate anything the final document depends on.
+
 - `WORKING-NOTES.md` — **read this first.** It is compaction insurance: the mandate,
   the validated style constraints, and a 9-phase pipeline checklist with current state.
   Update the phase checkboxes as work completes.

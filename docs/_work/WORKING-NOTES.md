@@ -40,6 +40,9 @@
 - [ ] Phase 8: consistency/organization review pass (+ fixes)
 - [ ] Phase 9: reference verification pass (script: all IDs exist in references.yaml;
       agents: spot-check footnotes vs rulings.yaml, flag suspicious claims)
+- [ ] Phase 10: cleanup — delete docs/_work/ (tsv, chunks, flattening script, extracts,
+      sections, this file). All of it is in-flight tooling; tracked in git only so
+      mid-pipeline state survives iterations. Only docs/extended-rules.md ships.
 
 ## Section codes (taxonomy v1)
 1.1 card-text-vs-rules; 1.2 wording-templates; 1.3 card-types-multitype;
