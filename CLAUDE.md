@@ -9,7 +9,8 @@ judge-level companion to the [VTES rulebook](https://www.vekn.net/rulebook) that
 synthesizes ~2,605 individual rulings into general principles organized by game mechanic.
 There is no build, no test suite, no package. The deliverable is one Markdown file.
 
-The repository has **no commits yet** and `docs/` is untracked.
+Classification is complete: all 2,605 rulings are labelled against the taxonomy
+(`docs/_work/classification.tsv`). Drafting has not started beyond the two pilot sections.
 
 ## Working files and pipeline
 
@@ -24,17 +25,36 @@ wholesale in a cleanup commit. Do not treat its presence as a sign it should be
 maintained, and do not let it accumulate anything the final document depends on.
 
 - `WORKING-NOTES.md` — **read this first.** It is compaction insurance: the mandate,
-  the validated style constraints, and a 9-phase pipeline checklist with current state.
-  Update the phase checkboxes as work completes.
-- `taxonomy.md` — the 61 section codes (`1.1` … `6.9`) every ruling is classified
-  against, plus the P/E/C/G role definitions (Principle / Example / not-worth-carrying /
-  Gap-with-no-owning-section). Authoritative for the code list.
+  the validated style constraints, and a phase-by-phase pipeline checklist with current
+  state. Update the phase checkboxes as work completes.
+- `classification.tsv` — **the canonical output of the classification pipeline and the
+  input to every later phase.** 2,605 rows, `id<TAB>codes<TAB>P|E|C|G<TAB>note`, one per
+  ruling. Read THIS, not `class/chunk-*.tsv`, which is the superseded per-agent record.
+- `taxonomy.md` — the **64 live** section codes (`1.1` … `6.9`; chapter 6 skips 8, which
+  was deleted and deliberately not renumbered) every ruling is classified against, plus
+  the P/E/C/G role definitions (Principle / Example / not-worth-carrying /
+  Gap-with-no-owning-section). **Authoritative for the code list**, and it records why
+  each added code was added and which candidates were rejected — read it before
+  proposing a new section.
+- `review-findings.md` / `.json` — the Phase 4.5 per-section review: 525 findings from 68
+  opus reviewers. **Carries a calibration caveat that must be read before use** — the pass
+  produced to a quota, so volume is inflated and severity labels carry no signal. The
+  `duplicate-template` findings are its real value: 60% of the corpus is template
+  redundancy, which is the single biggest determinant of the finished document's length.
+- `phase3-runbook.md`, `phase5-runbook.md` — self-sufficient runbooks for the two phases
+  that are easy to get wrong from a cold start.
+- `coverage.tsv` — per-section membership (P / E / P+E / G-nearest), regenerated from
+  `classification.tsv`. Coverage is DIAGNOSTIC, not a target; see the mandate.
+- `tensions.md` — contradictory-polarity rulings grouped by `!TENSION` slug. A drafter
+  who meets only one side of a pair will state an over-broad rule, so resolve each slug
+  as a unit before drafting the owning section. The `no-effect-plays` slug is large (46).
 - `rulings-flat.tsv` — all rulings flattened, one per line:
   `R####<TAB><card_id>|<Card Name>.<n><TAB>ruling text with [REF IDs]`.
-- `chunk-00` … `chunk-17` — that same TSV split into 145-line chunks, one per
-  classification agent. Classification output goes to `docs/_work/class/chunk-NN.tsv`
-  as `id<TAB>codes<TAB>P|E|C<TAB>note` — 1-3 comma-separated codes, most central first;
-  every `C` carries a note justifying it.
+- `chunk-00` … `chunk-17`, `class/chunk-NN.tsv` — the Phase 3 inputs and their raw
+  per-agent output. Kept as the immutable record of what each agent judged; **stale for
+  the 275 rulings the Phase 4b recheck revised.** `recheck-NN` / `reclass/recheck-NN.tsv`
+  are that recheck's input and output (output carries two extra fields, `KEEP|CHANGE`
+  and a reason).
 - `classifier-contract.md` — the operating contract for the classification agents: the
   two independent judgments (absorb-or-not, then which sections), golden rules, output
   format, the C/G tests, and the note-field tags. Agents are self-contained (contract +
@@ -139,3 +159,14 @@ Python work on the YAML files uses `.venv/bin/python` (create the venv with `pyy
 absent). The `vtes-rulings` repo has its own `make test`
 (`black`/`ruff`/`yamllint`/`check_rulings.py`) — run it there, not here, if you touch that
 database.
+
+**awk gotcha when matching section codes.** `awk -v C="3.10"` creates a *strnum*, which
+compares numerically equal to `"3.1"` — so a naive `a[i]==C` silently folds section 3.1
+into 3.10. This produced a wrong count once already. Match codes via array subscripts
+(always string keys) or force string context (`a[i] "" == C ""`). The same trap applies to
+any `3.7.x` vs `3.7` comparison.
+
+**Verify field indices after `join`.** `join` shifts columns (`1=key`, then file1's
+remaining fields, then file2's), so an index copied from a pre-join script reads the wrong
+column and quietly reports zero violations. Print one joined row and count before trusting
+any validation built on it.

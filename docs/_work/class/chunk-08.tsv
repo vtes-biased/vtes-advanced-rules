@@ -1,0 +1,145 @@
+R1161	3.7.1	E	bleed-redirection protection extends to the vampire's own bleeds too; cf. Perfect Clarity R1304 same pattern
+R1162	-	C	burn-option trigger tied to vampires with [mal] being in torpor is this card's own condition-check; fails transfer, nearest 5.3 (torpor) but that doesn't own conditional burn options
+R1163	3.6	P
+R1164	3.6	P
+R1165	3.6	P
+R1166	3.6	P
+R1167	3.6,4.9	P
+R1168	5.2	E
+R1169	3.5	E
+R1170	3.5,2.4	E
+R1171	3.7.7,3.7.8	E
+R1172	3.5	E
+R1173	3.5	E
+R1174	3.7.5	E
+R1175	1.13,1.12	E
+R1176	3.7.3	E	!WORDING garbled clause ("It does is if it is equipped"); reads as: gets cards only when equipped, not when merely put into play
+R1177	3.3	E
+R1178	4.7,4.9	E
+R1179	3.6	P
+R1180	3.6	P
+R1181	3.6	P
+R1182	3.6	P
+R1183	5.7,3.3	E
+R1184	2.3,2.4	P
+R1185	-	G	yes/no-question-card mechanic: answer must reflect best knowledge; no section covers information-exchange/question cards
+R1186	-	G	same question-mechanic gap: owner and target must agree on term meanings before answering; no owning section
+R1187	-	G	same gap: answers about unverifiable elements (deck content) may be inexact and are not judge-checkable; no owning section
+R1188	1.5	G	same gap: must indicate invoking the question ability before asking; nearest 1.5 (ability use) but that section doesn't claim question/answer procedure
+R1189	-	G	same gap: conjunctive questions allowed if answerable as a whole by yes/no; no owning section
+R1190	4.9	E
+R1191	2.3,2.4	E
+R1192	4.9	E
+R1193	4.6	E
+R1194	3.6	P
+R1195	3.6	P
+R1196	3.6	P
+R1197	3.6	P
+R1198	3.6,4.9	P
+R1199	-	C	restates this card's own printed play-restriction (controller of the acting minion only); no transfer beyond the card's text
+R1200	1.5,5.2	E
+R1201	3.5	E
+R1202	-	C	card-specific restriction on what the played [dom] card grants; fails transfer, no other card's ruling changes
+R1203	4.9,2.4	E
+R1204	4.9,5.3	E
+R1205	5.7	E
+R1206	1.6,3.7.4	P
+R1207	3.7.4,3.5	E
+R1208	1.6,1.7	P
+R1209	5.7	E
+R1210	2.1,3.4	E
+R1211	3.3,3.2	E
+R1212	3.1	E
+R1213	-	C	!WORDING unclear whose search this binds ("each Methuselah" vs. the searching player); as written it restates that all matching copies must be found, which fails non-obviousness
+R1214	5.4,4.1	E
+R1215	2.4	E
+R1216	4.9	E
+R1217	4.4	P
+R1218	4.6,4.4	E
+R1219	4.4	P
+R1220	4.2	P
+R1221	5.5	P
+R1222	4.4	P
+R1223	4.4	P
+R1224	4.5,4.4	P
+R1225	4.4	E
+R1226	4.4,4.10	E
+R1227	3.3	E
+R1228	3.3	E
+R1229	4.2	P
+R1230	4.2	P
+R1231	1.9,5.3	P
+R1232	6.3	P
+R1233	6.3	E
+R1234	-	C	restates this event's own printed lock-or-burn requirement each unlock phase; fails non-obviousness, no transfer beyond this card
+R1235	5.2,5.7	E
+R1236	-	C	lists this card's own exemptions (mortal allies, high-capacity vampires); card-specific scope, no transfer
+R1237	4.5	P
+R1238	-	C	restates this weapon's own printed close-range-only restriction; fails non-obviousness
+R1239	-	C	states this card's own Anarch-requirement status; card-specific fact, no transfer to other cards
+R1240	5.8	P
+R1241	3.3	E
+R1242	5.2,1.5	E
+R1243	3.7.4	E
+R1244	-	C	procedural mechanics specific to this card's mass equipment-redistribution effect; no evidence of a recurring template, fails transfer; nearest 3.7.3
+R1245	3.4	P
+R1246	5.3	E
+R1247	4.1	E
+R1248	3.7.3,6.4	E
+R1249	2.5,3.7.3	E
+R1250	1.2	P
+R1251	3.5	P
+R1252	3.5	P
+R1253	3.5,3.7.3	P
+R1254	3.5	P
+R1255	4.9	E
+R1256	3.5	E
+R1257	3.1,5.7	E
+R1258	3.1	P
+R1259	5.2,3.3	E
+R1260	4.2,4.1	P
+R1261	3.3	P
+R1262	2.3	E
+R1263	3.3	E
+R1264	1.8,2.3	E
+R1265	5.3,5.4	E
+R1266	1.2	G	cumulative/stacking effects gap: multiple copies but only one burn triggers; matches watch-list gap (cf. Betrayer.3). 1.2 nearest but doesn't claim stacking
+R1267	1.2	G	same stacking gap: capacity bonus stacks per copy while votes do not; 1.2 nearest but doesn't own stacking
+R1268	1.6	E
+R1269	-	C	restates the card's own Laibon clan requirement; fails non-obviousness
+R1270	-	C	timing of this card's own Orun-burn cost relative to its special enter-combat action; card-specific, fails transfer; nearest 4.9
+R1271	5.5	P
+R1272	4.8,4.9	E
+R1273	1.5	E
+R1274	-	C	narrow interaction of this card's granted Auspex block with Sniper Rifle's own strike requirement; fails transfer beyond this exact combination; nearest 4.3
+R1275	-	C	specific to this card's own repeated-Auspex-use case; nearest 4.3 (strikes) but establishes no rule beyond this card
+R1276	4.9	E
+R1277	4.6	E
+R1278	4.4	E
+R1279	5.8,5.7	G	sect as a trait: no section owns sect itself or the precedence of a temporary sect override over a permanent change; matches watch-list gap (cf. Galaric's Legacy.1). Nearest 5.8 (sect change via titles) and 5.7 (sect-derived traits)
+R1280	5.8	P
+R1281	4.4	E
+R1282	4.5,4.2	P
+R1283	4.9,4.4	E
+R1284	1.6	E
+R1285	1.7	E
+R1286	1.7	P
+R1287	3.1,1.14	E
+R1288	-	C	restates the default "must have a legal target" requirement; fails non-obviousness
+R1289	6.5,3.7.5	E
+R1290	3.7.5	E
+R1291	3.7.5	P
+R1292	5.7	E
+R1293	-	C	restates this card's own printed search restriction (no discipline already at superior on all vampires); fails transfer
+R1294	1.1	E
+R1295	1.7	P
+R1296	3.7.5	E	!TENSION:no-effect-plays a referendum can be called even with no eligible subject in play, mirroring the Draba/Blood Fury tension over playing cards for zero effect
+R1297	1.7	E
+R1298	3.6	P
+R1299	3.6	P
+R1300	3.6	P
+R1301	1.5,3.7.1	P
+R1302	1.11	P
+R1303	1.11,1.4	E
+R1304	3.7.1	E
+R1305	1.8	P

@@ -1,0 +1,145 @@
+R1886	4.8	P
+R1887	4.8	E
+R1888	2.3,2.4	P
+R1889	3.7.5	P
+R1890	3.7.5	P	older ruling (RTR 20010710) appears superseded by .1 (LSJ 20090115-2, opposite pool-burn timing) — flag for review against current card text
+R1891	5.8	C	This card's own zero-blood torpid-Prince interaction; fails transfer — no other card shares this effect chain. Nearest 5.8 (titles) since the outcome turns on Prince status, though 5.8 doesn't claim this specific effect
+R1892	5.8	E
+R1893	6.6	C	Confirms this master card carries no vampire requirement, matching the default master-phase-action rule; restates known default — fails non-obviousness
+R1894	3.7.2,3.4	E
+R1895	1.11	P
+R1896	1.11	C	Confirms this card's own removal effect is immediate, not delayed; card-specific timing, fails transfer. Nearest 1.11 (ash heap) though it doesn't own removal-effect timing
+R1897	3.7.8	E
+R1898	3.7.8	E
+R1899	3.3	E
+R1900	3.3	E
+R1901	3.3	E
+R1902	-	C	Classifies this card as a non-derivative hunting ground for {Poacher's Hunting Ground}'s counting purposes; card-pair-specific, fails transfer — nothing else in the taxonomy owns hunting-ground classification
+R1903	2.3	E
+R1904	4.4	E
+R1905	4.4,4.5	E
+R1906	4.8	E
+R1907	4.4	P
+R1908	4.4	P
+R1909	5.3	E
+R1910	4.8	E
+R1911	1.6,5.3	E
+R1912	4.9,5.3	E
+R1913	4.5	E
+R1914	4.5	P
+R1915	4.5	P
+R1916	4.4	P
+R1917	3.3	E
+R1918	3.3	E
+R1919	3.3	E
+R1920	3.2,5.2	E
+R1921	3.3	E
+R1922	3.7.4	E
+R1923	6.7,1.6	E
+R1924	1.4	E
+R1925	5.3	E
+R1926	1.1,3.7.2,3.7.8	E
+R1927	3.7.8,3.4	E
+R1928	4.5	E
+R1929	4.9	E
+R1930	-	G	No section owns library-cut mechanics (how a Methuselah may divide/cut a deck being manipulated); rare mechanic, nothing in the taxonomy claims deck-cutting procedure
+R1931	2.4,3.3	P
+R1932	3.4,3.5	E
+R1933	3.3	E
+R1934	3.3,5.2	E
+R1935	3.3,1.7	E
+R1936	3.2	E
+R1937	5.4,1.3	E
+R1938	5.7,1.6	E
+R1939	5.7	C	Clarifies uniqueness creates no exception to the infernal-torpor prerequisite already stated in .8; narrow edge case restating that rule, fails transfer beyond this ability
+R1940	3.7.3,3.2	E
+R1941	3.5	P
+R1942	3.5	P
+R1943	1.13	E
+R1944	3.7.4	E
+R1945	4.4,2.1	E
+R1946	2.4,5.2	P
+R1947	5.2	P
+R1948	5.2	E
+R1949	4.2,4.3	E
+R1950	4.8	E
+R1951	3.7.3	C	Classifies this card's provided action as an "equip action"; card-specific classification, fails transfer to a different card
+R1952	3.4	E
+R1953	1.1,6.5	E
+R1954	1.6,3.7.3	E
+R1955	1.6	C	Restates this card's own controller-match requirement between the card and its target vampire; fails non-obviousness — "you control" wording already implies this
+R1956	3.7.3	G	No section covers default visibility of library-search results (hidden from other Methuselahs by default). Nearest 3.7.3 (equip actions, this card's own action type) though it doesn't claim search visibility. Shares the gap with Vaticination.1 (replacement draws)
+R1957	1.9	G	No section states whether a replacement draw is shown only to the drawing player or to all; nearest 1.9 (replacement) though its scope doesn't claim visibility. Shares the gap with Vast Wealth.6
+R1958	1.8,3.4	E	!TENSION:no-effect-plays — here a no-effect action does NOT lock the acting vampire, unlike the general rule that any attempted action locks regardless of effect
+R1959	5.5	E
+R1960	1.8	E
+R1961	2.1	E
+R1962	3.5,1.8	E
+R1963	4.3	E
+R1964	4.3	E
+R1965	3.7.5	P
+R1966	6.2	E
+R1967	5.7,1.6	E
+R1968	2.4,3.3	E
+R1969	3.6,3.5	E
+R1970	4.4	P
+R1971	4.6,3.4	E	!TENSION:no-effect-plays — dodge remains playable even though it accomplishes nothing against this effect
+R1972	5.3	E
+R1973	1.1	E
+R1974	1.14,2.5	E
+R1975	1.5,2.1	P
+R1976	2.3	E
+R1977	6.5,2.4,1.7	P
+R1978	1.7,1.6	E
+R1979	3.1,1.7	E
+R1980	2.2	P
+R1981	1.9	E
+R1982	1.13	E
+R1983	1.9,2.4	E
+R1984	1.6	C	Confirms this vampire can play cards requiring two specific disciplines at once; trivially follows from having both disciplines, fails non-obviousness
+R1985	5.7,5.8	G	Sect-as-a-trait gap (watch-list, per taxonomy): nothing owns sect classification / eligibility for sect-keyed effects like {Anarch Manifesto, An}; 5.7 (traits) and 5.8 (titles/sect change) both touch it, neither claims it
+R1986	3.7.5,6.5	E
+R1987	3.7.5,2.3	E
+R1988	3.7.5	E
+R1989	1.8,6.6	E
+R1990	3.7.2	C	Classifies this card's provided action as a hunt action; card-specific classification, fails transfer to a different card
+R1991	1.6	E
+R1992	3.1	C	Classifies this card's action as undirected; card-specific classification, fails transfer to a different card
+R1993	3.3,1.1	P
+R1994	2.3	E
+R1995	1.7	E
+R1996	3.7.2,3.4	P
+R1997	3.7.5	E
+R1998	5.5,3.7.4	E
+R1999	5.5,1.6	E	!TENSION:abnormal-entry-requirements — this ally/retainer burn-requirement applies even through abnormal entry (eg. {Pressing Flesh}), pulling against 1.6's general rule that abnormal entry ignores requirements
+R2000	6.2,3.4	E
+R2001	3.7.4	E
+R2002	3.7.7	E
+R2003	3.7.7,3.7.8,3.4	E
+R2004	3.7.7,3.5	E
+R2005	3.7.7,3.7.5,5.2	E
+R2006	1.8,6.6	E
+R2007	6.6	E
+R2008	6.6,3.5	E
+R2009	-	C	This card's own once-per-turn-per-Tremere blood-transfer limit; fails transfer beyond this location's own text
+R2010	1.9,6.9	E
+R2011	3.1	E
+R2012	-	C	Purely administrative: flags a 2007 card-text change invalidating older rulings; not a rule at all
+R2013	4.7,4.9	E
+R2014	4.4	E
+R2015	4.9,4.4	E
+R2016	4.5,4.2	E
+R2017	3.7.4	G	No section states that non-action means of putting a vampire into play (eg. recruit-like abilities) don't count as an "action" for action-keyed effects like {Blood Cult Awareness Network}'s stealth reduction; nearest 3.7.4 (recruit action), though it only covers the action itself
+R2018	3.7.2	E
+R2019	3.7.2	E
+R2020	2.2	P
+R2021	3.1	E
+R2022	1.9	E
+R2023	4.5,4.10	E
+R2024	4.10	E
+R2025	4.8	E
+R2026	4.4	P
+R2027	3.1,1.14	E
+R2028	4.4	E
+R2029	4.7,4.9	E
+R2030	1.10	P

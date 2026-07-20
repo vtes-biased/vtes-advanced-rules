@@ -1,0 +1,145 @@
+R0726	3.6	P
+R0727	3.6	P
+R0728	4.9,3.6	P
+R0729	3.7.2,3.4	P
+R0730	1.1	E	!TENSION:no-effect-plays a card requiring an object for its effect is flatly unplayable without one; pulls against cases elsewhere where a card may be played knowing it will have no effect
+R0731	4.3	C	classifies Fractured Armament's own basic-mode ability as not a damaging strike; fails transfer — only concerns this card's own two modes; nearest 4.3 doesn't own per-card strike-type determinations
+R0732	4.3	C	mirror of .2 for the superior mode; same reasoning, card-specific strike classification, no transfer beyond this card
+R0733	1.8	E
+R0734	2.3,5.3	P
+R0735	3.4	E	!TENSION:no-effect-plays permissive side: playable even knowing it will have no effect for lack of a target
+R0736	2.3	E
+R0737	1.1	E	!TENSION:no-effect-plays prohibition side: card cannot be played if targets are insufficient to allocate all its points
+R0738	2.5	E
+R0739	6.3	P
+R0740	1.2	G	cumulative/stacking effects — nothing owns "multiple instances of an effect stack" (watch-list gap); 1.2 nearest (periodicity) but doesn't claim stacking
+R0741	5.8,5.7	G	sect-as-trait gap (taxonomy watch list cites this exact ruling): nothing owns sect itself or the precedence of a temporary sect override over a permanent one; 5.8/5.7 nearest but don't claim it
+R0742	5.8	P
+R0743	-	C	Gambit's own VP-transfer-on-withdrawal mechanic; fails transfer — no other card shares this reward structure; nearest 6.5 (pool/VP) doesn't own bespoke card VP effects
+R0744	2.3,2.4	P
+R0745	4.2	P
+R0746	4.2	P
+R0747	3.7.5,3.7.8	E
+R0748	5.7,5.5	E
+R0749	4.9	P
+R0750	5.8,1.6	P
+R0751	4.6,5.3	E
+R0752	6.7	C	confirms Gather only moves a vampire from the uncontrolled to the ready region and cannot rescue from torpor; restates its own printed scope, no transfer to other cards' region-movement rules; nearest 6.7
+R0753	6.7	P
+R0754	3.1,1.14	E
+R0755	-	C	clarifies Gemini's Mirror's own protection covers only the vampire and his blood, not other cards on him; card-specific scope of "protect"; nearest 1.12 doesn't own protection-scope wording
+R0756	3.1	P
+R0757	3.7.7,3.3	E
+R0758	-	C	applies Ghoul Retainer's own printed range restriction to its 1 damage; restates the card's text, no general principle beyond this card
+R0759	5.6	P
+R0760	5.6,4.3	P
+R0761	5.6	P
+R0762	5.5,3.7.4	E
+R0763	3.4,1.11	E
+R0764	4.10,4.3	E
+R0765	4.7,4.3	E
+R0766	3.7.4,5.2	E
+R0767	-	C	card-specific targeting restriction (excludes uncontrolled-region vampires); other cards interact with that zone differently (eg {Gather}), so no consistent general rule to extract; nearest 6.7
+R0768	3.7.3	E
+R0769	3.1,1.9,1.14	E
+R0770	3.4,3.6	E
+R0771	3.5	E
+R0772	4.2	P
+R0773	3.7.4,5.2	E
+R0774	4.5,1.1	E	!TENSION:no-effect-plays prohibition side, prevention-card flavor: cannot be used if there is no damage to prevent
+R0775	4.10,1.2	P
+R0776	4.4	P
+R0777	5.2	E
+R0778	1.7,3.8	P
+R0779	5.8,5.7	G	sect-as-trait gap, identical wording to Galaric's Legacy.1 (R0741) — second instance in this chunk
+R0780	5.8	P
+R0781	3.1	P
+R0782	-	C	confirms this card's crypt-targeting includes the controller's own crypt; reads its own printed text at face value, no established general default-target rule extracted
+R0783	1.12	P
+R0784	-	C	restricts Goth Band's own counter-moving ability to cards you don't control; card-specific targeting scope, no transfer
+R0785	-	C	confirms Govern the Unaligned carries no "reveal" clause; restates the plain reading of its own text
+R0786	5.5	E
+R0787	5.5,1.5	P
+R0788	-	C	confirms compatibility of {Left for Dead} with this vampire; pure combo confirmation, no general principle
+R0789	4.8	P
+R0790	4.2	P
+R0791	4.2	P
+R0792	1.10,1.11	P
+R0793	-	C	reads the singular in this card's own search clause as meaning one Kiasyd; generalises only to "singular means one," which fails non-obviousness — any judge knows it; no transfer beyond this card's search
+R0794	3.4	E
+R0795	-	C	confirms no implicit blood-quantity requirement on this card's own targeting; restates plain reading, no transfer
+R0796	3.1	P
+R0797	4.4	E
+R0798	4.9,4.10	E
+R0799	1.6	E
+R0800	5.7,5.8	G	sect-as-trait gap — whether a minion counts as "Anarch" for other cards' benefit checks; no section owns sect-as-trait, nearest 5.7/5.8; third instance in this chunk
+R0801	1.8	C	Groundfighting's own list of what its cancel ability reaches; fails transfer — a different cancel card's scope needs its own rulings from its own text; nearest 1.8 ("what cancellation reaches") but doesn't own this card's specific boundary list
+R0802	1.8	C	same cluster as .1 — card-specific cancel-scope boundary, no transfer to other cancel cards
+R0803	1.8	C	same cluster as .1
+R0804	1.8	C	same cluster as .1
+R0805	1.8	C	same cluster as .1
+R0806	1.8	C	same cluster as .1
+R0807	4.4	P
+R0808	3.3,3.6	P
+R0809	3.6	P
+R0810	3.3	E
+R0811	3.3	P
+R0812	3.3,5.2	P
+R0813	3.4	P
+R0814	3.2,3.3	P
+R0815	2.5,3.6	P
+R0816	3.3	E
+R0817	3.3,3.6	P
+R0818	-	C	card-specific playability condition (two ready vampires needed to gain blood); restates its own printed requirement, no transfer
+R0819	3.7.5,2.3	P
+R0820	-	C	card-specific counter-timing on Anarch Convert's own ability sequence; no general principle beyond this card
+R0821	1.7	P
+R0822	1.3,4.10	P
+R0823	3.8	P
+R0824	3.4	P
+R0825	3.3,5.2	P
+R0826	5.1	E
+R0827	3.1	P
+R0828	4.9,3.6	P
+R0829	4.9	P
+R0830	2.3	E
+R0831	4.4	P
+R0832	3.7.7,1.7	P
+R0833	4.5,1.1	E	!TENSION:no-effect-plays duplicate of the Glancing Blow/Hidden Strength prevention-card template
+R0834	4.9,5.5	P
+R0835	2.4,1.9	E
+R0836	2.1,5.2	P
+R0837	1.6	E	!TENSION:abnormal-entry-requirements this abnormal-entry effect (putting a card directly on a vampire) is blocked by a "cannot have it" prohibition, pulling against the general "abnormal entry ignores requirements" principle (1.6)
+R0838	2.3,4.4	P
+R0839	3.7.8,2.3	P
+R0840	-	C	reminder that moving blood beyond a vampire's capacity caps at the target and the excess goes to the blood bank; restates a basic capacity rule any fluent judge knows; nearest 5.1
+R0841	2.1	E
+R0842	5.2,1.6	P
+R0843	5.2,1.6	P
+R0844	4.3	P
+R0845	5.5,3.7.5	E
+R0846	6.5,2.4	P
+R0847	5.7,5.8	G	sect-as-trait gap, same cluster as R0741/R0779/R0800 — fourth instance in this chunk
+R0848	4.3,4.4	P
+R0849	4.9,3.6	P
+R0850	4.9	P
+R0851	6.1	E
+R0852	5.3,4.1	E
+R0853	4.3	E
+R0854	1.7	P
+R0855	4.5	P
+R0856	4.5,1.1	E	!TENSION:no-effect-plays third copy of the prevention-card no-damage-to-prevent prohibition template
+R0857	4.8	P
+R0858	1.5,2.1	P
+R0859	2.3	P
+R0860	3.5	E
+R0861	2.2	P
+R0862	2.3,3.5	E
+R0863	3.5	E
+R0864	5.5	P
+R0865	2.4,3.3	P
+R0866	3.7.1,5.2	P
+R0867	1.8	E
+R0868	6.9,2.3	P
+R0869	4.2	P
+R0870	-	C	confirms the plain reading of "current action card" (whichever action card is active); restates evident wording, no transfer

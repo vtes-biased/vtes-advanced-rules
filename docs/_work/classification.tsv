@@ -1,0 +1,2605 @@
+R0001	1.2,4.10	P	-
+R0002	-	C	{419 Operation} edge-burn interaction with its own counter mechanism; fails transfer — affects no other card. Nearest was 6.5, but that owns the Edge as a resource, not cards consuming it
+R0003	1.1	P	-
+R0004	3.4	P	"successful resolution" template: unblocked AND effect achieved (blood gained)
+R0005	3.7.8	E	-
+R0006	3.7.8	E	-
+R0007	3.7.5,2.3	P	referendum as part of action resolution; after-resolution play must follow it
+R0008	5.4,3.7.8	P	template recurs verbatim at Ashes to Ashes.5 (R0095): no reflex window on blood-hunt-caused burn
+R0009	1.10	E	-
+R0010	3.2,3.1	E	-
+R0011	5.3,5.7	E	-
+R0012	4.5	E	-
+R0013	1.6	P	-
+R0014	3.7.4,5.7	E	-
+R0015	1.6	P	-
+R0016	1.4	P	-
+R0017	1.10	P	-
+R0018	1.1	E	!TENSION:no-effect-plays playable against a target for which it will have zero effect (no blood to affect)
+R0019	-	C	{Abyssal Hunter} restates its own printed burn-trigger condition (ranged aggravated damage at close range); fails transfer — no other card's ruling changes. Nearest 4.4, but that owns damage mechanics generally, not this card's own vulnerability text
+R0020	5.4	E	-
+R0021	3.5,3.3	P	-
+R0022	1.15	P	-
+R0023	1.8	P	-
+R0024	-	C	{Admonitions, The} control-retention rule keyed to being the sole controller of a Sabbat vampire; fails transfer — bespoke to this card's own control-rotation mechanism. Nearest 6.3, but that owns control-taking generally, not this specific retention condition
+R0025	1.6,3.7.6	E	-
+R0026	1.6	P	-
+R0027	1.4	P	-
+R0028	5.1,2.5	E	-
+R0029	5.3	P	-
+R0030	4.8	P	-
+R0031	6.2	P	-
+R0032	1.7,3.7.5	E	-
+R0033	1.6	P	-
+R0034	4.9	P	-
+R0035	2.4	P	-
+R0036	3.6	P	-
+R0037	3.6	P	-
+R0038	3.6	P	-
+R0039	3.6,1.11	P	-
+R0040	3.4	P	-
+R0041	4.8	P	-
+R0042	1.2	P	-
+R0043	4.10,4.2	P	-
+R0044	4.2	P	-
+R0045	1.6	E	-
+R0046	3.7.2,3.4	P	-
+R0047	3.7.2	E	-
+R0048	1.15	P	-
+R0049	5.2	P	-
+R0050	5.2	P	-
+R0051	1.2,5.4	P	"reduced to zero blood" trigger is source-agnostic; pairs with R0052's "must be an actual loss" to define the "reduced to X" wording template
+R0052	1.2	P	-
+R0053	3.7.8,1.2	E	-
+R0054	2.4,4.4	E	-
+R0055	4.9	P	-
+R0056	2.4	P	-
+R0057	6.1,1.12	E	-
+R0058	1.1	P	-
+R0059	6.5	P	-
+R0060	4.7	P	-
+R0061	4.7,4.6	E	-
+R0062	4.7	P	-
+R0063	3.3,4.1	E	-
+R0064	1.7	P	-
+R0065	4.5	P	!TENSION:prevention-without-damage playable at any time in combat even with no damage yet to prevent — the permissive case
+R0066	4.5	P	-
+R0067	4.5	P	-
+R0068	2.2	P	-
+R0069	1.9,2.2	P	-
+R0070	3.1	P	-
+R0071	3.3	E	-
+R0072	3.8	P	-
+R0073	1.15	P	-
+R0074	1.7,3.3	E	-
+R0075	3.3	P	-
+R0076	1.2,2.2	P	-
+R0077	3.1	E	-
+R0078	4.5	P	-
+R0079	4.5	P	-
+R0080	5.7	E	-
+R0081	4.5	P	-
+R0082	4.5	E	!TENSION:prevention-without-damage cannot be used with no damage to prevent — the prohibition case, opposite of R0065
+R0083	4.5	P	-
+R0084	3.7.5	P	-
+R0085	6.3,1.6	P	-
+R0086	6.9,5.5	P	discard-phase effect ordering vs. ally return; taxonomy flags this exact ruling as the disputed 6.9/5.5 boundary case
+R0087	2.3	P	-
+R0088	1.11	E	-
+R0089	3.4,1.7	P	-
+R0090	4.2	P	-
+R0091	4.9,5.3	P	-
+R0092	4.9	P	-
+R0093	3.7.8,5.3	E	-
+R0094	5.5	P	-
+R0095	5.4,3.7.8	P	template recurs verbatim at Abandoning the Flesh.1 (R0008)
+R0096	-	C	{Ashur Tablets} confirms play is legal despite an empty ash heap; fails non-obviousness (no stated precondition to violate) and transfer (specific to this card's own lack of a precondition). Nearest 1.11
+R0097	3.1,1.14	E	-
+R0098	6.9	P	-
+R0099	1.7	P	-
+R0100	3.7.5,1.7	P	-
+R0101	3.7.5,1.11	E	-
+R0102	4.7,4.3	P	-
+R0103	3.1	P	-
+R0104	-	C	card effects gated on the vampire being Laibon; fails non-obviousness — a clan/type gate is expected card text, not a general rule. Nearest 1.6
+R0105	1.14,1.10	P	-
+R0106	4.8	P	-
+R0107	4.3	P	-
+R0108	4.8	P	-
+R0109	5.2,2.4	P	-
+R0110	5.3,2.1	P	-
+R0111	3.1	E	-
+R0112	-	C	age restriction is this card's own conditional clause tied to controlling a ready Lasombra; fails transfer — no broader age-comparison rule taught. Nearest 5.1
+R0113	1.2	E	-
+R0114	3.1	E	-
+R0115	6.7,5.1,2.5	P	-
+R0116	2.5,6.7,5.8	P	-
+R0117	5.2,6.7	P	-
+R0118	6.7,6.1	P	-
+R0119	-	C	restates the basic "no legal target, no play" rule; fails non-obviousness — any fluent judge knows this. Nearest 3.1
+R0120	4.10,1.7	E	-
+R0121	3.3,2.4	P	REVERSAL of earlier rulings per the ruling's own text; labeled as currently stated
+R0122	1.7,1.2	G	general arithmetic-order principle for ability values with an inherent floor/minimum (apply modifiers before the floor) — distinct from 1.7's cost-arithmetic order, which is the nearest kin
+R0123	5.3	E	-
+R0124	1.8	P	-
+R0125	1.9,1.6	P	-
+R0126	1.9	P	-
+R0127	1.10	E	-
+R0128	-	C	cannot affect equipment no longer in play; same "no legal target" rule as R0119. Nearest 3.1
+R0129	6.4	P	-
+R0130	4.4	P	-
+R0131	1.9	P	-
+R0132	-	C	confirms {Change of Target} carries no age restriction after this card; fails transfer — a fact about Change of Target's own printed text, not a rule that changes other rulings. Nearest 3.5
+R0133	3.5,3.6	P	-
+R0134	4.5,3.6	P	-
+R0135	3.6	P	-
+R0136	2.2	P	-
+R0137	1.9,2.2	P	-
+R0138	5.1,6.7	E	-
+R0139	4.4	P	-
+R0140	4.4,5.6	E	-
+R0141	3.1	P	-
+R0142	-	C	describes this card's own guess-the-vampire mechanic; fails transfer — no other card shares this guessing mechanism. Nearest 1.2 (only the "each of their turns" periodicity is generic)
+R0143	1.15	E	-
+R0144	1.12,1.13,6.2	P	-
+R0145	3.1	E	-
+R0146	1.1	P	-
+R0147	1.4	E	-
+R0148	1.4	E	-
+R0149	1.7,6.5	E	-
+R0150	3.5	E	-
+R0151	3.5	E	-
+R0152	6.5	C	negates the base "predator draws on oust" consequence; this is Bitter and Sweet Story's own printed override — fails transfer, no other card is affected. Nearest 6.5, which owns oust consequences generally, not this card's specific exception.
+R0153	3.5	E	-
+R0154	4.4	E	-
+R0155	3.3	E	-
+R0156	3.3	E	-
+R0157	3.3,3.1	E	-
+R0158	3.3	E	-
+R0159	6.4,1.10	E	-
+R0160	6.4,6.5	E	-
+R0161	5.3,1.15	G	torpor-rescue burning all such clot counters remains homeless (nearest 5.3); the stacking half (multiple clot counters cumulative on one vampire) is now owned by 1.15, replacing the old 1.2 near-miss.
+R0162	5.3,5.5	C	the stay-or-burn choice is Blade Clot's own counter mechanic — fails transfer; "allies cannot go to torpor" restates a rule any fluent judge already knows — fails non-obviousness. Nearest 5.3 (torpor) and 5.5 (allies).
+R0163	1.6	E	-
+R0164	2.1	E	-
+R0165	3.5,1.15	E	-
+R0166	4.4	P	-
+R0167	4.3	E	-
+R0168	5.4,6.1	E	-
+R0169	3.3,2.5	E	-
+R0170	1.1	E	!TENSION:no-effect-plays a prohibition bars play when there is no equipment to steal — prohibition side of the question (contrast Draba.3's permissive side)
+R0171	3.1,1.9	E	-
+R0172	4.4	P	-
+R0173	5.3	E	-
+R0174	2.1,4.1	E	-
+R0175	4.4	E	-
+R0176	4.5,4.7,5.3	E	-
+R0177	4.6,4.9	E	-
+R0178	5.5	C	restates this card's own printed target restriction (cannot be played against an ally) — fails transfer, no other card is affected by this reading.
+R0179	4.1,4.9	E	-
+R0180	4.9	E	-
+R0181	4.9,5.3	E	-
+R0182	2.4	E	-
+R0183	4.4	P	-
+R0184	4.9,1.7	E	-
+R0185	4.3	P	-
+R0186	5.3,3.7.8	E	-
+R0187	3.5	E	-
+R0188	5.4	E	-
+R0189	5.3	E	-
+R0190	4.4	P	-
+R0191	4.5	E	-
+R0192	4.6	E	-
+R0193	4.3	E	-
+R0194	4.3	E	-
+R0195	1.1	E	!TENSION:no-effect-plays a prohibition bars playing even for zero effect — the inverse of the Draba case
+R0196	4.4	E	-
+R0197	4.4	E	-
+R0198	4.4,5.3	E	-
+R0199	4.5,2.4,4.4	E	-
+R0200	4.5	E	-
+R0201	4.2,4.3	E	-
+R0202	4.4	P	-
+R0203	4.6	E	-
+R0204	4.5	E	-
+R0205	1.1	E	!TENSION:no-effect-plays a prohibition bars playing even for zero effect — the inverse of the Draba case (identical wording to Blood Fury.6)
+R0206	2.4,4.5	E	-
+R0207	4.5	E	-
+R0208	4.4	P	-
+R0209	4.2,4.3	E	-
+R0210	1.1	C	non-interaction between two named cards (Blood Trade / Consanguineous Boon); no principle transfers beyond the pair — fails transfer. Nearest 1.1, and only loosely.
+R0211	5.5	E	-
+R0212	5.5	C	Anarch-faction-specific hand-off mechanic unique to Blood Turnip — fails transfer to other transfer-effect cards.
+R0213	1.9	E	-
+R0214	5.8	E	-
+R0215	4.8	P	-
+R0216	4.5	P	-
+R0217	1.6	C	restates this card's own printed target requirement (superior Valeren) — fails transfer to other cards' discipline-level requirements.
+R0218	3.7.3	E	-
+R0219	3.5	E	-
+R0220	4.3	P	-
+R0221	1.3	E	-
+R0222	4.4	E	-
+R0223	4.4	P	-
+R0224	1.1	E	!TENSION:no-effect-plays a prohibition bars playing even for zero effect — the inverse of the Draba case (identical wording to Blood Fury.6)
+R0225	4.5,4.2	E	-
+R0226	1.1	E	-
+R0227	4.4	E	-
+R0228	3.4	E	!TENSION:no-effect-plays permissive side: the action proceeds and can even succeed while having no effect, mirroring Draba.3
+R0229	4.7,1.10	E	-
+R0230	4.8	P	-
+R0231	5.2,4.9	E	-
+R0232	5.2,4.9	E	-
+R0233	1.1	E	!TENSION:no-effect-plays prohibition bars play when the effect (stealth) would not be needed — prohibition side of the question
+R0234	3.2	E	-
+R0235	4.3	P	-
+R0236	4.6,4.5	E	-
+R0237	6.3,1.6	P	-
+R0238	5.7	C	scope limit of a control-taking effect against Imbued incapacitation, a narrow interaction specific to Imbued mechanics — fails transfer beyond it. Nearest 5.7.
+R0239	4.4	E	-
+R0240	1.8	E	-
+R0241	-	C	pure two-card interaction (Botched Move / Dark Influences); no general principle and nothing in the taxonomy comes close — fails transfer.
+R0242	2.5,6.2	E	-
+R0243	5.1	C	position-based crypt targeting plus secret counter-tracking, unique to Brainwash's own mechanic — fails transfer to other cards' targeting. Nearest 5.1.
+R0244	4.4	E	-
+R0245	4.2	P	-
+R0246	5.4	E	-
+R0247	3.7.4	E	-
+R0248	4.5	E	-
+R0249	5.2	E	-
+R0250	5.2	E	-
+R0251	1.1	E	!TENSION:no-effect-plays prohibition side: cannot be played absent a suitable minion to act on
+R0252	3.5	E	-
+R0253	3.3	E	-
+R0254	1.1,5.2	E	!TENSION:no-effect-plays prohibition side: cannot be played absent a ready, unlocked minion; also touches 5.2's lock-state requirement
+R0255	1.6	C	restates this card's own printed target restriction (ready acting Brujah) — fails transfer.
+R0256	5.7	C	complex Orun/Laibon lock-and-bleed interaction unique to this card — fails transfer.
+R0257	4.4	P	-
+R0258	1.1	E	-
+R0259	4.3	E	-
+R0260	4.3	E	-
+R0261	4.3	E	-
+R0262	4.4	E	-
+R0263	4.4,4.2	E	-
+R0264	3.7.5	E	-
+R0265	3.7.5	E	-
+R0266	5.7	E	-
+R0267	1.6	C	this card's own action requires the Baali clan/discipline to take — a printed gate specific to this card, not a general requirements principle.
+R0268	5.7	E	-
+R0269	1.1	E	!TENSION:no-effect-plays permissive side: playable against a target with none of the relevant resource, mirroring Draba.3
+R0270	4.5	E	-
+R0271	6.9,5.7,1.9	E	-
+R0272	4.4	E	-
+R0273	1.15	P	-
+R0274	1.7,3.3	E	-
+R0275	1.15	E	-
+R0276	5.7	E	-
+R0277	2.5,5.6	E	-
+R0278	3.4	E	!TENSION:no-effect-plays permissive side, identical wording to Bomb.3: action proceeds and can succeed while having no effect
+R0279	6.5,1.7	C	this card's own mass pool-burn rate (per equipment/location/retainer) restates its printed effect — fails transfer to other cards' cost structures.
+R0280	1.1	E	!TENSION:no-effect-plays prohibition side: cannot be played absent equipment to destroy
+R0281	2.3	P	-
+R0282	2.2	E	-
+R0283	2.3,3.5	E	-
+R0284	3.5	E	-
+R0285	3.7.4,3.7.8	E	-
+R0286	1.2	P	-
+R0287	4.4	E	-
+R0288	4.4,4.9	E	-
+R0289	4.9,4.4	E	-
+R0290	4.6	E	-
+R0291	4.3,4.4	E	-
+R0292	4.9,2.3	E	-
+R0293	5.3,4.9	E	-
+R0294	4.4	P	-
+R0295	2.3,5.2	E	-
+R0296	1.7	E	-
+R0297	1.7,3.7.7	E	-
+R0298	1.13	E	-
+R0299	6.2,5.4	E	-
+R0300	6.2	C	Chain of Command's own crypt-return condition when its temporary vampires can't bleed; fails transfer — no other card shares this specific requirement-then-return mechanic. Nearest 6.2 (temporary control) but that section doesn't own this return condition.
+R0301	3.4	P	-
+R0302	5.1,6.4	P	-
+R0303	5.1	C	Card-specific clarification of what Chameleon may target (own vampires, to grant Anarch sect); fails transfer — answers only this card's own targeting legality. Nearest 5.1 (vampire trait changes), which doesn't own targeting scope.
+R0304	4.8	P	-
+R0305	3.6	P	-
+R0306	3.6	P	-
+R0307	3.6	P	-
+R0308	3.6,1.11	P	-
+R0309	3.6,4.9	P	-
+R0310	1.5,5.2	P	-
+R0311	4.1,2.5	E	-
+R0312	3.5	E	-
+R0313	3.5	E	-
+R0314	2.3,3.5	E	-
+R0315	3.5	P	-
+R0316	3.5	P	-
+R0317	3.5	P	-
+R0318	3.5,3.7.3	P	-
+R0319	3.5	P	-
+R0320	3.3	E	-
+R0321	3.3	E	-
+R0322	3.5,2.3	P	-
+R0323	3.9	P	-
+R0324	3.7.7,3.7.8	E	-
+R0325	1.1	P	-
+R0326	3.1	E	-
+R0327	4.4	P	-
+R0328	3.4	P	-
+R0329	4.2	P	-
+R0330	4.4	P	-
+R0331	1.9,2.4,5.4	P	-
+R0332	3.1,1.14,1.9	E	-
+R0333	3.7.5	P	-
+R0334	3.7.5	E	-
+R0335	1.14	E	-
+R0336	1.14,3.1,3.5	E	!DROPPED:1.8 the "stays in hand if canceled/failed" clause also touches 1.8's cancellation scope.
+R0337	1.8,3.4,3.7.6	P	-
+R0338	1.8	E	-
+R0339	3.5	C	Charming Lobby's own consequence of {Delaying Tactics} (card returns to hand, others barred from the action); fails transfer — the "others forbidden" clause is this card's printed text, not a general rule. Nearest 3.5 (canceled/failed action consequences).
+R0340	1.6,1.7	P	-
+R0341	1.7	P	-
+R0342	3.7.8,3.7.5	P	-
+R0343	5.5,3.7.5	E	-
+R0344	1.3,3.8	E	-
+R0345	5.3	C	Charnas' own trigger condition (does nothing to an empty vampire that unlocks-in-torpor); fails transfer — specific to Charnas' blood-emptiness check. Nearest 5.3 (torpor state).
+R0346	4.5,1.1	P	-
+R0347	1.10,6.5	P	-
+R0348	3.7.3	P	-
+R0349	4.3,4.5	P	-
+R0350	1.12	C	Card-specific note on which counter types Church of the Order of St. Blaise may place on locations; fails transfer — no general principle about counters, just this card's compatibility. Nearest 1.12 (cards on cards / counters on hosts).
+R0351	3.5,2.3	P	-
+R0352	5.7	E	-
+R0353	5.9	P	-
+R0354	5.1	P	-
+R0355	5.8,5.1	P	-
+R0356	5.9,5.1	P	-
+R0357	3.3	E	-
+R0358	3.5,3.8	P	-
+R0359	4.3,4.5	P	-
+R0360	4.4	P	-
+R0361	2.5	P	-
+R0362	1.14,2.4,4.10	P	!DROPPED:5.4 "does not burn if temporarily out of play" also touches 5.4 (burning minions).
+R0363	3.1,1.14	E	-
+R0364	3.2	E	-
+R0365	5.2	E	-
+R0366	3.2,1.15	E	-
+R0367	5.8	P	-
+R0368	5.5,1.7	P	-
+R0369	4.2	P	-
+R0370	4.8	P	-
+R0371	4.8	P	-
+R0372	4.6	P	-
+R0373	4.2	C	Restates that this strike-type effect only functions at close range, per the cited rulebook resolve-strike rule; fails non-obviousness — a judge fluent in the rulebook already knows this. Nearest 4.2 (range).
+R0374	5.3,4.5	E	-
+R0375	3.7.1	E	-
+R0376	1.11	P	-
+R0377	6.4,3.5	P	-
+R0378	1.6,1.7	P	-
+R0379	1.4,1.11	E	-
+R0380	4.4	P	-
+R0381	4.3	E	-
+R0382	3.1	P	-
+R0383	1.14,3.1	E	-
+R0384	4.10	P	-
+R0385	4.10,4.4	P	-
+R0386	1.7	P	-
+R0387	1.7	P	-
+R0388	2.2	E	-
+R0389	2.5,5.7	P	-
+R0390	3.1	E	-
+R0391	3.7.6	P	-
+R0392	3.7.1	E	-
+R0393	4.4	P	-
+R0394	4.6,4.7,4.4	P	-
+R0395	5.4	P	-
+R0396	3.7.5	C	Card-specific numeric-allocation constraint of Conservative Agitation's point distribution; fails transfer — no other card shares this exact allocation clause. Nearest 3.7.5 (referendum procedure).
+R0397	6.5	C	Restates that you may allocate more points than a target has pool, mirroring the well-known bleed-for-more-than-pool rule; fails non-obviousness. Nearest 6.5 (pool).
+R0398	1.6	C	Confirms Consignment to Duat may target a vampire with no blood; fails non-obviousness — targeting "a vampire" never implicitly requires blood > 0 absent card text saying so. Nearest 1.6 (requirements).
+R0399	3.7.8,5.4	P	-
+R0400	6.9,1.9	P	-
+R0401	1.6	C	Card-specific clan requirement (must not control a ready Nagaraja) gating Consume the Dead's burn option; fails transfer — specific to this card's own printed condition. Nearest 1.6 (requirements).
+R0402	4.3,4.6	P	-
+R0403	4.8,4.1	E	-
+R0404	1.5	P	-
+R0405	1.9,3.7.4	P	-
+R0406	3.3	E	-
+R0407	3.1	C	Reminder that Coterie Tactics does not override the normal prey/predator/target restrictions; fails non-obviousness — restrictions apply by default absent an overriding card text. Nearest 3.1 (targets).
+R0408	3.3,3.4	P	-
+R0409	5.3	C	Card-specific requirement gating Council of Seraphim's burn option (all Seraph in torpor); fails transfer — specific to this card's own group of vampires. Nearest 5.3 (torpor state).
+R0410	5.2,1.5	E	-
+R0411	1.15	E	-
+R0412	1.2	P	-
+R0413	5.2,4.5	P	-
+R0414	6.3,1.1	P	-
+R0415	4.4	P	-
+R0416	1.6	C	Restates that an "or" clan requirement (Tremere or Tremere antitribu) is satisfied by either; fails non-obviousness — reading "or" in a requirement clause is the ordinary meaning. Nearest 1.6 (requirements).
+R0417	6.7	P	-
+R0418	3.4	P	-
+R0419	5.8	P	-
+R0420	6.5	C	Card-specific restriction (unusable if the action that triggered it also ousted you); fails transfer — tied to this card's own printed condition. Nearest 6.5 (ousting).
+R0421	3.5	P	-
+R0422	1.6,3.7.3	P	-
+R0423	2.5,5.7	P	-
+R0424	3.9	P	-
+R0425	5.7,5.2	E	-
+R0426	3.5,5.2	E	-
+R0427	3.5	E	-
+R0428	3.6	P	-
+R0429	3.6	P	-
+R0430	3.6,1.11	P	-
+R0431	3.7.8,5.4	P	-
+R0432	3.7.5	P	-
+R0433	3.7.5	E	-
+R0434	6.5	P	-
+R0435	3.5	E	-
+R0436	1.8	E	-
+R0437	3.1	E	-
+R0438	1.6,3.7.3	E	-
+R0439	4.4	E	-
+R0440	4.4	E	-
+R0441	4.4	E	-
+R0442	4.4	P	-
+R0443	4.4	E	-
+R0444	4.4	E	-
+R0445	4.4,4.9	E	-
+R0446	-	C	mechanics of Dam the Heart's River's own cost trigger (blood payment for a maneuver-strike chosen when range is set); fails transfer — no other card conditions a cost this way. Nearest 1.7, which owns cost timing generally but not this card's own trigger.
+R0447	2.3,2.4	P	-
+R0448	3.5,4.4	E	-
+R0449	3.5,3.4	P	-
+R0450	3.5	E	-
+R0451	4.6,4.7	P	-
+R0452	4.3,4.7	E	-
+R0453	2.4	E	-
+R0454	2.5,1.11	E	-
+R0455	4.4	E	-
+R0456	4.4	E	-
+R0457	4.4	E	-
+R0458	1.1	E	!TENSION:no-effect-plays a prohibition bars playing prevention cards even for zero net effect (cycling) — same slug as Blood Fury.6/Draba.3 in calibration.md.
+R0459	1.8,4.3	E	-
+R0460	1.8,4.9	E	-
+R0461	4.4	E	-
+R0462	5.3,2.4	P	-
+R0463	1.8,5.2	E	-
+R0464	-	C	restates Deep Cover Agent's own burn-option condition ("all your Seraphs in torpor" = "no ready Seraph"); fails transfer — no other card in this corpus shares this exact condition. Nearest 5.7 (Seraph as special class), which doesn't own ability-activation conditions.
+R0465	1.1	E	!TENSION:no-effect-plays clarifies the burn-option condition is exactly as printed (no ready Seraph), independent of whether a valid target exists — an ability-activation instance of the no-effect-plays question, same polarity as Draba.3 (permitted despite no effect).
+R0466	2.4,3.5	P	-
+R0467	3.10,5.9	P	-
+R0468	1.2,4.3	E	-
+R0469	1.6	E	-
+R0470	3.7.1	P	-
+R0471	3.3	E	-
+R0472	3.7.1,2.1	P	-
+R0473	3.3,3.2	E	-
+R0474	3.7.5,3.7.6	P	-
+R0475	3.8	E	-
+R0476	3.7.5	E	-
+R0477	1.14,3.7.5	E	-
+R0478	1.11,3.7.5	E	-
+R0479	3.7.5	E	-
+R0480	3.7.5,3.8	E	-
+R0481	-	C	restates Derange's own targeting restriction (cannot move it to a vampire already of the target clan); fails non-obviousness — follows directly from the card's printed clan-change effect. No section owns single-card targeting restrictions like this; nearest 1.6.
+R0482	2.5	P	-
+R0483	5.9	P	-
+R0484	5.8	P	-
+R0485	2.5	P	-
+R0486	1.6	E	-
+R0487	5.9	P	-
+R0488	6.2,6.4	P	-
+R0489	4.4,6.4	E	-
+R0490	5.5,6.4	E	-
+R0491	6.4,5.2	E	-
+R0492	6.4,1.13,5.8	P	-
+R0493	6.4	E	-
+R0494	1.13,6.4	E	-
+R0495	3.5,2.3	P	-
+R0496	3.5	P	-
+R0497	3.1,5.6	E	-
+R0498	1.6	E	-
+R0499	4.8	P	-
+R0500	3.7.5	P	-
+R0501	-	C	Diabolic Lure's own pact-counter/pool-burn mechanic; fails transfer — the "counters reach capacity" condition is unique to this card's pact system. Nearest 1.7 (costs), which doesn't own pact-specific triggers.
+R0502	1.8,1.9	P	-
+R0503	1.8,1.7,6.2	E	-
+R0504	1.8,1.7	E	-
+R0505	-	C	restates that Diamond Thunderbolt (a cancel effect) does not also extend a temporary control effect's duration; fails non-obviousness — a cancel card is not an extension effect, so this follows directly from what the card does. Nearest 6.2, which doesn't own this specific non-interaction.
+R0506	6.5	P	-
+R0507	3.4,2.3	P	-
+R0508	4.8,4.9	P	-
+R0509	4.4	E	-
+R0510	4.9,2.4	P	-
+R0511	5.2,3.7.6	P	-
+R0512	3.7.6,5.2	P	-
+R0513	1.5,5.2	P	-
+R0514	1.14,3.1	P	-
+R0515	1.13,4.10	E	-
+R0516	6.3	P	-
+R0517	6.3,1.3	E	-
+R0518	6.3,1.3	E	-
+R0519	4.8	P	-
+R0520	3.7.5	E	-
+R0521	-	C	restates the bracket-notation convention that a capitalized discipline symbol requires superior level; fails non-obviousness — any judge fluent with discipline-level notation already knows this. Nearest 1.6.
+R0522	3.4,3.1	E	-
+R0523	3.7.1	E	-
+R0524	4.7	E	-
+R0525	3.7.5,5.2	E	-
+R0526	4.4	E	-
+R0527	2.3,2.4	P	-
+R0528	6.3,1.3	E	-
+R0529	1.5,5.2	P	-
+R0530	3.4,3.1	E	-
+R0531	3.2,1.2	E	-
+R0532	3.2	E	-
+R0533	3.2	E	!TENSION:no-effect-plays playable although it will do nothing; the prohibition cases (eg. Dead Hand.2, this chunk) point the other way.
+R0534	3.3,3.2	P	-
+R0535	3.7.4	E	-
+R0536	4.10,4.7	E	-
+R0537	3.4,3.1	E	-
+R0538	5.4	P	-
+R0539	5.4	P	-
+R0540	3.7.8	E	-
+R0541	4.4,4.8	E	-
+R0542	5.7,6.7	E	-
+R0543	1.8	E	!WORDING the ruling's phrasing is garbled ("cannot be used when a card is played to draw a card that would cancel it as it is played") — labeled as written; flagging for a check against the original ruling.
+R0544	6.9,1.9	P	-
+R0545	6.9,2.4	P	-
+R0546	2.4,5.2	E	-
+R0547	4.10,1.5	E	-
+R0548	5.1	P	-
+R0549	5.1,3.4	E	-
+R0550	5.1	E	-
+R0551	5.1,2.4	E	-
+R0552	5.1,5.4	E	-
+R0553	5.1	E	-
+R0554	5.1,2.4	E	-
+R0555	5.1,2.5	P	-
+R0556	4.8,1.2	P	-
+R0557	4.4	E	-
+R0558	4.3,1.2,4.6	E	-
+R0559	4.6	P	-
+R0560	3.3	P	-
+R0561	3.3,3.6	P	-
+R0562	5.2,4.9	E	-
+R0563	4.2,5.6,5.7	E	-
+R0564	4.6	P	-
+R0565	1.7,3.1,5.2	P	-
+R0566	3.7.4	E	-
+R0567	6.1	E	-
+R0568	5.2	E	-
+R0569	3.8	E	-
+R0570	1.11,3.7.5	E	-
+R0571	1.11,3.5	E	-
+R0572	1.6,1.8,3.7.6	P	-
+R0573	-	C	specific incompatibility between Echo of Harmonies' retained political action and Charming Lobby; fails transfer — no other card pairing is affected by this restriction. Nearest 3.7.5, which owns referendum procedure generally but not this specific card interaction.
+R0574	2.3,2.4	P	-
+R0575	3.1,3.4	P	-
+R0576	3.1,3.7.1	E	-
+R0577	1.13	E	-
+R0578	-	C	specific numeric interaction between Eldest Command Undeath and Voter Captivation (counter split 2/0); fails transfer — the split amounts are this card pairing's own text. Nearest 3.7.5 (referendum) / 6.5 (pool), neither of which owns this specific interaction.
+R0579	4.5	E	-
+R0580	4.9,4.7	E	-
+R0581	3.3	E	-
+R0582	3.3	E	-
+R0583	4.9	P	-
+R0584	-	C	card's own ability requires being in play/ready; obvious a burned/ash-heaped card can't act — fails non-obviousness. Nearest 1.5, adds nothing new.
+R0585	1.6,1.7	E	-
+R0586	5.3	E	-
+R0587	2.1,6.1	E	-
+R0588	1.1	P	-
+R0589	3.5,1.7	E	-
+R0590	-	C	'X or X antitribu' clan requirement; 'or' meaning either is plain-English obvious — fails non-obviousness. Nearest 1.6.
+R0591	6.7	E	-
+R0592	1.7	E	-
+R0593	3.5,1.7	E	-
+R0594	4.9,2.5	P	-
+R0595	2.3	P	-
+R0596	3.5	P	-
+R0597	-	C	restates the card's own printed target (prey); no general targeting principle beyond this card's text — fails transfer. Nearest 3.1.
+R0598	3.4,3.5,6.5	E	-
+R0599	4.2	E	-
+R0600	5.3	E	-
+R0601	1.8	E	-
+R0602	1.8,1.11	E	-
+R0603	-	C	confirms the chosen card is visible to all; ash heaps are already fully public zones, so this is obvious — fails non-obviousness. Nearest 1.11.
+R0604	1.14	E	-
+R0605	4.4	P	-
+R0606	4.3	E	-
+R0607	1.2,4.3	E	-
+R0608	4.7,4.3	E	-
+R0609	5.4,4.3	E	-
+R0610	-	C	cannot burn a vampire no longer in play; obvious you cannot affect what isn't there — fails non-obviousness. Nearest 1.10.
+R0611	2.5,1.10	E	-
+R0612	3.1	E	-
+R0613	2.5,1.12	E	-
+R0614	3.3	E	-
+R0615	3.3	E	-
+R0616	3.3,3.4	E	-
+R0617	2.4,6.5	P	-
+R0618	1.7,6.5	E	-
+R0619	5.3	E	-
+R0620	6.6,1.7	P	-
+R0621	1.2	E	-
+R0622	4.5,4.4	E	-
+R0623	1.6,5.2	E	-
+R0624	1.5	E	-
+R0625	6.5	C	auction/bid resolution mechanics specific to Extremis Boon's own card text; taxonomy explicitly names this ruling as a rejected single-card topic mislabelled G -- fails transfer.
+R0626	6.5	C	minimum-bid requirement specific to Extremis Boon's own card text; same explicit rejection as Extremis Boon.1 -- fails transfer.
+R0627	3.3,1.1	P	-
+R0628	2.3	P	-
+R0629	1.2,2.5	E	-
+R0630	3.6,1.2	E	-
+R0631	3.3	E	-
+R0632	3.3	E	-
+R0633	3.3,5.2	E	-
+R0634	2.3	P	-
+R0635	3.5	P	-
+R0636	1.7	P	-
+R0637	3.3	E	-
+R0638	3.6	E	-
+R0639	5.9	P	-
+R0640	5.9	P	-
+R0641	5.8	P	-
+R0642	5.9	P	-
+R0643	5.9	P	-
+R0644	5.9	P	-
+R0645	5.8	P	-
+R0646	5.9	P	-
+R0647	-	C	blocks a stealth-then-cancel combo unique to this card's own ability chaining into itself — fails transfer, affects no other card. Nearest 3.2.
+R0648	2.4	P	-
+R0649	3.2	E	-
+R0650	5.2	E	-
+R0651	6.3,1.6	P	-
+R0652	-	C	obviously cannot steal a weapon that doesn't exist; restates a precondition already implied by the card's own text — fails non-obviousness. Nearest 4.10.
+R0653	4.9,3.6	P	-
+R0654	4.9	P	-
+R0655	4.3,1.2	E	-
+R0656	2.3,2.4	P	-
+R0657	5.2	E	-
+R0658	4.6,3.4	E	-
+R0659	5.5,5.4	E	-
+R0660	5.5,3.10	E	-
+R0661	5.5,5.4	E	-
+R0662	3.7.3,5.3	E	-
+R0663	4.2	E	-
+R0664	6.9,2.4	E	-
+R0665	3.7.6,6.5	E	-
+R0666	3.7.2	P	-
+R0667	3.7.2,3.4	P	-
+R0668	5.9	P	-
+R0669	5.8	P	-
+R0670	-	C	restates that the acting vampire must have the discipline the card's own text requires to choose from — fails non-obviousness. Nearest 1.6.
+R0671	1.2	P	-
+R0672	2.3	P	-
+R0673	3.5	P	-
+R0674	3.1	P	-
+R0675	2.4	E	-
+R0676	1.2	E	-
+R0677	1.15	E	-
+R0678	5.3,2.4	E	-
+R0679	1.2	E	-
+R0680	3.7.3,1.6	E	-
+R0681	3.7.3	E	-
+R0682	4.6,5.2	E	-
+R0683	4.9,5.2	E	-
+R0684	5.2	E	-
+R0685	4.7,4.3	E	-
+R0686	3.4	E	-
+R0687	4.5,4.4	E	-
+R0688	4.5	E	-
+R0689	3.2	E	-
+R0690	4.6,4.5	P	-
+R0691	3.6	P	-
+R0692	3.6	P	-
+R0693	3.6	P	-
+R0694	3.6,1.11	P	-
+R0695	3.6,4.9	P	-
+R0696	1.7	P	-
+R0697	3.3	E	-
+R0698	4.9,3.6	P	-
+R0699	4.9	P	-
+R0700	-	C	ordering between Follow the Blood and Perfectionist named by card — fails transfer, depends on this exact pairing rather than a reusable rule. Nearest 2.4.
+R0701	2.3,2.4	P	-
+R0702	2.2	P	-
+R0703	1.9,2.2	E	-
+R0704	3.5,3.4	P	-
+R0705	3.5	E	-
+R0706	1.6,5.2,3.10	E	-
+R0707	2.3,2.4	P	-
+R0708	3.3,1.1	P	-
+R0709	1.7,3.4	E	-
+R0710	2.3	P	-
+R0711	3.6,1.7	E	-
+R0712	3.6	E	-
+R0713	2.3,2.4	P	-
+R0714	3.4	E	!TENSION:no-effect-plays permission side: usable/unlocks despite the action having no effect from a missing suitable target (cf. Draba.3).
+R0715	4.5	P	-
+R0716	3.6	P	-
+R0717	3.6	P	-
+R0718	3.6	P	-
+R0719	3.6,1.11	P	-
+R0720	3.7.1	E	-
+R0721	3.7.1	E	-
+R0722	1.5	P	-
+R0723	4.4	P	-
+R0724	3.6	P	-
+R0725	3.6	P	-
+R0726	3.6	P	-
+R0727	3.6	P	-
+R0728	4.9,3.6	P	-
+R0729	3.7.2,3.4	P	-
+R0730	1.1	E	!TENSION:no-effect-plays a card requiring an object for its effect is flatly unplayable without one; pulls against cases elsewhere where a card may be played knowing it will have no effect
+R0731	4.3	C	classifies Fractured Armament's own basic-mode ability as not a damaging strike; fails transfer — only concerns this card's own two modes; nearest 4.3 doesn't own per-card strike-type determinations
+R0732	4.3	C	mirror of .2 for the superior mode; same reasoning, card-specific strike classification, no transfer beyond this card
+R0733	1.8	E	-
+R0734	2.3,5.3	P	-
+R0735	3.4	E	!TENSION:no-effect-plays permissive side: playable even knowing it will have no effect for lack of a target
+R0736	2.3	E	-
+R0737	1.1	E	!TENSION:no-effect-plays prohibition side: card cannot be played if targets are insufficient to allocate all its points
+R0738	2.5	E	-
+R0739	6.3	P	-
+R0740	1.15	P	-
+R0741	5.9	P	-
+R0742	5.8	P	-
+R0743	-	C	Gambit's own VP-transfer-on-withdrawal mechanic; fails transfer — no other card shares this reward structure; nearest 6.5 (pool/VP) doesn't own bespoke card VP effects
+R0744	2.3,2.4	P	-
+R0745	4.2	P	-
+R0746	4.2	P	-
+R0747	3.7.5,3.7.8	E	-
+R0748	5.7,5.5	E	-
+R0749	4.9	P	-
+R0750	5.8,1.6	P	-
+R0751	4.6,5.3	E	-
+R0752	6.7	C	confirms Gather only moves a vampire from the uncontrolled to the ready region and cannot rescue from torpor; restates its own printed scope, no transfer to other cards' region-movement rules; nearest 6.7
+R0753	6.7	P	-
+R0754	3.1,1.14	E	-
+R0755	-	C	clarifies Gemini's Mirror's own protection covers only the vampire and his blood, not other cards on him; card-specific scope of "protect"; nearest 1.12 doesn't own protection-scope wording
+R0756	3.1	P	-
+R0757	3.7.7,3.3	E	-
+R0758	-	C	applies Ghoul Retainer's own printed range restriction to its 1 damage; restates the card's text, no general principle beyond this card
+R0759	5.6	P	-
+R0760	5.6,4.3	P	-
+R0761	5.6	P	-
+R0762	5.5,3.7.4	E	-
+R0763	3.4,1.11	E	-
+R0764	4.10,4.3	E	-
+R0765	4.7,4.3	E	-
+R0766	3.7.4,5.2	E	-
+R0767	-	C	card-specific targeting restriction (excludes uncontrolled-region vampires); other cards interact with that zone differently (eg {Gather}), so no consistent general rule to extract; nearest 6.7
+R0768	3.7.3	E	-
+R0769	3.1,1.9,1.14	E	-
+R0770	3.4,3.6	E	-
+R0771	3.5	E	-
+R0772	4.2	P	-
+R0773	3.7.4,5.2	E	-
+R0774	4.5,1.1	E	!TENSION:no-effect-plays prohibition side, prevention-card flavor: cannot be used if there is no damage to prevent
+R0775	4.10,1.2	P	-
+R0776	4.4	P	-
+R0777	5.2	E	-
+R0778	1.7,3.8	P	-
+R0779	5.9	P	-
+R0780	5.8	P	-
+R0781	3.1	P	-
+R0782	-	C	confirms this card's crypt-targeting includes the controller's own crypt; reads its own printed text at face value, no established general default-target rule extracted
+R0783	1.12	P	-
+R0784	-	C	restricts Goth Band's own counter-moving ability to cards you don't control; card-specific targeting scope, no transfer
+R0785	-	C	confirms Govern the Unaligned carries no "reveal" clause; restates the plain reading of its own text
+R0786	5.5	E	-
+R0787	5.5,1.5	P	-
+R0788	-	C	confirms compatibility of {Left for Dead} with this vampire; pure combo confirmation, no general principle
+R0789	4.8	P	-
+R0790	4.2	P	-
+R0791	4.2	P	-
+R0792	1.10,1.11	P	-
+R0793	-	C	reads the singular in this card's own search clause as meaning one Kiasyd; generalises only to "singular means one," which fails non-obviousness — any judge knows it; no transfer beyond this card's search
+R0794	3.4	E	-
+R0795	-	C	confirms no implicit blood-quantity requirement on this card's own targeting; restates plain reading, no transfer
+R0796	3.1	P	-
+R0797	4.4	E	-
+R0798	4.9,4.10	E	-
+R0799	1.6	E	-
+R0800	5.9	E	-
+R0801	1.8	C	Groundfighting's own list of what its cancel ability reaches; fails transfer — a different cancel card's scope needs its own rulings from its own text; nearest 1.8 ("what cancellation reaches") but doesn't own this card's specific boundary list
+R0802	1.8	C	same cluster as .1 — card-specific cancel-scope boundary, no transfer to other cancel cards
+R0803	1.8	C	same cluster as .1
+R0804	1.8	C	same cluster as .1
+R0805	1.8	C	same cluster as .1
+R0806	1.8	C	same cluster as .1
+R0807	4.4	P	-
+R0808	3.3,3.6	P	-
+R0809	3.6	P	-
+R0810	3.3	E	-
+R0811	3.3	P	-
+R0812	3.3,5.2	P	-
+R0813	3.4	P	-
+R0814	3.2,3.3	P	-
+R0815	2.5,3.6	P	-
+R0816	3.3	E	-
+R0817	3.3,3.6	P	-
+R0818	-	C	card-specific playability condition (two ready vampires needed to gain blood); restates its own printed requirement, no transfer
+R0819	3.7.5,2.3	P	-
+R0820	-	C	card-specific counter-timing on Anarch Convert's own ability sequence; no general principle beyond this card
+R0821	1.7	P	-
+R0822	1.3,4.10	P	-
+R0823	3.8	P	-
+R0824	3.4	P	-
+R0825	3.3,5.2	P	-
+R0826	5.1	E	-
+R0827	3.1	P	-
+R0828	4.9,3.6	P	-
+R0829	4.9	P	-
+R0830	2.3	E	-
+R0831	4.4	P	-
+R0832	3.7.7,1.7	P	-
+R0833	4.5,1.1	E	!TENSION:no-effect-plays duplicate of the Glancing Blow/Hidden Strength prevention-card template
+R0834	4.9,5.5	P	-
+R0835	2.4,1.9	E	-
+R0836	2.1,5.2	P	-
+R0837	1.6	E	!TENSION:abnormal-entry-requirements this abnormal-entry effect (putting a card directly on a vampire) is blocked by a "cannot have it" prohibition, pulling against the general "abnormal entry ignores requirements" principle (1.6)
+R0838	2.3,4.4	P	-
+R0839	3.7.8,2.3	P	-
+R0840	-	C	reminder that moving blood beyond a vampire's capacity caps at the target and the excess goes to the blood bank; restates a basic capacity rule any fluent judge knows; nearest 5.1
+R0841	2.1	E	-
+R0842	5.2,1.6	P	-
+R0843	5.2,1.6	P	-
+R0844	4.3	P	-
+R0845	5.5,3.7.5	E	-
+R0846	6.5,2.4	P	-
+R0847	5.9	E	-
+R0848	4.3,4.4	P	-
+R0849	4.9,3.6	P	-
+R0850	4.9	P	-
+R0851	6.1	E	-
+R0852	5.3,4.1	E	-
+R0853	4.3	E	-
+R0854	1.7	P	-
+R0855	4.5	P	-
+R0856	4.5,1.1	E	!TENSION:no-effect-plays third copy of the prevention-card no-damage-to-prevent prohibition template
+R0857	4.8	P	-
+R0858	1.5,2.1	P	-
+R0859	2.3	P	-
+R0860	3.5	E	-
+R0861	2.2	P	-
+R0862	2.3,3.5	E	-
+R0863	3.5	E	-
+R0864	5.5	P	-
+R0865	2.4,3.3	P	-
+R0866	3.7.1,5.2	P	-
+R0867	1.8	E	-
+R0868	6.9,2.3	P	-
+R0869	4.2	P	-
+R0870	-	C	confirms the plain reading of "current action card" (whichever action card is active); restates evident wording, no transfer
+R0871	5.3	E	torpor of the referenced vampire doesn't stop it counting toward the "control a vampire with trait" check
+R0872	1.7	E	cost is paid even if the search for a target (weapon) comes up empty
+R0873	1.6	E	weapon brought into play abnormally must still meet requirements to be kept, or is burned
+R0874	2.5	E	effect keeps tracking the weapon across a bearer/location change until its own trigger fires
+R0875	5.4	E	template: ally burned as a side effect of a directed action still counts for burn-triggered cards (Trophies, Predator's Transformation)
+R0876	3.4	P	-
+R0877	-	C	card's own open-bid auction procedure; not a rulebook mechanic (only "similar to" a referendum); fails transfer — nearest 3.7.5
+R0878	3.7.2,3.4	P	-
+R0879	-	C	specific combo of gaining pool without needing to cancel an [aus] card; fails transfer — nearest 1.8
+R0880	3.3	P	-
+R0881	4.5	P	-
+R0882	-	C	card's own participate/pass procedure for its titled-vampire blood transfer; fails transfer — nearest 5.8
+R0883	4.10,4.4	P	defines "current damage" for weapons generally
+R0884	4.9	E	-
+R0885	4.9	E	-
+R0886	4.9	E	-
+R0887	1.9	P	-
+R0888	1.4	E	-
+R0889	1.10,1.4	E	burn takes precedence over the placeholder's "otherwise removed" default
+R0890	1.13,1.4	E	-
+R0891	5.8,1.13	E	-
+R0892	1.4,5.7	E	-
+R0893	5.3,2.5	E	-
+R0894	2.4	E	-
+R0895	4.4	E	-
+R0896	2.4	E	-
+R0897	-	C	card's own roaming-retainer restriction when acquired via a "this vampire employs" ability rather than the normal employ action; fails transfer — nearest 3.7.4
+R0898	3.7.2,3.4	P	-
+R0899	4.3	E	-
+R0900	1.8	P	-
+R0901	4.8	P	-
+R0902	4.2	P	-
+R0903	4.2	P	-
+R0904	6.2,2.5	E	-
+R0905	4.5	P	damage counts as inflicted (for the card's own burn trigger) even when prevented/ignored
+R0906	-	C	trivial discipline-tag matching (a Potence strike is enhanced by Potence-boosters); fails non-obviousness — nearest 4.3
+R0907	-	C	card-specific targeting of a resourceless minion; no stated general rule beyond ordinary "no effect" consequences — nearest 3.4
+R0908	3.1	E	-
+R0909	3.7.2	P	-
+R0910	3.7.2,3.4	P	-
+R0911	1.6	E	-
+R0912	1.6	P	template, identical wording recurs at Infernal Familiar.1 (R0920)
+R0913	4.4	P	-
+R0914	3.1,6.3	E	-
+R0915	3.7.3,1.6	E	-
+R0916	4.8	P	-
+R0917	4.5	P	-
+R0918	1.6	E	-
+R0919	4.1,4.8	E	-
+R0920	1.6	P	template, identical wording to Inceptor.2 (R0912)
+R0921	-	C	card's own counter-tracking mechanism, scoped to its own ability; fails transfer — nearest 1.6
+R0922	1.8	E	-
+R0923	6.9	P	-
+R0924	1.8,1.9	E	-
+R0925	1.9	E	-
+R0926	1.9	P	-
+R0927	6.9	P	-
+R0928	3.7.4	P	-
+R0929	1.6	P	-
+R0930	1.9	E	-
+R0931	1.8,1.2	E	-
+R0932	2.1	E	-
+R0933	-	C	reminder that lock restricts actions, not card plays; fails non-obviousness — nearest 1.5
+R0934	1.15	E	-
+R0935	3.2	E	-
+R0936	3.4	E	!TENSION:no-effect-plays playable if unblocked even though it will have no effect for lack of a suitable target — same question as Draba.3/Blood Fury.6
+R0937	3.6	P	-
+R0938	3.6	P	-
+R0939	4.1	E	-
+R0940	5.2,4.7	E	-
+R0941	4.2	P	-
+R0942	5.9	P	-
+R0943	5.8	P	-
+R0944	4.4	P	-
+R0945	3.7.5	P	-
+R0946	1.8,1.6	E	-
+R0947	3.7.6	E	-
+R0948	3.7.3,3.7.4	P	-
+R0949	3.1,1.14,1.9	E	announcement template; the "must be in hand before replacing" clause earns the 1.9 third code
+R0950	1.6	P	-
+R0951	-	C	obvious consequence of unlocking resetting ability to act, a separate action from the Jack's own; fails non-obviousness — nearest 3.7.3
+R0952	1.11,5.5	E	-
+R0953	-	C	this card's own fixed life stat; no general principle — nearest 5.5
+R0954	-	C	trivial reading of its own "or" clause between two clan names; fails non-obviousness — nearest 1.6
+R0955	4.3	P	-
+R0956	3.4,3.8	P	-
+R0957	5.6,1.12	E	-
+R0958	4.7,4.10	E	-
+R0959	-	C	describes only its own targeting/resolution outcome on an empty vampire; fails transfer — nearest 4.4
+R0960	5.4	E	-
+R0961	4.8	P	-
+R0962	-	C	card's own equip/counter interaction; fails transfer — nearest 1.12
+R0963	1.15	P	-
+R0964	2.4	P	-
+R0965	3.7.1	E	-
+R0966	3.4,3.8	P	-
+R0967	-	C	clarifies the card grants only an option, not the sect/infernal status itself; narrow reading specific to this card — nearest 1.1
+R0968	2.5,1.10	P	-
+R0969	-	C	trivial reading of "any" as "all"; fails non-obviousness, cf. Great Symposium.1 — nearest 1.2
+R0970	4.10,4.4	P	-
+R0971	4.5	P	-
+R0972	4.5	E	-
+R0973	3.1	E	-
+R0974	5.4	E	-
+R0975	5.7,1.7	E	-
+R0976	4.4	P	-
+R0977	3.1,1.11	P	-
+R0978	5.7,3.7.4	E	-
+R0979	5.4,6.1	E	-
+R0980	1.7	E	-
+R0981	2.4	P	-
+R0982	3.7.6	E	-
+R0983	3.7.6	P	-
+R0984	3.7.6	P	-
+R0985	1.7,5.5	P	-
+R0986	1.1	E	!TENSION:no-effect-plays callable even with no allies in play to affect — same question as Draba.3/Blood Fury.6
+R0987	1.7	P	-
+R0988	1.7,5.7	E	-
+R0989	1.15	E	-
+R0990	-	C	card's own point-allocation limit; fails transfer — nearest 6.5
+R0991	-	C	card's own allocation-exceeding-pool rule; fails transfer — nearest 6.5
+R0992	4.4	E	-
+R0993	5.3,1.5	P	-
+R0994	3.5,2.3	E	-
+R0995	3.5	P	-
+R0996	3.5,1.7	P	-
+R0997	2.5,4.4	E	-
+R0998	-	C	card-specific steal-strike targeting a low-resource minion; fails non-obviousness — nearest 4.4
+R0999	4.8	P	-
+R1000	4.4	P	-
+R1001	4.8	P	-
+R1002	4.2	P	-
+R1003	4.2	P	-
+R1004	4.3,4.10	E	-
+R1005	6.5,2.3	P	-
+R1006	6.5	P	-
+R1007	6.5,6.9,1.9	P	-
+R1008	6.4,6.7	E	-
+R1009	6.4,1.13	P	-
+R1010	2.5,6.4	P	-
+R1011	6.2,6.7	P	-
+R1012	6.1,6.2,6.5	P	-
+R1013	4.4	P	-
+R1014	3.7.6	P	-
+R1015	3.7.6	E	-
+R1016	2.5	E	-
+R1017	1.9	E	-
+R1018	1.9,6.9	E	-
+R1019	3.4	E	-
+R1020	1.15	P	-
+R1021	4.9,5.5	E	-
+R1022	5.1	E	-
+R1023	1.1,3.4	E	!TENSION:no-effect-plays mandatory action forced despite predictable zero effect
+R1024	3.7.2,3.4	E	-
+R1025	3.7.2	C	card-specific requirement that a vampire exist to hunt on; fails transfer beyond Legacy of Caine's vampire-targeted hunt mode
+R1026	3.7.2,1.1	E	-
+R1027	3.7.2	E	-
+R1028	1.15,3.7.6	P	-
+R1029	5.5,5.3	E	-
+R1030	4.9	P	-
+R1031	4.9	E	-
+R1032	1.6	P	-
+R1033	5.1,6.4	E	-
+R1034	3.3,3.4	E	-
+R1035	3.7.1,2.1	E	-
+R1036	1.7,3.3	E	-
+R1037	6.5	E	-
+R1038	6.5	E	-
+R1039	6.5	E	-
+R1040	6.5	E	-
+R1041	3.7.6	E	-
+R1042	1.7,5.2	E	-
+R1043	1.7	E	-
+R1044	1.7,3.7.4	E	-
+R1045	5.5,1.7	E	-
+R1046	1.6	E	-
+R1047	3.1	C	card-specific rule for how Lock's own condition is satisfied across several targets; fails transfer, no other card shares this "any one target suffices" wording
+R1048	3.7.2,1.7	E	-
+R1049	6.7	E	-
+R1050	3.7.7	E	-
+R1051	3.1	E	-
+R1052	2.1,1.8	E	-
+R1053	3.3	E	-
+R1054	2.1	E	-
+R1055	4.4	E	-
+R1056	4.4	E	-
+R1057	4.9,5.2,1.7	E	-
+R1058	4.6	E	-
+R1059	4.4,4.3	E	-
+R1060	5.2,1.7,4.9	E	-
+R1061	3.7.6	E	-
+R1062	4.4,4.3	E	-
+R1063	4.4	E	-
+R1064	4.3	E	-
+R1065	3.9	P	-
+R1066	3.9,5.2	E	moved 1.1->3.9 (2026-07-20 Phase 4.6): discharging a mandatory ACTION; 1.1 owns mandatory EFFECTS
+R1067	3.9,1.15	E	recovered from C: two conflicting mandatory obligations (two copies of the same mandatory-attack card) producing a stuck-and-cannot-act deadlock is now a genuine instance of 3.9's stuck-and-cannot-act outcome, not merely this card's own quirk with itself.
+R1068	3.1	E	-
+R1069	1.6	P	-
+R1070	1.11	E	-
+R1071	4.10	P	-
+R1072	4.10,2.2	E	-
+R1073	4.10	E	-
+R1074	4.4,4.10	E	-
+R1075	5.3,3.7.7	E	-
+R1076	3.1	C	specific two-card interaction (Madness Network's out-of-turn grant meeting Mask's masking restriction); fails transfer beyond this pairing
+R1077	3.7.2	C	card-specific restriction on Madness Network's own out-of-turn action grant (forced hunt when no blood); fails transfer to other cards
+R1078	3.3,5.2	E	-
+R1079	3.7.6	E	-
+R1080	3.7.6	E	-
+R1081	3.7.3	P	-
+R1082	3.4	E	-
+R1083	3.1,1.14	E	-
+R1084	1.3	E	-
+R1085	4.9,5.2	E	-
+R1086	3.4,2.1	E	-
+R1087	1.1,3.5	E	-
+R1088	1.1	E	-
+R1089	3.5	E	-
+R1090	1.5,5.2	E	-
+R1091	5.3	E	-
+R1092	3.4	E	-
+R1093	1.6	E	-
+R1094	2.4,6.2	E	-
+R1095	2.5	E	-
+R1096	3.5,2.3	E	-
+R1097	3.5	P	-
+R1098	3.7.5	P	-
+R1099	1.6	P	-
+R1100	6.6	C	idiosyncratic bidding/auction mechanic specific to this card; fails transfer to non-auction cards
+R1101	6.3	E	-
+R1102	3.5,3.10	P	-
+R1103	1.6,5.2	E	-
+R1104	4.4	E	-
+R1105	3.1	C	narrow interaction of burning during an action whose targets only partially overlap a prior action's; fails transfer
+R1106	1.1	C	card-specific equipment self-targeting restriction; fails transfer beyond this ring
+R1107	5.3	E	-
+R1108	4.5,4.1	E	-
+R1109	4.5	E	-
+R1110	4.5	E	-
+R1111	4.5	E	-
+R1112	1.7	P	-
+R1113	1.7	P	-
+R1114	6.1	C	restates the ordinary control principle (only the controller of the acting minion may play this) — obvious even to a fluent judge; fails non-obviousness
+R1115	3.8	C	narrow masking-eligibility exception specific to equipment-granted actions; fails transfer
+R1116	3.10	P	-
+R1117	3.10	P	-
+R1118	3.3	C	narrow timing window specific to Mask's own masking mechanic; fails transfer
+R1119	3.3	C	narrow interaction of masking with unblockable effects; fails transfer
+R1120	5.2	C	restates Mask's own requirement (unlocked vampire) colliding with locked-minion actions; fails transfer
+R1121	2.1	E	-
+R1122	3.10,3.9	E	recovered from C: the mandatory-action / masking-eligibility interaction (masking a mandatory action that was not mandatory for the masker) now generalizes under 3.10's eligibility rule and 3.9's mandatory-action framework, rather than being Mask-of-a-Thousand-Faces-specific.
+R1123	3.3	E	-
+R1124	3.10,1.15	E	-
+R1125	1.15,3.8	E	-
+R1126	3.2	E	-
+R1127	4.8,4.9	E	-
+R1128	4.8	P	-
+R1129	3.8,1.10	E	-
+R1130	3.7.2,3.4	P	!WORDING reads self-contradictory ("not successful ... even if the hunt action is still successful"); labeled as written — teaches the hunt-gain vs action-success distinction
+R1131	5.1,6.4	E	-
+R1132	4.4	E	-
+R1133	1.15	P	-
+R1134	6.9,2.5	E	-
+R1135	6.5,6.4	E	-
+R1136	1.9	P	-
+R1137	6.9,1.9	P	-
+R1138	3.7.1,2.1	E	-
+R1139	1.11,3.3	E	-
+R1140	4.9,5.2	E	-
+R1141	4.9,5.2	E	-
+R1142	1.12	E	-
+R1143	3.5	E	-
+R1144	1.6,2.5,3.1	E	-
+R1145	4.9	E	-
+R1146	4.9	E	-
+R1147	6.3	C	obvious requirement that a valid target exist for the effect; fails non-obviousness
+R1148	4.4	E	-
+R1149	4.8	E	-
+R1150	2.4,3.3	E	-
+R1151	3.4,1.7	E	-
+R1152	4.1,4.3	E	-
+R1153	5.2	E	-
+R1154	6.2	E	-
+R1155	6.5,6.4	E	-
+R1156	6.2,6.5	E	-
+R1157	6.2,5.3	E	-
+R1158	2.4	P	-
+R1159	3.4,1.7	E	-
+R1160	5.9,3.2	P	-
+R1161	3.7.1	E	bleed-redirection protection extends to the vampire's own bleeds too; cf. Perfect Clarity R1304 same pattern
+R1162	-	C	burn-option trigger tied to vampires with [mal] being in torpor is this card's own condition-check; fails transfer, nearest 5.3 (torpor) but that doesn't own conditional burn options
+R1163	3.6	P	-
+R1164	3.6	P	-
+R1165	3.6	P	-
+R1166	3.6	P	-
+R1167	3.6,4.9	P	-
+R1168	5.2	E	-
+R1169	3.5	E	-
+R1170	3.5,2.4	E	-
+R1171	3.7.7,3.7.8	E	-
+R1172	3.5	E	-
+R1173	3.5	E	-
+R1174	3.7.5	E	-
+R1175	1.13,1.12	E	-
+R1176	3.7.3	E	!WORDING garbled clause ("It does is if it is equipped"); reads as: gets cards only when equipped, not when merely put into play
+R1177	3.3	E	-
+R1178	4.7,4.9	E	-
+R1179	3.6	P	-
+R1180	3.6	P	-
+R1181	3.6	P	-
+R1182	3.6	P	-
+R1183	5.7,3.3	E	-
+R1184	2.3,2.4	P	-
+R1185	-	C	question/answer-card mechanic specific to Monocle of Clarity's own text (answer must reflect best knowledge); taxonomy explicitly names this cluster as a rejected single-card topic mislabelled G.
+R1186	-	C	same Monocle of Clarity question-mechanic cluster (agreeing on term meanings before answering); rejected single-card topic per taxonomy.
+R1187	-	C	same cluster (inexact answers for unverifiable elements, not judge-checkable); rejected single-card topic per taxonomy.
+R1188	1.5	C	same cluster (must indicate invoking the question ability); rejected single-card topic per taxonomy. Nearest 1.5.
+R1189	-	C	same cluster (conjunctive questions answerable as a whole); rejected single-card topic per taxonomy.
+R1190	4.9	E	-
+R1191	2.3,2.4	E	-
+R1192	4.9	E	-
+R1193	4.6	E	-
+R1194	3.6	P	-
+R1195	3.6	P	-
+R1196	3.6	P	-
+R1197	3.6	P	-
+R1198	3.6,4.9	P	-
+R1199	-	C	restates this card's own printed play-restriction (controller of the acting minion only); no transfer beyond the card's text
+R1200	1.5,5.2	E	-
+R1201	3.5	E	-
+R1202	-	C	card-specific restriction on what the played [dom] card grants; fails transfer, no other card's ruling changes
+R1203	4.9,2.4	E	-
+R1204	4.9,5.3	E	-
+R1205	5.7	E	-
+R1206	1.6,3.7.4	P	-
+R1207	3.7.4,3.5	E	-
+R1208	1.6,1.7	P	-
+R1209	5.7	E	-
+R1210	2.1,3.4	E	-
+R1211	3.3,3.2	E	-
+R1212	3.1	E	-
+R1213	-	C	!WORDING unclear whose search this binds ("each Methuselah" vs. the searching player); as written it restates that all matching copies must be found, which fails non-obviousness
+R1214	5.4,3.10,4.1	E	-
+R1215	3.10,5.9	P	-
+R1216	4.9	E	-
+R1217	4.4	P	-
+R1218	4.6,4.4	E	-
+R1219	4.4	P	-
+R1220	4.2	P	-
+R1221	5.5	P	-
+R1222	4.4	P	-
+R1223	4.4	P	-
+R1224	4.5,4.4	P	-
+R1225	4.4	E	-
+R1226	4.4,4.10	E	-
+R1227	3.3	E	-
+R1228	3.3	E	-
+R1229	4.2	P	-
+R1230	4.2	P	-
+R1231	1.9,5.3	P	-
+R1232	6.3	P	-
+R1233	6.3	E	-
+R1234	-	C	restates this event's own printed lock-or-burn requirement each unlock phase; fails non-obviousness, no transfer beyond this card
+R1235	5.2,5.7	E	-
+R1236	-	C	lists this card's own exemptions (mortal allies, high-capacity vampires); card-specific scope, no transfer
+R1237	4.5	P	-
+R1238	-	C	restates this weapon's own printed close-range-only restriction; fails non-obviousness
+R1239	-	C	states this card's own Anarch-requirement status; card-specific fact, no transfer to other cards
+R1240	5.8	P	-
+R1241	3.3	E	-
+R1242	5.2,1.5	E	-
+R1243	3.7.4	E	-
+R1244	-	C	procedural mechanics specific to this card's mass equipment-redistribution effect; no evidence of a recurring template, fails transfer; nearest 3.7.3
+R1245	3.4	P	-
+R1246	5.3	E	-
+R1247	4.1	E	-
+R1248	3.7.3,6.4	E	-
+R1249	2.5,3.7.3	E	-
+R1250	1.2	P	-
+R1251	3.5	P	-
+R1252	3.5	P	-
+R1253	3.5,3.7.3	P	-
+R1254	3.5	P	-
+R1255	4.9	E	-
+R1256	3.5	E	-
+R1257	3.10,5.7,3.1	E	-
+R1258	3.1	P	-
+R1259	5.2,3.3	E	-
+R1260	4.2,4.1	P	-
+R1261	3.3	P	-
+R1262	2.3	E	-
+R1263	3.3	E	-
+R1264	1.8,2.3	E	-
+R1265	5.3,5.4	E	-
+R1266	1.15	E	-
+R1267	1.15	E	-
+R1268	1.6	E	-
+R1269	-	C	restates the card's own Laibon clan requirement; fails non-obviousness
+R1270	-	C	timing of this card's own Orun-burn cost relative to its special enter-combat action; card-specific, fails transfer; nearest 4.9
+R1271	5.5	P	-
+R1272	4.8,4.9	E	-
+R1273	1.5	E	-
+R1274	-	C	narrow interaction of this card's granted Auspex block with Sniper Rifle's own strike requirement; fails transfer beyond this exact combination; nearest 4.3
+R1275	-	C	specific to this card's own repeated-Auspex-use case; nearest 4.3 (strikes) but establishes no rule beyond this card
+R1276	4.9	E	-
+R1277	4.6	E	-
+R1278	4.4	E	-
+R1279	5.9	P	-
+R1280	5.8	P	-
+R1281	4.4	E	-
+R1282	4.5,4.2	P	-
+R1283	4.9,4.4	E	-
+R1284	1.6	E	-
+R1285	1.7	E	-
+R1286	1.7	P	-
+R1287	3.1,1.14	E	-
+R1288	-	C	restates the default "must have a legal target" requirement; fails non-obviousness
+R1289	6.5,3.7.5	E	-
+R1290	3.7.5	E	-
+R1291	3.7.5	P	-
+R1292	5.7	E	-
+R1293	-	C	restates this card's own printed search restriction (no discipline already at superior on all vampires); fails transfer
+R1294	1.1	E	-
+R1295	1.7	P	-
+R1296	3.7.5	E	!TENSION:no-effect-plays a referendum can be called even with no eligible subject in play, mirroring the Draba/Blood Fury tension over playing cards for zero effect
+R1297	1.7	E	-
+R1298	3.6	P	-
+R1299	3.6	P	-
+R1300	3.6	P	-
+R1301	1.5,3.7.1	P	-
+R1302	1.11	P	-
+R1303	1.11,1.4	E	-
+R1304	3.7.1	E	-
+R1305	1.8	P	-
+R1306	2.3	E	-
+R1307	3.4	E	-
+R1308	4.6	E	-
+R1309	-	C	Personal Scourge's own protection scope (excludes self-inflicted weapon damage); fails transfer — no recurring "self-inflicted damage" formula to generalize from; nearest 4.5, which owns prevention scope generally, not this card's specific exclusion
+R1310	4.8	P	-
+R1311	3.2,1.2	P	-
+R1312	3.2	E	-
+R1313	3.7.4	P	-
+R1314	3.7.4,1.7	P	-
+R1315	3.7.4,3.5	P	-
+R1316	3.7.4	E	-
+R1317	1.8,3.7.4	E	-
+R1318	4.1,4.9	E	-
+R1319	4.1,4.9	E	-
+R1320	6.5	P	-
+R1321	6.5,3.7.6	P	-
+R1322	5.8,1.13	E	-
+R1323	3.7.6,5.4	E	-
+R1324	3.7.8,3.7.6	E	-
+R1325	3.7.6	P	-
+R1326	3.7.6	E	-
+R1327	1.9,2.4	P	-
+R1328	-	C	Portrait's own capacity-reveal/bled-this-turn condition fizzling the remainder of its effect; fails transfer — no recurring template for this effect chain; nearest 2.5, which does not cover conditional effect fizzling on this card
+R1329	6.4,2.5	P	-
+R1330	1.6	P	-
+R1331	4.4,4.5	E	-
+R1332	4.2	E	-
+R1333	4.4	P	-
+R1334	4.4	E	-
+R1335	4.8	P	-
+R1336	3.7.1	E	-
+R1337	3.7.1,2.4	P	-
+R1338	3.7.8,3.7.5	P	-
+R1339	-	C	interaction specific to this named card pair ({Church of the Order of St. Blaise} + Powerbase: Barranquilla); fails transfer — no other pairing generalizes from it; nearest 1.12 (cards on cards / counters)
+R1340	-	C	Powerbase: Berlin's own blood-source bookkeeping for its action; fails transfer — specific to this card's action; nearest 6.1, which does not own blood-source attribution
+R1341	5.8	P	-
+R1342	-	C	Powerbase: New York's own action-eligibility restriction (cannot steal from your own powerbase); fails transfer — specific to this card's special action; nearest 3.1
+R1343	3.10,5.9	P	-
+R1344	1.7	P	-
+R1345	1.7,2.1	P	-
+R1346	1.7	E	-
+R1347	1.7,3.8	P	-
+R1348	4.5,3.3	E	-
+R1349	4.5	P	-
+R1350	3.6,4.5	P	-
+R1351	3.1	E	!WORDING ruling text reads circular ("counts as a directed action burning an ally" restates itself); likely paraphrase artifact; labeled on the directed-action/ally-burn topic as written
+R1352	2.2	P	-
+R1353	1.9	P	-
+R1354	3.1,1.11	E	-
+R1355	1.6,1.7	P	-
+R1356	5.7	E	-
+R1357	1.4	E	-
+R1358	1.7	E	-
+R1359	1.7	P	-
+R1360	1.8,4.3	P	-
+R1361	-	C	Principia Discordia's own targeting clarification (zero-blood vampire remains a valid target); fails transfer — answers only whether this card can target such a vampire; nearest 3.1
+R1362	-	C	same as .1, [ser] version of the same card's own targeting clarification; fails transfer; nearest 3.1
+R1363	3.4	E	-
+R1364	3.1	P	-
+R1365	6.5,6.4	E	-
+R1366	4.3,4.10	E	-
+R1367	4.3,4.10	E	-
+R1368	4.6	E	!TENSION:no-effect-plays dodge permitted despite having no effect against this weapon; reinforces the permission side (cf. Draba.3) against the prohibition-case rulings
+R1369	3.5	P	-
+R1370	3.7.1,2.4	E	-
+R1371	3.7.1	P	-
+R1372	3.7.1	E	-
+R1373	5.9,3.2	P	-
+R1374	6.4,1.10	E	-
+R1375	2.3,4.9	P	-
+R1376	6.7	E	-
+R1377	6.6,6.7	P	-
+R1378	1.8,5.2	P	-
+R1379	4.9,5.3	E	-
+R1380	4.9,3.6	P	-
+R1381	4.9	E	-
+R1382	4.9,4.8	P	-
+R1383	4.9	P	-
+R1384	4.9,2.4	P	-
+R1385	-	C	Psyche!'s own retrieval eligibility via {Marthe Dizier}, reversing an earlier ruling; fails transfer — specific to this card interaction; nearest 1.11
+R1386	1.9,4.9	P	-
+R1387	3.6,4.9	P	-
+R1388	3.3	P	-
+R1389	3.5	P	-
+R1390	3.1	P	-
+R1391	4.4	P	-
+R1392	4.8,4.9	P	-
+R1393	4.9,2.4	P	-
+R1394	-	C	Pulled Fangs' own counter-removal condition (two actions by any vampires); fails transfer — specific to this card's removal mechanic; nearest 3.5
+R1395	2.3	P	-
+R1396	3.5	P	-
+R1397	4.4	P	-
+R1398	4.4	E	-
+R1399	5.2,1.10	E	-
+R1400	6.3,1.6	P	-
+R1401	1.15	P	-
+R1402	4.3,2.4	P	-
+R1403	3.7.5	P	-
+R1404	3.7.1,2.4	P	-
+R1405	1.13	E	-
+R1406	1.13	E	-
+R1407	5.3,6.4	E	-
+R1408	6.4,1.13	P	-
+R1409	6.2,6.1	E	!WORDING sentence is awkwardly phrased ("the new controller chooses if the vampires gains blood"); read as: on control theft, the new controller decides whether The Rack's blood gain still triggers during their unlock phase
+R1410	3.7.7	P	-
+R1411	3.7.7	P	-
+R1412	4.9,6.9	E	-
+R1413	3.7.6	E	-
+R1414	1.7	E	-
+R1415	1.7	E	-
+R1416	3.1,1.7	P	-
+R1417	3.8,1.7	E	-
+R1418	5.1	E	-
+R1419	1.12	E	-
+R1420	1.7	P	-
+R1421	3.5,1.8	P	-
+R1422	3.5,1.7	E	-
+R1423	1.9,1.8	P	-
+R1424	1.8,3.5	E	-
+R1425	3.3	E	-
+R1426	1.4,1.6	P	-
+R1427	-	C	Reanimated Corpse's own pathos-counter mechanic on burn/return; fails transfer — specific to this card's counter type; nearest 1.12
+R1428	3.7.8	P	-
+R1429	3.7.6	E	-
+R1430	3.7.6	E	-
+R1431	3.7.7	P	-
+R1432	3.5	P	-
+R1433	3.5,3.8	P	-
+R1434	3.5,3.7.3	P	-
+R1435	3.5	P	-
+R1436	5.9	P	-
+R1437	5.8	P	-
+R1438	5.9	P	-
+R1439	-	C	Red Question's own burn-option restriction (blocked by a specific torpor/title vampire state); fails transfer — specific to this card's burn clause; nearest 5.8
+R1440	2.1,3.4	P	-
+R1441	3.3,3.2	P	-
+R1442	-	C	Redistribution's own targeting restriction tied to Blood Brother + uncontrolled status; fails transfer — specific to this card/clan combination; nearest 6.7
+R1443	3.7.8	P	-
+R1444	6.7	E	-
+R1445	3.7.8	E	-
+R1446	-	C	Reformation's own no-valid-target restriction; fails non-obviousness — a card requiring a target trivially cannot be played absent one; nearest 3.1
+R1447	4.5	P	-
+R1448	-	C	Rego Motum's own restatement that prevention needs damage present to prevent; fails non-obviousness — prevention is inherently reactive to inflicted damage; nearest 4.5
+R1449	4.5	P	-
+R1450	1.6	P	-
+R1451	6.5	E	-
+R1452	4.5	P	-
+R1453	4.9,3.6	P	-
+R1454	4.9	C	two-card ordering interaction (Relentless Reaper vs {Psyche!}); fails transfer — no general rule beyond this specific pairing. Nearest 4.9, which doesn't own ordering between arbitrary effect pairs
+R1455	4.8,4.9,2.4	P	-
+R1456	1.1,4.3	P	-
+R1457	3.1	P	-
+R1458	1.1,1.7,6.5	P	-
+R1459	3.2	E	!TENSION:no-effect-plays playable even though the stealth isn't needed
+R1460	2.2	P	-
+R1461	1.9,2.2	E	-
+R1462	4.5	P	-
+R1463	4.5	P	-
+R1464	4.5	P	-
+R1465	4.5,4.4	P	-
+R1466	2.1	C	reaction usable at the moment {Form of Corruption} is put into play, protecting only against that card; fails transfer beyond this pairing. Nearest 2.1, which covers generic sequencing, not this abnormal-entry reaction window
+R1467	4.8,1.2	P	-
+R1468	3.7.2,3.4	P	-
+R1469	6.3,1.6	P	-
+R1470	3.7.7	P	-
+R1471	1.10,1.11	E	-
+R1472	6.2,3.3	E	-
+R1473	6.3,1.6	P	-
+R1474	5.2	C	confirms lock status alone doesn't bar targeting; fails non-obviousness — default targeting rules already establish this absent an explicit readiness restriction. Nearest 5.2
+R1475	4.8,4.9	P	-
+R1476	4.4	E	-
+R1477	5.3,5.4	P	-
+R1478	6.2	C	clarifies this card's political effect does not grant control of the opponent's minion; fails transfer — a negative scope statement about this card's own text. Nearest 6.2
+R1479	1.9	P	-
+R1480	3.7.5,3.1	P	-
+R1481	1.10,1.12	P	-
+R1482	1.6	C	card-specific usage condition (cannot use the burn option while controlling a ready Kiasyd); fails transfer — applies only to this card's own gating clause. Nearest 1.6
+R1483	1.12,5.3	E	-
+R1484	4.8,1.2	P	-
+R1485	1.8,4.3	P	-
+R1486	1.8,4.8	P	-
+R1487	1.1,4.3	E	!TENSION:no-effect-plays a prohibition on additional strikes bars playing one even for a side benefit
+R1488	4.9,4.4	E	-
+R1489	4.9,4.2	E	-
+R1490	4.6,4.9	E	-
+R1491	4.9	E	-
+R1492	4.4,2.3	P	-
+R1493	6.5	P	-
+R1494	6.5	P	-
+R1495	6.5	P	-
+R1496	6.5	P	-
+R1497	6.5	E	-
+R1498	3.7.8,2.3	E	-
+R1499	4.5	C	confirms superior discipline doesn't change the card's stated prevention fraction; fails non-obviousness — card text controls and superior doesn't implicitly scale printed values. Nearest 4.5
+R1500	4.5	P	-
+R1501	3.7.4	P	-
+R1502	3.7.7	P	-
+R1503	4.5	C	describes this card's own targeting placement (played on the vampire about to take the damage); fails transfer — restates the card's own text. Nearest 4.5
+R1504	4.5,2.1	P	-
+R1505	4.5,4.4	P	-
+R1506	4.2,4.5	P	-
+R1507	4.6,4.7	P	-
+R1508	4.4	E	-
+R1509	4.9,4.7	P	-
+R1510	1.2,5.3	P	-
+R1511	4.9,5.2	P	-
+R1512	5.2,2.5	P	!TENSION:unlock-effect-outlives-source this "does not unlock as normal" effect ends when its source card is burned/removed; contrast {Rowan Ring}.5/.6 below, where the equivalent effect survives the source's own burning
+R1513	4.4	E	-
+R1514	4.2,4.5	E	-
+R1515	4.6,4.7	E	-
+R1516	4.5,5.3	E	-
+R1517	2.5,1.6	E	!TENSION:unlock-effect-outlives-source here the "does not unlock as normal" effect survives the Ring being burned — opposite of {Rötschreck}.10 above
+R1518	2.5,5.2	E	!TENSION:unlock-effect-outlives-source same persistence-survives-source-removal claim, opposite of {Rötschreck}.10
+R1519	5.2,5.7	E	-
+R1520	6.2,2.5	E	-
+R1521	3.7.4	P	-
+R1522	1.15	P	-
+R1523	1.7,3.3	P	-
+R1524	3.1	C	confirms no default restriction against choosing the same target vampire multiple times across copies; fails non-obviousness — absent an explicit restriction this is already assumed. Nearest 3.1
+R1525	2.4,6.5	E	-
+R1526	1.6	E	-
+R1527	6.3	C	pure two-card interaction (Sacrificial Lamb + {Soul Gem of Etrius} transfer-lock); fails transfer beyond this specific equipment pairing. Nearest 6.3
+R1528	1.10	P	-
+R1529	1.5,1.7	P	-
+R1530	4.10	C	obvious application — an ability requiring a target resource (equipment to steal) cannot fire absent that resource; fails non-obviousness. Nearest 4.10
+R1531	3.1,1.14	E	-
+R1532	1.11	E	-
+R1533	1.7	P	-
+R1534	5.3	P	-
+R1535	4.1	C	confirms this card can be played by minions of methuselahs not involved in the combat because its own text carries no participation restriction; fails transfer/non-obviousness — reads the absence of a restriction literally. Nearest 4.1
+R1536	2.3,2.4	P	-
+R1537	3.1,1.14	E	-
+R1538	4.4	P	-
+R1539	3.5,2.3	P	-
+R1540	3.5	P	-
+R1541	3.3	E	-
+R1542	3.7.5,3.7.6	P	-
+R1543	1.15,3.7.6	P	-
+R1544	4.4	P	-
+R1545	4.6	E	!TENSION:no-effect-plays dodge is permitted although it accomplishes nothing against this card
+R1546	4.3	E	-
+R1547	4.3	E	-
+R1548	2.4,6.3	E	-
+R1549	3.6,4.9	P	-
+R1550	3.6	P	-
+R1551	2.3	P	-
+R1552	1.12	C	card-specific counter/discipline-bonus mechanics; fails transfer — no other card shares this exact counter-to-discipline mapping. Nearest 1.12
+R1553	1.6	P	-
+R1554	3.3,5.2	P	-
+R1555	3.3	E	-
+R1556	3.1	E	-
+R1557	3.3,5.2	E	-
+R1558	1.10,1.12	P	-
+R1559	3.5	P	-
+R1560	1.7	E	-
+R1561	3.1	P	-
+R1562	3.1	P	-
+R1563	1.5,1.7	P	-
+R1564	5.3	P	-
+R1565	1.13,5.3	E	-
+R1566	4.2	P	-
+R1567	3.3,5.2	P	-
+R1568	3.3	E	-
+R1569	3.1	E	-
+R1570	3.3,5.2	E	-
+R1571	3.7.7	P	-
+R1572	5.2	P	-
+R1573	5.2,5.7	E	-
+R1574	4.9	E	-
+R1575	4.9	E	-
+R1576	4.6	E	-
+R1577	1.1,1.7	P	-
+R1578	1.7	P	-
+R1579	6.3,1.6	P	-
+R1580	6.1	P	-
+R1581	1.10	E	-
+R1582	1.10	E	-
+R1583	1.6	C	an effect-created ally's "cost of zero" is a routine consequence of abnormal entry (not played from hand, so no cost was ever set); fails non-obviousness. Nearest 1.6
+R1584	1.6	E	-
+R1585	3.7.3	E	-
+R1586	1.6	E	-
+R1587	5.5	E	-
+R1588	6.1,6.3	P	-
+R1589	1.3	E	-
+R1590	3.6	P	-
+R1591	3.6,3.3	P	-
+R1592	3.6	P	-
+R1593	3.6,1.11	P	-
+R1594	3.6,4.9	P	-
+R1595	3.6	P	-
+R1596	3.6,3.3	P	-
+R1597	3.6	P	-
+R1598	3.6	P	-
+R1599	3.10,5.7	E	-
+R1600	1.7	P	-
+R1601	2.3,2.4	P	-
+R1602	5.5	E	-
+R1603	1.5,5.5	E	-
+R1604	5.5	C	"combat card usable only in combat" restates the obvious combat-timing rule; fails non-obviousness. Nearest 5.5 (Satyr's as-a-vampire ability) but teaches nothing about that mechanism specifically
+R1605	5.5,1.12	E	-
+R1606	1.8,5.5	E	-
+R1607	1.12,5.5	E	-
+R1608	5.5	E	-
+R1609	3.7.8,5.5	E	-
+R1610	5.3,5.5	E	-
+R1611	5.3,5.5,4.4	E	-
+R1612	4.6	E	!TENSION:no-effect-plays dodge is not prevented, it just accomplishes nothing — same question as Draba.3, opposite mechanism
+R1613	4.4,4.3	E	-
+R1614	4.8	P	-
+R1615	4.2	P	-
+R1616	4.8	P	-
+R1617	5.6	E	-
+R1618	1.11	E	-
+R1619	4.4,4.3	E	-
+R1620	4.4	C	bare damage-type classification fact about one card; no interaction or consequence stated. Fails transfer — doesn't inform another card's ruling
+R1621	2.5,6.5	E	-
+R1622	3.5	P	-
+R1623	1.6	E	!TENSION:no-effect-plays destroy-equipment card requires equipment to exist; prohibition-side parallel to the prevention-card template below
+R1624	1.6	E	-
+R1625	3.1	E	-
+R1626	1.12	C	clarifies scope of this card's own rearrange effect (which item types are covered); doesn't inform other cards' effect scopes. Nearest 1.12 (cards on cards)
+R1627	1.14	C	numeric/no-limit fact specific to this card's own storage capacity; no transfer to other storage cards, which print their own limits. Nearest 1.14
+R1628	1.13,1.12	E	-
+R1629	1.6,3.7.3	E	-
+R1630	4.8	P	-
+R1631	4.1,4.8	P	-
+R1632	2.2	P	-
+R1633	1.9,2.2	P	-
+R1634	4.5,1.6	E	!TENSION:no-effect-plays prevention card requires unresolved damage to be playable at all
+R1635	3.3	C	pure card-vs-card fact ({Unleash Hell's Fury} vs this card's bearer); fails transfer — concerns only these two named cards. Nearest 3.3 (who may block)
+R1636	3.3	E	-
+R1637	3.1	E	!TENSION:no-effect-plays a zero-blood vampire remains a valid target even though the action may accomplish nothing
+R1638	3.1	E	-
+R1639	1.14	E	-
+R1640	2.5	E	-
+R1641	2.1	E	-
+R1642	4.9	E	-
+R1643	4.9	E	-
+R1644	4.9,3.5	E	-
+R1645	2.1,4.9	E	-
+R1646	4.5,1.6	E	!TENSION:no-effect-plays same prevention-requires-damage template as R1634
+R1647	4.5,1.6	E	!TENSION:no-effect-plays same template
+R1648	4.5	P	-
+R1649	2.2	P	-
+R1650	1.9,2.2	P	-
+R1651	2.4	E	-
+R1652	1.2	E	-
+R1653	3.7.8,2.1	E	-
+R1654	2.3	E	-
+R1655	4.4	P	-
+R1656	5.2,2.3	E	-
+R1657	3.7.3	E	-
+R1658	1.7	E	-
+R1659	5.4,5.5	E	-
+R1660	1.7	E	-
+R1661	1.7	E	-
+R1662	3.6	E	-
+R1663	3.6	P	-
+R1664	4.7,4.9	E	-
+R1665	4.9,4.10	E	-
+R1666	4.2	P	-
+R1667	4.2	E	-
+R1668	4.2,4.9	E	-
+R1669	5.7,4.2	E	Slave-substitution template, shared w/ R1599
+R1670	4.2,4.10	E	-
+R1671	4.5,1.6	E	!TENSION:no-effect-plays same template
+R1672	4.5	P	-
+R1673	4.5	P	-
+R1674	6.7	E	-
+R1675	3.7.2,3.4	P	-
+R1676	4.6	E	-
+R1677	4.3	E	-
+R1678	4.5	E	-
+R1679	4.3,4.7	E	-
+R1680	1.1	E	!TENSION:no-effect-plays matches calibration's Blood Fury.6 exactly (opponent barred from playing prevention cards even for zero effect)
+R1681	5.1,3.5	E	-
+R1682	1.10	E	-
+R1683	1.10,4.10	E	-
+R1684	1.13,1.6,5.1	E	-
+R1685	5.7	E	-
+R1686	1.6	E	-
+R1687	1.6	E	-
+R1688	1.7,1.6,3.7.4	E	!DROPPED:5.5
+R1689	5.4	P	-
+R1690	5.4,3.7.5	E	-
+R1691	3.7.8,2.1	E	-
+R1692	3.1	E	-
+R1693	3.3	E	-
+R1694	3.3	E	-
+R1695	1.7,6.1	E	-
+R1696	1.13,5.1	E	-
+R1697	1.13	E	-
+R1698	1.4,1.11	E	-
+R1699	1.4	C	card-vs-card exemption fact ({Wormwood} doesn't affect these tokens); fails transfer — concerns only this pairing. Nearest 1.4 (representation)
+R1700	4.3,2.1	E	-
+R1701	4.5	C	narrow non-contest fact between named variant printings of one card family; fails transfer beyond this small family. Nearest 4.5 (prevention effects usable together)
+R1702	6.3,1.6	P	-
+R1703	3.9	P	-
+R1704	3.9,3.7.1	E	-
+R1705	6.2,3.5	E	-
+R1706	2.3,6.2	E	-
+R1707	3.4,1.7	P	-
+R1708	6.2	P	-
+R1709	3.6	E	-
+R1710	3.6	P	-
+R1711	3.3	E	-
+R1712	5.6,4.10	E	-
+R1713	3.4,2.3	E	-
+R1714	3.5,3.4	E	-
+R1715	3.4,1.6	E	!TENSION:no-effect-plays mandatory bonus cannot apply to an already-unsuccessful/zero bleed — same shape as the prevention-card template
+R1716	1.15	E	-
+R1717	3.4,2.3	E	-
+R1718	3.4,2.3	E	-
+R1719	3.4,2.3	P	-
+R1720	3.5,6.5,1.7	E	!DROPPED:3.4
+R1721	2.2	P	-
+R1722	1.9,2.2	P	-
+R1723	4.2	P	-
+R1724	4.2,2.4	E	-
+R1725	3.2,4.10	E	-
+R1726	3.2,5.2	E	-
+R1727	5.2,3.3	E	-
+R1728	4.8	P	-
+R1729	6.7	C	card-specific crypt-retrieval pairing rule (Aye/Orun) unique to this Laibon mechanic; fails transfer to other retrieval effects. Nearest 6.7
+R1730	4.4	P	-
+R1731	4.8	P	-
+R1732	1.9,3.5	P	-
+R1733	5.9,1.6	E	was G, stale pre-expansion label (2026-07-20 Phase 4.6): 5.9 now owns trait-as-a-gate
+R1734	5.9,3.7.3	E	was G, stale pre-expansion label (2026-07-20 Phase 4.6): 5.9 owns trait-keyed effect matching
+R1735	4.5	P	-
+R1736	4.5,1.6	E	!TENSION:no-effect-plays same prevention-requires-damage template
+R1737	6.3,1.12,6.1	P	!DROPPED:1.9
+R1738	1.6	E	-
+R1739	1.12	E	-
+R1740	4.2,2.4	E	-
+R1741	3.7.2	E	-
+R1742	-	C	shuffles its own crypt after this card's search effect; standard post-search shuffle convention, fails non-obviousness. Nearest 1.10 (burn/remove-from-game triggers), which doesn't own literal shuffle instructions
+R1743	4.9,4.8	E	-
+R1744	4.9,2.4	E	-
+R1745	4.4	E	-
+R1746	-	C	this card's own burn condition tied to the bled action's outcome; fails transfer, no evidence of a recurring formula. Nearest 3.5 (action cancellation consequences), which owns cancellation generally, not this bespoke burn trigger
+R1747	2.3,3.4	P	action resolves before combat; "after resolution" effects are deferred until after combat, cf. Heidelberg Castle.3 pattern
+R1748	-	C	restates the printed burn-option condition (all [str] vampires in torpor); fails non-obviousness, paraphrases card text only
+R1749	4.5	E	-
+R1750	4.3,4.6	E	-
+R1751	4.6,4.3	E	-
+R1752	1.7	E	-
+R1753	3.7.8,5.4	E	-
+R1754	3.7.2,3.4	P	-
+R1755	3.1,1.14	E	announcement template; cf. Pandora's Whisper.1
+R1756	-	C	any copy of a named card satisfies the search reference except the acting copy itself; fails non-obviousness, card-name identity ordinarily covers any copy. Nearest 1.14 (announced cards), which owns the announcement step, not copy identity
+R1757	3.4	E	-
+R1758	6.9	E	-
+R1759	1.8,3.5	E	master-card analogue of the "cancel an action" template (cf. G00061)
+R1760	1.8,6.6	E	-
+R1761	1.6,5.5,3.7.4	P	-
+R1762	-	C	restates the rulebook default that an X cost's value is declared when the card is played; fails non-obviousness. Nearest 1.7 (X costs), which is the baseline rule already known
+R1763	1.6,1.7	E	-
+R1764	1.10,2.3	E	removed-during-resolution vs. later retrieval-effect timing
+R1765	3.7.4,5.5	E	-
+R1766	1.6,3.7.4	E	-
+R1767	3.7.4	E	-
+R1768	1.8,3.5	E	-
+R1769	-	C	states this card's own action-type classification (recruit action); fails transfer and non-obviousness. Nearest 3.7.4
+R1770	1.7,5.2	P	-
+R1771	1.7,5.2	E	-
+R1772	1.7,1.3	E	-
+R1773	3.5,4.3	E	cf. Enkil Cog pattern: canceled choice can be remade identically
+R1774	-	C	restricts play to the acting minion's own controller; card-specific combat-card restriction, fails transfer absent a recurring formula. Nearest 6.1 (controller definitions)
+R1775	1.15	E	-
+R1776	1.5,2.1	P	using this as a reflex/reaction does not count as playing a reaction card
+R1777	3.7.4,5.2	E	-
+R1778	3.7.4	E	-
+R1779	3.4,3.7.4	E	-
+R1780	4.10,4.3	E	-
+R1781	1.7,5.3	E	partial payment when a cost can't be fully afforded
+R1782	4.4,1.7	P	-
+R1783	-	C	specific interaction between this card and Taste of Vitae's own blood-loss/gain wording; fails transfer beyond this pairing
+R1784	4.4	E	-
+R1785	4.4	E	-
+R1786	3.7.2,3.4	P	identical wording to Succulent Vitae.1, labeled the same
+R1787	5.4	P	-
+R1788	5.4,3.7.5	P	-
+R1789	3.7.8	E	-
+R1790	1.6	P	meeting a discipline requirement to play a card is distinct from possessing that discipline
+R1791	1.1,4.8	P	-
+R1792	4.10,4.3	E	-
+R1793	4.4,4.10	P	unlock-phase trap damage is weapon damage, not wearer-inflicted or environmental
+R1794	4.3	E	settles the "strike: destroy weapon" formula when its object doesn't exist, cf. Bundi.4 pattern
+R1795	4.4	E	-
+R1796	3.5	P	-
+R1797	3.5	P	-
+R1798	3.5	P	-
+R1799	4.3,4.2	E	-
+R1800	1.8,1.7	E	-
+R1801	4.3,4.2	E	-
+R1802	4.2	P	-
+R1803	4.4	E	-
+R1804	1.8,1.7	E	-
+R1805	4.3	E	!TENSION:no-effect-plays  playable on a strike doing no damage (dodge/combat ends) though it will have no effect there
+R1806	4.3,4.2	E	-
+R1807	1.8,1.7	E	-
+R1808	4.3,4.2	E	-
+R1809	1.8,4.3	E	-
+R1810	1.8,1.7	E	-
+R1811	4.3,4.2	E	-
+R1812	4.4	E	-
+R1813	1.8,1.7	E	-
+R1814	4.3	E	!TENSION:no-effect-plays  identical wording to Target Head.5
+R1815	5.5	E	!TENSION:no-effect-plays  flatly barred from targeting allies, the prohibitive counterpart to the Draba-style permissive cases
+R1816	4.9,4.8	E	-
+R1817	4.9,2.4	E	-
+R1818	2.5,1.10	E	card remains playable referencing a target burned earlier in the same window
+R1819	-	C	restates the printed burn-option condition (all Seraph in torpor); fails non-obviousness
+R1820	-	C	elaborates the same card's burn-option condition (a Seraph already bearing a Tattoo Signal still counts ready); fails transfer beyond this card
+R1821	4.1	E	-
+R1822	3.4,3.3	P	-
+R1823	2.2,3.4	P	-
+R1824	3.3	P	failing to block via stealth still counts as declining to block
+R1825	4.9,3.6	P	-
+R1826	2.4,4.9	E	-
+R1827	4.9,4.8	E	-
+R1828	2.4,4.9	E	-
+R1829	3.7.5,3.7.6	P	-
+R1830	3.7.5,3.7.6	E	-
+R1831	3.8	P	-
+R1832	6.2,4.9	P	-
+R1833	6.2,6.5	P	-
+R1834	6.2,5.3	P	-
+R1835	3.1,5.2	P	-
+R1836	1.15	P	-
+R1837	2.1	E	no window exists between this effect's internal sub-steps
+R1838	6.2,3.3	P	-
+R1839	6.2,3.3,3.4	P	-
+R1840	6.2,3.3	P	-
+R1841	-	C	states the source of this card's own blood (the blood bank); card-specific, no general principle
+R1842	3.3,1.7	P	-
+R1843	5.5,1.7	P	-
+R1844	5.7,6.5	E	-
+R1845	1.7	P	-
+R1846	1.7,4.9	E	-
+R1847	-	C	states this card's own provided-action classification (equip action); fails transfer and non-obviousness. Nearest 3.7.3
+R1848	6.5,1.7	P	-
+R1849	1.7	E	-
+R1850	2.4	P	-
+R1851	1.3,1.7	P	-
+R1852	6.7,6.4	P	-
+R1853	1.7	P	-
+R1854	3.4,1.1	E	-
+R1855	-	C	fixes this card's own printed sect; card-specific fact, no general principle
+R1856	3.7.2,3.4	E	-
+R1857	3.6,3.3	P	-
+R1858	3.6,3.3	P	-
+R1859	4.4	P	-
+R1860	4.6,4.7,4.4	P	-
+R1861	4.3,4.10	E	-
+R1862	4.3,4.2	E	-
+R1863	4.8	P	-
+R1864	4.8	P	-
+R1865	1.2,4.3	P	-
+R1866	1.7	E	-
+R1867	-	C	multiple copies of this card can reuse the same "second Toreador" role; card-specific eligibility rule, fails transfer. Nearest 1.13 (contests/unique roles)
+R1868	2.5	E	a granted trait persists despite an intervening bleed attempt
+R1869	3.6,3.3	P	-
+R1870	3.6,3.3	P	-
+R1871	3.6,4.9	P	-
+R1872	3.6,1.11	P	-
+R1873	4.9,3.6	P	-
+R1874	4.4	P	-
+R1875	4.4	P	-
+R1876	3.6,3.3	P	-
+R1877	3.6,3.3	P	-
+R1878	3.6,4.9	P	-
+R1879	3.6,1.11	P	-
+R1880	4.9,3.6	P	-
+R1881	-	C	restricts this card's usability by combat-burned vampires; card-specific condition, fails transfer. Nearest 5.4
+R1882	-	C	restates this card's own eligibility to be played (ready unlocked non-acting minion of the same controller); standard action-modifier default, fails non-obviousness
+R1883	4.8	P	-
+R1884	6.3,1.6	P	-
+R1885	4.4	E	-
+R1886	4.8	P	-
+R1887	4.8	E	-
+R1888	2.3,2.4	P	-
+R1889	3.7.5	P	-
+R1890	3.7.5	P	older ruling (RTR 20010710) appears superseded by .1 (LSJ 20090115-2, opposite pool-burn timing) — flag for review against current card text
+R1891	5.8	C	This card's own zero-blood torpid-Prince interaction; fails transfer — no other card shares this effect chain. Nearest 5.8 (titles) since the outcome turns on Prince status, though 5.8 doesn't claim this specific effect
+R1892	5.8	E	-
+R1893	6.6	C	Confirms this master card carries no vampire requirement, matching the default master-phase-action rule; restates known default — fails non-obviousness
+R1894	3.7.2,3.4	E	-
+R1895	1.11	P	-
+R1896	1.11	C	Confirms this card's own removal effect is immediate, not delayed; card-specific timing, fails transfer. Nearest 1.11 (ash heap) though it doesn't own removal-effect timing
+R1897	3.7.8	E	-
+R1898	3.7.8	E	-
+R1899	3.3	E	-
+R1900	3.3	E	-
+R1901	3.3	E	-
+R1902	-	C	Classifies this card as a non-derivative hunting ground for {Poacher's Hunting Ground}'s counting purposes; card-pair-specific, fails transfer — nothing else in the taxonomy owns hunting-ground classification
+R1903	2.3	E	-
+R1904	4.4	E	-
+R1905	4.4,4.5	E	-
+R1906	4.8	E	-
+R1907	4.4	P	-
+R1908	4.4	P	-
+R1909	5.3	E	-
+R1910	4.8	E	-
+R1911	1.6,5.3	E	-
+R1912	4.9,5.3	E	-
+R1913	4.5	E	-
+R1914	4.5	P	-
+R1915	4.5	P	-
+R1916	4.4	P	-
+R1917	3.3	E	-
+R1918	3.3	E	-
+R1919	3.3	E	-
+R1920	3.2,5.2	E	-
+R1921	3.3	E	-
+R1922	3.7.4	E	-
+R1923	6.7,1.6	E	-
+R1924	1.4	E	-
+R1925	5.3	E	-
+R1926	3.9,3.7.2,3.7.8	E	!DROPPED:1.1
+R1927	3.7.8,3.4	E	-
+R1928	4.5	E	-
+R1929	4.9	E	-
+R1930	-	G	No section owns library-cut mechanics (how a Methuselah may divide/cut a deck being manipulated); rare mechanic, nothing in the taxonomy claims deck-cutting procedure
+R1931	2.4,3.3	P	-
+R1932	3.4,3.5	E	-
+R1933	3.3	E	-
+R1934	3.3,5.2	E	-
+R1935	3.3,1.7	E	-
+R1936	3.2	E	-
+R1937	5.4,1.3	E	-
+R1938	5.7,1.6	E	-
+R1939	5.7	C	Clarifies uniqueness creates no exception to the infernal-torpor prerequisite already stated in .8; narrow edge case restating that rule, fails transfer beyond this ability
+R1940	3.7.3,3.2	E	-
+R1941	3.5	P	-
+R1942	3.5	P	-
+R1943	1.13	E	-
+R1944	3.7.4	E	-
+R1945	4.4,2.1	E	-
+R1946	2.4,5.2	P	-
+R1947	5.2	P	-
+R1948	5.2	E	-
+R1949	4.2,4.3	E	-
+R1950	4.8	E	-
+R1951	3.7.3	C	Classifies this card's provided action as an "equip action"; card-specific classification, fails transfer to a different card
+R1952	3.4	E	-
+R1953	1.1,6.5	E	-
+R1954	1.6,3.7.3	E	-
+R1955	1.6	C	Restates this card's own controller-match requirement between the card and its target vampire; fails non-obviousness — "you control" wording already implies this
+R1956	6.9	E	-
+R1957	6.9,1.9	E	-
+R1958	1.8,3.4	E	!TENSION:no-effect-plays — here a no-effect action does NOT lock the acting vampire, unlike the general rule that any attempted action locks regardless of effect
+R1959	5.5	E	-
+R1960	1.8	E	-
+R1961	2.1	E	-
+R1962	3.5,1.8	E	-
+R1963	4.3	E	-
+R1964	4.3	E	-
+R1965	3.7.5	P	-
+R1966	6.2	E	-
+R1967	5.7,1.6	E	-
+R1968	2.4,3.3	E	-
+R1969	3.6,3.5	E	-
+R1970	4.4	P	-
+R1971	4.6,3.4	E	!TENSION:no-effect-plays — dodge remains playable even though it accomplishes nothing against this effect
+R1972	5.3	E	-
+R1973	1.1	E	-
+R1974	1.14,2.5	E	-
+R1975	1.5,2.1	P	-
+R1976	2.3	E	-
+R1977	6.5,2.4,1.7	P	-
+R1978	1.7,1.6	E	-
+R1979	3.1,1.7	E	-
+R1980	2.2	P	-
+R1981	1.9	E	-
+R1982	1.13	E	-
+R1983	1.9,2.4	E	-
+R1984	1.6	C	Confirms this vampire can play cards requiring two specific disciplines at once; trivially follows from having both disciplines, fails non-obviousness
+R1985	5.9	E	was G, stale pre-expansion label (2026-07-20 Phase 4.6): 5.9 owns whether a changed trait counts for other cards
+R1986	3.7.5,6.5	E	-
+R1987	3.7.5,2.3	E	-
+R1988	3.7.5	E	-
+R1989	1.8,6.6	E	-
+R1990	3.7.2	C	Classifies this card's provided action as a hunt action; card-specific classification, fails transfer to a different card
+R1991	1.6	E	-
+R1992	3.1	C	Classifies this card's action as undirected; card-specific classification, fails transfer to a different card
+R1993	3.3,1.1	P	-
+R1994	2.3	E	-
+R1995	1.7	E	-
+R1996	3.7.2,3.4	P	-
+R1997	3.7.5	E	-
+R1998	5.5,3.7.4	E	-
+R1999	5.5,1.6	E	!TENSION:abnormal-entry-requirements — this ally/retainer burn-requirement applies even through abnormal entry (eg. {Pressing Flesh}), pulling against 1.6's general rule that abnormal entry ignores requirements
+R2000	6.2,3.4	E	-
+R2001	3.7.4	E	-
+R2002	3.7.7	E	-
+R2003	3.7.7,3.7.8,3.4	E	-
+R2004	3.7.7,3.5	E	-
+R2005	3.7.7,5.2,5.9	E	!DROPPED:3.7.5
+R2006	1.8,6.6	E	-
+R2007	6.6	E	-
+R2008	6.6,3.5	E	-
+R2009	-	C	This card's own once-per-turn-per-Tremere blood-transfer limit; fails transfer beyond this location's own text
+R2010	1.9,6.9	E	-
+R2011	3.1	E	-
+R2012	-	C	Purely administrative: flags a 2007 card-text change invalidating older rulings; not a rule at all
+R2013	4.7,4.9	E	-
+R2014	4.4	E	-
+R2015	4.9,4.4	E	-
+R2016	4.5,4.2	E	-
+R2017	3.7.4	E	was G, re-homed (2026-07-20 Phase 4.6): 3.7.4's scope line now claims non-action entry into play
+R2018	3.7.2	E	-
+R2019	3.7.2	E	-
+R2020	2.2	P	-
+R2021	3.1	E	-
+R2022	1.9	E	-
+R2023	4.5,4.10	E	-
+R2024	4.10	E	-
+R2025	4.8	E	-
+R2026	4.4	P	-
+R2027	3.1,1.14	E	-
+R2028	4.4	E	-
+R2029	4.7,4.9	E	-
+R2030	1.10	P	-
+R2031	2.2	P	-
+R2032	2.2,1.9	E	-
+R2033	-	C	Winged Second's "Second" is a pseudo-minion not itself in combat; retainer combat-abilities not applying to it is unique to this card's stand-in mechanic — fails transfer, no other card creates this kind of entity. Nearest 5.6, which doesn't own the "Second" concept.
+R2034	-	C	Withering's own damage-reduction effect explicitly excludes the current strike; fails transfer — no other card shares this wording, and any judge reading the card would expect it. Nearest 4.3.
+R2035	3.6	E	-
+R2036	4.3	E	-
+R2037	1.6,2.5	E	-
+R2038	2.5	P	-
+R2039	-	C	!WORDING mechanics of a two-card combo (Wormwood capping capacity + Orun adding to it); fails transfer beyond this pairing. Nearest 5.1, which doesn't own capacity-stacking between two named cards.
+R2040	6.7,1.13	E	-
+R2041	1.1	P	-
+R2042	5.9,5.8	P	-
+R2043	5.8	P	-
+R2044	3.7.2	P	-
+R2045	4.4	E	-
+R2046	3.5,3.7.5	E	-
+R2047	1.7,5.2	E	-
+R2048	3.5,3.7.5	E	-
+R2049	4.9,3.7.5	E	-
+R2050	4.9,3.7.5	P	-
+R2051	-	C	Standard "effect ends when its source leaves play" applied to a continuous bonus, including via ousting; fails non-obviousness — any judge expects a burned or ousted card's bonus to lapse. Nearest 6.4.
+R2052	2.2	E	-
+R2053	-	C	Card-specific text for Young Bloods' own built-in low-blood-target ability; fails transfer, no other card shares this wording. Nearest 5.7.
+R2054	3.4	E	-
+R2055	4.3,5.4	E	!WORDING double negative ("cannot normally not be used") is unclear; read as "cannot normally be used."
+R2056	6.1	E	-
+R2057	3.5	E	-
+R2058	4.4	E	-
+R2059	4.3	E	-
+R2060	3.6	P	-
+R2061	3.6	P	-
+R2062	1.2,3.8	E	-
+R2063	3.10,1.2	E	-
+R2064	2.1	E	-
+R2065	3.7.1	E	-
+R2066	4.3,4.10	E	-
+R2067	3.3	E	-
+R2068	3.1,3.4	E	-
+R2069	4.10	G	No section owns whether placing a card/counter on a minion opens a "steal" opportunity — a real transferable principle no scope line claims. Nearest 4.10 (equipment theft), but that section is about stealing in combat, not placement triggers.
+R2070	5.2,6.5	E	-
+R2071	1.3	P	-
+R2072	1.7,1.3	E	-
+R2073	4.6	E	-
+R2074	5.5	E	-
+R2075	1.3	E	-
+R2076	4.2	P	-
+R2077	5.2,3.5	E	-
+R2078	1.7,6.1	E	!WORDING referent of "they" is unclear (equipment cards vs. the Methuselah); read as cost reduction applying to minion cards played by the Methuselah controlling them.
+R2079	1.7,5.2	P	-
+R2080	1.7	E	-
+R2081	5.5,1.7	E	-
+R2082	1.7,1.3	E	-
+R2083	3.1,6.7	E	-
+R2084	3.1	E	-
+R2085	3.2	E	-
+R2086	3.2	E	-
+R2087	3.2	E	!TENSION:no-effect-plays playable on a no/negative-stealth minion though it will do nothing; prohibition-style rulings elsewhere point the other way.
+R2088	3.3,3.2	E	-
+R2089	3.6	P	-
+R2090	3.6	P	-
+R2091	3.6	P	-
+R2092	3.6	P	-
+R2093	5.2,2.2	E	-
+R2094	1.3	P	-
+R2095	4.4	E	-
+R2096	4.8	E	-
+R2097	6.9	E	-
+R2098	6.9,6.4	E	-
+R2099	6.1	E	-
+R2100	-	C	Specific combo of Agaitas' library-search output with Concealed Weapon's selection pool; fails transfer beyond this pairing. Nearest 4.10.
+R2101	1.8,1.9	E	-
+R2102	4.9,3.6	P	-
+R2103	4.9	E	-
+R2104	4.4	E	-
+R2105	5.2	E	-
+R2106	3.3,5.2	E	-
+R2107	3.7.6,5.3	E	-
+R2108	5.8	P	-
+R2109	3.1	E	-
+R2110	4.9,5.3	E	-
+R2111	4.9	E	-
+R2112	4.9	E	-
+R2113	5.8	P	-
+R2114	1.13,1.8	P	-
+R2115	-	C	Card-specific applicability condition (Anarch Convert converting an already-anarch, untitled vampire); fails transfer to other conversion-style cards. Nearest 5.8.
+R2116	1.2,3.7.1	E	-
+R2117	3.4,1.2	E	-
+R2118	3.4,1.2	P	-
+R2119	3.7.1	E	-
+R2120	3.4,3.7.1	E	-
+R2121	2.2,1.8	E	-
+R2122	6.7,5.2	E	-
+R2123	3.2,1.2	E	-
+R2124	1.9	E	-
+R2125	1.13	P	-
+R2126	1.13	E	-
+R2127	3.7.4,5.6	E	-
+R2128	2.5	P	-
+R2129	5.8	P	-
+R2130	1.2,3.8	E	-
+R2131	3.1	P	-
+R2132	3.3	P	-
+R2133	1.7	P	-
+R2134	2.1	E	-
+R2135	3.7.1	E	-
+R2136	5.2	E	-
+R2137	5.2	E	-
+R2138	3.7.6	E	-
+R2139	3.7.6	E	-
+R2140	5.8	P	-
+R2141	3.7.5,6.5	E	-
+R2142	4.3,1.8	E	-
+R2143	1.8,1.9	P	-
+R2144	1.8,1.2	E	-
+R2145	1.8,3.5	E	-
+R2146	3.7.5	E	-
+R2147	3.7.6	E	-
+R2148	3.7.6	E	-
+R2149	5.8	P	-
+R2150	5.8	P	-
+R2151	3.7.4	E	-
+R2152	5.8	P	-
+R2153	1.6,5.8	E	-
+R2154	1.6,5.8	E	-
+R2155	3.7.3,3.7.4	E	-
+R2156	1.3,3.7.3	E	-
+R2157	3.7.5	E	-
+R2158	1.2,3.8	E	-
+R2159	1.6	P	-
+R2160	1.7	E	-
+R2161	1.7,6.3	E	-
+R2162	5.1,5.8	E	-
+R2163	3.7.8	E	-
+R2164	4.4	E	-
+R2165	3.7.8,1.2	E	-
+R2166	6.1,1.13	E	-
+R2167	1.9,5.4	P	-
+R2168	4.2	P	-
+R2169	2.5,1.12	P	-
+R2170	6.1,1.11	E	-
+R2171	3.1,1.14	E	-
+R2172	5.8	P	-
+R2173	5.3	P	-
+R2174	4.5,5.5	E	-
+R2175	4.5	E	-
+R2176	1.3	P	-
+R2177	1.5	E	-
+R2178	5.1	E	-
+R2179	5.8	P	-
+R2180	1.3	E	-
+R2181	3.7.6	E	-
+R2182	2.5,5.5	E	-
+R2183	5.8,1.7	E	-
+R2184	1.12,1.10,1.7	P	-
+R2185	4.8	E	-
+R2186	5.8	P	-
+R2187	3.3,1.7	E	-
+R2188	1.7,3.3	E	-
+R2189	3.7.5,6.5	E	-
+R2190	3.7.5,6.5	E	-
+R2191	1.15	E	-
+R2192	1.13	E	-
+R2193	1.7	C	specific interaction between Dragos's own burn-cost ability and superior {Terror Frenzy}'s combat-card protection; fails transfer — only concerns this card pairing (and is explicitly a reversal of prior rulings, i.e. card-specific history, not a stable principle). Nearest 1.7, which doesn't own this pairing.
+R2194	1.7	P	-
+R2195	3.1,1.14	E	-
+R2196	1.5,1.2	E	-
+R2197	6.9	P	-
+R2198	3.4,3.3	E	-
+R2199	1.2,3.7.5	P	-
+R2200	3.7.3	E	-
+R2201	3.7.3,1.3	E	-
+R2202	1.11,3.1	E	-
+R2203	1.11	P	-
+R2204	1.13	E	-
+R2205	3.1	P	-
+R2206	6.3	E	-
+R2207	5.5	P	-
+R2208	3.1	E	-
+R2209	5.2,1.1	P	-
+R2210	5.8	P	-
+R2211	3.7.6	C	her own conditional vote-granting requirement (prey controls a ready Camarilla vampire); pure card-specific condition, no general principle about votes — fails transfer, any card can carry an arbitrary condition. Nearest 3.7.6.
+R2212	1.5	C	her own condition restricting ability use to when she's in combat; card-specific, fails both tests — obviously any ability can be conditioned this way. Nearest 1.5 (ability conditions).
+R2213	3.7.7,1.1	P	-
+R2214	1.6	P	-
+R2215	1.6	E	-
+R2216	1.5	E	-
+R2217	3.7.6	P	-
+R2218	5.1	E	-
+R2219	-	C	prohibits herself from playing one specific named other card ({Lay Low}); pure card-specific text, no transfer beyond this one pairing, and nothing general to state.
+R2220	5.8	E	-
+R2221	-	C	restates her own printed ability text (steal 2 blood or life); no interpretive content, purely descriptive of the card.
+R2222	5.1	E	-
+R2223	5.8,3.7.6	E	-
+R2224	3.7.6	P	-
+R2225	1.13	E	-
+R2226	1.9	P	-
+R2227	6.9,1.9	P	-
+R2228	5.8	P	-
+R2229	3.7.8,6.5	E	-
+R2230	3.7.3	E	-
+R2231	3.7.3,1.3	E	-
+R2232	5.1	E	-
+R2233	4.5	P	-
+R2234	1.3	E	-
+R2235	5.1,2.1	E	-
+R2236	1.13	E	-
+R2237	5.1,2.1	E	-
+R2238	1.13	E	-
+R2239	5.8	E	-
+R2240	1.3	P	-
+R2241	3.7.3	E	-
+R2242	6.5,3.4	E	-
+R2243	1.5,1.2	E	-
+R2244	1.6	E	-
+R2245	3.7.2	E	-
+R2246	5.8	P	-
+R2247	1.13	E	-
+R2248	6.7	E	-
+R2249	1.7	P	-
+R2250	1.7,6.9	E	-
+R2251	4.9,3.6	P	-
+R2252	4.9	E	-
+R2253	5.8	P	-
+R2254	5.1	E	-
+R2255	1.3	P	-
+R2256	3.4,3.1	P	-
+R2257	1.7,2.4	E	-
+R2258	-	C	restates her own numeric stealth bonus condition (superior [PRE] used with {The Summoning}); card-specific, no general principle.
+R2259	1.13,6.7	E	-
+R2260	1.13	C	extremely specific three-card combo chain (second Jimmy Dunn + Vicissitude's {Reform Body} + unavoidable contest-burn); fails transfer — describes one scenario, not a restatable rule. Nearest 1.13.
+R2261	1.13	P	-
+R2262	1.13	E	-
+R2263	1.5,6.9	E	-
+R2264	1.15	E	-
+R2265	5.8	P	-
+R2266	5.8	E	-
+R2267	5.3	P	-
+R2268	5.8	E	-
+R2269	5.8	P	-
+R2270	3.7.6	E	-
+R2271	3.7.6	P	-
+R2272	5.8	P	-
+R2273	1.6	P	-
+R2274	1.6,5.8	E	-
+R2275	1.6,3.7.5	E	-
+R2276	1.6	E	-
+R2277	1.6,5.8	E	-
+R2278	5.8	P	-
+R2279	-	C	her own conditional stealth bonus (multi-target action, one or more targets lack a ready Sabbat vampire); card-specific text, no general principle.
+R2280	3.7.6	E	-
+R2281	3.5	P	-
+R2282	3.7.2	E	-
+R2283	1.2,3.7.2	E	-
+R2284	3.7.2	E	-
+R2285	3.7.2	P	-
+R2286	3.7.2	E	-
+R2287	5.8	P	-
+R2288	3.7.3	P	-
+R2289	5.8	P	-
+R2290	5.1	E	-
+R2291	6.7	E	-
+R2292	4.8	E	-
+R2293	1.9	C	his ability's own secrecy clause (replacement card not seen by opponent); card-specific, no general rule about replacement visibility transfers elsewhere. Nearest 1.9.
+R2294	1.1	P	-
+R2295	6.7	E	-
+R2296	1.6	P	-
+R2297	1.6	E	-
+R2298	1.6	E	-
+R2299	1.6	E	-
+R2300	3.7.4,1.6	E	-
+R2301	1.7	P	-
+R2302	5.3	P	-
+R2303	3.7.8	C	timing restriction relative to one specific other card ({Amaranth}); reads as a consequence of Amaranth's own diablerie/torpor effect removing him from play rather than a general rule. Nearest 3.7.8.
+R2304	1.1,4.8,4.3	P	-
+R2305	3.7.3,3.7.4	E	-
+R2306	3.7.3,1.3	E	-
+R2307	5.1	E	-
+R2308	5.2	E	-
+R2309	3.7.3,1.6	P	-
+R2310	3.7.3	P	-
+R2311	4.3,1.7	E	-
+R2312	4.3,4.2	E	-
+R2313	5.8	P	-
+R2314	1.8,3.7.5	E	-
+R2315	3.7.5,6.5	E	-
+R2316	3.7.5,6.5	E	-
+R2317	5.8	P	-
+R2318	5.8	P	-
+R2319	5.2,3.2	E	-
+R2320	3.2,2.5	E	-
+R2321	1.5,5.3,3.2	E	-
+R2322	5.1	P	-
+R2323	5.1	P	-
+R2324	1.3,1.7	E	-
+R2325	4.9	P	-
+R2326	4.1	E	-
+R2327	4.9,4.1,3.6	E	-
+R2328	4.9,5.2	E	-
+R2329	1.5,5.3	E	-
+R2330	1.5,1.2	E	-
+R2331	1.5,5.2	E	-
+R2332	1.11	P	-
+R2333	1.8,1.11	P	-
+R2334	1.11	C	specific eligibility reversal for {Psyche!}/her ability; fails transfer — teaches nothing about ash-heap retrieval beyond this one exception
+R2335	4.8	P	-
+R2336	5.8	P	-
+R2337	1.6,2.5	P	-
+R2338	1.6,2.5	E	-
+R2339	5.8,1.6	E	-
+R2340	1.6	C	confirms she is not Laibon for Orun/Aye placement; fails non-obviousness — ordinary clan-restriction logic a fluent judge already knows
+R2341	5.1	C	this card's own numeric capacity-threshold/counter mechanic ({Call the Great Beast}); fails transfer — no other card shares the formula
+R2342	1.6	P	-
+R2343	1.6	P	-
+R2344	3.2,1.5	E	-
+R2345	5.8	P	-
+R2346	5.8,1.6	E	-
+R2347	5.1	P	-
+R2348	4.4,2.4	E	-
+R2349	4.4	P	-
+R2350	4.2	P	-
+R2351	3.7.5,1.2,5.2	P	-
+R2352	4.1	C	plain reading of "when she is in combat" as herself, not another minion; fails non-obviousness
+R2353	3.7.7,1.1	P	-
+R2354	5.8	P	-
+R2355	1.5,5.2,5.3	E	!DROPPED:3.2 stealth is the ability's payload, but locked+torpor usability already fills the 3-code cap
+R2356	3.7.8	C	specific carve-out naming one card ({Blood Hunt}); fails transfer to other cards
+R2357	4.8	C	confirms one specific card combo functions as printed ({Trap} + presses); fails transfer
+R2358	3.7.6,2.4	P	-
+R2359	6.9,5.3,2.5	P	-
+R2360	6.6,1.5,1.2	E	-
+R2361	3.3	E	-
+R2362	5.8	P	-
+R2363	3.7.6	E	-
+R2364	5.8	P	-
+R2365	5.8	P	-
+R2366	1.7,3.7.1,3.4	P	-
+R2367	1.7	E	-
+R2368	1.7,1.5,3.5	E	-
+R2369	1.8,1.7,1.5	E	-
+R2370	1.3	P	-
+R2371	1.13	P	-
+R2372	1.13	E	-
+R2373	1.13,5.8	E	-
+R2374	3.2,1.5	E	-
+R2375	1.2,5.2,6.2	P	-
+R2376	2.1,1.1	P	-
+R2377	3.7.2,3.8	E	-
+R2378	1.5,5.3,3.7.2	E	-
+R2379	6.4,5.2	E	-
+R2380	1.13	E	-
+R2381	6.2,6.4	P	-
+R2382	3.1,1.14	E	-
+R2383	1.5,5.2,5.3	E	-
+R2384	6.7,1.5	E	-
+R2385	4.4	P	-
+R2386	1.6,2.5	P	-
+R2387	1.6	P	-
+R2388	1.6	P	-
+R2389	4.8	P	-
+R2390	5.1	P	-
+R2391	1.6,2.5	P	-
+R2392	1.6	P	-
+R2393	3.9,3.7.8	P	moved 1.1->3.9 (2026-07-20 Phase 4.6): not-stuck-after-discharge, a 3.9 sub-topic
+R2394	3.9,3.7.8,5.2	P	moved 1.1->3.9 (2026-07-20 Phase 4.6): recurring mandatory-action obligation across unlocks
+R2395	3.1,1.14	E	-
+R2396	1.13,2.1	P	-
+R2397	3.7.1	C	plain reading that the ability is conditioned on his own act of bleeding; fails non-obviousness
+R2398	3.7.1	E	-
+R2399	4.8	P	-
+R2400	1.2	P	!WORDING "minion phase" is non-standard phase terminology (untap/master/influence/combat are the named phases); labeled as written
+R2401	3.5	C	procedural token-tracking suggestion for this card's own multi-turn requirement; fails transfer, and "if players agree" marks it non-normative anyway
+R2402	3.7.2,5.1	E	-
+R2403	5.3,4.5	P	-
+R2404	6.9,1.10	P	-
+R2405	5.8	P	-
+R2406	5.2	P	-
+R2407	3.7.3,1.3	E	-
+R2408	3.7.3	E	-
+R2409	5.8	P	-
+R2410	5.1	P	-
+R2411	1.3	P	-
+R2412	4.4	P	-
+R2413	6.9,1.9	P	-
+R2414	5.8,1.6	P	-
+R2415	1.8,1.5,1.2	E	-
+R2416	1.8,1.7	P	-
+R2417	6.5,3.7.5,3.4	P	-
+R2418	5.1	P	-
+R2419	6.2	P	-
+R2420	6.9	P	-
+R2421	5.8	P	-
+R2422	1.3	P	-
+R2423	5.5,1.6	E	-
+R2424	5.1,5.8	C	states her specific merged identity/title; fails transfer — the general merge-changes-sect-and-burns-token principle is already carried by the sibling template rulings (eg. R2322)
+R2425	5.3,4.5	P	-
+R2426	6.9,1.9	E	-
+R2427	1.13,2.1	P	-
+R2428	4.4	P	-
+R2429	5.8	P	-
+R2430	2.3,2.4	P	-
+R2431	4.4	P	-
+R2432	4.4	C	this card's own counter-granting trigger condition (consecutive-round hand damage); fails transfer
+R2433	3.3,5.5,1.2	P	-
+R2434	3.2	C	specific card-interaction exclusion ({The Unmasking} + her); fails transfer beyond this pair
+R2435	1.13,6.4,6.5	E	-
+R2436	1.5,2.1	E	!WORDING calls its own timing "as an action modifier" yet usable after block attempts conclude, which is not typical action-modifier timing — flag for check against card text
+R2437	3.7.6	P	-
+R2438	3.7.6	P	-
+R2439	5.1	P	-
+R2440	1.5,5.2	E	-
+R2441	5.8	P	-
+R2442	5.8	P	-
+R2443	6.6	P	-
+R2444	3.7.3,1.6	E	-
+R2445	5.2,1.2,1.6	P	-
+R2446	3.2,3.1	E	-
+R2447	5.1	P	-
+R2448	5.1	P	-
+R2449	5.1	P	-
+R2450	1.6,2.5	P	-
+R2451	1.6	P	-
+R2452	2.5,6.4,1.12	P	-
+R2453	5.9,2.5	P	-
+R2454	3.2,5.9,2.5	E	!DROPPED:3.10
+R2455	6.5	P	-
+R2456	6.5,3.4	P	-
+R2457	4.8	P	-
+R2458	5.1	P	-
+R2459	5.8	P	-
+R2460	5.8	P	-
+R2461	1.5,5.2,5.3	E	-
+R2462	3.7.3,1.6	E	-
+R2463	3.7.3,1.7,1.6	P	-
+R2464	1.5,5.3	E	-
+R2465	3.7.5,3.1	P	-
+R2466	1.9,6.9	E	-
+R2467	1.7,3.4	E	-
+R2468	1.3	G	discipline-choice card ([vis]/[tha]) counts as the chosen discipline for all purposes once played; general but no section owns multi-discipline-choice card classification; nearest 1.3 (card types/multi-type cards)
+R2469	5.8	P	-
+R2470	5.3	E	-
+R2471	2.5,3.3	P	-
+R2472	4.8	E	-
+R2473	1.13	P	-
+R2474	1.6	E	-
+R2475	1.13	E	-
+R2476	1.6	P	-
+R2477	1.6	E	-
+R2478	1.6,1.8	E	-
+R2479	5.7,5.8	P	-
+R2480	1.6,5.8	P	-
+R2481	1.6,5.8	P	-
+R2482	1.6,5.8	P	-
+R2483	1.6	E	was G, taxonomy had already adjudicated it (2026-07-20 Phase 4.6): single instance, 1.6 nearest; struck from watch list
+R2484	1.6	C	Orun/Aye clan-restricted cards cannot be placed on him while he is not Laibon; ordinary clan-requirement application, no transfer beyond Laibon-restricted cards on a non-Laibon-counting vampire; fails non-obviousness
+R2485	5.1	C	specific capacity-threshold interaction with {Call the Great Beast}'s own burn/counter mechanic; fails transfer — affects no other card
+R2486	1.6,1.7	P	-
+R2487	1.6	P	-
+R2488	1.6	E	-
+R2489	3.2	C	card-specific interaction/reversal ruling for {No Secrets From the Magaji}; a one-off reversal, not a template — fails transfer
+R2490	1.6	E	-
+R2491	1.6,5.8	E	-
+R2492	1.6,5.8	E	-
+R2493	1.6,5.8	E	-
+R2494	1.6,5.8	E	-
+R2495	1.6,5.8	E	-
+R2496	1.6	E	-
+R2497	5.8	P	-
+R2498	3.7.3	E	-
+R2499	1.7	C	his cost-reduction ability restricted to masters played by his own controller; restates the ordinary controller-scoped reading of "his controller", fails non-obviousness
+R2500	3.6	P	-
+R2501	3.6	P	-
+R2502	3.6,1.9	P	-
+R2503	5.3	E	-
+R2504	1.7,1.8	E	-
+R2505	1.7,1.8	E	-
+R2506	5.3	P	-
+R2507	1.5,4.1	P	-
+R2508	1.6	P	-
+R2509	1.5,4.1	E	-
+R2510	1.6	E	-
+R2511	1.6,1.7	E	-
+R2512	1.6	E	-
+R2513	5.8	E	-
+R2514	5.1	P	-
+R2515	1.15,5.8	E	-
+R2516	5.1	E	-
+R2517	5.1	E	-
+R2518	5.8	E	-
+R2519	2.4,5.5	E	-
+R2520	1.8,3.7.4	E	-
+R2521	3.7.4,1.6	E	-
+R2522	3.7.4,1.6	E	-
+R2523	5.2	C	her unlock trigger keyed to a specific action (defecting to become Anarch); card-specific reflex condition, fails transfer
+R2524	3.9,3.7.1	P	-
+R2525	3.9,3.7.1	P	-
+R2526	3.9,3.7.1	P	-
+R2527	1.2,6.6	E	-
+R2528	5.1,6.2	E	-
+R2529	3.1	P	-
+R2530	1.2	E	-
+R2531	1.6	E	-
+R2532	4.1	E	-
+R2533	5.2	C	being locked by one effect doesn't prevent normal unlock afterward; restates default lock/unlock behavior, fails non-obviousness
+R2534	1.6	E	-
+R2535	1.3,1.7	E	-
+R2536	6.2	P	-
+R2537	1.10	P	-
+R2538	1.13	P	-
+R2539	3.7.2	P	-
+R2540	5.2,5.7	P	-
+R2541	2.3,2.4	P	-
+R2542	2.3,5.3	P	-
+R2543	1.9,6.4	P	-
+R2544	1.6	P	6.8 code DELETED (2026-07-20 Phase 4.6); requirement checked only when played = 1.6's play-vs-keep rule
+R2545	1.2	P	-
+R2546	5.5,3.5,4.9	P	!DROPPED:4.7
+R2547	5.7	P	-
+R2548	1.3,1.6	P	-
+R2549	1.2	P	-
+R2550	6.5,3.7.6	P	-
+R2551	5.6,4.4,4.5	P	-
+R2552	4.4,4.6,4.7	P	-
+R2553	5.5	P	-
+R2554	5.7	P	-
+R2555	1.9	P	-
+R2556	3.7.6,3.7.5	P	-
+R2557	3.7.5,3.7.6	P	-
+R2558	6.9,2.1	P	-
+R2559	1.2,4.10,4.3	P	-
+R2560	1.9,2.4	P	-
+R2561	4.5	P	-
+R2562	1.5,5.3	P	-
+R2563	1.12	P	-
+R2564	5.6,4.3	P	-
+R2565	3.7.6,1.2,1.11	P	-
+R2566	6.6,1.1	P	-
+R2567	1.7	P	-
+R2568	4.5,4.4	P	-
+R2569	5.8,3.1	P	-
+R2570	3.8,1.2	P	-
+R2571	3.1	P	-
+R2572	1.6,5.8	P	-
+R2573	5.8,5.1	P	-
+R2574	3.7.6,5.3,1.2	P	-
+R2575	3.7.6,1.2	P	-
+R2576	5.7	P	-
+R2577	5.8,1.13,3.8	P	-
+R2578	5.7	P	-
+R2579	5.7	P	-
+R2580	4.10,1.2	P	-
+R2581	4.10,1.2	P	-
+R2582	1.3,6.3	P	-
+R2583	3.1,1.3	P	-
+R2584	1.3,1.7	P	-
+R2585	4.3,3.4	P	-
+R2586	4.10	P	-
+R2587	2.2	P	-
+R2588	2.2,1.9	P	-
+R2589	5.1,1.11	P	-
+R2590	6.7,5.1	P	-
+R2591	1.10	P	-
+R2592	1.10	P	-
+R2593	1.8	P	-
+R2594	1.8,1.9	P	-
+R2595	1.8	P	-
+R2596	1.8,3.5,4.3	P	-
+R2597	1.3	P	-
+R2598	3.5	P	-
+R2599	1.8,3.5	P	[cited — 3.5.4]
+R2600	3.5,3.7.4,3.7.5	P	-
+R2601	1.8,5.2	P	-
+R2602	1.8,2.1	P	-
+R2603	1.8,4.1	P	-
+R2604	3.7.2	P	-
+R2605	1.7	P	-

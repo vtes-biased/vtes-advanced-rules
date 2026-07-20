@@ -1,0 +1,145 @@
+R0146	1.1	P
+R0147	1.4	E
+R0148	1.4	E
+R0149	1.7,6.5	E
+R0150	3.5	E
+R0151	3.5	E
+R0152	6.5	C	negates the base "predator draws on oust" consequence; this is Bitter and Sweet Story's own printed override — fails transfer, no other card is affected. Nearest 6.5, which owns oust consequences generally, not this card's specific exception.
+R0153	3.5	E
+R0154	4.4	E
+R0155	3.3	E
+R0156	3.3	E
+R0157	3.3,3.1	E
+R0158	3.3	E
+R0159	6.4,1.10	E
+R0160	6.4,6.5	E
+R0161	5.3,1.2	G	teaches two homeless generals at once: counters stacking cumulatively on the same vampire (nearest 1.2, the recurring stacking gap) and torpor-rescue burning all such counters (nearest 5.3). Neither section's scope claims either half.
+R0162	5.3,5.5	C	the stay-or-burn choice is Blade Clot's own counter mechanic — fails transfer; "allies cannot go to torpor" restates a rule any fluent judge already knows — fails non-obviousness. Nearest 5.3 (torpor) and 5.5 (allies).
+R0163	1.6	E
+R0164	2.1	E
+R0165	3.5,1.2	E
+R0166	4.4	P
+R0167	4.3	E
+R0168	5.4,6.1	E
+R0169	3.3,2.5	E
+R0170	1.1	E	!TENSION:no-effect-plays a prohibition bars play when there is no equipment to steal — prohibition side of the question (contrast Draba.3's permissive side)
+R0171	3.1,1.9	E
+R0172	4.4	P
+R0173	5.3	E
+R0174	2.1,4.1	E
+R0175	4.4	E
+R0176	4.5,4.7,5.3	E
+R0177	4.6,4.9	E
+R0178	5.5	C	restates this card's own printed target restriction (cannot be played against an ally) — fails transfer, no other card is affected by this reading.
+R0179	4.1,4.9	E
+R0180	4.9	E
+R0181	4.9,5.3	E
+R0182	2.4	E
+R0183	4.4	P
+R0184	4.9,1.7	E
+R0185	4.3	P
+R0186	5.3,3.7.8	E
+R0187	3.5	E
+R0188	5.4	E
+R0189	5.3	E
+R0190	4.4	P
+R0191	4.5	E
+R0192	4.6	E
+R0193	4.3	E
+R0194	4.3	E
+R0195	1.1	E	!TENSION:no-effect-plays a prohibition bars playing even for zero effect — the inverse of the Draba case
+R0196	4.4	E
+R0197	4.4	E
+R0198	4.4,5.3	E
+R0199	4.5,2.4,4.4	E
+R0200	4.5	E
+R0201	4.2,4.3	E
+R0202	4.4	P
+R0203	4.6	E
+R0204	4.5	E
+R0205	1.1	E	!TENSION:no-effect-plays a prohibition bars playing even for zero effect — the inverse of the Draba case (identical wording to Blood Fury.6)
+R0206	2.4,4.5	E
+R0207	4.5	E
+R0208	4.4	P
+R0209	4.2,4.3	E
+R0210	1.1	C	non-interaction between two named cards (Blood Trade / Consanguineous Boon); no principle transfers beyond the pair — fails transfer. Nearest 1.1, and only loosely.
+R0211	5.5	E
+R0212	5.5	C	Anarch-faction-specific hand-off mechanic unique to Blood Turnip — fails transfer to other transfer-effect cards.
+R0213	1.9	E
+R0214	5.8	E
+R0215	4.8	P
+R0216	4.5	P
+R0217	1.6	C	restates this card's own printed target requirement (superior Valeren) — fails transfer to other cards' discipline-level requirements.
+R0218	3.7.3	E
+R0219	3.5	E
+R0220	4.3	P
+R0221	1.3	E
+R0222	4.4	E
+R0223	4.4	P
+R0224	1.1	E	!TENSION:no-effect-plays a prohibition bars playing even for zero effect — the inverse of the Draba case (identical wording to Blood Fury.6)
+R0225	4.5,4.2	E
+R0226	1.1	E
+R0227	4.4	E
+R0228	3.4	E	!TENSION:no-effect-plays permissive side: the action proceeds and can even succeed while having no effect, mirroring Draba.3
+R0229	4.7,1.10	E
+R0230	4.8	P
+R0231	5.2,4.9	E
+R0232	5.2,4.9	E
+R0233	1.1	E	!TENSION:no-effect-plays prohibition bars play when the effect (stealth) would not be needed — prohibition side of the question
+R0234	3.2	E
+R0235	4.3	P
+R0236	4.6,4.5	E
+R0237	6.3,1.6	P
+R0238	5.7	C	scope limit of a control-taking effect against Imbued incapacitation, a narrow interaction specific to Imbued mechanics — fails transfer beyond it. Nearest 5.7.
+R0239	4.4	E
+R0240	1.8	E
+R0241	-	C	pure two-card interaction (Botched Move / Dark Influences); no general principle and nothing in the taxonomy comes close — fails transfer.
+R0242	2.5,6.2	E
+R0243	5.1	C	position-based crypt targeting plus secret counter-tracking, unique to Brainwash's own mechanic — fails transfer to other cards' targeting. Nearest 5.1.
+R0244	4.4	E
+R0245	4.2	P
+R0246	5.4	E
+R0247	3.7.4	E
+R0248	4.5	E
+R0249	5.2	E
+R0250	5.2	E
+R0251	1.1	E	!TENSION:no-effect-plays prohibition side: cannot be played absent a suitable minion to act on
+R0252	3.5	E
+R0253	3.3	E
+R0254	1.1,5.2	E	!TENSION:no-effect-plays prohibition side: cannot be played absent a ready, unlocked minion; also touches 5.2's lock-state requirement
+R0255	1.6	C	restates this card's own printed target restriction (ready acting Brujah) — fails transfer.
+R0256	5.7	C	complex Orun/Laibon lock-and-bleed interaction unique to this card — fails transfer.
+R0257	4.4	P
+R0258	1.1	E
+R0259	4.3	E
+R0260	4.3	E
+R0261	4.3	E
+R0262	4.4	E
+R0263	4.4,4.2	E
+R0264	3.7.5	E
+R0265	3.7.5	E
+R0266	5.7	E
+R0267	1.6	C	this card's own action requires the Baali clan/discipline to take — a printed gate specific to this card, not a general requirements principle.
+R0268	5.7	E
+R0269	1.1	E	!TENSION:no-effect-plays permissive side: playable against a target with none of the relevant resource, mirroring Draba.3
+R0270	4.5	E
+R0271	6.9,5.7,1.9	E
+R0272	4.4	E
+R0273	1.2	G	cumulative/stacking effects: nothing owns "multiple instances of an effect stack." This is the taxonomy's own cited example for the watch-list gap; 1.2 is nearest but does not claim it.
+R0274	1.7,3.3	E
+R0275	1.2	E
+R0276	5.7	E
+R0277	2.5,5.6	E
+R0278	3.4	E	!TENSION:no-effect-plays permissive side, identical wording to Bomb.3: action proceeds and can succeed while having no effect
+R0279	6.5,1.7	C	this card's own mass pool-burn rate (per equipment/location/retainer) restates its printed effect — fails transfer to other cards' cost structures.
+R0280	1.1	E	!TENSION:no-effect-plays prohibition side: cannot be played absent equipment to destroy
+R0281	2.3	P
+R0282	2.2	E
+R0283	2.3,3.5	E
+R0284	3.5	E
+R0285	3.7.4,3.7.8	E
+R0286	1.2	P
+R0287	4.4	E
+R0288	4.4,4.9	E
+R0289	4.9,4.4	E
+R0290	4.6	E

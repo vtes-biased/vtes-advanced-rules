@@ -1,0 +1,145 @@
+R2321	1.5,5.3,3.2	E
+R2322	5.1	P
+R2323	5.1	P
+R2324	1.3,1.7	E
+R2325	4.9	P
+R2326	4.1	E
+R2327	4.9,4.1,3.6	E
+R2328	4.9,5.2	E
+R2329	1.5,5.3	E
+R2330	1.5,1.2	E
+R2331	1.5,5.2	E
+R2332	1.11	P
+R2333	1.8,1.11	P
+R2334	1.11	C	specific eligibility reversal for {Psyche!}/her ability; fails transfer — teaches nothing about ash-heap retrieval beyond this one exception
+R2335	4.8	P
+R2336	5.8	P
+R2337	1.6,2.5	P
+R2338	1.6,2.5	E
+R2339	5.8,1.6	E
+R2340	1.6	C	confirms she is not Laibon for Orun/Aye placement; fails non-obviousness — ordinary clan-restriction logic a fluent judge already knows
+R2341	5.1	C	this card's own numeric capacity-threshold/counter mechanic ({Call the Great Beast}); fails transfer — no other card shares the formula
+R2342	1.6	P
+R2343	1.6	P
+R2344	3.2,1.5	E
+R2345	5.8	P
+R2346	5.8,1.6	E
+R2347	5.1	P
+R2348	4.4,2.4	E
+R2349	4.4	P
+R2350	4.2	P
+R2351	3.7.5,1.2,5.2	P
+R2352	4.1	C	plain reading of "when she is in combat" as herself, not another minion; fails non-obviousness
+R2353	3.7.7,1.1	P
+R2354	5.8	P
+R2355	1.5,5.2,5.3	E	!DROPPED:3.2 stealth is the ability's payload, but locked+torpor usability already fills the 3-code cap
+R2356	3.7.8	C	specific carve-out naming one card ({Blood Hunt}); fails transfer to other cards
+R2357	4.8	C	confirms one specific card combo functions as printed ({Trap} + presses); fails transfer
+R2358	3.7.6,2.4	P
+R2359	6.9,5.3,2.5	P
+R2360	6.6,1.5,1.2	E
+R2361	3.3	E
+R2362	5.8	P
+R2363	3.7.6	E
+R2364	5.8	P
+R2365	5.8	P
+R2366	1.7,3.7.1,3.4	P
+R2367	1.7	E
+R2368	1.7,1.5,3.5	E
+R2369	1.8,1.7,1.5	E
+R2370	1.3	P
+R2371	1.13	P
+R2372	1.13	E
+R2373	1.13,5.8	E
+R2374	3.2,1.5	E
+R2375	1.2,5.2,6.2	P
+R2376	2.1,1.1	P
+R2377	3.7.2,3.8	E
+R2378	1.5,5.3,3.7.2	E
+R2379	6.4,5.2	E
+R2380	1.13	E
+R2381	6.2,6.4	P
+R2382	3.1,1.14	E
+R2383	1.5,5.2,5.3	E
+R2384	6.7,1.5	E
+R2385	4.4	P
+R2386	1.6,2.5	P
+R2387	1.6	P
+R2388	1.6	P
+R2389	4.8	P
+R2390	5.1	P
+R2391	1.6,2.5	P
+R2392	1.6	P
+R2393	1.1,3.7.8	P
+R2394	3.7.8,1.1,5.2	P	!DROPPED:1.2 periodicity/repetition-across-unlocks reading also defensible
+R2395	3.1,1.14	E
+R2396	1.13,2.1	P
+R2397	3.7.1	C	plain reading that the ability is conditioned on his own act of bleeding; fails non-obviousness
+R2398	3.7.1	E
+R2399	4.8	P
+R2400	1.2	P	!WORDING "minion phase" is non-standard phase terminology (untap/master/influence/combat are the named phases); labeled as written
+R2401	3.5	C	procedural token-tracking suggestion for this card's own multi-turn requirement; fails transfer, and "if players agree" marks it non-normative anyway
+R2402	3.7.2,5.1	E
+R2403	5.3,4.5	P
+R2404	6.9,1.10	P
+R2405	5.8	P
+R2406	5.2	P
+R2407	3.7.3,1.3	E
+R2408	3.7.3	E
+R2409	5.8	P
+R2410	5.1	P
+R2411	1.3	P
+R2412	4.4	P
+R2413	6.9,1.9	P
+R2414	5.8,1.6	P
+R2415	1.8,1.5,1.2	E
+R2416	1.8,1.7	P
+R2417	6.5,3.7.5,3.4	P
+R2418	5.1	P
+R2419	6.2	P
+R2420	6.9	P
+R2421	5.8	P
+R2422	1.3	P
+R2423	5.5,1.6	E
+R2424	5.1,5.8	C	states her specific merged identity/title; fails transfer — the general merge-changes-sect-and-burns-token principle is already carried by the sibling template rulings (eg. R2322)
+R2425	5.3,4.5	P
+R2426	6.9,1.9	E
+R2427	1.13,2.1	P
+R2428	4.4	P
+R2429	5.8	P
+R2430	2.3,2.4	P
+R2431	4.4	P
+R2432	4.4	C	this card's own counter-granting trigger condition (consecutive-round hand damage); fails transfer
+R2433	3.3,5.5,1.2	P
+R2434	3.2	C	specific card-interaction exclusion ({The Unmasking} + her); fails transfer beyond this pair
+R2435	1.13,6.4,6.5	E
+R2436	1.5,2.1	E	!WORDING calls its own timing "as an action modifier" yet usable after block attempts conclude, which is not typical action-modifier timing — flag for check against card text
+R2437	3.7.6	P
+R2438	3.7.6	P
+R2439	5.1	P
+R2440	1.5,5.2	E
+R2441	5.8	P
+R2442	5.8	P
+R2443	6.6	P
+R2444	3.7.3,1.6	E
+R2445	5.2,1.2,1.6	P
+R2446	3.2,3.1	E
+R2447	5.1	P
+R2448	5.1	P
+R2449	5.1	P
+R2450	1.6,2.5	P
+R2451	1.6	P
+R2452	2.5,6.4,1.12	P
+R2453	2.5	G	sect-as-trait watchlist gap: nothing owns precedence of a continuous/allegiance-style sect override over an underlying sect change (cf. {Galaric's Legacy}.1 on the watch list); third confirming instance, still watchlist not a section
+R2454	3.2,2.5	E
+R2455	6.5	P
+R2456	6.5,3.4	P
+R2457	4.8	P
+R2458	5.1	P
+R2459	5.8	P
+R2460	5.8	P
+R2461	1.5,5.2,5.3	E
+R2462	3.7.3,1.6	E
+R2463	3.7.3,1.7,1.6	P
+R2464	1.5,5.3	E
+R2465	3.7.5,3.1	P

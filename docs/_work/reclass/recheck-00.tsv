@@ -1,0 +1,138 @@
+R0022	1.15	P	-	CHANGE	Recovered from the 1.2 stacking gap: 'burn pool effects are cumulative' is the core stacking template 1.15 was added to own; 1.2 owns periodicity, not stacking.
+R0035	2.4	P	-	KEEP	Not 3.10 -- this is ordering of who plays first when two minions simultaneously want to act ('when a vampire should go into torpor'); no minion is substituted into the action, so 2.4 correctly owns it.
+R0048	1.15	P	-	CHANGE	Same stacking template as Aching Beauty.2 ('the cost is cumulative if multiple copies'); now owned by 1.15, not 1.2.
+R0073	1.15	P	-	CHANGE	Same 'burn X effects are cumulative' template; 1.15 territory.
+R0098	6.9	P	-	CHANGE	6.9's scope was explicitly widened to 'effects that explicitly require showing a kept card' -- this ruling is exactly that instance, no longer homeless.
+R0122	1.7,1.2	G	general arithmetic-order principle for ability values with an inherent floor/minimum (apply modifiers before the floor) — distinct from 1.7's cost-arithmetic order, which is the nearest kin	KEEP	Not 1.15 -- this is arithmetic order for a single ability value against its own floor/minimum ('add and subtract before applying the minimum'), not multiple instances of an effect combining. 1.15 doesn't reach single-value arithmetic-vs-floor ordering. Remains G.
+R0131	1.9	P	-	CHANGE	1.9's scope was explicitly widened to include an empty *crypt* precondition, the same class as its named 'empty library' case -- this is that exact instance.
+R0133	3.5,3.6	P	-	KEEP	Mask of a Thousand Faces is mentioned only as a continuation mechanism blocked by cancellation; the ruling teaches NRA/continuation (3.5/3.6) -- what a canceled combat blocks -- not which modifiers carry over on a masking substitution (3.10's scope). No change.
+R0143	1.15	E	-	CHANGE	This is the taxonomy's own cited founding example for 1.15 (per-copy damage stacking).
+R0146	1.1	P	-	KEEP	Not 3.10 -- 'that minion'/'this minion' is a card-text pronoun convention (1.1), not an instance of substituting a different minion into the action.
+R0161	5.3,1.15	G	torpor-rescue burning all such clot counters remains homeless (nearest 5.3); the stacking half (multiple clot counters cumulative on one vampire) is now owned by 1.15, replacing the old 1.2 near-miss.	CHANGE	Only half the gap closed: the stacking half moves to 1.15, but nothing owns 'rescue burns all stacking counters,' so the row stays G with 5.3 as nearest for that remaining half.
+R0164	2.1	E	-	KEEP	Not 3.10 -- 'controller of the acting minion' identifies who may play the reaction; no minion is substituted into the action. 2.1 correctly owns reaction-eligibility timing.
+R0165	3.5,1.15	E	-	CHANGE	'Multiple copies can be played by different minions on the same action' is 1.15's own scope line verbatim (multiple copies each exerting their effect); replaces the ill-fitting 1.2. Keeping 3.5 as before.
+R0228	3.4	E	!TENSION:no-effect-plays permissive side: the action proceeds and can even succeed while having no effect, mirroring Draba.3	KEEP	Not 1.15/3.10 -- 'acting minion' only identifies the equipment holder whose possession is tested at resolution; no stacking or substitution question here. 3.4 correctly owns the successful-but-no-effect template (tension tag unaffected).
+R0266	5.7	E	-	KEEP	Not 5.9 -- 5.7 already explicitly names Black Hand as a special class; this is Black-Hand-requires-Sabbat, a class-membership fact, not a trait-change-precedence or cross-card-trigger-recognition question. 5.9 doesn't reach it.
+R0273	1.15	P	-	CHANGE	Same cumulative-burn template as Aching Beauty.2/Archon.3; this is also the taxonomy's cited watch-list exemplar for 1.15.
+R0275	1.15	E	-	CHANGE	'The same vampire can be chosen multiple times if multiple copies are played' is per-copy independent targeting -- 1.15's domain, not 1.2 periodicity.
+R0278	3.4	E	!TENSION:no-effect-plays permissive side, identical wording to Bomb.3: action proceeds and can succeed while having no effect	KEEP	Same as Bomb.3 -- 'acting minion' only identifies the equipment holder; not stacking, not substitution. 3.4 stays correct (tension tag unaffected).
+R0300	6.2	C	Chain of Command's own crypt-return condition when its temporary vampires can't bleed; fails transfer — no other card shares this specific requirement-then-return mechanic. Nearest 6.2 (temporary control) but that section doesn't own this return condition.	KEEP	-
+R0301	3.4	P	-	KEEP	Not 1.15/3.10 -- 'acting minion' only identifies the equipment holder for this successful-but-no-effect template. 3.4 correctly owns it.
+R0303	5.1	C	Card-specific clarification of what Chameleon may target (own vampires, to grant Anarch sect); fails transfer — answers only this card's own targeting legality. Nearest 5.1 (vampire trait changes), which doesn't own targeting scope.	KEEP	Not 5.9 -- this is a targeting-legality restriction (Chameleon may only target your own vampires) for a sect-granting effect, not a trait-precedence conflict or a cross-card trigger-recognition question. Remains C, fails transfer.
+R0311	4.1,2.5	E	-	KEEP	Not 3.10 -- 'the acting minion stays the same' affirms combat CONTINUES under the original actor (the negation of a substitution); it teaches persistence through a reaction (4.1/2.5), not the carry-over/eligibility mechanics 3.10 was built to own.
+R0323	3.9	P	-	CHANGE	Taxonomy names this ruling directly as 3.9's evidence for the stuck-and-cannot-act outcome when a mandatory action is prevented.
+R0353	5.9	P	-	CHANGE	States clan-and-sect trait independence (changing one does not change the other) -- exactly 5.9's 'traits as things effects read and write.'
+R0355	5.8,5.1	P	-	KEEP	Not 5.9 -- this is the title-benefit-loss/yielding consequence of a clan mismatch, which the taxonomy explicitly keeps in 5.8 ('a ruling about a title's votes belongs in 5.8, not 5.9,' even though it names a trait change). Keeping 5.8,5.1.
+R0356	5.9,5.1	P	-	CHANGE	This is the core 'later effect governs' precedence rule applied to the clan trait -- 5.9's defining scope, not 2.4 (which the taxonomy clarifies owns only simultaneous-effect ordering). Kept 5.1 as the clan-specific secondary.
+R0364	3.2	E	-	KEEP	Same reaction-eligibility template as Blanket of Night.1 -- not 3.10, no minion is substituted.
+R0366	3.2,1.15	E	-	CHANGE	Same multi-copy-independent-play template as Blanket of Night.2; 1.15 replaces 1.2.
+R0367	5.8	P	-	CHANGE	Identical principle to the already-correctly-labeled 5.8 P rows in this same chunk (Garibaldi-Meucci Museum.2, Powerbase: Los Angeles.1: 'a card/action requiring a Baron is one requiring an Anarch'); the original classifier paired it with CrimethInc..2 as 'the same gap,' so it is corrected the same way, per golden rule 5 (identical rulings, identical labels). Not a 5.9 matter -- no trait-precedence conflict.
+R0411	1.15	E	-	CHANGE	'Multiple Courier can look at and discard the top library card in succession' -- per-copy trigger stacking, 1.15's domain.
+R0414	6.3,1.1	P	-	KEEP	Not 3.9 -- this is a mandatory EFFECT on a card (forced predator control-take), already owned by 1.1's existing 'mandatory vs. optional effects' scope, not a mandatory ACTION a minion takes. 3.9 is specifically scoped to actions.
+R0419	5.8	P	-	CHANGE	Same principle, verbatim, as the already-P rows Garibaldi-Meucci Museum.2 and Powerbase: Los Angeles.1 in this chunk (Baron-requirement implies Anarch-requirement); this was simply mislabelled G where its siblings were correctly P. Not 5.9 -- this is a title/sect-requirement equivalence, not a trait-precedence conflict.
+R0424	3.9	P	-	CHANGE	Taxonomy names this ruling directly as 3.9's evidence for the discharge sub-topic (free to act normally once the mandatory action is performed).
+R0453	2.4	E	-	KEEP	Not 3.10 -- ordering of two simultaneous card plays by the acting minion's controller; no substitution of the actor. 2.4 correctly owns it.
+R0462	5.3,2.4	P	-	KEEP	Not 3.10 -- 'acting minion goes first' is the same simultaneous-play ordering question as Amaranth.1, not a substitution.
+R0467	3.10,5.9	P	-	CHANGE	Taxonomy's own 3.10 scope line names 'Deep Song-style actor redefinition' as a worked example, and separately cites Deep Song.2 as one of the three generic-precedence rulings behind 5.9. 2.4 dropped -- the taxonomy clarifies 2.4 owns only simultaneous-effect ordering, not this later-effect-governs precedence between non-simultaneous conflicting effects.
+R0475	3.8	E	-	KEEP	Not 3.10 -- 'still considered to have taken a political action' is an NRA/action-count rule; no minion is substituted. 3.8 correctly owns it.
+R0481	-	C	restates Derange's own targeting restriction (cannot move it to a vampire already of the target clan); fails non-obviousness — follows directly from the card's printed clan-change effect. No section owns single-card targeting restrictions like this; nearest 1.6.	KEEP	Not 5.9 -- a clan-targeting restriction specific to Derange's own printed effect (cannot move it onto an already-matching clan); no trait-precedence conflict or cross-card recognition question. Remains C.
+R0483	5.9	P	-	CHANGE	Clan/sect trait-independence statement, same pattern as Clan Impersonation.2 -- core 5.9.
+R0484	5.8	P	-	KEEP	Same title-consequence template as Fall of the Camarilla.3 etc. -- stays 5.8 per the taxonomy's explicit guard, even though it is triggered by a clan change rather than a sect change.
+R0487	5.9	P	-	CHANGE	Taxonomy names this ruling directly as one of 5.9's three generic-precedence rulings (the clan instance of 'later effect governs'). 2.4 dropped for the same reason as Deep Song.2.
+R0539	5.4	P	-	KEEP	Not 3.10 -- this is about whether a burn is attributed to the acting minion's OWN action for trigger purposes (5.4's burn-attribution domain), not about substituting a different minion into the action.
+R0550	5.1	E	-	KEEP	Not 5.9 -- which traits a copy-effect duplicates (clan/sect/capacity/disciplines vs. titles/Infernal/Scarce) is a copy-mechanics scope question (5.1's domain), not a trait-change-precedence or cross-card-trigger-recognition question that 5.9 owns.
+R0567	6.1	E	-	KEEP	Same reaction-eligibility template as Blanket of Night.1 -- not 3.10.
+R0587	2.1,6.1	E	-	KEEP	Same reaction-eligibility template -- not 3.10.
+R0594	4.9,2.5	P	-	KEEP	Same continuity note as Champion.2 -- 'the acting minion stays the same' is the negation of a substitution, teaching combat continuation (4.9/2.5), not 3.10's carry-over mechanics.
+R0613	2.5,1.12	E	-	KEEP	-
+R0625	6.5	C	auction/bid resolution mechanics specific to Extremis Boon's own card text; taxonomy explicitly names this ruling as a rejected single-card topic mislabelled G -- fails transfer.	CHANGE	Taxonomy's rejected-candidates list explicitly names the Extremis Boon auction rulings as single-card topics mislabelled G; corrected to C per that explicit instruction.
+R0626	6.5	C	minimum-bid requirement specific to Extremis Boon's own card text; same explicit rejection as Extremis Boon.1 -- fails transfer.	CHANGE	Same explicit taxonomy rejection as Extremis Boon.1.
+R0630	3.6,1.2	E	-	KEEP	Not 1.15 -- gaining the maneuver again is triggered by a NEW block event (periodicity/continuation, 3.6/1.2's domain), not simultaneous multi-instance stacking.
+R0639	5.9	P	-	CHANGE	A temporary sect override changing the outcome of a sect-change card is the override-vs-permanent-change mechanism 5.9 was built to own; part of the Galaric's Legacy cluster that founded 5.9.
+R0640	5.9	P	-	CHANGE	This is the core precedence statement itself ('most recent override takes precedence... underlying sect returns when it leaves play') -- 5.9's defining clause almost verbatim.
+R0641	5.8	P	-	KEEP	Title-consequence template -- stays 5.8 per the taxonomy's explicit guard (a ruling about a title's benefit stays 5.8, not 5.9).
+R0642	5.9	P	-	CHANGE	Whether a bypassed/overridden trait counts as satisfying another card's requirement -- 5.9's 'counts as the trait for other cards' requirements' clause.
+R0643	5.9	P	-	CHANGE	Sabbat mirror of Fall of the Camarilla.1; same override-vs-permanent-change mechanism, core 5.9.
+R0644	5.9	P	-	CHANGE	Sabbat mirror of Fall of the Camarilla.2; the core precedence statement.
+R0645	5.8	P	-	KEEP	Same title-consequence template, Sabbat mirror of Fall of the Camarilla.3 -- stays 5.8.
+R0646	5.9	P	-	CHANGE	Sabbat mirror of Fall of the Camarilla.4; trait-recognition-for-requirements clause.
+R0660	5.5,3.10	E	-	CHANGE	An ally becoming 'the acting minion' via Nar-Sheptha-style substitution, and this card's non-trigger being keyed to that status, is exactly 3.10's acting-minion-substitution territory; 5.5 stays primary since the taught consequence is ally-specific.
+R0668	5.9	P	-	CHANGE	Matches Galaric's Legacy.1's wording almost exactly (temporary sect override takes precedence, burns this card if it does) -- taxonomy's own cited exemplar pattern for 5.9.
+R0669	5.8	P	-	KEEP	Same title-consequence template -- stays 5.8 per the guard.
+R0677	1.15	E	-	CHANGE	Per-copy cumulative burn cost with a worked numeric example (two copies = 4 pool) -- 1.15's domain, not 1.2.
+R0706	1.6,5.2,3.10	E	-	CHANGE	Mask of a Thousand Faces failing to substitute because of a lock-state requirement conflict is a masking-eligibility ruling -- 3.10's 'eligibility keyed to what the substitute could independently have done,' added alongside the existing requirements/lock-state codes.
+R0740	1.15	P	-	CHANGE	'If you play more than one, you gain and lose pool for all of them (they stack)' -- clean general stacking statement, 1.15's domain.
+R0741	5.9	P	-	CHANGE	This is the taxonomy's literally-named exemplar ruling for the 5.9 addition (the watch-list gap it cites by name).
+R0742	5.8	P	-	KEEP	Same title-consequence template -- stays 5.8.
+R0750	5.8,1.6	P	-	KEEP	Already correctly 5.8 -- states the Baron-title-implies-Anarch-requirement chain, the same principle now also corrected onto Club Illusion.1/CrimethInc..2 in this pass. Not 5.9 -- no trait-precedence conflict.
+R0779	5.9	P	-	CHANGE	Matches the Galaric's Legacy.1/Field Training.1 override-precedence wording; part of the founding cluster for 5.9.
+R0780	5.8	P	-	KEEP	Same title-consequence template -- stays 5.8.
+R0800	5.9	E	-	CHANGE	Whether a vampire counts as 'Anarch' for another card's benefit check is exactly 5.9's 'whether a [changed or absent] trait counts as the trait for other cards' triggers.'
+R0813	3.4	P	-	KEEP	Not 1.15/3.10 -- equipment-possession-at-resolution template, 'acting minion' only names the holder. 3.4 stays correct.
+R0847	5.9	E	-	CHANGE	Same trait-recognition-for-triggers principle as Grey Thorne.2 ('cannot play Anarch cards' turning on Anarch-trait status).
+R0851	6.1	E	-	KEEP	Same reaction-eligibility template as Blanket of Night.1 -- not 3.10.
+R0887	1.9	P	-	CHANGE	Same empty-crypt widening as Bear-Baiting.2 -- near-identical template ('cannot be played when your crypt is empty').
+R0932	2.1	E	-	KEEP	Same reaction-eligibility template -- not 3.10.
+R0934	1.15	E	-	CHANGE	Same multi-copy-independent-play template as Blanket of Night.2/Cloak the Gathering.3, now recovered from the 1.2 near-miss to 1.15 with matching role for consistency (golden rule 5).
+R0942	5.9	P	-	CHANGE	Matches the Galaric's Legacy.1 override-precedence pattern (shorter form, no burn clause); core 5.9.
+R0943	5.8	P	-	KEEP	Same title-consequence template -- stays 5.8.
+R0956	3.4,3.8	P	-	KEEP	Same equipment-possession template as Bomb.3/Chalice of Kinship.1 -- not stacking, not substitution.
+R0963	1.15	P	-	CHANGE	'If multiple copies are in play, one must pay for each of them (they stack)' -- per-copy cost, named explicitly in 1.15's scope line.
+R0966	3.4,3.8	P	-	KEEP	Same equipment-possession template -- not stacking, not substitution.
+R0967	-	C	clarifies the card grants only an option, not the sect/infernal status itself; narrow reading specific to this card — nearest 1.1	KEEP	Not 5.9 -- this is a card-specific design quirk (an option granted without conferring the underlying Sabbat/Infernal trait), not a trait-precedence conflict or cross-card-trigger-recognition question. Remains C, fails transfer.
+R0989	1.15	E	-	CHANGE	Each copy of Kindred Society Games exerts its own independent effect (separate unlock costs, separate movement) -- 1.15's per-copy-triggers domain, worked numeric example.
+R0993	5.3,1.5	P	-	KEEP	Not 3.10 -- torpor/ability-use rule (1.5/5.3's existing domain); 'acting vampire' only identifies who uses the ability, no substitution occurs.
+R1007	6.5,6.9,1.9	P	-	KEEP	Already correctly covers both widened codes (1.9, 6.9); the 'acting'-vocabulary hit is a substring match on '{The Unmasking}', unrelated to the acting-minion-substitution topic. No change needed.
+R1020	1.15	P	-	CHANGE	'Does not stack with similar effects' is 1.15's scope line verbatim.
+R1028	1.15,3.7.6	P	-	CHANGE	Multiple copies capped at one combined vote rather than stacking -- 1.15's non-stacking polarity; kept 3.7.6 for the votes-specific domain.
+R1065	3.9	P	-	CHANGE	Taxonomy names this ruling directly as 3.9's founding evidence, absorbing the failed 'minion-phase action ordering' watch item.
+R1067	3.9,1.15	E	recovered from C: two conflicting mandatory obligations (two copies of the same mandatory-attack card) producing a stuck-and-cannot-act deadlock is now a genuine instance of 3.9's stuck-and-cannot-act outcome, not merely this card's own quirk with itself.	CHANGE	Re-applying the transfer test now that 3.9 exists: the pattern (multiple simultaneous mandatory obligations that cannot both be satisfied -> stuck) transfers to any such pairing, so it clears C. 1.15 added as secondary for the two-copies angle.
+R1079	3.7.6	E	-	KEEP	-
+R1080	3.7.6	E	-	KEEP	Not 3.10 -- 'the acting vampire gains one blood' is a votes/abstain mechanic (3.7.6); 'acting vampire' just names who gains the blood, no substitution.
+R1102	3.5,3.10	P	-	CHANGE	Explicitly states the card does NOT change the acting minion (for NRA purposes) -- the direct contrast case for 3.10's 'which effects carry over' extract.
+R1116	3.10	P	-	CHANGE	Taxonomy's own headline exemplar for 3.10 (the action-modifiers-carry / inherent-modifiers-do-not rule); 3.1 dropped per the taxonomy's own note that 3.1 only fixes what is set at announcement and never claimed changing the actor afterwards.
+R1117	3.10	P	-	CHANGE	3.10's 'eligibility keyed to what the substitute could independently have done' clause, almost verbatim; 3.1 dropped for the same reason as Mask.3.
+R1122	3.10,3.9	E	recovered from C: the mandatory-action / masking-eligibility interaction (masking a mandatory action that was not mandatory for the masker) now generalizes under 3.10's eligibility rule and 3.9's mandatory-action framework, rather than being Mask-of-a-Thousand-Faces-specific.	CHANGE	Re-applying transfer/non-obviousness with the new codes in mind: this teaches that masking eligibility turns on capability, not on matching mandatory-status, which now transfers to any masking-card/mandatory-action pairing.
+R1124	3.10,1.15	E	-	CHANGE	Which modifiers carry over to the masking vampire is 3.10's core question; the limited-effect-once-per-action cap is 1.15's per-copy/per-trigger cap polarity.
+R1125	1.15,3.8	E	-	CHANGE	Same multi-copy-independent-play template as Blanket of Night.2/Cloak the Gathering.3/Inspire Greatness.3; 1.15 primary, kept 3.8 as the original nearest secondary.
+R1133	1.15	P	-	CHANGE	'Multiple copies stack their bonuses' -- clean, direct 1.15 statement.
+R1144	1.6,2.5,3.1	E	-	KEEP	Not 3.10 -- teaches persistence of a previously-met REQUIREMENT despite a later actor substitution (1.6/2.5's domain: the requirement was checked and satisfied at time of block), not which MODIFIERS carry over to a substitute (3.10's narrower named scope). The substitution is context for the 'even if' clause, not the taught principle.
+R1154	6.2	E	-	KEEP	Not 3.9 -- this describes Mind Rape's own flexible burn-timing (an ability trigger usable any time in the minion phase), not whether an ACTION is mandatory. 'Non-mandatory actions' is only a timing reference point here; 3.9 is scoped to actions themselves.
+R1160	5.9,3.2	P	-	CHANGE	A sect-trait change mid-action re-evaluating a dependent bonus (intercept) is core 5.9 ('whether a changed trait counts... for other cards' triggers'); identical wording is already labeled P under this pairing at Protection Racket.1 elsewhere in this chunk, corrected here for consistency.
+R1185	-	C	question/answer-card mechanic specific to Monocle of Clarity's own text (answer must reflect best knowledge); taxonomy explicitly names this cluster as a rejected single-card topic mislabelled G.	CHANGE	Taxonomy's rejected-candidates list explicitly names the Monocle of Clarity question-card rulings as single-card, mislabelled G; corrected to C.
+R1186	-	C	same Monocle of Clarity question-mechanic cluster (agreeing on term meanings before answering); rejected single-card topic per taxonomy.	CHANGE	Same explicit taxonomy rejection as Monocle of Clarity.1.
+R1187	-	C	same cluster (inexact answers for unverifiable elements, not judge-checkable); rejected single-card topic per taxonomy.	CHANGE	Same explicit taxonomy rejection as Monocle of Clarity.1.
+R1188	1.5	C	same cluster (must indicate invoking the question ability); rejected single-card topic per taxonomy. Nearest 1.5.	CHANGE	Same explicit taxonomy rejection as Monocle of Clarity.1; kept 1.5 as nearest per the original note.
+R1189	-	C	same cluster (conjunctive questions answerable as a whole); rejected single-card topic per taxonomy.	CHANGE	Same explicit taxonomy rejection as Monocle of Clarity.1.
+R1207	3.7.4,3.5	E	-	KEEP	Not 3.10 -- NRA/retainer-employ timing; 'acting vampire' just names the player, no substitution occurs.
+R1209	5.7	E	-	KEEP	Same as Cadet.1 -- 5.7 already owns Black Hand as a named special class; not a 5.9 trait-precedence matter.
+R1214	5.4,3.10,4.1	E	-	CHANGE	Reverting the acting-minion designation to normal when the substitution's source (Nar-Sheptha) is burned is the duration/end of a 3.10 substitution; kept 5.4 primary (the burn is the triggering event) and 4.1 for the combat-scope detail.
+R1215	3.10,5.9	P	-	CHANGE	States that a later effect (Nar-Sheptha) supersedes an earlier acting-minion change (Deep Song) -- the precedence rule (5.9) applied to the acting-minion trait (3.10); 2.4 dropped, it owns only simultaneous ordering.
+R1240	5.8	P	-	KEEP	Title-consequence definition ('loses the benefit' means...) -- stays 5.8 per the guard.
+R1255	4.9	E	-	KEEP	Not 3.10 -- 'acting vampire' just identifies who the opponent currently is; no substitution occurs here.
+R1257	3.10,5.7,3.1	E	-	CHANGE	'If a slave took his place' is exactly the substitution scenario 3.10 owns; the ruling teaches that a substituted opponent breaks Obedience's targeting requirement. Kept 5.7 (slave classification) and 3.1 (original announcement fixation).
+R1266	1.15	E	-	CHANGE	Multiple copies capped so only one triggers -- 1.15's non-stacking/cap polarity, worked example.
+R1267	1.15	E	-	CHANGE	Differential per-copy stacking (capacity stacks, votes cap) -- direct 1.15 worked example.
+R1279	5.9	P	-	CHANGE	Matches the Galaric's Legacy.1/Into the Fire.1 override-precedence pattern; part of the founding 5.9 cluster.
+R1280	5.8	P	-	KEEP	Same title-consequence template -- stays 5.8.
+R1323	3.7.6,5.4	E	-	KEEP	Not 3.10 -- burn-attribution rule ('no matter how that vampire is burned'), same pattern as Draught of the Soul.2; not a substitution of the actor.
+R1341	5.8	P	-	KEEP	Already correctly 5.8 -- same Baron-implies-Anarch chain as Garibaldi-Meucci Museum.2; this is the sibling ruling that anchors the Club Illusion.1/CrimethInc..2 correction in this pass.
+R1343	3.10,5.9	P	-	CHANGE	Taxonomy names this ruling directly as both 3.10's own scope-line example (Deep-Song-style actor redefinition) and one of 5.9's three generic-precedence rulings.
+R1373	5.9,3.2	P	-	CHANGE	Identical wording to Ministry.1 (sect change mid-action re-evaluating the intercept bonus); corrected to match now that 5.9 owns this, per golden rule 5 (identical rulings, identical labels).
+R1401	1.15	P	-	CHANGE	'Does not stack with similar effects' -- same template as Leech.2, 1.15's scope line verbatim.
+R1436	5.9	P	-	CHANGE	Matches the Galaric's Legacy.1 override-precedence wording; part of the founding 5.9 cluster.
+R1437	5.8	P	-	KEEP	Same title-consequence template -- stays 5.8.
+R1438	5.9	P	-	CHANGE	Whether a temporary sect override counts as satisfying another card's action-category trigger ('makes this vampire anarch') is 5.9's trait-recognition-for-triggers clause, tied to this same card's own override mechanism (Red Question.1, already 5.9).
+R1456	1.1,4.3	P	-	KEEP	Not 3.9 -- 'the additional strike is mandatory' is a mandatory EFFECT at the combat level (1.1/4.3's existing domain: mandatory vs. optional effects), not a mandatory ACTION in 3.9's sense (strikes are not actions).
+R1472	6.2,3.3	E	-	KEEP	Not 3.10 -- this is control theft of the acting minion (6.2: who controls it changes), not a substitution of a DIFFERENT minion into the action (3.10: the same minion keeps acting throughout).
+R1481	1.10,1.12	P	-	CHANGE	1.12's scope was explicitly widened to include counter-count-on-entry conventions (a card entering with X=0 counters burns immediately) -- this is that exact case, no longer homeless.
+R1522	1.15	P	-	CHANGE	Same cumulative-burn template as Aching Beauty.2/Archon.3/Camarilla Exemplary.1.
+R1543	1.15,3.7.6	P	-	CHANGE	A flat per-play cap regardless of triggering-vote count is 1.15's non-scaling polarity; kept 3.7.6 for the votes-specific domain.
+R1548	2.4,6.3	E	-	KEEP	Not 3.9 -- ordering of mandatory in-play EFFECTS relative to an optional card-take (2.4/6.3's existing domain), not whether a minion's ACTION is mandatory.
+R1558	1.10,1.12	P	-	CHANGE	Same counter-count-on-entry widening as Riddle Phantastique.1 -- verbatim-equivalent ruling.
+R1577	1.1,1.7	P	-	KEEP	Not 3.9 -- 'burning 1 blood is mandatory' is a mandatory COST/effect (1.1/1.7's existing domain), not a mandatory ACTION.
+R1580	6.1	P	-	KEEP	Not 3.10 -- owner/controller choice rule; 'acting vampire' just identifies whose controller decides, no substitution occurs.
+R1599	3.10,5.7	E	-	CHANGE	'Cannot be used by a Slave that entered combat instead of the acting minion' is the same slave-substitution template as Obedience.7 -- effects scoped to 'the acting minion' excluding a substitute is core 3.10; kept 5.7 for slave classification.
+R1618	1.11	E	-	KEEP	Not 3.10 -- ash-heap retrieval choice; 'acting vampire' just names whose choice it is.
+R1641	2.1	E	-	KEEP	Same reaction-eligibility template as Blanket of Night.1 -- not 3.10.
+R1690	5.4,3.7.5	E	-	KEEP	Same burn-attribution template as Draught of the Soul.2/Political Struggle.1 -- not a substitution of the actor.

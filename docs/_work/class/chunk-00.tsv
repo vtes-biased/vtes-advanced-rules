@@ -1,0 +1,145 @@
+R0001	1.2,4.10	P
+R0002	-	C	{419 Operation} edge-burn interaction with its own counter mechanism; fails transfer — affects no other card. Nearest was 6.5, but that owns the Edge as a resource, not cards consuming it
+R0003	1.1	P
+R0004	3.4	P	"successful resolution" template: unblocked AND effect achieved (blood gained)
+R0005	3.7.8	E
+R0006	3.7.8	E
+R0007	3.7.5,2.3	P	referendum as part of action resolution; after-resolution play must follow it
+R0008	5.4,3.7.8	P	template recurs verbatim at Ashes to Ashes.5 (R0095): no reflex window on blood-hunt-caused burn
+R0009	1.10	E
+R0010	3.2,3.1	E
+R0011	5.3,5.7	E
+R0012	4.5	E
+R0013	1.6	P
+R0014	3.7.4,5.7	E
+R0015	1.6	P
+R0016	1.4	P
+R0017	1.10	P
+R0018	1.1	E	!TENSION:no-effect-plays playable against a target for which it will have zero effect (no blood to affect)
+R0019	-	C	{Abyssal Hunter} restates its own printed burn-trigger condition (ranged aggravated damage at close range); fails transfer — no other card's ruling changes. Nearest 4.4, but that owns damage mechanics generally, not this card's own vulnerability text
+R0020	5.4	E
+R0021	3.5,3.3	P
+R0022	1.2	G	cumulative/stacking effects: nothing owns "multiple instances of an effect stack" (burn pool effects stacking). 1.2 owns periodicity templates and is nearest, but does not claim stacking
+R0023	1.8	P
+R0024	-	C	{Admonitions, The} control-retention rule keyed to being the sole controller of a Sabbat vampire; fails transfer — bespoke to this card's own control-rotation mechanism. Nearest 6.3, but that owns control-taking generally, not this specific retention condition
+R0025	1.6,3.7.6	E
+R0026	1.6	P
+R0027	1.4	P
+R0028	5.1,2.5	E
+R0029	5.3	P
+R0030	4.8	P
+R0031	6.2	P
+R0032	1.7,3.7.5	E
+R0033	1.6	P
+R0034	4.9	P
+R0035	2.4	P
+R0036	3.6	P
+R0037	3.6	P
+R0038	3.6	P
+R0039	3.6,1.11	P
+R0040	3.4	P
+R0041	4.8	P
+R0042	1.2	P
+R0043	4.10,4.2	P
+R0044	4.2	P
+R0045	1.6	E
+R0046	3.7.2,3.4	P
+R0047	3.7.2	E
+R0048	1.2	G	cumulative/stacking effects, same gap as R0022 (cost cumulative across copies). 1.2 nearest, does not claim stacking
+R0049	5.2	P
+R0050	5.2	P
+R0051	1.2,5.4	P	"reduced to zero blood" trigger is source-agnostic; pairs with R0052's "must be an actual loss" to define the "reduced to X" wording template
+R0052	1.2	P
+R0053	3.7.8,1.2	E
+R0054	2.4,4.4	E
+R0055	4.9	P
+R0056	2.4	P
+R0057	6.1,1.12	E
+R0058	1.1	P
+R0059	6.5	P
+R0060	4.7	P
+R0061	4.7,4.6	E
+R0062	4.7	P
+R0063	3.3,4.1	E
+R0064	1.7	P
+R0065	4.5	P	!TENSION:prevention-without-damage playable at any time in combat even with no damage yet to prevent — the permissive case
+R0066	4.5	P
+R0067	4.5	P
+R0068	2.2	P
+R0069	1.9,2.2	P
+R0070	3.1	P
+R0071	3.3	E
+R0072	3.8	P
+R0073	1.2	G	cumulative/stacking effects, same gap as R0022/R0048 (burn blood effects cumulative). 1.2 nearest
+R0074	1.7,3.3	E
+R0075	3.3	P
+R0076	1.2,2.2	P
+R0077	3.1	E
+R0078	4.5	P
+R0079	4.5	P
+R0080	5.7	E
+R0081	4.5	P
+R0082	4.5	E	!TENSION:prevention-without-damage cannot be used with no damage to prevent — the prohibition case, opposite of R0065
+R0083	4.5	P
+R0084	3.7.5	P
+R0085	6.3,1.6	P
+R0086	6.9,5.5	P	discard-phase effect ordering vs. ally return; taxonomy flags this exact ruling as the disputed 6.9/5.5 boundary case
+R0087	2.3	P
+R0088	1.11	E
+R0089	3.4,1.7	P
+R0090	4.2	P
+R0091	4.9,5.3	P
+R0092	4.9	P
+R0093	3.7.8,5.3	E
+R0094	5.5	P
+R0095	5.4,3.7.8	P	template recurs verbatim at Abandoning the Flesh.1 (R0008)
+R0096	-	C	{Ashur Tablets} confirms play is legal despite an empty ash heap; fails non-obviousness (no stated precondition to violate) and transfer (specific to this card's own lack of a precondition). Nearest 1.11
+R0097	3.1,1.14	E
+R0098	6.9	G	procedural transparency requirement ("must show which card you keep") — no section owns a general "reveal your choice among public cards" rule. 6.9 nearest since the destination is hand
+R0099	1.7	P
+R0100	3.7.5,1.7	P
+R0101	3.7.5,1.11	E
+R0102	4.7,4.3	P
+R0103	3.1	P
+R0104	-	C	card effects gated on the vampire being Laibon; fails non-obviousness — a clan/type gate is expected card text, not a general rule. Nearest 1.6
+R0105	1.14,1.10	P
+R0106	4.8	P
+R0107	4.3	P
+R0108	4.8	P
+R0109	5.2,2.4	P
+R0110	5.3,2.1	P
+R0111	3.1	E
+R0112	-	C	age restriction is this card's own conditional clause tied to controlling a ready Lasombra; fails transfer — no broader age-comparison rule taught. Nearest 5.1
+R0113	1.2	E
+R0114	3.1	E
+R0115	6.7,5.1,2.5	P
+R0116	2.5,6.7,5.8	P
+R0117	5.2,6.7	P
+R0118	6.7,6.1	P
+R0119	-	C	restates the basic "no legal target, no play" rule; fails non-obviousness — any fluent judge knows this. Nearest 3.1
+R0120	4.10,1.7	E
+R0121	3.3,2.4	P	REVERSAL of earlier rulings per the ruling's own text; labeled as currently stated
+R0122	1.7,1.2	G	general arithmetic-order principle for ability values with an inherent floor/minimum (apply modifiers before the floor) — distinct from 1.7's cost-arithmetic order, which is the nearest kin
+R0123	5.3	E
+R0124	1.8	P
+R0125	1.9,1.6	P
+R0126	1.9	P
+R0127	1.10	E
+R0128	-	C	cannot affect equipment no longer in play; same "no legal target" rule as R0119. Nearest 3.1
+R0129	6.4	P
+R0130	4.4	P
+R0131	1.9	G	"empty crypt" analog to 1.9's named "empty library" edge case — no section owns emptied-crypt preconditions for playability
+R0132	-	C	confirms {Change of Target} carries no age restriction after this card; fails transfer — a fact about Change of Target's own printed text, not a rule that changes other rulings. Nearest 3.5
+R0133	3.5,3.6	P
+R0134	4.5,3.6	P
+R0135	3.6	P
+R0136	2.2	P
+R0137	1.9,2.2	P
+R0138	5.1,6.7	E
+R0139	4.4	P
+R0140	4.4,5.6	E
+R0141	3.1	P
+R0142	-	C	describes this card's own guess-the-vampire mechanic; fails transfer — no other card shares this guessing mechanism. Nearest 1.2 (only the "each of their turns" periodicity is generic)
+R0143	1.2	G	cumulative/stacking effects: nothing owns "multiple instances of an effect stack" (a player damaged by multiple Betrayers each turn). 1.2 owns periodicity templates and is nearest, but does not claim stacking
+R0144	1.12,1.13,6.2	P
+R0145	3.1	E
