@@ -204,16 +204,134 @@
       see from inside its own 145 lines. The design was right; the calibration was not.
       If this pass is ever re-run, force the reviewer to earn its findings — the "no finding
       is a valid result" instruction was present, in capitals, and was ignored by 68 of 68.
-- [ ] Phase 5: per-section extracts → docs/_work/extracts/<sec>.md
-      **RUNBOOK: docs/_work/phase5-runbook.md — read it, it is self-sufficient.**
-      MECHANICAL (a script, not a fan-out) — every input already exists, the judgment was
-      spent at 4.5/4.6. 64 extracts. Four things must ride along or they are lost: the
-      3.7.4 seam (its 45 rulings were deliberately NOT reclassified), the three-way split
-      of no-effect-plays, the resolved mandatory-action principle, and DO-NOT-DRAFT marks
-      on the 1.8/3.5 pilots.
-- [ ] Phase 6: drafting workflow (one agent per section → docs/_work/sections/<sec>.md)
-- [ ] Phase 7: assemble into docs/extended-rules.md
-- [ ] Phase 8: consistency/organization review pass (+ fixes)
+- [x] Phase 5: per-section extracts — DONE 2026-07-20. 64 files in docs/_work/extracts/.
+      **RUNBOOK: docs/_work/phase5-runbook.md. GENERATOR: docs/_work/gen-extracts.py**
+      (idempotent — `rm extracts/*.md && python3 gen-extracts.py` rebuilds from
+      classification.tsv + taxonomy.md + review-findings.json + tensions.md + rulings-flat.tsv;
+      it writes nothing else). Ran as a script, zero agent tokens.
+      Validation clean: 64 files, all 2,373 P/E rulings routed and nothing extra, 0 malformed
+      table rows, 64/64 carry reviewer notes, per-section P/E counts reconcile to coverage.tsv
+      (which is also the check that the 3.10-vs-3.1 strnum trap did not bite — Python dict
+      keys are strings, so it could not).
+      ALL FOUR RIDE-ALONGS LANDED: 3.7.4 seam (clusters A/B/C/D with ids, from the structural
+      Q1 finding); no-effect-plays rendered as the Q5 three-way split (a)/(b)/(c) in all 12
+      sections it touches, with prevention-without-damage folded into (b); the RESOLVED
+      mandatory-action principle at the TOP of 3.9, above the reviewer note that guessed it
+      backwards; DO-NOT-DRAFT banners on 1.8 and 3.5.
+      TWO FORMAT CHOICES beyond the runbook, both to give the drafter routing info it would
+      otherwise have to go find: ruling tables are
+      `| id | card id | card | codes | ruling text | classifier note |` — the `codes` column
+      is how a drafter sees a ruling is filed here as a SECONDARY, and the classifier note
+      carries the !TENSION/duplicate flags. Tension blocks show the whole slug with `★` on
+      the rulings in this section, so a drafter always sees both poles.
+      ONE RULING NOT PLACED: R1680 {Soul Burn}.5 is in the no-effect-plays slug but the Q5
+      finding named only 45 of its 46. Left explicitly unplaced rather than re-decided at
+      Phase 5; its own note says it matches {Blood Fury}.6, which is in bucket (b).
+- [~] Phase 6: drafting. **CONTRACT: docs/_work/drafter-contract.md** (self-contained;
+      compression mandate + style rules + output format + footnote scheme).
+      DECIDED 2026-07-20 (Lionel): opus on all 64; TWO WAVES, deciders first; the 1.8/3.5
+      pilots are REOPENED and drafted FRESH from their extracts (not revised in place) —
+      the old prose stays in docs/extended-rules.md for Lionel to diff at Phase 7.
+      - [x] Wave 1 DONE 2026-07-20 — 11 boundary-owning sections, 11/11, 0 failures,
+        621k subagent tokens, ~13 min, 1,364 lines of prose in docs/_work/sections/.
+        Sections: 1.1 1.5 1.6 1.8 1.15 3.4 3.5 3.7.4 5.5 5.6 5.9.
+        Compression HELD: 2.0–5.6 rulings per footnote against a 4–6 target; **zero
+        card-list violations in prose** across all 11; footnote labels uniformly
+        section-prefixed; § cross-refs (no anchors); only 4 ⚠ REVIEW in 11 sections.
+        The low ratios (5.5 at 2.0, 5.6 at 2.2) are legitimate — those sections are
+        genuinely many independent rules, not one template stamped on N cards. Do not
+        "fix" them.
+        CONVERGENCE WORKED: 1.1, 1.6, 1.8, 3.4 and 5.5 independently landed on the same
+        requirement-vs-futility seam because the ⚑ ride-along was in all their extracts.
+        That is the evidence the wave design is sound.
+      - [x] PHASE 5 DEFECT FOUND BY WAVE 1 AND FIXED: extracts carried cross-section
+        material (tension-block rulings outside the membership; the 3.7.4 seam clusters
+        routed to 1.5/5.5/5.6 by NAME while their codes deliberately stayed on 3.7.4)
+        WITHOUT the ruling text, so the receiving drafter had no `[REF ID]` to footnote.
+        gen-extracts.py now emits a **"Borrowed rulings — cited here, coded elsewhere"**
+        table; 14 sections carry one. NO REDRAFT NEEDED: 1.5 self-repaired by going to
+        rulings.yaml and citing group G00119 `Allies with "lock this ally to" abilities`
+        [ANK 20180517], verified correct.
+      - [x] Wave 1 REDRAFT DONE 2026-07-20 — the first wave-1 batch was REJECTED by Lionel
+        on style (4x too long, abstract register) and 1.6 additionally on CONTENT. Archived
+        at `sections-wave1-rejected/`, not deleted. Contract gained BREVITY AND PLAIN
+        LANGUAGE, VERIFY CARD TEXT (mandatory krcg fetch per cited card) and the game-term
+        warnings. Redraft: 11/11, 741k tokens. Prose 1150 -> 658 lines.
+      - [x] Wave 2 DONE 2026-07-20 — 53/53, 0 failures, 4.0M subagent tokens, ~72 min.
+        **ALL 64 SECTIONS NOW DRAFTED** in docs/_work/sections/. 3,817 prose lines +
+        820 reference lines = 4,637 total. 1,345 card texts verified against krcg.
+        Only 5 ⚠ REVIEW flags in 64 sections. Footnote markers/definitions balance in all 64.
+      - **`owner-rulings.md` IS THE HIGHEST AUTHORITY IN THIS PROJECT.** Lionel's rules calls
+        made while reading drafts, each verified against printed card text. It outranks
+        `wave1-decisions.md`, the extracts, and the rulings' own paraphrases. Blocks A, A2,
+        B, C. Read it before touching any section.
+      - **`phase8-inbox.md`** — 9 objections + 34 card-text-vs-ruling conflicts the drafters
+        RAISED instead of silently resolving. This is Phase 8's work queue, not noise.
+      - LESSON, cost two rounds: mid-flight corrections to `owner-rulings.md` race the
+        running agents. The "Only usable by ..." rule changed THREE times (gates use ->
+        gates play -> type-dependent) and six wave-2 sections flagged the stale file rather
+        than guessing — that behaviour is why nothing was corrupted. **Settle a rules call
+        BEFORE launching a wave.**
+      - KNOWN GAP vs Lionel's ask: he wanted ~4x shorter; wave 1 achieved 1.75x and wave 2
+        averages 59 prose lines/section against a 25-50 budget. He accepted 1.6 (48 lines)
+        as the density benchmark. Twelve sections exceed 70 lines and are the compression
+        candidates: 1.13, 1.8, 2.4, 2.5, 3.3, 3.7.6, 4.3, 4.5, 5.2, 5.7, 6.2, 6.5.
+      - DANGLING TERM for Phase 8: four sections (1.1, 1.8, 1.9, 4.2) cross-reference
+        "futility" as though §1.6 defines it. §1.6 never uses the word.
+      UPSTREAM DATA GAP (not ours, matters at Phase 9): **48 of the 1,369 distinct ruling
+      refs cited in rulings.yaml have no entry in references.yaml** (3.5%, 57 citations;
+      LSJ 23, ANK 15, PIB 6, TOM 2, KOT 1, RTR 1). Wave 1 legitimately cited 17 of them.
+      Phase 9's "every ID resolves" check WILL flag these — they are an upstream hole in
+      vtes-biased/vtes-rulings, not drafting errors. Do not let Phase 9 "fix" them by
+      deleting the citations.
+- [x] Phase 7: ASSEMBLED 2026-07-20. **SCRIPT: docs/_work/assemble.py** — idempotent,
+      rebuilds the whole document from sections/*.md every run (`python3 docs/_work/assemble.py`).
+      Reads only sections/; writes only docs/extended-rules.md. Re-run it after ANY edit to a
+      section draft; do not hand-edit the assembled file and expect it to survive.
+      **docs/extended-rules.md: 4,831 lines, 64 sections, 754 footnotes, 59 cross-references.**
+      Validation built into the script and CLEAN: no duplicate footnote labels document-wide,
+      no marker without a definition, no definition without a marker, every `§x.y`
+      cross-reference resolves to a real heading, no duplicate section headings.
+      STRUCTURE: 6 chapters. 3.7.1-3.7.8 are nested one level under a `### 3.7 The action
+      types in detail` parent (their internal headings were demoted to match). Chapter 6
+      skips 6.8 deliberately. New codes 1.15 / 3.9 / 3.10 / 5.9 / 6.9 now have real headings;
+      the old 6.8 stub is gone.
+      NOTE: the front matter was rewritten (status line, plus a `§` cross-reference
+      convention added). The old hand-written stubs and their HTML comments are all gone.
+- [ ] Phase 8: consistency/organization review pass (+ fixes). **NEXT — Lionel is running
+      this from a FRESH HARNESS, so everything it needs is written down below.**
+      READ FIRST, IN THIS ORDER:
+      1. `docs/_work/owner-rulings.md` — **the highest authority in this project.** Lionel's
+         rules calls, each verified against printed card text. Outranks the drafts, the
+         extracts, `wave1-decisions.md`, and the rulings' own paraphrases.
+      2. `docs/_work/phase8-inbox.md` — the work queue. 9 objections + 34 card-text-vs-ruling
+         conflicts that drafters RAISED rather than silently resolving. 6 of the 9 objections
+         are the already-resolved stale "Only usable by" entry, kept only as the record.
+         The 3 live ones: 1.2 vs 1.15 on whether "(limited)" binds the action or the
+         minion-per-round; 4.3 arguing {Rigor Mortis} is a counterexample to 1.1's
+         cannot-names-cards vs cannot-names-outcome test; 1.11 wanting 1.8's "retrieve cards
+         played" clause scoped to canceled cards only.
+      3. `docs/_work/drafter-contract.md` — the style contract the document was written to.
+         Judge consistency against THIS, not against taste.
+      KNOWN DEFECTS ALREADY IDENTIFIED, do not re-discover them:
+      * **Length.** Lionel asked for ~4x shorter than the first attempt; the finished draft
+        averages 59 prose lines/section against a 25-50 budget. He accepted §1.6 (48 lines)
+        as the density benchmark. The 12 sections over 70 lines are the compression
+        candidates: 1.13, 1.8, 2.4, 2.5, 3.3, 3.7.6, 4.3, 4.5, 5.2, 5.7, 6.2, 6.5.
+      * **Dangling term.** 1.1, 1.8, 1.9 and 4.2 cross-reference "futility" as though §1.6
+        defines it. §1.6 never uses the word. Either define it or rewrite the four refs.
+      * **Title style drift.** Some headings use "&", others "and" (4.5 "Prevention &
+        immunity", 5.7 "...classes & traits", 6.9 "Hand, draw & discard" vs 6.1 "Owner and
+        controller"). Also 4.7 "Strike: combat ends" should probably match the game term's
+        capitalisation, "Strike: Combat Ends".
+      * **Cross-references are plain `§x.y` markers by design** — Phase 8 converts them to
+        markdown anchor links. 59 of them, all validated as resolving.
+      WORKFLOW NOTE: assemble.py is the source of truth for the document. Fix section drafts
+      in `sections/`, then re-run it. Editing `docs/extended-rules.md` directly loses the fix.
+      LESSON FROM PHASE 6, worth honouring: a rules call changed three times mid-run and six
+      agents flagged the stale file instead of guessing — that is why nothing was corrupted.
+      Settle rules calls BEFORE launching a wave, and keep telling agents to raise conflicts
+      rather than resolve them silently.
 - [ ] Phase 9: reference verification pass (script: all IDs exist in references.yaml;
       agents: spot-check footnotes vs rulings.yaml, flag suspicious claims)
 - [ ] Phase 10: cleanup — delete docs/_work/ (tsv, chunks, flattening script, extracts,
