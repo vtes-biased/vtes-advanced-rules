@@ -1,0 +1,111 @@
+R0013	1.6	P	abnormal entry ignores requirements — 1.6's named scope, stated generally
+R0039	3.6,1.11	P	states the zone mechanics behind the "continue as if unblocked" template
+R0065	4.5	P	prevention window: a prevention card may be played before there is damage
+R0086	6.9,2.4	E	discard-phase ordering; 5.5 (allies) defensible as a third code
+R0091	4.9,5.3	E	end-of-combat trigger interrupted, but the other consequences still apply
+R0117	5.2,6.4	P	"comes back unlocked" is not unlocking — states the distinction generally
+R0143	1.2	G	cumulative / stacking effects: multiple instances of the same effect each apply independently, and each is paid for separately. 1.2 owns wording templates and touches this, but no section owns effect stacking
+R0169	2.5,3.3	E	duration of a prohibition tied to a block attempt, surviving a failed block
+R0195	1.1,4.5	E	"cannot play" is absolute — it bars playing even for no effect (cycling)
+R0221	1.6,1.3	E	a failed conditional clause does not remove the card's type/keyword
+R0247	3.7.4,1.5	E	locking to use an ability is not acting, so the recruit-turn restriction does not bite
+R0273	1.2	G	cumulative / stacking effects: identical burn-blood effects add up rather than overlapping. Same missing topic as R0143; 1.2 is only the nearest neighbour
+R0299	6.2,5.4	E	temporary control meeting minion burning
+R0325	1.1	P	mandatory vs. optional effects — 1.1's named scope
+R0351	3.5	P	the "ends unsuccessfully immediately" template and its window-closing effect
+R0377	6.4,3.5	P	a retrieved minion is a new minion: what re-entering play does not remember, incl. NRA history. 1.11 (ash heap retrieval) defensible as a third code
+R0403	4.8,4.9	E	timing relative to the press step, and survival of a premature end of round
+R0406	3.3	E	block-attempt-impossible template — 3.3 every time
+R0429	3.6,3.3	P	no second block opportunity for Methuselahs who already declined
+R0455	4.4	E	damage outside combat does not qualify as combat damage
+R0481	-	C	{Derange}'s own restriction on which vampires it may be moved to, extended to the antitribu clan. Fails transfer — no other card's ruling changes; the taxonomy has no clan-identity section and one ruling does not justify one
+R0507	3.4,2.1	E	once the "when successful" window is reached, only same-window effects remain
+R0533	3.2	G	playing a card that will have no effect: legality of playing a card whose effect cannot apply. Passes both tests (cf. {Dust Up}.3, {Veiled Sight}.1, and the inverse in {Blood Fury}.6) but no section owns it — 1.1 is about reading text, 1.8 about the play/cancel window. 3.2 is the nearest owner here
+R0544	6.9,1.9	P	hand size: what counts against it. NOTE: calibration.md still shows this as a G example, but 6.9 now exists and claims it explicitly — labelled to the current taxonomy
+R0559	4.6	G	playing a card that will have no effect: a prohibition on the effect does not bar playing the card. Same missing topic as R0533; 4.6 (dodge scope) is the nearest partial owner
+R0577	1.13	E	contesting, despite hand-size vocabulary — the calibration control
+R0582	3.3	E	block-attempt-impossible template
+R0585	1.6,1.7,3.7.4	E	abnormal entry: requirements ignored, cost not paid, and the new minion may act
+R0611	6.4,2.5	E	a restriction that persists across the tracked minion leaving and re-entering play; wording is hard to parse but labelled as written
+R0637	3.3	P	who may block: lifting the who-blocks restriction does not lift the other block requirements
+R0663	4.2	E	range change takes effect immediately for what may be played
+R0689	3.2	E	a global stealth penalty also applies to the action to remove the card imposing it
+R0715	4.5	P	"prevent up to X" — 4.5's named scope
+R0741	5.8,5.7	G	sect as a trait: precedence of a temporary sect override over a permanent sect change. 5.8 owns sect change via titles and 5.7 sect-derived traits, but nothing owns sect itself — the watch-list gap, cited by name
+R0767	6.7,3.1	E	uncontrolled-region minions are not legal targets
+R0793	-	C	reads the singular in this card's own crypt search. Generalises only to "the singular means one", which fails non-obviousness; and it changes no other card's ruling, so it fails transfer too
+R0810	3.3	E	block-attempt-impossible template
+R0819	3.7.5,2.4	E	ordering of a card's benefit against the referendum's own effects
+R0845	5.5	E	ally acting "as a vampire" — 5.5's named scope
+R0871	5.3	E	torpid minions still count for a control/possession check
+R0897	3.7.4,5.6	E	an effect that moves a retainer is not the employ action, so employ-triggered abilities do not fire
+R0923	6.9	P	draw-then-discard: the discarded card need not be one just drawn
+R0949	3.1,1.14,1.9	E	announcement template, plus the not-discarded-on-failure and in-hand-before-replacement clauses
+R0975	1.7,5.7	E	cost to influence vs. cost to recruit for an Imbued
+R1001	4.8	P	presses apply to the current round only — 4.8's named scope
+R1027	3.7.2	E	non-standard hunt actions and what may be targeted
+R1053	3.3,3.2	P	failing to block because of stealth still counts as declining to block
+R1079	3.7.6,3.7.5	E	abstain, and the effect reading the final vote disposition at tally
+R1105	-	C	{Marked Path}'s own burn trigger and whether a later action's target set matches the first. Fails transfer — no other card's ruling turns on it; 3.1 owns targets but this is not a rule about targeting
+R1131	5.1	E	merge is not affected by effects on vampire cards entering play
+R1157	6.2,5.3	E	temporary control ending returns the minion in its current state, torpor included
+R1183	5.7,4.1	E	a Slave entering combat instead of the blocker still satisfies the reaction's conditions
+R1209	5.7	E	Black Hand is contingent on Sabbat — 5.7's named traits
+R1235	5.2,5.7	E	lock as a cost/effect vs. the Infernal unlock trait; wording reads oddly (locking an already-locked minion) but labelled as written
+R1261	3.3,1.1	E	unlocking to block does not oblige a block attempt or further reactions
+R1287	3.1,1.14	E	announcement template — both codes, in this order, every time
+R1313	3.7.4,5.5	E	an ally put into play by a card effect still cannot act the turn it arrives
+R1339	2.1,1.10	E	there is a response window before a zero-counter burn resolves
+R1365	6.5,6.4	E	ousting makes minions leave the ready region, which triggers leaves-play effects
+R1391	4.4,5.6	E	retainer and environmental damage are not damage inflicted by the minion
+R1417	1.7,3.8	E	a cost-payment effect restricted to card plays cannot pay for cardless or in-play-card actions
+R1443	3.7.8,3.4	P	a thwarted diablerie is unsuccessful: no trophy, no blood hunt
+R1469	6.3,1.6	P	requirements do not apply when taking control of a card in play — 6.3's named scope
+R1495	6.5,3.7.1	E	Edge is granted before the post-bleed pool effect resolves; wording is confusing but labelled as written
+R1521	3.7.4,1.5	E	duplicate wording of R0247 — labelled identically
+R1547	4.3	E	one strike card cannot supply the hand strike required by another
+R1555	3.3	E	block-attempt-impossible template
+R1573	5.7,2.3	E	the trait gained by the action is live immediately after resolution
+R1599	5.7,4.1	E	a Slave entering combat instead of the acting minion cannot use the acting minion's modifier
+R1625	3.1	E	directed at the controllers of the qualifying cards — 3.1's directed/undirected scope
+R1651	2.4	E	multiple gain effects from one card remain separate effects; the controller chooses which one is affected
+R1677	4.3	E	first strike segregates the strikes for the purpose of a strike-affecting effect
+R1703	2.4	G	minion-phase action ordering: the order in which a Methuselah takes their own actions, and mandatory actions preceding optional ones. 2.4 touches ordering but owns only simultaneous effects — the watch-list gap, cited by name
+R1729	-	C	{Static Virtue}'s own Aye/Orun pairing arithmetic for a newly-readied Laibon. Fails transfer — affects no other card; 5.7 owns Laibon traits but this is this card's retrieval clause
+R1755	3.1,1.14	E	announcement template
+R1781	1.7,5.3	E	a "burn blood to" effect is not a cost: you pay what you can and the effect still fails
+R1807	1.8,1.7	E	costs of canceled cards are still paid
+R1833	6.2,6.5	E	a stolen minion with nowhere to return to is removed from the game
+R1859	4.4	E	environmental damage — a usable e.g. for 4.4
+R1885	4.4	E	environmental damage does not count as inflicted by the acting vampire
+R1899	3.3	E	block-attempt-impossible template
+R1911	1.6	E	requirements are re-checked: the card's own effect removes its play requirement
+R1937	5.4,5.5	E	the burning card is not a minion, so minion-burn triggers do not fire
+R1963	4.3	E	the strike may be used even where its payoff cannot apply
+R1989	1.8,6.6	E	the "as played" window applies to out-of-turn masters too
+R2015	4.9,4.4	E	damage still applied when combat ends prematurely
+R2041	1.1	P	mandatory vs. optional effects
+R2067	3.3	E	block-attempt-impossible template
+R2093	1.8,5.2	E	wakes are the exception playable in the "as played" window
+R2119	3.7.1	E	bleed amount arithmetic on the acting vampire's own bleed
+R2145	1.8,3.5	E	card copy of the G00061 general entry — labelled identically, role E
+R2171	3.1,1.14	E	announcement template
+R2197	6.9,6.6	E	hand size bonuses stack across multiple master phase actions
+R2223	3.7.6,5.8	E	votes vs. ballots, Priscus subreferendum, and a suppressed title
+R2249	1.7	P	a cost reduction changes the actual cost for every effect that reads it
+R2275	5.8,3.7.5	E	a title used to call a referendum is not visible to other cards during it
+R2301	1.7,6.1	E	who chooses the payment currency for a cost
+R2327	4.9,3.6	E	effects queued after combat are lost when a new combat begins
+R2353	3.7.7,1.7,1.1	E	rescue cost reduction applies whoever pays, and is not optional
+R2379	2.4,6.4	E	unlock-phase ordering for a minion returning as the phase begins
+R2405	5.8	P	sect change does not strip a title — 5.8's named scope
+R2431	4.4	E	environmental damage — a usable e.g. for 4.4
+R2457	4.8,1.5	E	an ability granting a press is bound to the press step
+R2483	1.8,2.5	G	status conferred by a card when played vs. by an ongoing effect of a card in play, and when other cards may reference that status. Passes transfer (it decides {Open Dossier}, {Dirty Contract}, {Clandestine Contract}) and non-obviousness, but no section owns card-conferred statuses; 1.8 touches the play window and 2.5 persistence
+R2509	-	C	{White Lily}'s own ability requiring her to be the combatant. Fails transfer — reads one clause of one card; 4.1 owns combat participation but no principle is stated
+R2535	1.3,1.7	E	locquipments: a location that is equipment can be paid for by an equipment-cost effect
+R2561	4.5,4.4	P	general rule entry: "immune" means damage is never inflicted, in or out of combat
+R2587	2.2	P	general rule entry: "as the action is announced" modifiers precede ordinary modifiers
+R2593	1.8,1.9	P	general rule entry: the "as played" window — no replacement, no effects but wakes
+R2599	1.8,3.5	P	general rule entry: what "cancel a card" reaches
+R2604	3.7.2	P	general rule entry: special hunt actions take hunt bonuses; blood comes from the target

@@ -26,14 +26,29 @@ maintained, and do not let it accumulate anything the final document depends on.
 - `WORKING-NOTES.md` — **read this first.** It is compaction insurance: the mandate,
   the validated style constraints, and a 9-phase pipeline checklist with current state.
   Update the phase checkboxes as work completes.
-- `taxonomy.md` — the 61 section codes (`1.1` … `6.8`) every ruling is classified
-  against, plus the P/E/C role definitions (Principle / Example / one-card
-  interpretation).
+- `taxonomy.md` — the 61 section codes (`1.1` … `6.9`) every ruling is classified
+  against, plus the P/E/C/G role definitions (Principle / Example / not-worth-carrying /
+  Gap-with-no-owning-section). Authoritative for the code list.
 - `rulings-flat.tsv` — all rulings flattened, one per line:
   `R####<TAB><card_id>|<Card Name>.<n><TAB>ruling text with [REF IDs]`.
 - `chunk-00` … `chunk-17` — that same TSV split into 145-line chunks, one per
   classification agent. Classification output goes to `docs/_work/class/chunk-NN.tsv`
-  as `id<TAB>section|-<TAB>P|E|C<TAB>optional-topic-hint`.
+  as `id<TAB>codes<TAB>P|E|C<TAB>note` — 1-3 comma-separated codes, most central first;
+  every `C` carries a note justifying it.
+- `classifier-contract.md` — the operating contract for the classification agents: the
+  two independent judgments (absorb-or-not, then which sections), golden rules, output
+  format, the C/G tests, and the note-field tags. Agents are self-contained (contract +
+  taxonomy + calibration + own chunk, nothing else).
+- `phase3-runbook.md` — **how to run the 18-way production classification.** Written to
+  be self-sufficient from a cold start: preconditions, the verbatim agent prompt, model
+  choice, validation commands, and the known trouble spots.
+- `calib-sample.tsv`, `calib-run-{A,B,A2,B2}.tsv`, `compare-runs.py` — the calibration
+  evidence. Two rounds of two independent opus passes over the same 111 rulings, graded
+  against each other; `compare-runs.py` reports the agreement metrics.
+- `calibration.md` — worked examples anchoring the pass, seeded from the drafted
+  sections 1.8 and 3.5 where the correct labels are already fixed by their footnotes.
+  Maintained by *promotion*: generalizable corrections move up into "General lessons",
+  case verdicts stay thin.
 
 Later phases write `docs/_work/extracts/<sec>.md` and `docs/_work/sections/<sec>.md`
 before assembly into `docs/extended-rules.md`.

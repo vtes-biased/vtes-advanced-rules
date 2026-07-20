@@ -73,8 +73,74 @@ Codes and scopes. Pick the section whose PRINCIPLE the ruling teaches or illustr
 - 6.6 — Master phase: master phase actions; trifles; out-of-turn masters; masters on minions.
 - 6.7 — Influence phase & crypt: transfers; influencing; uncontrolled region.
 - 6.8 — Events & Gehenna: event timing; Gehenna requirements.
+- 6.9 — Hand, draw & discard: hand size (what counts against it, bonuses, stacking,
+  persistence); draw/discard mechanics (which card may be discarded, draw-then-discard
+  effects); the discard phase as an orderable end-of-turn window. Added 2026-07-20 on
+  calibration evidence — see below.
 
 ## Roles
+
+Two of these decide whether a ruling reaches the document. One does not — see the
+low-stakes note.
+
 - P — the ruling STATES or directly applies a general principle of that section.
-- E — the ruling is a usable EXAMPLE of that section's principle on a specific card.
-- C — pure one-card text interpretation; teaches nothing general. Give topic hint.
+      These become the section's PROSE.
+- E — a usable EXAMPLE of that principle on a specific card. These become the
+      "e.g." cards the prose cites (style rule: 1-3 per principle, never a list).
+- C — teaches nothing worth carrying into the document. Correctly stays in the
+      rulings database. Requires a note. Two tests, either one is enough:
+      * TRANSFER — does this ruling change how you would rule on a DIFFERENT card?
+        If no, it is C however generally you can phrase it.
+      * NON-OBVIOUSNESS — would a judge fluent in the rulebook already know it?
+        If yes, it is a reminder, not a ruling.
+- G — GAP: the ruling teaches something general, but no section here owns it.
+      Requires a note naming the missing topic. **G MAY carry codes** — list the
+      nearest partially-owning sections, meaning "homeless at its core, but these
+      sections touch it". Use `-` only when nothing comes close.
+
+**P vs E is low-stakes** — see the contract; when torn, choose E.
+
+**C vs G is the distinction that matters**, and it is the one this schema previously
+collapsed. "No section fits" has two completely different causes:
+- C — nothing general here to capture. The corpus has a natural ceiling of these, and
+  a healthy C fraction is correct by design.
+- G — something general here that we failed to plan a home for. This is the ONLY
+  evidence that justifies expanding the taxonomy.
+Merging them makes the coverage number uninterpretable: a low score could mean either
+"the corpus is more card-specific than we assumed" (do nothing) or "we are missing
+sections" (expand). Keeping them apart is what lets the number answer the question.
+
+## 6.9 — how it was added (the evidence standard for future additions)
+
+Confirmed by BOTH independent calibration passes, which cited the same deciding rulings:
+`Dreams of the Sphinx.3` ("cards that are not replaced count against the hand size") and
+`Infernal Pursuit.1` ("the card you discard need not be one of the cards you just drew").
+Both are statable as rules with no card named, and they sit in *different* sub-topics —
+two distinct sub-topics is what turns a keyword cluster into a section.
+
+The control worked: both passes independently sent `Elder Library.1` to 1.13 contests
+despite its hand-size vocabulary. Shared vocabulary is not a shared gap.
+
+**6.9 is one code covering three sub-topics on purpose.** The discard phase arguably
+deserves its own section, and the drafter may well split it in the document. But the two
+calibration passes disagreed on exactly that boundary (`Art of Love.2`), so a second code
+would buy drift for no gain. Splitting later is cheap — everything lands in one small
+extract, so a split reclassifies ~30 rulings rather than the corpus. Routing codes do not
+have to match the table of contents.
+
+## Watch list (candidate gaps, NOT yet sections)
+
+Raised by calibration but with too little evidence. Do not create these; label the rulings
+`G` with the nearest codes and let the count decide at Phase 4.
+
+- **Sect as a trait.** 5.8 owns sect change *via titles*, 5.7 owns sect-derived traits
+  (Black Hand etc.), but nothing owns sect itself or the precedence of a temporary sect
+  override over a permanent change (`Galaric's Legacy.1`). Both passes flagged it.
+- **Cumulative / stacking effects.** Nothing owns "multiple instances of an effect stack"
+  (`Betrayer.3`, `Camarilla Exemplary.1`). Both passes forced these into 1.2 for
+  consistency, not because 1.2 claims them.
+- **Minion-phase action ordering** — the order a Methuselah takes their own actions
+  (`Spirit Marionette`); 2.4 is simultaneous-effect ordering, which is a different thing.
+- **3.7.4 is overloaded** — its scope line mixes the employ/recruit *actions* with
+  "acting the turn recruited", which is a minion-state fact. Six sample rulings piled in
+  for two unrelated reasons. Candidate for a scope-line split, not a new code.
