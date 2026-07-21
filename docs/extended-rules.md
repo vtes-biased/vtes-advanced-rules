@@ -3873,10 +3873,6 @@ normal replacement has been seen, e.g. {Learjet} (see [§1.9](#19-replacement) f
 
 <!-- TODO Phase 8: collect the wording templates named across the document. -->
 
-## Appendix B. Index of cited cards
-
-<!-- TODO Phase 8: generate from the {Card} references in the assembled text. -->
-
 ## References
 
 [^1-1-1]: [RTR 19980707](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/t3BWHkOrdyE/m/1jH5udLMdiYJ) [LSJ 19980722](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/0kbbA-SNchg/m/Urog66UtAzYJ) — {Aaron's Feeding Razor}, {The Ancestor's Talisman}, {Changeling Skin Mask}, {Enchanted Marionette}, {Writ of Acceptance}.

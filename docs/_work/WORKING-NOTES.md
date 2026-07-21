@@ -49,10 +49,10 @@ sessions from re-deriving settled things.
 
 ## Open items
 
-1. **Appendix A (wording-template glossary) and Appendix B (card index)** — the two
-   TODO stubs at the end of the document, and the highest-remaining-value navigation
-   work (they are the intended lookup path for trait names like Scarce/Sterile/[FLIGHT]
-   buried in §5.7.6, and for card names generally).
+1. **Appendix A (wording-template glossary)** — the remaining TODO stub at the end of
+   the document, and the highest-remaining-value navigation work (the intended lookup
+   path for trait names like Scarce/Sterile/[FLIGHT] buried in §5.7.6). Appendix B
+   (card index) was dropped by owner decision 2026-07-21.
 2. **phase8-inbox.md triage** — 3 live objections: §1.2 vs §1.15 on whether
    "(limited)" binds the action or the minion-per-round (rulebook says minion for
    additional strikes); §4.3's {Rigor Mortis} counterexample to §1.1's

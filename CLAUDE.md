@@ -11,7 +11,7 @@ There is no build, no test suite, no package. The deliverable is one Markdown fi
 
 **The document is complete** — 64 sections in 6 chapters, ~750 footnotes, drafted,
 assembled, and corrected through an owner-adjudicated whole-document pass. The project is
-in maintenance mode: remaining work is polish (Appendices A/B, the open items in
+in maintenance mode: remaining work is polish (Appendix A, the open items in
 `docs/_work/WORKING-NOTES.md`) and keeping the document true as rulings evolve upstream.
 
 **`docs/extended-rules.md` is the sole source of truth. Edit it directly.** The
