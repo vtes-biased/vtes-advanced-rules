@@ -31,13 +31,13 @@ rules and terminology, and favors precision over accessibility.
 
 ### 1.1 Card text and the rules
 
-**Base rules.** Where a card contradicts the rules, the card takes precedence. [RBK important-terms-in-the-game]
+**Base rules.** Where a card contradicts the rules, the card takes precedence. [RBK important-terms-of-the-game]
 
 #### 1.1.1 Mandatory and optional effects
 
 A printed statement of fact applies automatically and its controller has no choice in the
-matter, e.g. {Writ of Acceptance}, {Enchanted Marionette}.[^1-1-1] Only a clause worded
-"may" or "can" is optional. {Changeling Skin Mask} carries both: the bearer has [OBF]
+matter, e.g. {Writ of Acceptance}, {Enchanted Marionette}.[^1-1-1] Only a clause the card
+marks as optional — "may", "can", "optional" — is optional. {Changeling Skin Mask} carries both: the bearer has [OBF]
 whether you want it or not, and burning the card for intercept is your choice.[^1-1-1]
 
 An ability is mandatory unless the card marks it optional. {Renegade Garou} gets a
@@ -51,11 +51,14 @@ e.g. {Frondator}.[^1-1-3]
 
 An opportunity is not a compulsion. A card that lets a minion strike with a weapon does
 not force the strike, e.g. {Bomb}, {Bundi}; a wake card lets its vampire attempt a block
-but never requires it, e.g. {Wake with Evening's Freshness} (§3.3).[^1-1-4]
+but never requires it, e.g. {Wake with Evening's Freshness} ([§3.3](#33-blocking)).[^1-1-4]
 
 A choice inside an effect is made when the effect resolves, not when the card is played,
-e.g. the "up to 2 blood" on {Third Tradition: Progeny}.[^1-1-5] An optional effect on a
-card in play is taken or declined by the controller of the minion it is on.[^1-1-5]
+e.g. the "up to 2 blood" on {Third Tradition: Progeny}.[^1-1-5] Who takes or declines an
+optional effect on a card in play follows the card's wording, not control of the card: an
+effect granted to "this vampire" is used by the vampire — hence by its current controller —
+even on a master card another Methuselah played and still controls, e.g. {Perfectionist},
+{Corporal Reservoir}.[^1-1-5]
 
 #### 1.1.2 Applying a mandatory effect
 
@@ -82,7 +85,7 @@ cannot gain blood still takes the hunt action; the blood he steals goes to the b
 bank.[^1-1-8]
 
 A card naming an object it acts on cannot be played when no such object exists, e.g.
-{Fractured Armament} with no equipment in play; futility alone is no bar. §1.6 owns that
+{Fractured Armament} with no equipment in play; futility alone is no bar. See [§1.6](#16-requirements) for that
 distinction.[^1-1-9]
 
 #### 1.1.4 Reading card text
@@ -94,15 +97,15 @@ pool.[^1-1-10]
 
 #### References
 
-[^1-1-1]: [RTR 19980707] [LSJ 19980722] — {Aaron's Feeding Razor}, {Ancestor's Talisman, The}, {Changeling Skin Mask}, {Enchanted Marionette}, {Writ of Acceptance}.
-[^1-1-2]: [PIB 20121028] [LSJ 19980823] [LSJ 20051016] [LSJ 20051017] [LSJ 20051211] — {Renegade Garou}, {Talbot's Chainsaw}, {Lorrie Dunsirn}, {Eze, The Demon Prince}.
-[^1-1-3]: [RTR 19941109] [RTR 20010710] [ANK 20180420-2] [LSJ 20020304-2] [PIB 20110918] — {Repo Man}, {Vast Wealth}, {Serpent's Numbing Kiss}, {Frondator}, {Miriam Benyona}.
-[^1-1-4]: [LSJ 19971215] [TOM 19951129] — {Bomb}, {Bundi}, {Eyes of Argus}, {Forced Awakening}, {Wake with Evening's Freshness}.
-[^1-1-5]: [PIB 20150418] [ANK 20210309-3] — {Third Tradition: Progeny}, group "Master on vampire who can use it" (G00031).
-[^1-1-6]: [LSJ 20100723] [PIB 20111002] [LSJ 20021210-1] — {Coven, The}, {Owain Evans, The Wanderer}, {Leandro}.
-[^1-1-7]: [LSJ 20050628] [LSJ 20011214-5] — {Blood Fury}, {Blood Rage}, {Bollix}, {Dead Hand}, {Soul Burn}, {Rigor Mortis}.
-[^1-1-8]: [RTR 19941109] [LSJ 20010809-1] — {Charnas the Imp}, {Legacy of Caine}.
-[^1-1-9]: [RTR 19980928] [LSJ 20001114] [RTR 20010711] — {Blessing of Durga Syn}, {Fractured Armament}, {Glancing Blow}, {Absorb the Mind}.
+[^1-1-1]: [RTR 19980707] [LSJ 19980722] — {Aaron's Feeding Razor}, {The Ancestor's Talisman}, {Changeling Skin Mask}, {Enchanted Marionette}, {Writ of Acceptance}.
+[^1-1-2]: [PIB 20121028] [LSJ 20051016] [LSJ 20051017] [LSJ 20051211] — group "Mandatory additional strike" (G00134), {Lorrie Dunsirn}, {Eze, The Demon Prince}.
+[^1-1-3]: [RTR 19941109] [RTR 20010710] [ANK 20180420-2] [LSJ 20020304-2] [PIB 20110918] — {Repo Man}, {Vast Wealth}, {Serpent's Numbing Kiss}, group "Discounts for rescue" (G00075).
+[^1-1-4]: [LSJ 19971215] [TOM 19951129] — {Bomb}, {Bundi}, group "Wake" (G00115).
+[^1-1-5]: [PIB 20150418] [ANK 20210309-3] [RBK important-terms-of-the-game] — {Third Tradition: Progeny}; {Perfectionist}, {Corporal Reservoir} (ruling removed from the database with group "Master on vampire who can use it" (G00031); original at vekn.net forum thread 79065).
+[^1-1-6]: [LSJ 20100723] [PIB 20111002] [LSJ 20021210-1] — {The Coven}, {Owain Evans, The Wanderer}, {Leandro}.
+[^1-1-7]: [LSJ 20050628] [LSJ 20011214-5] — groups "Prevent discipline based prevention" (G00141) and "Prohibits additional strikes" (G00137).
+[^1-1-8]: [RTR 19941109] [LSJ 20010809-1] — {Charnas the Imp}, group "Steal blood as a Hunt action" (G00121).
+[^1-1-9]: [RTR 19980928] [LSJ 20001114] [RTR 20010711] — {Blessing of Durga Syn}, {Fractured Armament}, {Hidden Strength}, group "Immideate damage prevention" (G00154), {Absorb the Mind}.
 [^1-1-10]: [ANK 20180518] [LSJ 19990218] — {Big Game}, {Major Boon}.
 
 ### 1.2 Wording templates: periodicity, duration, triggers
@@ -114,35 +117,40 @@ the narrower form, e.g. {Maila}. Turn, master phase, unlock phase, action, bleed
 referendum all read the same way.[^1-2-1]
 
 A limit keyed to an event is spent per occurrence, and the event can recur in one turn:
-{Andre LeRoux} may be used on each successful bleed. A limit keyed to a phase is spent per
-window in that phase: {Nahir} may be used again on a second master phase action.[^1-2-2]
+{Andre LeRoux} may be used on each successful bleed. An ability whose use costs a master
+phase action is likewise spent per action, so extra master phase actions buy extra uses,
+e.g. {Nahir}. An ability framed by a phase is spent for that phase: {Nonu Dis} may be used
+once per master phase however many master cards are played in it.[^1-2-2]
 
 Absence of a periodicity clause means no limit — {Maris Streck} may use her ability as
 often as she can pay for it. A trigger condition is not a limit: {Slake the Thirst} may be
 played several times on one blood gain.[^1-2-3]
 
 The limit attaches to the card, not to the effect, so a second copy carries its own use
-whatever the period, e.g. {Amulet of Temporal Perception}. §1.15 owns multiple copies
+whatever the period, e.g. {Amulet of Temporal Perception}. See [§1.15](#115-cumulative-and-stacking-effects) for multiple copies
 generally.[^1-2-4]
 
-The limit travels with the card, not the holder. {.44 Magnum} gives one maneuver each
-combat even if the bearer changes; {Owain Evans, The Wanderer}'s use is spent for that
-unlock phase even if control of him changes during it. Unlocking mid-referendum does not
-restore a spent referendum ability, e.g. {Michael Luther}. A minion who takes an action over
-gets no fresh use of a per-action ability already used on it.[^1-2-5] Per §1.15 a
+The limit travels with the card, not the holder: {Owain Evans, The Wanderer}'s use is spent
+for that unlock phase even if control of him changes during it; a weapon's per-combat
+allowance tracks the weapon ([§4.10.2](#4102-once-per-combat-once-per-round)); a spent
+referendum ability is not restored by unlocking ([§3.7.5.3](#3753-polling-and-the-tally)).
+A minion who takes an action over gets no fresh use of a per-action ability already used on
+it.[^1-2-5] Per [§1.15](#115-cumulative-and-stacking-effects) a
 once-per-action limit on *playing* a card binds the minion instead.
 
 An effect marked "(limited)" is capped by the rulebook, not the card, and is not optional:
 once a limited additional strike has been used this round, the card cannot be played for
-its other clause, e.g. {Dust Up} [cel].[^1-2-6] A canceled use spends no limit, and using a
-card's ability through another card plays no card — §1.8 owns both.[^1-2-6]
+its other clause, e.g. {Dust Up} [cel].[^1-2-6] The limit binds the action (or round), not
+the minion: a substitute acting minion cannot use a limited effect if one has already been
+used on the action ([§3.10.1](#3101-substituting-the-actor-in-an-announced-action)).[^1-2-15]
+A canceled use spends no limit, and using a
+card's ability through another card plays no card — see [§1.8](#18-playing-and-canceling-a-card) for both.[^1-2-6]
 
-A referendum ability is usable once per referendum. One stating no condition works while
-its vampire is locked or in torpor; one merely omitting a lock cost works while
-locked.[^1-2-7]
+A referendum ability is usable once per referendum; which states it works from is
+[§3.7.6.4](#3764-locked-and-torpid-vampires)'s.[^1-2-7]
 
-Two actions provided by one ability are not cross-restrictive: the same minion may take
-each once in a turn. A single such action may be taken once per turn only.[^1-2-8]
+Two actions provided by one source are not cross-restrictive; each may be taken once per
+turn ([§3.8.1](#381-one-source-one-action)).[^1-2-8]
 
 "Only once in a game" survives the card's return from the ash heap, so a replay effect
 cannot bring it back, e.g. {Filchware's Pawn Shop}; burning a card for its votes is not
@@ -154,16 +162,14 @@ now: that turn does not qualify, the current one does.[^1-2-9]
 A press or maneuver granted by a strike card is usable only during the round the card was
 played, e.g. {Rigor Mortis}.[^1-2-10]
 
-An optional maneuver printed on a weapon cannot be used when the strike itself cannot be
-used, e.g. {Deer Rifle} against {Hidden Lurker}; a minion who cannot strike at all can
-neither play nor use one.[^1-2-11] A maneuver granted by a card played on the action serves
-only the combat resulting from that action, but a vampire who blocks a second time after
-the action continues gets the grant again, e.g. {Eyes of the Beast}.[^1-2-11]
+A maneuver granted by a card played on the action serves only the combat resulting from
+that action, but a vampire who blocks a second time after the action continues gets the
+grant again, e.g. {Eyes of the Beast}.[^1-2-11]
 
 #### 1.2.3 Trigger and condition wording
 
 "Reduced to X" names an event, not a state. {Anathema} does not fire on a vampire that
-entered combat already at zero blood, fires however the loss was caused, and does not fire
+entered combat already at zero blood, fires on any loss in combat however caused, and does not fire
 on diablerie.[^1-2-12]
 
 A condition referring to the card's own effect is not satisfied by another effect producing
@@ -171,26 +177,26 @@ the same event: {Escaped Mental Patient} is not burned when another card grants 
 hand strike.[^1-2-13] An "either A or B" condition needs one branch completed in full;
 partial progress on both does not combine, e.g. {First Tradition: The Masquerade}.[^1-2-13]
 
-"When the action/bleed would be successful" is a timing window, not merely a condition:
-once a card with that timing has been played, only cards with the same timing may
-follow.[^1-2-14] §2.3 owns the sequencing rule and §3.4 its consequences.
+"When the action/bleed would be successful" is a timing window, not merely a condition
+([§3.4.3](#343-the-would-be-successful-window) owns its sequencing).[^1-2-14]
 
 #### References
 
 [^1-2-1]: [ANK 20180719-4] [ANK 20230122] [ANK 20190207] [ANK 20220617] [ANK 20200729] [RBK wording-templates] — group "Once each turn" (G00014), {Maila}, {Qawiyya el-Ghaduba}, {Nonu Dis}, {Carver's Meat Packing and Storage}.
-[^1-2-2]: [LSJ 20081123] [LSJ 20001102-2] [ANK 20191218] [LSJ 20050215] [ANK 20230116] [LSJ 20010111] [RBK wording-templates] — {Andre LeRoux}, {Courier}, {Nahir}, {NSA Trio}, {Phased Motion Detector}, {Angelica, The Canonicus}.
-[^1-2-3]: [LSJ 20020814] [ANK 20180307-2] [LSJ 20040617] [LSJ 20100206-2] [LSJ 20070320-2] — {Maris Streck}, {Edith Blount}, {Slake the Thirst}, {Hukros}.
+[^1-2-2]: [LSJ 20081123] [LSJ 20001102-2] [ANK 20191218] [ANK 20220617] [LSJ 20050215] [ANK 20230116] [LSJ 20010111] [RBK wording-templates] — {Andre LeRoux}, {Courier}, {Nahir}, {Nonu Dis}, {NSA Trio}, {Phased Motion Detector}, {Angelica, The Canonicus}.
+[^1-2-3]: [LSJ 20020814] [ANK 20180307-2] [LSJ 20040617] [LSJ 20100206-2] [LSJ 20070320-2] [ANK 20200420-2] — {Maris Streck}, {Edith Blount}, {Slake the Thirst}, {Hukros}, {Santaleous}.
 [^1-2-4]: [ANK 20230316] [ANK 20221102-2] [RBK wording-templates] — {Amulet of Temporal Perception}, groups "Weapon once per combat" (G00045) and "Weapon once per round" (G00046), {Haqim's Law: Retribution}.
-[^1-2-5]: [LSJ 19980302-2] [LSJ 20040127] [LSJ 20041207] [ANK 20221102-2] — {.44 Magnum}, {Owain Evans, The Wanderer}, {Michael Luther}, {Haqim's Law: Retribution}.
-[^1-2-6]: [ANK 20220204] [LSJ 20100206] [LSJ 20030224] [ANK 20200420-2] [ANK 20180627-1] — {Dust Up}, {Asguresh}, {Santaleous}, {Inscription}.
-[^1-2-7]: [ANK 20220705] [LSJ 20100705] [LSJ 20011022] [LSJ 20100902-2] [ANK 20180307-2] [RBK wording-templates] — groups "Unconditional referendum ability" (G00039) and "Non-locking referendum ability" (G00040), {Ellison Humboldt}.
-[^1-2-8]: [LSJ 20100909] [ANK 20220615] [ANK 20200810] [PIB 20121112] — group "Provide multiple actions" (G00035), {Annazir}, {Bindusara, Historian of the Kindred}, {Kyoko Shinsegawa}.
+[^1-2-5]: [LSJ 20040127] [ANK 20221102-2] — {Owain Evans, The Wanderer}, {Haqim's Law: Retribution}.
+[^1-2-6]: [ANK 20220204] [LSJ 20100206] [LSJ 20030224] [ANK 20180627-1] — {Dust Up}, {Asguresh}, group "Cancel" (G00058), {Inscription}.
+[^1-2-7]: [ANK 20220705] [LSJ 20100705] [RBK wording-templates] — groups "Unconditional referendum ability" (G00039) and "Non-locking referendum ability" (G00040).
+[^1-2-8]: [LSJ 20100909] [ANK 20220615] [ANK 20200810] [RBK action-card-or-card-in-play] — group "Provide multiple actions" (G00035), {Annazir}, {Bindusara, Historian of the Kindred}.
 [^1-2-9]: [LSJ 20040518] [ANK 20210309-2] [LSJ 20020429] — {Filchware's Pawn Shop}, group "Vote playable once per game" (G00030), group "Since your last turn" (G00010).
-[^1-2-10]: [TOM 19960521] — {Rigor Mortis}, {Dust to Dust}, {Resist Earth's Grasp}.
-[^1-2-11]: [LSJ 20021028] [LSJ 20001126] [RTR 19941109] [ANK 20191108] — group "Weapon with optional maneuver" (G00024), {Deer Rifle}, {Tinglestripe}, {Fast Reaction}, {Glaser Rounds}, {Eyes of the Beast}.
+[^1-2-10]: [TOM 19960521] — group "Optional press" (G00096); as previously recorded for member {Dust to Dust}, the ruling covered its optional maneuver as well.
+[^1-2-11]: [ANK 20191108] — {Eyes of the Beast}.
 [^1-2-12]: [RTR 19980623] [LSJ 20021122-2] [ANK 20211112] — {Anathema}.
 [^1-2-13]: [LSJ 20001127-2] [RTR 20020501] [LSJ 20031011] — {Escaped Mental Patient}, {Flaming Candle}, {First Tradition: The Masquerade}.
 [^1-2-14]: [LSJ 20090205] [LSJ 19980105] [LSJ 20081123] — {Andre LeRoux}, {Archon Investigation}.
+[^1-2-15]: [ANK 20190117-1] — {Mask of a Thousand Faces}.
 
 ### 1.3 Card types and multi-type cards
 
@@ -198,19 +204,17 @@ follow.[^1-2-14] §2.3 owns the sequencing rule and §3.4 its consequences.
 
 An equipment card printed "represents a location and does not count as equipment while in play" is an equipment in hand, library and ash heap; both equipment and location as it is played; and only a location once in play, e.g. {Palatial Estate}.[^1-3-1]
 
-Cost effects reach it under either wording, since the card is checked in hand and is both types at the moment it is played. An effect reducing the cost of locations applies, e.g. {Therbold Realty}; so does one reducing the cost of equipment cards, e.g. {The British Museum, London}.[^1-3-2] §1.7 owns cost reduction.
+Cost effects reach it under either wording, since the card is checked in hand and is both types at the moment it is played. An effect reducing the cost of locations applies, e.g. {Therbold Realty}; so does one reducing the cost of equipment cards, e.g. {The British Museum, London}.[^1-3-2] See [§1.7](#17-costs-and-payment) for cost reduction.
 
 An effect that reads the type of a card already in play sees only a location. A search for an equipment card finds a locquipment in the library, e.g. {Magic of the Smith}; a search for a location does not, e.g. {Danylo}. An effect that moves "the equipment" after an equip action cannot move it, e.g. {Reg Driscoll}.[^1-3-3]
 
-A vampire who cannot have or use equipment may still carry one, e.g. {Enkidu, The Noah}. {Beast, The Leatherface of Detroit} also cannot play action cards, so a card must put it on him, e.g. {Vast Wealth}.[^1-3-4]
+A vampire who cannot have or use equipment may still equip with a locquipment, e.g. {Enkidu, The Noah}. {Beast, The Leatherface of Detroit} also cannot play action cards, so a card must put it on him, e.g. {Vast Wealth}.[^1-3-4]
 
-On a change of control the locquipment may be put on any minion the new controller has, and is burned if there is none; a "change" of control to the same Methuselah moves nothing. See §6.3.[^1-3-5]
-
-An action targeting a locquipment is directed at the Methuselah controlling it, not at the minion carrying it, e.g. {Conceal}. See §3.1.[^1-3-5]
+On a change of control the locquipment is re-placed or burned like other cards on minions ([§6.3.2](#632-where-the-card-is-placed)); an action targeting one is directed at the Methuselah controlling it ([§3.1.5](#315-directed-actions)).[^1-3-5]
 
 #### 1.3.2 Multi-type cards
 
-A card with two types is of the type it is played as, never both.[^1-3-6] {Adana de Sforza} reduces the cost of a [COMBAT]/[ACTION MODIFIER] card only when it is played as a combat card; {Conrad Adoula} reads such a card only when it is played as a reaction. A card offering a choice of disciplines is of the discipline it was played at, e.g. {Horrock}.
+A card with two types is of the type it is played as, never both.[^1-3-6] {Adana de Sforza} reduces the cost of a [COMBAT]/[ACTION MODIFIER] card only when it is played as a combat card; {Conrad Adoula} reads a [REACTION]/[ACTION MODIFIER] card only when it is played as a reaction. A card offering a choice of disciplines is of the discipline it was played at, e.g. {Horrock}.
 
 An effect that retrieves or counts cards by type reads the type the card was played as: {Henry Taylor} recovers {Swallowed by the Night} only if it was played as a combat card.[^1-3-6]
 
@@ -222,7 +226,7 @@ Whether a card keeps its type after being used is settled by its own text, not b
 
 #### 1.3.3 Clan equipment and reflex cards
 
-A clan equipment already in play may be taken from the minion carrying it by a minion who does not meet its requirements; the equip-from-minion rulebook action is not a card play, so no requirement is checked. See §1.6.[^1-3-8]
+A clan equipment already in play may be taken from the minion carrying it by a minion who does not meet its requirements; the equip-from-minion rulebook action is not a card play, so no requirement is checked. See [§1.6](#16-requirements).[^1-3-8]
 
 A frenzy card that targets, selects, chooses or affects the minion when played counts as played on that minion.[^1-3-9]
 
@@ -234,7 +238,7 @@ A frenzy card that targets, selects, chooses or affects the minion when played c
 [^1-3-4]: [LSJ 20050315] [LSJ 20050413-1] [LSJ 20050413-2] — {Beast, The Leatherface of Detroit}, {Enkidu, The Noah}, {Helen Fairchild}, {Lorrie Dunsirn}.
 [^1-3-5]: [RTR 19960112] [LSJ 19971002] [LSJ 20090324] — group "Locquipments" (G00047), {Disputed Territory}, {Dominate Kine}.
 [^1-3-6]: [PIB 20150924-2] [LSJ 20031221] — {Adana de Sforza}, {Conrad Adoula}, {Horrock}, {Jane Sims}, {Nergal}, {Rex, The Necronomist}, {Scout Youngwood}, {Henry Taylor}.
-[^1-3-7]: [ANK 20230824] [RTR 20070707] [ANK 20220704] [LSJ 20070927] [LSJ 20050407] [LSJ 20100527] [ANK 20220818] — {Sunset Strip, Hollywood}, {The Shard, London}, {Charming Lobby}, {Shackles of Enkidu}, {Enhanced Coagulant}.
+[^1-3-7]: [ANK 20230824] [RTR 20070707] [ANK 20220704] [LSJ 20070927] [LSJ 20050407] [LSJ 20100527] [ANK 20220818] — {Pack Alpha}, groups "Lock to reduce cost" (G00130) and "Equip/employ/recruit outside of an action" (G00131), {Charming Lobby}, {Shackles of Enkidu}, {Enhanced Coagulant}.
 [^1-3-8]: [ANK 20180719-3] — group "Clan equipment" (G00013).
 [^1-3-9]: [LSJ 20051113] — group "Reflex" (G00060).
 
@@ -253,12 +257,12 @@ is not a Master: Discipline card while it is in play.[^1-4-1]
 
 The placeholder sits in play face up, but anything looking for a card by name ignores the
 printed name.[^1-4-2] A card merely stored on another card is out of play and sits face
-down instead, e.g. {Père Lachaise, France} (§1.11).[^1-4-2]
+down instead, e.g. {Père Lachaise, France} ([§1.11](#111-the-ash-heap)).[^1-4-2]
 
 Placeholders do not contest.[^1-4-2] The same holds for any minion put into play under a
 "does not contest" clause: it is a different card from an identically named minion in play,
 for all purposes. {Jimmy Dunn (G2)}'s burn-the-first-Jimmy clause does not fire on an
-illusionary Jimmy from {Illusions of the Kindred}.[^1-4-3] §1.13 owns contesting.
+illusionary Jimmy from {Illusions of the Kindred}.[^1-4-3] See [§1.13](#113-contests) for contesting.
 
 Once the card leaves play it is read as printed again; what it represented is gone. A card
 that was an ally in play is not an ally card in the ash heap and cannot be retrieved as one,
@@ -270,7 +274,7 @@ heap reads it as the thing it used to represent.[^1-4-4]
 
 Standing in for something else does not launder a play restriction. An ability that lets a
 minion count as having a required discipline substitutes only for that discipline; clan and
-other printed restrictions still apply, e.g. {Reality Mirror}.[^1-4-5] §1.6 owns
+other printed restrictions still apply, e.g. {Reality Mirror}.[^1-4-5] See [§1.6](#16-requirements) for
 requirements and requirement-faking.
 
 #### References
@@ -294,34 +298,34 @@ version of {Safe Passage} raises the cost of reaction cards, not of reaction pow
 effect of a master already in play, e.g. {KRCG News Radio}.[^1-5-1]
 
 An ability marked [REACTION] does not count as playing a reaction card, but it can be used
-only when reactions can be used — unlocked, or with a wake effect, e.g. {Champion}. A
-conviction reaction power tracks the reaction window itself and needs no wake, e.g.
-{Vigilance}.[^1-5-2] An effect that lets a locked minion block is not a wake and grants no
-reaction cards, e.g. {No Secrets From the Magaji}.[^1-5-3]
+only when reactions can be used — unlocked, or with a wake effect, e.g. {Champion}. Card
+text overrides the unlocked half: {Vigilance} is only usable by a locked imbued, so it
+needs no wake and only the reaction window itself — during an action — applies.[^1-5-2] An
+effect that merely lets a locked minion block is not a wake ([§5.2.3](#523-wakes-unlocking-and-blocking)).
 
 #### 1.5.2 Locked bearers and torpor
 
 Locking bars acting and blocking; it does not bar ability use. An ability stays usable
 while its bearer is locked unless its own text requires the bearer to be unlocked, acting
-or blocking, e.g. {Make an Example}, {Montano}. Where the ability costs a lock, only that
+or blocking, e.g. {Montano}, {Toby}. Where the ability costs a lock, only that
 part needs the bearer unlocked: {Courier} lets you look at the card while locked and needs
 the lock only to discard it.[^1-5-4]
 
-A vampire in torpor cannot act, block, play reaction cards or vote. Abilities are not on
-that list and remain usable, including lock-to-use ones, e.g. {Montano}, {Mariel, Lady
-Thunder}.[^1-5-5] Card plays from torpor are the other side of this and need the card's own
-permission, e.g. {Kiss of Ra, The} (see §5.3).[^1-5-13]
+Torpor bars no ability either: abilities remain usable there, including lock-to-use ones,
+e.g. {Montano}, {Mariel, Lady Thunder}.[^1-5-5] Action modifiers are likewise not barred:
+they carry no unlocked requirement ([§5.2.1](#521-what-a-lock-prevents)); what a vampire in
+torpor can and cannot play is [§5.3.2](#532-what-a-torpid-vampire-can-still-do)'s.
 
 #### 1.5.3 Ability use is not an action
 
 A minion barred from acting may still use its abilities. A recruited ally cannot act the
 turn it enters play, but it can use its abilities that turn, including ones that lock it,
 e.g. {Draeven Softfoot}, {War Ghoul}. The same holds for a minion influenced out: its
-ability is usable during that influence phase.[^1-5-6] See §3.7.4 for the recruit action
-and §5.2 for the lock.
+ability is usable during that influence phase.[^1-5-6] See [§3.7.4](#374-employ-retainer-and-recruit-ally) for the recruit action
+and [§5.2](#52-locking-and-unlocking) for the lock.
 
 A vampire treated as an ally keeps abilities that let him play discipline-requiring cards,
-and uses them on an ally's terms (see §5.5).[^1-5-14]
+and uses them on an ally's terms (see [§5.5](#55-allies)).[^1-5-14]
 
 #### 1.5.4 Reuse
 
@@ -353,26 +357,24 @@ so neither the [CEL] nor the maneuver it grants is available.[^1-5-12]
 
 [^1-5-1]: [ANK 20180805] [ANK 20221120] — {Safe Passage}, {Secure Haven}.
 [^1-5-2]: [LSJ 20070403] [LSJ 20070413] — {Champion}, {Discern}, {Donate}, {Hide}, {Surge}, {Vigilance}.
-[^1-5-3]: [LSJ 20070208] — {No Secrets From the Magaji}.
-[^1-5-4]: [LSJ 20010725] [PIB 20150720] [RTR 19941109] [LSJ 19980210] [ANK 20220705] [LSJ 20100705] [LSJ 20001102] [RBK important-terms-in-the-game] — {Extortion}, {Make an Example}, {Mouthpiece}, {Montano}, {Maris Streck}, {Sundown}, {Toby}, {Paul Forrest, False Prophet}, {Courier}.
-[^1-5-5]: [LSJ 20011022] [LSJ 20100902-2] [LSJ 20010813-2] [ANK 20220705] [LSJ 20100705] [RBK torpor] — group "Ability usable in torpor" (G00027), {Mariel, Lady Thunder}, {Marciana Giovanni, Investigator}, {Pariah}, {Tori Longwood}, {Montano}.
+[^1-5-4]: [PIB 20150720] [RTR 19941109] [ANK 20220705] [LSJ 20100705] [LSJ 20001102] [RBK important-terms-of-the-game] — {Make an Example}, {Montano}, {Toby}, {Paul Forrest, False Prophet}, {Courier}, groups "Unconditional referendum ability" (G00039) and "Non-locking referendum ability" (G00040).
+[^1-5-5]: [LSJ 20011022] [LSJ 20100902-2] [LSJ 20010813-2] [ANK 20220705] [LSJ 20100705] [RBK torpor] — group "Ability usable in torpor" (G00027), {Marciana Giovanni, Investigator}, {Pariah}, {Tori Longwood}, {Montano}.
 [^1-5-6]: [ANK 20180517] [RTR 20180303] [RBK recruit-ally] — group "Allies with 'lock this ally to' abilities" (G00119), {Abomination}, {Underbridge Stray}, {War Ghoul}, {Paul "Sixofswords29" Moreton}.
 [^1-5-7]: [TOM 19960109] [RTR 20180511] [LSJ 20030605] [LSJ 20020814] [ANK 20180307-2] [ANK 20200420-2] [LSJ 20040617] — {Corpse Minion}, {Count Zaroff}, {General Perfidio Díos}, {Maris Streck}, {Matteus, Flesh Sculptor}, {Santaleous}, {Edith Blount}.
 [^1-5-8]: [TOM 19960109] [LSJ 20070320-2] [ANK 20190725] [ANK 20191218] [LSJ 20020814] [ANK 20221229] — {Forest of Shadows}, {Hukros}, {Josef von Bauren}, {Nahir}, {Osric Vladislav}.
 [^1-5-9]: [LSJ 20091021-2] — {Nergal}.
-[^1-5-10]: [LSJ 19970718] [SFC 19960819] — {Pentex(TM) Loves You!}, {Spiridonas}.
+[^1-5-10]: [LSJ 19970718] [SFC 19960819] — group "Permanents that increase bleed amount during an action" (G00117), {Spiridonas}.
 [^1-5-11]: [ANK 20221021] — {Watenda}, {White Lily}.
 [^1-5-12]: [RTR 20010710] — {Drum of Xipe Totec}.
-[^1-5-13]: [LSJ 19970325] — {Kiss of Ra, The}.
-[^1-5-14]: [LSJ 20070301] — {Grandest Trick, The}.
+[^1-5-14]: [LSJ 20070301] — {The Grandest Trick}.
 
 ### 1.6 Requirements
 
 #### 1.6.1 When a requirement is checked
 
-A requirement is checked when the card is played and on each later play: {Undead Persistence} cannot be used twice in one combat.[^1-6-1] During an action it is checked continuously; a minion who stops meeting it fizzles the action. One met at the time of the block stands if the acting vampire is later replaced.[^1-6-1]
+A requirement is checked when the card is played and on each later play: {Undead Persistence} cannot be used twice in one combat.[^1-6-1] During an action it is checked continuously; a minion who stops meeting it *fizzles* the action: the action still resolves and, if unblocked, is successful and its cost paid, but it has no effect. One met at the time of the block stands if the acting vampire is later replaced.[^1-6-1]
 
-A card already in play stays in play when its requirement lapses, and its burn options stay usable.[^1-6-2] A trait gained later applies to cards already in play if the card checks for it, e.g. {Orun}'s capacity bonus[^1-6-3], not if it's only checked when the card is played, eg. the discipline level for a retainer like {Raven Spy}.
+A card already in play stays in play when its requirement lapses.[^1-6-2] A trait gained later applies to cards already in play if the card checks for it, e.g. {Orun}'s capacity bonus[^1-6-3], not if it's only checked when the card is played, eg. the discipline level for a retainer like {Raven Spy}.
 
 #### 1.6.2 What counts as meeting a requirement
 
@@ -380,19 +382,19 @@ What "Only usable by ..." restricts depends on whether using the card is the sam
 
 Meeting a requirement is not possessing the trait: {Talaq, the Immortal} plays [qui] cards but has no [qui] and gains nothing from cards keyed to having it.[^1-6-5]
 
-A clan requirement is met by that clan or its antitribu, either one. A card requiring a Baron requires an Anarch.[^1-6-6]
+A card printing a clan and its antitribu as alternatives needs only one of the two, e.g. {Defender of the Haven}; a lone clan requirement is not met by the antitribu clan. A card requiring a Baron requires an Anarch.[^1-6-6]
 
 #### 1.6.3 Cards entering play abnormally
 
-Only "put ... in play" bypasses requirements, e.g. {Summon History}, {Compel the Spirit} [NEC].[^1-6-7] **Equip**, **recruit** and **employ** invoke the normal machinery, so requirements and cost apply as printed, e.g. {Concealed Weapon}, {Piper}, {Magic of the Smith}.[^1-6-7] Such a card has still been played; see §1.8 for what it loses.
+Only "put ... in play" bypasses requirements, e.g. {Summon History}, {Compel the Spirit} [NEC].[^1-6-7] **Equip**, **recruit** and **employ** invoke the normal machinery, so requirements and cost apply as printed, e.g. {Concealed Weapon}, {Piper}, {Magic of the Smith}.[^1-6-7] Such a card has still been played; see [§1.8](#18-playing-and-canceling-a-card) for what it loses.
 
 Where requirements are bypassed, a required discipline is used at inferior and a cost of X is zero.[^1-6-8] Cost is a separate check: {Bindusara, Historian of the Kindred} ignores requirements but pays cost; {Horrid Reality} pays none but burns the weapon if requirements are unmet.[^1-6-9]
 
 Bypassing requirements does not bypass prohibitions: {Heidelberg Castle, Germany} cannot move equipment onto {Enkidu, The Noah}. A card placed where it cannot legally sit is burned without cost refund, though an effect it imposed on placement persists, e.g. {Wooden Stake}'s "does not unlock as normal". An ally's on-entry clause fires however it entered, e.g. {War Ghoul}.[^1-6-10]
 
-Taking control of a card in play is not playing it, so requirements do not apply — see §6.3.[^1-6-11]
+Taking control of a card in play is not playing it, so requirements do not apply — see [§6.3](#63-taking-control-of-a-card-in-play).[^1-6-11]
 
-A clause firing on equipping does not fire when the card is merely put in play: {Helicopter} comes locked when equipped, unlocked when {Alastor} places it.[^1-6-12] An ability modifying equipping or recruiting does apply to non-normal ones, e.g. {Little Tailor of Prague} with {Piper} — unless keyed to the action, e.g. {Zhenga}.[^1-6-13]
+A clause firing on equipping does not fire when the card is merely put in play: {Helicopter} comes locked when equipped, unlocked when {Alastor} places it.[^1-6-12] An ability modifying equipping or recruiting does apply to non-normal ones, e.g. {Little Tailor of Prague} with {Piper}. One keyed to the action applies only where there is an action: {Zhenga} triggers on announcing a recruit or employ action, so {Piper}'s actionless recruit is outside her ability, while a non-standard recruit that is an action is not.[^1-6-13]
 
 The requirements and cost of a fetched card are not those of the fetching action: {CrimethInc.} cannot be used off {The Summoning} for an ally requiring an Anarch.[^1-6-14]
 
@@ -400,9 +402,9 @@ The requirements and cost of a fetched card are not those of the fetching action
 
 {Mata Hari} and her kind are treated as meeting the requirement for all effects of the card played, and only them, including its duration effects — never for what the card does from being in play.[^1-6-15]
 
-The ability operates only on a card played normally, not for a {Piper} recruit or a {Concealed Weapon} equip.[^1-6-16] It operates only where the card prints the requirement, never to match a trait the card merely acts on, e.g. {Sacrifice}.[^1-6-17] It does not operate while the vampire is uncontrolled or in the crypt, and a card canceled as it is played has still used the requirement.[^1-6-18]
+The ability operates only on a card played normally, not for a {Piper} recruit or a {Concealed Weapon} equip.[^1-6-16] It operates only where the card prints the requirement, never to match a trait the card merely acts on, e.g. {Sacrifice}.[^1-6-17] It does not operate while the vampire is uncontrolled or in the crypt.[^1-6-18] Controlling such a vampire does not shut off burn options: a card in hand that only she could meet the requirement to play may still be discarded via its burn option.[^1-6-25]
 
-Meeting a title requirement makes the vampire a member of the underlying sect; the controller chooses how, including a made-up city, and each title only once per game. The title grants no votes in the resulting referendum, and remains available after the sect ceases to exist.[^1-6-19]
+Title requirements are the special case: sect membership, the choice of city, and {Vidal Jarbeaux}'s printed once-per-game caps are [§5.8.3](#583-how-requirements-read-titles)'s.
 
 An ability granting a discipline for playing cards meets one, not both, of a two-discipline requirement, e.g. {Infernal Familiar}, {Grey Thorne}.[^1-6-20]
 
@@ -410,19 +412,19 @@ An ability granting a discipline for playing cards meets one, not both, of a two
 
 A card may be played, and an action taken, knowing it will accomplish nothing, e.g. {Absorb the Mind} against a bloodless vampire, {Draba} on a minion already at 0 stealth.[^1-6-21]
 
-Two families bar the play. A card whose text names the object it acts on cannot be played when no such object exists, e.g. {Shattering Blow} with no equipment, {Storage Annex} as the only card in hand.[^1-6-22] Damage prevention cannot be played with no damage to prevent, e.g. {Soak}, and stealth or intercept cannot be gained when not needed, e.g. {Bonding}.[^1-6-23] Reducing an opposing value already at its floor stays legal.[^1-6-21]
+Three families bar the play. A card whose text names the object it acts on cannot be played when no such object exists, e.g. {Shattering Blow} with no equipment, {Storage Annex} as the only card in hand, an empty crypt to draw from ([§1.9.4](#194-empty-crypt-hand-size)).[^1-6-22] Immediate damage prevention cannot be played with no damage to prevent, e.g. {Soak} — but a card granting a prevention ability for a duration is not immediate and may be played before any damage, e.g. {Apparition}, {Brother's Blood} ([§4.5](#45-prevention--immunity)).[^1-6-23] Stealth or intercept cannot be gained when not needed, e.g. {Bonding}.[^1-6-23] Reducing an opposing value already at its floor stays legal.[^1-6-21]
 
-These bars are on the play only. A continuous effect from a card already in play is not a play and is never restricted for not being needed: {Repulsion} [OBE] cannot be played when the stealth is not needed, but once it is on the vampire its standing +1 stealth applies on every action regardless.[^1-6-24]
+These bars are on the play only, and only on a play whose whole effect is the unneeded one. A card granting a standing effect may be played before the need exists: {Repulsion} [OBE] may be played though the stealth is not currently needed, and once on the vampire its +1 stealth applies on every action regardless.[^1-6-24]
 
 #### References
 
-[^1-6-1]: [LSJ 20030214] [ANK 20171212] [LSJ 20030202] [RBK requirements-for-playing-cards] — {Undead Persistence}, {Mental Maze}, {Maxwell}.
-[^1-6-2]: [PIB 20121031] [LSJ 20050225] — group "Require Gehenna" (G00009), {Mata Hari}, {Petaniqua}, {Vidal Jarbeaux}, {Winterlich}, {Lisandro Giovanni}.
+[^1-6-1]: [LSJ 20030214] [ANK 20171212] [LSJ 20030202] [ANK 20210124] [RBK requirements-for-playing-cards] — {Undead Persistence}, {Mental Maze}, {Maxwell}, {The Red Question}.
+[^1-6-2]: [PIB 20121031] — group "Require Gehenna" (G00009).
 [^1-6-3]: [LSJ 20051110] — {Orun}.
 [^1-6-4]: [LSJ 20030607] [ANK 20180801] [ANK 20221208] [LSJ 20100527] — {Seal of Veddartha}, {The Crusader Sword}, {Agate Talisman}, {Blade of Enoch}, {Stolen Police Cruiser}, {Exile}, {Soul Gem of Etrius}.
 [^1-6-5]: [LSJ 19980303] [LSJ 20050128-2] [ANK 20221011-4] [RTR 20070707] [PIB 20150304] — {Talaq, The Immortal}, {Kemintiri}, {Vlad Tepes}.
-[^1-6-6]: [ANK 20190203] [LSJ 20050128] [LSJ 20080603] — {Defender of the Haven}, {Derange}, {Potio Martyrium}, {Reindoctrination}, {Soul of the Earth}, group "Require a Baron" (G00037), {Garibaldi-Meucci Museum}, {Salvador Garcia}.
-[^1-6-7]: [LSJ 20100204] [LSJ 20051116-2] [LSJ 20071001-1] [LSJ 20100422] [LSJ 20040531] [ANK 20200901] [LSJ 20040518-2] [LSJ 20051207] [LSJ 20100303] [LSJ 20080702-3] [LSJ 20100426] — {Summon History}, {Abombwe}, {Agent of Power}, {Absimiliard's Army}, {Alastor}, {Pack Alpha}, {Muricia's Call}, {White Lily}, {Echo of Harmonies}.
+[^1-6-6]: [ANK 20190203] [LSJ 20050128] [LSJ 20080603] — {Defender of the Haven}, {Derange}, {Ennoia's Theater}, group "Require a Baron" (G00037), {Powerbase: Los Angeles}, {Salvador Garcia}.
+[^1-6-7]: [LSJ 20100204] [LSJ 20051116-2] [LSJ 20071001-1] [LSJ 20100422] [LSJ 20040531] [LSJ 20040518-2] [LSJ 20100303] [LSJ 20100426] — groups "Put card in play ignoring requirements" (G00110) and "Equip/employ/recruit outside of an action" (G00131), {Abombwe}, {Agent of Power}, {Absimiliard's Army}, {Echo of Harmonies}.
 [^1-6-8]: [LSJ 20071015] [LSJ 20100302-1] [PIB 20111101] — {Compel the Spirit}, {Pressing Flesh}, {Summon History}.
 [^1-6-9]: [ANK 20200810] [RTR 20010710] [TOM 19950407] [LSJ 20080702-4] [ANK 20210714] — {Bindusara, Historian of the Kindred}, {Horrid Reality}, {Vast Wealth}, {Topaz}, {Villein}.
 [^1-6-10]: [LSJ 19980831] [LSJ 19990602] [ANK 20170309-2] [ANK 20200320] [LSJ 19980206] [LSJ 20020426] — {Heidelberg Castle, Germany}, {Rowan Ring}, {Shackles of Enkidu}, {Wooden Stake}, {War Ghoul}, {Deviki Prasanta}, {Lucian}, {Reality Mirror}.
@@ -433,39 +435,38 @@ These bars are on the play only. A continuous effect from a card already in play
 [^1-6-15]: [ANK 20190228] [RTR 20070707] [LSJ 20070708] [LSJ 20101013] [ANK 20201028] [LSJ 20091015] [PIB 20130128] — {Mata Hari}, {Vidal Jarbeaux}, {Gem Ghastly}, {Kemintiri}, {Lisandro Giovanni}, {Petaniqua}, {Philip van Vermeer IV}, {Tatiana Stepanova, Alastor}, {Victor Gerard}, {Vlad Tepes}, {Winterlich}.
 [^1-6-16]: [LSJ 20050119] — {Mata Hari}, {Vidal Jarbeaux}, {Gem Ghastly}, {Lisandro Giovanni}, {Petaniqua}, {Philip van Vermeer IV}, {Tatiana Stepanova, Alastor}, {Vlad Tepes}, {Winterlich}, {Abraham Mellon}, {Lady Scarlett Churchill}.
 [^1-6-17]: [LSJ 20100526] [ANK 20220718] [LSJ 20050721] [PIB 20150306] — {Sacrifice}, {Infamous Insurgent}, {Kemintiri}, {Vlad Tepes}.
-[^1-6-18]: [PIB 20150530] [ANK 20200710] [LSJ 20070708] [LSJ 20071109] — {Lisandro Giovanni}, {Vidal Jarbeaux}, {Mata Hari}.
-[^1-6-19]: [LSJ 20050128] [PIB 20150306] [PIB 20150307] [ANK 20211019] [ANK 20231221] [LSJ 20050124] [ANK 20230503] [LSJ 20050526] — {Vidal Jarbeaux}, {Vlad Tepes}, {Kemintiri}, {Mata Hari}.
+[^1-6-18]: [PIB 20150530] [LSJ 20070708] [LSJ 20071109] — {Lisandro Giovanni}, {Vidal Jarbeaux}, {Mata Hari}.
 [^1-6-20]: [LSJ 20090508] [LSJ 20011217] [ANK 20180731-1] [LSJ 20031116] [ANK 20230816-2] — {Inceptor}, {Infernal Familiar}, {Ian Forestal}, {Grey Thorne}, {Inscription}.
 [^1-6-21]: [RTR 20010711] [LSJ 20021211] [PIB 20110725] [RTR 20010710] — {Absorb the Mind}, {Call the Lamprey}, {Draba}, {Night Terrors}, {Siphon}, {Kindred Segregation}, {Peace Treaty}.
 [^1-6-22]: [RTR 19980928] [RTR 19951110] [ANK 20200420-3] [LSJ 20100527] [LSJ 20070901] [LSJ 20060623] [LSJ 20010810] [PIB 20121028] — {Shattering Blow}, {Fractured Armament}, {Canine Horde}, {Blessing of Durga Syn}, {Brujah Frenzy}, {Vulture's Buffet}, {Storage Annex}, {Liquidation}, {Undue Influence}, {Free States Rant}, {Taste of Vitae}.
-[^1-6-23]: [LSJ 20001114] [LSJ 20030121] [TOM 19951109] — {Soak}, {Sideslip}, {Skin of Night}, {Skin of Rock}, {Stonestrength}, {Glancing Blow}, {Heaven's Gate}, {Hidden Strength}, {Armor of Vitality}, {Bonding}.
+[^1-6-23]: [LSJ 20001114] [LSJ 20030121] [TOM 19951109] [LSJ 20010315] [LSJ 20100527] — group "Immideate damage prevention" (G00154), {Hidden Strength}, {Apparition}, {Brother's Blood}, {Bonding}.
 [^1-6-24]: [LSJ 20011214-2] — {Repulsion}.
-
+[^1-6-25]: [LSJ 20050225] — {Mata Hari}, {Lisandro Giovanni}, {Petaniqua}, {Vidal Jarbeaux}, {Winterlich}.
 ### 1.7 Costs and payment
 
 #### 1.7.1 When a cost is paid
 
-An action's cost is paid at resolution, not at announcement; any other card burns its cost as it is played.[^1-7-1] An unblocked action is successful and its cost paid even when the effect cannot occur (§3.4).[^1-7-2]
+An action's cost is paid at resolution, not at announcement; any other card burns its cost as it is played.[^1-7-1] An unblocked action is successful and its cost paid even when the effect cannot occur ([§3.4](#34-resolution-success-and-effect)).[^1-7-2]
 
-An additional cost is paid at the same time as the cost it adds to. Where that cost is never reached — the action is blocked or canceled, the referendum fails — nothing is paid; a fresh combat charges it again.[^1-7-3]
+An additional cost is paid at the same time as the cost it adds to. Where that cost is never reached — the action is blocked or canceled, the referendum fails — nothing is paid.[^1-7-3] A charge incurred per combat is incurred anew if a fresh combat begins: {Blithe Acceptance} burns its blood (or itself) again under {Psyche!}.[^1-7-3]
 
-A cost charged for a successful block burns immediately, whether or not combat follows. A cost charged for failing to block burns when the action begins to resolve, and reactions may be paid for first. A minion may resign an attempted block and pay nothing.[^1-7-4]
+A cost charged for failing to block burns when the action begins to resolve, and reactions may still be played, and paid for, before that burn.[^1-7-4] Costs and triggered burns charged on the block itself are [§3.3.3](#333-the-cost-of-blocking)'s; a cost to *attempt* is per attempt and never retroactive, e.g. {Tenebrous Form}.[^1-7-4]
 
-Cost and gain happen in one step, so no oust intervenes; where paying does oust a player, resolve the oust before the effects that produced it (§1.1, §6.5).[^1-7-5]
+The cost of playing a card and the gain that card yields happen in one step, so no oust intervenes — even where another card imposed the cost, e.g. {Secure Haven}'s surcharge on a {Minion Tap}. Where paying does oust a player, resolve the oust before the effects that produced it ([§1.1](#11-card-text-and-the-rules), [§6.5](#65-pool-the-edge-and-ousting)).[^1-7-5]
 
 #### 1.7.2 Cost arithmetic
 
-Multiplication and division are applied first, then addition and subtraction.[^1-7-6] The modified cost is the card's cost for every other effect that reads it, and a reduction tied to a minion follows the card onto and off that minion.[^1-7-7] Modifications apply before affordability is checked, but paying from a counter pool leaves the cost itself unchanged.[^1-7-8] Where a reduction and another cost effect could both fire, the controller chooses the order.[^1-7-9]
+Multiplication and division are applied first, then addition and subtraction.[^1-7-6] The modified cost is the card's cost for every other effect that reads it, and a reduction tied to a minion follows the card onto and off that minion.[^1-7-7] Modifications apply before affordability is checked, but paying from another source leaves the cost itself unchanged.[^1-7-8] Where a reduction and another cost effect could both fire, the controller chooses the order.[^1-7-9]
 
 You must be able to pay the printed cost, even when the card returns more than it costs, e.g. {The Eternals of Sirius}, {Villein}; a reduction that brings the cost within reach makes the play legal.[^1-7-10]
 
-X may be zero, and "X" in a card's own text means the cost paid for that card. A card put into play rather than played has X of zero, whatever the fetching card announced, e.g. {Summon History}.[^1-7-11]
+Some cards have a cost of X, chosen by the player when paying. X may be zero, and "X" in the card's own text means the cost paid for that card. A card put into play rather than played has X of zero, whatever the fetching card announced, e.g. {Summon History}.[^1-7-11]
 
 #### 1.7.3 Cost reductions
 
 A "lock to reduce the cost" location may be locked at any point from announcement until just before the cost is paid. When the reduction is what makes the card affordable at all, it must be locked at announcement, e.g. {Sunset Strip, Hollywood}.[^1-7-12]
 
-Read what the reduction is keyed to. A reduction on a card's cost applies however the card reaches play, including a retainer employed by {Pack Alpha}. A reduction keyed to an action does not apply where no action is taken, e.g. {Charisma}.[^1-7-13] A reduction on "cards you play" covers minion cards, which the Methuselah also plays; wording naming pool does not reach a cost paid in vampire blood, and the converse.[^1-7-14] Reductions reaching an equipment that is a location are §1.3's.[^1-7-15]
+Read what the reduction is keyed to. A reduction on a card's cost applies however the card reaches play, including a retainer employed by {Pack Alpha}. A reduction keyed to an action does not apply where no action is taken, e.g. {Charisma}.[^1-7-13] A reduction on "cards you play" covers minion cards, which the Methuselah also plays; wording naming pool does not reach a cost paid in vampire blood, and the converse.[^1-7-14] Reductions reaching an equipment that is a location are [§1.3](#13-card-types-and-multi-type-cards)'s.[^1-7-15]
 
 #### 1.7.4 Costs and "burn blood" effects
 
@@ -477,39 +478,39 @@ An effect that adds to a card's cost is a cost: other reductions apply to it, an
 
 Where a card names an amount to take from a target, take what is there, e.g. {Villein}, {Theft of Vitae}.[^1-7-19] Where the amount is a cost the payer cannot meet, the payment is still made as far as it goes and the effect it was to buy does not happen, e.g. {Sword of Nuln}.[^1-7-20]
 
-A blood cost on blocking does not gate the block: an empty vampire blocks and burns what it has.[^1-7-21] An ally has life, not blood, and cannot pay a blood cost at all (§5.5). Where the payer chooses the source, choosing an empty one does not discharge the obligation, e.g. {Smiling Jack, The Anarch}.[^1-7-22]
+A triggered burn does not gate the act, a cost does: an empty vampire blocks through a "vampires blocking … burn 1 blood" effect and burns what it has, but cannot attempt through a cost "to attempt to block", e.g. {Tenebrous Form} ([§3.3.3](#333-the-cost-of-blocking) owns the blocking case).[^1-7-21] An ally has life, not blood, and cannot pay a blood cost at all ([§5.5](#55-allies)). Where the payer chooses the source, choosing an empty one does not discharge the obligation, e.g. {Smiling Jack, The Anarch}.[^1-7-22]
 
 #### 1.7.6 Whose cost, and paid in what
 
-The requirements and cost of a card brought into play by another card are not the fetching action's (§1.6, §3.7.4); the fetching card's cost is paid even if the search finds nothing.[^1-7-23] Where a card names who pays, that minion pays, acting or not, e.g. {Alastor}.[^1-7-24] Where a cost may be paid in blood or pool, or a choice of costs is offered, the player playing the card chooses.[^1-7-25]
+The requirements and cost of a card brought into play by another card are not the fetching action's ([§1.6](#16-requirements), [§3.7.4](#374-employ-retainer-and-recruit-ally)); the fetching card's cost is paid even if the search finds nothing.[^1-7-23] Where a card names who pays, that minion pays, acting or not, e.g. {Alastor}.[^1-7-24] Where a cost may be paid in blood or pool, or a choice of costs is offered, the player playing the card chooses.[^1-7-25]
 
-A card-provided action does not carry the rulebook action's default blood cost, e.g. {Go Anarch}.[^1-7-26] Using an ability of a card in play is not playing a card, so an added cost on card plays does not reach it (§1.5).[^1-7-27] A canceled card's cost is §1.8's.[^1-7-28]
+A card-provided action does not carry the rulebook action's default blood cost, e.g. {Go Anarch}.[^1-7-26] Using an ability of a card in play is not playing a card, so an added cost on card plays does not reach it ([§1.5](#15-abilities-and-card-plays)).[^1-7-27] A canceled card's cost is [§1.8](#18-playing-and-canceling-a-card)'s.[^1-7-28]
 
-Where an effect lets a controller keep a card by repaying its cost, only the pool cost is repaid; blood costs are not. The controller may instead let the card burn, even where the amount is zero, e.g. {Kindred Segregation}.[^1-7-29]
+The "keep … by repaying their pool cost" template ({Kindred Segregation}, {Peace Treaty}) repays the pool cost only: blood costs are not repaid, and a card with only a blood cost is kept for 0 pool. The controller may instead let the card burn, even where the amount is zero.[^1-7-29]
 
 #### References
 
 [^1-7-1]: [LSJ 20091021-2] [LSJ 20080201] [ANK 20200703-2] — {Nergal}, {Yawp Court}, {Preternatural Evasion}.
-[^1-7-2]: [ANK 20181121] [LSJ 20021122-3] — {Art's Traumatic Essence}, {Spirit Marionette}, {Mind Numb}.
+[^1-7-2]: [ANK 20210124] [LSJ 20070411] [LSJ 20090514] — groups "Action targeting locked minion" (G00078), "Action targeting vampire in torpor" (G00080) and "Action targeting unlocked minion" (G00081).
 [^1-7-3]: [ANK 20190625] [PIB 20121031] [LSJ 20090208] [LSJ 20040730] [ANK 20230527] — {The Slow Withering}, {Tryphosa}, {Enrage}, {Aura of Invincibility}, {Blithe Acceptance}.
-[^1-7-4]: [RTR 19960530] [LSJ 19990421] [LSJ 20070417] [LSJ 20031121-2] [LSJ 20080818] — {Dónal O'Connor}, {Forced Awakening}, {Tenebrous Form}, {Libertas}.
-[^1-7-5]: [LSJ 20020620] [LSJ 20080512] [LSJ 20050607] [LSJ 20050608] [RTR 20010710] [RTR 19941109] — {Villein}, {Bima}, {Spying Mission}, {Thanks for the Donation}, {Repo Man}.
+[^1-7-4]: [LSJ 19990421] [LSJ 20070417] [LSJ 20031121-2] — {Forced Awakening}, group "Burn blood to attempt to block" (G00088).
+[^1-7-5]: [LSJ 20020620] [LSJ 20080512] [LSJ 20050607] [LSJ 20050608] [RTR 20010710] [RTR 19941109] — {Minion Tap}, {Villein}, group "Allies who can play as a vampire" (G00011), {Spying Mission}, {Thanks for the Donation}, {Repo Man}.
 [^1-7-6]: [RTR 20070707] [PIB 20150917] — {The Ankara Citadel, Turkey}, {Thin-Blooded Seer}.
 [^1-7-7]: [RTR 19941109] [PIB 20150725] [LSJ 20100429] [ANK 20170716] [RTR 20020501] — {Black Cat}, {Ivan Krenyenko}, {Cavalier}, {Khobar Towers, Al-Khubar}.
 [^1-7-8]: [LSJ 20040701] [LSJ 20080125] [ANK 20181216] [RTR 19960112] [LSJ 20050408] [RTR 20111202] [ANK 20180109] — {Concealed Weapon}, {Ravnos Cache}, {Ravnos Carnival}.
 [^1-7-9]: [ANK 20200709] — {Jenna Cross}.
 [^1-7-10]: [ANK 20210714-2] [ANK 20210714] [ANK 20230621] — {The Eternals of Sirius}, {Villein}, {Powerbase: Tshwane}, {The Shard, London}.
 [^1-7-11]: [LSJ 20030502] [LSJ 19970224] [LSJ 20071015] [LSJ 20100302-1] [PIB 20111101] [ANK 20220704] — group "Cost X" (G00032), {Hidden Strength}, {Compel the Spirit}, {Pressing Flesh}, {Summon History}, {Charming Lobby}.
-[^1-7-12]: [ANK 20230620] [ANK 20170605] [LSJ 20090705] [LSJ 20030917] — {Powerbase: Tshwane}, {The Line}, {The Shard, London}, {Eccentric Billionaire}, {Sunset Strip, Hollywood}.
+[^1-7-12]: [ANK 20230620] [ANK 20170605] [LSJ 20090705] [LSJ 20030917] — group "Lock to reduce cost" (G00130), {Powerbase: Tshwane}, {The Line}, {The Shard, London}, {Eccentric Billionaire}, {Sunset Strip, Hollywood}.
 [^1-7-13]: [RTR 20070707] [ANK 20230824] [ANK 20210928] [LSJ 20090115-1] [ANK 20170309] [LSJ 20090920-2] — {Powerbase: Tshwane}, {Pack Alpha}, {Soul of the Earth}, {Piper}, {Antonio d'Erlette}.
 [^1-7-14]: [ANK 20221102] [LSJ 20081124-1] [TOM 19951208-1] [ANK 20181007] [RTR 19950509] [ANK 20230621] — {Powerbase: Tshwane}, {The Shard, London}, {Walks-With-Might}, {Secure Haven}, {The Line}, {Democritus}.
 [^1-7-15]: [LSJ 20080114] [LSJ 20080107] [LSJ 20080109] [ANK 20221026] — group "Locquipments" (G00047), {Therbold Realty}, {Marie Faucigny}, {Regina Blake}, {The British Museum, London}.
-[^1-7-16]: [ANK 20210226] [ANK 20180327] — group "Burn blood for effect" (G00065), {Preternatural Evasion}, {Shadow Boxing}, {Aura Absorption}, {Enrage}.
+[^1-7-16]: [ANK 20210226] [ANK 20180327] — groups "Burn blood for effect" (G00065) and "Burn blood for effect (mandatory)" (G00097), {Preternatural Evasion}, {Shadow Boxing}, {Aura Absorption}, {Enrage}.
 [^1-7-17]: [LSJ 20090107] [LSJ 20070829-3] [ANK 20220809] — {Dragos}, {Loki's Gift}.
 [^1-7-18]: [LSJ 20070829-1] [ANK 20191221] — {Terror Frenzy}.
 [^1-7-19]: [LSJ 20100216] [ANK 20180512-2] [RTR 20010711] — {Villein}, {Minion Tap}, {Theft of Vitae}, {Tongue of the Serpent}, {Succubus}.
 [^1-7-20]: [LSJ 20090901] [LSJ 20030522-2] [LSJ 20031219] [LSJ 20100527] — {Sword of Nuln}.
-[^1-7-21]: [LSJ 19970707] [TOM 19951215-1] [ANK 20230226] [LSJ 20050216] [ANK 20190701] — {Sabbat Priest}, {Archon}, {Camarilla Exemplary}, {Dónal O'Connor}, {Unleash Hell's Fury}, {Tenebrous Form}.
+[^1-7-21]: [LSJ 19970707] [ANK 20230226] [LSJ 20031121-2] — {Camarilla Exemplary}, {Unleash Hell's Fury}, group "Burn blood to attempt to block" (G00088).
 [^1-7-22]: [LSJ 19971212] [ANK 20181006] — {Smiling Jack, The Anarch}.
 [^1-7-23]: [LSJ 20100725] [LSJ 20091021] [TOM 19951212-1] [LSJ 20080702-4] [ANK 20180509] — {Muricia's Call}, {Charming Lobby}, {Horrid Reality}, {Topaz}, {Emerald Legionnaire}.
 [^1-7-24]: [LSJ 20040518] [LSJ 20100315] — {Alastor}, {Cavalier}.
@@ -527,8 +528,10 @@ A card played from hand in the normal fashion can be canceled as it is played. T
 cancellation must be immediate, and cards are not replaced during the window, so a
 library-search master cannot fetch a canceller, e.g. {The Barrens}, {Dreams of the
 Sphinx}.[^1-8-1] A wake effect is the one other card playable in the window; a reaction that
-unlocks to attempt a block is not.[^1-8-2] A cancel effect is applied in full before anyone
-may play a further cancellation.[^1-8-3]
+unlocks to attempt a block is not.[^1-8-2] A cancellation from an ability in play is
+applied before anyone may play a further cancellation, e.g. {Andrew Stuart} pre-empting
+{Direct Intervention}. A cancellation that is itself a card play opens its own window and
+can be canceled there first — {Sudden Reversal} on the {Direct Intervention}.[^1-8-3]
 
 The window opens on an out-of-turn master, on a combat card played at the end of a round or
 "when combat would end", and on a modifier played after the action succeeds, e.g. {Voter
@@ -539,9 +542,10 @@ does not require [aus], e.g. {Hide the Mind}, {Iron Heart}.[^1-8-5]
 
 A card brought into play by another card's effect has still been played. What it lacks is
 only the normal-play window: it cannot be canceled as it is played. Cancellation reaches
-only normal plays from hand, minion cards and master cards alike — not an ally recruited by
-{Piper} or a weapon equipped by {Disguised Weapon}.[^1-8-6] Requirements and cost still
-apply; see §1.6.
+only normal plays, minion cards and master cards alike — from hand, or "as if from your
+hand" where a card says so, e.g. {Persistent Echo}, {The Erciyes Fragments} — not an ally
+recruited by {Piper} or a weapon equipped by {Disguised Weapon}.[^1-8-6] Requirements and cost still
+apply; see [§1.6](#16-requirements).
 
 An effect that lets a minion *use the ability* of a card plays no card: no window opens, and
 it does not consume his own once-per-action limit on that modifier, e.g. {Inscription},
@@ -571,10 +575,12 @@ canceled Trifle grants no extra master phase action.[^1-8-14]
 
 #### 1.8.4 What a cancellation reaches
 
-Canceling a strike also cancels the rest of that card's effect, and the striking minion
-chooses another strike.[^1-8-15] Canceling a maneuver provided by a strike card does not
-cancel the strike, which cannot be changed, e.g. {Aid from Bats}; canceling a maneuver that
-provides a press does cancel the press.[^1-8-16] Canceling an aim leaves the strike to
+Cancellation propagates downward only: canceling an effect cancels what that effect
+provides, never the effect that provided it. Canceling a strike cancels the rest of the
+strike card's effect, and the striking minion chooses another strike.[^1-8-15] Canceling a
+maneuver does not cancel the strike that provided it — and that strike cannot be changed,
+e.g. {Aid from Bats} — but does cancel a press the maneuver provides, e.g. the optional
+press on {Masque of Judas}'s maneuver.[^1-8-16] Canceling an aim leaves the strike to
 resolve on its default target, e.g. {Target Retainer}.[^1-8-17]
 
 A canceled action is not performed and the acting minion stays unlocked, free to attempt it
@@ -587,21 +593,23 @@ allowance.[^1-8-18]
 A card may be played, and an action taken, knowing it will accomplish nothing: a target
 holding none of the resource the card acts on is legal, and reducing a value already at its
 floor is a legal play, e.g. {Absorb the Mind}, {Draba}.[^1-8-19] Bars on such plays are
-requirements, not futility, and belong to §1.6; §3.4 covers whether the action succeeds and
+requirements, not futility, and belong to [§1.6](#16-requirements); [§3.4](#34-resolution-success-and-effect) covers whether the action succeeds and
 locks.
 
-⚠ REVIEW — whether a canceled play consumes the resource that enabled it is unsettled:
-{Nergal}'s once-per-turn cost reduction is not used up when no cost is paid, but {Vidal
-Jarbeaux} still spends his once-per-game requirement.[^1-8-20]
+A canceled play spends a use that attached to the play itself: the canceled card was
+still played, so {Vidal Jarbeaux} has spent his once-per-game requirement. A use that
+attached to an element the cancellation removed is not spent: no cost was paid, so
+{Nergal}'s reduction never applied and his once-per-turn ability is not used
+([§1.5.4](#154-reuse)).[^1-8-20]
 
 #### References
 
 [^1-8-1]: [LSJ 20061207] [LSJ 20061013] [RTR 20040501] [RBK playing-a-card] — group "Cancel" (G00058), {The Admonitions}, {The Barrens}, {Dreams of the Sphinx}, {The Erciyes Fragments}, {Fragment of the Book of Nod}. 
 [^1-8-2]: [LSJ 20021011] [ANK 20231028] — group "Cancel as a reaction" (G00062), {Deed the Heart's Desire}, {Psalm of the Damned}. 
-[^1-8-3]: [LSJ 20100728] [LSJ 20090213] — {Veil of Darkness}, {Andrew Stuart}. 
+[^1-8-3]: [LSJ 20100728] [LSJ 20090213] — {Andrew Stuart}. 
 [^1-8-4]: [LSJ 20031201] [LSJ 20070214] [ANK 20180910-2] [ANK 20191221] [ANK 20180909] [PIB 20120808] [LSJ 20080618] — {Vox Senis}, {Botched Move}, {Death Seeker}, {Ophidian Gaze}, group "Cancel with no action" (G00063). 
 [^1-8-5]: [PIB 20130704] — {Hide the Mind}, {Iron Heart}. 
-[^1-8-6]: [RTR 20001020] [ANK 20201229] [LSJ 20060530-2] — group "Cancel an action" (G00061), {Sudden Reversal}, {Asguresh}, {Piper}, {The Summoning}, {Zhenga}. 
+[^1-8-6]: [RTR 20001020] [ANK 20201229] [LSJ 20060530-2] [RTR 20040501] — group "Cancel an action" (G00061), {Sudden Reversal}, {Asguresh}, {Piper}, {The Summoning}, {Zhenga}, {The Erciyes Fragments}. 
 [^1-8-7]: [ANK 20180627-1] [LSJ 20010716] [ANK 20221011] — {Inscription}, {Shadow Court Satyr}. 
 [^1-8-8]: [ANK 20220704] [LSJ 20090113-3] [LSJ 20100426] [LSJ 20091128] [LSJ 20011205] — {Charming Lobby}, {Echo of Harmonies}. 
 [^1-8-9]: [ANK 20190104] [LSJ 19980212] [ANK 20200525-2] [RBK cancel-a-card] — group "Cancel" (G00058), {Immortal Grapple}. 
@@ -629,7 +637,7 @@ The action card is replaced before any action modifier is played on that action.
 
 Cards an effect requires you to supply from hand must be in hand at announcement, before
 the replacement for the card demanding them is drawn: you cannot feed an effect with its
-own replacement draw, e.g. {Charming Lobby}, {Gift of Proteus}.[^1-9-2]
+own replacement draw, e.g. {Charming Lobby}, {Gift of Proteus} ([§1.14.2](#1142-cards-named-from-hand) for naming).[^1-9-2]
 
 An effect that discards or burns a set of cards from hand commits the whole set first and
 replaces afterwards, e.g. {Angelica, The Canonicus}, {Call the Wild Hunt}.[^1-9-3] An
@@ -648,42 +656,43 @@ begins ({Lucky Blow} ahead of {Psyche!}).[^1-9-5] The delay runs to its conditio
 the card has since been burned.[^1-9-5]
 
 "Do not replace" effects stack with a card's own clause and the longest delay wins (cf.
-§1.15).[^1-9-6] Where two effects each offer a different replacement treatment, the
+[§1.15](#115-cumulative-and-stacking-effects)).[^1-9-6] Where two effects each offer a different replacement treatment, the
 controller chooses, e.g. {Visit from the Capuchin} against {Steely Tenacity}.[^1-9-6]
 
-Effects keyed to the replacement wait for it: an ability modifying the replacement draw
-applies when the draw happens, e.g. {Learjet}. An ability that applies only as the card is
-played does not fire at all once the replacement is delayed, e.g.
-{Agaitas, The Scholar of Antiquities}.[^1-9-7] An effect reading a hand after a card is
-played sees it without a replacement not yet drawn, e.g. {Troglodytia} after {Wash}.[^1-9-7]
+An effect tied to the moment a card is played resolves at that moment, and a delayed
+replacement is simply not there yet. That can reduce the effect — {Troglodytia} after
+{Wash} sees the hand without the replacement — or negate it entirely:
+{Agaitas, The Scholar of Antiquities}' ability applies only as the card is played, so any
+delay prevents it. An effect keyed to the replacement itself waits for it, e.g.
+{Learjet}.[^1-9-7]
 
 #### 1.9.3 Abnormal entry and cancellation
 
-A "do not replace until after this action" clause needs an action to wait for. A card put
-into play outside an action is replaced immediately, e.g. {Baseball Bat} equipped by
-{Concealed Weapon}; played normally the clause still governs, even when the card reaches
+A "do not replace until after this action" clause governs only a normal play ([§1.8.2](#182-played-but-not-in-the-normal-fashion)). A
+card put into play in a special way is replaced immediately, even mid-action, e.g.
+{Baseball Bat} played via {Concealed Weapon}; played normally the clause still governs,
+even when the card reaches
 play by another route during the resulting combat, e.g. {Gift of Bellona}.[^1-9-8] A card
 played normally is replaced before its action resolves, so an ally recruited in the normal
 fashion can be given cards drawn as its own replacement; one entering play by other means
 cannot, e.g. {Corrupt Construction}.[^1-9-8]
 
-Canceling a card cancels its "do not replace until" or alternate-replacement clause, and
-the card is replaced normally, e.g. {Asguresh} on {Steely Tenacity}.[^1-9-9] A canceled
-card is still replaced; §1.8 owns cancellation.[^1-9-9]
+A canceled card is replaced normally, its "do not replace until" or alternate-replacement
+clause canceled with it ([§1.8.3](#183-a-canceled-card-has-still-been-played)).[^1-9-9]
 
 #### 1.9.4 Empty crypt, hand size
 
 A card whose effect draws from or moves a card out of a crypt cannot be played when that
 crypt is empty — your own for {Illusions of the Kindred}, the blocker's for
-{Bear-Baiting}.[^1-9-10] This is §1.6's missing-object family, not futility.
+{Bear-Baiting}.[^1-9-10] This is [§1.6](#16-requirements)'s missing-object family, not futility.
 
 Cards not yet replaced count against hand size, and an effect that shows you a hand does
-not show the card drawn to replace a discard from it. §6.9 owns both.[^1-9-11]
+not show the card drawn to replace a discard from it. See [§6.9](#69-hand-draw--discard) for both.[^1-9-11]
 
 #### References
 
 [^1-9-1]: [ANK 20181208] — group "Modifier as announced" (G00052), {Approximation of Loyalty}, {Predator's Transformation}, {Force of Personality}.
-[^1-9-2]: [RTR 19991001] [LSJ 20101210] [LSJ 20040519-2] [PIB 20150428] [LSJ 20100206-2] — {Charming Lobby}, {Jack of Both Sides}, {Blessing of the Beast}, {Gift of Proteus}.
+[^1-9-2]: [RTR 19991001] [LSJ 20101210] [PIB 20150428] [LSJ 20100206-2] — {Charming Lobby}, {Jack of Both Sides}, {Blessing of the Beast}, {Gift of Proteus}.
 [^1-9-3]: [LSJ 19981005] [ANK 20230404] [LSJ 20090618] [LSJ 20060215] [ANK 20180925-1] [LSJ 20100506] — {Angelica, The Canonicus}, {Ruxandra}, {Constant Revolution}, {Call the Wild Hunt}, {Infernal Pursuit}.
 [^1-9-4]: [LSJ 20001120] — group "Action not replaced" (G00020), {Steely Tenacity}.
 [^1-9-5]: [ANK 20200129] [LSJ 20091208] [RTR 19951017] [LSJ 20100527] [LSJ 20001122] [LSJ 20080805] — group "Replace next turn" (G00025), group "Permanent not replaced" (G00008), {Port Authority}, {The New Inquisition}, {Psyche!}.
@@ -691,7 +700,7 @@ not show the card drawn to replace a discard from it. §6.9 owns both.[^1-9-11]
 [^1-9-7]: [PIB 20110718] [LSJ 20020718] [ANK 20180512] — {Learjet}, {Agaitas, The Scholar of Antiquities}, {Troglodytia}.
 [^1-9-8]: [LSJ 20080702-2] [ANK 20200517-3] [LSJ 20070707] — {Baseball Bat}, {Corrupt Construction}.
 [^1-9-9]: [LSJ 20011023] [LSJ 20080630] [LSJ 20021022] — group "Cancel" (G00058), {Asguresh}, {Infernal Pursuit}.
-[^1-9-10]: [LSJ 20031107] [RTR 20000501] — {Bear-Baiting}, {Illusions of the Kindred}.
+[^1-9-10]: [RTR 20000501] [LSJ 20070411-2] — group "Move or reveal card from crypt" (G00126).
 [^1-9-11]: [ANK 20180318] [ANK 20231229] [LSJ 20100119] [PIB 20121031] [ANK 20211020] — {Dreams of the Sphinx}, {The Meddling of Semsith}, {Hagar Stone}, {Revelations}, {Sergei Voshkov, The Eye}.
 
 ### 1.10 Burn, removal from the game, and shuffling back
@@ -732,36 +741,39 @@ apply — {Set's Curse} still puts its ally into play when the minion it burns i
 #### 1.10.3 Effects conditioned on a burn
 
 A card whose effect is conditioned on a burn may be played when that burn will not
-happen; §1.6 owns the permissive default. The conditioned part simply does not fire.
+happen; see [§1.6](#16-requirements) for the permissive default. The conditioned part simply does not fire.
 {Set's Curse} may be played on {Ilomba}, which redirects its own burn, but then nothing
 is put into play. {Sacrificial Lamb} gains no blood and moves no equipment if the target
 does not burn.[^1-10-4]
 
 A card that burns itself at a stated moment does not burn if that moment is never
 reached: {Bomb} used as a strike does not burn if combat ends before the strike resolves,
-and a weapon temporarily out of play at the end of the round does not burn.[^1-10-4]
+and a weapon out of play when a burn would apply escapes it ([§1.14.3](#1143-cards-out-of-play)).[^1-10-4]
 
 A card that burns itself for want of counters is a counter-count question, not a burn
-question; §1.12 owns it.[^1-10-5]
+question; see [§1.12](#112-cards-and-counters-on-other-cards) for it.[^1-10-5]
 
 #### 1.10.4 Crypt and library are separate
 
 Crypt cards cannot be put into the library and library cards cannot be put into the
 crypt. Continuous effects stop tracking a card shuffled back into the crypt, and any
-effect standing on that card is voided (§2.5). Where one effect both discards and
+effect standing on that card is voided ([§2.5](#25-duration-and-persistence)). Where one effect both discards and
 shuffles the discards back, resolve all discards and draws first, then shuffle
-(§6.9).[^1-10-6]
+([§6.9](#69-hand-draw--discard)).[^1-10-6]
 
-Burning the minion a card in play names does not end that card's effect, nor bar playing
-a card that measures what happened to that minion earlier in the window; §2.5 owns
-persistence.[^1-10-7]
+An effect does not need the minion it names to remain in play. A contract can still be
+used after its target — or the contract card itself — is burned, e.g. {The Black Throne};
+a card keyed to what happened in the combat may be played after the minion it measures was
+burned, e.g. {Taste of Vitae}; and a prohibition fixed on a card survives even that card's
+own trip through the ash heap — {The Eternal Mask} still cannot be burned after its
+vampire burned and returned. See [§2.5](#25-duration-and-persistence) for persistence.[^1-10-7]
 
 #### References
 
 [^1-10-1]: [LSJ 20000113] [LSJ 20021010] — {Soul Gem of Etrius}, {Abandoning the Flesh}; [LSJ 20090920] — {Absimiliard's Army}; [ANK 20180408] — {Charnas the Imp}.
 [^1-10-2]: [PIB 20110810] — {Illusions of the Kindred}; [LSJ 20060209] — {Grasp the Ghostly}; [ANK 20170331] — {Summon Soul}; [LSJ 20080314] — {Wider View}.
 [^1-10-3]: [LSJ 20011216-1] — {Resurrection}; [LSJ 20010710] [ANK 20200813] — group "Shuffle when burned" (G00056); [ANK 20200813] — {Set's Curse}.
-[^1-10-4]: [ANK 20190422] — {Set's Curse}; [LSJ 20100423] — {Sacrificial Lamb}; [LSJ 19981006] [LSJ 20001127-2] [LSJ 20010806-1] — {Bomb}; [LSJ 20100211-2] — {Baal's Bloody Talons}.
+[^1-10-4]: [ANK 20190422] — {Set's Curse}; [LSJ 20100423] — {Sacrificial Lamb}; [LSJ 19981006] [LSJ 20001127-2] [LSJ 20010806-1] — {Bomb}.
 [^1-10-5]: [LSJ 20070307] [LSJ 20070308] — {Riddle Phantastique}, {Secret Horde}; [LSJ 20001118] — {Dominique}.
 [^1-10-6]: [LSJ 20041201] — group "From ash heap to deck" (G00002); [LSJ 20071014] — {Kaymakli Fragment}; [RTR 20030519] — {Rachel Brandywine}.
 [^1-10-7]: [PIB 20150512] — {The Black Throne}, {Provision of the Silsila}; [LSJ 20031201-2] — {Taste of Vitae}; [LSJ 20040726] [ANK 20191031] — {The Eternal Mask}.
@@ -776,12 +788,12 @@ card is then placed face down, e.g. {Maabara}.[^1-11-7]
 
 A retrieval effect worded on "a card played" reaches only cards played the normal way. A
 card brought into play by another card's effect is not retrievable by such an effect, e.g.
-{Concealed Weapon}, {Charming Lobby}. That card has still been played (§1.8); the two
+{Concealed Weapon}, {Charming Lobby}. That card has still been played ([§1.8](#18-playing-and-canceling-a-card)); the two
 tests are separate. A card canceled as it is played counts as played and can be retrieved.
 The action card of the action itself counts among the cards the acting minion played
 during that action, e.g. {The Art of Memory}.[^1-11-1]
 
-Burning a card is not playing it. A card burned from hand for a vote was not played, and a
+Burning a card is not playing it. A card burned from hand for a vote was not played (it is burned, but neither played nor burned from play; [§1.10.2](#1102-burned-means-burned-from-play)), and a
 card in play burned by its own text was not played to call the referendum that burned it —
 {Echo of Harmonies} cannot retrieve a {National Guard Support} burned that way.[^1-11-2]
 
@@ -818,14 +830,14 @@ e.g. {The Capuchin}; a stolen equipment burned in play returns to its owner's as
 is not removed from the game unless an effect says so, e.g. {Grasp the Ghostly}. A
 retrieval worded "your ash heap" means the ash heap you own — it does not matter who first
 controlled the card, e.g. {Père Lachaise, France}. Effects may reach any player's ash heap,
-and an action targeting one is always undirected ([RBK important-terms-in-the-game]; §3.1
-owns this).[^1-11-6]
+and an action targeting one is always undirected ([RBK important-terms-of-the-game]; see [§3.1](#31-announcement-and-targets)
+for this).[^1-11-6]
 
 #### 1.11.5 The action card of a blocked action
 
 A blocked action's action card goes to the ash heap. "Continue as if unblocked" moves it
 back to limbo, and the action cannot be continued if the card is no longer in the ash heap,
-e.g. {Ambulance}, {Foresee}. §3.6 owns this.[^1-11-8]
+e.g. {Ambulance}, {Foresee}. See [§3.6](#36-continuing-an-action-as-if-unblocked) for this.[^1-11-8]
 
 #### References
 
@@ -834,7 +846,7 @@ e.g. {Ambulance}, {Foresee}. §3.6 owns this.[^1-11-8]
 [^1-11-3]: [ANK 20220805] [LSJ 20050804] — {Melange}, {Darksight}, {Ghouled}, {Echo of Harmonies}.
 [^1-11-4]: [LSJ 20050324] [LSJ 20050322] [RTR 19980928] [LSJ 19980929] — {Delaying Tactics}, {The Erciyes Fragments}, {Compel the Spirit}.
 [^1-11-5]: [LSJ 20020115] [LSJ 20071014] [LSJ 20030128] [LSJ 20011216-1] — group "Action creating vampire" (G00054), {Jake Washington}, {Spell of Life}, {Compel the Spirit}, {Resurrection}.
-[^1-11-6]: [ANK 20200417] [LSJ 20060209] [LSJ 20040812] [LSJ 20010627] [ANK 20181129] — {The Capuchin}, {Grasp the Ghostly}, {Père Lachaise, France}, {Khazar's Diary (Endless Night)}.
+[^1-11-6]: [ANK 20200417] [LSJ 20060209] [LSJ 20040812] [LSJ 20010627] — {The Capuchin}, {Grasp the Ghostly}, {Père Lachaise, France}, {Khazar's Diary (Endless Night)}.
 [^1-11-7]: [LSJ 20090710] [ANK 20200523] — {Trochomancy}, {Maabara}.
 [^1-11-8]: [LSJ 20070808-1] — {Ambulance}, {Foresee}, {Torrent}.
 
@@ -846,10 +858,16 @@ are out of play while it sits in torpor or in the uncontrolled region.
 
 #### 1.12.1 The host leaving play
 
-A card on a host is burned when the host leaves play, whatever sends it away.[^1-12-1]
-This covers a minion moved out of play by a card effect: cards on the initial target burn,
-e.g. {Memory's Fading Glimpse}, {Raw Recruit}.[^1-12-1] A vampire that burns and returns
-comes back with nothing on it and is a new minion for every purpose (§6.4).[^1-12-1]
+A card on a host is burned when the host leaves play, whatever sends it away: burned,
+removed from the game, returned to a hand, library or crypt, or set aside with no printed
+provision for its cards.[^1-12-1] Cards on the initial target of a card effect burn like
+any other, e.g. {Memory's Fading Glimpse} (host to the bottom of the crypt), {Raw Recruit}
+(host set aside out of play).[^1-12-1] Two families of departures keep the cards instead,
+out of play but intact: torpor, the uncontrolled region and contest, where they burn only
+if the host is yielded or burned; and a set-aside whose own text carries them along, e.g.
+{Descent into Darkness} ("this vampire and any other cards and counters on
+them").[^1-12-8] A vampire that burns and returns comes back with nothing on it and is a
+new minion for every purpose ([§6.4](#64-leaving-and-re-entering-play)).[^1-12-1]
 
 A hosted card printing its own "burn this card if this vampire is about to leave the ready
 region" clause resolves before the move. It burns even under an effect that would otherwise
@@ -857,7 +875,7 @@ keep cards on the vampire, e.g. {Righteous Aura} under {Banishment}.[^1-12-2]
 
 Effects the hosted card already produced are not undone when it burns with its host, e.g.
 {The Eternal Mask}. Counters it placed elsewhere keep working, e.g. {Tegyrius, Vizier}'s
-allegiance counters. §2.5 owns persistence.[^1-12-3]
+allegiance counters. See [§2.5](#25-duration-and-persistence) for persistence.[^1-12-3]
 
 #### 1.12.2 Status of a hosted card
 
@@ -869,10 +887,12 @@ Methuselah who played it is ousted, e.g. {Anathema}.[^1-12-5] It follows its hos
 change of control, and the new controller may use it. When it would move to an ash heap or
 library it goes to the owner's, e.g. {Storage Annex} stolen.[^1-12-5]
 
-If the host becomes contested, the cards on it are moved onto the other copy before the
-contest begins, e.g. {Mokolé Blood}; §1.13 owns contests.[^1-12-6]
+A copy entering play into a contest resolves its enter-play effects before the contest
+begins: a second {Mokolé Blood} puts its cards on itself first. A standing effect does not
+apply: a second {Elder Library} contests without modifying hand size. See [§1.13.2](#1132-entering-contest) for
+entering contest.[^1-12-6]
 
-A retainer using a hosted weapon is not its bearer; §5.6 owns that.
+A retainer using a hosted weapon is not its bearer; see [§5.6](#56-retainers) for that.
 
 #### 1.12.3 Counters on hosts
 
@@ -882,19 +902,20 @@ counters" burns immediately, e.g. {Secret Horde} put into play with X=0.[^1-12-7
 A counter moved onto a master card becomes the counter type that card uses, e.g.
 {Goth Band}.[^1-12-7]
 
-A burn threshold stated as the host's cost counts counters against that number whatever the
-cost's currency: a location costing X blood needs X vandal counters, e.g.
-{Dominique}.[^1-12-7]
+A threshold of counters "equal to the card's cost" reads the number, not the currency:
+{Dominique} burns a location that cost X blood with X vandal counters, the same as one
+that cost X pool.[^1-12-7]
 
 #### References
 
-[^1-12-1]: [LSJ 20021128] [SFC 19960919] [LSJ 20100302-2] [RTR 19941109] [ANK 20200417] [RBK important-terms-in-the-game] — group "Cards holding cards" (G00028), {Memory's Fading Glimpse}, {Raw Recruit}, {Betrayer}, {The Capuchin}.
+[^1-12-1]: [LSJ 20021128] [SFC 19960919] [LSJ 20100302-2] [RTR 19941109] [ANK 20200417] [RBK important-terms-of-the-game] — group "Cards holding cards" (G00028), {Memory's Fading Glimpse}, {Raw Recruit}, {Betrayer}, {The Capuchin}.
 [^1-12-2]: [ANK 20180511-1] — {Righteous Aura}.
 [^1-12-3]: [LSJ 20071206] [LSJ 20090725] [LSJ 20010616] [LSJ 20030522-1] — {The Eternal Mask}, {Tegyrius, Vizier}.
 [^1-12-4]: [ANK 20190629] — {Shadow Court Satyr}.
 [^1-12-5]: [PIB 20121028] [LSJ 20001031] [PIB 20121220] — {Anathema}, {Storage Annex}.
-[^1-12-6]: [ANK 20221028] [LSJ 20090428-1] — {Mokolé Blood}.
+[^1-12-6]: [ANK 20221028] [LSJ 20090428-1] — {Mokolé Blood}, {Shilmulo Tarot}, {Elder Library}.
 [^1-12-7]: [LSJ 20070307] [LSJ 20070308] [RTR 19970306] [LSJ 20001118] — {Riddle Phantastique}, {Secret Horde}, {Goth Band}, {Dominique}.
+[^1-12-8]: [LSJ 20080816] [RBK contested-cards] — {Descent into Darkness}.
 
 ### 1.13 Contests
 
@@ -918,7 +939,8 @@ out.[^1-13-2]
 You can never choose to contest yourself. A play or choice that would do so is illegal: a
 second {Visit from the Capuchin} cannot be played, and {Chain of Command} cannot bring out
 two copies of one unique vampire. Where an effect forces the contest instead, the incoming
-copy is burned, e.g. two {Parmenides} influenced in one turn.[^1-13-3]
+copy is burned, e.g. two {Parmenides} influenced in one turn.[^1-13-3] Vampires sharing a
+name do not share a Blood Brother circle and never contest a circle ([§5.7.7](#577-blood-brother-circles)).
 
 #### 1.13.2 Entering contest
 
@@ -943,34 +965,24 @@ chosen with it has no effect, e.g. {Disguised Weapon}.[^1-13-6]
 
 An effect elsewhere that reads the contested card is suspended, not ended, and resumes
 when the contest resolves, e.g. {Betrayer} naming a vampire who becomes contested. A
-contested card carried by a minion that leaves play drops out of the contest and re-enters
-it when the minion returns.[^1-13-7]
+contested card carried by a minion that an effect moves out of play drops out of the
+contest and re-enters it when the minion returns, e.g. {Descent into Darkness}.[^1-13-7]
 
 Where a title is granted by a card in play, contesting the title turns that card face down
-out of play as well, so the action it provides cannot be taken, e.g. {Fee Stake: Boston},
-{Regent}.[^1-13-8]
+as well, e.g. {Fee Stake: Boston}, {Regent} ([§5.8.1](#581-printed-titles-granted-titles-contests)).[^1-13-8]
 
 #### 1.13.4 After the contest
 
-A card that comes back from contest is the same card. It remembers every effect applied to
-it, including titles gained and lost, and effects tracking it resume — {The Rack} gives its
-chosen vampire blood again.[^1-13-9] §6.4 owns leaving and re-entering play generally; §3.5
-owns the No Repeated Action treatment.
+A card that comes back from contest is the same card: it remembers everything and effects
+tracking it resume — {The Rack} gives its chosen vampire blood again
+([§6.4.1](#641-set-aside-out-of-play--the-card-remembers-everything) generally; [§3.5](#35-action-repetition-nra-and-canceled-actions) for No Repeated Action).[^1-13-9]
 
 A fresh copy of the same name is a different card, and a choice fixed on a copy that was
 burned or yielded does not move to it. {The Rack} does not pick up the new copy, nor may
 its controller re-choose merely because the chosen vampire became ineligible.[^1-13-10]
 
 A card that leaves play through a contest is not burned by any minion, so nothing keyed to
-a minion burning it applies (§5.4).[^1-13-11]
-
-#### 1.13.5 Blood Brother circles
-
-§5.7 owns Blood Brothers. A vampire with no printed circle is in his own circle of one,
-and vampires sharing a name do not share a circle. Two uncontrolled copies of {Angelo} or
-{New Blood} are therefore in different circles, so an effect reading "the same circle"
-requires choosing one; a vampire created by {The Embrace} is likewise in a circle of his
-own.[^1-13-12]
+a minion burning it applies ([§5.4](#54-burning-minions)).[^1-13-11]
 
 #### References
 
@@ -985,8 +997,6 @@ own.[^1-13-12]
 [^1-13-9]: [RTR 20000501] [LSJ 20060908] [ANK 20210630] [LSJ 20010809-2] [LSJ 20010809-3] — {Descent into Darkness}, {Lay Low}, {The Rack}.
 [^1-13-10]: [RTR 19960112] [TOM 19960122] — {The Rack}.
 [^1-13-11]: [LSJ 19990719] [RTR 19991001] — {Jimmy Dunn}.
-[^1-13-12]: [LSJ 20020609] [ANK 20211113] [LSJ 20050927] [LSJ 20091012] — group "Circle" (G00003), {Angelo}, {New Blood}, {Hermana Hambrienta Mayor}.
-
 ### 1.14 Set-aside and announced cards
 
 #### 1.14.1 When the card is named
@@ -1011,8 +1021,8 @@ face down, e.g. {Disguised Weapon}, {Charming Lobby}.[^1-14-4] The same applies 
 naming card takes a count rather than a name, e.g. {Gift of Proteus}.[^1-14-4]
 
 Naming does not commit the card. If the action is canceled or fails, the named card stays
-in hand and is not discarded, e.g. {Jack of Both Sides}.[^1-14-4] §1.8 owns when a card
-played this way counts as played; §3.5 owns cancellation.
+in hand and is not discarded, e.g. {Jack of Both Sides}.[^1-14-4] See [§1.8](#18-playing-and-canceling-a-card) for when a card
+played this way counts as played; see [§3.5](#35-action-repetition-nra-and-canceled-actions) for cancellation.
 
 A card playable "as if from your hand" is not in hand. An effect requiring a card in hand
 cannot reach it: {Charming Lobby} cannot call a referendum off a political action card
@@ -1024,21 +1034,22 @@ in play, e.g. {Delaying Tactics}.[^1-14-5]
 
 A card set aside face down under an effect is out of play. It is in no zone that discard
 and burn effects reach, so it cannot be discarded or burned to satisfy another effect,
-e.g. a card on {The Erciyes Fragments} against {Tension in the Ranks}.[^1-14-6] §1.12 owns
+e.g. a card on {The Erciyes Fragments} against {Tension in the Ranks}.[^1-14-6] See [§1.12](#112-cards-and-counters-on-other-cards) for
 cards placed on cards in play.
 
-An equipment that is temporarily out of play is not burned by an effect that burns it at
-the end of the round or of the action.[^1-14-7] The weapon must be in play when the burn
-applies: a ranged strike that turns {Kerrie} or {Dagger} face down until the end of the
-action saves it from {Baal's Bloody Talons}.[^1-14-7] §2.4 owns the ordering of the
+An equipment that is temporarily out of play is not burned by a scheduled burn that applies
+while it is out.[^1-14-7] {Kerrie}'s ranged strike turns it face down until the end of the
+action ({Dagger} likewise), so {Baal's Bloody Talons}' end-of-round burn misses it;
+{Cleave}'s burn lands at the end of the action itself, where the acting Methuselah orders
+it against the weapon's return.[^1-14-7] See [§2.4](#24-simultaneous-effects-and-ordering) for the ordering of the
 several effects that resolve at the end of an action.
 
 #### References
 
-[^1-14-1]: [LSJ 20010627] [LSJ 19970922] [LSJ 20050422] — {The Sargon Fragment}, {Pochtli}, {Sudario Refraction}; same wording on {Clio's Kiss}, {Gear Up}, {Pandora's Whisper}, {Scarlet Lore}, {Whispers from the Dead}, {Carlotta Giovanni}, {Drozodny}, {Patrizia Giovanni, Collector of Secrets}.
-[^1-14-2]: [PIB 20150315] [LSJ 20091030] — {Magic of the Smith}, {Ashur Tablets}.
+[^1-14-1]: [LSJ 20010627] [LSJ 20050422] — {The Sargon Fragment}, {Pochtli}, {Sudario Refraction}; same wording on {Clio's Kiss}, {Gear Up}, {Pandora's Whisper}, {Scarlet Lore}, {Whispers from the Dead}, {Drozodny}, {Patrizia Giovanni, Collector of Secrets}.
+[^1-14-2]: [LSJ 20091030] — {Magic of the Smith}, {Ashur Tablets}.
 [^1-14-3]: [PIB 20110725] [LSJ 20090722] — {Siphon}, {Sudario Refraction}.
-[^1-14-4]: [LSJ 19991207] [ANK 20180925-2] [LSJ 20100130] [RTR 19991001] [LSJ 20101210] [ANK 20220704] [LSJ 20040519-2] [PIB 20150428] — {Disguised Weapon}, {Concealed Weapon}, {Charming Lobby}, {Jack of Both Sides}, {Gift of Proteus}.
+[^1-14-4]: [LSJ 19991207] [ANK 20180925-2] [LSJ 20100130] [RTR 19991001] [LSJ 20101210] [ANK 20220704] [PIB 20150428] — {Disguised Weapon}, {Concealed Weapon}, {Charming Lobby}, {Jack of Both Sides}, {Gift of Proteus}.
 [^1-14-5]: [ANK 20201029] [LSJ 20041130] [LSJ 20100527] — {Charming Lobby}, {Delaying Tactics}.
 [^1-14-6]: [LSJ 20050118] — {The Erciyes Fragments}.
 [^1-14-7]: [LSJ 20100211-2] — {Baal's Bloody Talons}, {Cleave}.
@@ -1053,8 +1064,11 @@ that alternative once satisfies every copy — skipping a turn counts against al
 {First Tradition: The Masquerade}.[^1-15-1]
 
 Numeric bonuses from multiple copies add, e.g. {Mass Reality} damage, {Orun}
-capacity.[^1-15-2] Votes are the exception: multiple copies of {Legacy of Pander} grant one
-vote in total, and {Orun} grants one vote per three copies.[^1-15-2] A vote bonus that is
+capacity.[^1-15-2] An absolute value does not add: a card granting "X" rather than "+X"
+sets its value, so multiple {Legacy of Pander} give a non-titled Pander 1 vote in total,
+and {Torn Signpost} sets strength to 2 or 3 — which can even reduce it, e.g. a 3-strength
+{Rock Cat} using it at [pot]. "+X" effects then add to the set value. {Orun} counts its
+own copies by its own text: one vote per three.[^1-15-2] A vote bonus that is
 not a title adds to the votes of a title gained later, e.g. {Xeper, Sultan of
 Lepers}.[^1-15-2]
 
@@ -1078,15 +1092,15 @@ Servitude} still plays only [pot], never [POT].[^1-15-5]
 
 A once-per-action limit on playing a card binds the minion, not the action. Different
 minions may each play their own copy on the same action, e.g. {Cloak the Gathering},
-{Suppressing Fire}.[^1-15-6] A limited effect binds the action itself; see §1.2.
+{Suppressing Fire}.[^1-15-6] A limited effect binds the action itself; see [§1.2](#12-wording-templates-periodicity-duration-triggers).
 
 Two copies of a card that imposes a mandatory directed action can deadlock the bearer: a
-minion under two {Lunatic Eruption} is stuck and cannot act.[^1-15-7] See §3.9.
+minion under two {Lunatic Eruption} is stuck and cannot act.[^1-15-7] See [§3.9](#39-mandatory-actions).
 
 #### References
 
 [^1-15-1]: [LSJ 19980225] [RTR 19941222] [LSJ 20061018] [ANK 20200703-4] [RTR 19941109] — {Aching Beauty}, {Anarch Revolt}, {Archon}, {Camarilla Exemplary}, {Sabbat Priest}, {First Tradition: The Masquerade}, {Frontal Assault}, {Judgment: Camarilla Segregation}, {Betrayer}.
-[^1-15-2]: [LSJ 20020904] [LSJ 20010819] [PIB 20130722] [LSJ 20051204] [LSJ 20060407] [LSJ 20090625-2] [LSJ 20100601] — {Mass Reality}, {Legacy of Pander}, {Orun}, {Xeper, Sultan of Lepers}.
+[^1-15-2]: [LSJ 20020904] [LSJ 20010819] [PIB 20130722] [PIB 20130303] [LSJ 20100813] [LSJ 20051204] [LSJ 20060407] [LSJ 20090625-2] [LSJ 20100601] — {Mass Reality}, {Legacy of Pander}, {Torn Signpost}, {Orun}, {Xeper, Sultan of Lepers}.
 [^1-15-3]: [LSJ 19970707] [LSJ 20001102] [RTR 19951017] [LSJ 20010227] — {Camarilla Exemplary}, {Courier}, {Kindred Society Games}, {Temptation}.
 [^1-15-4]: [LSJ 20070306] [LSJ 20030820] [LSJ 20090603] [RTR 19951110] — {Dr. Morrow, The Skindoctor}, {Kahina the Sorceress}, {Orun}, {Scorn of Adonis}.
 [^1-15-5]: [ANK 20180111] — {Leech}, {Putrescent Servitude}.
@@ -1107,7 +1121,7 @@ effect; the window closes only when every Methuselah passes in turn.
 
 An ability worded "when its controller has the opportunity to play effects" is usable at
 every such point, including inside an action.[^2-1-1] Mandatory effects are applied before
-their controller passes the impulse (§1.1 owns this).[^2-1-1]
+their controller passes the impulse (see [§1.1](#11-card-text-and-the-rules) for this).[^2-1-1]
 
 Permission to play one card outside its usual window opens no window for anything else: a
 cancel card usable when there is no action does not thereby allow a wake effect.[^2-1-1]
@@ -1125,7 +1139,7 @@ the acting minion's controller may play it, e.g. {Blanket of Night}, {Siren's Lu
 A reaction card widens its user only as far as its own text goes. {Bliss} is usable by a
 vampire not involved in the current combat, which includes a minion of a Methuselah not in
 that combat at all.[^2-1-3] A [REACTION] ability is not a reaction card play but still
-needs a reaction window; §1.5 owns it.[^2-1-3]
+needs a reaction window; see [§1.5](#15-abilities-and-card-plays) for it.[^2-1-3]
 
 #### 2.1.3 Effects resolve atomically
 
@@ -1134,9 +1148,9 @@ played "in response" to an effect, and no window opens between the sub-steps of 
 resolving effect, e.g. {Heidelberg Castle, Germany} cannot be locked in response, and
 {Mask of a Thousand Faces} cannot be used during a referendum or during combat.[^2-1-4]
 
-So a vampire chosen to go to torpor cannot be rescued between the choice and the torpor
-({Baltimore Purge}); a vampire changing controller cannot unlock first ({Temptation}); and
-life cannot be added in the middle of a single damage resolution step
+So a vampire chosen to go to torpor by {Baltimore Purge} cannot be unlocked between the choice and the torpor
+by another effect; a vampire changing controller because of {Temptation} cannot be locked between the unlock
+and the change of control; and life cannot be added in the middle of a single damage resolution step
 ({Vagabond Mystic}).[^2-1-4]
 
 A card barred "during an action" is usable between two actions, including during another
@@ -1153,14 +1167,12 @@ A card that changes how a step resolves must be played before that step resolves
 order. A card played on a diablerie may come before or after the Discipline card is taken,
 but must precede the blood hunt.[^2-1-6]
 
-A cost reduction from a card in play may be applied at any point from announcement until
-just before the cost is paid ({Powerbase: Tshwane}). A card in play that must be burned on
-an action is burned before that action resolves ({Melange}).[^2-1-6]
+A lock-to-reduce cost reduction may be applied at any point up to payment ([§1.7.3](#173-cost-reductions)). A card
+in play that must be burned on an action is burned before that action resolves
+({Melange}).[^2-1-6]
 
-The "as the action/bleed would be successful" window is the last one. Once a card with that
-timing is played, only cards with the same timing may follow, so bleed redirection must
-precede it, e.g. {Deflection}.[^2-1-7] §2.3 owns the sequencing rule; §3.7.1 owns
-redirection.
+The "as the action/bleed would be successful" window is the last one before resolution
+([§3.4.3](#343-the-would-be-successful-window)); redirection must precede it ([§3.7.1](#371-bleed)).[^2-1-7]
 
 #### References
 
@@ -1184,10 +1196,10 @@ may follow it.[^2-2-1]
 The timing is a property of the card's wording, not of its card type. Action modifiers,
 reaction cards and cards already in play all carry it, e.g. {Car Bomb} [REACTION] and the
 location {Yoruba Shrine}. The acting Methuselah has the first opportunity to play in this
-window, as everywhere else in the action; §2.1 owns the general order.[^2-2-2]
+window, as everywhere else in the action; see [§2.1](#21-effect-windows-and-impulse) for the general order.[^2-2-2]
 
 The action card is played, and replaced, before the window opens. A card drawn as that
-replacement may therefore be played as the action is announced. §1.9 owns replacement
+replacement may therefore be played as the action is announced. See [§1.9](#19-replacement) for replacement
 timing.[^2-2-3]
 
 Because the action card has already been played, an effect used in the window that
@@ -1195,13 +1207,12 @@ forbids playing cards does not reach it. {Concoction of Vitality} may be burned 
 action is announced even though the action was announced with a card requiring a
 discipline, e.g. {Govern the Unaligned}.[^2-2-4]
 
-The other end of the action has its own deadline and it is not this one. A card printed
-"before action resolution" is barred once any card usable "as the action would be
-successful" has been played, e.g. {Telepathic Misdirection} after a {Spying Mission}
-triggers. §2.3 owns that sequencing, §3.4 the resolution step.[^2-2-5]
+The other end of the action has its own deadline and it is not this one: cards printed
+"before action resolution" are barred once the "would be successful" window opens
+([§3.4.3](#343-the-would-be-successful-window)).[^2-2-5]
 
 ⚠ REVIEW — an as-announced card is played before any block is attempted, so a player
-grants stealth here without knowing whether it is needed. Whether §1.6's bar on gaining
+grants stealth here without knowing whether it is needed. Whether [§1.6](#16-requirements)'s bar on gaining
 stealth you do not need reaches this window is unsettled; {Predator's Transformation}
 prints "+1 stealth, even if stealth is not yet needed", which suggests it does.
 
@@ -1232,14 +1243,13 @@ Once a card keyed to resolution has been played, only cards with that same timin
 Cards keyed to an earlier point — {Deflection}, {Archon Investigation}, {Conditioning} — must
 precede it.[^2-3-2] A printed after-success effect on a permanent works the same way and does
 not close the window: cards playable after resolution may still be played after
-{Perfectionist} gains its blood.[^2-3-2] The window opens at resolution, so a card usable when
-a bleed *would be* successful is earlier still and cannot follow one, e.g.
-{Spying Mission}.[^2-3-3] §3.4 states the same sequencing for "would be successful" cards.
+{Perfectionist} gains its blood.[^2-3-2] The window opens at resolution; the "would be
+successful" window is earlier still and cannot follow it ([§3.4.3](#343-the-would-be-successful-window)).[^2-3-3]
 
 Modifiers and reactions usable at the end of or after an action survive a failed action and
 survive an intervening combat, e.g. {Champion}, {Car Bomb}, {Ensconced}.[^2-3-4] An action
 that *ends* closes the window immediately and nothing may follow, e.g.
-{Change of Target}.[^2-3-4] §3.5 owns the failed/ended distinction.
+{Change of Target}.[^2-3-4] See [§3.5](#35-action-repetition-nra-and-canceled-actions) for the failed/ended distinction.
 
 Two post-resolution cards put the action back in progress rather than adding to it:
 {Follow the Blood} sends the reacting vampire into combat, {Momentary Delay} continues the
@@ -1265,7 +1275,7 @@ combat.[^2-3-9]
 
 Cards keyed "after combat" are played once every combat generated by the action has been
 handled, e.g. {Freak Drive}, {Cats' Guidance}, {Hay Ride}.[^2-3-10] Where the action resolves
-before combat begins, "after resolution" effects wait until that combat ends (§3.4); the same
+before combat begins, "after resolution" effects wait until that combat ends ([§3.4](#34-resolution-success-and-effect)); the same
 holds for a success-conditioned effect from a card played earlier in the action, e.g.
 {The Art of Memory}.[^2-3-11]
 
@@ -1281,10 +1291,10 @@ and the blood hunt, e.g. {Ritual of the Bitter Rose}.[^2-3-12]
 
 [^2-3-1]: [LSJ 19981028] [ANK 20190425] — group "Modifier after resolution" (G00006); {Domain of Evernight}, {Forced March}, {Fata Amria}. [LSJ 20030219] — {Spirit Marionette}. [LSJ 20090731] — {Last Stand}. [ANK 20180909] — {Ophidian Gaze}.
 [^2-3-2]: [LSJ 20050422] — {Dis Pater}. [ANK 20190113] [ANK 20190425] — {Capitalist}, {Cavalier}, {Perfectionist}, {Scrying of Secrets}, {Truth of a Thousand Lies}, {Vigilance}.
-[^2-3-3]: [LSJ 20110502] [TOM 19960226-2] [LSJ 19980105] — {Spying Mission}.
+[^2-3-3]: [LSJ 20110502] [LSJ 19980105] — {Spying Mission}.
 [^2-3-4]: [LSJ 20041022] [RTR 20180719] [ANK 20220118] [ANK 20221205] — {Champion}, {Car Bomb}, {Ensconced}, {Detect Authority}, {Faerie Wards}, {Final Loosening}, {Hide}, {Hide the Heart}, {Malkavian Derangement: Alternate Personality}, {Purification}, {Scobax}. [LSJ 20010803-1] [ANK 20200207] — {Change of Target}, {Claiming the Body}, {The Kiss of Ra}.
 [^2-3-5]: [LSJ 19981028] [LSJ 20100206-2] — {Follow the Blood}, {Momentary Delay}.
-[^2-3-6]: [ANK 20180206] — {The Damned}, {Ecstasy}, {Travelers Obey the Tenets}, {Shemti}. [LSJ 20100324] [LSJ 20071116] — {Games of Instinct}, {Save Face}. [LSJ 20070327] — {Voter Captivation}.
+[^2-3-6]: [ANK 20180206] — {The Damned}, {Ecstasy}, {Travelers Obey the Tenets}, {Shemti}. [LSJ 20100324] [LSJ 20071116] — {Games of Instinct}, {Save Face}.
 [^2-3-7]: [ANK 20230314] — {Provision of the Silsila}, {Monster}, {Shadow Boxing}.
 [^2-3-8]: [LSJ 20010715] — {Force of Will}. [ANK 20171124] — {Heidelberg Castle, Germany}. [LSJ 20100325] — {Slake the Thirst}. [PIB 20150915] — {Freak Drive}.
 [^2-3-9]: [LSJ 20091123] — {Wake with Evening's Freshness}, {Eyes of Argus}, {Forced Awakening}, {On the Qui Vive}.
@@ -1310,11 +1320,9 @@ after {Psyche!}; played first, combat continues and {Psyche!} waits for the end 
 round.[^2-4-4] An effect that reads a value applies after every effect that modifies that
 value, e.g. {Protected Resources} after all bleed modifiers.[^2-4-5]
 
-Which window a card belongs to is §2.3 and §4.9; ordering runs the same in each. "After
-resolution" effects may be played before or after one another,[^2-4-6] and so may
-after-combat effects.[^2-4-7] Two cards reverse this and take other "after resolution"
-effects only before themselves, e.g. {Momentary Delay}.[^2-4-8] An action that ENDS closes
-its window at once, leaving nothing to order (§3.5).
+Which window a card belongs to is [§2.3](#23-after-resolution-and-after-combat) and [§4.9](#49-end-of-round-end-of-combat-and-new-combats); ordering runs the same in each
+([§2.3.2](#232-ordering), [§4.9.4](#494-after-combat)). An action that ENDS closes
+its window at once, leaving nothing to order ([§3.5](#35-action-repetition-nra-and-canceled-actions)).
 
 Across Methuselahs, whoever uses an effect first has priority and whoever uses one last has
 the final say. In the "when a vampire should go into torpor" window the acting minion goes
@@ -1324,7 +1332,7 @@ first, and going first can lock the other side out — {Undead Persistence} deni
 #### 2.4.2 Order is a real choice
 
 Effects resolve one at a time, so a later one can find nothing left to do: a second
-{Anathema} is burned unresolved (§1.15).[^2-4-10] Ordering also dodges a cost or a trigger
+{Anathema} is burned unresolved ([§1.15](#115-cumulative-and-stacking-effects)).[^2-4-10] Ordering also dodges a cost or a trigger
 — apply a cost reduction before {Jenna Cross}'s surcharge, or burn the last non-Camarilla
 vampire before {Judgment: Camarilla Segregation} bills you.[^2-4-11]
 
@@ -1337,11 +1345,10 @@ that burn, but a competing replacement may be played first, per sequencing.[^2-4
 
 #### 2.4.3 Cost and benefit
 
-A cost paid and a benefit gained by the same effect happen at the same time; the controller
-is not ousted in between. {Minion Tap} is playable at 4 pool with {Villein} on the
-vampire.[^2-4-15] Where the card offers the choice, take the gain first: gain pool from the
+A cost paid and a benefit gained by the same effect happen at the same time; no oust
+intervenes ([§1.7.1](#171-when-a-cost-is-paid)). Where the card offers the choice, take the gain first: gain pool from the
 Edge, then burn it to remove {Sabbat Threat}'s counters.[^2-4-16] An oust resolves before
-effects triggered by the burn that caused it.[^2-4-17]
+effects triggered by the burn that caused it ([§6.5.2](#652-when-the-oust-resolves)).[^2-4-17]
 
 #### 2.4.4 Delayed effects triggered by a block
 
@@ -1353,10 +1360,9 @@ follow.[^2-4-18]
 #### 2.4.5 Unlock phase
 
 Cards unlock at the beginning of the phase, before any effect applied "during" it — so
-{Baleful Doll}'s bearer is unlocked and can pay the lock cost.[^2-4-19] Cards held back by
-a "not replaced until your next unlock phase" effect are replaced before unlocking, and no
-unlock effect may be ordered before that; a {Malkavian Dementia} loss of control is
-likewise not orderable, and that vampire does not unlock.[^2-4-20] Within the phase the
+{Baleful Doll}'s bearer is unlocked and can pay the lock cost.[^2-4-19] Held-back
+replacements and control reversions resolve before unlocking and cannot be ordered among
+unlock effects ([§1.9.2](#192-delayed-replacement), [§6.2.1](#621-when-the-control-change-happens)).[^2-4-20] Within the phase the
 acting Methuselah orders his own effects freely, but must finish them before another
 Methuselah gets the impulse.[^2-4-21]
 
@@ -1365,8 +1371,8 @@ Methuselah gets the impulse.[^2-4-21]
 Some effects are simultaneous, not ordered. Two {Theft of Vitae} strikes net the gain
 against the loss; no blood wears off.[^2-4-22] {Deep Song}'s lock and enter-combat are one
 moment, and both are lost if the action ends first.[^2-4-23] Damage is prevented in
-sequence — acting player first — but all of it is applied at once; §4.5 owns
-prevention.[^2-4-24] Where two effects write the same trait, the most recent governs (§5.9).
+sequence — acting player first — but all of it is applied at once; see [§4.5](#45-prevention--immunity) for
+prevention.[^2-4-24] Where two effects write the same trait, the most recent governs ([§5.9](#59-traits-and-trait-changes)).
 
 #### References
 
@@ -1375,16 +1381,12 @@ prevention.[^2-4-24] Where two effects write the same trait, the most recent gov
 [^2-4-3]: [LSJ 20100218] [RTR 20180511-2] [LSJ 20001206] [ANK 20211124] — {Power of One}, {Quicksilver Contemplation}, {Quickness}.
 [^2-4-4]: [ANK 20191219] — {Telepathic Tracking}.
 [^2-4-5]: [TOM 19960413] [LSJ 20030213] — {Protected Resources}, {Merrill Molitor}.
-[^2-4-6]: [LSJ 19981028] [ANK 20190425] [LSJ 20010715] [ANK 20190524] [LSJ 20020126] — group "Modifier after resolution" (G00006); {Domain of Evernight}, {Fata Amria}, {Forced March}, {Force of Will}, {Venenation}.
-[^2-4-7]: [LSJ 20100324] [LSJ 20071116] [ANK 20230314] [RTR 19970630] — {Games of Instinct}, {Save Face}, {Monster}, {Shadow Boxing}, {Mummify}.
-[^2-4-8]: [LSJ 20100206-2] — {Follow the Blood}, {Momentary Delay}.
 [^2-4-9]: [RTR 20010710] [LSJ 20090304-2] [PIB 20120214] — {Amaranth}, {Decapitate}, {Mustafa, The Heir}, {Squirrel Balance}, {Storm Sewers}.
 [^2-4-10]: [LSJ 20021117] [PIB 20120225] [LSJ 20011215] [LSJ 20050805] — {Anathema}, {Blissful Agony}, {Dual Form}.
 [^2-4-11]: [ANK 20200709] [ANK 20181016] [ANK 20170625] [ANK 20210110] — {Jenna Cross}, {Judgment: Camarilla Segregation}, {Khobar Towers, Al-Khubar}, {First Tradition: The Masquerade}.
 [^2-4-12]: [LSJ 20100203] [ANK 20200905] [ANK 20220503] [LSJ 20060530-1] [LSJ 20090617-2] — {Slake the Thirst}, {Visit from the Capuchin}, {Drink the Blood of Ahriman}, {Zhenga}, {Ilomba}.
 [^2-4-13]: [ANK 20180725] [LSJ 20050116] [ANK 20240724] — {Feline Saboteur}, {Dual Form}, {Illusions of the Kindred}.
 [^2-4-14]: [LSJ 20071003-2] [ANK 20230816] — {Charigger, The Axe}, {Heaven's Gate}.
-[^2-4-15]: [LSJ 20020620] [LSJ 20080612] — {Minion Tap}, {Villein}, {The Eternals of Sirius}.
 [^2-4-16]: [TOM 19951214-1] — {Sabbat Threat}.
 [^2-4-17]: [LSJ 20080512] — {Herald of Topheth}.
 [^2-4-18]: [ANK 20210627] [ANK 20211207] [ANK 20220116] — {Unleash Hell's Fury}, {Millicent Smith, Puritan Vampire Hunter}, {Mirror Walk}, {Banshee Ironwail}.
@@ -1419,13 +1421,13 @@ Vacuum}. Removing the card restores the underlying value.[^2-5-3]
 
 An effect whose text reads a trait on an ongoing basis re-reads it, including mid-action:
 {Teresita, The Godmother} gains or loses her intercept if the acting vampire changes sect
-during the action (§5.9). A relational referent is re-read at each use — {Victim of Habit}
+during the action ([§5.9](#59-traits-and-trait-changes)). A relational referent is re-read at each use — {Victim of Habit}
 keeps its named card when the prey is ousted and then works against the new prey.[^2-5-4]
 
 A requirement is checked when the card is played and the effect continues after the vampire
-stops meeting it, e.g. {Concordance}, {Cry Wolf}; §1.6 owns requirements.[^2-5-5] A trait
+stops meeting it, e.g. {Concordance}, {Cry Wolf}; see [§1.6](#16-requirements) for requirements.[^2-5-5] A trait
 granted for playing a card covers that card's duration effects but not what the card does
-from being in play (§1.6, the {Mata Hari} template).[^2-5-6]
+from being in play ([§1.6](#16-requirements), the {Mata Hari} template).[^2-5-6]
 
 A continuous grant addressed to a class of minions reaches members entering play later and
 is not consumed by use, e.g. {Annabelle Triabell}, {Toreador Grand Ball}.[^2-5-7]
@@ -1462,11 +1464,9 @@ minion, and is lost track of by cards and effects, e.g. {The Capuchin}. Cards sh
 into the crypt are lost track of the same way. A minion that changes type loses the
 continuous effects attached to its old form, e.g. {Demdemeh}'s retainers.[^2-5-13]
 
-The uncontrolled region suspends rather than erases. A vampire moved there keeps its cards
-and counters, and its titles and continuous effects resume when it is influenced back, e.g.
-{Banishment}. Effects worded for the rest of the game resume with it. Capacity modifiers do
-not apply while it is uncontrolled, but blood carried for a capacity bonus is not drained
-off when they resume.[^2-5-14]
+The uncontrolled region suspends rather than erases: cards, counters, titles and continuous
+effects — even those worded for the rest of the game — resume on return, e.g. {Banishment}
+([§6.4.1](#641-set-aside-out-of-play--the-card-remembers-everything)); suspended capacity modifiers are [§5.1.1](#511-capacity)'s.[^2-5-14]
 
 #### References
 
@@ -1493,11 +1493,9 @@ off when they resume.[^2-5-14]
 
 #### 3.1.1 What is fixed at announcement
 
-Every term the card calls for is named when the action is declared: the target, the counters spent, the card burned, the affected Methuselah. A cost reduction offered by a card in play may be applied either at announcement or when the cost is paid, e.g. {Eccentric Billionaire}.[^3-1-1]
+Every term the card calls for is named when the action is declared: the target, the counters spent, the card burned, the affected Methuselah.[^3-1-1] A lock-to-reduce cost reduction is not such a term: it may be applied at any point from announcement until just before the cost is paid ([§1.7.3](#173-cost-reductions)).
 
-A card named as part of the announcement must be in hand at that moment, before the announcing card is replaced. It need not be shown and may be set apart face down, e.g. {Concealed Weapon}, {Charming Lobby}.[^3-1-2] §1.9 owns the replacement ordering; §6.9 owns the non-visibility. If the action is canceled or fails, that card stays in hand.[^3-1-3]
-
-A card to be retrieved from the ash heap is named at declaration, whether the action comes from a card or from a minion's ability, e.g. {Clio's Kiss}, {Drozodny}.[^3-1-4]
+A card named as part of the announcement must be in hand at that moment, face down if you wish, and stays in hand if the action is canceled or fails; a card retrieved from your ash heap is named at declaration, while a library search chooses only at resolution. [§1.14](#114-set-aside-and-announced-cards) owns all of these.
 
 A term fixed at announcement is not re-read later. Anarchs chosen while unlocked still count if they lock during the vote, e.g. {Revolutionary Council}; a target chosen when an equipment was played does not follow that equipment to a new controller, e.g. {Incriminating Videotape}.[^3-1-5]
 
@@ -1509,11 +1507,11 @@ An effect worded on the action being successful chooses its object then, e.g. {K
 
 #### 3.1.3 Legal targets
 
-An action cannot be announced at all if the card requires an object and no legal one exists.[^3-1-8] But the object need only exist — it need not be able to yield the full effect. A vampire with no blood is a legal choice for a blood-stealing action, and if the target holds less than the announced amount at resolution you take what is there, e.g. {Siphon}, {Villein}.[^3-1-9] §1.7 owns the amount, §1.6 the general no-effect rule.
+An action cannot be announced at all if the card requires an object and no legal one exists.[^3-1-8] But the object need only exist — it need not be able to yield the full effect. A vampire with no blood is a legal choice for a blood-stealing action, and if the target holds less than the announced amount at resolution you take what is there, e.g. {Siphon}, {Villein}.[^3-1-9] See [§1.7](#17-costs-and-payment) for the amount, [§1.6](#16-requirements) for the general no-effect rule.
 
 If some of the intended objects cannot be targeted, the announcement stands and the action simply has no effect on those, e.g. {Edged Illusion}.[^3-1-10]
 
-An effect granting an action or a block does not lift the normal prey, predator and target restrictions; §3.3 owns the blocking side.[^3-1-11]
+An effect granting an action or a block does not lift the normal prey, predator and target restrictions; see [§3.3](#33-blocking) for the blocking side.[^3-1-11]
 
 #### 3.1.4 Choosing is targeting
 
@@ -1533,13 +1531,10 @@ An action with several targets is directed at every Methuselah controlling one o
 
 #### References
 
-[^3-1-1]: [RTR 20111202] [RTR 19980928] [LSJ 20090705] [ANK 20170605] — {Ravnos Carnival}, {Travis "Traveler72" Miller}, {Betrayer}, {Eccentric Billionaire}.
-[^3-1-2]: [LSJ 19991207] [ANK 20180925-2] [LSJ 20100130] [RTR 19991001] [LSJ 20101210] [PIB 20150428] [LSJ 20100206-2] — {Concealed Weapon}, {Disguised Weapon}, {Charming Lobby}, {Blessing of the Beast}, {Gift of Proteus}.
-[^3-1-3]: [ANK 20220704] [LSJ 20040519-2] — {Charming Lobby}, {Jack of Both Sides}.
-[^3-1-4]: [LSJ 20010627] [LSJ 19970922] [LSJ 20050422] [LSJ 20090722] — {Clio's Kiss}, {Drozodny}, {Gear Up}, {Pandora's Whisper}, {The Sargon Fragment}, {Scarlet Lore}, {Whispers from the Dead}, {Patrizia Giovanni, Collector of Secrets}, {Pochtli}, {Carlotta Giovanni}, {Sudario Refraction}.
+[^3-1-1]: [RTR 20111202] [RTR 19980928] — {Ravnos Carnival}, {Travis "Traveler72" Miller}, {Betrayer}.
 [^3-1-5]: [LSJ 20081203] [TOM 19960114] [LSJ 20020514] — {Revolutionary Council}, {Incriminating Videotape}.
 [^3-1-6]: [ANK 20240706] [RTR 19970425] — {Break the Bonds}, {Public Trust}, {Fire Dance}.
-[^3-1-7]: [ANK 20240706] [LSJ 20080608] [PIB 20150315] [PIB 20110725] — {Keystone Kine}, {The Platinum Protocol}, {Magic of the Smith}, {Siphon}.
+[^3-1-7]: [ANK 20240706] [LSJ 20080608] [PIB 20110725] — {Keystone Kine}, {The Platinum Protocol}, {Magic of the Smith}, {Siphon}.
 [^3-1-8]: [LSJ 20041026] [ANK 20240706] — group "Justicar title vote without Camarilla" (G00034), {Break the Bonds}.
 [^3-1-9]: [RTR 20010711] [PIB 20110725] [LSJ 20100216] [ANK 20180512-2] — {Siphon}, {Villein}, {Diversion}, {Donnybrook}, {Drain Essence}.
 [^3-1-10]: [RTR 20080808] — {Edged Illusion}, {Jaroslav Pascek}.
@@ -1549,7 +1544,7 @@ An action with several targets is directed at every Methuselah controlling one o
 [^3-1-14]: [RBK who-may-attempt-to-block] [LSJ 20090324] [ANK 20190606] [PIB 20121210] [PIB 20121028] [LSJ 20010328] [LSJ 20010828] [ANK 20180917] — group "Directed at a card" (G00036), {Of Noble Blood}, {Renewed Vigor}, {Eurayle Gelasia Mylonas}, {Mylan Horseed}, {Lunatic Eruption}, {Temptation}, {Impundulu}.
 [^3-1-15]: [LSJ 20090324] [RBK who-may-attempt-to-block] [LSJ 19970224] — {Conceal}, {Haunt}, {Goblinism}, group "Locquipments" (G00047), {Annazir}, {Arcanum Investigator}, {Gremlins}, {Loss}, {Principia Discordia}, {Ethan Locke}.
 [^3-1-16]: [LSJ 20061222] [LSJ 20090324] [LSJ 20030214-2] — {Abbot}, {Detect Authority}, {Ambrosio Luis Monçada, Plenipotentiary}, {Evan Klein}.
-[^3-1-17]: [LSJ 20010627] [ANK 20181129] [ANK 20221019-3] — {Daemonic Possession}, {The Eternal Mask}, {Ghost-Eater}, {Khazar's Diary (Endless Night)}, {Pressing Flesh}, {Banishment}.
+[^3-1-17]: [LSJ 20010627] [ANK 20221019-3] — {Daemonic Possession}, {The Eternal Mask}, {Ghost-Eater}, {Khazar's Diary (Endless Night)}, {Pressing Flesh}, {Banishment}.
 [^3-1-18]: [PIB 20150821] [RTR 20080808] [RTR 20081119] [ANK 20180917] [LSJ 20080809-1] — {Sowing Dissension}, {Condemn the Sins of the Father}, {Shepherd's Innocence}, {Wave of Insanity}.
 [^3-1-19]: [LSJ 20080809-2] [RTR 20081119] [RTR 20080808] [ANK 20180515] — {Chanjelin Ward}, {Talley, The Hound}, {Weigh the Heart}.
 
@@ -1563,7 +1558,7 @@ below the acting minion's stealth. [RBK stealth-and-intercept]
 
 A card that adds stealth or intercept cannot be played when the value is not needed, e.g.
 {Bonding}, {Mask of a Thousand Faces}. The restriction reaches an ability that adds it as
-well, e.g. {Osric Vladislav}.[^3-2-1] §1.6 owns the rule; this is its main instance.
+well, e.g. {Osric Vladislav}.[^3-2-1] See [§1.6](#16-requirements) for the rule; this is its main instance.
 
 Need is a threshold, not a cap. Once some intercept is needed the minion may take more
 than it needs, e.g. {Angelica, The Canonicus}. Printed text waives the restriction where
@@ -1599,25 +1594,24 @@ card is attempting to block, its intercept is modifiable like any minion's, e.g.
 A bonus conditioned on the action's target is satisfied by any one qualifying target, e.g.
 {Talley, The Hound}; "directed at their controller" covers actions directed at cards that
 controller owns, e.g. {Abbot}. A bonus conditioned on a trait is re-read if the trait
-changes mid-action, e.g. {Ministry} — §5.9 owns that.[^3-2-7]
+changes mid-action, e.g. {Ministry} — see [§5.9](#59-traits-and-trait-changes) for that.[^3-2-7]
 
 #### 3.2.5 Who plays it, when, and how often
 
 Action modifiers are the acting Methuselah's to play. A card usable by a vampire other than
 the acting minion still requires that vampire be under the same control, e.g.
 {Cloak the Gathering}; different minions may each play a copy on the same action
-(§1.15).[^3-2-8]
+([§1.15](#115-cumulative-and-stacking-effects)).[^3-2-8]
 
 The window does not close when one side passes. Intercept may still be added after the
 acting Methuselah declines to add stealth, e.g. {Guardian Vigil}, and playing a modifier
-that changes neither value leaves it open, e.g. {Inspire Greatness}. A Methuselah who is
-not the target must wait for the targeted Methuselah to declare an attempt or a decline
-before reducing stealth, e.g. {Draba}. Failing to block for want of intercept is still
-declining to block (§3.3).[^3-2-9]
+that changes neither value leaves it open, e.g. {Inspire Greatness}. Sequencing puts the
+targeted Methuselah's declaration first ([§3.3.2](#332-declaring-and-declining)). Failing
+to block for want of intercept is still declining to block ([§3.3](#33-blocking)).[^3-2-9]
 
 How often a stealth or intercept effect may be used is fixed by its own wording: once per
 action, e.g. {Phased Motion Detector}; repeatable, e.g. {Matteus, Flesh Sculptor}; once per
-unlock where locking is the cost, e.g. {Starshell Grenade Launcher}. §1.2 owns the wording
+unlock where locking is the cost, e.g. {Starshell Grenade Launcher}. See [§1.2](#12-wording-templates-periodicity-duration-triggers) for the wording
 templates.[^3-2-10]
 
 #### References
@@ -1630,7 +1624,7 @@ templates.[^3-2-10]
 [^3-2-6]: [LSJ 20100527] [LSJ 20010813-2] [ANK 20211112-2] — {Marciana Giovanni, Investigator}, {Unleash Hell's Fury}.
 [^3-2-7]: [RTR 20080808] [RTR 20081119] [LSJ 20061222] [ANK 20190416] — {Talley, The Hound}, {Abbot}, {Ministry}, {Protection Racket}, {Teresita, The Godmother}.
 [^3-2-8]: [LSJ 19990425] [ANK 20200515] — {Cloak the Gathering}.
-[^3-2-9]: [ANK 20180926] [ANK 20210926] [ANK 20200607] [ANK 20211003] — {Guardian Vigil}, {Inspire Greatness}, {Draba}, {Night Terrors}, {Deflection}, {My Enemy's Enemy}, {Redirection}.
+[^3-2-9]: [ANK 20180926] [ANK 20210926] [ANK 20211003] — {Guardian Vigil}, {Inspire Greatness}, {Deflection}, {My Enemy's Enemy}, {Redirection}.
 [^3-2-10]: [RBK wording-templates] [ANK 20230116] [ANK 20180307-2] [LSJ 20011023-2] — {Phased Motion Detector}, {Matteus, Flesh Sculptor}, {Starshell Grenade Launcher}.
 
 ### 3.3 Blocking
@@ -1640,8 +1634,8 @@ templates.[^3-2-10]
 An effect that lets a minion ignore the prey, predator or target restriction reaches only
 that check. Every other condition on blocking still applies, including a prior decision not
 to block, e.g. {Eagle's Sight} [AUS], {Anneke}.[^3-3-1] It covers one block attempt; if the
-action later continues as if unblocked, another is needed (§3.6).[^3-3-2] Blocking "as an
-ally" is the same shape — §5.5.
+action later continues as if unblocked, another is needed ([§3.6](#36-continuing-an-action-as-if-unblocked)).[^3-3-2] Blocking "as an
+ally" is the same shape — [§5.5](#55-allies).
 
 The unlock-to-block template ({Guard Duty}, {Second Tradition: Domain}):
 
@@ -1677,7 +1671,7 @@ the block standing, so the blocker still locks.[^3-3-14]
 #### 3.3.3 The cost of blocking
 
 Read the wording. "Must burn 1 blood to attempt to block" is a cost, so a minion who cannot
-pay cannot attempt, e.g. {Dominion}, {Tenebrous Form} (§5.5 for allies).[^3-3-15] "Vampires
+pay cannot attempt, e.g. {Dominion}, {Tenebrous Form} ([§5.5](#55-allies) for allies).[^3-3-15] "Vampires
 blocking this vampire burn 1 blood" is an automatic effect: an empty vampire still blocks and
 burns what it can, e.g. {Archon}, {Dónal O'Connor}. That burn happens immediately on the
 successful block, whether or not combat follows.[^3-3-16]
@@ -1693,7 +1687,7 @@ Locking the blocker and entering combat are the two simultaneous consequences of
 resolution, not of the attempt succeeding. Cards timed "before block resolution" fill that
 window ({Change of Target}, {Angel of Berlin}). An effect that ends the action or cancels the
 block there prevents both consequences ({Clan Loyalty}); canceling only the combat does
-not — §3.5.[^3-3-18]
+not — [§3.5](#35-action-repetition-nra-and-canceled-actions).[^3-3-18]
 
 Effects triggered by the block fire once the block would be successful; ending the action
 afterwards does not undo them ({Aching Beauty}, {Unleash Hell's Fury}). An effect that makes
@@ -1701,11 +1695,10 @@ the action resolve as if unblocked instead means no block was successful, so eff
 conditioned on a successful block never fire ({Lesser Boon}).[^3-3-19] An effect keyed on a
 block does nothing when none occurred ({Spiritual Protector}).[^3-3-20]
 
-An effect resolving at the moment of the block resolves before any other card or effect may
-be used; effects triggering at that same moment are all applied and ordered by the acting
-Methuselah (§2.4).[^3-3-21] A rider granted for blocking applies only in the block-induced
-combat, not in a later one ({Guard Dogs} [ANI], §4.9).[^3-3-22] Methuselahs who had already
-declined get no fresh opportunity when the action continues as if unblocked — §3.6.[^3-3-23]
+A delayed effect triggered by the block resolves before any other card may be used;
+simultaneous triggers are ordered normally ([§2.4.4](#244-delayed-effects-triggered-by-a-block)).[^3-3-21] A rider granted for blocking applies only in the block-induced
+combat, not in a later one ({Guard Dogs} [ANI], [§4.9](#49-end-of-round-end-of-combat-and-new-combats)).[^3-3-22] Methuselahs who had already
+declined get no fresh opportunity when the action continues as if unblocked — [§3.6](#36-continuing-an-action-as-if-unblocked).[^3-3-23]
 
 #### References
 
@@ -1746,13 +1739,14 @@ paid.[^3-4-1] The usual causes are a target that no longer qualifies at resoluti
 {Warsaw Station}. A stolen target keeps the action pointed at it; the action ends with no
 effect only if that target has become illegal, e.g. {Temptation}.[^3-4-1]
 
-An action provided by an equipment ends with no effect if the acting minion no longer bears
-that equipment at resolution, e.g. {Bomb}, {Guarded Rubrics}. It is still successful if
-unblocked.[^3-4-2]
+An action provided by an equipment the acting minion no longer bears at resolution ends
+with no effect, though still successful if unblocked ([§3.8.3](#383-losing-the-source)).
 
 The target ceasing to qualify does not end the action: block attempts and any resulting
 combat happen as normal, e.g. {Coterie Tactics}.[^3-4-3] An acting minion that stops meeting
-the action's own requirement is the other case — the action fizzles (§1.6).
+the action's own requirement fizzles it the same way — successful and paid, but no effect
+([§1.6.1](#161-when-a-requirement-is-checked)). Only a requirement unmet when the card is
+played bars anything, and what it bars is the play itself ([§1.6](#16-requirements)).
 
 Riders conditioned on the action being successful fire on such an action. {Forced March}
 and {Instantaneous Transformation} unlock; {Perfectionist} gains the blood; {Hrothulf}
@@ -1761,11 +1755,12 @@ burns the Edge.[^3-4-4]
 Where a card names the effect rather than the success, the effect must actually occur.
 {Abactor} calls its blood hunt only after "successful resolution", meaning unblocked *and*
 blood gained.[^3-4-5] A hunt is unsuccessful if no blood is gained, though the hunt action
-itself succeeded, e.g. {Hospital Food}, {Triole's Revenge} (§3.7.2 owns this).[^3-4-6]
+itself succeeded, e.g. {Hospital Food} — as a bleed reduced to zero is unsuccessful on a
+successful action ([§3.7.1.2](#3712-reduction-and-pool-burned), [§3.7.2](#372-hunt)).[^3-4-6]
 
 An effect that cannot apply to part of what it names applies to the rest, e.g.
 {Edged Illusion} against minions another effect protects, or {Enticement} when the Edge is
-gone before resolution.[^3-4-7] (§1.7 owns amounts: a steal or transfer template takes what
+gone before resolution.[^3-4-7] (See [§1.7](#17-costs-and-payment) for amounts: a steal or transfer template takes what
 is there.)
 
 An action card whose effect is nullified before the action begins produces no action at all:
@@ -1793,27 +1788,26 @@ Once all blocks are declined, a card usable "when the action/bleed would be succ
 be played, e.g. {Spying Mission}, {Andre LeRoux}, {Dis Pater}. After one is played the
 action is about to resolve: only other cards with that same timing may follow.[^3-4-13]
 Anything that changes or defeats the action — {Deflection}, {Archon Investigation},
-{Telepathic Counter} — must be played before that point.[^3-4-14] (§2.3 owns the sequencing
-rule.)
+{Telepathic Counter} — must be played before that point.[^3-4-14] The post-resolution
+windows sequence the same way ([§2.3](#23-after-resolution-and-after-combat)).
 
 A bleed reduced to zero is not successful, so a "would be successful" card cannot then be
 used on it.[^3-4-15]
 
 #### References
 
-[^3-4-1]: [LSJ 20070411] [LSJ 20090514] [ANK 20181121] [LSJ 20021122-3] [PIB 20121031] [ANK 20220218] [ANK 20181107] [LSJ 20020725] — {Ambush}, {Harass}, {Spirit Marionette}, {Warsaw Station}, {Temptation}, and the further cards carrying the same three templates.
-[^3-4-2]: [RTR 19960221] [LSJ 20020926] — {Bomb}, {Camera Phone}, {Chalice of Kinship}, {Guarded Rubrics}, {Jar of Skin Eaters}, {Karavalanisha Vrana}.
+[^3-4-1]: [LSJ 20070411] [LSJ 20090514] [PIB 20121031] [ANK 20220218] [ANK 20181107] [LSJ 20020725] — {Ambush}, {Harass}, {Spirit Marionette}, {Warsaw Station}, {Temptation}, and the further cards carrying the same three templates.
 [^3-4-3]: [LSJ 20090514] — {Coterie Tactics}, {Eternal Vigilance}.
 [^3-4-4]: [LSJ 20070411] [LSJ 20030519] [RTR 19980623] [LSJ 20011222] [ANK 20221028-2] — {Forced March}, {Freak Drive}, {Instantaneous Transformation}, {CrimethInc.}, {Perfectionist}, {Hrothulf}, {Tereza Rostas}, {Sargon}.
 [^3-4-5]: [LSJ 20090411] — {Abactor}.
-[^3-4-6]: [LSJ 20050720-2] [LSJ 20050727] [TOM 19951212-3] — {Hospital Food}, {The Anarch Free Press}, {Hunger Moon}, {Thirst}, {Triole's Revenge}, and the ten further cards carrying the same hunt ruling.
+[^3-4-6]: [LSJ 20050720-2] [LSJ 20050727] — {Hospital Food}, {The Anarch Free Press}, {Hunger Moon}, {Thirst}, and the ten further cards carrying the same hunt ruling.
 [^3-4-7]: [RTR 20080808] [LSJ 20100527] — {Edged Illusion}, {Jaroslav Pascek}, {Enticement}.
 [^3-4-8]: [LSJ 20090323] [RBK wording-templates] — {Veil of Darkness}.
 [^3-4-9]: [ANK 20240706] [LSJ 20080608] [PIB 20150418] [ANK 20170226] — {The Platinum Protocol}, {Third Tradition: Progeny}, {Dual Form}.
 [^3-4-10]: [TOM 19951107] [PIB 20121031] — {Magic of the Smith}, {Vast Wealth}, {Tryphosa}.
 [^3-4-11]: [ANK 20220331] [ANK 20210124] [LSJ 20020927] [LSJ 20021115] [ANK 20221011-2] [LSJ 20100301] [ANK 20220116] — {Daring the Dawn}, {Force of Will}, {Unleash Hell's Fury}.
 [^3-4-12]: [ANK 20200221] — {Strix}.
-[^3-4-13]: [LSJ 20110502] [TOM 19960226-2] [LSJ 20081123] [LSJ 20050422] [LSJ 20090205] — {Spying Mission}, {Andre LeRoux}, {Dis Pater}, {Major Boon}.
+[^3-4-13]: [LSJ 20110502] [LSJ 20081123] [LSJ 20050422] [LSJ 20090205] — {Spying Mission}, {Andre LeRoux}, {Dis Pater}, {Major Boon}.
 [^3-4-14]: [LSJ 19980105] [TOM 19960303] [LSJ 20061212] — {My Enemy's Enemy}, {Redirection}, {Telepathic Misdirection}, {Telepathic Counter}, {Spying Mission}.
 [^3-4-15]: [PIB 20150612] [TOM 19950620] — {Andre LeRoux}, {Spying Mission}.
 
@@ -1848,30 +1842,30 @@ An action that **ends** ends immediately. No further action modifier or reaction
 
 An action that **fails** also ends, but modifiers and reactions usable at the end of, or after, an action can still be played, e.g. {Detect Authority}, {Mistaken Identity}.[^3-5-15] A failed action was not blocked, so cards requiring a block cannot be played, e.g. {Freak Drive}, {Mirror Image}.[^3-5-16]
 
-Effects scheduled for resolution or later are lost if the action ends first: the lock-and-enter-combat of {Deep Song}, the after-resolution combat of {Siren's Lure}.[^3-5-17] Likewise, an action whose acting minion is not ready when it would resolve simply ends, e.g. {Yawp Court} conducts no referendum.[^3-5-17]
+Effects scheduled for resolution or later are lost if the action ends first: the lock-and-enter-combat of {Deep Song}, the after-resolution combat of {Siren's Lure}.[^3-5-17] Likewise, an action whose acting minion is not ready when it would resolve simply ends — [§3.7.5.1](#3751-the-referendum-is-part-of-resolution) owns the referendum case.[^3-5-17]
 
-Damage a card inflicts on its own acting vampire applies if the action reached resolution, even though it ended before combat; it does not apply if the action was canceled, e.g. {Daring the Dawn}, {Force of Will}.[^3-5-18] A block that would have been successful still triggers its effect even if the action was ended before block resolution, e.g. {Aching Beauty}, {Unleash Hell's Fury}.[^3-5-19]
+Damage a card inflicts on its own acting vampire applies if the action reached resolution, even though it ended before combat; it does not apply if the action was canceled, e.g. {Daring the Dawn}, {Force of Will}.[^3-5-18] A block that would have been successful still triggers its effects even if the action ends first ([§3.3.4](#334-after-the-block-succeeds)).[^3-5-19]
 
 #### 3.5.4 Canceled blocks and canceled combats
 
 A canceled block attempt is neither successful nor unsuccessful. It is simply canceled.[^3-5-20]
 
-Canceling the combat that a successful block created leaves the action blocked. The blocking minion stays locked, {Mask of a Thousand Faces} cannot take the action over, and reaction cards pertaining to that combat cannot be played afterwards, e.g. {Venenation}, {Bear-Baiting}.[^3-5-21] An effect that continues the action as if unblocked still works (§3.6), e.g. {Crypt's Sons}.[^3-5-21]
+Canceling the combat that a successful block created leaves the action blocked. The blocking minion stays locked, {Mask of a Thousand Faces} cannot take the action over, and reaction cards pertaining to that combat cannot be played afterwards, e.g. {Venenation}, {Bear-Baiting}.[^3-5-21] An effect that continues the action as if unblocked still works ([§3.6](#36-continuing-an-action-as-if-unblocked)), e.g. {Crypt's Sons}.[^3-5-21]
 
 #### 3.5.5 Scope of cancellation
 
-A canceled card is still played, so a cancellation does not give back the play: a canceled out-of-turn master still bars another against that master phase (§6.6).[^3-5-22] But a canceled *limited* effect does not trigger the limit, and another limited effect can be used.[^3-5-23]
+A canceled card is still played, so a cancellation does not give back the play: a canceled out-of-turn master still bars another against that master phase ([§6.6](#66-master-phase)).[^3-5-22] But a canceled *limited* effect does not trigger the limit, and another limited effect can be used.[^3-5-23]
 
 Canceling a card that carried a choice returns the choice, and the same choice may be made again — a minion whose strike is canceled must still choose a strike and may play the same card.[^3-5-24]
 
-Cancel effects reach every action card, including employ retainer, recruit ally and political actions.[^3-5-25] They reach only cards played from the hand in the normal fashion, so a weapon equipped via {Disguised Weapon} or an ally recruited via {Piper} cannot be canceled (§1.8).[^3-5-26]
+Cancel effects reach every action card, including employ retainer, recruit ally and political actions.[^3-5-25] They reach only cards played from the hand in the normal fashion, so a weapon equipped via {Disguised Weapon} or an ally recruited via {Piper} cannot be canceled ([§1.8](#18-playing-and-canceling-a-card)).[^3-5-26]
 
-Multiple copies of one action modifier played by different minions on the same action are a stacking question, not a repetition one (§1.15).
+Multiple copies of one action modifier played by different minions on the same action are a stacking question, not a repetition one ([§1.15](#115-cumulative-and-stacking-effects)).
 
 #### References
 
 [^3-5-1]: [RTR 20180719] [ANK 20211015] [LSJ 20070709] [RTR 20020501] [ANK 20221011-2] [LSJ 20011202-2] [LSJ 20091224] [LSJ 20070214-2] — {Change of Target}, {Champion}, {Krassimir}, {Obedience}, {Red Herring}, {Secret Passage}, {Black Forest Base}, and sixteen further cards carrying the identical "has reached resolution" template.
-[^3-5-2]: [LSJ 20020801] [LSJ 19980212] [RBK cancel-a-card] [LSJ 20060425] [ANK 20220411] [LSJ 20050607] [LSJ 20050608] — group "Cancel an action" (G00061), {React with Conviction}, {Dabbler}, {Spying Mission}.
+[^3-5-2]: [LSJ 19980212] [RBK cancel-a-card] [LSJ 20060425] [ANK 20220411] [LSJ 20050607] [LSJ 20050608] — group "Cancel an action" (G00061), {React with Conviction}, {Dabbler}, {Spying Mission}.
 [^3-5-3]: [ANK 20211015] [ANK 20210124] [LSJ 20090220] [LSJ 20070709] — {The Kiss of Ra}, {Tangle Atropos' Hand}.
 [^3-5-4]: [ANK 20210124] — {The Kiss of Ra}, {Tangle Atropos' Hand}, {Veil the Legions}.
 [^3-5-5]: [LSJ 20090208] [LSJ 20070222-1] [ANK 20221102] — {Enrage}, {React with Conviction}, {Mobile HQ, Operation Antigen}.
@@ -1882,14 +1876,14 @@ Multiple copies of one action modifier played by different minions on the same a
 [^3-5-10]: [LSJ 20011023] [RTR 20020501] — {Malleable Visage}.
 [^3-5-11]: [LSJ 20010627] [LSJ 20100213] — {Compel the Spirit}, {Soul Gem of Etrius}.
 [^3-5-12]: [LSJ 20080815] [ANK 20180817] [ANK 20220910] — {Piper}, {Muricia's Call}, {Clandestine Contract}.
-[^3-5-13]: [RTR 20180719] [ANK 20200207] [LSJ 20010803-1] [ANK 20170105] [ANK 20210627] [ANK 20211207] [ANK 20220116] [TOM 19960303] [TOM 19960226-2] — {Mirror Walk}, {Tangle Atropos' Hand}, {Change of Target}, {Obedience}, {The Kiss of Ra}, {Spying Mission}, and eleven further cards carrying the identical "ends unsuccessfully immediately" template.
+[^3-5-13]: [RTR 20180719] [ANK 20200207] [LSJ 20010803-1] [ANK 20170105] [ANK 20210627] [ANK 20211207] [ANK 20220116] [TOM 19960303] — {Mirror Walk}, {Tangle Atropos' Hand}, {Change of Target}, {Obedience}, {The Kiss of Ra}, {Spying Mission}, and eleven further cards carrying the identical "ends unsuccessfully immediately" template.
 [^3-5-14]: [LSJ 20010806-2] [TOM 19950829] — {Blood Brother Ambush}, {Brujah Frenzy}.
 [^3-5-15]: [LSJ 20041022] [RTR 20180719] [ANK 20220118] [ANK 20221205] — {Detect Authority}, {Mistaken Identity}, {Scobax}, {Unseen Hibernation}, {Car Bomb}, {Champion}, {Hide the Heart}, {Malkavian Derangement: Alternate Personality}.
 [^3-5-16]: [LSJ 20070219] — {Champion}.
 [^3-5-17]: [ANK 20200702] [LSJ 20090826] [LSJ 20060902] [LSJ 20090325-1] [ANK 20220218] [LSJ 20090325-2] — {Deep Song}, {Siren's Lure}, {Yawp Court}, {Warsaw Station}.
 [^3-5-18]: [ANK 20220331] [ANK 20210124] [LSJ 20020927] [LSJ 20021115] [ANK 20221011-2] [ANK 20220401] [ANK 20211015] [RTR 19980623] — {Daring the Dawn}, {Force of Will}.
 [^3-5-19]: [RTR 19991206] [LSJ 20091125] [LSJ 20100301] [ANK 20220116] — {Aching Beauty}, {Unleash Hell's Fury}.
-[^3-5-20]: [LSJ 20110419] — {Crocodile's Tongue}.
+[^3-5-20]: [LSJ 20110419] — {Crocodile's Tongue} (ruling removed from the database in 2024; original at boardgamegeek.com thread 643948, database wording relied on).
 [^3-5-21]: [LSJ 20090322] [ANK 20181003] [LSJ 20010803-2] [ANK 20220127] [LSJ 20080611] [ANK 20210131] — {Bear-Baiting}, {Venenation}, {Crypt's Sons}.
 [^3-5-22]: [LSJ 20070309-2] [RBK cancel-a-card] — {Wash}.
 [^3-5-23]: [LSJ 20030224] — group "Cancel" (G00058).
@@ -1921,7 +1915,7 @@ played, e.g. {Forced Awakening}, {WMRH Talk Radio}.[^3-6-4]
 
 A card whose effect is one block attempt is spent by that attempt; another copy is needed
 to attempt the second block, e.g. {Eagle's Sight}, {Falcon's Eye}. Effects that apply for
-the duration of the action are not spent this way (§3.2, §3.3).[^3-6-5]
+the duration of the action are not spent this way ([§3.2](#32-stealth-and-intercept), [§3.3](#33-blocking)).[^3-6-5]
 
 #### 3.6.2 When the action cannot be continued
 
@@ -1929,14 +1923,14 @@ Only a combat induced by a block can be left this way. An action cannot continue
 unblocked after a combat that resulted from the action succeeding, e.g. {Bum's Rush}.[^3-6-6]
 
 Continuation is an "after combat ends" effect. If the combat continues or a new combat
-begins, it is lost, along with other after-combat riders; unlock effects survive. §4.9 owns
+begins, it is lost, along with other after-combat riders; unlock effects survive. See [§4.9](#49-end-of-round-end-of-combat-and-new-combats) for
 this.[^3-6-7]
 
 A combat queued during the action is still part of that action, so a continuation effect
 played after that combat ends works normally, e.g. {Form of Mist} after {Psyche!}.[^3-6-8]
 
 No combat need have occurred. Canceling the combat leaves the action blocked and it can
-still be continued, e.g. {Crypt's Sons}, {Momentary Delay}; §3.5 owns the canceled-combat
+still be continued, e.g. {Crypt's Sons}, {Momentary Delay}; see [§3.5](#35-action-repetition-nra-and-canceled-actions) for the canceled-combat
 case.[^3-6-9]
 
 #### 3.6.3 Effects scoped to one block
@@ -1964,7 +1958,7 @@ If the action continues and a minion blocks again, that effect is provided afres
 
 ### 3.7 The action types in detail
 
-The rulebook actions, one subsection each. Rules that are not specific to an action type live in §3.1-§3.6 and §3.8-§3.10.
+The rulebook actions, one subsection each. Rules that are not specific to an action type live in [§3.1](#31-announcement-and-targets)-[§3.6](#36-continuing-an-action-as-if-unblocked) and [§3.8](#38-actions-provided-by-cards)-[§3.10](#310-changing-the-acting-minion).
 
 #### 3.7.1 Bleed
 
@@ -1988,7 +1982,7 @@ counting and a further modifier may be played; redirection to another target is 
 cause.
 
 An ability granting +bleed is an action modifier and may be used at any point during the
-action, e.g. {Pentex(TM) Loves You!}; §2.1 owns the windows.[^3-7-1-3]
+action, e.g. {Pentex(TM) Loves You!}; see [§2.1](#21-effect-windows-and-impulse) for the windows.[^3-7-1-3]
 
 "Only usable during a bleed action" bars the play in every other action, e.g.
 {Confusion}. Where a card in play instead grants a bonus "during a bleed action", the
@@ -2000,7 +1994,7 @@ prey with, e.g. {Justicar Retribution}.[^3-7-1-5]
 
 ##### 3.7.1.2 Reduction and pool burned
 
-A bleed reduced to zero is not successful; §3.4 owns what may still be played on it. An
+A bleed reduced to zero is not successful; see [§3.4](#34-resolution-success-and-effect) for what may still be played on it. An
 effect keyed to a successful bleed does not fire either, e.g. {Protected Resources} is not
 burned by a bleed that resolves at 0.[^3-7-1-6]
 
@@ -2022,10 +2016,10 @@ may bleed also bars redirecting that minion's bleed to the protected Methuselah,
 Redirection affects the acting vampire, so an effect stopping reaction cards from affecting
 him stops {Deflection}, e.g. {Perfect Clarity}.[^3-7-1-10]
 
-{Deflection} must be played before action resolution, ahead of any card usable as the bleed
-would be successful; §2.3 owns the sequencing.[^3-7-1-11]
+{Deflection} must be played before action resolution, ahead of the "would be successful"
+window ([§3.4.3](#343-the-would-be-successful-window)).[^3-7-1-11]
 
-Mandatory bleeds are §3.9's.
+Mandatory bleeds are [§3.9](#39-mandatory-actions)'s.
 
 ##### References
 
@@ -2058,7 +2052,7 @@ Read each card for which of the two it names. {Triole's Revenge} burns a Ventrue
 full capacity: it names the hunt action, so it fires although the hunt gained nothing. It does
 not fire if the action was blocked.[^3-7-2-2]
 
-§3.4 owns the general rule that an unblocked action is successful even when its effect cannot
+See [§3.4](#34-resolution-success-and-effect) for the general rule that an unblocked action is successful even when its effect cannot
 occur.
 
 ##### 3.7.2.2 Card-provided hunt actions
@@ -2074,9 +2068,9 @@ removing "the normal +1 stealth when hunting" does not touch the stealth printed
 card-provided hunt action, e.g. {Igo the Hungry} against {Loki's Gift}.[^3-7-2-4]
 
 Where the hunt action takes blood from a target, blood added by a hunt bonus comes from that
-target, not from the blood bank.[^3-7-2-5] ⚠ REVIEW — the group record so rules and cites a
-2018 revision, but card-level copies of the 2003 ruling still say the bonus blood comes from
-the blood bank.
+target, not from the blood bank.[^3-7-2-5] A rider that grants blood from the blood bank is
+a separate gain, not hunt blood, and comes from the bank as printed, e.g.
+{Festivo dello Estinto}.[^3-7-2-5]
 
 ##### 3.7.2.3 Hunts that steal from a vampire
 
@@ -2085,8 +2079,8 @@ hunt action only. Its bearer taking a different special hunt action cannot name 
 e.g. a {Legacy of Caine} bearer taking {Abactor}.[^3-7-2-6]
 
 The named vampire need not have blood. The action is legal and takes what is there, down to
-nothing, e.g. {Week of Nightmares}.[^3-7-2-7] §1.7 owns taking less than the stated amount;
-§1.6 owns the no-effect play.
+nothing, e.g. {Week of Nightmares}.[^3-7-2-7] See [§1.7](#17-costs-and-payment) for taking less than the stated amount;
+see [§1.6](#16-requirements) for the no-effect play.
 
 Blood the hunting vampire cannot gain goes to the blood bank rather than staying with the
 target.[^3-7-2-8] A rider that is not the hunt amount does not scale with hunt modifiers:
@@ -2097,15 +2091,15 @@ target.[^3-7-2-8] A rider that is not the hunt amount does not scale with hunt m
 A vampire at full capacity may still hunt; the excess returns to the blood bank as normal. An
 effect that moves blood the hunt gained takes it before that return, e.g.
 {Rabbat, The Sewer Goddess}. A card offering an alternative satisfies a mandatory hunt, e.g.
-{Undying Thirst} permits diablerie instead.[^3-7-2-10] §3.9 owns mandatory actions.
+{Undying Thirst} permits diablerie instead.[^3-7-2-10] See [§3.9](#39-mandatory-actions) for mandatory actions.
 
 ##### References
 
 [^3-7-2-1]: [LSJ 20050720-2] [LSJ 20050727] — {Hunger Moon}, {Thirst}, {Tainted Vitae}, and eleven further cards carrying the same ruling.
 [^3-7-2-2]: [TOM 19951212-3] — {Triole's Revenge}.
-[^3-7-2-3]: [LSJ 20030311] [LSJ 20090113-2] [LSJ 20060306] [ANK 20180202] [RTR 20030519] [RTR 20180511] — {Kyoko Shinsegawa}, {Pariah}, group "Special Hunt action" (G00064).
+[^3-7-2-3]: [LSJ 20060306] [ANK 20180202] [RTR 20030519] [RTR 20180511] — group "Hunt bonus" (G00004), {Pariah}, group "Special Hunt action" (G00064).
 [^3-7-2-4]: [PIB 20150820-2] [PIB 20120204] — {Igo the Hungry}, {Strained Vitae Supply}.
-[^3-7-2-5]: [RTR 20030519] [RTR 20180511] — group "Hunt bonus" (G00004); contradicted by [RTR 20030519] on {Festivo dello Estinto} and {Inbase Discotek, Frankfurt}.
+[^3-7-2-5]: [RTR 20030519] [RTR 20180511] — groups "Hunt bonus" (G00004) and "Steal blood as a Hunt action" (G00121); {Festivo dello Estinto}, {Inbase Discotek, Frankfurt} (bank-blood riders printed on the cards).
 [^3-7-2-6]: [LSJ 20090606] [ANK 20190707] — {Legacy of Caine}, {Week of Nightmares}, {Kyoko Shinsegawa}.
 [^3-7-2-7]: [RTR 20010711] [LSJ 19970224] [LSJ 20100915] — {Week of Nightmares}, {Legacy of Caine}, {Kyoko Shinsegawa}.
 [^3-7-2-8]: [LSJ 20010809-1] — {Legacy of Caine}.
@@ -2127,9 +2121,10 @@ provide an equip action or an employ action depending on what it fetches, e.g. {
 Both Sides}.[^3-7-3-1]
 
 Being an equip action does not settle requirements and cost. Only the wording "put … in
-play" bypasses them (§1.6): {Bloodstone} puts the equipment on the minion, {Magic of the
+play" bypasses them ([§1.6](#16-requirements)): {Bloodstone} puts the equipment on the minion, {Magic of the
 Smith} prints that requirements and cost apply. A requirement is checked continuously
-while the action is in progress, so a trait change mid-action fizzles it (§1.6).
+while the action is in progress, so a trait change mid-action fizzles it — successful if
+unblocked, but no effect ([§1.6.1](#161-when-a-requirement-is-checked)).
 
 An equip granted by another card's effect is still an equip, so an ability reading "when
 this minion equips" fires, e.g. {Topaz} with {Concealed Weapon} or {Pier 13, Port of
@@ -2153,30 +2148,30 @@ Lachesis}.[^3-7-3-4] Another of your minions may instead take it with an equip a
 its holder.[^3-7-3-4]
 
 An equipment that is a location while in play cannot be moved, and a prohibition naming
-equipment does not reach it; §1.3 owns the card-type rule.[^3-7-3-5]
+equipment does not reach it; see [§1.3](#13-card-types-and-multi-type-cards) for the card-type rule.[^3-7-3-5]
 
 One equip action may take several equipment from another friendly minion. It is an action
 to equip with each of them, so each one's own bonus for the action to equip it applies,
 e.g. {Unlicensed Taxicab}'s +1 stealth, and {Gift of Bellona} may be played.[^3-7-3-6]
 
 Equipping from a minion targets the equipment taken. If one equipment is the same, the
-action is the same and that minion cannot repeat it; §3.5 owns the No Repeated Action
+action is the same and that minion cannot repeat it; see [§3.5](#35-action-repetition-nra-and-canceled-actions) for the No Repeated Action
 rule.[^3-7-3-7]
 
 ##### 3.7.3.3 Minions who cannot equip
 
 A vampire who cannot have equipment cannot attempt an equip action at all, e.g. {Enkidu,
 The Noah}, {Beast, The Leatherface of Detroit}, and cannot strike to steal one
-(§4.10).[^3-7-3-8] If an effect places an equipment where it cannot legally sit, the
-equipment is burned and its cost is not refunded; §1.6 owns it.[^3-7-3-8]
+([§4.10](#410-weapons-and-equipment-in-combat)).[^3-7-3-8] If an effect places an equipment where it cannot legally sit, the
+equipment is burned and its cost is not refunded; see [§1.6](#16-requirements) for it.[^3-7-3-8]
 
 An effect keyed to equip actions does not reach equips performed before it entered play,
-and a consequence it has already imposed survives it leaving play; §2.5 owns
+and a consequence it has already imposed survives it leaving play; see [§2.5](#25-duration-and-persistence) for
 duration.[^3-7-3-9]
 
 ##### References
 
-[^3-7-3-1]: [TOM 19960130] [LSJ 20050313] [ANK 20230408] [LSJ 20091110] — {Magic of the Smith}, {Bloodstone}, {Jack of Both Sides}, {Children of Stone}, {Sleight of Hand}, {Lambach}.
+[^3-7-3-1]: [TOM 19960130] [LSJ 20050313] [ANK 20230408] — {Magic of the Smith}, {Bloodstone}, {Jack of Both Sides}, {Children of Stone}, {Sleight of Hand}, {Lambach}.
 [^3-7-3-2]: [PIB 20150105-2] [LSJ 20100421] — {Topaz}, {Synner-G}, {Vulture}, {Dagger}.
 [^3-7-3-3]: [LSJ 20090506] — {Incriminating Videotape}, {Mokolé Blood}, {Shilmulo Tarot}.
 [^3-7-3-4]: [LSJ 20060209] [ANK 20221103] [ANK 20210109] — {Flaming Candle}, {Fear of Mekhet}.
@@ -2201,7 +2196,7 @@ A card that brings in either an equipment or a retainer takes an equip action or
 action according to what it brings in, e.g. {Jack of Both Sides}.[^3-7-4-2]
 
 A minion whose text says it cannot have equipment or retainers can neither take the action
-nor steal one with a strike, e.g. {Beast, The Leatherface of Detroit} (§1.1 owns the
+nor steal one with a strike, e.g. {Beast, The Leatherface of Detroit} (see [§1.1](#11-card-text-and-the-rules) for the
 reading of "cannot").[^3-7-4-2]
 
 Employ retainer and recruit ally are ordinary actions for cancellation.[^3-7-4-2]
@@ -2214,7 +2209,7 @@ resolution, so a reduction for recruiting a mortal still applies.[^3-7-4-1]
 Two templates bring an ally or retainer in without the action: a card under which a minion
 *recruits* or *employs* outside an action, e.g. {Piper}, {Pack Alpha}; and a card that
 *puts* the card *in play*, e.g. {Summon History}. Requirements and cost apply as normal
-under the first and are bypassed under the second (§1.6).[^3-7-4-3]
+under the first and are bypassed under the second ([§1.6](#16-requirements)).[^3-7-4-3]
 
 Neither is an action, and effects worded as attaching to an action do not attach:
 
@@ -2230,10 +2225,10 @@ Prague}.[^3-7-4-5]
 
 The ally or retainer is not played in the normal fashion, so nothing that cancels a card
 as it is played reaches it, e.g. {Direct Intervention}, {Louhi}. It has still been played;
-§1.8 owns the distinction.[^3-7-4-6]
+see [§1.8](#18-playing-and-canceling-a-card) for the distinction.[^3-7-4-6]
 
 No action was performed, so the minion may still take the normal action to recruit or
-employ the same card later that turn if it unlocks (§3.5).[^3-7-4-7]
+employ the same card later that turn if it unlocks ([§3.5](#35-action-repetition-nra-and-canceled-actions)).[^3-7-4-7]
 
 Where a minion recruits or employs, its own disciplines are read as normal to set the
 card's level; where the card is merely put in play, use the basic version.[^3-7-4-3]
@@ -2245,24 +2240,21 @@ and ash heap as they stand, e.g. {Corrupt Construction}.[^3-7-4-8]
 ##### 3.7.4.3 What the new minion may do
 
 A minion recruited or employed this turn may still use its abilities, including an ability
-whose cost is locking — see §1.5 (and §5.2 for the lock).[^3-7-4-9]
+whose cost is locking — see [§1.5](#15-abilities-and-card-plays) (and [§5.2](#52-locking-and-unlocking) for the lock).[^3-7-4-9]
 
-Whether it may *act* that turn is §5.5 for allies and §5.6 for retainers; text letting a
-minion act the turn it is recruited does not let it act during an opponent's turn, e.g.
-{Infernal Servitor}.[^3-7-4-10]
+Whether it may *act* that turn is [§5.5.4](#554-entering-play-and-acting)'s for allies and [§5.6.5](#565-entering-play)'s for retainers.
 
 ##### References
 
 [^3-7-4-1]: [LSJ 20100303] [ANK 20180817] [LSJ 20100725] [LSJ 20030520-2] [RBK employ-retainer] [RBK recruit-ally] — {Muricia's Call}, {The Summoning}, {Ghouled}.
-[^3-7-4-2]: [TOM 19960130] [LSJ 20091110] [LSJ 20050315] [LSJ 20010210] [ANK 20200813-2] — {Jack of Both Sides}, {Beast, The Leatherface of Detroit}, {Angelo}, {Lorrie Dunsirn}, group "Cancel an action" (G00061).
+[^3-7-4-2]: [TOM 19960130] [LSJ 20050315] [LSJ 20010210] [ANK 20200813-2] — {Jack of Both Sides}, {Beast, The Leatherface of Detroit}, {Angelo}, {Lorrie Dunsirn}, group "Cancel an action" (G00061).
 [^3-7-4-3]: [LSJ 20100204] [LSJ 20080803] [RBK employ-retainer] [RBK recruit-ally] — {Summon History}, {Piper}.
 [^3-7-4-4]: [LSJ 20090115-1] [ANK 20170309] [LSJ 20060616-2] — {Piper}, {Zhenga}, {Web of Knives Recruit}.
 [^3-7-4-5]: [ANK 20210928] [ANK 20210913] [LSJ 20090116] [PIB 20150105-2] — {Soul of the Earth}, {Little Tailor of Prague}, {Kuyén}, {Baba Yaga, the Iron Hag}.
 [^3-7-4-6]: [ANK 20201229] [LSJ 20060530-2] — {Piper}, {Zhenga}.
-[^3-7-4-7]: [LSJ 20080815] [ANK 20180817] [PIB 20110915-2] — {Piper}, {Muricia's Call}, {The Summoning}.
+[^3-7-4-7]: [LSJ 20080815] [ANK 20180817] — {Piper}, {Muricia's Call}, {The Summoning}.
 [^3-7-4-8]: [LSJ 20070707] — {Corrupt Construction}.
 [^3-7-4-9]: [ANK 20180517] — {Rom Gypsy}, {Underbridge Stray}, {War Ghoul} (and nine further cards on the same ruling).
-[^3-7-4-10]: [ANK 20200813-3] [ANK 20200930] [LSJ 20080630] [RTR 20180303] [LSJ 20080426] — {Infernal Servitor}, {Nocturn}, {Piper}, {The Summoning}, {Khazar's Diary (Endless Night)}.
 
 #### 3.7.5 Referendum procedure
 
@@ -2275,8 +2267,8 @@ order is free, but none of them can forestall an oust the referendum itself
 causes.[^3-7-5-2]
 
 The referendum is conducted only if the acting minion is still ready when the action would
-resolve. If combat leaves him locked, in torpor or out of play, the action ends and no
-referendum happens, e.g. {Yawp Court}.[^3-7-5-3]
+resolve. If combat leaves him no longer ready — in torpor or out of play — the action ends
+and no referendum happens, e.g. {Yawp Court}.[^3-7-5-3]
 
 Action modifiers and reaction cards may be played during the referendum and after it, and
 vote-affecting cards before, during or after votes and ballots are cast. An effect keyed to
@@ -2295,14 +2287,14 @@ counted when the effect applies — {Domain Challenge} counts locked minions aft
 referendum completes.[^3-7-5-6] Where the terms cannot be carried out in full, the calling
 Methuselah chooses within them. A cost inside the effect is paid by whoever the
 terms name, e.g. {Alastor}.[^3-7-5-7] A referendum may be called with no eligible subject
-in play, e.g. {Peace Treaty} with no weapons out; §1.6 owns the no-effect rule.[^3-7-5-8]
+in play, e.g. {Peace Treaty} with no weapons out; see [§1.6](#16-requirements) for the no-effect rule.[^3-7-5-8]
 
 ##### 3.7.5.3 Polling and the tally
 
 Where the effect lets Methuselahs burn pool or blood for votes, each decides during that
 effect's resolution and may burn one at a time, waiting on the others, e.g. {Business
 Pressure}, {Mob Rule}.[^3-7-5-9] The ability does not persist for the rest of the action.
-§2.4 owns simultaneous choices.
+See [§2.4](#24-simultaneous-effects-and-ordering) for simultaneous choices.
 
 An ability worded "during a referendum" is usable once per referendum; unlocking mid-vote
 does not restore the use, e.g. {Michael Luther}, {Ellison Humboldt}.[^3-7-5-10] An ability
@@ -2329,10 +2321,10 @@ of the calling card's effects, including a self-inflicted part, e.g. {Aura of
 Invincibility}.[^3-7-5-17]
 
 The political action card is set aside out of play until the action resolves, so effects
-reading cards in play or in an ash heap do not see it, e.g. {Luna Giovanni}; §1.11 owns what
+reading cards in play or in an ash heap do not see it, e.g. {Luna Giovanni}; see [§1.11](#111-the-ash-heap) for what
 retrieval reaches.[^3-7-5-18] The blood hunt referendum is not a political action and is not
 called by a vampire, so "during a political action" effects and effects keyed to the calling
-vampire do not apply, e.g. {Power Structure}; §3.7.8 owns it.[^3-7-5-19]
+vampire do not apply, e.g. {Power Structure}; see [§3.7.8](#378-diablerie-and-the-blood-hunt) for it.[^3-7-5-19]
 
 ##### References
 
@@ -2381,7 +2373,7 @@ count votes the vampire could obtain only by paying a cost or meeting a conditio
 {Sundown}, {Aura of Invincibility}.[^3-7-6-4]
 
 Multiple copies of a vote-granting card do not multiply votes, and an untitled vote bonus
-adds to a title gained later; §1.15 owns both.
+adds to a title gained later; see [§1.15](#115-cumulative-and-stacking-effects) for both.
 
 ##### 3.7.6.3 Changing votes, canceling votes, abstaining
 
@@ -2405,7 +2397,7 @@ non-abstaining vampires, e.g. {Astrid Thomas}; canceling that vampire's own vote
 not undo votes others already cast with it.[^3-7-6-7]
 
 Cards usable during the polling step may be played before, during or after votes and
-ballots are cast; §3.7.5 owns polling-step timing. Vote-changing effects cannot be used
+ballots are cast; see [§3.7.5](#375-referendum-procedure) for polling-step timing. Vote-changing effects cannot be used
 in a referendum that passes automatically.[^3-7-6-8]
 
 ##### 3.7.6.4 Locked and torpid vampires
@@ -2419,13 +2411,13 @@ e.g. {Alvaro, The Scion of Angelica}.[^3-7-6-9]
 ##### 3.7.6.5 The political action card's own vote
 
 A political action card provides its inherent vote whenever it is played, including when
-another card plays it from hand, e.g. {Charming Lobby}, {Echo of Harmonies}; §1.8 owns
+another card plays it from hand, e.g. {Charming Lobby}, {Echo of Harmonies}; see [§1.8](#18-playing-and-canceling-a-card) for
 when it counts as played and whether it can be canceled. Burning a political action card
 during a referendum for a vote is not playing it, so a once-per-game play limit is
 untouched.[^3-7-6-10]
 
-Pool paid, gained or lost as a consequence of a referendum, including allocation limits
-and simultaneous ousts, is §6.5's.
+Pool paid, gained or lost as a consequence of a referendum, simultaneous ousts included,
+is [§6.5](#65-pool-the-edge-and-ousting)'s; terms that cannot be carried out in full are [§3.7.5.2](#3752-terms)'s.
 
 ##### References
 
@@ -2459,15 +2451,16 @@ one.[^3-7-7-2]
 Leaving torpor produces no combat when blocked, however the action was supplied. Cards
 conditioned on entering combat therefore cannot be used, e.g. {Ghoul Escort}.[^3-7-7-3]
 
-The blocker's diablerie opportunity arises at block resolution. A card that ends the action
-before block resolution denies it, e.g. {Change of Target}, {Mirror Walk} at [THA].[^3-7-7-3]
-§3.7.8 owns diablerie; §3.3 owns blocking.
+The blocker's diablerie opportunity arises at block resolution. An effect that ends the
+action before block resolution, or unlocks the acting vampire, denies it, e.g. {Change of
+Target}, {Mirror Walk} at [THA], {Blood Brother Ambush}.[^3-7-7-3]
+See [§3.7.8](#378-diablerie-and-the-blood-hunt) for diablerie; see [§3.3](#33-blocking) for blocking.
 
 ##### 3.7.7.3 Cost and payer
 
 The rescue cost belongs to the action, not to whoever pays it. A reduction printed on the
 acting vampire applies even when the rescued vampire pays, e.g. {Frondator}.[^3-7-7-4] The
-reduction is mandatory and cannot be declined to keep the higher cost (§1.1).
+reduction is mandatory and cannot be declined to keep the higher cost ([§1.1](#11-card-text-and-the-rules)).
 
 The same split works the other way: an effect keyed to "an action costing blood" sees the
 rescue even when the acting vampire paid none of it, e.g. {Cavalier}.[^3-7-7-4]
@@ -2478,15 +2471,15 @@ A vampire in torpor is not ready, but an effect granting extra action opportunit
 reaches it. Its only available action is leave torpor, e.g. {Madness Network}.[^3-7-7-5]
 
 A card effect that moves the vampire out of torpor after a rescue or diablerie action is
-announced leaves that action successful if unblocked, but with no effect (§3.4). One that
+announced leaves that action successful if unblocked, but with no effect ([§3.4](#34-resolution-success-and-effect)). One that
 brings back a vampire sent to torpor during the action ends that action instead, and it
-cannot be continued (§3.5). Both, e.g. {Warsaw Station}.[^3-7-7-6]
+cannot be continued ([§3.5](#35-action-repetition-nra-and-canceled-actions)). Both, e.g. {Warsaw Station}.[^3-7-7-6]
 
 ##### References
 
 [^3-7-7-1]: [RBK leave-torpor] [RBK rescue-a-vampire-from-torpor] — rulebook action templates.
 [^3-7-7-2]: [ANK 20181017] [LSJ 19980126] — {Resume the Coil}, {Rapid Healing}, {Healing Touch}, {Recure of the Homeland}, {Root of Vitality}, {Sense Vitality}, {Warding the Beast}, {Lord of Serenity}.
-[^3-7-7-3]: [ANK 20181122-1] [LSJ 20050105-2] [PIB 20121216] — {Ghoul Escort}, {Change of Target}, {Mirror Walk}.
+[^3-7-7-3]: [ANK 20181122-1] [LSJ 20050105-2] [PIB 20121216] [RTR 20010710] — {Ghoul Escort}, {Change of Target}, {Mirror Walk}, {Blood Brother Ambush}.
 [^3-7-7-4]: [LSJ 20020304-2] [PIB 20110918] [LSJ 20100315] — {Frondator}, {Miriam Benyona}, {Cavalier}.
 [^3-7-7-5]: [RTR 19950509] — {Madness Network}.
 [^3-7-7-6]: [ANK 20220218] [ANK 20181107] [LSJ 20090325-2] — {Warsaw Station}.
@@ -2512,7 +2505,7 @@ The blood hunt is part of the action, though independent of it. A card that cann
 during an action cannot be used in that window, e.g. {Heidelberg Castle, Germany}.[^3-7-8-2]
 
 What the action itself grants lands before the referendum: votes from {Political Struggle}
-(§3.7.6), and a {Trophy: Diablerie} retrieved for a Red List victim, which then protects the
+([§3.7.6](#376-votes-and-ballots)), and a {Trophy: Diablerie} retrieved for a Red List victim, which then protects the
 diablerist in that same referendum.[^3-7-8-2]
 
 ##### 3.7.8.2 The referendum
@@ -2541,20 +2534,18 @@ equipment stay on the victim, and no blood hunt is called, e.g. {Reform Body},
 {Byzar}.[^3-7-8-6] If the victim is in torpor again, another {Amaranth} may be
 played.[^3-7-8-6] Bringing the victim out of torpor after the diablerie action is announced
 does not end the action: unblocked it resolves successfully with no diablerie, e.g.
-{Warsaw Station} (§3.4).[^3-7-8-6]
+{Warsaw Station} ([§3.4](#34-resolution-success-and-effect)).[^3-7-8-6]
 
 ##### 3.7.8.4 Who may commit diablerie
 
 Only a ready vampire may commit diablerie [RBK diablerie]. An ally granted the use of a card
 still cannot, e.g. {Shadow Court Satyr} with {Amaranth}.[^3-7-8-7] A vampire barred from
 diablerie ({Humanitas}, Blood Cursed) cannot be compelled to it, so {Undying Thirst} does
-nothing to him.[^3-7-8-7] Cards compelling diablerie impose a mandatory action; §3.9 owns
+nothing to him.[^3-7-8-7] Cards compelling diablerie impose a mandatory action; see [§3.9](#39-mandatory-actions) for
 discharge and the stuck case.[^3-7-8-7]
 
 A blocker of a leave-torpor action gets the opportunity to diablerize the acting vampire
-[RBK leave-torpor]. An effect that unlocks the acting minion or ends the action before block
-resolution removes that opportunity, e.g. {Change of Target}.[^3-7-8-8] §3.7.7 owns leaving
-torpor.
+[RBK leave-torpor]; when that opportunity is lost is [§3.7.7.2](#3772-a-blocked-leave-torpor)'s.
 
 ##### References
 
@@ -2565,8 +2556,6 @@ torpor.
 [^3-7-8-5]: [LSJ 20090724] [ANK 20180129-1] [ANK 20190701] [LSJ 20091026] [LSJ 20100112] — {Abactor}, {Rebirth}.
 [^3-7-8-6]: [LSJ 19970224] [LSJ 20011214-4] [LSJ 20100228] [ANK 20210424] [ANK 20220218] [ANK 20181107] — {Reform Body}, {Ashes to Ashes}, {Byzar}, {Warsaw Station}.
 [^3-7-8-7]: [LSJ 20080717] [RTR 19970630] [LSJ 20050324-2] [LSJ 20050514] [ANK 20211010] [LSJ 20081213-2] — {Shadow Court Satyr}, {Undying Thirst}, {Phillipe Rigaud}.
-[^3-7-8-8]: [RTR 20010710] [LSJ 20050105-2] [PIB 20121216] — {Blood Brother Ambush}, {Change of Target}, {Mirror Walk}.
-
 ### 3.8 Actions provided by cards
 
 **Base rules.** A minion cannot take the action of a given action card, from hand or in
@@ -2578,9 +2567,9 @@ That limit attaches to the card, not to the minion. Each copy in play provides i
 action, so a minion that unlocks in between may take one action per copy, e.g. two
 {Archon} on the same vampire.[^3-8-1] Actions provided by two different cards in play are
 never "the same action", even at identical wording, and no card-provided action is ever
-the same as a rulebook action; §3.5 owns the sameness test.[^3-8-1]
+the same as a rulebook action; see [§3.5](#35-action-repetition-nra-and-canceled-actions) for the sameness test.[^3-8-1]
 The same per-copy accounting governs a limited ability granted by a card in play
-(§1.2).[^3-8-1]
+([§1.2](#12-wording-templates-periodicity-duration-triggers)).[^3-8-1]
 
 One card provides its action once a turn, even where the action would fetch a different
 card each time, e.g. {Bindusara, Historian of the Kindred}.[^3-8-2] Where one card
@@ -2596,7 +2585,7 @@ A provided action has the properties the providing text gives it, and no others.
 Where the providing text limits who may take the action, that limit is the action's
 requirement. {Haqim's Law: Judgment} provides an action requiring an Independent or
 Anarch, so {CrimethInc.} can be used after it.[^3-8-3] This is not the fetched-card case:
-the requirements of a card brought into play are not the fetching action's (§1.6).
+the requirements of a card brought into play are not the fetching action's ([§1.6](#16-requirements)).
 
 A provided action of a named type counts as that type for every effect keyed to the type.
 A card-provided hunt is a hunt, so {Pariah}, who may take no undirected action but
@@ -2617,21 +2606,18 @@ the rulebook become-Anarch action [RBK become-anarch].[^3-8-4]
 
 If the providing card is an equipment the acting minion no longer possesses when the
 action resolves, the action ends with no effect, but is still successful if it was not
-blocked, e.g. {Jar of Skin Eaters}.[^3-8-5] §3.4 owns successful-with-no-effect.
+blocked, e.g. {Jar of Skin Eaters}.[^3-8-5] See [§3.4](#34-resolution-success-and-effect) for successful-with-no-effect.
 
-A card that provides its action through a title is turned face down out of play while the
-title is contested, and the provided action cannot be used.[^3-8-6] §5.8 owns contested
-titles.
+A card that provides its action through a contested title is face down out of play, its
+action unusable ([§5.8.1](#581-printed-titles-granted-titles-contests)).
 
 #### References
 
 [^3-8-1]: [RTR 20030519] [LSJ 20020201] [LSJ 20060522] [LSJ 20090617] [ANK 20221102-2] — {Archon}, {Templar}, {Delaying Tactics}, {Red Herring}, {Haqim's Law: Retribution}.
 [^3-8-2]: [LSJ 20100909] [ANK 20220615] [ANK 20200810] [ANK 20220910] — group "Provide multiple actions" (G00035), {Annazir}, {Bindusara, Historian of the Kindred}, {Clandestine Contract}.
-[^3-8-3]: [ANK 20180529] [ANK 20180202] [RTR 19970630] — {Haqim's Law: Judgment}, {Pariah}, {Delaying Tactics}.
+[^3-8-3]: [ANK 20180202] [RTR 19970630] — {Haqim's Law: Judgment}, {Pariah}, {Delaying Tactics}.
 [^3-8-4]: [ANK 20180109] [LSJ 20070224] [ANK 20220704] [LSJ 20070927] [LSJ 20050407] [ANK 20181017] — {Ravnos Carnival}, {Charming Lobby}, {Go Anarch}.
-[^3-8-5]: [RTR 19960221] — {Jar of Skin Eaters}, {Karavalanisha Vrana}.
-[^3-8-6]: [LSJ 20070808-2] — group "Title providing action" (G00042).
-
+[^3-8-5]: [RTR 19960221] [LSJ 20020926] — {Bomb}, {Camera Phone}, {Chalice of Kinship}, {Guarded Rubrics}, {Jar of Skin Eaters}, {Karavalanisha Vrana}.
 ### 3.9 Mandatory actions
 
 **Base rules.** A mandatory action is performed before any non-mandatory action, and a
@@ -2677,13 +2663,13 @@ merely no mandatory one. Three cases recur.[^3-9-5]
 - An effect barred the action. {Change of Target} ends the mandatory action and forbids
   repeating it, so the acting minion is stuck.
 - Two copies of the same mandatory-action card sit on one minion, e.g. {Lunatic Eruption}
-  (§1.15 states this in one sentence).
+  ([§1.15](#115-cumulative-and-stacking-effects) states this in one sentence).
 
 #### 3.9.4 Masking
 
 {Mask of a Thousand Faces} can take over an action that is mandatory for the acting minion
 but not for the masking vampire. The masker must be capable of the action, not under the
-same obligation, e.g. a hunt.[^3-9-6] §3.10 owns masking eligibility.
+same obligation, e.g. a hunt.[^3-9-6] See [§3.10](#310-changing-the-acting-minion) for masking eligibility.
 
 #### References
 
@@ -2712,13 +2698,13 @@ Blood already spent is disregarded in that test. It is not refunded and the subs
 does not pay it again.[^3-10-2]
 
 A mandatory action may be taken over by a minion for whom it was not mandatory, provided
-he could perform it, e.g. a hunt (§3.9).[^3-10-2]
+he could perform it, e.g. a hunt ([§3.9](#39-mandatory-actions)).[^3-10-2]
 
 The substitute may play a modifier the original already played: that limit binds the
 minion, not the action. He cannot use a limited effect if a limited effect has already
-been used on the action (§1.2).[^3-10-2]
+been used on the action ([§1.2](#12-wording-templates-periodicity-duration-triggers)).[^3-10-2]
 
-The replaced minion unlocks, but it remains the minion that took the action; §3.5 owns
+The replaced minion unlocks, but it remains the minion that took the action; see [§3.5](#35-action-repetition-nra-and-canceled-actions) for
 the No Repeat Actions consequence.
 
 #### 3.10.2 "Is considered the acting minion"
@@ -2735,7 +2721,7 @@ the acting minion.[^3-10-3]
 
 Where two effects write the designation, the later governs, e.g. {Nar-Sheptha} over
 {Deep Song}. When the later source leaves play its effect ends immediately and the
-designation reverts for the rest of the combat, e.g. {Nar-Sheptha} burned. §5.9 owns the
+designation reverts for the rest of the combat, e.g. {Nar-Sheptha} burned. See [§5.9](#59-traits-and-trait-changes) for the
 general trait rule.[^3-10-4]
 
 #### References
@@ -2753,17 +2739,16 @@ general trait rule.[^3-10-4]
 
 #### 4.1.1 Where cards fall in the round
 
-An effect that sets the range for the round replaces the determine-range step: that step is
-skipped and no maneuver or other effect can reset the range that round, e.g. {Omael Kuman}.
-Cards playable before range is determined may still be played after it.[^4-1-1]
+An effect that sets the range for the round replaces the determine-range step, e.g.
+{Omael Kuman} ([§4.2.1](#421-setting-the-range) owns range-setting).[^4-1-1]
 
 An effect worded "after strike resolution" resolves before any further pair of strikes and
 before the press step, e.g. {Shoulder Drop}. End-of-round cards are played after the presses
 are handled, and remain playable when the round ends prematurely, e.g. {Infection}
 [THN].[^4-1-2]
 
-What resets at the round boundary is stated where the effect lives: range in §4.2, presses in
-§4.8, per-round abilities on cards in play in §4.10.
+What resets at the round boundary is stated where the effect lives: range in [§4.2](#42-range), presses in
+[§4.8](#48-presses), per-round abilities on cards in play in [§4.10](#410-weapons-and-equipment-in-combat).
 
 #### 4.1.2 Combat begun outside an action
 
@@ -2785,24 +2770,21 @@ Unlock effects still apply.[^4-1-4]
 A combat that arises during an action is part of that action. The acting minion designation
 does not change and effects applied during the action stay in force through the combat. This
 holds even when the effect that caused the combat also failed the action, e.g. {Champion}: the
-action continues until combat ends.[^4-1-5] §3.4 owns the ordering of after-resolution effects.
+action continues until combat ends.[^4-1-5] See [§3.4](#34-resolution-success-and-effect) for the ordering of after-resolution effects.
 
 A window exists between a successful block and the start of combat. A card barred "during
 combat" may still be played there, e.g. {Angel of Berlin}.[^4-1-6]
 
 #### 4.1.4 Starting a further combat
 
-Only one combat is pending at a time: an effect that starts a new combat cannot be used while
-another combat is already queued.[^4-1-7] Both intended combatants must be ready when the
-effect resolves, and a vampire on his way to torpor is not ready for this purpose, e.g.
-{Hidden Lurker}, {Pocket Out of Time} [TEM].[^4-1-8]
+Queuing, the readiness of both combatants, and what a new combat resets are [§4.9.3](#493-queuing-a-new-combat)'s.
 
 #### 4.1.5 Who may play cards during combat
 
 A combat card printing permission to be played by a minion "not involved in the current
 combat" may be played by a minion of any Methuselah, including one with no minion in the
 combat, e.g. {Nosferatu Putrescence}, {Bliss}.[^4-1-9] Using an ability is not playing a card
-and does not get this latitude; §1.5 owns it.
+and does not get this latitude; see [§1.5](#15-abilities-and-card-plays) for it.
 
 A reaction card printing "usable even if there is no action" gains no window during combat: it
 still cannot be played there.[^4-1-10]
@@ -2815,8 +2797,6 @@ still cannot be played there.[^4-1-10]
 [^4-1-4]: [ANK 20180929] [LSJ 19980109] [RTR 20020501] [ANK 20180928-2] — {Marie-Pierre}.
 [^4-1-5]: [LSJ 20070217] — {Champion}.
 [^4-1-6]: [LSJ 20060410] [LSJ 20020204] — {Angel of Berlin}, {Internal Recursion}.
-[^4-1-7]: [RTR 20020501] — {Pocket Out of Time}.
-[^4-1-8]: [ANK 20220429] [LSJ 20100604-1] — {Pocket Out of Time}, {Hidden Lurker}.
 [^4-1-9]: [ANK 20181101] [RBK combat] — {Nosferatu Putrescence}, {Bliss}, {Martyr's Resilience}.
 [^4-1-10]: [LSJ 20080618] — group "Cancel with no action" (G00063).
 
@@ -2842,7 +2822,7 @@ applies at the determine range step ({Neutral Guard}).[^4-2-2]
 A range-setting ability triggered by blocking is checked at the moment of the block. The
 weapon must already be equipped then, and the ability belongs to the minion that actually
 blocked, e.g. {Sniper Rifle}. A combat queued by {Psyche!} did not arise from that block, so
-the ability is not available in it (§4.9).[^4-2-6]
+the ability is not available in it ([§4.9](#49-end-of-round-end-of-combat-and-new-combats)).[^4-2-6]
 
 #### 4.2.2 The before-range window
 
@@ -2854,7 +2834,7 @@ takes effect at once, so range-dependent plays immediately follow the new range:
 
 Damage inflicted in this window is resolved in it. Both minions may play prevention and
 non-prevention before-range effects, and simultaneous before-range damage is prevented and
-mended together, e.g. {Outside the Hourglass} [TEM] (§4.5 owns prevention).[^4-2-5]
+mended together, e.g. {Outside the Hourglass} [TEM] (see [§4.5](#45-prevention--immunity) for prevention).[^4-2-5]
 
 #### 4.2.3 Committing to a strike during determine range
 
@@ -2866,7 +2846,7 @@ step for their maneuver, e.g. {Thoughts Betrayed} [DOM].[^4-2-8]
 
 Committing early does not move an aim's own play window. Aims are still played in the strike
 step, and cannot be played once the strike can no longer be chosen, e.g. {Target Head} after
-{Immortal Grapple} (§4.3 owns aims).[^4-2-7]
+{Immortal Grapple} (see [§4.3](#43-strikes) for aims).[^4-2-7]
 
 #### 4.2.4 What the range gates
 
@@ -2877,18 +2857,18 @@ strikes are chosen, e.g. {Blood to Water}.[^4-2-10]
 
 A card triggered by an incoming effect needs that effect to reach at the current range:
 {Rötschreck} cannot be played against aggravated damage that is not effective at the current
-range.[^4-2-11] The trigger is unmet; futility itself is no bar (§1.6).
+range.[^4-2-11] The trigger is unmet; futility itself is no bar ([§1.6](#16-requirements)).
 
 Range gates strikes and strike resolution, not damage from other sources. Damage that is not
 strike damage is inflicted whatever the range, e.g. {Burst of Sunlight}'s damage to the
-striking vampire (§4.4). An effect riding on a strike applies at the range at which that
+striking vampire ([§4.4](#44-damage)). An effect riding on a strike applies at the range at which that
 strike resolved, e.g. {Riposte}. Making a strike ranged does not extend its hand-strike or
 melee-weapon portion beyond close range, e.g. {Blood of the Cobra} [QUI].[^4-2-12]
 
 At long range a strike may be aimed at a retainer, and a restriction keyed to the opposing
 minion's own traits does not bar it, e.g. {Earthshock} against the retainer of a minion with
-[FLIGHT] (§5.6). "Ranged weapon" means any weapon that provides a ranged strike, not only a
-gun (§4.10).[^4-2-13]
+[FLIGHT] ([§5.6](#56-retainers)). "Ranged weapon" means any weapon that provides a ranged strike, not only a
+gun ([§4.10](#410-weapons-and-equipment-in-combat)).[^4-2-13]
 
 #### References
 
@@ -2942,7 +2922,7 @@ prevention, e.g. {Blood Agony}, {Backstab}.[^4-3-7]
 A maneuver printed on a strike card or weapon is unavailable to a minion who cannot strike,
 e.g. against {Hidden Lurker}; this includes optional weapon maneuvers.[^4-3-8]
 
-Cancellation is §1.8's. A minion whose strike is canceled chooses a new one and may choose
+Cancellation is [§1.8](#18-playing-and-canceling-a-card)'s. A minion whose strike is canceled chooses a new one and may choose
 the same again, e.g. {Supernatural Resistance}; a canceled aim leaves the strike resolving
 against its default target, e.g. {Target Retainer}.[^4-3-9]
 
@@ -2959,7 +2939,7 @@ arrives after strike resolution and cannot mend that strike's damage.[^4-3-11]
 A damage add-on may be played on any strike and does nothing on one dealing no damage,
 e.g. {Target Vitals} on a dodge. Whether the strike deals damage decides, not when — a
 strike inflicting damage after combat is still damage-dealing, e.g. {Catatonic Fear} [PRE].
-A strike naming the object it acts on cannot be chosen when none exists (§1.6).[^4-3-12]
+A strike naming the object it acts on cannot be chosen when none exists ([§1.6](#16-requirements)).[^4-3-12]
 
 #### 4.3.4 First strike
 
@@ -2972,15 +2952,15 @@ inflicted with first strike, e.g. {Shambling Hordes}.[^4-3-14]
 
 #### 4.3.5 Additional strikes
 
-An additional strike is mandatory unless its card marks it optional (§1.1), e.g.
+An additional strike is mandatory unless its card marks it optional ([§1.1](#11-card-text-and-the-rules)), e.g.
 {Renegade Garou}, {Lorrie Dunsirn}.[^4-3-15] A minion barred from using additional strikes
 cannot play a card providing one, even for that card's other effects, e.g. {Acrobatics}
 against {Rigor Mortis}.[^4-3-16]
 
 Additional strikes are announced after the normal pair resolves, but the card granting a
 limited additional strike may be played before or after it, e.g. {Quickness}. A canceled
-limited additional strike does not spend the limit (§3.5). A retainer's use of a weapon is
-not a strike and gives its employer no additional strike; §5.6 owns retainer strikes.[^4-3-17]
+limited additional strike does not spend the limit ([§3.5](#35-action-repetition-nra-and-canceled-actions)). A retainer's use of a weapon is
+not a strike and gives its employer no additional strike; see [§5.6](#56-retainers) for retainer strikes.[^4-3-17]
 
 #### References
 
@@ -3018,19 +2998,19 @@ The source is read off the card's own wording. Text naming a minion — "this va
 
 - A strike that lands its damage after combat is still minion-inflicted, e.g. {Catatonic Fear}, {Outside the Hourglass}.[^4-4-4]
 - Equipment backfiring on its bearer ({Grenade}), a reaction damaging the striking minion ({Burst of Sunlight}) and a printed vampire ability ({Shemti}) are all environmental.[^4-4-5]
-- Damage a weapon inflicts outside a strike is the weapon's, neither the bearer's nor environmental, e.g. {Talbot's Chainsaw} during the unlock phase (§4.10). Retainer damage is environmental with the retainer as its source (§5.6).[^4-4-6]
+- Damage a weapon inflicts outside a strike is the weapon's, neither the bearer's nor environmental, e.g. {Talbot's Chainsaw} during the unlock phase ([§4.10](#410-weapons-and-equipment-in-combat)). Retainer damage is environmental with the retainer as its source ([§5.6](#56-retainers)).[^4-4-6]
 
 #### 4.4.3 What sees environmental damage
 
-Environmental damage is not inflicted by any minion, so effects that count, add to or reduce damage a minion inflicts do not see it, e.g. {Pulled Fangs} counts none of it and {Target Vitals} does not add to {Necrosis}'s press-step damage. §4.5 owns reduction and prevention.[^4-4-7]
+Environmental damage is not inflicted by any minion, so effects that count, add to or reduce damage a minion inflicts do not see it, e.g. {Pulled Fangs} counts none of it and {Target Vitals} does not add to {Necrosis}'s press-step damage. See [§4.5](#45-prevention--immunity) for reduction and prevention.[^4-4-7]
 
 A card worded on damage generally does reach it. {Dam the Heart's River} boosts "each strike or damaging effect", so it boosts the environmental damage as well as the strike; {Dawn Operation} turns environmental and retainer damage aggravated too. An effect limited to damage "in combat" reaches neither after-combat damage nor anything outside the combat, e.g. {Domain of Evernight}.[^4-4-8]
 
-A dodge stops only the opposing strike, so standing environmental damage still lands. Environmental damage printed as a rider on a strike card is lost with the strike when that strike is dodged, e.g. {Necrosis} (§4.6). Combat ending before the damage would apply stops it (§4.7).[^4-4-9]
+What environmental damage survives — dodges, combat ending early — is [§4.6.3](#463-what-survives-a-dodge)'s and [§4.7.2](#472-combat-ended-outside-strike-resolution)'s.
 
 #### 4.4.4 Damage after combat
 
-Damage delivered after combat ends by a strike is still strike damage. {Target Vitals} and {Dam the Heart's River} modify it and damage reduction reaches it, e.g. {Riposte}, {Catatonic Fear}.[^4-4-10] Whether such damage survives combat ending early, continuing, or a new combat beginning is §4.9's.
+Damage delivered after combat ends by a strike is still strike damage. {Target Vitals} and {Dam the Heart's River} modify it and damage reduction reaches it, e.g. {Riposte}, {Catatonic Fear}.[^4-4-10] Whether such damage survives combat ending early, continuing, or a new combat beginning is [§4.9](#49-end-of-round-end-of-combat-and-new-combats)'s.
 
 #### 4.4.5 Aggravated damage
 
@@ -3052,7 +3032,6 @@ Damage inflicted at the same moment is prevented and applied together, after all
 [^4-4-6]: [LSJ 20090304-1] [LSJ 20100514] [LSJ 20051220] [ANK 20180612] [ANK 20211127] — {Talbot's Chainsaw}, {Kerrie}, group "Retainer doing damage" (G00016).
 [^4-4-7]: [TOM 19950304] [LSJ 20010812] [ANK 20201228-2] [ANK 20200925] [ANK 20200517] [PIB 20111017] [LSJ 20010626] — {Pulled Fangs}, {Necrosis}, {Nephandus}, {Blood of Acid}, {Disarm}.
 [^4-4-8]: [ANK 20181128] [PIB 20150520] [PIB 20150603-1] [LSJ 20020314] [PIB 20130319] — {Dam the Heart's River}, {Dagon's Call}, {Dawn Operation}, {Domain of Evernight}.
-[^4-4-9]: [RTR 19941109] [TOM 19951216] [PIB 20140324] [ANK 20200422] [ANK 20200517] — group "Environmental damage" (G00017), {Necrosis}, {Conscripted Statue}, {Thoughts Betrayed}.
 [^4-4-10]: [ANK 20170111] [LSJ 20071011] [PIB 20130319] [LSJ 20080630] [RTR 19970630] — {Catatonic Fear}, {Loving Agony}, {Riposte}, {Nephandus}.
 [^4-4-11]: [LSJ 20040812-2] [PIB 20130327] [ANK 20200130-1] [ANK 20220114] [LSJ 20040120] [LSJ 20060409] [LSJ 20030213] — group "Prevent non-aggravated" (G00033), {Resilience}, {Flesh of Marble}, {Rötschreck}, {Ex Nihilo}, {Shadow Court Satyr}, {Merrill Molitor}.
 [^4-4-12]: [ANK 20210424] [LSJ 20021120] [RBK damage-resolution] — {Byzar}, {Anathema}.
@@ -3063,15 +3042,15 @@ Damage inflicted at the same moment is prevented and applied together, after all
 #### 4.5.1 Playing a prevention card
 
 Damage prevention cannot be played when there is no damage to prevent, e.g. {Soak}, {Glancing
-Blow} (§1.6 owns the general no-effect-play boundary).[^4-5-1]
+Blow} (see [§1.6](#16-requirements) for the general no-effect-play boundary).[^4-5-1]
 
 A prevention effect that lingers past a single strike is exempt, and may be played before any
 damage exists, e.g. {Apparition}, {Brother's Blood}.[^4-5-2] The restriction reaches the play
-only: a standing prevention from a card already in play needs no damage pending (§1.6,
-§3.2).[^4-5-3]
+only: a standing prevention from a card already in play needs no damage pending ([§1.6](#16-requirements),
+[§3.2](#32-stealth-and-intercept)).[^4-5-3]
 
 An effect barring the opponent from playing prevention cards bars the play outright, including a
-play made only to cycle, e.g. {Blood Fury}, {Dead Hand} (§1.1).[^4-5-4]
+play made only to cycle, e.g. {Blood Fury}, {Dead Hand} ([§1.1](#11-card-text-and-the-rules)).[^4-5-4]
 
 #### 4.5.2 How much is prevented
 
@@ -3119,13 +3098,13 @@ e.g. {Outside the Hourglass}.[^4-5-16]
 
 Damage from a source a minion is immune to is inflicted unsuccessfully — no mend, no wound, no
 destruction ([RBK damage-resolution]). Immunity holds against unpreventable damage and outside
-combat, e.g. {Bloodform}.[^4-5-17] Unlike prevention (§4.5.2), immunity to non-aggravated damage
+combat, e.g. {Bloodform}.[^4-5-17] Unlike prevention ([§4.5.2](#452-how-much-is-prevented)), immunity to non-aggravated damage
 does cover aggravated damage the minion treats as normal, e.g. {Ex Nihilo} with {Skin of
 Night}.[^4-5-18]
 
 Immunity stops the damage, not the play: the source may still use an effect that would damage an
 immune minion, e.g. {Charnas the Imp}. Immunity to a class of source reaches environmental damage
-from that source, a retainer's damage included (§5.6).[^4-5-19]
+from that source, a retainer's damage included ([§5.6](#56-retainers)).[^4-5-19]
 
 Prevented damage was still inflicted, so a rider keyed to inflicting damage fires anyway, e.g.
 {Improvised Flamethrower}, {Weighted Walking Stick}; it does not fire where the damage was reduced
@@ -3133,13 +3112,13 @@ away or never inflicted. A strike rider conditioned on its damage landing surviv
 not a dodge, e.g. {Fleshcraft}.[^4-5-20]
 
 A strike that sends a vampire to torpor leaves that vampire wounded; {Undying Tenacity} defers the
-torpor to the end of combat but not the wound, e.g. {Coma} (§5.3).[^4-5-21]
+torpor to the end of combat but not the wound, e.g. {Coma} ([§5.3](#53-torpor)).[^4-5-21]
 
 #### References
 
 [^4-5-1]: [LSJ 20001114] — {Soak}, {Skin of Night}, {Glancing Blow}, {Armor of Vitality}, {Indomitability}.
 [^4-5-2]: [LSJ 20010315] [LSJ 20100527] — {Apparition}, {Brother's Blood}.
-[^4-5-3]: [LSJ 20011214-2] — {Repulsion} (owner adjudication: the "cannot use it if you do not need it" restriction attaches to the card play, not to a continuous effect in play).
+[^4-5-3]: [LSJ 20011214-2] — {Repulsion}.
 [^4-5-4]: [LSJ 20050628] — {Blood Fury}, {Blood Rage}, {Dead Hand}, {Soul Burn}.
 [^4-5-5]: [RTR 20041202] — {Soak}, {Nightstick}, {Forearm Block}, {Rego Motum}.
 [^4-5-6]: [RTR 20041202] [PIB 20121202] [LSJ 20030121] [LSJ 20001114] — {Hidden Strength}, {Martyr's Resilience}.
@@ -3186,7 +3165,7 @@ and the dodging minion's weapon strikes inflict damage normally that round.[^4-6
 
 Preventing the damage leaves the strike resolved, so the rest of the strike's effect still
 applies. Dodging means the strike never resolved and none of it applies. {Fleshcraft}
-prevented still places the card; {Fleshcraft} dodged does not.[^4-6-3] §4.5 owns
+prevented still places the card; {Fleshcraft} dodged does not.[^4-6-3] See [§4.5](#45-prevention--immunity) for
 prevention.
 
 #### 4.6.3 What survives a dodge
@@ -3200,8 +3179,8 @@ Read the source of each effect. Only what the dodged strike itself delivers is s
   rider, e.g. {Necrosis} [THN].[^4-6-5] The label does not decide it; the source does.
 - **Combat ends**, which the base rules exempt from dodges. An effect ending combat after
   strike resolution still ends it, e.g. {Anesthetic Touch} [obe].[^4-6-6]
-- **Effects keyed to the attempt rather than to the damage.** {Rötschreck} is playable and
-  effective against an announced dodge or combat ends.[^4-6-6]
+- **Effects keyed to the attempt rather than to the damage**, e.g. {Rötschreck} against an
+  announced dodge or combat ends ([§4.7.2](#472-combat-ended-outside-strike-resolution)).[^4-6-6]
 - **A cost or self-burn the strike card imposes.** {Flash Grenade} burns even though its
   lock rider is dodged.[^4-6-7]
 - **An ability of the weapon that is not part of the strike.** {Garrote}'s
@@ -3212,8 +3191,8 @@ Read the source of each effect. Only what the dodged strike itself delivers is s
 
 "This strike cannot be dodged" does not stop the opponent choosing a dodge; the dodge
 simply has no effect against that strike, e.g. {Scorpion Sting}, {Projectile}.[^4-6-8]
-That is the permissive default (§1.6), not an exception to it, and it does not carry over
-to damage prevention, which cannot be played with no damage to prevent (§4.5).
+That is the permissive default ([§1.6](#16-requirements)), not an exception to it, and it does not carry over
+to damage prevention, which cannot be played with no damage to prevent ([§4.5](#45-prevention--immunity)).
 
 A card that is a dodge and another strike at once needs both to be legal choices. Its
 dodge half protects, including against a strike made with first strike, while the other
@@ -3265,9 +3244,11 @@ An effect that ends combat outside the strike resolution step beats an announced
 combat ends. {Rötschreck} may be played after the opponent has announced a strike: dodge
 or a strike: combat ends, and is effective.[^4-7-6] Combat ends immediately, no strike
 resolves — including the announced strike: combat ends — and damage prevention cannot be
-played.[^4-7-6] Self-burning weapons are not burned, exactly as in §4.7.1.
+played.[^4-7-6] Self-burning weapons are not burned, exactly as in [§4.7.1](#471-an-unresolved-strike-does-nothing). Environmental
+damage, which survives a dodge, does not survive this: a strike: combat ends ends combat
+before it is applied ([§4.4](#44-damage)).[^4-7-4]
 
-§4.9 owns what else is lost when combat ends early.
+See [§4.9](#49-end-of-round-end-of-combat-and-new-combats) for what else is lost when combat ends early.
 
 #### 4.7.3 "Combat ends after this strike resolves" is not a strike: combat ends
 
@@ -3278,11 +3259,6 @@ afterwards, e.g. {Anesthetic Touch} [obe], {Autonomic Mastery} [DOM].[^4-7-7] A 
 protects against the opposing strike but does not stop combat from ending, unless the card
 itself says so — {Autonomic Mastery} prints "unless it is dodged", {Anesthetic Touch} does
 not.[^4-7-7]
-
-#### 4.7.4 Environmental damage
-
-Environmental damage is inflicted even against a dodge, but a strike: combat ends ends
-combat before it is applied.[^4-7-4] §4.4 owns environmental damage.
 
 #### References
 
@@ -3312,7 +3288,7 @@ earlier in the round to bank a press.
 A press is mandatory unless the card marks it optional.[^4-8-4] {Talbot's Chainsaw} prints
 "1 press (mandatory)"; {Chameleon's Colors} [spi] prints "an optional press". A mandatory
 press must be used, and where the card restricts its direction — continue only, or end only
-— it is used in that direction. §1.1 owns mandatory versus optional effects generally.
+— it is used in that direction. See [§1.1](#11-card-text-and-the-rules) for mandatory versus optional effects generally.
 
 An existing press to continue must be handled before another press can be used to
 continue.[^4-8-5] A second press to continue cannot be stacked on the first: the opposing
@@ -3323,18 +3299,18 @@ Providing a press is not using one. A minion that cannot use presses may still p
 that supplies them, e.g. {Mukhtar Bey} playing {Trap}: the card provides the press and the
 minion is not the one pressing.[^4-8-6]
 
-Canceling a maneuver that provides a press cancels the press; §1.8 owns the rule.[^4-8-7]
+Canceling a maneuver that provides a press cancels the press; see [§1.8](#18-playing-and-canceling-a-card) for the rule.[^4-8-7]
 
 Damage inflicted during the press step is environmental damage, e.g. {Drawing Out the
-Beast} [ANI]; §4.4 owns damage sources.[^4-8-8]
+Beast} [ANI]; see [§4.4](#44-damage) for damage sources.[^4-8-8]
 
 Effects usable at the end of a round are played after the press step is fully resolved, and
-still resolve when the round ends prematurely. §4.9 owns them.
+still resolve when the round ends prematurely. See [§4.9](#49-end-of-round-end-of-combat-and-new-combats) for them.
 
 #### References
 
 [^4-8-1]: [TOM 19960521] — {Immortal Grapple}, {Dust to Dust}, {Chameleon's Colors}, and 33 further cards carrying the same wording.
-[^4-8-2]: [ANK 20180110] — {Undead Persistence}.
+[^4-8-2]: [ANK 20180110] — {Undead Persistence} (ruling removed from the database when group "Optional press" (G00096) was created; original verified at vekn.net forum thread 76362).
 [^4-8-3]: [PIB 20150121] — {Aeron}, {Don Caravelli}, and six further crypt cards carrying the same wording.
 [^4-8-4]: [LSJ 19980823] [LSJ 20051016] [LSJ 20051017] [TOM 19960521] — {Talbot's Chainsaw}, {Lorrie Dunsirn}, {Chameleon's Colors}, {Mighty Grapple}.
 [^4-8-5]: [ANK 20200525-1] — {Trap}.
@@ -3348,7 +3324,7 @@ still resolve when the round ends prematurely. §4.9 owns them.
 
 #### 4.9.1 The end-of-round window
 
-Effects usable at the end of a round wait for presses to be handled (§4.8), then apply even if the round ended prematurely.[^4-9-1] This governs triggered effects, not only card plays, e.g. {Ossian}'s life gain, {Masochism}'s counter.[^4-9-1]
+Effects usable at the end of a round wait for presses to be handled ([§4.8](#48-presses)), then apply even if the round ended prematurely.[^4-9-1] This governs triggered effects, not only card plays, e.g. {Ossian}'s life gain, {Masochism}'s counter.[^4-9-1]
 
 Occupants of the window are mutually orderable: an end-of-round card may be played before or after another one and before or after a "when the combat would end" effect, e.g. {Taste of Vitae}, {Disarm}, {Telepathic Tracking}.[^4-9-2]
 
@@ -3370,9 +3346,9 @@ Only the after-combat half is lost; what already resolved stands. {Smoke Grenade
 
 Damage, blood burn and card placement scheduled after combat do not happen, e.g. {Catatonic Fear}, {Riposte}, {Serpent's Numbing Kiss}.[^4-9-10] A modifier covering damaging effects "this combat" still reaches after-combat damage ({Dam the Heart's River}), but an effect keyed to blood reduced to 0 in combat is not triggered by it ({Anathema}).[^4-9-11]
 
-A card whose cost is paid on resolution pays nothing when combat ends first: {Grenade} neither burns nor inflicts damage, and {Molotov Cocktail} is not placed.[^4-9-12] {Smoke Grenade} does burn against a simultaneous "strike: combat ends", because its own strike resolved (§4.7).[^4-9-12] An effect timed before range is determined still applies when combat ends at that point, e.g. {Weather Control}.[^4-9-13]
+A card whose cost is paid on resolution pays nothing when combat ends first: {Grenade} neither burns nor inflicts damage, and {Molotov Cocktail} is not placed.[^4-9-12] {Smoke Grenade} does burn against a simultaneous "strike: combat ends", because its own strike resolved ([§4.7](#47-strike-combat-ends)).[^4-9-12] An effect timed before range is determined still applies when combat ends at that point, e.g. {Weather Control}.[^4-9-13]
 
-The "action continues as if unblocked" rider is lost like any other after-combat rider, e.g. {Form of Mist}; §3.6 owns it.[^4-9-14]
+The "action continues as if unblocked" rider is lost like any other after-combat rider, e.g. {Form of Mist}; see [§3.6](#36-continuing-an-action-as-if-unblocked) for it.[^4-9-14]
 
 #### 4.9.3 Queuing a new combat
 
@@ -3394,11 +3370,11 @@ A "go to torpor" postponed to the end of combat is postponed again by a new comb
 
 #### References
 
-[^4-9-1]: [RTR 20030519] [PIB 20111202] — {Disarm}, {Pulled Fangs}, {Revelation of Wrath}, {Street Cred}, {Taste of Vitae}, {Ossian}, {Masochism}.
+[^4-9-1]: [RTR 20030519] — {Disarm}, {Pulled Fangs}, {Revelation of Wrath}, {Street Cred}, {Taste of Vitae}, {Ossian}, {Masochism}.
 [^4-9-2]: [LSJ 20021113] [ANK 20191219] [ANK 20180910-1] — {Disarm}, {Pulled Fangs}, {Street Cred}, {Taste of Vitae}, {Telepathic Tracking}, {Relentless Reaper}.
 [^4-9-3]: [RTR 20001020] [LSJ 20001024] [LSJ 20011214-4] — {Elysium: The Arboretum}, {Alpha Glint}, {Garibaldi-Meucci Museum}, {Ashes to Ashes}.
 [^4-9-4]: [ANK 20180910-2] [ANK 20191221] [ANK 20180618] — {Death Seeker}, {Terror Frenzy}, {Loving Agony}.
-[^4-9-5]: [RTR 20030519] [PIB 20111202] [LSJ 20021113] [ANK 20191219] [ANK 20180910-1] — {Psyche!}.
+[^4-9-5]: [RTR 20030519] [LSJ 20021113] [ANK 20191219] [ANK 20180910-1] — {Psyche!}.
 [^4-9-6]: [ANK 20191219] — {Psyche!}, {Telepathic Tracking}.
 [^4-9-7]: [LSJ 19980109] [RTR 20020501] [ANK 20180928-2] — {Psyche!}, {Fast Reaction}, {Haven Hunting}, {Akram}, {Jalal Sayad}, {Marie-Pierre}.
 [^4-9-8]: [RTR 19970630] [RTR 20020501] [LSJ 20030717] — {Mummify}, {Meld with the Land}, {Bond with the Mountain}, {Earth Meld}, {Majesty}, {Loving Agony}.
@@ -3409,7 +3385,7 @@ A "go to torpor" postponed to the end of combat is postponed again by a new comb
 [^4-9-13]: [ANK 20180104] [LSJ 19971110] [ANK 20190725] — {Outside the Hourglass}, {Weather Control}.
 [^4-9-14]: [LSJ 19980109] [RTR 20020501] [LSJ 20031123] — {Form of Mist}, {Chameleon's Colors}, {Mirror Image}.
 [^4-9-15]: [RTR 20020501] [LSJ 19971003] [LSJ 20020125] [LSJ 20021121] [LSJ 20090826] — {Psyche!}, {Akram}, {Jalal Sayad}, {Siren's Lure}, {Illusions of the Kindred}, {Pocket Out of Time}.
-[^4-9-16]: [ANK 20220429] [LSJ 20100604-1] [LSJ 20020509] — {Psyche!}, {Blissful Agony}, {Pocket Out of Time}, {Left for Dead}, {Heaven's Gate}.
+[^4-9-16]: [ANK 20220429] [LSJ 20100604-1] [LSJ 20020509] — {Hidden Lurker}, {Psyche!}, {Blissful Agony}, {Pocket Out of Time}, {Left for Dead}, {Heaven's Gate}.
 [^4-9-17]: [LSJ 20021213] [ANK 20170918-2] [LSJ 19991025] — {Psyche!}, {Siren's Lure}, {Obedience}.
 [^4-9-18]: [ANK 20230527] [LSJ 20010814] [LSJ 20010813] [LSJ 20010819-2] [LSJ 20030530] [LSJ 20001122] — {Blithe Acceptance}, {Sniper Rifle}, {Scry the Hearthstone}, {Raptor}, {Psyche!}.
 [^4-9-19]: [ANK 20200420-1] — {Amelia, The Blood Red Tears}.
@@ -3463,7 +3439,7 @@ A weapon that provides a ranged strike is a ranged weapon whatever its printed t
 {Kerrie} under {Anachronism}.[^4-10-7] Damage from a weapon is weapon damage whatever
 delivers it: the ranged option on a melee weapon still does that weapon's damage, and
 {Talbot's Chainsaw}'s unlock-phase damage is weapon damage, neither inflicted by the
-bearer nor environmental.[^4-10-7] §4.4 owns damage classification.
+bearer nor environmental.[^4-10-7] See [§4.4](#44-damage) for damage classification.
 
 #### 4.10.4 Weapons that leave or become unusable
 
@@ -3475,12 +3451,11 @@ point the weapon is still usable [RBK strike-effects].
 A weapon that burns itself or damages its bearer on use does neither if combat ends before
 the strike resolves, e.g. {Grenade}, {Dragon's Breath Rounds}.[^4-10-9] Once the strike
 has resolved the burn happens as printed, even if combat continues or a new combat begins,
-e.g. {Smoke Grenade}.[^4-10-9] An end-of-action burn does not reach a weapon that is
-temporarily out of play at that moment, e.g. {Cleave} on {Kerrie} turned face
-down.[^4-10-9]
+e.g. {Smoke Grenade}.[^4-10-9] A weapon temporarily out of play escapes a scheduled burn
+([§1.14.3](#1143-cards-out-of-play)).[^4-10-9]
 
 While an effect prevents a minion from using equipment, e.g. {Drawing Out the Beast}, the
-disciplines and maneuvers his equipment provides are unavailable (§1.5). The prohibition
+disciplines and maneuvers his equipment provides are unavailable ([§1.5](#15-abilities-and-card-plays)). The prohibition
 reaches only what the bearer uses; an equipment effect that triggers on its own still
 functions, e.g. {Soul Gem of Etrius} when the bearer is burned.[^4-10-10]
 
@@ -3490,14 +3465,14 @@ your own minion's weapon.[^4-10-11]
 #### References
 
 [^4-10-1]: [LSJ 19971215] [LSJ 20030213-2] [LSJ 20050304] — {Talbot's Chainsaw}, {Starshell Grenade Launcher}, {Banshee Ironwail}, {Sword of Judgment}, {Projectile}.
-[^4-10-2]: [LSJ 20021028] [LSJ 20001126] [LSJ 20050224-3] — group "Strikes with optional maneuver" (G00024), {Lapse}, {Projectile}.
+[^4-10-2]: [LSJ 20021028] [LSJ 20001126] [LSJ 20050224-3] — groups "Strikes with optional maneuver" (G00024) and "Cannot strike" (G00093), {Deer Rifle}, {Lapse}, {Projectile}.
 [^4-10-3]: [LSJ 20021028] — {Sniper Rifle}.
 [^4-10-4]: [ANK 20230316] [LSJ 19980302-2] [ANK 20220207] — groups "Weapon once per combat" (G00045) and "Weapon once per round" (G00046), {.44 Magnum}, {Hunger of Marduk}.
 [^4-10-5]: [RTR 19980623] [LSJ 20020821] [LSJ 20020904] [LSJ 19970224] — {Machine Blitz}, {Concealed Weapon}, {Illegal Search and Seizure}.
 [^4-10-6]: [LSJ 20010806-1] — {Machine Blitz}.
 [^4-10-7]: [LSJ 20060825] [LSJ 20051220] [LSJ 20090304-1] [LSJ 20100514] [LSJ 20091123-2] — {Anachronism}, {Kerrie}, {Talbot's Chainsaw}, {Nephandus}.
 [^4-10-8]: [PIB 20141026] [LSJ 19980319] [RBK strike-effects] — {Gianna di Canneto}, {Disguised Weapon}.
-[^4-10-9]: [LSJ 19981006] [LSJ 20001127-2] [LSJ 20010806-1] [RTR 20020501] [LSJ 20040602] [LSJ 20100211-2] — {Grenade}, {Dragon's Breath Rounds}, {Jar of Skin Eaters}, {Smoke Grenade}, {Cleave}.
+[^4-10-9]: [LSJ 19981006] [LSJ 20001127-2] [LSJ 20010806-1] [RTR 20020501] [LSJ 20040602] — {Grenade}, {Dragon's Breath Rounds}, {Jar of Skin Eaters}, {Smoke Grenade}.
 [^4-10-10]: [RTR 20010710] [LSJ 20010729] — {Hand of Conrad}, {Drum of Xipe Totec}, {Soul Gem of Etrius}.
 [^4-10-11]: [LSJ 20020425] — group "Improve weapon before resolution" (G00050).
 
@@ -3525,7 +3500,7 @@ anything else happens to them. It drains before the vampire's own entry text fir
 {Tariq, The Silent}'s printed capacity reduction applies the moment you control him, so
 the blood is lost even if you merge him immediately after.[^5-1-3]
 
-Capacity granted by a title is lost with the title; §5.8 owns titles.[^5-1-4]
+Capacity granted by a title is lost with the title; see [§5.8](#58-titles) for titles.[^5-1-4]
 
 #### 5.1.2 Merging
 
@@ -3537,7 +3512,7 @@ movement does not apply, e.g. {Masquerade Enforcement}.[^5-1-5]
 The advanced card's sect is written onto the vampire as it merges, including when the base
 version was the one in play, e.g. {Goratrix} becomes Camarilla. Any anarch token on the
 vampire is burned, unless the merged sect is itself Anarch, e.g. {Dancin' Dana}.[^5-1-6]
-§5.9 owns trait change and its precedence.
+See [§5.9](#59-traits-and-trait-changes) for trait change and its precedence.
 
 The advanced card need not come from your uncontrolled region. A copy you come to control
 by any means may be merged, e.g. one stolen with {Graverobbing}.[^5-1-7]
@@ -3562,7 +3537,7 @@ reduced capacity.[^5-1-10]
 
 A vampire brought into play to replace a burned one is a new vampire for all purposes even
 when it is the same vampire, e.g. through {Soul Gem of Etrius}: it may bleed although the
-burned version already bled that turn.[^5-1-11] §3.5 owns the No Repeated Action side.
+burned version already bled that turn.[^5-1-11] See [§3.5](#35-action-repetition-nra-and-canceled-actions) for the No Repeated Action side.
 
 #### References
 
@@ -3586,20 +3561,21 @@ turned sideways. A vampire in torpor is not ready but still unlocks each unlock 
 
 #### 5.2.1 What a lock prevents
 
-Locking bars acting and blocking, not ability use; §1.5 owns that and the lock-as-cost half of
-it.[^5-2-1] An action modifier carries no unlocked requirement of its own, e.g. {Cloak the
+Locking bars acting and blocking, not ability use; see [§1.5](#15-abilities-and-card-plays) for that and the lock-as-cost half of
+it.[^5-2-1] An action modifier carries no unlocked requirement of its own — even one played
+by a minion other than the acting minion, e.g. {Cloak the
 Gathering}, {Make an Example}.[^5-2-2] Locked vampires still vote, and lock as they cast their
 votes; effects counting locked minions read the table after the referendum, e.g. {Domain
 Challenge}.[^5-2-3] A locked minion remains a legal target, e.g. {Mind Rape}.[^5-2-4] A card
 that must choose a ready, unlocked minion is unplayable when there is none, e.g. {Brujah
-Frenzy}; §1.6 owns state requirements.[^5-2-5]
+Frenzy}; see [§1.6](#16-requirements) for state requirements.[^5-2-5]
 
 #### 5.2.2 The unlock phase and its suppression
 
 Unlocking is the first thing in the phase; every "during your unlock phase" effect follows, in
 its controller's chosen order, e.g. {Baleful Doll}.[^5-2-6] A condition on what a Methuselah
 controls during that phase is checked when the phase ends: meeting it earlier does not help,
-acquiring the object later does not excuse it, e.g. {Anarch Revolt}, {Arika} (§2.5).[^5-2-7]
+acquiring the object later does not excuse it, e.g. {Anarch Revolt}, {Arika} ([§2.5](#25-duration-and-persistence)).[^5-2-7]
 
 "Does not unlock as normal" suppresses only that automatic unlock; wakes and unlock effects
 still reach the minion, e.g. {Sensory Deprivation}, {Cry Wolf}.[^5-2-8] It is redundant on an
@@ -3622,19 +3598,17 @@ A wake opens the reaction window; it does not unlock. A woken locked minion may 
 and attempt to block, but cannot use an effect needing an unlocked minion or costing a lock,
 e.g. {Familial Bond}.[^5-2-13] Paying a lock leaves the minion unable to block without a wake
 or an unlock, e.g. {Starshell Grenade Launcher}.[^5-2-14] An effect merely letting a locked
-minion block is not a wake (§1.5), e.g. {No Secrets From the Magaji}.[^5-2-15] A wake may be
-played in a card's "as played" window; an unlock-and-block effect may not, cancelation being
-immediate (§1.8).[^5-2-16]
+minion block is not a wake and grants no reaction cards, e.g. {No Secrets From the
+Magaji}.[^5-2-15] A wake, but not an unlock-and-block effect, may be played in a card's
+"as played" window ([§1.8.1](#181-the-as-played-window)).[^5-2-16]
 
-An unlock-to-block effect may be used by a minion already attempting to block, e.g. {Second
-Tradition: Domain}.[^5-2-17] The block and any resulting combat still happen when the unlock
-leaves the action without a suitable target, e.g. {Guard Duty} against an {Ambush}.[^5-2-18]
+The unlock-to-block template ({Guard Duty}, {Second Tradition: Domain}) is [§3.3.1](#331-who-may-block)'s.
 
 A block locks the blocker only once it succeeds; an effect locking a failed blocker does so
 just before action resolution, e.g. {Hard Case}, {Faceless Night}.[^5-2-19] A lock from
 another card is not the block's lock, so an exemption from locking to block does not stop it,
 e.g. {Mirror Walk}; locking a minion attempting to block makes the block fail, e.g.
-{Alexandra}.[^5-2-20] §3.5 owns the canceled-combat case.
+{Alexandra}.[^5-2-20] See [§3.5](#35-action-repetition-nra-and-canceled-actions) for the canceled-combat case.
 
 #### 5.2.4 Locking the locked, unlocking the unlocked
 
@@ -3644,19 +3618,18 @@ e.g. {Nightmares upon Nightmares}.[^5-2-21] No state changes, so an effect trigg
 unlocking does not fire, e.g. {Vampiric Disease}; a mandatory unlock ability is still applied,
 e.g. {Eze, The Demon Prince}. Any genuine unlock triggers, including one that already cost
 blood.[^5-2-22] A minion returning to play unlocked has not unlocked, e.g. {Banishment}
-(§6.4).[^5-2-23]
+([§6.4](#64-leaving-and-re-entering-play)).[^5-2-23]
 
 #### 5.2.5 Lock as cost, lock as effect
 
 Where a card locks a minion as part of its effect, nothing need be unlocked and no cost is
 paid, e.g. {Disarming Presence}.[^5-2-24] A lock-to-use effect cannot be taken "in response"
-to another effect (§2.1), e.g. {Heidelberg Castle, Germany}.[^5-2-25]
+to another effect ([§2.1](#21-effect-windows-and-impulse)), e.g. {Heidelberg Castle, Germany}.[^5-2-25]
 
-A lock-to-reduce-cost effect may be used at any point from announcement until just before the
-cost is paid, e.g. {The Line}, {Eccentric Billionaire}; if the play is unaffordable without
-it, the lock must happen at announcement, e.g. {Sunset Strip, Hollywood}.[^5-2-26] Equipping a
+A lock-to-reduce-cost effect may be used at any point up to payment — at announcement if it
+is what makes the play affordable ([§1.7.3](#173-cost-reductions)).[^5-2-26] Equipping a
 vehicle locks it however the equip came about; putting the card directly into play does not,
-e.g. {Helicopter} (§1.6).[^5-2-27]
+e.g. {Helicopter} ([§1.6](#16-requirements)).[^5-2-27]
 
 #### 5.2.6 Unlock effects in combat
 
@@ -3664,7 +3637,7 @@ An unlock effect on a strike resolves at the strike, before combat ends, and an 
 continuing the combat or beginning a new one does not undo it, e.g. {Bond with the
 Mountain}.[^5-2-28] An effect conditioned on combat ending does not apply when combat
 continues, though unconditional consequences still happen — {Flash Grenade} still burns — and
-a minion that unlocked during the combat is locked again once it ends.[^5-2-29] §4.9 owns
+a minion that unlocked during the combat is locked again once it ends.[^5-2-29] See [§4.9](#49-end-of-round-end-of-combat-and-new-combats) for
 combat continuation.
 
 #### References
@@ -3685,8 +3658,6 @@ combat continuation.
 [^5-2-14]: [LSJ 20010702] [LSJ 20011023-2] [LSJ 20100527] — {Starshell Grenade Launcher}, {Marciana Giovanni, Investigator}.
 [^5-2-15]: [LSJ 20070208] [LSJ 20041022-2] [LSJ 20100210] — {No Secrets From the Magaji}, {Madness Network}, {Unleash Hell's Fury}.
 [^5-2-16]: [LSJ 20021011] [ANK 20231028] — group "Cancel as a reaction" (G00062), {Unleashing the Bestial Soul}, {Deed the Heart's Desire}, {Psalm of the Damned}.
-[^5-2-17]: [ANK 20181122-2] [PIB 20150216] — {Second Tradition: Domain}, {Sense the Savage Way}, {Under Siege}.
-[^5-2-18]: [LSJ 20090514] — {Guard Duty}, {Second Tradition: Domain}, {Sense the Savage Way}.
 [^5-2-19]: [ANK 20190708] [ANK 20171017] [ANK 20230305] [LSJ 20080611] [ANK 20210131] — {Hard Case}, {Faceless Night}, {Crypt's Sons}.
 [^5-2-20]: [ANK 20191204] [ANK 20200714] [TOM 19951007] [LSJ 19991025] — {Mirror Walk}, {Ohoyo Hopoksia (Bastet)}, {Alexandra}.
 [^5-2-21]: [PIB 20121031] [LSJ 20010508] [ANK 20210322-2] [LSJ 19970707] — {Anarch Troublemaker}, {Brujah Debate}, {Nightmares upon Nightmares}, {Glutton}.
@@ -3717,8 +3688,8 @@ and play cards until it arrives, e.g. {Watenda}, {Revelation of Wrath}.[^5-3-2] 
 keyed to the opponent going to torpor is not part of the strike that caused it, so it
 fires even when that strike was dodged, e.g. {Garrote}.[^5-3-2]
 
-No effect may bring a vampire on its way to torpor into a new combat, e.g. {Hidden Lurker},
-{Psyche!}. A combat already queued still occurs though its player went to torpor.[^5-3-3]
+A vampire on its way to torpor is not ready for a new combat, though a combat already
+queued still occurs ([§4.9.3](#493-queuing-a-new-combat)).[^5-3-3]
 
 **Delayed torpor.** The {Undying Tenacity} / {Undead Persistence} template pushes torpor to
 after combat; the vampire stays wounded and remains burnable.[^5-3-4] Everything else that
@@ -3733,12 +3704,13 @@ played there.[^5-3-5]
 
 #### 5.3.2 What a torpid vampire can still do
 
-Abilities printed on cards in play remain usable in torpor; §1.5 owns the rule. Printed
+Abilities printed on cards in play remain usable in torpor; see [§1.5](#15-abilities-and-card-plays) for the rule. Printed
 effects that merely apply do so too, e.g. {Nahir}'s hand size, as does a trigger keyed to
-the end of combat, e.g. {Amelia, The Blood Red Tears}.[^5-3-6] A referendum ability usable
-while locked or in torpor is still limited to once per referendum.[^5-3-7]
+the end of combat, e.g. {Amelia, The Blood Red Tears}.[^5-3-6] Referendum abilities from
+torpor are [§3.7.6.4](#3764-locked-and-torpid-vampires)'s.
 
-Torpor bars reaction cards, not combat cards. A combat card requiring an *unlocked* vampire
+Torpor bars reaction cards — absent the card's own printed permission — but not combat
+cards. A combat card requiring an *unlocked* vampire
 not involved in the combat may be played from torpor, since a torpid vampire unlocks as
 normal — e.g. {Save Face}, {Martyr's Resilience}.[^5-3-8] A requirement naming a *ready*
 vampire is not met, and a reaction stays barred even where the vampire reached torpor
@@ -3746,8 +3718,9 @@ during the combat that followed his block, e.g. {Cats' Guidance}.[^5-3-9]
 
 A vampire acting from torpor — leaving torpor, or acting through an effect that does not
 require readiness, e.g. {Madness Network} — plays action modifiers as normal, e.g.
-{The Kiss of Ra}.[^5-3-10] Modifiers usable after combat may also be played from torpor,
-e.g. {Freak Drive}.[^5-3-11]
+{The Kiss of Ra} on the leave-torpor action itself; a torpid vampire plays no action
+modifier during another minion's action, e.g. {Make an Example}.[^5-3-10] Modifiers usable
+after combat may also be played from torpor, e.g. {Freak Drive}.[^5-3-11]
 
 #### 5.3.3 Torpid vampires as objects
 
@@ -3764,10 +3737,10 @@ ongoing effect whose subject was chosen while ready keeps applying in torpor, an
 if that vampire leaves your control, e.g. {The Rack}.[^5-3-14]
 
 A change of controller does not change torpor: a stolen or defecting vampire stays in
-torpor [RBK glossaries].[^5-3-15] Allies have no torpor state (§5.5): an effect that would
+torpor [RBK glossaries].[^5-3-15] Allies have no torpor state ([§5.5](#55-allies)): an effect that would
 send an ally to torpor burns it instead, and one sending vampires to torpor leaves an
 opposing ally unaffected.[^5-3-16] Incapacitation is the imbued analogue, and abilities stay
-usable there too, e.g. {Abjure} (§5.7).[^5-3-16]
+usable there too, e.g. {Abjure} ([§5.7](#57-special-minion-classes--traits)).[^5-3-16]
 
 #### References
 
@@ -3777,10 +3750,9 @@ usable there too, e.g. {Abjure} (§5.7).[^5-3-16]
 [^5-3-4]: [LSJ 20020211] [LSJ 20021122] [LSJ 20090622-2] [RTR 20020501] [LSJ 20020505] — {Ashes to Ashes}, {Coma}, {Entombment}, {Rowan Ring}, {Rabbat, The Sewer Goddess}, {Seren Sukardi}, {Mummify}.
 [^5-3-5]: [LSJ 19970303] [LSJ 20030214] [ANK 20190624] — {Undead Persistence}, {Undying Tenacity}.
 [^5-3-6]: [LSJ 20011022] [LSJ 20100902-2] [ANK 20191218] [ANK 20200420-1] [LSJ 20010526] [LSJ 20010813-2] — group "Ability usable in torpor" (G00027), {Nahir}, {Amelia, The Blood Red Tears}, {Alvaro, The Scion of Angelica}, {Lord Tremere}, {Wamukota}, {Marciana Giovanni, Investigator}.
-[^5-3-7]: [ANK 20220705] [LSJ 20100705] [ANK 20180307-2] [RBK wording-templates] — group "Unconditional referendum ability" (G00039), {Montano}, {Paul Forrest, False Prophet}, {Toby}.
 [^5-3-8]: [LSJ 20020416] [RBK torpor] — {Save Face}, {Martyr's Resilience}, {Bliss}, {Nosferatu Putrescence}.
-[^5-3-9]: [LSJ 20000103] [PIB 20150720] [RTR 19970306] — {Cats' Guidance}, {Make an Example}.
-[^5-3-10]: [LSJ 19970325] [RTR 19950509] [RTR 20010710] — {The Kiss of Ra}, {Madness Network}, {Blood Brother Ambush}.
+[^5-3-9]: [PIB 20150720] [RTR 19970306] — {Cats' Guidance}, {Make an Example}.
+[^5-3-10]: [LSJ 19970325] [RTR 19950509] [RTR 20010710] [RTR 19970306] [RBK torpor] — {The Kiss of Ra}, {Madness Network}, {Blood Brother Ambush}, {Make an Example}.
 [^5-3-11]: [RTR 19980623] [LSJ 20030103] [ANK 20180906] [ANK 20181219] — group "Modifier after combat" (G00007), {Freak Drive}.
 [^5-3-12]: [LSJ 20091203] [ANK 20240610] [RBK unlock-phase] — {Emergency Powers}, {Barrenness}, {Evil Eye}, {High Orun}.
 [^5-3-13]: [PIB 20150522] [LSJ 20010610] [ANK 20210109] — {Blood Doll}, {Vessel}, {Secure Haven}, {Fear of Mekhet}.
@@ -3809,8 +3781,8 @@ holds when the card's controller is not the combatant — the vampire playing {B
 Ambush} has not burned a minion, but the opposing minion has.[^5-4-2]
 
 Outside combat, the acting minion burned it only when the action's own effect did: damage
-inflicted, or blood or life taken, by the action. An ally that burns as a result of a Ⓓ
-action is burned by that action, so Trophy cards and {Predator's Transformation} trigger,
+inflicted, or blood or life taken, by the action. An ally that burns as a result of a
+directed action is burned by that action, so Trophy cards and {Predator's Transformation} trigger,
 e.g. {Brick Laying}, {Cryptic Mission}, {Succubus}.[^5-4-3] A minion burned for any other
 reason — a referendum result, a cost paid, its own ability, its last life spent — was not
 burned by the acting minion, and cards keyed to "when this vampire burns a minion" do not
@@ -3832,7 +3804,7 @@ gains no blood off {Byzar}.[^5-4-6] An instruction or condition to burn a minion
 satisfied — {Byzar}'s controller may still burn him to burn a {Judgment: Camarilla
 Segregation}.[^5-4-6] Such a replacement takes effect before anything triggering on the
 burn, e.g. {Soul Gem of Etrius}; a competing replacement may still be played first, by
-normal sequencing (§2.3).[^5-4-6]
+normal sequencing ([§2.3](#23-after-resolution-and-after-combat)).[^5-4-6]
 
 An effect that saves a minion by ending combat cannot reach a burn that occurs as combat
 ends, e.g. {Heaven's Gate} and {Left for Dead} cannot save an {Escaped Mental Patient}
@@ -3843,11 +3815,11 @@ fire.[^5-4-6]
 
 A minion on its way out of play is still in play and may still play cards, e.g.
 {Revelation of Wrath}.[^5-4-7] A burn from a blood hunt referendum opens no such window:
-{Abandoning the Flesh} cannot be played against it (§3.7.8 owns the blood hunt).[^5-4-7]
+{Abandoning the Flesh} cannot be played against it (see [§3.7.8](#378-diablerie-and-the-blood-hunt) for the blood hunt).[^5-4-7]
 
 #### References
 
-[^5-4-1]: [ANK 20210813] [PIB 20130128-2] [LSJ 20100325-2] [LSJ 20040616] [ANK 20230317] [RBK important-terms-in-the-game] [RBK contested-cards] — {Blessed Resilience}, {Khazar's Diary (Endless Night)}, {Chain of Command}, {Unleash Hell's Fury}.
+[^5-4-1]: [ANK 20210813] [PIB 20130128-2] [LSJ 20100325-2] [LSJ 20040616] [ANK 20230317] [RBK important-terms-of-the-game] [RBK contested-cards] — {Blessed Resilience}, {Khazar's Diary (Endless Night)}, {Chain of Command}, {Unleash Hell's Fury}.
 [^5-4-2]: [LSJ 20090922] [ANK 20220916] [LSJ 20100527] — {Draught of the Soul}, {Soul Stealing}, {Taking the Skin: Minion}, {Blood Brother Ambush}, {Conscripted Statue}, {FBI Special Affairs Division}.
 [^5-4-3]: [ANK 20220507] [LSJ 20080608] — {Brick Laying}, {Cryptic Mission}, {Succubus}, {Consignment to Duat}, {Horseshoes}, {Jar the Soul}, {Keystone Kine}, {Smash and Grab}, {Abyssal Hunter}.
 [^5-4-4]: [RTR 19960124] [LSJ 20090922] [ANK 20181022] [ANK 20220916] — {Taking the Skin: Minion}, {Soul Stealing}, {Draught of the Soul}.
@@ -3889,7 +3861,7 @@ ally.[^5-5-3]
 An ally that can play cards as a vampire may play any card its own text admits, not only
 Discipline cards, e.g. {Shadow Court Satyr} playing {Taste of Vitae}. It may call a
 referendum listed on a political action card in hand, e.g. {Herald of Topheth} with
-{Charming Lobby}. It cannot commit diablerie (§3.7.8), e.g. {Amaranth}. An ally granted a
+{Charming Lobby}. It cannot commit diablerie ([§3.7.8](#378-diablerie-and-the-blood-hunt)), e.g. {Amaranth}. An ally granted a
 single Discipline cannot play a card requiring two or more, and the Discipline level it
 came into play with fixes which version it uses for good.[^5-5-4]
 
@@ -3903,14 +3875,14 @@ plays Discipline cards.[^5-5-5]
 Life pays for the card, so spending the last life burns the ally mid-play. An action
 modifier played with the last life fails; a strike played with the last life ends combat
 before strike resolution; but a cost paid for an action still resolves the action fully,
-and an oust resolves before the effects triggered by the burn.[^5-5-6]
+and the oust order is [§6.5.2](#652-when-the-oust-resolves)'s.[^5-5-6]
 
 #### 5.5.4 Entering play and acting
 
 A recruited ally cannot act the turn it enters play; one brought into play by other means
 can [RBK recruit-ally]. The keyword decides it: cards that make a minion **recruit** an
 ally leave it unable to act that turn, e.g. {The Summoning}, {Piper}; cards that **put** it
-in play do not, e.g. {Summon History}, {Khazar's Diary (Endless Night)} (§1.6).[^5-5-7]
+in play do not, e.g. {Summon History}, {Khazar's Diary (Endless Night)} ([§1.6](#16-requirements)).[^5-5-7]
 
 An ally whose text lets it act the turn it is recruited still acts only in your minion
 phase, so recruiting it on an opponent's turn gives it no action, e.g. {Nocturn},
@@ -3918,7 +3890,7 @@ phase, so recruiting it on an opponent's turn gives it no action, e.g. {Nocturn}
 
 An effect triggered by the ally entering play applies however it entered. {War Ghoul} burns
 one of your allies or retainers on entry, and burns itself if you control none, even when
-put into play abnormally — it is an on-entry effect, not a recruit requirement, so §1.6's
+put into play abnormally — it is an on-entry effect, not a recruit requirement, so [§1.6](#16-requirements)'s
 bypass does not reach it. Abilities keyed on an ally being "recruited" cover non-standard
 recruitment routes, e.g. {Sébastien Goulet} with {Piper}.[^5-5-9]
 
@@ -3983,19 +3955,14 @@ phase.[^5-6-3]
 #### 5.6.5 Entering play
 
 A retainer is usable the turn it is employed; the "cannot act this turn" restriction is on
-recruited allies [RBK recruit-ally]. An ally recruited by a card effect still cannot act
-that turn, e.g. {Piper}, {The Summoning} at [PRE].[^5-6-4] An ally put into play rather
-than recruited can act that turn, e.g. {Summon History}.[^5-6-4]
-
-Text letting a minion act the turn it is recruited does not let it act on an opponent's
-turn when it was recruited then, e.g. {Nocturn}, {Infernal Servitor}.[^5-6-4]
+recruited allies, [§5.5.4](#554-entering-play-and-acting)'s.[^5-6-4]
 
 #### References
 
 [^5-6-1]: [TOM 19951114] [LSJ 20080210] [ANK 20171003] [RTR 19941109] [RTR 19960112] — {Ghoul Retainer}, {Jar of Skin Eaters}, {Spiritual Protector}, group "Retainer that strike" (G00029).
 [^5-6-2]: [ANK 20180612] [ANK 20211127] [LSJ 20090616] — group "Retainer doing damage" (G00016), {Bestial Vengeance}.
 [^5-6-3]: [LSJ 20090324] [LSJ 20010303] [LSJ 19970224] — {Detect Authority}, {Shadow Twin}, {Camarilla Vitae Slave}.
-[^5-6-4]: [LSJ 20080630] [RTR 20180303] [LSJ 20100204] [LSJ 20080426] [ANK 20200813-3] [ANK 20200930] [RBK recruit-ally] — {Piper}, {Summoning, The}, {Summon History}, {Khazar's Diary (Endless Night)}, {Nocturn}, {Infernal Servitor}.
+[^5-6-4]: [RBK recruit-ally] — rulebook template.
 
 ### 5.7 Special minion classes & traits
 
@@ -4010,7 +3977,7 @@ an ally, neither a slave nor a Gargoyle.[^5-7-1] An effect naming a subtype, e.g
 #### 5.7.2 Slaves
 
 A slave locking to take a blocked clan member's place cancels the combat, unlocks the
-acting vampire, and enters a new combat with the blocker ([RBK traits]); §3.5 owns
+acting vampire, and enters a new combat with the blocker ([RBK traits]); see [§3.5](#35-action-repetition-nra-and-canceled-actions) for
 canceled combats. The slave becomes the combatant but never the acting minion.[^5-7-2]
 It cannot play a card whose use requires it to be acting, e.g. {Shadow Boxing} at
 [OBF][POT], and the blocker cannot play a card requiring the opposing minion to be the
@@ -4026,7 +3993,7 @@ It is not tied to the unlock step: a minion locked by another effect during that
 can still be unlocked by paying, e.g. {Nightmares upon Nightmares}.[^5-7-3] An effect
 keyed to unlocking *with the infernal trait* does not fire on any other unlock effect,
 e.g. {Ruins of Charizel}.[^5-7-3] A card in play requiring an infernal vampire is
-satisfied by one in torpor; §1.6 owns requirements on cards already in play.
+satisfied by one in torpor; see [§1.6](#16-requirements) for requirements on cards already in play.
 
 #### 5.7.4 Black Hand
 
@@ -4034,7 +4001,7 @@ Black Hand is a trait, not a title, and is unrelated to sect: a vampire printed 
 Hand keeps it through a sect change.[^5-7-4] A card that confers the trait writes it on a
 *Sabbat* vampire, so the grant stops applying if he ceases to be Sabbat, e.g. {Cadet},
 {Mustajib}.[^5-7-4] A vampire who gains the trait by resolving an action has it for cards
-played after that resolution, e.g. {Seraph's Second} (§5.9).[^5-7-4]
+played after that resolution, e.g. {Seraph's Second} ([§5.9](#59-traits-and-trait-changes)).[^5-7-4]
 
 #### 5.7.5 Imbued
 
@@ -4050,7 +4017,7 @@ such an effect compares capacity blind, read the starting life as the capacity.[
 
 Incapacitation is neither burning nor torpor, so effects keyed to either do not fire,
 e.g. {Tension in the Ranks} burns no pool.[^5-7-7] An incapacitated Imbued is still in
-play and may be locked to play a card, e.g. {Abjure} (§5.3).[^5-7-7] A card that rewrites
+play and may be locked to play a card, e.g. {Abjure} ([§5.3](#53-torpor)).[^5-7-7] A card that rewrites
 the minion's subtype ends the class outright: an Imbued returned as a zombie ally by
 {Pressing Flesh} has no creed, gains no conviction and cannot use virtues.[^5-7-7]
 
@@ -4065,10 +4032,17 @@ Cult Awareness Network} reads it the same way.[^5-7-8] A restriction on cards *r
 a discipline reaches only the option actually used, so a True Brujah may play a
 multi-discipline card for a non-[cel] option.[^5-7-8] A [FLIGHT] restriction reads the
 object of the effect, not its controller: a ranged strike barred against a flying minion
-still reaches a retainer that minion employs, e.g. {Earthshock} (§5.6).[^5-7-8]
+still reaches a retainer that minion employs, e.g. {Earthshock} ([§5.6](#56-retainers)).[^5-7-8]
 
 An effect that required a class when it applied keeps applying after the class lapses,
-e.g. {Concordance} on a vampire that stops being infernal (§2.5, §5.9).[^5-7-9]
+e.g. {Concordance} on a vampire that stops being infernal ([§2.5](#25-duration-and-persistence), [§5.9](#59-traits-and-trait-changes)).[^5-7-9]
+
+#### 5.7.7 Blood Brother circles
+
+A vampire with no printed circle is in his own circle of one, and vampires sharing a
+name do not share a circle. Two uncontrolled copies of {Angelo} or {New Blood} are
+therefore in different circles, so an effect reading "the same circle" requires choosing
+one; a vampire created by {The Embrace} is likewise in a circle of his own.[^5-7-10]
 
 #### References
 
@@ -4081,6 +4055,7 @@ e.g. {Concordance} on a vampire that stops being infernal (§2.5, §5.9).[^5-7-9
 [^5-7-7]: [LSJ 20060409-2] [LSJ 20081016] [LSJ 20100211] [RBK appendix-imbued-rules] — {Tension in the Ranks}, {Abjure}, {Pressing Flesh}.
 [^5-7-8]: [LSJ 20011015] [LSJ 20030511] [LSJ 20060815] [LSJ 20011212] [LSJ 20060509] [LSJ 20050322-2] — group "Scarce" (G00043), group "True Brujah" (G00041), {Clan Impersonation}, {Call the Great Beast}, {Earthshock}.
 [^5-7-9]: [LSJ 20090207] [LSJ 20100212] [LSJ 20081120-1] [LSJ 20091016] [LSJ 20100226] — {Concordance}, {Cry Wolf}, {Vidal Jarbeaux}.
+[^5-7-10]: [LSJ 20020609] [ANK 20211113] [LSJ 20050927] [LSJ 20091012] — group "Circle" (G00003), {Angelo}, {New Blood}, {Hermana Hambrienta Mayor}.
 
 ### 5.8 Titles
 
@@ -4098,21 +4073,21 @@ A contested title-providing card is turned face down out of play, and any action
 
 Effects keyed to a title are re-evaluated continuously. Capacity granted by a title is lost with the title. A card keyed to its bearer's title stops working when the title goes and resumes if it returns, e.g. {The Treatment}. An effect conditioned on the vampire being untitled is suppressed while he holds a title, e.g. {Bloodbath}.[^5-8-6]
 
-Votes granted by an ability are not a title. The vampire remains untitled, so an ability conditioned on his being untitled keeps working, e.g. {Gerald Windham}, {Xeper, Sultan of Lepers}.[^5-8-7] §1.15 owns how such votes combine with a title gained later.
+Votes granted by an ability are not a title. The vampire remains untitled, so an ability conditioned on his being untitled keeps working, e.g. {Gerald Windham}, {Xeper, Sultan of Lepers}.[^5-8-7] See [§1.15](#115-cumulative-and-stacking-effects) for how such votes combine with a title gained later.
 
-A vampire who leaves play and returns remembers titles gained and lost, e.g. after {Banishment} or a contest (§2.5).[^5-8-8]
+A vampire who leaves play and returns remembers titles gained and lost ([§6.4.1](#641-set-aside-out-of-play--the-card-remembers-everything)).[^5-8-8]
 
-A representation of a titled vampire uses that title's votes even while another instance of the title is in play; it does not contest (§1.4).[^5-8-21]
+A representation of a titled vampire uses that title's votes even while another instance of the title is in play; it does not contest ([§1.4](#14-representation-and-placeholders)).[^5-8-21]
 
 #### 5.8.2 Off-sect and off-clan titles
 
-A vampire whose sect becomes inappropriate for his title loses its benefit: he gets no vote, is not considered titled, and yields the title immediately if it is contested or if he receives a new one. The benefit returns when his sect becomes appropriate again.[^5-8-9] The rule is trait-general — an inappropriate clan change does the same, e.g. {Clan Impersonation}, {Derange}.[^5-8-10] §5.9 governs which of two competing trait changes stands, and §5.9 owns the "is considered" override that {Writ of Acceptance} applies.
+A vampire whose sect becomes inappropriate for his title loses its benefit: he gets no vote, is not considered titled, and yields the title immediately if it is contested or if he receives a new one. The benefit returns when his sect becomes appropriate again.[^5-8-9] The rule is trait-general — an inappropriate clan change does the same, e.g. {Clan Impersonation}, {Derange}.[^5-8-10] [§5.9](#59-traits-and-trait-changes) governs which of two competing trait changes stands, and see [§5.9](#59-traits-and-trait-changes) for the "is considered" override that {Writ of Acceptance} applies.
 
 Mass sect-removal events apply the same rule to every holder, e.g. {Fall of the Camarilla}.[^5-8-11] Losing the benefit strips the title's votes and ballots but not the referendum structures the title defines: under {Fall of the Sabbat} the priscus subreferendum still happens, and a printed bonus ballot not granted by the title still applies, e.g. {Gratiano}.[^5-8-12]
 
 An ability that grants its bearer a title cannot be used once he is off-sect: {Horatio Ballard} cannot call the referendum to become Prince of Chicago while Independent.[^5-8-13]
 
-A card that puts a title on a vampire of a named sect has no legal target when no such vampire is in play, and cannot be played (§3.1).[^5-8-14]
+A card that puts a title on a vampire of a named sect has no legal target when no such vampire is in play, and cannot be played ([§3.1](#31-announcement-and-targets)).[^5-8-14]
 
 #### 5.8.3 How requirements read titles
 
@@ -4120,15 +4095,17 @@ A requirement naming a sect-restricted title is also a requirement for that sect
 
 A title inside a vampire's name is not a title: {The Baron} cannot play cards requiring a baron.[^5-8-16] A permission a card extends to Anarchs does not make the action one "requiring an Anarch", e.g. {Club Illusion}.[^5-8-17]
 
-A title is a vampire trait (§5.7), so a card that fakes vampire traits reaches title requirements, e.g. {Vidal Jarbeaux}.[^5-8-22]
+A title is a vampire trait ([§5.7](#57-special-minion-classes--traits)), so a card that fakes vampire traits reaches title requirements, e.g. {Vidal Jarbeaux}.[^5-8-22]
 
-A vampire who can meet title requirements ({Vlad Tepes}, {Vidal Jarbeaux}, {Kemintiri}) is also considered a member of the title's underlying sect. The controller chooses how each requirement is met — any city, even an invented one — and each title may be used only once per game. Required to be "a titled vampire", he must name a title, and may choose the generic "X votes" title only once.[^5-8-18]
+A vampire who can meet title requirements ({Vlad Tepes}, {Vidal Jarbeaux}, {Kemintiri}) is also considered a member of the title's underlying sect; the controller chooses how each requirement is met — any city, even an invented one.[^5-8-18] {Vidal Jarbeaux}'s own text additionally caps each requirement at once per game: required to be "a titled vampire" he must name a title, may use each title only once, and may choose the generic "X votes" title only once. A card canceled as it is played has still spent that use.[^5-8-23]
 
 Such a requirement can be met after the sect has ceased to exist, e.g. a Camarilla or justicar requirement under {Fall of the Camarilla}.[^5-8-19]
 
 Meeting a title requirement to call a political action grants none of that title's votes in the referendum.[^5-8-20]
 
-§1.6 owns the limits of requirement-faking: it substitutes only for the effects of the card played, only on a normal play, and only where the card prints the requirement ({Mata Hari}).
+Whether the ability reaches cards the Methuselah plays is per card: {Vidal Jarbeaux} meets requirements on master cards too; merged {Kemintiri} does not enable master card plays.[^5-8-24]
+
+See [§1.6](#16-requirements) for the limits of requirement-faking: it substitutes only for the effects of the card played, only on a normal play, and only where the card prints the requirement ({Mata Hari}).
 
 #### References
 
@@ -4149,9 +4126,11 @@ Meeting a title requirement to call a political action grants none of that title
 [^5-8-15]: [LSJ 20050128] [LSJ 20080603] — group "Require a Baron" (G00037); {CrimethInc.}, {Powerbase: Los Angeles}.
 [^5-8-16]: [PIB 20151116] — {The Baron}, {Baron Dieudonne}.
 [^5-8-17]: [ANK 20220317] — {Club Illusion}.
-[^5-8-18]: [LSJ 20050128] [PIB 20150306] [PIB 20150307] [ANK 20211019] — {Vidal Jarbeaux}, {Vlad Tepes}, {Kemintiri}.
-[^5-8-19]: [LSJ 20050124] [ANK 20230503] — {Vidal Jarbeaux}, {Vlad Tepes}, {Kemintiri}.
-[^5-8-20]: [ANK 20231221] — {Vidal Jarbeaux}, {Vlad Tepes}.
+[^5-8-18]: [LSJ 20050128] [PIB 20150306] [PIB 20150307] [LSJ 20050526] — {Vidal Jarbeaux}, {Vlad Tepes}, {Kemintiri}, {Mata Hari}.
+[^5-8-19]: [LSJ 20050124] [ANK 20230503] — group "Impersonating title for non-existent sect" (G00070).
+[^5-8-20]: [ANK 20231221] — group "Impersonating a title for political action" (G00069).
+[^5-8-23]: [ANK 20211019] [ANK 20200710] — {Vidal Jarbeaux}.
+[^5-8-24]: [LSJ 20091015] [PIB 20130128] [LSJ 20050721] — {Vidal Jarbeaux}, {Kemintiri}.
 [^5-8-21]: [LSJ 20030419] — {Illusions of the Kindred}.
 [^5-8-22]: [LSJ 20081120-1] [LSJ 20091016] [LSJ 20100226] — {Vidal Jarbeaux}.
 
@@ -4175,7 +4154,7 @@ underlying trait resurfaces. An effect writing one trait does not write another 
 Where two effects write the same trait, the most recent governs. This is not sect-specific:
 {Clan Impersonation} and {Derange} yield to whichever was played later, and
 {Nar-Sheptha} supersedes an earlier {Deep Song} on who is the acting minion.[^5-9-3]
-(§2.4 owns simultaneous effects; §3.10 owns acting-minion designation.)
+(See [§2.4](#24-simultaneous-effects-and-ordering) for simultaneous effects; see [§3.10](#310-changing-the-acting-minion) for acting-minion designation.)
 
 An override survives a later change to the *underlying* trait. A vampire with
 {Writ of Acceptance} who takes the rulebook action to become anarch is still Camarilla;
@@ -4192,9 +4171,9 @@ first.
 #### 5.9.3 Reading a changed trait
 
 A changed trait is the trait for all purposes, and effects keyed to it re-evaluate as it
-changes. Requirements are checked continuously while an action is in progress (§1.6): if
+changes. Requirements are checked continuously while an action is in progress ([§1.6.1](#161-when-a-requirement-is-checked)): if
 {The Red Question} makes the acting vampire Anarch during an action that required another
-sect, the action is successful but has no effect. {Ministry} grants its extra intercept
+sect, the action fizzles — successful but with no effect. {Ministry} grants its extra intercept
 only while the acting vampire is Sabbat, gained or lost mid-action; {Teresita, The
 Godmother} likewise, and she is not the minion whose sect changed. An effect applied after
 resolution reads the trait at that moment — {Warsaw Station} does not unlock an acting
@@ -4233,7 +4212,7 @@ or if he receives a new one.[^5-9-9]
 ### 6.1 Owner and controller
 
 **Base rules.** Ownership fixes which library, hand and ash heap a card belongs to.
-Control fixes who plays it, who chooses, and what an oust removes. [RBK important-terms-in-the-game]
+Control fixes who plays it, who chooses, and what an oust removes. [RBK important-terms-of-the-game]
 
 #### 6.1.1 Zones belong to the owner
 
@@ -4253,18 +4232,17 @@ A card leaves play to its **owner's** ash heap, hand or library, whoever control
 #### 6.1.2 Control decides what an oust removes
 
 An oust removes what the ousted Methuselah **controlled**. Cards he owns but does not
-control stay in play. [RBK important-terms-in-the-game]
+control stay in play. [RBK important-terms-of-the-game]
 
 A card put on a minion by another Methuselah's effect is controlled by that minion's
 controller, so it survives its player's oust, e.g. {Anathema}.[^6-1-2]
 
 Only printed text keeps control elsewhere. {Shackles of Enkidu} goes on the opposing
 minion but stays with the controller of the vampire that used it, and changes hands with
-that vampire.[^6-1-2] Taking control of a card already in play is §6.3's.
+that vampire.[^6-1-2] Taking control of a card already in play is [§6.3](#63-taking-control-of-a-card-in-play)'s.
 
 A vampire in the uncontrolled region belongs to his last permanent controller, who need
-not be his owner. He is removed from the game if that Methuselah is ousted, and stays in
-the game if only his owner is ousted, e.g. {Lay Low}, {Banishment}.[^6-1-2]
+not be his owner; what an oust then removes is [§6.5.3](#653-cards-of-an-ousted-methuselah)'s.[^6-1-2]
 
 #### 6.1.3 Control decides who plays and who chooses
 
@@ -4278,7 +4256,7 @@ controller still decides how the ally or retainer enters play, e.g. {Set's Call}
 
 A minion card is played by the Methuselah, not by the minion, so an effect reducing the
 cost of "a card you play" reaches it, e.g. {The Shard, London}.[^6-1-3] That Methuselah
-pays; §1.7 owns cost.
+pays; see [§1.7](#17-costs-and-payment) for cost.
 
 #### 6.1.4 Cards no one controls
 
@@ -4313,7 +4291,7 @@ It cannot be ordered among unlock effects, and the minion does not unlock that p
 {Malkavian Dementia}.[^6-2-1]
 
 A steal does not change the minion's lock state; a card that wants it unlocked prints the
-unlock, e.g. {Temptation}. Cards on the minion travel with it (§6.3).
+unlock, e.g. {Temptation}. Cards on the minion travel with it ([§6.3](#63-taking-control-of-a-card-in-play)).
 
 #### 6.2.2 Stealing mid-action and mid-combat
 
@@ -4323,7 +4301,7 @@ controller, if eligible and not yet declined, may still block with the stolen
 minion.[^6-2-2][^6-2-3]
 
 If the target no longer qualifies after the steal, the action still resolves, succeeds and
-is paid for, with no effect (§3.4).[^6-2-3] The same holds when the target empties the
+is paid for, with no effect ([§3.4](#34-resolution-success-and-effect)).[^6-2-3] The same holds when the target empties the
 action in response — {War Ghoul} locking and burning itself to burn a location.[^6-2-3]
 
 Stealing a minion that is attempting to block makes the block attempt fail.[^6-2-2]
@@ -4332,7 +4310,7 @@ Stealing the acting minion instead leaves the block standing and the blocker loc
 still to resolve resolves before control changes, e.g. {Temptation}.[^6-2-2]
 
 An effect that stops the control change stops only that. Counters burned to attempt the
-steal are not refunded, e.g. {The Diamond Thunderbolt} (§1.8 owns canceled costs).[^6-2-3]
+steal are not refunded, e.g. {The Diamond Thunderbolt} (see [§1.8](#18-playing-and-canceling-a-card) for canceled costs).[^6-2-3]
 
 #### 6.2.3 Return to the previous controller
 
@@ -4353,21 +4331,21 @@ return to a Methuselah who has been ousted, e.g. {Temptation}.[^6-2-5]
 
 If that return can no longer occur, control never reverts and the temporary controller keeps
 the minion indefinitely: {Parmenides} returns at his owner's next unlock phase, which an
-ousted owner never has.[^6-2-6] Permanent control reads the same way. A vampire permanently
-controlled by a Methuselah other than his owner is removed when that controller is ousted,
-and stays in play when only his owner is ousted, e.g. {Lay Low}.[^6-2-6]
+ousted owner never has.[^6-2-6] What an oust removes under permanent control is
+[§6.5.3](#653-cards-of-an-ousted-methuselah)'s.
 
 #### 6.2.5 Effects after a control change
 
 An effect that charges or credits "the controller" follows the new one: {Betrayer}'s pool
-loss is taken by whoever controls the named vampire.[^6-2-7] An optional effect on a minion
-is taken or declined by that minion's controller (§1.1), so the new controller of a stolen
-vampire decides whether it gains blood from {The Rack}.[^6-2-7]
+loss is taken by whoever controls the named vampire.[^6-2-7] Who takes or declines an
+optional effect follows the card's wording, not control of the card ([§1.1](#11-card-text-and-the-rules)): {The Rack}
+lets the chosen vampire gain blood, so the new controller of a stolen vampire decides
+whether it gains.[^6-2-7]
 
 A duration or use limit written against "your" turn or unlock reads against the current
-controller and is not refreshed by the control change. {Rutor's Hand} grants no extra
-unlock until a Methuselah begins a turn controlling the bearer; {Owain Evans, The Wanderer}
-is usable once per unlock phase even if control of him changes during it.[^6-2-7] An effect
+controller and is not refreshed by the control change: {Rutor's Hand} grants no extra
+unlock until a Methuselah begins a turn controlling the bearer, and a spent per-phase use
+stays spent ([§1.2.1](#121-how-often-an-effect-may-be-used)).[^6-2-7] An effect
 already generated survives the change: {Imposing Phantasm} returns the blood lost to damage
 even if the opposing minion has changed controller.[^6-2-7]
 
@@ -4378,8 +4356,8 @@ even if the opposing minion has changed controller.[^6-2-7]
 [^6-2-3]: [LSJ 20020725] [PIB 20121031] [LSJ 20070222-2] — {Temptation}, {War Ghoul}, {The Diamond Thunderbolt}.
 [^6-2-4]: [LSJ 20010119] [RTR 20020501] [LSJ 20030219] [LSJ 20040526] [RTR 20000501] [ANK 20210630] — {Temptation}, {Mind Rape}, {Spirit Marionette}, {Descent into Darkness}, {Lay Low}.
 [^6-2-5]: [LSJ 20081105] [ANK 20181110] — group "Temporary control" (G00001), {The Ailing Spirit}, {Temptation}, {Mind Rape}, {Spirit Marionette}.
-[^6-2-6]: [LSJ 20021111] [ANK 20200408-2] [ANK 20210630] [RBK ending-the-game] — {Parmenides}, {Lay Low}.
-[^6-2-7]: [RTR 19941109] [ANK 20200130-2] [LSJ 20031106] [LSJ 20040127] [ANK 20220525] — {Betrayer}, {The Rack}, {Rutor's Hand}, {Owain Evans, The Wanderer}, {Imposing Phantasm}.
+[^6-2-6]: [LSJ 20021111] [RBK ending-the-game] — {Parmenides}.
+[^6-2-7]: [RTR 19941109] [ANK 20200130-2] [LSJ 20031106] [ANK 20220525] — {Betrayer}, {The Rack}, {Rutor's Hand}, {Imposing Phantasm}.
 
 ### 6.3 Taking control of a card in play
 
@@ -4389,7 +4367,7 @@ Taking control of a card already in play is not playing it, so the card's requir
 not apply to the new controller.[^6-3-1] A vampire may steal a retainer whose discipline
 requirement it does not meet, e.g. {Far Mastery}, and a Methuselah may take a location
 whose requirement no minion of his satisfies, e.g. {New Management}.[^6-3-1] The card stays
-in play and works normally. §1.6 owns requirements and states this in one sentence.
+in play and works normally. See [§1.6](#16-requirements) for requirements; it states this in one sentence.
 
 #### 6.3.2 Where the card is placed
 
@@ -4412,7 +4390,7 @@ the face-down card on {Storage Annex}, and the new controller may use it.[^6-3-4
 master Discipline card is controlled by the Methuselah of the vampire that took it, e.g.
 {Ethan Locke}.[^6-3-4]
 
-Where a card goes when it later leaves play is set by ownership, not control; §6.1 owns it.
+Where a card goes when it later leaves play is set by ownership, not control; see [§6.1](#61-owner-and-controller) for it.
 
 #### 6.3.4 What does not move
 
@@ -4431,7 +4409,7 @@ Enochians} when the burn option is used.[^6-3-6] Otherwise the receiving Methuse
 the card at his first opportunity to play effects, after the acting Methuselah's other
 mandatory effects have applied.[^6-3-6] A controller who declares the end of his turn
 cannot then use the card, even where the transfer was overlooked and the card is still in
-front of him.[^6-3-6] §1.1 owns overlooked mandatory effects.
+front of him.[^6-3-6] See [§1.1](#11-card-text-and-the-rules) for overlooked mandatory effects.
 
 #### References
 
@@ -4459,7 +4437,7 @@ and a contested card on it drops out of the contest until it comes back.[^6-4-1]
 brought out of the uncontrolled region keeps its blood and its cards.[^6-4-1]
 
 Leaving play breaks temporary control effects: the vampire goes face down to its permanent
-controller, and so does the card that removed it.[^6-4-2] §6.2 owns control changes; if the
+controller, and so does the card that removed it.[^6-4-2] See [§6.2](#62-taking-control-of-minions) for control changes; if the
 permanent controller is ousted before the return condition is met, the current controller
 keeps it.[^6-4-2]
 
@@ -4467,7 +4445,7 @@ keeps it.[^6-4-2]
 
 A card that reaches the ash heap and comes back is a new card: continuous effects applied to
 it before are lost, e.g. {Possession}, and a returned ally or retainer is a new ally or
-retainer for all game purposes, e.g. {Compel the Spirit}.[^6-4-3] §3.5 owns the No Repeated
+retainer for all game purposes, e.g. {Compel the Spirit}.[^6-4-3] See [§3.5](#35-action-repetition-nra-and-canceled-actions) for the No Repeated
 Action consequence.
 
 #### 6.4.3 Effects aimed at a card that has left play
@@ -4487,7 +4465,7 @@ Effects the card already produced survive it leaving play. Counters it placed ke
 e.g. {Tegyrius, Vizier}'s allegiance counters.[^6-4-5] Conversely a card in play reaches
 only events after its arrival: {NRA PAC} does not affect equip actions performed before it
 entered play.[^6-4-5] An in-play effect card is removed when the Methuselah who played it is
-ousted (§6.5).
+ousted ([§6.5](#65-pool-the-edge-and-ousting)).
 
 #### 6.4.4 Leaving the ready region as a trigger
 
@@ -4506,7 +4484,7 @@ returns as the unlock phase begins and unlocks as normal; a contested unique won
 turns face up during the next unlock phase.[^6-4-8]
 
 A card carrying a "do not replace until" clause is still not replaced until the condition is
-met, even after the card itself is burned.[^6-4-9] §1.9 owns replacement timing.
+met, even after the card itself is burned.[^6-4-9] See [§1.9](#19-replacement) for replacement timing.
 
 #### References
 
@@ -4531,13 +4509,13 @@ when none was lost, e.g. {Dirty Little Secrets}.[^6-5-1]
 A gain never offsets a loss: where one effect grants then takes pool, a card keying on pool
 lost sees the loss, not the net, e.g. {Poison Pill} against {Ancient Influence}.[^6-5-2]
 
-A card's cost and its pool gain happen together, with no oust between: {The Eternals of
-Sirius} costs 4 and gains 5, so it is playable at 4 pool but not at 3.[^6-5-3]
+A card's cost and its pool gain happen together, with no oust between, and the printed cost
+must still be affordable, e.g. {The Eternals of Sirius} ([§1.7.1](#171-when-a-cost-is-paid), [§1.7.2](#172-cost-arithmetic)).[^6-5-3]
 
 A Methuselah obliged to pay more pool than she holds pays all of it and is ousted; the
 effect still happens, e.g. {Thanks for the Donation}. The shortfall is real: an effect
 saving her must cover the whole amount, not bring her to zero, e.g. {Life Boon}. A
-mandatory cost is paid even when paying ousts you (§1.1).[^6-5-4]
+mandatory cost is paid even when paying ousts you ([§1.1](#11-card-text-and-the-rules)).[^6-5-4]
 
 Withdrawal fails on any pool loss, including pool spent as a cost, and a later gain does
 not repair it [RBK ending-the-game].[^6-5-1]
@@ -4564,13 +4542,13 @@ Cards controlled by an ousted Methuselah are removed from the game, not burned, 
 triggers do not fire, e.g. {Charnas the Imp}; an ongoing effect such a card imposed is
 canceled with it, e.g. {The Meddling of Semsith}. A vampire in another Methuselah's
 uncontrolled region is removed if that Methuselah is ousted and stays if only its owner is,
-e.g. {Lay Low}; a stolen minion due to return to an ousted one is removed.[^6-5-8] §6.4
-owns control and §6.2 theft.
+e.g. {Lay Low}; a stolen minion due to return to an ousted one is removed.[^6-5-8] See [§6.4](#64-leaving-and-re-entering-play)
+for control and [§6.2](#62-taking-control-of-minions) for theft.
 
 Counters already placed on other Methuselahs stay active, e.g. {Shatter the Gate}. Leaving
 the ready region because your controller is ousted is still leaving the ready region, so
 effects keyed to that fire, e.g. {Priority Contract}. The minions are gone at once, so a
-later effect needing one has no object (§1.6): {Revelation of the Serpent} cannot unlock
+later effect needing one has no object ([§1.6](#16-requirements)): {Revelation of the Serpent} cannot unlock
 when the target is ousted by the bleed.[^6-5-9]
 
 #### 6.5.4 Victory points and the Edge
@@ -4589,7 +4567,7 @@ An effect moving or burning the Edge on an action applies at resolution, e.g. {S
 (after the referendum concludes, for a political action), {Hrothulf}. A minion stealing the
 Edge gets it even if the holder burned it during the action. A card that burns your own
 Edge does nothing if you no longer control it at resolution, while the rest of its text
-still applies (§3.4), e.g. {Enticement}. Legality is checked on announcement: the Edge
+still applies ([§3.4](#34-resolution-success-and-effect)), e.g. {Enticement}. Legality is checked on announcement: the Edge
 cannot be stolen while uncontrolled. "A new Methuselah gets the Edge" means one who did not
 have it, e.g. {Curse of Nitocris}.[^6-5-12]
 
@@ -4620,7 +4598,7 @@ action from your next master phase [RBK master-cards].
 Cancellation does not unwind the accounting. A canceled out-of-turn master still costs its
 player the master phase action against their next master phase, and that player still
 cannot play a second out-of-turn master before that phase.[^6-6-1] A canceled trifle
-grants no additional master phase action (§1.8 owns this).[^6-6-2]
+grants no additional master phase action (see [§1.8](#18-playing-and-canceling-a-card) for this).[^6-6-2]
 
 An additional master phase action handed to a Methuselah by a card effect is not that
 Methuselah's trifle bonus. A trifle they play afterwards still grants its one, e.g.
@@ -4640,14 +4618,14 @@ against your **next** master phase, and bars a second out-of-turn master until t
 
 An out-of-turn master is played from hand in the normal fashion, so it can be canceled as
 it is played. That holds where the card's text sends it from hand to the ash heap rather
-than into play, e.g. {Vox Senis}.[^6-6-5] §1.8 owns cancellation.
+than into play, e.g. {Vox Senis}.[^6-6-5] See [§1.8](#18-playing-and-canceling-a-card) for cancellation.
 
 #### 6.6.3 Master cards on minions
 
 A master card in play is controlled by the Methuselah who played it, even when it sits on
-another Methuselah's minion [RBK master-cards]. A choice the card's effect offers is made
-by the controller of the minion it is on, not by its own controller.[^6-6-6] §1.1 owns
-mandatory versus optional effects.
+another Methuselah's minion [RBK master-cards]. Who takes or declines a choice its effect
+offers follows the card's wording, not control of the card, e.g. {Perfectionist}
+([§1.1.1](#111-mandatory-and-optional-effects)).
 
 An upkeep printed as an alternative is a real choice, even when one branch burns the
 minion: {Ex Nihilo} lets the vampire's controller burn 1 blood or burn the vampire during
@@ -4655,10 +4633,9 @@ the master phase.[^6-6-7]
 
 #### 6.6.4 Abilities used during the master phase
 
-Periodicity reads off the wording (§1.5). An ability that costs a master phase action is
-usable once per action available, so extra master phase actions buy extra uses, e.g.
-{Nahir}.[^6-6-8] An ability framed by the phase itself is usable once per master phase,
-however many master cards are played in it, e.g. {Nonu Dis}.[^6-6-8]
+Periodicity reads off the wording: an ability that costs a master phase action is spent per
+action, one framed by the phase once per phase, e.g. {Nahir}, {Nonu Dis} — [§1.2.1](#121-how-often-an-effect-may-be-used)
+owns the templates.[^6-6-8]
 
 #### References
 
@@ -4669,7 +4646,6 @@ however many master cards are played in it, e.g. {Nonu Dis}.[^6-6-8]
 [^6-6-3]: [ANK 20170124] [LSJ 20090126] — {Wash}.
 [^6-6-4]: [PIB 20150524] [ANK 20191004] [RBK master-cards] — {Proxy Kissed}, {Synesios}.
 [^6-6-5]: [LSJ 20031201] — {Vox Senis}.
-[^6-6-6]: [ANK 20210309-3] — group "Master on vampire who can use it" (G00031).
 [^6-6-7]: [ANK 20220503] — {Ex Nihilo}.
 [^6-6-8]: [ANK 20191218] [ANK 20220617] — {Nahir}, {Nonu Dis}.
 
@@ -4692,14 +4668,12 @@ A library card that becomes a vampire stays a vampire if moved to the uncontroll
 and can be influenced normally, e.g. {Creation Rites}.[^6-7-2]
 
 Cards and counters on a vampire moved to the uncontrolled region stay with it, out of play,
-and return with it, e.g. {Banishment}, {Thicker than Blood}.[^6-7-2] A card that changes its
-capacity does not apply while it is uncontrolled, but blood above the modified capacity does
-not drain off: the capacity effect resumes as it is controlled again.[^6-7-2] What else a
-vampire remembers across leaving and re-entering play is §6.4.
+and return with it, e.g. {Banishment}, {Thicker than Blood}.[^6-7-2] Suspended capacity
+modifiers are [§5.1.1](#511-capacity)'s; what else the vampire remembers is [§6.4](#64-leaving-and-re-entering-play)'s.
 
 A vampire moved to the uncontrolled region while under a temporary control effect goes to
-its **last permanent controller's** region, which need not be the owner's. It is removed
-from the game if that Methuselah is ousted, e.g. {Banishment}, {Lay Low}.[^6-7-3]
+its **last permanent controller's** region, which need not be the owner's, e.g.
+{Banishment}, {Lay Low}; ousts are [§6.5.3](#653-cards-of-an-ousted-methuselah)'s.[^6-7-3]
 
 #### 6.7.2 Influencing out
 
@@ -4708,13 +4682,13 @@ any moment during its controller's influence phase, not only at the end.[^6-7-4]
 
 Excess blood drains off as it enters play — before a contest is entered, and before any
 "as he enters play" effect is played.[^6-7-4] A vampire may be influenced out into a
-contest it will lose; §1.13 owns contests.[^6-7-4]
+contest it will lose; see [§1.13](#113-contests) for contests.[^6-7-4]
 
 #### 6.7.3 Transfers and the influence-phase window
 
 The number of transfers is fixed when the phase begins. A vampire influenced out during the
 phase adds no transfers to it, e.g. {Ingrid Rossler}.[^6-7-5] Its other abilities are usable
-for the remainder of that phase, e.g. {Angela Preston}; §1.5 owns the general rule.[^6-7-5]
+for the remainder of that phase, e.g. {Angela Preston}; see [§1.5](#15-abilities-and-card-plays) for the general rule.[^6-7-5]
 
 An effect granting an extra transfer may be used at any moment during the phase, not only
 before the first transfer is spent, e.g. {Ennoia's Theater}.[^6-7-5]
@@ -4730,14 +4704,14 @@ lost them all, may still use effects that add blood to uncontrolled vampires, e.
 #### 6.7.4 Cards that require an uncontrolled vampire
 
 A card whose play clause names a vampire in the uncontrolled region cannot be played with
-no qualifying vampire there; the vampire is chosen on announcement (§3.1), e.g.
+no qualifying vampire there; the vampire is chosen on announcement ([§3.1](#31-announcement-and-targets)), e.g.
 {Undue Influence}, {Break the Bonds} at [pre].[^6-7-6] The same bars an ability worded that
 way, e.g. {Lázár Dobrescu}.[^6-7-6]
 
 A clause that only describes what the effect does to the region is not a play requirement.
 {Social Ladder} may be played with no older vampire in the uncontrolled region; its
-influence-phase clause then removes the ready vampire and the blood is lost.[^6-7-6] §1.6
-owns the no-effect boundary.
+influence-phase clause then removes the ready vampire and the blood is lost.[^6-7-6] See [§1.6](#16-requirements)
+for the no-effect boundary.
 
 #### References
 
@@ -4765,22 +4739,21 @@ against {Raptor} makes the opponent draw up, then discard again.[^6-9-1]
 A hand-size bonus can be taken more than once in a turn if you have more than one master
 phase action, e.g. {Edward Neally}.[^6-9-2] It lasts as long as its source is in play:
 {The Meddling of Semsith} keeps reducing your hand size after the chosen Methuselah is
-ousted, and {Nahir}'s bonus survives her going to torpor (§5.3).[^6-9-2] A card in play
+ousted, and {Nahir}'s bonus survives her going to torpor ([§5.3](#53-torpor)).[^6-9-2] A card in play
 that draws or raises your hand size may be used during an action, at any point where its
 controller may play a card, e.g. {The Barrens}, {Dreams of the Sphinx}.[^6-9-2]
 
 #### 6.9.2 The discard phase
 
 "Until end of turn" durations expire in the discard phase. The acting Methuselah orders
-that expiry against other discard-phase effects under normal sequencing (§2.4), e.g.
+that expiry against other discard-phase effects under normal sequencing ([§2.4](#24-simultaneous-effects-and-ordering)), e.g.
 {Dreams of the Sphinx}.[^6-9-3] Discard-phase effects apply before an ally taken until end
 of turn goes back; an ally you already lost control of does not go back at all.[^6-9-3]
 
 Each discard phase action carries its own use of an ability keyed to one, e.g.
-{Josef von Bauren} (§1.5 owns the once-per-window rule).[^6-9-3] A Methuselah ousted during
-their turn gets no discard phase — the next turn begins at once and cards left unreplaced
-are never replaced (§6.5).[^6-9-3] A discard imposed by an action card lands after the
-action resolves and after any combat it caused (§2.3).[^6-9-3]
+{Josef von Bauren} (see [§1.5](#15-abilities-and-card-plays) for the once-per-window rule).[^6-9-3] A Methuselah ousted during
+their turn gets no discard phase ([§6.5.2](#652-when-the-oust-resolves)).[^6-9-3] A discard imposed by an action card lands after the
+action resolves and after any combat it caused ([§2.3](#23-after-resolution-and-after-combat)).[^6-9-3]
 
 #### 6.9.3 Draw and discard mechanics
 
@@ -4788,7 +4761,7 @@ When an effect discards several cards, all discards are made at once and replace
 afterwards, e.g. {Ruxandra}.[^6-9-4] Replacement draws therefore cannot be fed back in as
 further discards.[^6-9-4] An effect that redirects the discarded cards acts only once every
 discard and redraw is done, e.g. {Rachel Brandywine} shuffling them back.[^6-9-4] A discard
-you cannot make in full is made as far as you can (§1.7).[^6-9-4]
+you cannot make in full is made as far as you can ([§1.7](#17-costs-and-payment)).[^6-9-4]
 
 "Draw, then discard" does not restrict the discard to the cards just drawn; discard any
 card in hand.[^6-9-5] A trigger reading "each time you replace a card" sees every
@@ -4807,7 +4780,7 @@ while searching, e.g. {Vast Wealth}, and no one sees a card drawn as replacement
 goes to hand, e.g. {Ashur Tablets}.[^6-9-6] An effect that reads a hand after the
 replacement draw sees it without one when the replacement is delayed, e.g. {Troglodytia}
 against a master card canceled by {Wash}; an optional extra draw is decided after the
-normal replacement has been seen, e.g. {Learjet} (§1.9 owns replacement timing).[^6-9-6]
+normal replacement has been seen, e.g. {Learjet} (see [§1.9](#19-replacement) for replacement timing).[^6-9-6]
 
 #### References
 
