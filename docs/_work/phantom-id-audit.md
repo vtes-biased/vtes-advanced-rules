@@ -27,6 +27,19 @@ are now printed on {Extortion}, {Pack Alpha}, {White Lily} respectively, the lat
 also covered by G00131's surviving ruling) and were dropped from [^1-5-4]/[^1-6-7].
 12 markers remain, in §§2.3, 3.2, 3.3⚠, 3.4, 4.5, 4.8, 4.9, 5.2⚠, 5.3, 5.5, 1.14/3.1.
 
+**Final disposition (2026-07-21, owner instruction — no phantom citations remain):**
+every reference ID without a findable link was removed from the document. Three whose
+original rulings are verified live were kept and linked directly instead of removed:
+`ANK 20210309-3` (vekn.net thread 79065), `ANK 20180110` (vekn.net thread 76362),
+`LSJ 20110419` (boardgamegeek thread 643948) — these were the sole support of their
+footnotes, so linking preserved the citations. The other 11 (`ANK 20180117`,
+`ANK 20190628`, `LSJ 19970303`, `LSJ 19980823`, `LSJ 19990405` ⚠, `LSJ 20020125`,
+`LSJ 20021216`, `LSJ 20070203` ⚠, `LSJ 20070327`, `PIB 20151101`, `TOM 19950620`) were
+removed; each of their footnotes retains at least one valid linked ID. The two ⚠ rules
+flags ({Arika}, {Archon Investigation}) stay open as rules checks: the citations are
+gone but the document sentences they propped up are still in place — tracked in
+WORKING-NOTES open items.
+
 **Snapshot / commit hashes:** pinned submodule commit `c88db835d42d836a369a7e9668a80c8e328c2320`
 (2026-07-19, branch `main`) — this **is already `origin/main` HEAD** (`git fetch origin`
 confirmed no newer commit exists upstream). `references.yaml` has 1,549 entries;

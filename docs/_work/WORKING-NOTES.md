@@ -65,13 +65,12 @@ sessions from re-deriving settled things.
    (§1.1/§1.8/§1.9/§4.2 cross-reference it as though §1.6 defines it — verify whether
    the R-017 pass already cured this); heading style drift ("&" vs "and": §4.5/§5.7/§6.9
    vs §6.1; §4.7 should match the game term capitalization "Strike: Combat Ends").
-4. **Phantom reference IDs** — see `phantom-id-audit.md`. The remaining markers are
-   deliberate (each may prop up a retracted nuance; do not drop mechanically). Two ⚠
-   rules flags need a real rules check: {Arika} `LSJ 19990405` (surviving rulings look
-   reversed, one tagged [REVERSAL] ANK 20250121) and {Archon Investigation}
-   `LSJ 20070203` (possible timing change). Some orphaned footnotes were since resolved
-   in rulemonger fix cycles — `.claude/references/rulemonger/resolutions.md` is the
-   running record.
+4. **Two ⚠ rules checks left over from the phantom audit.** The phantom citations
+   themselves are gone (2026-07-21: three linked to their live originals, eleven
+   removed — final disposition in `phantom-id-audit.md`), but two document claims
+   formerly supported by retracted rulings still need a real rules check: {Arika}
+   (§5.2 — surviving rulings look reversed, one tagged [REVERSAL] ANK 20250121) and
+   {Archon Investigation} (§3.3 — possible timing change).
 5. **Pending owner decision:** add a routing line in §2.1.3 pointing to §2.4.4
    (triggered-by-block precedence — an expert reader looked for it in §2.1 and it lives
    under §2.4.4's literal title; proposed 2026-07-21, not yet approved).
