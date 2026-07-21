@@ -71,12 +71,9 @@ sessions from re-deriving settled things.
    formerly supported by retracted rulings still need a real rules check: {Arika}
    (§5.2 — surviving rulings look reversed, one tagged [REVERSAL] ANK 20250121) and
    {Archon Investigation} (§3.3 — possible timing change).
-5. **Pending owner decision:** add a routing line in §2.1.3 pointing to §2.4.4
-   (triggered-by-block precedence — an expert reader looked for it in §2.1 and it lives
-   under §2.4.4's literal title; proposed 2026-07-21, not yet approved).
-6. **tensions.md consistency sweep** — use the slugs as a one-time seed checklist for a
+5. **tensions.md consistency sweep** — use the slugs as a one-time seed checklist for a
    cross-section consistency pass (offered, undecided).
-7. **Upstream data gap:** 48 reference IDs cited in `rulings.yaml` have no entry in
+6. **Upstream data gap:** 48 reference IDs cited in `rulings.yaml` have no entry in
    `references.yaml` (~3.5%). An upstream hole in vtes-biased/vtes-rulings, not a
    drafting error — do not "fix" by deleting citations. One restoration request is
    pending upstream (vtes-biased/vtes-rulings#8, `ANK 20210309-3`).

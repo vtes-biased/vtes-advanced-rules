@@ -203,8 +203,12 @@ phase8-inbox, phantom-id-audit, drafter-contract. Note-level items recorded as o
 items in WORKING-NOTES (appendices A/B priority confirmed there). Same day, on owner
 instruction, a separate pass changed the reference convention: one inline marker per
 footnote, definitions consolidated into a single end-of-document `## References`
-section, ruling IDs linked to their references.yaml URLs (phantoms stay unlinked —
-they remain deliberate markers).
+section, ruling IDs linked to their references.yaml URLs; a follow-up owner call then
+removed the 11 unlinkable phantom citations and linked the 3 with live originals.
+**Owner call (2026-07-21): cross-reference density is at its ceiling.** The proposed
+§2.1.3 → §2.4.4 routing line was declined ("let's not add more cross-references, I
+feel we have enough (too much?) already"). Do not propose additional navigational
+cross-references without new evidence of a reader actually failing to find a rule.
 **Position (proposed):** The 64-section, 6-chapter architecture is SOUND — no merge,
 split, new-section or reordering recommendation cleared the evidence bar. G pile is 5
 rows, all individually adjudicated; all four tension slugs landed inside existing
