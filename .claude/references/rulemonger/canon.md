@@ -10,8 +10,9 @@ with the usual paraphrase caution.
 
 Selection: every reference ID cited by ≥5 footnotes in `docs/advanced-rules.md`
 (45 entries as of 2026-07-22), plus owner additions. Summaries (index and headings)
-are locator-grade only — cite the blockquote, never the summary. Entries are keyed
-and sorted by citation count; grep by reference ID to jump to one. After a rulings
+are locator-grade only — cite the blockquote, never the summary. This header and the
+index are the rulemonger's session-start read; entries load on demand — grep by
+reference ID to jump to one (they are sorted by citation count). After a rulings
 submodule bump, re-check entries whose IDs appear in the upstream diff and record
 supersession in the Status line; do not delete entries.
 

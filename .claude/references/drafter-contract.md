@@ -212,7 +212,7 @@ for it. Your extract tells you when this applies.
 ## What you may read
 
 - Your own extract. This contract.
-- **`docs/_work/owner-rulings.md` — BINDING. Read it before you write a line.** It records
+- **`.claude/references/owner-rulings.md` — BINDING. Read it before you write a line.** It records
   rules calls the owner made after reading wave 1, each verified against card text. Where
   it speaks, it settles the point; a ruling in your extract that seems to contradict it is
   the thing needing explanation, not the other way round.

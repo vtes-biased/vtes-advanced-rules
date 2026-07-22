@@ -9,46 +9,36 @@ judge-level companion to the [VTES rulebook](https://www.vekn.net/rulebook) that
 synthesizes ~2,605 individual rulings into general principles organized by game mechanic.
 There is no build, no test suite, no package. The deliverable is one Markdown file.
 
-**The document is complete** — 64 sections in 6 chapters, ~750 footnotes, drafted,
-assembled, and corrected through an owner-adjudicated whole-document pass. The project is
-in maintenance mode: remaining work is polish (Appendix A, the open items in
-`docs/_work/WORKING-NOTES.md`) and keeping the document true as rulings evolve upstream.
+**The document is complete** — 64 sections in 6 chapters, 714 footnotes, appendix
+included, corrected through owner-adjudicated passes and a cross-section consistency
+sweep (2026-07-22). The project is in maintenance mode: keep the document true as
+rulings evolve upstream, and track the open Rules Director questions in
+`docs/_work/review.md`.
 
 **`docs/advanced-rules.md` is the sole source of truth. Edit it directly.** The
 generation pipeline (classification chunks, extracts, section drafts, `assemble.py`) was
 retired and deleted on 2026-07-21; it survives only in git history. Do not resurrect it.
 
-## docs/_work — the reference shelf
+## Reference files
 
-What remains under `docs/_work/` is deliberately kept reference material, not pipeline
-scaffolding:
-
-- `WORKING-NOTES.md` — **read this first**: current state, open items, maintenance
-  workflow, compressed project history.
-- `owner-rulings.md` — **the highest authority in this project.** Binding rules calls by
-  Lionel, each verified against printed card text. Outranks the rulings database's
-  paraphrases and any other analysis. Read it before touching any section it covers.
-- `classification.tsv` — canonical ruling→section labels: 2,605 rows,
-  `id<TAB>codes<TAB>P|E|C|G<TAB>note`.
-- `rulings-flat.tsv` — the flattened rulings snapshot those `R####` ids key to. Frozen,
-  and older than the pinned submodule (upstream de-duplicated afterwards) — see
-  `phantom-id-audit.md` before assuming a cited ID exists upstream.
-- `taxonomy.md` — the 64 section codes (chapter 6 skips 8, deliberately not renumbered)
-  with the rationale for every added code and the rejected candidates. Authoritative for
-  the code list; read it before proposing a new section.
-- `tensions.md` — adjudicated contradictory-polarity ruling groups; candidate seed for a
-  future consistency sweep.
-- `review.md` — candidate questions for an upstream Rules Director review: convoluted
-  ruling records worth an official clarification.
-- `phantom-id-audit.md` — citation forensics for reference IDs absent from the pinned
-  database: disposition table, deliberately retained markers, two ⚠ rules flags.
-- `drafter-contract.md` — the style contract the document was written to. Judge edits
-  against this, not against taste.
+- `docs/_work/review.md` — the open Rules Director questions (one entry as of
+  2026-07-22: the Edge-steal / mid-action-burn question). The rest of the
+  production-era reference shelf (WORKING-NOTES, taxonomy, tensions, the
+  classification/rulings TSVs, phantom-id-audit) was retired on 2026-07-22 — recover
+  any of it from git history.
+- `.claude/references/owner-rulings.md` — **the highest authority in this project.**
+  Binding rules calls by Lionel, each verified against printed card text. Outranks the
+  rulings database's paraphrases and any other analysis. Read it before touching any
+  section it covers.
+- `.claude/references/drafter-contract.md` — the style contract the document was
+  written to. Judge edits against this, not against taste.
+- One open upstream item: vtes-biased/vtes-rulings#8 (the accidentally deleted G00031
+  record and its `ANK 20210309-3` reference); nothing needed here when it lands.
 
 Verification and post-update maintenance run through the **rulemonger agent**
-(`.claude/agents/rulemonger.md`): it is deliberately detached from `docs/_work/` and
-works from the document plus the citable sources; it reports findings and exact edits
-rather than editing the document itself.
+(`.claude/agents/rulemonger.md`): it works from the document plus the citable sources;
+it reports findings and exact edits rather than editing the document itself, and keeps
+its memory under `.claude/references/rulemonger/`.
 
 ## Source data (outside this repo)
 
@@ -68,8 +58,8 @@ pull` (then commit the new pointer here) when rulings need refreshing — then h
 rulemonger map the changed rulings to affected sections (the document's footnotes are the
 ruling→section index).
 - Card text for verification: `https://api.krcg.org/card/<id-or-name>`, key `card_text`.
-- Rules-change history gist (when a rule changed or was reverted) — URL in
-  `WORKING-NOTES.md`.
+- Rules-change history gist (when a rule changed or was reverted):
+  https://gist.githubusercontent.com/lionel-panhaleux/a4a9cad2e492af7c45c50a1cea7e6cf6/raw/92a6f169931c08ea3a4ae62ccbf2d6da17bc8970/VTES%2520History%2520of%2520changes.md
 
 Ruling reference prefixes are Rules Directors and sources: `TOM`, `SFC`, `JON`, `LSJ`,
 `PIB`, `ANK` (successive directors), `RTR` (Rules Team Ruling), `RBK` (rulebook anchor).
@@ -119,14 +109,14 @@ These were validated by the user; deviating from them is a regression.
   Definitions are separated by blank lines — kramdown otherwise lazily absorbs the next
   definition as paragraph content (this silently broke all footnotes once). IDs with no
   URL (phantoms, upstream holes) stay as plain unlinked single-bracket labels — do not
-  delete them; see `docs/_work/phantom-id-audit.md`.
+  delete them; the audit that settled them (`phantom-id-audit.md`) is in git history.
 - Source lines hard-wrap at 120 columns; rewrap the paragraphs you touch.
 - Pure one-card text interpretations stay in the rulings database and do not enter this
   document.
 - No reader injunctions ("Read the card…", "Read the wording…"): state the rule
   declaratively (owner, 2026-07-22).
 - `⚠ REVIEW` marks a point that still needs judge confirmation.
-- For anything deeper, the full style contract is `docs/_work/drafter-contract.md`.
+- For anything deeper, the full style contract is `.claude/references/drafter-contract.md`.
 
 ## Domain gotchas already established
 

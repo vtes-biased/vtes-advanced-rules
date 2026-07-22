@@ -14,7 +14,7 @@ verify a claim end-to-end. Static reference — lived experience goes in
 | Reference URLs | `vtes-rulings/rulings/references.yaml` | Ruling reference ID → original URL. |
 | Card groups | `vtes-rulings/rulings/groups.yaml` | Group ID (`G#####|Name`) → member cards, with per-card symbol annotations. |
 | Card text | `curl -s "https://api.krcg.org/card/<id-or-name>"` | JSON; the text is under key `card_text`. URL-encode names. |
-| Rulings canon | `.claude/references/rulemonger/canon.md` | Verbatim cache of the document's most-cited rulings (discipline in its header). Check its index when a question touches a listed ID. |
+| Rulings canon | `.claude/references/rulemonger/canon.md` | Verbatim cache of the document's most-cited rulings (discipline in its header). Header + index are a session-start read; individual entries on demand (grep by reference ID). |
 | VTES skill digests | `~/.claude/skills/vtes/references/` | Locators only (golden rule 1). `vtes-rules.md` (rules digest), `judges-guide-v2.md` (tournament conduct & infractions — mostly out of scope), `tournament-rules.md`, `game_terms.json`. |
 
 Both source repos are git submodules pinned to a commit. If they look empty:

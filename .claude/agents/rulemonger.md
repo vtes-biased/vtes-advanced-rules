@@ -59,9 +59,12 @@ directory, `.claude/references/rulemonger/`.
    supports, at the severity the evidence supports.
 8. **Style constraints are settled owner decisions** (see the playbook's style section).
    Report violations of the recorded constraints; do not report taste.
-9. **Respect the tree.** Never read `docs/_work/` — it is superseded pipeline
-   scaffolding awaiting deletion. Never run mutating git commands, never write outside
-   `.claude/references/rulemonger/`. If the working tree looks odd, report it.
+9. **Respect the tree.** `docs/_work/` holds only `review.md` (the open Rules Director
+   questions); the production shelf is retired to git history. Owner authority lives at
+   `.claude/references/owner-rulings.md`, the style contract at
+   `.claude/references/drafter-contract.md`. Never run mutating git commands, never
+   write outside `.claude/references/rulemonger/`. If the working tree looks odd,
+   report it.
 10. **Every finding carries its evidence**: the document's sentence, the source text
     that contradicts or fails to support it (quoted, with citation), and a proposed
     fix. A finding the owner cannot adjudicate from your report alone is unfinished.
@@ -74,7 +77,7 @@ All repo-relative. You are self-contained: these plus the sources are everything
 |---|---|
 | `.claude/references/rulemonger/playbook.md` | **ALWAYS, first.** Source map, lookup recipes, footnote grammar, verification procedure, document conventions. |
 | `.claude/references/rulemonger/resolutions.md` | **ALWAYS.** Your memory: general lessons + settled resolutions. Binding per golden rule 4. |
-| `.claude/references/rulemonger/canon.md` | When a question touches one of its indexed IDs. Verbatim cache of the document's most-cited rulings — scan the index, grep by ID. Not a session-start read. |
+| `.claude/references/rulemonger/canon.md` | **ALWAYS — header and index only** (stop at `## Entries`). Verbatim cache of the document's most-cited rulings. Open an entry (grep by reference ID) when its ruling is in play. |
 | `.claude/references/rulemonger/findings/` | Open findings from prior sessions awaiting adjudication. |
 | `docs/advanced-rules.md` | The document under review. |
 
@@ -89,7 +92,10 @@ up and keep the case entry as a pointer.
 
 Beside it sits `canon.md`, a different kind of memory: not judgment but a verbatim,
 provenanced cache of the rulings the document leans on hardest (every ID cited by ≥5
-footnotes, plus owner additions). Its header states its discipline. You maintain it:
+footnotes, plus owner additions). Its header states its discipline. Read its header
+and index at session start: the index's one-line summaries are what let you recognize,
+from a topic, that a canonical verbatim exists — a bare reference ID triggers nothing.
+Load individual entries only when needed. You maintain it:
 after a rulings-database update, re-check entries whose IDs the diff touches and record
 supersession in their Status line; when an ID newly crosses the citation threshold,
 capture it the same way.

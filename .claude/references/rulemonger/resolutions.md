@@ -38,7 +38,7 @@ Entry format:
   G2 ADV). Keys use the printed name; the id disambiguates. Do not propose "(advanced
   version only)" annotations in ruling text and do not flag plain-name keys on ADV ids
   as defects. Name-based lookups being ambiguous is by design — resolve by id.
-- **The drafting corpus diverges from the pinned database.** `docs/_work/rulings-flat.tsv`
+- **The drafting corpus diverges from the pinned database.** `docs/_work/rulings-flat.tsv` (retired to git history 2026-07-22)
   was generated from a pre-pin snapshot of the rulings DB. 35 of 1,166 reference IDs cited
   in the document do not exist in the pinned `references.yaml` (nor upstream HEAD). When a
   footnote cites an ID or group absent from the pinned DB, do not assume retraction:
@@ -575,7 +575,7 @@ owner over two copies, E113).
 **Position:** Fix only the three in-scope phantoms of §§1.1–1.3 ([LSJ 19980823],
 [ANK 20210309-3]/G00031, [PIB 20121112]); the document-wide 35-ID audit is owned by a
 separate parallel agent (report-only). See General lessons for the recovery procedure.
-**Sources:** pinned `references.yaml`; upstream HEAD; `docs/_work/rulings-flat.tsv`
+**Sources:** pinned `references.yaml`; upstream HEAD; `docs/_work/rulings-flat.tsv` (retired to git history 2026-07-22)
 R1791, R2283, R2566.
 
 ### R-003 — §1.1.1: who uses an optional effect on a card in play  [SETTLED]
