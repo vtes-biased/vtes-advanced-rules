@@ -1,6 +1,6 @@
 # Jekyll config for the GitHub Pages site.
 # Set Pages source to: branch `main`, folder `/docs`. This directory is the site root.
-title: VTES Extended Rules
+title: VTES Advanced Rules
 description: >-
   A judge-level companion to the VTES rulebook, synthesizing thirty years of
   rulings into general principles organized by game mechanic.
