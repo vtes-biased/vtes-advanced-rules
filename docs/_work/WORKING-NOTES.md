@@ -1,6 +1,6 @@
-# Extended Rules — working notes
+# Advanced Rules — working notes
 
-State record and open-items list for `docs/extended-rules.md`. The production pipeline
+State record and open-items list for `docs/advanced-rules.md`. The production pipeline
 is finished and its machinery was deleted in the 2026-07-21 cleanup (everything remains
 recoverable from git history before that commit). This file is no longer a pipeline
 checklist; it is the project's state, its open work, and the notes that keep future
@@ -11,7 +11,7 @@ sessions from re-deriving settled things.
 - **The document is complete**: 64 sections, 6 chapters, ~750 footnotes, all drafted,
   assembled, and corrected by the owner-adjudicated whole-document pass (R-017, 118
   edits) plus phantom-citation and footnote-verification fixes.
-- **`docs/extended-rules.md` is the sole source of truth. Edit it directly.** The
+- **`docs/advanced-rules.md` is the sole source of truth. Edit it directly.** The
   assembly pipeline (`assemble.py` + `sections/`) was retired and deleted: it had
   diverged from the corrected document, and one re-run would have silently reverted
   every applied fix (rulemonger finding R-022).
@@ -40,6 +40,11 @@ sessions from re-deriving settled things.
 - `tensions.md` — the adjudicated contradictory-polarity slugs (including the RESOLVED
   mandatory-action-satisfaction call). Candidate seed checklist for a consistency
   sweep (offered, not yet decided).
+- `review.md` — candidate questions for an upstream Rules Director review (one entry
+  as of 2026-07-22: the Edge-steal / mid-action-burn question). The diablerie-window,
+  override-lapse and torpor-combat entries were closed by owner adjudication 2026-07-22
+  (rulemonger R-027); the "inverted paraphrase" flag on LSJ 20100604-1 was our own
+  misread — LSJ corrected himself downthread — and is withdrawn.
 - `phantom-id-audit.md` — citation forensics for the ~35 reference IDs absent from the
   pinned database; disposition table, deliberate leftover markers, ⚠ rules flags.
 - `drafter-contract.md` — the style contract the document was written to. Judge any
@@ -47,28 +52,34 @@ sessions from re-deriving settled things.
 
 ## Open items
 
-1. **Appendix A (wording-template glossary)** — the remaining TODO stub at the end of
-   the document, and the highest-remaining-value navigation work (the intended lookup
-   path for trait names like Scarce/Sterile/[FLIGHT] buried in §5.7.6). Appendix B
-   (card index) was dropped by owner decision 2026-07-21.
-2. **Known defects, identified and accepted as pending:** 12 compression candidates
-   over 70 prose lines (1.13, 1.8, 2.4, 2.5, 3.3, 3.7.6, 4.3, 4.5, 5.2, 5.7, 6.2, 6.5 —
-   §1.6 at 48 lines is the accepted density benchmark); the dangling term "futility"
-   (§1.1/§1.8/§1.9/§4.2 cross-reference it as though §1.6 defines it — verify whether
-   the R-017 pass already cured this); heading style drift ("&" vs "and": §4.5/§5.7/§6.9
-   vs §6.1; §4.7 should match the game term capitalization "Strike: Combat Ends").
-3. **Two ⚠ rules checks left over from the phantom audit.** The phantom citations
-   themselves are gone (2026-07-21: three linked to their live originals, eleven
-   removed — final disposition in `phantom-id-audit.md`), but two document claims
-   formerly supported by retracted rulings still need a real rules check: {Arika}
-   (§5.2 — surviving rulings look reversed, one tagged [REVERSAL] ANK 20250121) and
-   {Archon Investigation} (§3.3 — possible timing change).
+1. **Appendix A (wording-template glossary) — DONE, owner-approved 2026-07-22**: ~150
+   alphabetical entries, each one gloss plus its governing section link. Harvest notes:
+   [FLIGHT] is treated in §4.2.4 (not §5.7.6); Red List has no document treatment to
+   index. Appendix B (card index) was dropped by owner decision 2026-07-21.
+2. **Known defects — cleared 2026-07-22.** "Futility" is now defined where it lives
+   (§1.6.5 opens "Futility is no bar by default"); heading drift fixed (§4.5/§5.7/§6.9
+   "&" → "and", anchors updated; §4.7 → "Strike: Combat Ends"). Compression:
+   re-measured under the uniform 120-column wrap (2026-07-22) — every flagged section
+   now measures 38–52 non-blank lines, all below the §1.6 benchmark itself (63); the
+   compression defect list is empty. The whole document was rewrapped to 120 columns
+   (2026-07-22; keep new edits inside it).
+3. **Phantom-audit rules checks — CLOSED 2026-07-22.** {Archon Investigation} (§3.3):
+   clean — the upstream deletion of [LSJ 20070203] folded the early gate into the
+   current printing ("after blocks are declined"); no timing change; record-key repairs
+   applied ([^2-2-5], [^1-2-14]) and [LSJ 20070203] re-added to [^3-3-8] with its live
+   URL (owner call; R-028). {Arika} (§5.2): confirmed REVERSED by [ANK 20250121]; owner
+   confirmed, split-sentence edit applied — {Anarch Revolt} keeps the end-of-phase
+   check, the resolves-once model carries the new [^5-2-30] (R-026, findings in
+   `.claude/references/rulemonger/findings/arika-5-2.md`).
 4. **tensions.md consistency sweep** — use the slugs as a one-time seed checklist for a
-   cross-section consistency pass (offered, undecided).
-5. **Upstream data gap:** 48 reference IDs cited in `rulings.yaml` have no entry in
-   `references.yaml` (~3.5%). An upstream hole in vtes-biased/vtes-rulings, not a
-   drafting error — do not "fix" by deleting citations. One restoration request is
-   pending upstream (vtes-biased/vtes-rulings#8, `ANK 20210309-3`).
+   cross-section consistency pass (offered, undecided). Spot-check 2026-07-22: all four
+   unresolved slugs already have document treatments; the sweep would only verify
+   cross-section consistency of each stated resolution.
+5. **Upstream data gap — closed 2026-07-22.** After pulling 241a7e3, zero reference IDs
+   cited in `rulings.yaml` are missing from `references.yaml` (1,431 cited / 1,549
+   defined) — upstream restored the hole; adding entries now would be dangling. Still
+   open upstream: vtes-biased/vtes-rulings#8 (the accidentally deleted G00031 record
+   and its `ANK 20210309-3` reference); nothing needed here when it lands.
 
 ## Maintenance workflow
 

@@ -1,7 +1,7 @@
 # Phase-8 inbox triage — findings (2026-07-21)
 
 Sweep: 35-item wave-2 drafter inbox (content pasted by owner; docs/_work/ not read),
-re-checked against the current assembled `docs/extended-rules.md` (post R-017/R-022,
+re-checked against the current assembled `docs/advanced-rules.md` (post R-017/R-022,
 post reference-reformat). Result: 29 CLOSED, 5 EDITs (E1–E6, none blocking severity
 beyond E1/E2), 0 OWNER questions, 3 UPSTREAM defects (+2 low-priority annotations).
 Three drafter upstream recommendations COUNTERMANDED on evidence (Sundown, Legacy,

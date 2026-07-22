@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repository is
 
-A **writing project**, not a software project: it produces `docs/extended-rules.md`, a
+A **writing project**, not a software project: it produces `docs/advanced-rules.md`, a
 judge-level companion to the [VTES rulebook](https://www.vekn.net/rulebook) that
 synthesizes ~2,605 individual rulings into general principles organized by game mechanic.
 There is no build, no test suite, no package. The deliverable is one Markdown file.
@@ -14,7 +14,7 @@ assembled, and corrected through an owner-adjudicated whole-document pass. The p
 in maintenance mode: remaining work is polish (Appendix A, the open items in
 `docs/_work/WORKING-NOTES.md`) and keeping the document true as rulings evolve upstream.
 
-**`docs/extended-rules.md` is the sole source of truth. Edit it directly.** The
+**`docs/advanced-rules.md` is the sole source of truth. Edit it directly.** The
 generation pipeline (classification chunks, extracts, section drafts, `assemble.py`) was
 retired and deleted on 2026-07-21; it survives only in git history. Do not resurrect it.
 
@@ -38,6 +38,8 @@ scaffolding:
   the code list; read it before proposing a new section.
 - `tensions.md` — adjudicated contradictory-polarity ruling groups; candidate seed for a
   future consistency sweep.
+- `review.md` — candidate questions for an upstream Rules Director review: convoluted
+  ruling records worth an official clarification.
 - `phantom-id-audit.md` — citation forensics for reference IDs absent from the pinned
   database: disposition table, deliberately retained markers, two ⚠ rules flags.
 - `drafter-contract.md` — the style contract the document was written to. Judge edits
@@ -115,8 +117,11 @@ These were validated by the user; deviating from them is a regression.
   `[^c1]: [LSJ 20061207](https://…) [RBK playing-a-card](https://www.vekn.net/rulebook#playing-a-card) — group "Cancel" (G00058).`
   IDs with no URL (phantoms, upstream holes) stay as plain unlinked labels — do not
   delete them; see `docs/_work/phantom-id-audit.md`.
+- Source lines hard-wrap at 120 columns; rewrap the paragraphs you touch.
 - Pure one-card text interpretations stay in the rulings database and do not enter this
   document.
+- No reader injunctions ("Read the card…", "Read the wording…"): state the rule
+  declaratively (owner, 2026-07-22).
 - `⚠ REVIEW` marks a point that still needs judge confirmation.
 - For anything deeper, the full style contract is `docs/_work/drafter-contract.md`.
 
@@ -125,9 +130,15 @@ These were validated by the user; deviating from them is a regression.
 - Rulebook actions are **not** subject to the No Repeated Action rule — only card
   name/copy rules are. Sameness matters only for card effects (`{Obedience}`,
   `{Red Herring}`, `{Change of Target}`).
-- `rulings.yaml` wording sometimes paraphrases the original ruling. Verify against actual
-  card text and, when it matters, the original ruling (VEKN forum posts are fetchable;
-  LSJ Google Groups archives are not practical).
+- `rulings.yaml` wording sometimes paraphrases the original ruling — and can even invert
+  it (the {Annabelle Triabell} record, caught 2026-07-22). Verify against actual card
+  text and, when it matters, the original ruling (VEKN forum posts are fetchable; LSJ
+  Google Groups posts often work through WebFetch too — try before giving up).
+- **Read the whole thread — Rules Directors correct themselves downthread.** LSJ
+  20100604-1's later "My mistake. Neither can be used to enter combat with a non-ready
+  minion." supersedes his first "Sure. Card text." answer on {Hidden Lurker}; reading
+  only the first answer produced a wrong "inverted paraphrase" claim against the
+  database (owner-corrected 2026-07-22).
 - `owner-rulings.md` settles its points: do not re-derive, soften, or `⚠ REVIEW` them.
 
 ## Tooling

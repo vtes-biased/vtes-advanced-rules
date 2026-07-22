@@ -8,7 +8,7 @@ verify a claim end-to-end. Static reference — lived experience goes in
 
 | Source | Location | Role |
 |---|---|---|
-| Extended rules (the document) | `docs/extended-rules.md` | Under review. ~4,800 lines, 6 chapters, 2 appendices (appendices still TODO). |
+| Advanced rules (the document) | `docs/advanced-rules.md` | Under review. ~4,800 lines, 6 chapters, 2 appendices (appendices still TODO). |
 | 2024 rulebook, verbatim | `rulebook2024/content.md` | The citable base rules. Headings carry `vekn.net/rulebook` anchors. |
 | Rulings database | `vtes-rulings/rulings/rulings.yaml` | ~2,605 curated rulings. May paraphrase originals. |
 | Reference URLs | `vtes-rulings/rulings/references.yaml` | Ruling reference ID → original URL. |

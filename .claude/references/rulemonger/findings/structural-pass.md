@@ -1,6 +1,6 @@
 # Structural pass — whole-document survey (2026-07-21)
 
-Scope: `docs/extended-rules.md` at 4,858 lines, 64 sections, all four lenses
+Scope: `docs/advanced-rules.md` at 4,858 lines, 64 sections, all four lenses
 (duplications / placements / tensions / open questions). REPORT-ONLY; no document
 edits. Citation-level verification was NOT redone except where needed to adjudicate a
 specific tension (each such lookup is quoted below). Internal anchors were validated:

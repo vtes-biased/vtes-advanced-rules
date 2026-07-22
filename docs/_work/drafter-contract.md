@@ -8,7 +8,7 @@ read is sixty-four chances to drift.
 ## What you produce
 
 One file, `docs/_work/sections/<code>.md`, containing the finished prose for exactly one
-section of `docs/extended-rules.md`. Not notes, not an outline, not a plan — the shipping
+section of `docs/advanced-rules.md`. Not notes, not an outline, not a plan — the shipping
 text. Someone will paste it into the document unchanged.
 
 You are writing a **judge-level companion to the VTES rulebook**. The base rulebook says

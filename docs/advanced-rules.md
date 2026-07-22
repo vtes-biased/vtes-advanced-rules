@@ -2790,8 +2790,10 @@ unlocked minion is unplayable when there is none, e.g. {Brujah Frenzy}.[^5-2-5]
 
 Unlocking is the first thing in the phase; every "during your unlock phase" effect follows, in its controller's chosen
 order, e.g. {Baleful Doll}.[^5-2-6] A condition on what a Methuselah controls during that phase is checked when the
-phase ends: meeting it earlier does not help, acquiring the object later does not excuse it, e.g. {Anarch Revolt},
-{Arika} ([§2.5](#25-duration-and-persistence)).[^5-2-7]
+phase ends: meeting it earlier does not help, e.g. {Anarch Revolt}.[^5-2-7] A "for each" unlock-phase effect instead
+resolves once, as a whole, over the objects in play at that moment: objects acquired after it resolves are unaffected
+until the Methuselah's next unlock phase, e.g. {Arika}, {Nightmares upon Nightmares}
+([§2.5](#25-duration-and-persistence)).[^5-2-30]
 
 "Does not unlock as normal" suppresses only that automatic unlock; wakes and unlock effects still reach the minion, e.g.
 {Sensory Deprivation}, {Cry Wolf}.[^5-2-8] It is redundant on an infernal minion, whose controller may still burn 1 pool
@@ -5307,9 +5309,10 @@ template named by its exemplar cards appears under those cards' names.
     20150820](https://www.vekn.net/forum/rules-questions/72462-hide-the-heart-timing-questions#72626) [ANK
     20210131-1](https://www.vekn.net/forum/rules-questions/79007-netwar-timing#101527) [RBK
     sequencing](https://www.vekn.net/rulebook#sequencing) — {Hide the Heart}, {Draba}, {Netwar}, {Folderol}.
-[^3-3-8]: [LSJ 20000507](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/6-sMg4Wo7KE/m/s0fQkYbR5_QJ) [ANK
+[^3-3-8]: [LSJ 20000507](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/6-sMg4Wo7KE/m/s0fQkYbR5_QJ) [LSJ
+    20070203](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/37EYK3FA30k/m/QynliahgIzQJ) [ANK
     20211003](https://www.vekn.net/forum/rules-questions/79372-fail-to-block-and-telepathic-misdirection#103416) —
-    {Archon Investigation}, {Deflection}, {Telepathic Misdirection}.
+    {Archon Investigation}, {Aksinya Daclau}, {Lost in Translation}, group "Change the target of a bleed" (G00106).
 [^3-3-9]: [TOM 19951129](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/jjBzopH-yrQ/m/L51mbZ5KGLkJ) — {Wake
     with Evening's Freshness}, {Eyes of Argus}, {Forced Awakening}.
 [^3-3-10]: [LSJ 20081202](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/GMxeDWiDXP8/m/twr__FgYvmMJ) [LSJ
@@ -6518,10 +6521,8 @@ template named by its exemplar cards appears under those cards' names.
     20010622](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/65IHHAii7ms/m/kyS0uVtsbNMJ) [RBK
     unlock-phase](https://www.vekn.net/rulebook#unlock-phase) — {Raphael Catarari}, {Baleful Doll}, {Vampiric Disease},
     {Parmenides}.
-[^5-2-7]: [LSJ 20080106](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/q4s1P6ozsW8/m/N9wEQl5sgTgJ) [ANK
-    20200629](https://www.vekn.net/forum/rules-questions/78700-arika-special-order?start=6#100211) [ANK
-    20220503](https://www.vekn.net/forum/rules-questions/39040-re-ex-nihilo-can-i-choose-to-burn-my-minion#105161) —
-    {Anarch Revolt}, {Arika}, {Drink the Blood of Ahriman}.
+[^5-2-7]: [LSJ 20080106](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/q4s1P6ozsW8/m/N9wEQl5sgTgJ) —
+    {Anarch Revolt}.
 [^5-2-8]: [PIB 20150111](https://www.vekn.net/forum/rules-questions/68580-sensory-deprivation-ruling#68584) [LSJ
     20031014](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/J8eZuZCZJUY/m/RsZFBMqFHKkJ) [ANK
     20180917](https://www.vekn.net/forum/rules-questions/77011-condemn-the-sins-of-the-father#90639) [LSJ
@@ -6587,6 +6588,8 @@ template named by its exemplar cards appears under those cards' names.
     20040601](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/bEvYg3Za-fc/m/p0CSDyi5MWkJ) [LSJ
     20071009](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/vSI2MhyB710/m/QweM8isk3f0J) — {Flash Grenade},
     {Earth Meld}, {Rötschreck}, {Loving Agony}.
+[^5-2-30]: [ANK 20250121](https://www.vekn.net/forum/rules-questions/79080-nightmares-upon-nightmares?start=6#113567) —
+    {Arika}, {Nightmares upon Nightmares}.
 [^5-3-1]: [RTR 20010710](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/GsI1UyH54jU/m/x9LfDZX1vR4J) [LSJ
     20040608](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/p1uCHeAO7ak/m/n7qfDGYXuu4J) [LSJ
     20030214](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/A3U-Dy1yx8Y/m/2LHXvLrmybwJ) [LSJ

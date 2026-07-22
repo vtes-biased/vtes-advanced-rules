@@ -1,7 +1,7 @@
 # Phantom-ID citation audit
 
 This is a citation-forensics audit, not a rules review: it disposes of the ~35 ruling
-reference IDs cited in `docs/extended-rules.md` that do not exist in the pinned
+reference IDs cited in `docs/advanced-rules.md` that do not exist in the pinned
 `vtes-rulings` submodule's `references.yaml` (the document was drafted from
 `docs/_work/rulings-flat.tsv`, generated from an older, pre-cleanup database snapshot).
 For each phantom it identifies every citation site, hunts for the underlying ruling's
@@ -44,7 +44,7 @@ WORKING-NOTES open items.
 (2026-07-19, branch `main`) — this **is already `origin/main` HEAD** (`git fetch origin`
 confirmed no newer commit exists upstream). `references.yaml` has 1,549 entries;
 `rulings.yaml` has 1,293 card/group keys. Of 1,166 unique reference IDs cited in
-`docs/extended-rules.md`, **35 are phantom** (absent from pinned `references.yaml`, and
+`docs/advanced-rules.md`, **35 are phantom** (absent from pinned `references.yaml`, and
 therefore absent from upstream HEAD too, since they're the same commit).
 
 ## Systemic finding
