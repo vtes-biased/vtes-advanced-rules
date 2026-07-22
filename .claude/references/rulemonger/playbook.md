@@ -8,7 +8,7 @@ verify a claim end-to-end. Static reference — lived experience goes in
 
 | Source | Location | Role |
 |---|---|---|
-| Advanced rules (the document) | `docs/advanced-rules.md` | Under review. ~4,800 lines, 6 chapters, 2 appendices (appendices still TODO). |
+| Advanced rules (the document) | `docs/advanced-rules.md` | Under review. ~7,600 lines, 6 chapters + Appendix A (glossary of wording templates) + a consolidated `## References` section. |
 | 2024 rulebook, verbatim | `rulebook2024/content.md` | The citable base rules. Headings carry `vekn.net/rulebook` anchors. |
 | Rulings database | `vtes-rulings/rulings/rulings.yaml` | ~2,605 curated rulings. May paraphrase originals. |
 | Reference URLs | `vtes-rulings/rulings/references.yaml` | Ruling reference ID → original URL. |
@@ -66,16 +66,20 @@ standing one.
 
 ## The document's footnote grammar
 
-Every derived statement carries a footnote. Footnotes live in a `#### References`
-block at the end of each section:
+Every derived statement carries a footnote: one inline marker per footnote (its first
+occurrence only); all definitions live in a single end-of-document `## References`
+section — there are no per-section blocks:
 
 ```
-[^1-1-5]: [PIB 20150418] [ANK 20210309-3] — {Third Tradition: Progeny}, group "Master on vampire who can use it" (G00031).
+[^1-1-5]: [[PIB 20150418]](https://…) [[ANK 20210309-3]](https://…) — {Third Tradition: Progeny}, group "Master on vampire who can use it" (G00031).
 ```
 
-- Label: section-prefixed and unique document-wide (`[^1-1-5]`, `[^3-7-2-5]`). The two
-  pilot sections (1.8 and 3.5) predate the convention and use `[^c1..c19]`, `[^n1..n21]`.
-- Before the em-dash: the reference IDs, `[RBK <anchor>]` included.
+- Label: section-prefixed and unique document-wide (`[^1-1-5]`, `[^3-7-2-5]`).
+- Before the em-dash: the reference IDs. Linked IDs are double-bracketed
+  `[[LSJ …]](url)` so the brackets render; `[RBK <anchor>]` links to
+  `https://www.vekn.net/rulebook#<anchor>`; IDs with no URL (phantoms) stay as plain
+  unlinked labels. Definitions are blank-line-separated (kramdown lazy-absorption
+  fix); external links open in a new tab via card-links.js.
 - After the em-dash: the record keys — the cards `{...}` and/or groups `"..." (G#####)`
   under which the cited rulings are filed in `rulings.yaml`. This is the lookup path.
 
@@ -107,14 +111,20 @@ block at the end of each section:
   full fluency with the base rules is assumed.
 - **No exhaustive card lists.** Tie a rule to its wording template; then "e.g." plus
   one to three cards.
-- Synthetic: cross-reference other sections rather than repeat; merged subsections
-  over redundant ones.
+- **Atomicity (owner, 2026-07-22): every rule has exactly one normative home** — the
+  section a judge would look it up in first (the mechanic the rule constrains). A rule
+  stated in two sections is a `duplicate` finding even while the copies still agree.
+  Merged subsections over redundant ones.
+- **Cross-references are a last resort, not a navigation aid** (owner, 2026-07-22).
+  Default is silence about other sections' rules; a `§` pointer is justified only
+  where the reader would plausibly rule wrongly without it.
 - Card names in braces `{Abbot}`; disciplines and card types in brackets `[pot]`,
   `[POT]`, `[ACTION]`.
 - Every derived statement footnoted (grammar above); labels unique document-wide.
 - Pure one-card text interpretations stay in the rulings database — they do not enter
   the document. (Their absence is not a `gap`.)
-- `⚠ REVIEW` marks a point awaiting judge confirmation — six exist as of 2026-07-20.
+- `⚠ REVIEW` marks a point awaiting judge confirmation — none remain as of
+  2026-07-22 (last, §5.9.2, closed by owner call R-027(2)).
 - Sections 1.8 and 3.5 are the drafted-and-reviewed style exemplars: judge deviations
   from their register, not from taste.
 
@@ -137,14 +147,18 @@ block at the end of each section:
 
 ## Sweep types
 
-- **Footnote verification** — the core procedure over a chapter's References blocks.
-  Most objective pass; parallelizes by chapter.
+- **Footnote verification** — the core procedure over the end-of-document
+  `## References` section. Most objective pass; parallelizes by chapter (labels are
+  section-prefixed).
 - **Consistency** — cross-section: contradictions, terminology drift, over-broad
-  statements, redundancy that should be a cross-reference.
+  statements, duplication (one rule stated in two sections), cross-references that
+  fail the misreading test.
 - **Review markers** — the open `⚠ REVIEW` points: gather every source bearing on the
   question, lay out the tension, propose a resolution for the owner to adjudicate.
 - **Maintenance** (after a submodule bump) — diff `rulings.yaml` between the old and
   new pin; map changed/added/removed rulings to sections by searching the document's
   footnotes for their reference IDs and record keys; report affected sections as
   `stale` findings. Re-check `canon.md` entries whose IDs appear in the diff and
-  update their Status lines.
+  update their Status lines. Also run the memory-hygiene check (agent definition,
+  Memory protocol): thin, promote, prune `resolutions.md` when the distillation
+  trigger is met.

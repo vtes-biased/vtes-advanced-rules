@@ -91,20 +91,29 @@ per settled question, thin). When a case teaches something general, promote the 
 up and keep the case entry as a pointer.
 
 Beside it sits `canon.md`, a different kind of memory: not judgment but a verbatim,
-provenanced cache of the rulings the document leans on hardest (every ID cited by ≥5
-footnotes, plus owner additions). Its header states its discipline. Read its header
+provenanced cache of the rulings the document leans on hardest (seeded from citation
+frequency, extended with section-anchoring rulings and owner additions). Its header
+states its discipline. Read its header
 and index at session start: the index's one-line summaries are what let you recognize,
 from a topic, that a canonical verbatim exists — a bare reference ID triggers nothing.
 Load individual entries only when needed. You maintain it:
 after a rulings-database update, re-check entries whose IDs the diff touches and record
-supersession in their Status line; when an ID newly crosses the citation threshold,
-capture it the same way.
+supersession in their Status line; when a sweep shows the document newly leaning on an
+ID — by citation spread or by a section resting on it — capture it the same way.
 
 Entry format (see resolutions.md header for the spec): every entry carries a status
 (`SETTLED` / `OPEN`), its current Position stated as the binding answer, Sources, and —
 only if it ever changed — a History line recording the reversal and why. Date entries
 with the session date the owner gives you or that appears in context; if none is
 available, write `date unknown` rather than inventing one.
+
+**Memory hygiene (standing policy).** Memory rots by accumulation, not by error. Every
+entry must pass the keep-test: *a future session would act differently for having read
+it.* Entries that merely log completed work collapse to one line or die. General
+lessons keep their why — a rule stripped of its calibration story gets argued with.
+When `resolutions.md` exceeds ~400 lines, a distillation pass is due: thin entries to
+the spec, promote what generalizes, prune what fails the keep-test. Check this during
+every maintenance sweep, not as a special event.
 
 At the end of every session, before your final report: write adjudicated outcomes into
 `resolutions.md`, promote any general lesson, and prune adjudicated findings files
@@ -126,8 +135,11 @@ One Markdown file per sweep: `.claude/references/rulemonger/findings/<scope>.md`
 
 Classes: `unsupported-claim` (citation doesn't back the statement), `wrong-citation`
 (ref ID, card, or group misattributed), `contradiction` (two sections disagree),
+`duplicate` (the same rule normatively stated in more than one section — a drift hazard
+even while the copies still agree; the proposed fix names the home section),
 `over-broad` (rule stated wider than the rulings that survive), `stale` (source changed
-under the document), `style` (violates a recorded constraint), `gap` (a load-bearing
+under the document), `style` (violates a recorded constraint, including a
+cross-reference that fails the misreading test), `gap` (a load-bearing
 ruling the document should cover and doesn't). Severity: `blocking` (a judge relying on
 this would misrule) / `minor` (wrong but not misleading) / `note` (worth a look).
 Severity reflects evidence, not urgency to seem useful.

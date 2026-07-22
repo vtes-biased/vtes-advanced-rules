@@ -35,9 +35,13 @@ Entry format:
   (owner policy, 2026-07-22).** The advanced version of a vampire is another card with
   its own id; a ruling that applies only to the advanced text belongs on that record
   (e.g. `201422|Valerius Maior, Hell's Fool` = G4 ADV, `200649|Ivan Krenyenko` =
-  G2 ADV). Keys use the printed name; the id disambiguates. Do not propose "(advanced
-  version only)" annotations in ruling text and do not flag plain-name keys on ADV ids
-  as defects. Name-based lookups being ambiguous is by design — resolve by id.
+  G2 ADV, `201326|Sundown` = G3 ADV, `200758|Karsh` = G3 ADV — [MERGED] tags where
+  the ability is merged-only). Keys use the printed name; the id disambiguates. Do not
+  propose "(advanced version only)" annotations in ruling text and do not flag
+  plain-name keys on ADV ids as defects. Name-based lookups being ambiguous is by
+  design — resolve by id: before filing "mis-stamped boilerplate" or "printing lacks
+  this text" upstream, fetch the record's OWN id from KRCG — the Sundown, Valerius and
+  Ivan flags all changed shape on the id-level check (2026-07-21, phase8-inbox triage).
 - **The drafting corpus diverges from the pinned database.** `docs/_work/rulings-flat.tsv` (retired to git history 2026-07-22)
   was generated from a pre-pin snapshot of the rulings DB. 35 of 1,166 reference IDs cited
   in the document do not exist in the pinned `references.yaml` (nor upstream HEAD). When a
@@ -66,6 +70,11 @@ Entry format:
   deleted because the current card text now prints the rule. Before treating a deleted ID
   as a retraction, fetch the card: if the text carries the rule, cite card text or a
   surviving group ruling (e.g. G00131 [LSJ 20100303] "Requirements apply") and drop the ID.
+  The same applies when upstream re-cites a rule to a rulebook anchor
+  ([RBK recruit-ally] replacing [LSJ 20080630] [RTR 20180303] on the Piper/Summoning
+  cannot-act rule, upstream 1a49949): cite the anchor, drop the superseded IDs (R-030);
+  keep or relink a deleted ID only where the deleted post itself was the rule's source
+  (R-028).
 - **Cost gates, triggered burn does not.** "Burn X blood *to attempt to block*"
   ({Tenebrous Form} [OBT], G00088) is a cost: an empty vampire cannot attempt. "Any
   vampire attempting to block … burns 1 blood" ({Camarilla Exemplary}) is a triggered
@@ -153,6 +162,11 @@ Entry format:
   Annabelle Triabell original settled an owner-vs-DB conflict and exposed an inverted
   DB paraphrase). When a DB paraphrase is load-bearing and contested, fetch the
   original before adjudicating — do not stop at "archives are not practical".
+- **Read the whole thread — Rules Directors correct themselves downthread.**
+  LSJ 20100604-1's later "My mistake. Neither can be used to enter combat with a
+  non-ready minion." superseded his first answer; reading only the first answer
+  produced a wrong inverted-paraphrase claim against the database (owner-corrected
+  2026-07-22, R-027(3)).
 - **Before minting a footnote label, grep both its inline and definition forms.**
   Definitions are ordered by first use, not numerically, so the highest label near an
   insertion point is not the highest in the family ([^1-2-15] existed far from
@@ -164,35 +178,47 @@ Entry format:
   field (`burn_option: true/false`). {Legacy} (101085) looked stripped of its burn
   option in `card_text` and nearly produced a false "stale ruling" upstream filing for
   [LSJ 20091203]. Check the field before calling any burn-option ruling stale.
-- **Crypt records are keyed by printing id, not by the name you'd look up.** The DB
-  keys advanced printings under the plain name with the ADV id (`201326|Sundown` = G3
-  ADV, `201422|Valerius Maior…` = G4 ADV, `200649|Ivan Krenyenko` = G2 ADV,
-  `200758|Karsh` = G3 ADV), with [MERGED] tags where the ability is merged-only.
-  Before filing "mis-stamped boilerplate" or "printing lacks this text" upstream,
-  fetch the record's OWN id from KRCG — the Sundown force-abstain "mis-stamp" and the
-  Valerius/Ivan "wrong printing" flags all changed shape on the id-level check
-  (2026-07-21, phase8-inbox triage).
+- **Quote the working tree, and re-grep every residual-defect claim immediately
+  before reporting (2026-07-22).** The adjudication queue's Q2/Q3 items quoted
+  content and line numbers that matched HEAD while the working tree had moved on —
+  Q3's "residual defect" (§3.9.3 meta-commentary) had already been deleted by the
+  owner's own polish pass. When the tree is dirty, state which state a quote comes
+  from.
 
 ## Resolutions
 
+### R-031 — Atomicity/deduplication pass: one rule, one home; cross-refs culled  [SETTLED 2026-07-22]
+**Position:** Owner-directed document-wide pass, applied 2026-07-22. Doctrine (now in
+CLAUDE.md, drafter-contract, playbook): every rule has exactly one normative home — the
+section a judge would look it up in first; the default toward other sections' rules is
+silence; a `§` pointer survives only where its absence risks a wrong ruling. Executed:
+766 shared-citation footnote pairs classified (57 DUP / 109 PARTIAL), 104 clusters
+resolved — duplicate statements deleted or trimmed to minimal-premise-plus-pointer, 41
+footnotes retired (714 → 673) with all orphaned ruling IDs and example cards folded into
+the home definitions (ID census 1,133 before and after — nothing lost). Then a 463-entry
+cross-reference audit against the misreading test: 185 navigation refs removed
+(§-refs 554 → 353; Appendix A's 163 template-to-section entries are structural and
+exempt). Do not re-report the resulting deliberate gaps as `gap` findings: a section
+silent on a rule whose home is elsewhere, or carrying a bare ownership pointer
+("X is §Y's"), is the intended architecture. Residuals deliberately left: 26 cited
+pointer sentences (pointer + own footnote) flagged DELETE by the audit but deferred —
+removing them needs per-case marker rehoming; 10 same-paragraph double-citations noted
+as citation hygiene. Both lists reproducible from the sweep recipe below.
+**Sources:** session scratchpad sweep (pairmap/clusters/refcull), owner approval of the
+batch-1 calibration and blanket delegation for the rest, 2026-07-22.
+
 ### R-030 — tensions.md consistency sweep: run, adjudicated, applied  [SETTLED 2026-07-22]
-**Position:** All five tension slugs verified consistent document-wide (four parallel
-sweeps; mandatory-action-satisfaction = R-029 clean pass). Owner calls applied same day:
-§1.6.3 placement-effect persistence tied to the printed duration clause with a §2.5.3
-pointer (F-unlock-1); §1.6.3 "put … in play" bypasses requirements AND cost, card text
-splitting the two checks at will (F-abn-1); §3.7.3.1 {Bloodstone} bypass-exemplar clause
-DELETED (F-abn-2 — Bloodstone is a normal play with nothing to bypass; its equip-action
-sentence stays); §3.7.4.2 WoKR bullet DELETED, [^3-7-4-4] re-keyed to G00131/{Zhenga}
-(F-abn-3); §3.5.5 gains the "as if from your hand" arm (F-abn-4); 22 footnote repairs
-applied (F-noeff-1..7, F-abn-5, F-abn-6) — [^5-5-7] clean-swapped to [RBK recruit-ally]
-+ live IDs, superseded IDs dropped because the rulebook now prints the rule (contrast
-R-028, where the deleted post was the rule's source). dedup-and-xref batch confirmed
-adjudicated by the owner; its status line fixed. WORKING-NOTES item 4 closed;
-tensions.md retained as history. Display change same day (owner): all linked reference
-IDs double-bracketed so brackets render; footnote definitions blank-line-separated
-(kramdown lazy-absorption fix); external links open in a new tab via card-links.js.
-**Sources:** findings/no-effect-plays.md, findings/abnormal-entry.md,
-findings/unlock-outlives-source.md; owner messages 2026-07-22.
+**Position:** All five tension slugs verified consistent document-wide; every finding
+of the no-effect-plays, abnormal-entry, unlock-outlives-source and dedup-and-xref
+sweeps was owner-adjudicated and applied 2026-07-22. Notable calls: §3.7.3.1's
+{Bloodstone} bypass clause and §3.7.4.2's {Web of Knives Recruit} bullet DELETED;
+[^5-5-7] clean-swapped to [RBK recruit-ally] (superseded IDs dropped — the rulebook
+now prints the rule; contrast R-028). WORKING-NOTES item 4 closed; tensions.md
+retained as history. Display conventions changed same day (owner) — recorded in the
+playbook's footnote grammar. Q3 residual (the §3.9.3 "states this in one sentence"
+meta-commentary, X1's pattern): MOOT — the owner's own polish pass had deleted it
+before adjudication (2026-07-22).
+**Sources:** findings files (git history); owner messages 2026-07-22.
 
 ### R-029 — Mandatory-action satisfaction: the mandating card decides (provides vs requires)  [SETTLED 2026-07-22]
 **Position (owner-adjudicated 2026-07-20; consistency sweep clean 2026-07-22):** Whether
@@ -208,9 +234,8 @@ described in her cardtext"). (2) The card **requires an action of a type**
 either branch discharges. {Computer Hacking} vs {Flurry of Action} is NOT the variable.
 Recurrence tracks the same split: provides → discharged once, no re-attach on unlock
 ({Cry Wolf}/{Lunatic Eruption}/{Elen Kamjian} [LSJ 20090226] [ANK 20200227]); requires →
-keeps demanding while its condition holds ({Phillipe Rigaud} [ANK 20211010]). §3.9 owns;
-sweep 2026-07-22 verified §3.9, §1.1.3, §1.15, §3.7.1.3, §3.7.2.3–.4, §3.7.8.4, §3.10.1,
-§6.2.3 and both glossary entries consistent — zero findings. §3.9.2's "the action need
+keeps demanding while its condition holds ({Phillipe Rigaud} [ANK 20211010]). §3.9 owns; consistency sweep 2026-07-22 clean
+document-wide. §3.9.2's "the action need
 not succeed" is a synthesis from the rulings' uniform "performed" (rulebook usage:
 resolved successful OR blocked) plus ANK 20211010's "performing the mandatory action
 (provided by the card) once is enough" — inference, sound, do not re-flag without new
@@ -267,200 +292,103 @@ at resolution, e.g. {Tereza Rostas}" down to the bare RTR sentence.
 gh issue/PR list vtes-biased/vtes-rulings.
 
 ### R-026 — §5.2.2 Arika unlock-phase tax: end-of-phase model reversed  [SETTLED 2026-07-22]
-**Adjudicated 2026-07-22 (owner): reversal confirmed** — the split-sentence edit is
-applied to §5.2.2 ({Anarch Revolt} keeps the end-of-phase check on [^5-2-7]; the
-resolves-once model carries the new [^5-2-30] → [ANK 20250121], per the owner's
-"add a footnote to the reversal").
-**Position (proposed, evidence firm):** [LSJ 19990405] (prey cannot end her unlock
-phase controlling an un-paid-for location, even one gained mid-phase) is REVERSED —
-Ankha, 21 Jan 2025 13:38, verbatim "This ruling is also REVERSED" [ANK 20250121].
-Current rule: a "for each" unlock-phase effect resolves once, as a whole, over the
+**Position:** [LSJ 19990405] is REVERSED — [ANK 20250121], verbatim "This ruling is
+also REVERSED". A "for each" unlock-phase effect resolves once, as a whole, over the
 objects in play at that moment; objects acquired after it resolves are unaffected
-until the next unlock phase ({Arika} locations, {Nightmares upon Nightmares} minions —
-identical [REVERSAL] records). Conditional effects are expressly distinguished and
-keep the end-of-phase check ({Anarch Revolt} [LSJ 20080106]; Ankha's NB in the same
-post). §5.2.2's sentence states the reversed rule for its Arika half — split it;
-exact edit in `findings/arika-5-2.md`. Same edit drops [ANK 20220503]/{Drink the
-Blood of Ahriman} from [^5-2-7] (supports burn-choice freedom, not end-of-phase
-checking; correctly cited at [^1-7-25], [^2-4-12], [^6-6-7]). New footnote label
-[^5-2-30] (family max in use: [^5-2-29]).
+until the next unlock phase ({Arika} locations, {Nightmares upon Nightmares} minions
+— identical [REVERSAL] records). Conditional effects keep the end-of-phase check
+({Anarch Revolt} [LSJ 20080106]; Ankha's NB in the same post). §5.2.2 states both
+halves; the reversal carries [^5-2-30] → [ANK 20250121] (owner: "add a footnote to
+the reversal"); [ANK 20220503]/{Drink the Blood of Ahriman} dropped from [^5-2-7]
+(burn-choice freedom, not end-of-phase checking; correctly cited at [^1-7-25],
+[^2-4-12], [^6-6-7]). The post's general doctrine — '"For each ... do something"
+should be resolved as a whole, and only once'; effects cannot be interrupted during
+resolution unless a card prints the exception — is stated in §2.1.3
+(owner-approved 2026-07-22 in variant placement: proposed for §2.4, but §2.1.3's
+atomicity paragraph was the one normative home), carrying [^2-1-8] → [ANK 20250121]
+under {Nightmares upon Nightmares}, {Arika}.
 **Sources:** [ANK 20250121]
-https://www.vekn.net/forum/rules-questions/79080-nightmares-upon-nightmares?start=6#113567
-(fetched 2026-07-22; also states the general doctrine '"For each ... do something"
-should be resolved as a whole, and only once' and "effects in VTES cannot be
-interrupted during resolution"); rulings.yaml `200135|Arika`,
-`101285|Nightmares upon Nightmares`, `100055|Anarch Revolt`; {Arika} card text
-(KRCG 200135); [ANK 20200629] (live, use-location-before-burning — currently
-supports no document claim).
+https://www.vekn.net/forum/rules-questions/79080-nightmares-upon-nightmares?start=6#113567;
+rulings.yaml `200135|Arika`, `101285|Nightmares upon Nightmares`, `100055|Anarch
+Revolt`; findings/arika-5-2.md (git history).
 
 ### R-025 — §3 owner review pass (2026-07-22)  [SETTLED]
-**Position:** Fifteen owner items adjudicated and applied same day. The rules calls
-and notable moves:
-(a) **Style rule (binding): no reader injunctions.** "Read the card / the wording /
-the possessive…" sentences are banned; state the rule declaratively. Nine instances
-removed document-wide (§§1.7, 1.10.1, 3.1.2, 3.1.5, 3.3.3, 3.7.2.1, 3.7.3.1, 3.7.5.3,
-4.6.3, 4.7.1, 6.6-influence). Recorded in CLAUDE.md style rules.
-(b) **New unnumbered "Driving principles" section** after About this document
-(owner-initiated): card text governs; you cannot do what you cannot do (barred in
-part = no play, even to cycle); there is no stack; effects that apply, apply.
-Pointer-based, no new footnotes.
-(c) **{Incriminating Videotape}: the §3.1.1 sentence had the ruling's sense
-inverted.** [TOM 19960114] [LSJ 20020514]: the choice made at play persists when the
-equipment changes hands and binds against the NEW bearer ("the chosen minion is
-unable to block the new possessor"). Now stated that way.
-(d) **§3.4.2 recast — announcement vs resolution.** Terms are named at announcement
-(§3.1.1); resolution supplies: choices the wording embeds in the effect rather than
-the terms ({The Platinum Protocol} "chosen at action resolution (not declaration)"
-[ANK 20240706] [LSJ 20080608]; {Break the Bonds} [obf] "chosen upon resolution"),
-options exercised then ({Third Tradition: Progeny} [PIB 20150418]), states read then
-({Dual Form} [ANK 20170226]). NOTE: owner's review note said "all choices must be
-made at announcement" — the cited rulings place effect-embedded choices at
-resolution; the recast preserves both and was flagged to the owner. §3.1.2 keeps the
-declaration-vs-resolution split ({Break the Bonds} both levels).
-(e) **{Veil of Darkness} stays in §3.4.1** (footnote [^3-4-8]): a card voided by a
-standing "no effect" bar counts as played but produces no action — no lock, may
-repeat, the same action included [LSJ 20090323]. The sentence now says explicitly
-"this is not a cancellation"; the imprecise "nullified before the action begins"
-phrasing is gone.
-**History (e):** 2026-07-22 — first moved to §3.5.1 beside the canceled-action rule;
-owner countermanded same day (it is not a cancellation, so it does not belong in the
-cancel section) and it moved back with the precise wording kept.
-(f) **Not-needed bar on {Mask of a Thousand Faces} is [OBF]-only** (R1126
-[LSJ 20060409]); §3.2.1 now says "at [OBF]".
-(g) **Unleash-intercept sentence removed** from §3.2.4 as card-specific
-([ANK 20211112-2] dropped from [^3-2-6]).
-(h) **Block-triggered burns precede every card and effect** — §3.3.3 extended with
-{Truth of Blood} (prints "before block resolution"): its discard completes before the
-blocker can play {Obedience}; §3.3.4/§2.4.4 own the general delayed-trigger rule.
-(i) **Equip-target sameness: "if any one of them is the same"** ([ANK 20200502] — the
-equipment tried before {Change of Target} cannot be among the second action's
-targets); §3.5.2 aligned with §3.7.3.2.
-(j) **Locquipment qualifications:** §3.7.3.2 "cannot be moved BY EFFECTS THAT MOVE
-EQUIPMENT, though control can change"; §3.7.3.3 adds the Enkidu locquipment exception
-pointing at §1.3.1.
-(k) **Referendum pool-burn polling: sequencing does not lock the amounts** — give and
-take, one blood at a time, waiting on the others ({Mob Rule} [LSJ 20030602]); §3.7.5.3
-now says so.
-(l) {Marciana Giovanni, Investigator} name fix was already applied in R-024 — the
-owner reviewed a build predating it.
-(m) **§4.9.1 ⚠ closed (owner reading of the rulings as they stand):** presses first;
-then end of round and end of combat are ONE shared window (identical when no press is
-taken and combat is about to end) whose occupants order freely, with a single fixed
-point — a "would end" replacement precedes the window's "about to end" effects.
-"After combat" effects sit outside, waiting for combat to actually end. The pairwise
-rulings ([^4-9-2] [^4-9-5] [^4-9-6]) all fit this model; stated in §4.9.1 without a
-marker. One ⚠ REVIEW remains in the document (§5.9.2 lapsed-override).
+**Position:** Fifteen owner items adjudicated and applied same day. Binding residue:
+(a) style rule — no reader injunctions; state rules declaratively (playbook
+conventions; CLAUDE.md). (b) Unnumbered "Driving principles" section after About
+this document. (c) {Incriminating Videotape}: the choice made at play persists and
+binds against the NEW bearer [TOM 19960114] [LSJ 20020514]. (d) §3.4.2
+announcement-vs-resolution: terms at announcement; effect-embedded choices, options
+and state-reads at resolution ({The Platinum Protocol} [ANK 20240706]
+[LSJ 20080608]; {Third Tradition: Progeny} [PIB 20150418]; {Dual Form}
+[ANK 20170226]). (e) {Veil of Darkness} lives in §3.4.1 — a standing "no effect" bar
+is NOT a cancellation [LSJ 20090323]. (f) Mask's not-needed bar is [OBF]-only
+[LSJ 20060409]. (h) Block-triggered burns precede every card and effect ({Truth of
+Blood} completes before {Obedience}). (i) Equip-target sameness: same "if any one of
+them is the same" [ANK 20200502]. (j) Locquipment: cannot be moved by effects that
+move equipment, though control can change; Enkidu exception per §1.3.1.
+(k) Referendum pool-burn polling: one blood at a time, amounts not locked
+({Mob Rule} [LSJ 20030602]). (m) §4.9.1 ⚠ closed: presses first; end of round and
+end of combat are ONE shared window, freely ordered, "would end" replacements
+preceding "about to end" effects; "after combat" waits outside.
 **Sources:** as cited per item; session transcript 2026-07-22.
+**History (e):** 2026-07-22 — first moved to §3.5.1; owner countermanded same day
+(not a cancellation), moved back with the precise wording kept.
 
 ### R-024 — §2 owner review pass (2026-07-22)  [SETTLED]
-**Position:** Fourteen owner items adjudicated and applied to the document same day.
-The binding rules calls:
-(a) **As-announced stealth — ⚠ closed.** §1.6's bar on gaining stealth you do not
-need DOES reach the as-announced window; every stealth card usable there prints its
-own override ({Predator's Transformation} "+1 stealth, even if stealth is not yet
-needed"). §2.2 states it; no marker.
-(b) **The diablerie blood hunt IS part of the action, though independent of it** —
-R0839's phrasing stands ([LSJ 20090722-2] [LSJ 20030618] under {Heidelberg Castle,
-Germany}). It is not part of the RESOLUTION: an after-resolution window sits between
-the diablerie and the referendum where effects may be played ([ANK 20201228]), but
-that window is inside the action, so {Heidelberg} never fits; the referendum itself
-takes no action modifiers or reaction cards [RBK the-blood-hunt]. The Abactor-type
-referendum (called by the action's own text) is inside resolution — after-resolution
-cards FOLLOW it — and the two cases stand as deliberate contrast in §2.3.4. The
-convolution is flagged for upstream Rules Director review in docs/_work/review.md.
-**History (b):** 2026-07-22 — owner first ruled "not part of the action at all" (§2
-review pass); reversed later the same day on re-reading the Heidelberg ruling,
-restoring R0839's model. §2.3.4 and §3.7.8.1 re-edited both times.
-(c) **{Annabelle Triabell}: the pinned DB paraphrase is INVERTED.** Original
-[LSJ 20030811] fetched from Google Groups 2026-07-22 — Q: "does it apply only to
-toreadors in play at the moment the card is played?" LSJ: "Yes." The DB record
-("applies to all Toreadors, not just the ones in play at the time the action
-resolved", R2128) has the polarity backwards. Document now states the original: a
-class-addressed effect applies to the members in play when it resolves. Upstream
-defect, not yet filed (owner instruction needed).
-(d) **[REACTION] ability markers belong to imbued powers** — {Hide}, {Surge},
-{Vigilance}, {Champion} are all Power cards; §1.5.1 and §2.1.2 now say so explicitly.
-(e) **Would/about-to precedence is a general template:** a replacement effect
-("would X … instead") must be played while X is pending and cannot follow an effect
-keyed to X happening ("about to"). Template in §1.2.3 (new [^1-2-16]), general form
-§2.4.1, burn-replacement alignment §2.4.2; §4.9.1 keeps the combat-specific statement.
-(f) **Between-actions and between-combats impulses reframed.** Between actions anyone
-may use any non-action-bounded effect (R0841 [ANK 20210608]); §2.1.3 no longer frames
-it as a property of "barred during an action" cards. Between queued combats the
-after-resolution/after-combat windows stay shut, but the impulse serves other effects:
-{Obedience} avoids the queued combat ([LSJ 19991025]), {Raptor}'s per-combat penalty
-drops and re-applies ([LSJ 20030530]) — new [^2-3-13]. The combat a block causes IS
-the blocked action's resolution (§2.3.3).
-(g) **Oust-vs-burn: the general rule is "oust first among a resolution's
-consequences"** (owner refinement, 2026-07-22): when one resolution yields an oust
-along with other consequences, the oust resolves before the rest — the ally-last-life
-mechanics ({Herald of Topheth}/{Bima} [LSJ 20080512]) are the instance, not the rule.
-Verified against the original thread: LSJ's "you pay the cost of an action when the
-action resolves" (no window between payment and resolution) is verbatim there, which
-makes the burn, the pool loss and the oust one resolution bundle; the oust-first
-clause itself was not found in the fetched portion of the thread and rests on the DB
-paraphrase — unchallenged, and consistent with §6.5.2's cancel-cost case
-([LSJ 20050607] [LSJ 20050608]). §2.4.3 leads with the general rule; {Bima} added to
-[^2-4-17].
-(h) **Unlock phase: only the MANDATORY effects must finish before passing** ({Fame}
-[LSJ 20010121]; {Scourge of the Enochians} [ANK 20200508-1]); §2.4.5 now says
-"the mandatory ones".
-(i) Mask R1121 ("cannot be used during the resolution of an action") removed from
-§2.1.3 — it is a window bound, not an atomicity fact; [LSJ 19980825] dropped from
-[^2-1-4]. Smaller: {Rewind Time} example added (G00063); {Vagabond Mystic} phrasing;
-{The Louvre, Paris} name fixed (body + footnote key form).
-**Sweeps (same session):** all 1,048 unique {Card} tokens validated against krcg.js's
-nameToImage slug (procedure: lowercase, move leading "the " to suffix, strip
-punctuation/accents, HEAD static.krcg.org/card/<slug>.webp) — 2 real defects fixed
-({Marciana Giovanni, Investigator}; the {Target} cycle mention unbraced). All 47
-unlinked body [RBK …] refs linked ([RBK glossaries]→[RBK 8-glossaries] typo;
-5-ending-the-game uses the page-URL form per existing convention).
+**Position:** Fourteen owner items adjudicated and applied same day. Binding residue:
+(a) as-announced stealth ⚠ closed: §1.6's bar reaches the as-announced window; every
+stealth card usable there prints its own override ({Predator's Transformation}).
+(b) The diablerie blood hunt IS part of the action, though independent of it, and
+not part of the RESOLUTION: an after-resolution window precedes the referendum
+[ANK 20201228], inside the action, so {Heidelberg} never fits; Abactor-type
+referendums are inside resolution — deliberate contrast in §2.3.4. (c) {Annabelle
+Triabell}: the pinned DB paraphrase is INVERTED against the original [LSJ 20030811];
+the document states the original (a class-addressed effect applies to the members in
+play when it resolves). Filed upstream 2026-07-22 as vtes-biased/vtes-rulings
+issue #11. (d) [REACTION] ability markers belong to imbued powers (§1.5.1, §2.1.2).
+(e) Would/about-to precedence is a general template (§1.2.3, §2.4.1). (f)
+Between-actions impulse is general (R0841); between queued combats the after-windows
+stay shut but other effects fit ({Obedience} [LSJ 19991025]; {Raptor}
+[LSJ 20030530]). (g) Oust-first among a resolution's consequences is the general rule
+({Herald of Topheth}/{Bima} [LSJ 20080512] the instance). (h) Unlock phase: only the
+MANDATORY effects must finish before passing ({Fame} [LSJ 20010121]). Sweeps same
+session: all 1,048 {Card} tokens validated against the krcg.js slug (2 fixes); all
+47 body [RBK] refs linked.
 **Sources:** as cited per item; session transcript 2026-07-22.
+**History:** 2026-07-22 — (b) owner first ruled "not part of the action at all";
+reversed later the same day on re-reading the Heidelberg ruling. 2026-07-22 (later)
+— (g) placement superseded by the dedup pass (D13, owner-adjudicated): §6.5.2 owns
+oust-first in full; §2.4.3's restatement and [^2-4-17] were removed. The rule itself
+is unchanged.
 
 ### R-023 — Phase-8 inbox triage (2026-07-21)  [SETTLED 2026-07-22]
-**Outcome:** Owner approved E1–E6 verbatim; all applied to the document 2026-07-22.
-The three countermands (Sundown, Legacy, The Becoming) stand. Upstream defects filed
-as vtes-biased/vtes-rulings issue #9 + PR #10 (owner instruction) — reduced to the
-Mokolé/Shilmulo typo and the Guardian Vigil [aus]→[cel] retag. Withdrawn: the two
-"printing annotation" items (owner policy: ADV rulings sit on the ADV record) and the
-Beast reword (owner ruling: equipment/ally/retainer/political cards are action-card
-subtypes, so "as it is an action card" is correct — see General lessons for both). phase8-inbox.md deleted from docs/_work (queue fully processed; the
-per-item record is findings/phase8-inbox.md).
-**Position (proposed):** 35 items: 29 CLOSED (drafter resolutions verified in the
-assembled document), 5 edit findings E1–E6 in `findings/phase8-inbox.md` (the
-"(limited)" cap-holder split §1.2.1/§1.15 is the substantive one; plus §1.1.3 G00137
-template, [^4-2-9] record key, Valerius/Karsh printing markers), 0 owner rules calls,
-5 upstream defects (Mokolé Blood typo, Guardian Vigil [aus]→[cel], Valerius/Ivan
-printing annotations, Beast wording). Three drafter upstream recommendations
-countermanded on evidence (Sundown, Legacy, The Becoming — see General lessons and
-the findings file). Hunt-bonus item was already settled by R-021(b). Lucian
-strike-surcharge inference verified against [LSJ 20090529] {Jann Berger}/G00074 —
-needs only the record-key fix, not an owner ruling.
-**Sources:** findings/phase8-inbox.md; session report 2026-07-21.
+**Position:** 35 items: 29 closed as already implemented; 5 edits E1–E6
+owner-approved verbatim and applied 2026-07-22 (substantive one: the "(limited)"
+cap-holder split — a limited bleed effect binds the action, a limited additional
+strike binds the minion per round). Three drafter upstream claims countermanded on
+evidence (Sundown, Legacy, The Becoming — General lessons); the two
+printing-annotation items and the Beast reword withdrawn (owner policy/ruling —
+General lessons). Upstream defects reduced to the Mokolé/Shilmulo typo and the
+Guardian Vigil [aus]→[cel] retag, filed as issue #9 + PR #10.
+**Sources:** findings/phase8-inbox.md (git history); session reports 2026-07-21/22.
 
 ### R-017 — Whole-document structural pass (2026-07-21)  [SETTLED]
-**Position:** Sweep report in `findings/structural-pass.md`. Adjudicated and APPLIED
-2026-07-21 (edits E1–E13 + two ⚠ closures, applied by coordinator, validated): the
-three blocking tensions (now R-018/R-019/R-020), the title-faking consolidation
-(F-struct-7), the §3.5.3 Yawp long-tail trim, and the two ⚠ closures (R-021). The
-document now carries one genuinely-open ⚠ marker (§5.9.2 lapsed-override; the §2.2
-as-announced-stealth marker was closed by owner ruling 2026-07-22 R-024, and the
-§4.9.1 end-of-round full-order marker by owner ruling 2026-07-22 R-025 (m)). Batches applied 2026-07-21:
-E1–E13 (blocking), E14–E21 (tensions; F-26 settled R-003; F-25 region model),
-E22–E75 (placements P1–P4, clusters D1–D12), E76–E118 (long tail F-15, promises
-F-29/F-30, style F-31). Pass COMPLETE: all 118 edits applied and validated
-(document 4,858 → 4,804 lines); findings file stands as the record. Owner-recorded deliberate dual
-statements (no change, do not re-report): immediate-vs-duration prevention
-(§1.6.5/§4.5.1); {Repulsion} in §1.6.5/§3.2.3/§4.5.1. Ownership decisions of the
-pass bind future drafting: named/announced cards §1.14; ousted-removal §6.5.3;
+**Position:** All 118 edits of the pass applied and validated; findings record in
+findings/structural-pass.md (git history). Binding residue — ownership decisions
+bind future drafting: named/announced cards §1.14; ousted-removal §6.5.3;
 would-be-successful §3.4.3; block-burn §3.3.3; queued combat §4.9.3; range-setting
 §4.2.1; lock-to-reduce §1.7.3; simultaneity §1.7.1 / oust-order §6.5.2; ally-acting
 §5.5.4; unlock-to-block §3.3.1; leave-torpor diablerie §3.7.7.2; memory/suspension
 §6.4.1 (capacity §5.1.1); referendum-ability states §3.7.6.4; periodicity templates
-§1.2.1 ({Nahir}/{Nonu Dis}, {Owain Evans}); out-of-play weapon burns §1.14.3.
-**Sources:** per findings file; key lookups quoted there.
-**History:** 2026-07-21 — initial position was report-only/awaiting adjudication;
-same day the owner adjudicated the blocking batch and the coordinator applied it.
+§1.2.1; out-of-play weapon burns §1.14.3. Owner-recorded deliberate dual statements
+(do not re-report): immediate-vs-duration prevention (§1.6.5/§4.5.1); {Repulsion}
+(§1.6.5/§3.2.3/§4.5.1). The three blocking tensions became R-018/R-019/R-020; the
+two ⚠ closures R-021. No ⚠ REVIEW markers remain document-wide (last, §5.9.2,
+closed by R-027(2)).
+**Sources:** findings/structural-pass.md (git history).
+**History:** 2026-07-21 — report-only at first; owner adjudicated and the
+coordinator applied the batches the same day.
 
 ### R-018 — Title-faking doctrine: where it lives and whose caps  [SETTLED]
 **Position:** §5.8.3 is the single full statement (sect membership, made-up city,
@@ -502,58 +430,34 @@ steal-hunts: G00004/G00121 [RTR 20030519] [RTR 20180511]); a rider granting bloo
 print it) is a separate gain, not hunt blood ("{Festivo dello Estinto} is not blood
 gained from the hunt", G00121). The per-card blood-bank copies are not a
 contradiction.
-**Sources:** as cited; G00121 record quoted in the findings file.
+**Sources:** as cited; G00121 record quoted in the findings file (git history).
 
-### R-022 — Section-architecture audit (whole document, 2026-07-21)  [RESOLVED 2026-07-21]
-**Outcome:** Owner retired the pipeline (option a). The corrected document was committed
-(70753f2), then `assemble.py`, `sections/`, and all other pipeline machinery were deleted
-in the cleanup commit — `docs/advanced-rules.md` is now the sole source of truth, stated
-in CLAUDE.md and WORKING-NOTES.md (both rewritten; the stale "drafting has not started"
-premise is gone). `docs/_work/` now holds only the reference shelf: WORKING-NOTES,
-owner-rulings, classification.tsv, rulings-flat.tsv, taxonomy, tensions,
-phase8-inbox, phantom-id-audit, drafter-contract. Note-level items recorded as open
-items in WORKING-NOTES (appendices A/B priority confirmed there). Same day, on owner
-instruction, a separate pass changed the reference convention: one inline marker per
-footnote, definitions consolidated into a single end-of-document `## References`
-section, ruling IDs linked to their references.yaml URLs; a follow-up owner call then
-removed the 11 unlinkable phantom citations and linked the 3 with live originals.
-**Owner call (2026-07-21): cross-reference density is at its ceiling.** The proposed
-§2.1.3 → §2.4.4 routing line was declined ("let's not add more cross-references, I
-feel we have enough (too much?) already"). Do not propose additional navigational
-cross-references without new evidence of a reader actually failing to find a rule.
-**Position (proposed):** The 64-section, 6-chapter architecture is SOUND — no merge,
-split, new-section or reordering recommendation cleared the evidence bar. G pile is 5
-rows, all individually adjudicated; all four tension slugs landed inside existing
-boundaries; the R-017 owner+pointer architecture is implemented consistently. Two
-process findings instead: (a) **BLOCKING — `docs/_work/sections/*.md` is stale versus
-the assembled `docs/advanced-rules.md`**: the R-017 edits (E1–E118) and all
-footnote-verification fixes live only in the assembled file, while WORKING-NOTES still
-declares `assemble.py` (which rebuilds from sections/) the source of truth — one
-re-assembly silently reverts everything (verified: E5's "additionally caps each
-requirement" is in advanced-rules.md, absent from sections/5.8.md). Owner must either
-retire assemble.py/sections/ or back-port. (b) CLAUDE.md and the task pipeline's
-self-description are stale ("drafting has not started beyond the two pilots") — this
-mis-premised the audit itself. Note-level: §4.1.4 is a pointer-only numbered heading;
-unlock-phase content split §2.4.5/§5.2.2 while other phases live in ch. 6 (cross-refs
-cover it); §5.7.6 packs Scarce/Sterile/True Brujah/Flight into one unheaded paragraph
-(Appendix A/B, still TODO, are the intended lookup path). Do not re-propose rejected
-taxonomy candidates (Monocle question-cards, Extremis Boon auctions, events/Gehenna,
-card-conferred status) absent new evidence.
-**Sources:** docs/advanced-rules.md (full read, 4,804 lines); docs/_work/taxonomy.md;
-coverage.tsv; review-findings.md structural unit; tensions.md; WORKING-NOTES.md;
-sections/5.8.md grep.
+### R-022 — Section-architecture audit (whole document, 2026-07-21)  [SETTLED 2026-07-21]
+**Position:** The 64-section, 6-chapter architecture is SOUND — no merge, split,
+new-section or reordering recommendation cleared the evidence bar. Owner retired the
+generation pipeline (commit 70753f2 + cleanup); docs/advanced-rules.md is the sole
+source of truth (CLAUDE.md/WORKING-NOTES rewritten). Binding: cross-reference
+density is at its ceiling (owner: "let's not add more … too much? already") — no new
+navigational cross-references without evidence of a reader failing to find a rule;
+do not re-propose the rejected taxonomy candidates (Monocle question-cards, Extremis
+Boon auctions, events/Gehenna, card-conferred status) absent new evidence. Same day
+the reference convention moved to a single end-of-document `## References` section
+with linked ruling IDs; 11 unlinkable phantom citations removed, 3 relinked.
+**Sources:** session record 2026-07-21.
 
-### R-016 — X-cycle (§1.13 items + §§2.1–2.3 sweep, 2026-07-21)  [OPEN]
-**Position:** X1: [LSJ 20080816] ({Descent into Darkness}) covers only effect-caused
-departure ("If any card on the vampire was contested, it goes out of the contest until
-the vampire comes back") — the contested-host case is NOT settled by it; sentence
-narrowed to the ruling, exception flagged for owner sourcing. X2: §5.7 has no circles
-content, so move §1.13.5 wholesale to a new §5.7.7 ([^1-13-12] → [^5-7-10]) and
-cross-reference from §1.13.1. §2.3 markers: [^2-3-3] holds on [LSJ 20110502]
-[LSJ 19980105]; [^2-3-6]'s ordering claim stands without the deleted {Voter Captivation}
-ruling (flat R1987 recovered; drop [LSJ 20070327], no ⚠ REVIEW). Sweep found no new
-blocking errors; coverage partial (see report).
-**Sources:** per report.
+### R-016 — X-cycle (§1.13 items + §§2.1–2.3 sweep, 2026-07-21)  [SETTLED 2026-07-22]
+**Position:** X1 — cards on a host that itself enters contest are governed by the
+owner's region model (General lessons): contest is not a departure, cards stay with
+the host intact, [RBK contested-cards] burns stacked cards only on yield;
+[LSJ 20080816] covers only the effect-caused departure of a contested card on a
+moved host, and §1.13.3 states exactly that ({Descent into Darkness}). X2 — §1.13.5
+moved to §5.7.7 ([^1-13-12] → [^5-7-10]), verified holding. §2.3 markers resolved:
+[^2-3-3] holds on [LSJ 20110502] [LSJ 19980105]; [^2-3-6] stands without the
+deleted {Voter Captivation} ruling.
+**Sources:** [RBK contested-cards]; rulings.yaml {Descent into Darkness}; document
+§1.13.3/§6.4.1/Appendix.
+**History:** OPEN 2026-07-21 (X1 flagged for owner sourcing); settled 2026-07-22 —
+the owner's region model, adjudicated the same day X1 was filed, answers it.
 
 All adjudications below: owner, 2026-07-21, relayed via coordinator message
 (session: review-and-fix pass on §§1.1–1.3).
@@ -590,8 +494,8 @@ https://www.vekn.net/forum/rules-questions/79065-master-cards-attached-to-a-stol
 {The Rack} card text + [ANK 20200130-2].
 **History:** 2026-07-21 — owner's first relayed wording (controller-of-the-card)
 challenged same session by the recovered original ruling; owner then adjudicated
-wording-decides, applied via E19. Upstream restoration of the deleted ruling still
-recommended.
+wording-decides, applied via E19. Upstream restoration of the deleted ruling
+recommended; filed 2026-07-21 as vtes-biased/vtes-rulings issue #8.
 
 ### R-004 — §1.1.1 "Only 'may' or 'can' is optional"  [SETTLED]
 **Position:** Add "optional" as a third marker: "Only a clause the card marks as
@@ -642,13 +546,16 @@ only line 34 was in §§1.1–1.3 scope — the rest belong to the parallel audi
 (content.md "### Action Card (or Card in Play)").
 **Sources:** live vekn.net HTML; rulebook2024/content.md lines 658/701/1184.
 
-### R-011 — §1.6.2 "A clan requirement is met by that clan or its antitribu"  [OPEN]
-**Position (proposed, evidence firm):** Wrong as a general rule. [ANK 20190203] covers
-only cards that *print both clans* ({Defender of the Haven}, {Derange}, {Ennoia's
-Theater}: "Only requires one clan or the other … to be played"). A Brujah antitribu does
-not meet a Brujah requirement. Narrow to the printed-pair template. Baron→Anarch half
-stands (G00037 [LSJ 20080603] [LSJ 20050128]).
-**Sources:** [ANK 20190203] eight card records; G00037 "Require a Baron".
+### R-011 — §1.6.2 "A clan requirement is met by that clan or its antitribu"  [SETTLED 2026-07-22]
+**Position:** Wrong as a general rule, and no longer in the document: a lone clan
+requirement is NOT met by the antitribu clan; only a card printing the pair as
+alternatives needs just one of the two ({Defender of the Haven}, {Derange},
+{Ennoia's Theater} [ANK 20190203]). The Baron→Anarch half stands separately (G00037
+[LSJ 20080603] [LSJ 20050128]). §1.6.2 and the Appendix state the narrow template.
+**Sources:** [ANK 20190203] eight card records; G00037 "Require a Baron"; document
+§1.6.2 + glossary, [^1-6-6].
+**History:** OPEN 2026-07-21 (narrowing proposed); settled 2026-07-22 — the
+owner-adjudicated document states the narrowed template.
 
 ### R-012 — §1.6.5 no-effect plays: the three-family doctrine  [SETTLED]
 **Position (owner-adjudicated 2026-07-20, relayed as settled in the 2026-07-22 sweep
@@ -667,43 +574,44 @@ unrestricted [LSJ 20011214-2]). Fixed points: {Blood Fury}/G00141 and
 {Veil of Darkness} no-lock (card-specific); {Deep Cover Agent} printed condition as
 printed ([ANK 20240610] — DB-only per the one-card rule). §1.6.5 is the canonical home;
 §3.2.1/§3.2.3, §4.5.1, §4.6.4 are its instances (R-017's deliberate dual statements
-stand). Verified implemented across 14 units 2026-07-22 — doctrine clean; six footnote
-repairs pending in findings/no-effect-plays.md.
-**Sources:** as inline; per-record verification quoted in findings/no-effect-plays.md.
+stand). Verified implemented across 14 units 2026-07-22 — doctrine clean; the six
+footnote repairs applied via R-030.
+**Sources:** as inline; per-record verification quoted in findings/no-effect-plays.md
+(git history).
 **History:** 2026-07-21 — opened as "§1.6.5 states the opposite of [LSJ 20011214-2]"
 (the pre-rewrite text inverted the Repulsion ruling); the three-families rewrite was
 applied and the owner adjudicated the doctrine; flipped SETTLED 2026-07-22.
 
-### R-013 — Torpor and locked minions vs card plays (owner item U2)  [OPEN]
-**Position (proposed):** Rulebook is explicit: "A vampire in torpor can perform no
-action except the 'leave torpor' action and cannot block or play reaction cards. They
-can play action modifiers during their actions." [RBK torpor]. Action modifiers have no
-unlocked requirement even for non-acting minions ({Cloak the Gathering}, {Mouthpiece},
-{Inspire Greatness} [LSJ 19980210] [RTR 19941109]); {Make an Example} — an *action
-modifier*, not an ability — is usable locked [PIB 20150720] but not by a torpid
-non-acting minion [RTR 19970306], matching "during their actions". {The Kiss of Ra} is
-the torpid-acting-vampire example [LSJ 19970325]. The doc's "cannot act" also needs the
-leave-torpor exception.
-**Sources:** rulebook2024/content.md torpor passage; card types via KRCG
-({Make an Example} = Action Modifier).
+### R-013 — Torpor and locked minions vs card plays (owner item U2)  [SETTLED 2026-07-22]
+**Position:** Per the rulebook: a vampire in torpor can perform no action except
+leave torpor, cannot block or play reaction cards, and plays action modifiers during
+his own actions only [RBK torpor] — {The Kiss of Ra} on the leave-torpor action
+[LSJ 19970325]; not {Make an Example} during another minion's action
+[RTR 19970306]. Action modifiers have no unlocked requirement even for non-acting
+minions ({Cloak the Gathering} [LSJ 19980210] [RTR 19941109]); {Make an Example} is
+an action modifier, not an ability, usable locked [PIB 20150720]. §5.3.2 owns and
+states it.
+**Sources:** rulebook2024/content.md torpor passage; KRCG {Make an Example};
+document §5.3.2.
+**History:** OPEN 2026-07-21; settled 2026-07-22 on document verification.
 
-### R-014 — Owner items U1/U3/U5/U6/U8–U13 verified  [OPEN]
-**Position:** All confirmed against sources with one pushback (U9: the DB ruling
-literally says "He can pay for reactions after declining to block" [LSJ 19990421] — 
-propose "played, and paid for," rather than dropping payment) and one refinement (U6:
-made-up-city choice is general — {Vlad Tepes} too [PIB 20150306] [PIB 20150307]; only
-the once-per-game cap is {Vidal Jarbeaux}'s own card text). U11's scope: the
-simultaneity is between a card's play-cost (whatever card imposed it, e.g.
-{Secure Haven} surcharge on {Minion Tap}) and that card's gain [LSJ 20020620].
-**Sources:** per-item, see session report 2026-07-21 (§§1.4–1.7 review).
+### R-014 — Owner items U1/U3/U5/U6/U8–U13 (§§1.4–1.7)  [SETTLED 2026-07-22]
+**Position:** Verification batch, all items applied to the document. Standing calls:
+U9 — a cost charged for failing to block burns at resolution start; reactions may
+still be *played, and paid for,* before that burn ([LSJ 19990421]; §1.7 states it
+verbatim). U11 — the cost/gain simultaneity is between a card's play-cost (whatever
+card imposed it, e.g. {Secure Haven} surcharge on {Minion Tap}) and that card's gain
+[LSJ 20020620]. U6's refinement (made-up-city is general; only the caps are Vidal's)
+became R-018.
+**Sources:** as cited inline; document §1.7.
+**History:** OPEN 2026-07-21 (proposed edits pending); settled 2026-07-22 on
+document verification.
 
-### R-015 — Owner items V1–V5 (§§1.7.5–1.8) verified  [OPEN]
-**Position:** All five confirmed with evidence; proposed edits in session report
-2026-07-21 (§§1.8–1.11 cycle). V1/V3/V4/V5 each promoted a general lesson (see above).
-V2: the repay-to-keep rule is the printed "repaying their pool cost" template on
-{Kindred Segregation}/{Peace Treaty}, read by [RTR 20010710] ("can be kept by paying
-0 pool") — not a general truth about cost repayment. V5: {Masque of Judas} verified as
-the maneuver-with-optional-press example ("[aus][obf] Maneuver with an optional press").
-Sweep of §§1.9–1.11: clean at sampled depth; §1.8's only extra defect is [^1-8-3]'s
-stray record ({Veil of Darkness} — the ruling lives under {Andrew Stuart} only).
-**Sources:** per-item in the session report.
+### R-015 — Owner items V1–V5 (§§1.7.5–1.8)  [SETTLED 2026-07-22]
+**Position:** Verification batch, all items applied; the reusable lessons (V1/V3/
+V4/V5) live in General lessons. V2: repay-to-keep is the printed "repaying their
+pool cost" template on {Kindred Segregation}/{Peace Treaty}, read by [RTR 20010710]
+— not a general truth about cost repayment. [^1-8-3]'s stray {Veil of Darkness} key
+removed (the ruling lives under {Andrew Stuart} only).
+**Sources:** as cited inline; document §1.8, [^1-8-3].
+**History:** OPEN 2026-07-21; settled 2026-07-22 on document verification.
