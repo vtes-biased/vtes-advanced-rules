@@ -8,7 +8,8 @@ the `## References` section (IDs and record keys checked for coverage before any
 deletion is proposed). Awaiting owner adjudication — full exact-edit text is in the
 session report (2026-07-22); this file is the persistence record.
 
-Status: NOT ADJUDICATED.
+Status: ADJUDICATED AND APPLIED (owner confirmed 2026-07-22; the D/X edits are in the
+document — spot-verified D1, D8, D19, D20, D21, X8 during the no-effect sweep).
 
 ## D — duplicated statements (29)
 

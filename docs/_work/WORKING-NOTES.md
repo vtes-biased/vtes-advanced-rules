@@ -71,10 +71,13 @@ sessions from re-deriving settled things.
    confirmed, split-sentence edit applied — {Anarch Revolt} keeps the end-of-phase
    check, the resolves-once model carries the new [^5-2-30] (R-026, findings in
    `.claude/references/rulemonger/findings/arika-5-2.md`).
-4. **tensions.md consistency sweep** — use the slugs as a one-time seed checklist for a
-   cross-section consistency pass (offered, undecided). Spot-check 2026-07-22: all four
-   unresolved slugs already have document treatments; the sweep would only verify
-   cross-section consistency of each stated resolution.
+4. **tensions.md consistency sweep — DONE 2026-07-22.** Four parallel rulemonger sweeps
+   (no-effect-plays + prevention-without-damage, abnormal-entry, unlock-outlives-source,
+   mandatory-action-satisfaction): doctrine consistent everywhere, zero blocking
+   findings. Five prose findings adjudicated and applied (§1.6.3 ×2, §3.7.3.1
+   {Bloodstone} clause deleted, §3.7.4.2 WoKR bullet deleted, §3.5.5 "as if from your
+   hand" arm) plus 22 footnote repairs. Records R-026–R-030; findings files under
+   `.claude/references/rulemonger/findings/`. tensions.md stays as history.
 5. **Upstream data gap — closed 2026-07-22.** After pulling 241a7e3, zero reference IDs
    cited in `rulings.yaml` are missing from `references.yaml` (1,431 cited / 1,549
    defined) — upstream restored the hole; adding entries now would be dangling. Still

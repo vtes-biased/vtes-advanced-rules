@@ -14,6 +14,7 @@ verify a claim end-to-end. Static reference — lived experience goes in
 | Reference URLs | `vtes-rulings/rulings/references.yaml` | Ruling reference ID → original URL. |
 | Card groups | `vtes-rulings/rulings/groups.yaml` | Group ID (`G#####|Name`) → member cards, with per-card symbol annotations. |
 | Card text | `curl -s "https://api.krcg.org/card/<id-or-name>"` | JSON; the text is under key `card_text`. URL-encode names. |
+| Rulings canon | `.claude/references/rulemonger/canon.md` | Verbatim cache of the document's most-cited rulings (discipline in its header). Check its index when a question touches a listed ID. |
 | VTES skill digests | `~/.claude/skills/vtes/references/` | Locators only (golden rule 1). `vtes-rules.md` (rules digest), `judges-guide-v2.md` (tournament conduct & infractions — mostly out of scope), `tournament-rules.md`, `game_terms.json`. |
 
 Both source repos are git submodules pinned to a commit. If they look empty:
@@ -92,9 +93,12 @@ block at the end of each section:
 5. For `[RBK <anchor>]`: find the heading in `rulebook2024/content.md` (kebab-case
    anchor ↔ heading text) and read the verbatim passage.
 6. If exact wording is load-bearing and `rulings.yaml` may be paraphrasing: resolve the
-   ID in `references.yaml` and fetch the original. `vekn.net/forum` URLs fetch fine.
-   `groups.google.com` archives (most LSJ-era refs) are not practically fetchable —
-   record "unverifiable at source; database wording relied on" instead of guessing.
+   ID in `references.yaml` and fetch the original. `vekn.net/forum` URLs fetch fine, and
+   `groups.google.com` archives usually do too (2026-07-22 calibration: 30+ successes in
+   one session). Fallbacks: the VEKN rules archive
+   (`https://www.vekn.net/history-of-vtes-rules`) hosts the RTR compilations; narkive
+   mirrors the usenet groups. Only after those fail, record "unverifiable at source;
+   database wording relied on" instead of guessing.
 7. If the sentence makes a card-text claim, fetch the card from KRCG and compare.
 
 ## Document conventions and style (settled owner decisions — regressions if violated)
@@ -142,4 +146,5 @@ block at the end of each section:
 - **Maintenance** (after a submodule bump) — diff `rulings.yaml` between the old and
   new pin; map changed/added/removed rulings to sections by searching the document's
   footnotes for their reference IDs and record keys; report affected sections as
-  `stale` findings.
+  `stale` findings. Re-check `canon.md` entries whose IDs appear in the diff and
+  update their Status lines.

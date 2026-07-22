@@ -85,6 +85,14 @@ Entry format:
   effect [RBK cancel-a-card]; canceling a maneuver cancels the press it provides
   [ANK 20230114] but never the strike that provided the maneuver, which cannot be
   changed [LSJ 20050228-3] [ANK 20230111] (all under {Rigor Mortis}).
+- **Member-card keys where a group record holds the ruling are a recurring footnote
+  defect.** The drafter sometimes keyed a group ruling to the group's *member* names
+  (found 2026-07-22: [^4-6-8] G00109 members, [^4-5-1] G00154 members, [^4-3-12] G00091
+  members, [^1-6-22] a G00122 member) even though sibling footnotes key the same group
+  correctly ([^1-6-23] → G00154). When one footnote shows the pattern, grep the other
+  footnotes citing the same IDs; the fix is R-009's (key the group, DB name verbatim,
+  typos included). Footnote merges also carry old strays forward — check the pre-merge
+  label in git history before blaming the merge.
 - **Before declaring a citation wrong, grep the specific record.** A date-based ID
   ([RTR 19951110]) is shared by unrelated rulings under several cards, and batch lookups
   piped through `head` can truncate before the relevant record prints. This produced a
@@ -166,6 +174,51 @@ Entry format:
   (2026-07-21, phase8-inbox triage).
 
 ## Resolutions
+
+### R-030 — tensions.md consistency sweep: run, adjudicated, applied  [SETTLED 2026-07-22]
+**Position:** All five tension slugs verified consistent document-wide (four parallel
+sweeps; mandatory-action-satisfaction = R-029 clean pass). Owner calls applied same day:
+§1.6.3 placement-effect persistence tied to the printed duration clause with a §2.5.3
+pointer (F-unlock-1); §1.6.3 "put … in play" bypasses requirements AND cost, card text
+splitting the two checks at will (F-abn-1); §3.7.3.1 {Bloodstone} bypass-exemplar clause
+DELETED (F-abn-2 — Bloodstone is a normal play with nothing to bypass; its equip-action
+sentence stays); §3.7.4.2 WoKR bullet DELETED, [^3-7-4-4] re-keyed to G00131/{Zhenga}
+(F-abn-3); §3.5.5 gains the "as if from your hand" arm (F-abn-4); 22 footnote repairs
+applied (F-noeff-1..7, F-abn-5, F-abn-6) — [^5-5-7] clean-swapped to [RBK recruit-ally]
++ live IDs, superseded IDs dropped because the rulebook now prints the rule (contrast
+R-028, where the deleted post was the rule's source). dedup-and-xref batch confirmed
+adjudicated by the owner; its status line fixed. WORKING-NOTES item 4 closed;
+tensions.md retained as history. Display change same day (owner): all linked reference
+IDs double-bracketed so brackets render; footnote definitions blank-line-separated
+(kramdown lazy-absorption fix); external links open in a new tab via card-links.js.
+**Sources:** findings/no-effect-plays.md, findings/abnormal-entry.md,
+findings/unlock-outlives-source.md; owner messages 2026-07-22.
+
+### R-029 — Mandatory-action satisfaction: the mandating card decides (provides vs requires)  [SETTLED 2026-07-22]
+**Position (owner-adjudicated 2026-07-20; consistency sweep clean 2026-07-22):** Whether
+another action of the same type discharges a mandatory-action obligation is decided by
+the MANDATING effect, never by the card used to satisfy it. (1) The card **provides**
+the action ({Elen Kamjian}): the obligation is to that specific action — "Another bleed
+action (eg. {Flurry of Action}) does not count as the bleed action her ability forces
+her to take" [ANK 20211009-2]; original confirms ("No, she must bleed using the action
+described in her cardtext"). (2) The card **requires an action of a type**
+({Spirit Marionette}): any action of that type discharges it, including a card play —
+"[OBE] The mandatory bleed can be performed by playing a card (eg. {Computer Hacking})"
+[LSJ 20021121-2]. (3) Requires-with-alternatives ({Undying Thirst} [LSJ 20081213-2]):
+either branch discharges. {Computer Hacking} vs {Flurry of Action} is NOT the variable.
+Recurrence tracks the same split: provides → discharged once, no re-attach on unlock
+({Cry Wolf}/{Lunatic Eruption}/{Elen Kamjian} [LSJ 20090226] [ANK 20200227]); requires →
+keeps demanding while its condition holds ({Phillipe Rigaud} [ANK 20211010]). §3.9 owns;
+sweep 2026-07-22 verified §3.9, §1.1.3, §1.15, §3.7.1.3, §3.7.2.3–.4, §3.7.8.4, §3.10.1,
+§6.2.3 and both glossary entries consistent — zero findings. §3.9.2's "the action need
+not succeed" is a synthesis from the rulings' uniform "performed" (rulebook usage:
+resolved successful OR blocked) plus ANK 20211010's "performing the mandatory action
+(provided by the card) once is enough" — inference, sound, do not re-flag without new
+evidence.
+**Sources:** rulings.yaml {Elen Kamjian}, {Spirit Marionette}, {Undying Thirst},
+{Phillipe Rigaud}, {Cry Wolf}, {Lunatic Eruption}, {Change of Target} [LSJ 19980112],
+{Mask of a Thousand Faces} [LSJ 20001113]; [RBK minion-phase]; originals fetched
+2026-07-22: ANK 20211009-2/20211010 thread, ANK 20200227, LSJ 20090226.
 
 ### R-028 — §3.3.2 Archon Investigation timing: clean bill; [LSJ 20070203] re-added  [SETTLED 2026-07-22]
 **Position (verified, owner-adjudicated):** the upstream deletion of [LSJ 20070203]
@@ -597,13 +650,29 @@ not meet a Brujah requirement. Narrow to the printed-pair template. Baron→Anar
 stands (G00037 [LSJ 20080603] [LSJ 20050128]).
 **Sources:** [ANK 20190203] eight card records; G00037 "Require a Baron".
 
-### R-012 — §1.6.5 {Repulsion} [OBE] sentence states the opposite of its ruling  [OPEN]
-**Position (proposed, evidence firm):** [LSJ 20011214-2]: "[OBE] **Can** be used even if
-the stealth is not currently needed." The document said "cannot be played when the
-stealth is not needed". The correct rule is the duration-grant escape (see General
-lessons). Rewrite §1.6.5 with three families + the immediate/duration split.
-**Sources:** {Repulsion} card text ([OBE] puts card in play, standing +1 stealth);
-[LSJ 20011214-2]; [LSJ 20010315] {Apparition}; [LSJ 20100527] {Brother's Blood}.
+### R-012 — §1.6.5 no-effect plays: the three-family doctrine  [SETTLED]
+**Position (owner-adjudicated 2026-07-20, relayed as settled in the 2026-07-22 sweep
+direction):** Futility is no bar by default — a card may be played and an action taken
+knowing it accomplishes nothing ({Absorb the Mind}, {Draba}/{Night Terrors} at 0,
+{Siphon} empty target, {Kindred Segregation}/{Peace Treaty} no-subject referendum,
+no-effect dodges, forced {Legacy of Caine} actions). Three families bar the play:
+(a) missing named object ({Shattering Blow}, {Free States Rant} point-allocation,
+{Brujah Frenzy}, {Taste of Vitae} vs allies, empty crypt G00126); (b) immediate damage
+prevention with no damage (G00154) — duration-grant prevention exempt ({Apparition}
+[LSJ 20010315], {Brother's Blood} [LSJ 20100527]); (c) unneeded stealth/intercept
+({Bonding}) — reducing at the floor stays legal. The bar reaches only the play, and
+only a play whose whole effect is the unneeded one ({Repulsion} [OBE] standing effect
+unrestricted [LSJ 20011214-2]). Fixed points: {Blood Fury}/G00141 and
+{Rigor Mortis}/G00137 "cannot" bars; {Spying Mission} zero-bleed [PIB 20150612];
+{Veil of Darkness} no-lock (card-specific); {Deep Cover Agent} printed condition as
+printed ([ANK 20240610] — DB-only per the one-card rule). §1.6.5 is the canonical home;
+§3.2.1/§3.2.3, §4.5.1, §4.6.4 are its instances (R-017's deliberate dual statements
+stand). Verified implemented across 14 units 2026-07-22 — doctrine clean; six footnote
+repairs pending in findings/no-effect-plays.md.
+**Sources:** as inline; per-record verification quoted in findings/no-effect-plays.md.
+**History:** 2026-07-21 — opened as "§1.6.5 states the opposite of [LSJ 20011214-2]"
+(the pre-rewrite text inverted the Repulsion ruling); the three-families rewrite was
+applied and the owner adjudicated the doctrine; flipped SETTLED 2026-07-22.
 
 ### R-013 — Torpor and locked minions vs card plays (owner item U2)  [OPEN]
 **Position (proposed):** Rulebook is explicit: "A vampire in torpor can perform no

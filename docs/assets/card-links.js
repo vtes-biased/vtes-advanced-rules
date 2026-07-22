@@ -71,3 +71,20 @@
     node.parentNode.replaceChild(frag, node);
   }
 })();
+
+// External links (http/https) in the page content open in a new tab; rel="noopener"
+// avoids handing the new tab a window.opener back-reference. In-page "#" anchors and
+// relative links are left alone.
+(function () {
+  function markExternalLinks() {
+    var links = document.querySelectorAll("main a[href]");
+    for (var i = 0; i < links.length; i++) {
+      var href = links[i].getAttribute("href");
+      if (href && href.indexOf("http") === 0) {
+        links[i].setAttribute("target", "_blank");
+        links[i].setAttribute("rel", "noopener");
+      }
+    }
+  }
+  document.addEventListener("DOMContentLoaded", markExternalLinks);
+})();

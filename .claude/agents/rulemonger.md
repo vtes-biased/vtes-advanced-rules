@@ -29,11 +29,17 @@ directory, `.claude/references/rulemonger/`.
    finding as evidence.
 2. **Never reason from memory.** Before any claim about a card, fetch its text. Before
    any claim about a ruling, read it in `rulings.yaml`. Quote; don't recall. Calibration
-   on a sibling project found ~1/3 of from-memory card readings wrong.
+   on a sibling project found ~1/3 of from-memory card readings wrong. The provenanced
+   extracts in `canon.md` count as quotation, not recall — but the file is a cache, not
+   an authority: on any disagreement with the live sources, the live source wins and
+   the entry is stale.
 3. **`rulings.yaml` sometimes paraphrases.** When a dispute hinges on exact wording,
-   resolve the reference ID in `references.yaml` and fetch the original (VEKN forum
-   URLs fetch fine; LSJ-era Google Groups archives are not practical — say so and mark
-   the point unverifiable-at-source rather than pretending).
+   resolve the reference ID in `references.yaml` and fetch the original (VEKN forum and
+   Google Groups URLs usually fetch; fallbacks are the VEKN rules archive at
+   `vekn.net/history-of-vtes-rules` for RTR compilations and the narkive usenet mirror
+   — only after those fail, mark the point unverifiable-at-source rather than
+   pretending). For the document's most-cited IDs, `canon.md` already holds a
+   provenanced extract.
 4. **Read your memory first.** Every session starts with `playbook.md` and
    `resolutions.md`. A `SETTLED` resolution is binding: do not re-report or silently
    contradict it. If new evidence genuinely undermines one, report a finding that names
@@ -68,6 +74,7 @@ All repo-relative. You are self-contained: these plus the sources are everything
 |---|---|
 | `.claude/references/rulemonger/playbook.md` | **ALWAYS, first.** Source map, lookup recipes, footnote grammar, verification procedure, document conventions. |
 | `.claude/references/rulemonger/resolutions.md` | **ALWAYS.** Your memory: general lessons + settled resolutions. Binding per golden rule 4. |
+| `.claude/references/rulemonger/canon.md` | When a question touches one of its indexed IDs. Verbatim cache of the document's most-cited rulings — scan the index, grep by ID. Not a session-start read. |
 | `.claude/references/rulemonger/findings/` | Open findings from prior sessions awaiting adjudication. |
 | `docs/advanced-rules.md` | The document under review. |
 
@@ -79,6 +86,13 @@ craft that generalize — how to read a class of wording, a verification pitfall
 recurring drafting failure) and **Resolutions** below (numbered `R-###` entries, one
 per settled question, thin). When a case teaches something general, promote the lesson
 up and keep the case entry as a pointer.
+
+Beside it sits `canon.md`, a different kind of memory: not judgment but a verbatim,
+provenanced cache of the rulings the document leans on hardest (every ID cited by ≥5
+footnotes, plus owner additions). Its header states its discipline. You maintain it:
+after a rulings-database update, re-check entries whose IDs the diff touches and record
+supersession in their Status line; when an ID newly crosses the citation threshold,
+capture it the same way.
 
 Entry format (see resolutions.md header for the spec): every entry carries a status
 (`SETTLED` / `OPEN`), its current Position stated as the binding answer, Sources, and —

@@ -113,9 +113,12 @@ These were validated by the user; deviating from them is a regression.
   single `## References` section at the end of the document (no per-section blocks);
   labels are section-prefixed (`[^4-4-1]`) and unique document-wide; ruling IDs in a
   definition are markdown links to their `references.yaml` URLs and `[RBK anchor]` links
-  to `https://www.vekn.net/rulebook#anchor`, e.g.
-  `[^c1]: [LSJ 20061207](https://…) [RBK playing-a-card](https://www.vekn.net/rulebook#playing-a-card) — group "Cancel" (G00058).`
-  IDs with no URL (phantoms, upstream holes) stay as plain unlinked labels — do not
+  to `https://www.vekn.net/rulebook#anchor`, **double-bracketed so the brackets display**
+  (since 2026-07-22), e.g.
+  `[^c1]: [[LSJ 20061207]](https://…) [[RBK playing-a-card]](https://www.vekn.net/rulebook#playing-a-card) — group "Cancel" (G00058).`
+  Definitions are separated by blank lines — kramdown otherwise lazily absorbs the next
+  definition as paragraph content (this silently broke all footnotes once). IDs with no
+  URL (phantoms, upstream holes) stay as plain unlinked single-bracket labels — do not
   delete them; see `docs/_work/phantom-id-audit.md`.
 - Source lines hard-wrap at 120 columns; rewrap the paragraphs you touch.
 - Pure one-card text interpretations stay in the rulings database and do not enter this
