@@ -125,7 +125,38 @@ Entry format:
   bank). Before reporting a contradiction between two records, check whether a group
   record consolidates them and whether the card text itself settles it.
 
+- **KRCG `card_text` omits the burn-option icon.** The burn option is a separate JSON
+  field (`burn_option: true/false`). {Legacy} (101085) looked stripped of its burn
+  option in `card_text` and nearly produced a false "stale ruling" upstream filing for
+  [LSJ 20091203]. Check the field before calling any burn-option ruling stale.
+- **Crypt records are keyed by printing id, not by the name you'd look up.** The DB
+  keys advanced printings under the plain name with the ADV id (`201326|Sundown` = G3
+  ADV, `201422|Valerius Maior…` = G4 ADV, `200649|Ivan Krenyenko` = G2 ADV,
+  `200758|Karsh` = G3 ADV), with [MERGED] tags where the ability is merged-only.
+  Before filing "mis-stamped boilerplate" or "printing lacks this text" upstream,
+  fetch the record's OWN id from KRCG — the Sundown force-abstain "mis-stamp" and the
+  Valerius/Ivan "wrong printing" flags all changed shape on the id-level check
+  (2026-07-21, phase8-inbox triage).
+
 ## Resolutions
+
+### R-023 — Phase-8 inbox triage (2026-07-21)  [SETTLED 2026-07-22]
+**Outcome:** Owner approved E1–E6 verbatim; all applied to the document 2026-07-22.
+The three countermands (Sundown, Legacy, The Becoming) stand. The 5 upstream defects
+were filed as a single vtes-biased/vtes-rulings issue with a fix PR (owner
+instruction). phase8-inbox.md deleted from docs/_work (queue fully processed; the
+per-item record is findings/phase8-inbox.md).
+**Position (proposed):** 35 items: 29 CLOSED (drafter resolutions verified in the
+assembled document), 5 edit findings E1–E6 in `findings/phase8-inbox.md` (the
+"(limited)" cap-holder split §1.2.1/§1.15 is the substantive one; plus §1.1.3 G00137
+template, [^4-2-9] record key, Valerius/Karsh printing markers), 0 owner rules calls,
+5 upstream defects (Mokolé Blood typo, Guardian Vigil [aus]→[cel], Valerius/Ivan
+printing annotations, Beast wording). Three drafter upstream recommendations
+countermanded on evidence (Sundown, Legacy, The Becoming — see General lessons and
+the findings file). Hunt-bonus item was already settled by R-021(b). Lucian
+strike-surcharge inference verified against [LSJ 20090529] {Jann Berger}/G00074 —
+needs only the record-key fix, not an owner ruling.
+**Sources:** findings/phase8-inbox.md; session report 2026-07-21.
 
 ### R-017 — Whole-document structural pass (2026-07-21)  [SETTLED]
 **Position:** Sweep report in `findings/structural-pass.md`. Adjudicated and APPLIED

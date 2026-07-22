@@ -40,8 +40,6 @@ sessions from re-deriving settled things.
 - `tensions.md` — the adjudicated contradictory-polarity slugs (including the RESOLVED
   mandatory-action-satisfaction call). Candidate seed checklist for a consistency
   sweep (offered, not yet decided).
-- `phase8-inbox.md` — open work queue: drafter-raised objections and card-text-vs-ruling
-  conflicts (see Open items).
 - `phantom-id-audit.md` — citation forensics for the ~35 reference IDs absent from the
   pinned database; disposition table, deliberate leftover markers, ⚠ rules flags.
 - `drafter-contract.md` — the style contract the document was written to. Judge any
@@ -53,27 +51,21 @@ sessions from re-deriving settled things.
    the document, and the highest-remaining-value navigation work (the intended lookup
    path for trait names like Scarce/Sterile/[FLIGHT] buried in §5.7.6). Appendix B
    (card index) was dropped by owner decision 2026-07-21.
-2. **phase8-inbox.md triage** — 3 live objections: §1.2 vs §1.15 on whether
-   "(limited)" binds the action or the minion-per-round (rulebook says minion for
-   additional strikes); §4.3's {Rigor Mortis} counterexample to §1.1's
-   cannot-names-cards vs cannot-names-outcome test; §1.11 wanting §1.8's "retrieve
-   cards played" clause scoped to canceled cards. Plus 34 card-text-vs-ruling conflicts
-   drafters flagged rather than silently resolving.
-3. **Known defects, identified and accepted as pending:** 12 compression candidates
+2. **Known defects, identified and accepted as pending:** 12 compression candidates
    over 70 prose lines (1.13, 1.8, 2.4, 2.5, 3.3, 3.7.6, 4.3, 4.5, 5.2, 5.7, 6.2, 6.5 —
    §1.6 at 48 lines is the accepted density benchmark); the dangling term "futility"
    (§1.1/§1.8/§1.9/§4.2 cross-reference it as though §1.6 defines it — verify whether
    the R-017 pass already cured this); heading style drift ("&" vs "and": §4.5/§5.7/§6.9
    vs §6.1; §4.7 should match the game term capitalization "Strike: Combat Ends").
-4. **Two ⚠ rules checks left over from the phantom audit.** The phantom citations
+3. **Two ⚠ rules checks left over from the phantom audit.** The phantom citations
    themselves are gone (2026-07-21: three linked to their live originals, eleven
    removed — final disposition in `phantom-id-audit.md`), but two document claims
    formerly supported by retracted rulings still need a real rules check: {Arika}
    (§5.2 — surviving rulings look reversed, one tagged [REVERSAL] ANK 20250121) and
    {Archon Investigation} (§3.3 — possible timing change).
-5. **tensions.md consistency sweep** — use the slugs as a one-time seed checklist for a
+4. **tensions.md consistency sweep** — use the slugs as a one-time seed checklist for a
    cross-section consistency pass (offered, undecided).
-6. **Upstream data gap:** 48 reference IDs cited in `rulings.yaml` have no entry in
+5. **Upstream data gap:** 48 reference IDs cited in `rulings.yaml` have no entry in
    `references.yaml` (~3.5%). An upstream hole in vtes-biased/vtes-rulings, not a
    drafting error — do not "fix" by deleting citations. One restoration request is
    pending upstream (vtes-biased/vtes-rulings#8, `ANK 20210309-3`).

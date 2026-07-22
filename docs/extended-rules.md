@@ -77,8 +77,10 @@ of the choices after the fact is not a remedy, e.g. {Leandro}.
 A "cannot" on a card is absolute. Where it names the cards it forbids, those cards cannot
 be played at all, not even for no effect to cycle them: the {Blood Fury} template ("damage
 from this strike cannot be prevented by cards requiring Fortitude [for]") stops the
-opponent from playing [for] prevention entirely.[^1-1-7] {Rigor Mortis} bars playing an
-additional-strike card even for a side benefit, e.g. {Acrobatics} for its dodge.
+opponent from playing [for] prevention entirely.[^1-1-7] "Cannot use any additional
+strikes" ({Rigor Mortis} and its template) is read the same way, not as a barred outcome:
+it bars playing an additional-strike card even for a side benefit, e.g. {Acrobatics} for
+its dodge.
 
 Where the "cannot" names an outcome instead, the play remains legal and only the outcome
 fails. {Charnas the Imp} is immune to damage from its employer, but the employer may still
@@ -128,10 +130,13 @@ it.[^1-2-5] Per [§1.15](#115-cumulative-and-stacking-effects) a
 once-per-action limit on *playing* a card binds the minion instead.
 
 An effect marked "(limited)" is capped by the rulebook, not the card, and is not optional:
-once a limited additional strike has been used this round, the card cannot be played for
-its other clause, e.g. {Dust Up} [cel].[^1-2-6] The limit binds the action (or round), not
-the minion: a substitute acting minion cannot use a limited effect if one has already been
-used on the action ([§3.10.1](#3101-substituting-the-actor-in-an-announced-action)).[^1-2-15]
+once a minion has used a limited additional strike this round, he cannot play the card for
+its other clause, e.g. {Dust Up} [cel].[^1-2-6] Each cap binds what the rulebook names: a
+limited bleed increase binds the bleed action — a substitute acting minion cannot use one
+if one has already been used on the action
+([§3.10.1](#3101-substituting-the-actor-in-an-announced-action)) — while a limited
+additional strike binds the minion per round of combat, each combatant
+separately.[^1-2-15]
 A canceled use spends no limit, and using a
 card's ability through another card plays no card — see [§1.8](#18-playing-and-canceling-a-card) for both.
 
@@ -878,7 +883,7 @@ Servitude} still plays only [pot], never [POT].[^1-15-5]
 
 A once-per-action limit on playing a card binds the minion, not the action. Different
 minions may each play their own copy on the same action, e.g. {Cloak the Gathering},
-{Suppressing Fire}.[^1-15-6] A limited effect binds the action itself; see [§1.2](#12-wording-templates-periodicity-duration-triggers).
+{Suppressing Fire}.[^1-15-6] A limited bleed increase binds the action itself, a limited additional strike the minion per round; see [§1.2](#12-wording-templates-periodicity-duration-triggers).
 
 Two copies of a card that imposes a mandatory directed action can deadlock the bearer: a
 minion under two {Lunatic Eruption} is stuck and cannot act.[^1-15-7] See [§3.9](#39-mandatory-actions).
@@ -1130,7 +1135,7 @@ in play: {Eyes of the Beast}'s maneuver serves only that action though the card 
 vampire until the discard phase. Within the action it is not spent by being available —
 {Marciana Giovanni, Investigator}'s beneficiary may burn the blood for intercept at any
 point. A prohibition triggered by attempting to block runs from the attempt to the end of
-the action, whether or not the block succeeds, e.g. {Valerius Maior, Hell's Fool}.[^2-5-2]
+the action, whether or not the block succeeds, e.g. {Valerius Maior, Hell's Fool (ADV)}.[^2-5-2]
 
 #### 2.5.2 Fixed at play versus read continuously
 
@@ -3261,7 +3266,7 @@ An Independent vampire's printed "N votes (titled)" is a title of its own and is
 
 A title granted by a library card is tied to that title's sect. While the bearer is off-sect the title is dormant: he counts as untitled and cannot use the title to make himself titled, e.g. {Fee Stake: Perth} on a vampire who is no longer Anarch.[^5-8-2]
 
-A card-granted title and a printed title of the same name are one title and contest each other: {Imperator} grants the same unique Camarilla Imperator title that {Karsh} prints.[^5-8-3]
+A card-granted title and a printed title of the same name are one title and contest each other: {Imperator} grants the same unique Camarilla Imperator title that merged {Karsh} prints.[^5-8-3]
 
 Contesting a title costs 1 blood, paid by the vampire. Effects that raise the pool cost of contesting a card do not reach it, e.g. {Democritus}.[^5-8-4]
 
@@ -3891,7 +3896,7 @@ normal replacement has been seen, e.g. {Learjet} (see [§1.9](#19-replacement) f
 [^1-2-4]: [ANK 20230316](https://www.vekn.net/forum/rules-questions/80385-amulet-of-temporal-perception-burning-and-reuse#107638) [ANK 20221102-2](https://www.vekn.net/forum/rules-questions/80130-motf-hl-retribution#106694) [RBK wording-templates](https://www.vekn.net/rulebook#wording-templates) — {Amulet of Temporal Perception}, groups "Weapon once per combat" (G00045) and "Weapon once per round" (G00046), {Haqim's Law: Retribution}.
 [^1-2-5]: [LSJ 20040127](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/2b3SFZyo3ik/m/2hwET6zRCykJ) [ANK 20221102-2](https://www.vekn.net/forum/rules-questions/80130-motf-hl-retribution#106694) — {Owain Evans, The Wanderer}, {Haqim's Law: Retribution}.
 [^1-2-6]: [ANK 20220204](https://www.vekn.net/forum/rules-questions/79634-multi-dust-up-question#104626) [LSJ 20100206](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/cAGrXqpO-YQ/m/GJHdeYt0GdUJ) [LSJ 20030224](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/67261v339Ds/m/um8V7VVp2Y4J) [ANK 20180627-1](https://www.vekn.net/forum/rules-questions/76757-inscription-and-mirror-walk#88419) — {Dust Up}, {Asguresh}, group "Cancel" (G00058), {Inscription}.
-[^1-2-15]: [ANK 20190117-1](https://www.vekn.net/forum/rules-questions/77308-mask-of-a-1000-faces-and-bleed-modifiers#92987) — {Mask of a Thousand Faces}.
+[^1-2-15]: [ANK 20190117-1](https://www.vekn.net/forum/rules-questions/77308-mask-of-a-1000-faces-and-bleed-modifiers#92987) [RBK bleed](https://www.vekn.net/rulebook#bleed) [RBK additional-strikes](https://www.vekn.net/rulebook#additional-strikes) — {Mask of a Thousand Faces}.
 [^1-2-7]: [ANK 20220705](https://www.vekn.net/forum/rules-questions/79895-question-regarding-using-a-minion-card-text-ability-when-locked#105630) [LSJ 20100705](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/Dm_Zqyjdx8s/m/Fw-T7QAU8mkJ) [RBK wording-templates](https://www.vekn.net/rulebook#wording-templates) — groups "Unconditional referendum ability" (G00039) and "Non-locking referendum ability" (G00040).
 [^1-2-8]: [LSJ 20100909](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/9Mn1QueD1I4/m/5hwidUeZH6EJ) [ANK 20220615](https://www.vekn.net/forum/rules-questions/72394-re-kaymakli-fragment?start=6#105476) [ANK 20200810](https://www.vekn.net/forum/rules-questions/78797-easy-nra-question-for-bindusara#100517) [RBK action-card-or-card-in-play](https://www.vekn.net/rulebook#action-card-or-card-in-play) — group "Provide multiple actions" (G00035), {Annazir}, {Bindusara, Historian of the Kindred}.
 [^1-2-9]: [LSJ 20040518](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/4emymfUPwAM/m/B2SCC7L6kuMJ) [ANK 20210309-2](https://www.vekn.net/forum/rules-questions/79005-rulebook-gaining-votes?start=6#101807) [LSJ 20020429](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/7ZfedGTVt9g/m/kQnfy7J_UYkJ) — {Filchware's Pawn Shop}, group "Vote playable once per game" (G00030), group "Since your last turn" (G00010).
@@ -4326,7 +4331,7 @@ normal replacement has been seen, e.g. {Learjet} (see [§1.9](#19-replacement) f
 [^4-2-6]: [LSJ 20021028](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/g0GGiVIxyis/m/35WA-O9XrroJ) [ANK 20200115](https://www.vekn.net/forum/rules-questions/78321-slave-rule-and-acting-minion?start=6#98594) [LSJ 20010814](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/z7uYIO39YCo/m/aufoimHncvQJ) [RTR 20020501](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/M1snoR2msbQ/m/RFwCmX3anDkJ) — {Sniper Rifle}.
 [^4-2-4]: [LSJ 20100709](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/j98aqFIFjnE/m/h_FjFos8S2UJ) [RBK before-range](https://www.vekn.net/rulebook#before-range) — {Fear of the Void Below}.
 [^4-2-5]: [ANK 20170930](https://www.vekn.net/forum/rules-questions/76197-still-confused-about-multiple-outside-the-hourglasses#83682) — {Outside the Hourglass}, {Weather Control}.
-[^4-2-9]: [LSJ 20090529](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/LpFSLRuWONA/m/daxDmJiGX0AJ) — {Lucian, the Perfect}.
+[^4-2-9]: [LSJ 20090529](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/LpFSLRuWONA/m/daxDmJiGX0AJ) — {Jann Berger}, group "Adding costs to a strike or strike card" (G00074).
 [^4-2-8]: [ANK 20210928-2](https://www.vekn.net/forum/rules-questions/79330-thoughts-betrayed-and-hunger-of-marduk?start=12#103364) — {Thoughts Betrayed}.
 [^4-2-7]: [LSJ 20080409](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/jrN1Pc_Quk0/m/XwWAWfq_KRIJ) — {Target Head}, {Target Hand}, {Target Leg}, {Target Retainer}, {Target Vitals}.
 [^4-2-10]: [ANK 20210422](https://www.vekn.net/forum/rules-questions/79111-vampiric-disease-and-dodge#102098) [LSJ 20040830](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/KHMhiNiSKo4/m/MCfo9aA-EjcJ) [ANK 20200703](https://www.vekn.net/forum/rules-questions/78713-blood-of-water-timing-before-strike-resolution#100237) [LSJ 20031008](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/JUnIGIrb3pw/m/EOo-cGykdmYJ) — {Vampiric Disease}, {Blood to Water}.

@@ -38,8 +38,6 @@ scaffolding:
   the code list; read it before proposing a new section.
 - `tensions.md` — adjudicated contradictory-polarity ruling groups; candidate seed for a
   future consistency sweep.
-- `phase8-inbox.md` — open work queue: drafter-raised objections and card-text-vs-ruling
-  conflicts awaiting triage.
 - `phantom-id-audit.md` — citation forensics for reference IDs absent from the pinned
   database: disposition table, deliberately retained markers, two ⚠ rules flags.
 - `drafter-contract.md` — the style contract the document was written to. Judge edits
