@@ -9,11 +9,12 @@ judge-level companion to the [VTES rulebook](https://www.vekn.net/rulebook) that
 synthesizes ~2,605 individual rulings into general principles organized by game mechanic.
 There is no build, no test suite, no package. The deliverable is one Markdown file.
 
-**The document is complete** — 64 sections in 6 chapters, 714 footnotes, appendix
-included, corrected through owner-adjudicated passes and a cross-section consistency
-sweep (2026-07-22). The project is in maintenance mode: keep the document true as
-rulings evolve upstream, and track the open Rules Director questions in
-`docs/_work/review.md`.
+**The document is complete** — 64 sections in 6 chapters, 673 footnotes, appendix
+included, corrected through owner-adjudicated passes, a cross-section consistency
+sweep, and an atomicity/deduplication pass (2026-07-22: every rule given a single
+normative home, cross-references culled to the misreading-preventing ones). The project
+is in maintenance mode: keep the document true as rulings evolve upstream, and track
+the open Rules Director questions in `docs/_work/review.md`.
 
 **`docs/advanced-rules.md` is the sole source of truth. Edit it directly.** The
 generation pipeline (classification chunks, extracts, section drafts, `assemble.py`) was
@@ -94,8 +95,13 @@ These were validated by the user; deviating from them is a regression.
   full fluency with the base rules is assumed. §1.6 is the accepted density benchmark.
 - **No exhaustive card lists.** Tie a rule to its wording template, then give "e.g." plus
   one to three cards.
-- Be synthetic: cross-reference other sections rather than repeating, and merge redundant
-  subsections.
+- **Atomicity (owner, 2026-07-22): every rule has exactly one normative home** — the
+  section a judge would look it up in first, i.e. the mechanic the rule constrains, not a
+  mechanic that happens to trigger it. Never state a rule in a second section; merge
+  redundant subsections. One ruling should ideally be cited by one section.
+- **Cross-references are a last resort, not a navigation aid** (owner, 2026-07-22). When
+  another section's rule is relevant, the default is silence. Add a `§` pointer only when
+  a reader of the current section would plausibly rule *wrongly* without it.
 - Card names in braces `{Abbot}`; disciplines and card types in brackets `[pot]`, `[POT]`,
   `[ACTION]`.
 - Every derived statement carries a footnote. **Footnote conventions (since 2026-07-21):**

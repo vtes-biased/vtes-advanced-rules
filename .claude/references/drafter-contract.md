@@ -120,8 +120,8 @@ If the card text and the ruling disagree, say so in your report. Do not quietly 
 - **NO exhaustive card lists.** Tie a rule to its **wording template**, then "e.g." plus
   **one to three** cards. Never four. If five cards illustrate a point, the point is the
   template and the cards are interchangeable — name the template.
-- Be synthetic: cross-reference other sections rather than repeating them. Merge redundant
-  subsections rather than writing both.
+- Atomic: every rule has exactly one normative home — the section a judge would look it
+  up in first. Never state a rule in a second section; merge redundant subsections.
 - Card names in braces: `{Abbot}`. Disciplines and card types in brackets: `[pot]`, `[POT]`,
   `[ACTION]`. Lowercase discipline = inferior, uppercase = superior; copy the case from the
   ruling text.
@@ -180,12 +180,13 @@ run of prose with no `####` headings at all. Do not manufacture structure to loo
 ## Cross-references
 
 Write them as a plain section marker: `see §3.5`, `(§1.6 owns the requirement side)`. Do
-**not** invent markdown anchors — the subsections you would link to may not exist yet.
-Phase 8 converts these to links once the document is assembled.
+**not** invent markdown anchors.
 
-Cross-reference instead of repeating. If your extract's material is genuinely another
-section's principle, say so in one sentence and move on — do not write that section's prose
-for it. Your extract tells you when this applies.
+A cross-reference is a last resort, not a navigation aid (owner, 2026-07-22). When another
+section's rule is relevant, the default is silence: never restate it, and point to it only
+when the reader would plausibly rule *wrongly* without the pointer. If your material is
+genuinely another section's principle, it belongs there — do not write that section's prose
+for it, and do not leave a pointer behind unless the misreading test is met.
 
 ## How to read your extract
 
