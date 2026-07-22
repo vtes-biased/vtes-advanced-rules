@@ -22,6 +22,15 @@ Entry format:
 
 ## General lessons
 
+- **Equipment, ally, retainer and political action cards are action-card subtypes
+  (owner ruling, 2026-07-22).** Playing any of them from hand is playing an action
+  card, so a bar like {Beast, The Leatherface of Detroit}'s "Beast cannot play action
+  cards" reaches an equipment card — including a locquipment such as
+  {Palatial Estate}. The Beast ruling's stated reason ("not by playing the card
+  normally as it is an action card") is CORRECT as written; the proposed reword was
+  reverted out of vtes-rulings PR #10. The document already agrees (§1.3.1 Beast
+  sentence; §1.3.2 "a retainer employed through {Pack Alpha} is still an action
+  card"). Do not re-flag this wording.
 - **ADV-only rulings sit on the ADV card's record — that IS the printing marker
   (owner policy, 2026-07-22).** The advanced version of a vampire is another card with
   its own id; a ruling that applies only to the advanced text belongs on that record
@@ -150,9 +159,11 @@ Entry format:
 ### R-023 — Phase-8 inbox triage (2026-07-21)  [SETTLED 2026-07-22]
 **Outcome:** Owner approved E1–E6 verbatim; all applied to the document 2026-07-22.
 The three countermands (Sundown, Legacy, The Becoming) stand. Upstream defects filed
-as a single vtes-biased/vtes-rulings issue with a fix PR (owner instruction) — minus
-the two "printing annotation" items, withdrawn per owner policy (see General lessons:
-ADV rulings sit on the ADV record). phase8-inbox.md deleted from docs/_work (queue fully processed; the
+as vtes-biased/vtes-rulings issue #9 + PR #10 (owner instruction) — reduced to the
+Mokolé/Shilmulo typo and the Guardian Vigil [aus]→[cel] retag. Withdrawn: the two
+"printing annotation" items (owner policy: ADV rulings sit on the ADV record) and the
+Beast reword (owner ruling: equipment/ally/retainer/political cards are action-card
+subtypes, so "as it is an action card" is correct — see General lessons for both). phase8-inbox.md deleted from docs/_work (queue fully processed; the
 per-item record is findings/phase8-inbox.md).
 **Position (proposed):** 35 items: 29 CLOSED (drafter resolutions verified in the
 assembled document), 5 edit findings E1–E6 in `findings/phase8-inbox.md` (the
