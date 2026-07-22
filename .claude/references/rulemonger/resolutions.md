@@ -22,6 +22,13 @@ Entry format:
 
 ## General lessons
 
+- **ADV-only rulings sit on the ADV card's record — that IS the printing marker
+  (owner policy, 2026-07-22).** The advanced version of a vampire is another card with
+  its own id; a ruling that applies only to the advanced text belongs on that record
+  (e.g. `201422|Valerius Maior, Hell's Fool` = G4 ADV, `200649|Ivan Krenyenko` =
+  G2 ADV). Keys use the printed name; the id disambiguates. Do not propose "(advanced
+  version only)" annotations in ruling text and do not flag plain-name keys on ADV ids
+  as defects. Name-based lookups being ambiguous is by design — resolve by id.
 - **The drafting corpus diverges from the pinned database.** `docs/_work/rulings-flat.tsv`
   was generated from a pre-pin snapshot of the rulings DB. 35 of 1,166 reference IDs cited
   in the document do not exist in the pinned `references.yaml` (nor upstream HEAD). When a
@@ -142,9 +149,10 @@ Entry format:
 
 ### R-023 — Phase-8 inbox triage (2026-07-21)  [SETTLED 2026-07-22]
 **Outcome:** Owner approved E1–E6 verbatim; all applied to the document 2026-07-22.
-The three countermands (Sundown, Legacy, The Becoming) stand. The 5 upstream defects
-were filed as a single vtes-biased/vtes-rulings issue with a fix PR (owner
-instruction). phase8-inbox.md deleted from docs/_work (queue fully processed; the
+The three countermands (Sundown, Legacy, The Becoming) stand. Upstream defects filed
+as a single vtes-biased/vtes-rulings issue with a fix PR (owner instruction) — minus
+the two "printing annotation" items, withdrawn per owner policy (see General lessons:
+ADV rulings sit on the ADV record). phase8-inbox.md deleted from docs/_work (queue fully processed; the
 per-item record is findings/phase8-inbox.md).
 **Position (proposed):** 35 items: 29 CLOSED (drafter resolutions verified in the
 assembled document), 5 edit findings E1–E6 in `findings/phase8-inbox.md` (the
