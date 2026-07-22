@@ -9,7 +9,7 @@ judge-level companion to the [VTES rulebook](https://www.vekn.net/rulebook) that
 synthesizes ~2,605 individual rulings into general principles organized by game mechanic.
 There is no build, no test suite, no package. The deliverable is one Markdown file.
 
-**The document is complete** — 64 sections in 6 chapters, 673 footnotes, appendix
+**The document is complete** — 64 sections in 6 chapters, 674 footnotes, appendix
 included, corrected through owner-adjudicated passes, a cross-section consistency
 sweep, and an atomicity/deduplication pass (2026-07-22: every rule given a single
 normative home, cross-references culled to the misreading-preventing ones). The project
@@ -33,13 +33,16 @@ retired and deleted on 2026-07-21; it survives only in git history. Do not resur
   section it covers.
 - `.claude/references/drafter-contract.md` — the style contract the document was
   written to. Judge edits against this, not against taste.
-- One open upstream item: vtes-biased/vtes-rulings#8 (the accidentally deleted G00031
-  record and its `ANK 20210309-3` reference); nothing needed here when it lands.
+- Open upstream items: vtes-biased/vtes-rulings#8 (the accidentally deleted G00031
+  record and its `ANK 20210309-3` reference) and #11 (the {Annabelle Triabell} ruling
+  inverts LSJ 20030811); nothing needed here until they land.
 
 Verification and post-update maintenance run through the **rulemonger agent**
 (`.claude/agents/rulemonger.md`): it works from the document plus the citable sources;
 it reports findings and exact edits rather than editing the document itself, and keeps
-its memory under `.claude/references/rulemonger/`.
+its memory under `.claude/references/rulemonger/` — playbook (craft), resolutions
+(settled judgment), and `canon.md`, a provenanced verbatim cache of the 63 rulings the
+document leans on hardest.
 
 ## Source data (outside this repo)
 
@@ -111,7 +114,7 @@ These were validated by the user; deviating from them is a regression.
   definition are markdown links to their `references.yaml` URLs and `[RBK anchor]` links
   to `https://www.vekn.net/rulebook#anchor`, **double-bracketed so the brackets display**
   (since 2026-07-22), e.g.
-  `[^c1]: [[LSJ 20061207]](https://…) [[RBK playing-a-card]](https://www.vekn.net/rulebook#playing-a-card) — group "Cancel" (G00058).`
+  `[^1-8-1]: [[LSJ 20061207]](https://…) [[RBK playing-a-card]](https://www.vekn.net/rulebook#playing-a-card) — group "Cancel" (G00058).`
   Definitions are separated by blank lines — kramdown otherwise lazily absorbs the next
   definition as paragraph content (this silently broke all footnotes once). IDs with no
   URL (phantoms, upstream holes) stay as plain unlinked single-bracket labels — do not
@@ -121,7 +124,8 @@ These were validated by the user; deviating from them is a regression.
   document.
 - No reader injunctions ("Read the card…", "Read the wording…"): state the rule
   declaratively (owner, 2026-07-22).
-- `⚠ REVIEW` marks a point that still needs judge confirmation.
+- `⚠ REVIEW` marks a point that still needs judge confirmation (none remain as of
+  2026-07-22).
 - For anything deeper, the full style contract is `.claude/references/drafter-contract.md`.
 
 ## Domain gotchas already established
@@ -130,9 +134,13 @@ These were validated by the user; deviating from them is a regression.
   name/copy rules are. Sameness matters only for card effects (`{Obedience}`,
   `{Red Herring}`, `{Change of Target}`).
 - `rulings.yaml` wording sometimes paraphrases the original ruling — and can even invert
-  it (the {Annabelle Triabell} record, caught 2026-07-22). Verify against actual card
-  text and, when it matters, the original ruling (VEKN forum posts are fetchable; LSJ
-  Google Groups posts often work through WebFetch too — try before giving up).
+  it (the {Annabelle Triabell} record, caught 2026-07-22, filed upstream as
+  vtes-biased/vtes-rulings#11). Verify against actual card text and, when it matters,
+  the original ruling: VEKN forum and Google Groups posts both fetch fine (2026-07-22
+  calibration, 30+ successes); fallbacks are the VEKN rules archive
+  (`vekn.net/history-of-vtes-rules`, hosts the RTR compilations) and the narkive usenet
+  mirror. The rulemonger's `canon.md` already holds provenanced extracts of the most
+  load-bearing rulings.
 - **Read the whole thread — Rules Directors correct themselves downthread.** LSJ
   20100604-1's later "My mistake. Neither can be used to enter combat with a non-ready
   minion." supersedes his first "Sure. Card text." answer on {Hidden Lurker}; reading
@@ -152,8 +160,3 @@ compares numerically equal to `"3.1"` — so a naive `a[i]==C` silently folds se
 into 3.10. This produced a wrong count once already. Match codes via array subscripts
 (always string keys) or force string context (`a[i] "" == C ""`). The same trap applies to
 any `3.7.x` vs `3.7` comparison.
-
-**Verify field indices after `join`.** `join` shifts columns (`1=key`, then file1's
-remaining fields, then file2's), so an index copied from a pre-join script reads the wrong
-column and quietly reports zero violations. Print one joined row and count before trusting
-any validation built on it.
