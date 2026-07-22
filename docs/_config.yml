@@ -1,0 +1,18 @@
+# Jekyll config for the GitHub Pages site.
+# Set Pages source to: branch `main`, folder `/docs`. This directory is the site root.
+title: VTES Extended Rules
+description: >-
+  A judge-level companion to the VTES rulebook, synthesizing thirty years of
+  rulings into general principles organized by game mechanic.
+lang: en
+
+# kramdown / GFM: fenced code, GitHub-style footnotes ([^label] + a gathered
+# definition block), and the doc's ~750 footnotes render with backlinks.
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# _work/ is already ignored (leading underscore); submodules live outside /docs.
+# No theme: styling and the krcg wiring live in _layouts/rules.html.
+plugins: []

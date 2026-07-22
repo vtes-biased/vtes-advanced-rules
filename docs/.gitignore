@@ -1,0 +1,8 @@
+# Jekyll build artifacts (site source is this /docs folder)
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+vendor/
+.bundle/
+# Keep Gemfile.lock tracked — it's what makes previews reproducible.

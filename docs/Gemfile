@@ -1,0 +1,9 @@
+source "https://rubygems.org"
+
+# `github-pages` pins Jekyll and every allowed plugin to the exact versions
+# GitHub Pages runs in production, so a local `bundle exec jekyll serve` matches
+# the deployed site. Commit the generated Gemfile.lock to freeze those versions.
+gem "github-pages", group: :jekyll_plugins
+
+# Timezone data for platforms without a system tzdata (Windows / JRuby).
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]

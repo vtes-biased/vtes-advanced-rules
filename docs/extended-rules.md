@@ -1,3 +1,9 @@
+---
+layout: rules
+title: VTES Extended Rules
+permalink: /
+---
+
 # VTES Extended Rules
 
 > **Status: COMPLETE DRAFT — all 64 sections drafted (Phase 6). Not yet consistency-reviewed

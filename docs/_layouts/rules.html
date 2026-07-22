@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  {% if site.description %}<meta name="description" content="{{ site.description }}">{% endif %}
+  <!-- Ankha (icons) + VTES Clans fonts and the card-modal styles -->
+  <link rel="stylesheet" href="https://static.krcg.org/web/krcg.css">
+  <style>
+    :root { --fg:#1b1b1b; --muted:#666; --accent:#8a1f1f; --rule:#e2e2e2; --bg:#fdfdfc; }
+    @media (prefers-color-scheme: dark) {
+      :root { --fg:#e6e6e6; --muted:#9a9a9a; --accent:#e07a7a; --rule:#333; --bg:#181818; }
+    }
+    html { box-sizing:border-box; -webkit-text-size-adjust:100%; }
+    *,*::before,*::after { box-sizing:inherit; }
+    body {
+      margin:0; background:var(--bg); color:var(--fg);
+      font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    }
+    main { max-width:52rem; margin:0 auto; padding:2.5rem 1.25rem 6rem; }
+    h1,h2,h3,h4,h5 { line-height:1.25; font-weight:650; }
+    h1 { font-size:2rem; }
+    h2 { font-size:1.5rem; margin-top:2.5rem; padding-top:.6rem; border-top:1px solid var(--rule); }
+    h3 { font-size:1.2rem; margin-top:1.8rem; }
+    h4,h5 { font-size:1rem; color:var(--muted); }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    code { font-size:.9em; background:rgba(128,128,128,.14); padding:.1em .35em; border-radius:3px; }
+    pre { overflow-x:auto; background:rgba(128,128,128,.1); padding:1rem; border-radius:6px; }
+    hr { border:0; border-top:1px solid var(--rule); margin:2rem 0; }
+    blockquote { margin:1.5rem 0; padding:.4rem 1rem; border-left:3px solid var(--accent); color:var(--muted); }
+    table { border-collapse:collapse; display:block; overflow-x:auto; }
+    th,td { border:1px solid var(--rule); padding:.4em .6em; text-align:left; }
+    /* footnotes */
+    .footnotes { font-size:.85rem; color:var(--muted); border-top:1px solid var(--rule); margin-top:3rem; }
+    /* card references — click/hover shows the card image via krcg.js */
+    .krcg-card { color:var(--accent); cursor:pointer; border-bottom:1px dotted currentColor; }
+    .krcg-card:hover { border-bottom-style:solid; }
+    /* icon glyphs (Ankha font), sized to sit on the text baseline */
+    .krcg-icon { font-size:1.15em; vertical-align:-.05em; }
+  </style>
+</head>
+<body>
+  <main>{{ content }}</main>
+  <!-- shim runs first (converts {card}/[icon] tokens), then krcg wires the modals on window load -->
+  <script src="{{ '/assets/card-links.js' | relative_url }}" defer></script>
+  <script src="https://static.krcg.org/web/krcg.js" defer></script>
+</body>
+</html>
