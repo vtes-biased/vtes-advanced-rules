@@ -185,6 +185,18 @@ Entry format:
   owner's own polish pass. When the tree is dirty, state which state a quote comes
   from.
 
+- **An RD post's embedded images are part of the ruling (2026-11-09).** Ankha's "Queued
+  combats" FAQ (#114683) carries a flow chart whose loops — {Hidden Lurker}/{Fast Reaction}
+  starting a combat from the after-combat windows, inside "After resolution" — settle what
+  the post's text and the RTR it quotes leave contradictory ("not possible to queue a combat
+  after the action resolution"). Stripping the HTML to text drops it; grep the post for
+  `<img` and read the image before calling a sentence supported.
+- **RTR IDs carry the ruling's own date, else the publication date.** RTR 20180719 sits at
+  a 2018/07/18 Black Chantry post titled RTR 19-07-2018, RTR 20201130 at a 2020/12/25 post;
+  undated official publications use their publication date (RTR 20191031 newsletter,
+  RTR 20250612 new-terms post). Same-day ANK IDs: bare then `-2` is the majority upstream
+  form; `-1`/`-2` also occurs — both are conformant.
+
 ## Resolutions
 
 ### R-031 — Atomicity/deduplication pass: one rule, one home; cross-refs culled  [SETTLED 2026-07-22]
