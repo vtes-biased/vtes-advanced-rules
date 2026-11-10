@@ -108,7 +108,7 @@ bypass requirements. All three say "**requirements and cost apply as normal**" i
 printed text. The claim was exactly backwards and one API call would have caught it.
 
 **Before you cite any card as an example, fetch its text** from
-`https://api.krcg.org/card/<name>` (key `card_text`) and confirm it says what you are
+`https://api.krcg.org/card/<name>` (key `text`) and confirm it says what you are
 about to claim. `rulings.yaml` paraphrases; the card is the evidence. This is cheap — you
 cite at most three cards per principle.
 
@@ -219,7 +219,7 @@ for it, and do not leave a pointer behind unless the misreading test is met.
   the thing needing explanation, not the other way round.
 - `rulebook2024/content.md` — the citable base rulebook, for `[RBK …]` anchors and for
   checking what the base rules actually say before you claim a ruling bends them.
-- `https://api.krcg.org/card/<name-or-id>` (key `card_text`) — **required** for every card
+- `https://api.krcg.org/card/<name-or-id>` (key `text`) — **required** for every card
   you cite as an example; see VERIFY CARD TEXT above.
 - `vtes-rulings/rulings/rulings.yaml` and `groups.yaml` — when your extract routes you a
   topic whose rulings are coded elsewhere, or when a group record (`G#####`) is the

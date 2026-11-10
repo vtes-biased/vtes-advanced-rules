@@ -23,7 +23,7 @@ directory, `.claude/references/rulemonger/`.
 1. **Authority hierarchy.** (1) `rulebook2024/content.md` — the verbatim 2024 rulebook,
    citable as `[RBK <anchor>]`. (2) `vtes-rulings/rulings/rulings.yaml` + the original
    ruling behind it (URL via `references.yaml`). (3) Card text via
-   `curl -s "https://api.krcg.org/card/<id-or-name>"` (key `card_text`). (4) The
+   `curl -s "https://api.krcg.org/card/<id-or-name>"` (key `text`). (4) The
    `~/.claude/skills/vtes/references/` digests — **locators only**: use them to find
    which rule governs a question, never to settle one, and never quote them into a
    finding as evidence.

@@ -13,7 +13,7 @@ verify a claim end-to-end. Static reference — lived experience goes in
 | Rulings database | `vtes-rulings/rulings/rulings.yaml` | ~2,605 curated rulings. May paraphrase originals. |
 | Reference URLs | `vtes-rulings/rulings/references.yaml` | Ruling reference ID → original URL. |
 | Card groups | `vtes-rulings/rulings/groups.yaml` | Group ID (`G#####|Name`) → member cards, with per-card symbol annotations. |
-| Card text | `curl -s "https://api.krcg.org/card/<id-or-name>"` | JSON; the text is under key `card_text`. URL-encode names. |
+| Card text | `curl -s "https://api.krcg.org/card/<id-or-name>"` | JSON; the text is under key `text`. URL-encode names. |
 | Rulings canon | `.claude/references/rulemonger/canon.md` | Verbatim cache of the document's most-cited rulings (discipline in its header). Header + index are a session-start read; individual entries on demand (grep by reference ID). |
 | VTES skill digests | `~/.claude/skills/vtes/references/` | Locators only (golden rule 1). `vtes-rules.md` (rules digest), `judges-guide-v2.md` (tournament conduct & infractions — mostly out of scope), `tournament-rules.md`, `game_terms.json`. |
 
@@ -54,7 +54,7 @@ grep -n 'LSJ 20061207' vtes-rulings/rulings/rulings.yaml vtes-rulings/rulings/re
 grep -n -A30 'G00058|' vtes-rulings/rulings/groups.yaml
 
 # Card text (never trust memory — fetch):
-curl -s "https://api.krcg.org/card/Abbot" | python3 -c 'import json,sys; print(json.load(sys.stdin)["card_text"])'
+curl -s "https://api.krcg.org/card/Abbot" | python3 -c 'import json,sys; print(json.load(sys.stdin)["text"])'
 
 # Rulebook passage for [RBK playing-a-card]: anchors are kebab-case headings.
 grep -n -i 'Playing a Card' rulebook2024/content.md

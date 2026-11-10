@@ -18,6 +18,9 @@ cases and non-obvious interactions established by thirty years of rulings, organ
 It is written for judges and advanced players: it assumes full fluency with the base rules and terminology, and favors
 precision over accessibility.
 
+A statement marked *(reading)* settles a point no official ruling settles: its footnote names where the reading is
+recorded, and an official ruling would supersede it.
+
 ## Driving principles
 
 Four principles drive most rulings:
@@ -77,6 +80,9 @@ A mandatory effect is applied at its timing point, before its controller passes 
 burning pool to {Anarch Revolt}.[^1-1-6] A player who has passed that opportunity does not get it back because the
 effect was overlooked: {The Coven} still moves to the predator and its controller cannot lock it retroactively.
 
+A mandatory "during each X phase" effect on a card entering play during an X phase is due in that same phase, e.g.
+{Brujah Debate} played in a master phase, {Dragonbound} put in play in a discard phase *(reading)*.[^1-1-11]
+
 Where a mandatory choice has no printed default and every player missed it, imposing one of the choices after the fact
 is not a remedy, e.g. {Leandro}.
 
@@ -97,19 +103,26 @@ bank.
 
 "This minion" is the acting minion, "that minion" the target, e.g. {Big Game}.[^1-1-10] Such referents are re-read as
 the effect resolves: two {Major Boon} cannot be burned on the same bleed, because after the first "you" are no longer
-the Methuselah burning pool.
+the Methuselah burning pool. "You" and "your" are the card's controller, whoever brought the effect about: {Open War}'s
+4 pool goes to its controller, not to the Methuselah who moved the fourth counter *(reading)*.[^1-1-12]
+
+A higher level carries the lower level's text only where it prints "as above"; otherwise it stands alone.[^1-1-14] So
+{Read the Winds} at [ANI][AUS] locks its vampire for the block *(reading)*.[^1-1-13]
 
 ### 1.2 Wording templates: periodicity, duration, triggers
 
 #### 1.2.1 How often an effect may be used
 
 "Once each turn" means once during each player's turn. "Once during each of your turns" is the narrower form, e.g.
-{Maila}. Turn, master phase, unlock phase, action, bleed and referendum all read the same way.[^1-2-1]
+{Maila}. Turn, master phase, unlock phase, action, bleed and referendum all read the same way, and so does "during X, …
+can …" or "can … during X": one use per X with each copy, e.g. {Vessel} once per unlock phase, {Eyes of the Wild}'s burn
+once in its action.[^1-2-1]
 
 A limit keyed to an event is spent per occurrence, and the event can recur in one turn: {Andre LeRoux} may be used on
-each successful bleed. An ability whose use costs a master phase action is likewise spent per action, so extra master
-phase actions buy extra uses, e.g. {Nahir}. An ability framed by a phase is spent for that phase: {Nonu Dis} may be used
-once per master phase however many master cards are played in it.[^1-2-2]
+each successful bleed. An ability worded "after X" is limited by that event even with no other limit: once after each X
+with each copy, e.g. {Richard de Worde} *(reading)*.[^1-2-17] An ability whose use costs a master phase action is
+likewise spent per action, so extra master phase actions buy extra uses, e.g. {Nahir}. An ability framed by a phase is
+spent for that phase: {Nonu Dis} may be used once per master phase however many master cards are played in it.[^1-2-2]
 
 Absence of a periodicity clause means no limit — {Maris Streck} may use her ability as often as she can pay for it. A
 trigger condition is not a limit: {Slake the Thirst} may be played several times on one blood gain.[^1-2-3]
@@ -127,14 +140,17 @@ An effect marked "(limited)" is capped by the rulebook, not the card, and is not
 limited additional strike this round, he cannot play the card for its other clause, e.g. {Dust Up} [cel].[^1-2-6] Each
 cap binds what the rulebook names: a limited bleed increase binds the bleed action — a substitute acting minion cannot
 use one if one has already been used on the action — while a limited additional strike binds the minion per round of
-combat, each combatant separately.[^1-2-15] A canceled use spends no limit.
+combat, each combatant separately.[^1-2-15] A canceled use spends no limit, nor does one granting nothing, e.g.
+{Lightning Reflexes} [CEL] with X = 0 *(reading)*.[^1-2-18]
 
 A referendum ability is usable once per referendum; which states it works from is
 [§3.7.6.4](#3764-locked-and-torpid-vampires)'s.[^1-2-7]
 
 "Only once in a game" survives the card's return from the ash heap, so a replay effect cannot bring it back, e.g.
-{Filchware's Pawn Shop}.[^1-2-9] "Since your last turn" means between the end of your previous turn and now: the
-previous turn does not qualify, the current one does.
+{Filchware's Pawn Shop}.[^1-2-9] "Only one X can be played each turn" or "… per game" names no player, so it counts
+every Methuselah's plays, a canceled one included, e.g. {Ashur Tablets}, {Fortschritt Library}; each event card is
+likewise played once a game across the table *(reading)*.[^1-2-19] "Since your last turn" means between the end of your
+previous turn and now: the previous turn does not qualify, the current one does.
 
 #### 1.2.2 Trigger and condition wording
 
@@ -173,7 +189,8 @@ Leatherface of Detroit} also cannot play action cards, so a card must put it on 
 A card with two types is of the type it is played as, never both.[^1-3-6] {Adana de Sforza} reduces the cost of a
 [COMBAT]/[MODIFIER] card only when it is played as a combat card; {Conrad Adoula} reads a [REACTION]/[MODIFIER] card
 only when it is played as a reaction. A card offering a choice of disciplines is of the discipline it was played at,
-e.g. {Horrock}.
+e.g. {Horrock}. In hand, library or ash heap a card printing several Disciplines counts as requiring every one of them,
+e.g. {Alexa Draper} may discard any card listing [dom] for her vote.[^1-3-8]
 
 An effect that retrieves or counts cards by type reads the type the card was played as: {Henry Taylor} recovers
 {Resist Earth's Grasp} only if it was played as a combat card.
@@ -245,11 +262,11 @@ terms.[^1-5-14]
 
 #### 1.5.4 Reuse
 
-An ability may be used any number of times during a single action unless its own text limits it, e.g. {Corpse
-Minion}.[^1-5-7] Three limits come from the wording. If use locks the bearer or its source, it is once per unlock, e.g.
-{Forest of Shadows}, {Hukros}. If it is keyed to a phase action, it is once per window available, e.g. {Josef von
-Bauren}. Any other condition in the text is rechecked at each use: {Osric Vladislav} may repeat only while he is acting
-and stealth is needed.[^1-5-8]
+An ability may be used any number of times during a single action unless its own text limits it, as a "during" clause
+does, e.g. {Corpse Minion}.[^1-5-7] Three limits come from the wording. If use locks the bearer or its source, it is
+once per unlock, e.g. {Forest of Shadows}, {Hukros}. If it is keyed to a phase action, it is once per window available,
+e.g. {Josef von Bauren}. Any other condition in the text is rechecked at each use: {Osric Vladislav} may repeat only
+while he is acting and stealth is needed.[^1-5-8]
 
 A once-each-turn ability is spent only if it actually applies. {Nergal}'s cost reduction is not used when the action
 cannot be paid for even with it, or when the card is canceled as played and no cost is paid.[^1-5-9]
@@ -271,9 +288,10 @@ available.[^1-5-12]
 #### 1.6.1 When a requirement is checked
 
 A requirement is checked when the card is played and on each later play: {Undead Persistence} cannot be used twice in
-one combat.[^1-6-1] During an action it is checked continuously; a minion who stops meeting it *fizzles* the action: the
-action still resolves and, if unblocked, is successful and its cost paid, but it has no effect. One met at the time of
-the block stands if the acting vampire is later replaced.
+one combat.[^1-6-1] During an action it is checked continuously; a minion who stops meeting it before the action is
+blocked or resolves *fizzles* it at once: the action is successful, but it has no effect and its cost is not paid, and a
+block attempt under way does not resolve.[^1-6-29] One met at the time of the block stands if the acting vampire is
+later replaced.
 
 A card already in play stays in play when its requirement lapses.[^1-6-2] A trait gained later applies to cards already
 in play if the card checks for it, e.g. {Orun}'s capacity bonus[^1-6-3], not if it's only checked when the card is
@@ -287,7 +305,8 @@ by an untorpid vampire. On a card that goes into play it gates only the conferre
 still equip {Seal of Veddartha} and gains its [dom] and [for] levels, but cannot use its bleed action.[^1-6-4]
 
 Meeting a requirement is not possessing the trait: {Talaq, the Immortal} plays [qui] cards but has no [qui] and gains
-nothing from cards keyed to having it.[^1-6-5]
+nothing from cards keyed to having it.[^1-6-5] A power the card prints as "not a Discipline" sets the card's level, but
+nothing that counts, requires or taxes Disciplines sees it, e.g. [str] on {Masca} for {Dabbler}.[^1-6-26]
 
 A card printing a clan and its antitribu as alternatives needs only one of the two, e.g. {Defender of the Haven}; a lone
 clan requirement is not met by the antitribu clan.[^1-6-6]
@@ -304,9 +323,10 @@ splits the two checks at will: {Bindusara, Historian of the Kindred} puts in pla
 Reality} equips paying no cost, and burns the weapon if requirements are unmet.[^1-6-9]
 
 Bypassing requirements does not bypass prohibitions: {Heidelberg Castle, Germany} cannot move equipment onto {Enkidu,
-The Noah}. A card placed where it cannot legally sit is burned without cost refund; whether an effect it imposed on
-placement survives is [§2.5.3](#253-effects-outliving-their-source)'s. On-entry clauses firing however the card entered
-are [§5.5](#55-allies)'s.[^1-6-10]
+The Noah}. A card placed where it cannot legally sit is burned and no cost is paid for it, e.g. a second vehicle found
+by {Vast Wealth};[^1-6-27] whether an effect it imposed on placement survives is
+[§2.5.3](#253-effects-outliving-their-source)'s. On-entry clauses firing however the card entered are
+[§5.5](#55-allies)'s.[^1-6-10]
 
 A clause firing on equipping does not fire when the card is merely put in play: {Helicopter} comes locked when equipped,
 unlocked when {Alastor} places it.[^1-6-12] An ability modifying equipping or recruiting does apply to non-normal ones,
@@ -320,7 +340,8 @@ Summoning} for an ally requiring an Anarch.[^1-6-14]
 #### 1.6.4 Vampires that meet requirements they do not have
 
 {Mata Hari} and her kind are treated as meeting the requirement for all effects of the card played, and only them,
-including its duration effects — never for what the card does from being in play.[^1-6-15]
+including its duration effects — never for what the card does from being in play.[^1-6-15] {Vlad Tepes}, who "uses and
+can play" such cards, also meets it for what the card does from being in play, e.g. {Abbot}'s intercept.[^1-6-28]
 
 The ability operates only on a card played normally, not for a {Piper} recruit or a {Concealed Weapon} equip.[^1-6-16]
 It operates only where the card prints the requirement, never to match a trait the card merely acts on, e.g.
@@ -337,7 +358,8 @@ Familiar}, {Grey Thorne}.[^1-6-20]
 #### 1.6.5 Playing a card that will do nothing
 
 Futility is no bar by default: a card may be played, and an action taken, knowing it will accomplish nothing, e.g.
-{Absorb the Mind} against a bloodless vampire, {Draba} on a minion already at 0 stealth.[^1-6-21]
+{Absorb the Mind} against a bloodless vampire, {Draba} on a minion already at 0 stealth, {Fragment of the Book of Nod}
+with an empty library.[^1-6-21]
 
 Three families bar the play. A card whose text names the object it acts on cannot be played when no such object exists,
 e.g. {Shattering Blow} with no equipment, {Storage Annex} as the only card in hand, an empty crypt to draw
@@ -377,15 +399,17 @@ order.[^1-7-9]
 You must be able to pay the printed cost, even when the card returns more than it costs, e.g. {The Eternals of Sirius},
 {Villein}; a reduction that brings the cost within reach makes the play legal.[^1-7-10]
 
-Some cards have a cost of X, chosen by the player when paying. X may be zero, and "X" in the card's own text means the
-cost paid for that card. A card put into play rather than played has X of zero, whatever the fetching card announced,
-e.g. {Summon History}.[^1-7-11]
+Some cards have a cost of X, chosen as the card is played — for an action card, as the action is announced, though it is
+paid at resolution. X may be zero, and "X" in the card's own text means the cost paid for that card. A card put into
+play rather than played has X of zero, whatever the fetching card announced, e.g. {Summon History}.[^1-7-11]
 
 #### 1.7.3 Cost reductions
 
 A "lock to reduce the cost" location may be locked at any point from announcement until just before the cost is paid.
 When the reduction is what makes the card affordable at all, it must be locked at announcement, e.g. {Sunset Strip,
-Hollywood}.[^1-7-12]
+Hollywood}. A location locked for an action card then canceled as it is played stays unlocked, e.g. {The Line}.[^1-7-12]
+So does one locked for a card canceled with its cost still paid, though that card's other announced reductions apply
+*(reading)*.[^1-7-30]
 
 A reduction reaches what its wording keys it to: one on a card's cost applies however the card reaches play, including a
 retainer employed by {Pack Alpha}; one keyed to an action does not apply where no action is taken, e.g.
@@ -407,7 +431,8 @@ names, including cards played at end of round, e.g. {Terror Frenzy}.[^1-7-18]
 
 Where a card names an amount to take from a target, take what is there, e.g. {Villein}, {Theft of Vitae}.[^1-7-19] Where
 the amount is a cost the payer cannot meet, the payment is still made as far as it goes and the effect it was to buy
-does not happen, e.g. {Sword of Nuln}.[^1-7-20]
+does not happen, e.g. {Sword of Nuln}.[^1-7-20] An action whose cost can no longer be paid in full at resolution
+fizzles: unblocked, it is still successful, so {Freak Drive} [for] may follow, but it has no effect.[^1-7-31]
 
 An ally has life, not blood, and cannot pay a blood cost at all. Where the payer chooses the source, choosing an empty
 one does not discharge the obligation, e.g. {Smiling Jack, The Anarch}.[^1-7-22]
@@ -434,7 +459,9 @@ cards are not replaced during the window, so a library-search master cannot fetc
 {Dreams of the Sphinx}.[^1-8-1] A wake effect is the one other card playable in the window; a reaction that unlocks to
 attempt a block is not.[^1-8-2] A cancellation from an ability in play is applied before anyone may play a further
 cancellation, e.g. {Andrew Stuart} pre-empting {Direct Intervention}. A cancellation that is itself a card play opens
-its own window and can be canceled there first — {Sudden Reversal} on the {Direct Intervention}.[^1-8-3]
+its own window and can be canceled there first — {Sudden Reversal} on the {Direct Intervention}.[^1-8-3] A reflex is
+played by the minion the canceled card is played on, locked or not, e.g. {Predator's Transformation}
+*(reading)*.[^1-8-21]
 
 The window opens on an out-of-turn master, on a combat card played at the end of a round or "when combat would end", and
 on a modifier played after the action succeeds, e.g. {Voter Captivation}.[^1-8-4] A card is cancelable as what it was
@@ -499,7 +526,8 @@ the action ends, after all combats.[^1-9-4]
 A delayed replacement is drawn at the first moment its condition is met, ahead of any other effect triggering then:
 before cards unlock ({Port Authority}), before other effects keyed to the same torpor ({The New Inquisition} ahead of
 {Fame}), before a queued combat begins ({Lucky Blow} ahead of {Psyche!}).[^1-9-5] The delay runs to its condition even
-if the card has since been burned.
+if the card has since been burned. A delay imposed by another card in play ends with that card: when it leaves play, the
+held replacements are drawn at once, e.g. {The Meddling of Semsith} *(reading)*.[^1-9-12]
 
 "Do not replace" effects stack with a card's own clause and the longest delay wins.[^1-9-6] Where two effects
 each offer a different replacement treatment, the controller chooses, e.g. {Visit from the Capuchin} against {Steely
@@ -517,7 +545,9 @@ A "do not replace until after this action" clause governs only a normal play
 even mid-action, e.g. {Baseball Bat} played via {Concealed Weapon}; played normally the clause still governs, even when
 the card reaches play by another route during the resulting combat, e.g. {Gift of Bellona}.[^1-9-8] A card played
 normally is replaced before its action resolves, so an ally recruited in the normal fashion can be given cards drawn as
-its own replacement; one entering play by other means cannot, e.g. {Corrupt Construction}.
+its own replacement; one entering play by other means cannot, e.g. {Corrupt Construction}. A card played "as if from
+your hand" off another card is never replaced, so its "do not replace" clause costs no hand size, e.g. {The Erciyes
+Fragments}.[^1-9-13]
 
 A canceled card is replaced normally, its "do not replace until" or alternate-replacement clause canceled with it, e.g.
 {Steely Tenacity}.[^1-9-9]
@@ -663,9 +693,9 @@ it placed elsewhere keep working, e.g. {Tegyrius, Vizier}'s allegiance counters.
 A card put on another card is not in play, even where the host's text does not say so, e.g. {Shadow Court
 Satyr}.[^1-12-4]
 
-A card on a minion is controlled by that minion's controller, so it stays when the Methuselah who played it is ousted,
-e.g. {Anathema}.[^1-12-5] It follows its host on a change of control, and the new controller may use it. When it would
-move to an ash heap or library it goes to the owner's, e.g. {Storage Annex} stolen.
+A minion card on a minion is controlled by that minion's controller, so it stays when the Methuselah who played it is
+ousted, e.g. {Anathema}.[^1-12-5] It follows its host on a change of control, and the new controller may use it. When it
+would move to an ash heap or library it goes to the owner's, e.g. {Storage Annex} stolen.
 
 A copy entering play into a contest resolves its enter-play effects before the contest begins: a second {Mokolé Blood}
 puts its cards on itself first; its standing effects do not apply. See [§1.13.2](#1132-entering-contest) for entering
@@ -713,7 +743,9 @@ removed from the game, handing the contest to the incoming copy.[^1-13-5]
 
 A contested card is out of play and nothing printed on it applies. A contested location gives no hand size, whether
 printed on it ({Elder Library}) or counted by another card ({Guillaume Giovanni}); {Secure Haven} is not burned when its
-minion goes to torpor; {Byzar}'s burn-replacement does not save him from being yielded.[^1-13-6]
+minion goes to torpor; {Byzar}'s burn-replacement does not save him from being yielded.[^1-13-6] The cards on a
+contested minion are out of play with him, so none of their text applies; if he is yielded they burn with him, none of
+their burn riders firing, e.g. {Soul Gem of Etrius} *(reading)*.[^1-13-12]
 
 A weapon taken into contest mid-combat is unusable by either side, and a strike already chosen with it has no effect,
 e.g. {Disguised Weapon}.
@@ -820,7 +852,9 @@ turn.
 #### 2.1.1 Where the impulse exists
 
 An ability worded "when its controller has the opportunity to play effects" is usable at every such point, including
-inside an action.[^2-1-1] Mandatory effects are applied before their controller passes the impulse.
+inside an action.[^2-1-1] An ability framed by a phase, e.g. "during your minion phase", is likewise usable at any
+impulse in that phase, inside another minion's action or a combat included, e.g. {Rutor's Hand}, {Qawiyya el-Ghaduba}
+*(reading)*.[^2-1-10] Mandatory effects are applied before their controller passes the impulse.
 
 Permission to play one card outside its usual window opens no window for anything else: a cancel card usable when there
 is no action does not thereby allow a wake effect, e.g. {Rewind Time}.
@@ -917,9 +951,8 @@ Modifiers and reactions usable at the end of or after an action survive a failed
 combat, e.g. {Champion}, {Car Bomb}, {Ensconced}.[^2-3-4] An action that *ends* closes the window immediately and
 nothing may follow, e.g. {Change of Target}.
 
-Two post-resolution cards put the action back in progress rather than adding to it: {Follow the Blood} sends the
-reacting vampire into combat, {Momentary Delay} continues the action as if unblocked. Other "after resolution" cards may
-be played before them, not after.[^2-3-5]
+{Momentary Delay} puts the action back in progress rather than adding to it, continuing it as if unblocked: other "after
+resolution" cards may be played before it, not after.[^2-3-5]
 
 #### 2.3.2 Ordering
 
@@ -970,7 +1003,9 @@ Order is fixed only where wording fixes it. A replacement effect — "would X �
 is still replaceable, so it cannot follow an effect keyed to the event merely happening: {Telepathic Tracking} at [AUS]
 ("combat would end. Instead, start a new round") cannot be played after {Psyche!} ("combat is about to end"); played
 first, combat continues and {Psyche!} waits for the end of the new round.[^2-4-4] An effect that reads a value applies
-after every effect that modifies that value, e.g. {Protected Resources} after all bleed modifiers.[^2-4-5]
+after every effect that modifies that value, e.g. {Protected Resources} after all bleed modifiers.[^2-4-5] An "after X"
+effect of a card in play resolves as soon as X happens, inside whatever caused it: {Fame}'s 3 pool is burned mid-combat,
+not in the after-combat window *(reading)*.[^2-4-25]
 
 Which window a card belongs to is [§2.3](#23-after-resolution-and-after-combat) and
 [§4.9](#49-end-of-round-end-of-combat-and-new-combats); ordering runs the same in each. An action that ENDS closes its
@@ -1021,6 +1056,10 @@ it is not spent by being available — {Marciana Giovanni, Investigator}'s benef
 any point. A prohibition triggered by attempting to block runs from the attempt to the end of the action, whether or not
 the block succeeds, e.g. {Valerius Maior, Hell's Fool (ADV)}.[^2-5-2]
 
+"Until your next X phase" ends as that phase begins, and an effect created during your own turn before that phase
+reaches this turn's, e.g. {Fotini Katsikaris}'s hand size, {Mirror Walk}'s "do not replace until your next discard
+phase" played in your minion phase *(reading)*.[^2-5-15]
+
 #### 2.5.2 Fixed at play versus read continuously
 
 A value a card writes is fixed when the card is played and is not re-read. {Derange} takes the clan and sect from the
@@ -1029,7 +1068,8 @@ already set, e.g. {Leadership Vacuum}. Removing the card restores the underlying
 
 An effect whose text reads a trait on an ongoing basis re-reads it, including mid-action. A relational referent is
 re-read at each use — {Victim of Habit} keeps its named card when the prey is ousted and then works against the new
-prey.[^2-5-4]
+prey.[^2-5-4] "A bleed against your prey" still names the Methuselah that bleed ousted, e.g. {Enkil Cog} played after it
+*(reading)*.[^2-5-16]
 
 A requirement is checked when the card is played and the effect continues after the vampire stops meeting it, e.g.
 {Concordance}, {Cry Wolf}.[^2-5-5]
@@ -1111,9 +1151,10 @@ An effect granting an action or a block does not lift the normal prey, predator 
 
 A directed action that chooses, selects or names a minion targets it: protection effects bar it and cost increases
 apply, e.g. {Spirit Marionette} against {Secure Haven}, and a master card that chooses a vampire pays its extra pool,
-e.g. {The Rack}. The same test decides whether a frenzy card is played "on" a minion. An action targeting a retainer,
-equipment or other card on a minion does not target the minion, and neither does a card elsewhere that merely named
-him.[^3-1-12]
+e.g. {The Rack}. The same test decides whether a frenzy card is played "on" a minion; one boosting its own player's side
+is played on the opposing minion, so a {Blade of Enoch} bearer may play {Dam the Heart's River}. An action targeting a
+retainer, equipment or other card on a minion does not target the minion, and neither does a card elsewhere that merely
+named him.[^3-1-12]
 
 An effect that resolves outside an action targets nothing: an unlock-phase choice reaches a minion under {Secure Haven},
 e.g. {Baltimore Purge}.[^3-1-13]
@@ -1171,7 +1212,9 @@ may do so from torpor, but still needs a wake to attempt the block.[^3-2-6]
 
 A bonus conditioned on the action's target is satisfied by any one qualifying target, e.g. {Talley, The Hound};
 "directed at their controller" covers actions directed at cards that controller owns, e.g. {Abbot}. A bonus conditioned
-on a trait is re-read if the trait changes mid-action, e.g. {Ministry}.[^3-2-7]
+on a trait is re-read if the trait changes mid-action, e.g. {Ministry}.[^3-2-7] Intercept "against" a class of minion
+reads the acting minion: {Carlton Van Wyk}'s +1 intercept against vampires does not apply to an ally's action
+*(reading)*.[^3-2-11]
 
 #### 3.2.4 Who plays it, when, and how often
 
@@ -1191,7 +1234,9 @@ Grenade Launcher}. See [§1.2](#12-wording-templates-periodicity-duration-trigge
 An effect that lets a minion ignore the prey, predator or target restriction reaches only that check. Every other
 condition on blocking still applies, including a prior decision not to block, e.g. {Eagle's Sight} [AUS],
 {Anneke}.[^3-3-1] It covers one block attempt; if the action later continues as if unblocked, another is needed.[^3-3-2]
-Blocking "as an ally" is the same shape.
+Blocking "as an ally" is the same shape. A block attempt that becomes illegal while under way fails, and that minion
+cannot attempt again this action: {Daring the Dawn} [FOR] played during a vampire's attempt fails it, while an ally's
+attempt stands *(reading)*.[^3-3-24]
 
 The unlock-to-block template ({Guard Duty}, {Second Tradition: Domain}):
 
@@ -1237,7 +1282,8 @@ has failed, so it never reaches the action card's cost ({Libertas}).[^3-3-17]
 Locking the blocker and entering combat are the two simultaneous consequences of block resolution, not of the attempt
 succeeding. Cards timed "before block resolution" fill that window ({Change of Target}, {Angel of Berlin}). An effect
 that ends the action or cancels the block there prevents both consequences ({Clan Loyalty}); canceling only the combat
-does not.[^3-3-18]
+does not.[^3-3-18] A blocker leaving play before block resolution leaves the action blocked with no combat, e.g. when
+the pool {Aelswith, The Irresistible} makes its Methuselah burn ousts him *(reading)*.[^3-3-25]
 
 Effects triggered by the block fire once the block would be successful; ending the action afterwards does not undo them
 ({Aching Beauty}, {Unleash Hell's Fury}). An effect that makes the action resolve as if unblocked instead means no block
@@ -1255,10 +1301,11 @@ place. [[RBK resolve-the-action]](https://www.vekn.net/rulebook#resolve-the-acti
 
 #### 3.4.1 A successful action need not do anything
 
-An unblocked action is successful even when its effect cannot happen. The cost is still paid.[^3-4-1] The usual causes
-are a target that no longer qualifies at resolution, e.g. {Ambush} when the target unlocks, and a target removed or
-protected by another effect, e.g. {Warsaw Station}. A stolen target keeps the action pointed at it; the action ends with
-no effect only if that target has become illegal, e.g. {Temptation}.
+An unblocked action is successful even when its effect cannot happen, and its cost is then not paid, unless what fails
+is the cost itself ([§1.7.5](#175-paying-what-you-can)).[^3-4-1] The usual causes are a target that no longer qualifies
+at resolution, e.g. {Ambush} when the target unlocks, and a target removed or protected by another effect, e.g. {Warsaw
+Station}. A stolen target keeps the action pointed at it; the action ends with no effect only if that target has become
+illegal, e.g. {Temptation}.
 
 An action provided by an equipment the acting minion no longer bears at resolution ends with no effect, though still
 successful if unblocked, e.g. {Jar of Skin Eaters}.[^3-4-16]
@@ -1318,12 +1365,14 @@ or an ability, has reached resolution: the same minion cannot attempt it again t
 {Champion}, {Krassimir}.[^3-5-1] Being blocked and failing still counts as the attempt. An action continued after a
 reaction made it fail still fails.
 
-A canceled action has not reached resolution. It is not performed, the minion does not lock, its cost is not paid, and
-the same minion may attempt the same action again, e.g. {Tangle Atropos' Hand}.[^3-5-2] It may not if the action was
-blocked and then continued before the cancellation.[^3-5-3]
+A canceled action has not reached resolution. It is not performed, its cost is not paid, and the same minion may attempt
+the same action again.[^3-5-2] It may not if the action was blocked and then continued before the cancellation.[^3-5-3]
+Canceled as its card is played, the acting minion does not lock; canceled later, he stays locked unless the canceling
+card unlocks him: {Tangle Atropos' Hand} does, {The Kiss of Ra} does not.[^3-5-26]
 
-The action was nonetheless taken, so it counts against effects that count actions, e.g. {Enkil Cog}, {Veil the
-Legions}.[^3-5-4]
+An action canceled after its card was played was nonetheless taken, so it counts against effects that count actions,
+e.g. {Enkil Cog}, {Veil the Legions}. One canceled as its card is played was not: the next action is still the first for
+{Channel 10}.[^3-5-4]
 
 Cancellation undoes the cost of the action: an {Enrage}d vampire canceled mid-action does not burn 2 blood.[^3-5-5]
 Failure does not — {Mobile HQ, Operation Antigen} stays locked when the action it paid for fails. A minion locked by a
@@ -1352,7 +1401,9 @@ immediately with the same window closed, e.g. {Brujah Frenzy}.[^3-5-14]
 
 An action that **fails** also ends, but modifiers and reactions usable at the end of, or after, an action can still be
 played, e.g. {Detect Authority}, {Mistaken Identity}.[^3-5-15] A failed action was not blocked, so cards requiring a
-block cannot be played, e.g. {Freak Drive}, {Mirror Image}.[^3-5-16]
+block cannot be played, e.g. {Freak Drive}, {Mirror Image}.[^3-5-16] Conversely, a card that makes the action fail
+cannot be played while a block is being attempted or once one has succeeded, e.g. {Faerie Wards} [myt], {Hide the Heart}
+[val].[^3-5-27]
 
 Effects scheduled for resolution or later are lost if the action ends first: the lock-and-enter-combat of {Deep Song},
 the after-resolution combat of {Siren's Lure}.[^3-5-17] Likewise, an action whose acting minion is not ready when it
@@ -1364,7 +1415,8 @@ Damage a card inflicts on its own acting vampire is keyed to the action reaching
 
 #### 3.5.4 Canceled blocks and canceled combats
 
-A canceled block attempt is neither successful nor unsuccessful. It is simply canceled.[^3-5-20]
+A canceled block attempt is neither successful nor unsuccessful. It is simply canceled.[^3-5-20] Nor is it a decline:
+the minion may attempt again, e.g. after {Dawn Operation} [for] *(reading)*.[^3-5-28]
 
 Canceling the combat that a successful block created leaves the action blocked. The blocking minion stays locked, {Mask
 of a Thousand Faces} cannot take the action over, and reaction cards pertaining to that combat cannot be played
@@ -1492,8 +1544,8 @@ actions of their own.
 
 A hunt action that resolves unblocked is successful even when no blood is gained. The hunt is not: with zero blood
 gained the hunt is not successful, so effects keyed to a vampire "successfully hunting" do not fire, e.g. {Hunger Moon}.
-A card that lets a vampire escape an effect by hunting applies the same test and still hits him, e.g.
-{Thirst}.[^3-7-2-1]
+A card that lets a vampire escape an effect by hunting asks only for the hunt action: a blocked hunt, or one gaining no
+blood, still spares him, e.g. {Thirst}.[^3-7-2-1]
 
 Each card names one of the two: {Triole's Revenge} burns a Ventrue who hunts at full capacity: it names the hunt action,
 so it fires although the hunt gained nothing. It does not fire if the action was blocked.[^3-7-2-2]
@@ -1562,9 +1614,11 @@ equipped via {Magic of the Smith}.[^3-7-3-3]
 Moving equipment between minions is neither playing nor equipping it, so a restriction worded against playing or
 equipping does not reach the move, e.g. {Heidelberg Castle, Germany}; a card may be moved onto a vampire in
 torpor.[^3-7-3-4] A card already played or equipped can still enter play through an effect that is not an equip, e.g.
-{Kiss of Lachesis}. Another of your minions may instead take it with an equip action from its holder; that rulebook
-action is not a card play, so no requirement is checked — a clan equipment may be taken by a minion who does not meet
-its requirements.[^3-7-3-9]
+{Kiss of Lachesis}. Another of your minions may instead take it with an equip action from its holder,[^3-7-3-12] a
+holder in torpor included *(reading)*;[^3-7-3-10] that rulebook action is not a card play, so no requirement is checked
+— a clan equipment may be taken by a minion who does not meet its requirements.[^3-7-3-9] Its text naming the bearer by
+clan or sect reads the current bearer, so such a taker gets none of it, e.g. a non-Ravnos holding {Treasured Samadji}
+*(reading)*.[^3-7-3-11]
 
 A locquipment's immunity to equipment movers and equipment prohibitions is
 [§1.3](#13-card-types-and-multi-type-cards)'s.
@@ -1636,7 +1690,8 @@ action" or "after resolution" wait until the referendum is concluded, e.g. {Heid
 causes.[^3-7-5-2]
 
 The referendum is conducted only if the acting minion is still ready when the action would resolve. If combat leaves him
-no longer ready — in torpor or out of play — the action ends and no referendum happens, e.g. {Yawp Court}.[^3-7-5-3]
+no longer ready — in torpor or out of play — no referendum happens, e.g. {Yawp Court}. That action was successful, and
+its cost was paid before the location was locked.[^3-7-5-3]
 
 Action modifiers and reaction cards may be played during the referendum and after it, and vote-affecting cards before,
 during or after votes and ballots are cast. An effect keyed to the tally reaches votes already cast: {Scorn of Adonis}
@@ -1652,7 +1707,11 @@ vote, and pool moving during the referendum does not alter {Parity Shift}'s outc
 clause instead of the terms is counted when the effect applies — {Domain Challenge} counts locked minions after the
 referendum completes.[^3-7-5-6] Where the terms cannot be carried out in full, the calling Methuselah chooses within
 them. A cost inside the effect is paid by whoever the terms name ([§1.7.6](#176-whose-cost-and-paid-in-what)).[^3-7-5-7]
-A referendum may be called with no eligible subject in play, e.g. {Peace Treaty} with no weapons out.[^3-7-5-8]
+The terms must have a legal choice when the action is announced, though they are chosen only on success: {Parity Shift}
+cannot be played when no Methuselah has more pool than its caller.[^3-7-5-20] If none remains when the terms are chosen,
+the action fizzles and no referendum is held, so an effect keyed to the referendum failing does not apply
+*(reading)*.[^3-7-5-21] A referendum may be called with no eligible subject in play, e.g. {Peace Treaty} with no weapons
+out.[^3-7-5-8]
 
 ##### 3.7.5.3 Polling and the tally
 
@@ -1706,7 +1765,9 @@ e.g. {Gratiano}.[^3-7-6-3]
 
 An effect counting the votes a vampire has counts its title and any unconditional bonus votes from cards or abilities,
 e.g. {Eze, The Demon Prince}, {Firebrand}. It does not count votes the vampire could obtain only by paying a cost or
-meeting a condition, e.g. {Sundown}, {Aura of Invincibility}.[^3-7-6-4]
+meeting a condition, e.g. {Sundown}, {Aura of Invincibility}.[^3-7-6-4] A vampire given -X votes can go below zero;
+the deficit offsets votes he gains later but subtracts nothing at the tally: a vampire at -3 casts 1 vote after
+{Bewitching Oration} at [PRE]. A reduction of what a title is worth stops at zero.[^3-7-6-11]
 
 Multiple copies of a vote-granting card do not multiply votes, and an untitled vote bonus adds to a title gained later;
 see [§1.15](#115-cumulative-and-stacking-effects) for both.
@@ -1771,7 +1832,9 @@ or unlocks the acting vampire, denies it, e.g. {Change of Target}, {Mirror Walk}
 
 The rescue cost belongs to the action, not to whoever pays it. A reduction printed on the acting vampire applies even
 when the rescued vampire pays, e.g. {Frondator}.[^3-7-7-4] The reduction is mandatory and cannot be declined to keep the
-higher cost.
+higher cost. Who pays, and how a split is shared, is chosen as the action is announced. A share its payer can no longer
+meet at resolution fizzles the action, that payer paying what he can; the other vampire does not pay it instead
+*(reading)*.[^3-7-7-7]
 
 The same split works the other way: an effect keyed to "an action costing blood" sees the rescue even when the acting
 vampire paid none of it, e.g. {Cavalier}.
@@ -1937,7 +2000,9 @@ original actor's inherent modifiers do not, e.g. an inherent +1 bleed.[^3-10-1]
 
 The substitute must independently be capable of taking that action, and nothing may have been played on the action that
 could not have been played with him as the acting minion. {Force of Will} requires a locked acting vampire and {Mask of
-a Thousand Faces} requires an unlocked one, so a {Force of Will} action cannot be taken over.[^3-10-2]
+a Thousand Faces} requires an unlocked one, so a {Force of Will} action cannot be taken over.[^3-10-2] Nor can an action
+provided by the acting minion's own equipment or ability, even by a vampire with the same equipment, e.g. a {Bomb}
+action, {Theo Bell}'s rush.[^3-10-5]
 
 Blood already spent is disregarded in that test. It is not refunded and the substitute does not pay it again.
 
@@ -1957,7 +2022,8 @@ clan member is not the acting minion, and {Malleable Visage} leaves the designat
 
 A card that reads "the acting minion" reads the current designation, for its own legality and for its triggers alike.
 {Obedience} cannot be played once a slave has taken the acting vampire's place. {FBI Special Affairs Division} does not
-trigger when the ally burned is the acting minion.
+trigger when the ally burned is the acting minion. Effects the action gave the vampire that took it stay with him: under
+{Deep Song} [ANI] he keeps {Invigorate}'s strength and {Form of Mist}'s continuation *(reading)*.[^3-10-6]
 
 Where two effects write the designation, the later governs, e.g. {Nar-Sheptha} over {Deep Song}. When the later source
 leaves play its effect ends immediately and the designation reverts for the rest of the combat, e.g. {Nar-Sheptha}
@@ -2113,8 +2179,9 @@ strike, e.g. {Shambling Hordes}.[^4-3-14]
 
 #### 4.3.5 Additional strikes
 
-Additional strikes are announced after the normal pair resolves, but the card granting a limited additional strike may
-be played before or after it, e.g. {Quickness}.[^4-3-17]
+Additional strikes, and the cards granting them, come only after the normal pair resolves, and a further additional
+strike is gained only once those already granted have been made, e.g. {Quickness} [CEL] after {Blur} [CEL]'s
+two.[^4-3-17]
 
 ### 4.4 Damage
 
@@ -2219,9 +2286,6 @@ mending the rest, e.g. {The Coven}.[^4-5-14]
 One instantaneous prevention card covers two damage events only if they are simultaneous, e.g. {Tunnel Runner}; where
 the second follows strike damage it does not, e.g. {Blood of Acid} — a lingering prevention covers both. Strike damage
 is prevented first, acting player first; all damage applies at once afterwards.[^4-5-15]
-
-Pre-range damaging effects resolve together: both minions may play prevention and further pre-range effects before
-mending, and damage added then is prevented and mended with the rest, e.g. {Outside the Hourglass}.[^4-5-16]
 
 #### 4.5.5 Immunity
 
@@ -2360,7 +2424,9 @@ Providing a press is not using one. A minion that cannot use presses may still p
 
 Canceling a maneuver that provides a press cancels the press.[^4-8-7]
 
-Damage inflicted during the press step is environmental damage, e.g. {Drawing Out the Beast} [ANI].[^4-8-8]
+Damage inflicted during the press step is environmental damage, e.g. {Drawing Out the Beast} [ANI].[^4-8-8] An effect
+scheduled for the press step does not happen if combat ends before it, e.g. {Necrosis} [THN] when a strike ends
+combat.[^4-8-9]
 
 ### 4.9 End of round, end of combat, and new combats
 
@@ -2455,11 +2521,10 @@ does not extend into that combat, e.g. {Undead Persistence}.[^4-9-22]
 
 #### 4.10.1 Using a weapon without striking with it
 
-Most weapons print functions besides their strike: an action, a maneuver, a press, a stealth reduction, damage
-prevention. Using one never commits the bearer to strike with that weapon, e.g. {Talbot's Chainsaw}'s enter-combat
-action, {Starshell Grenade Launcher}'s stealth reduction.[^4-10-1] Nor does it spend the strike: a minion who maneuvers
-with a gun may still strike with that gun that round. An additional strike the weapon grants is had even if the weapon's
-own strike is not used, e.g. {Sword of Judgment}.
+Most weapons print functions besides their strike: an action, a press, a stealth reduction, damage prevention. Using one
+never commits the bearer to strike with that weapon, e.g. {Talbot's Chainsaw}'s enter-combat action, {Starshell Grenade
+Launcher}'s stealth reduction.[^4-10-1] A weapon's maneuver is the exception ([§4.3.1](#431-choosing-a-strike)). An
+additional strike the weapon grants is had even if the weapon's own strike is not used, e.g. {Sword of Judgment}.
 
 An ability keyed to blocking needs the weapon equipped at the time of the block; equipping mid-combat arrives too late,
 e.g. {Sniper Rifle}'s range-setting after a {Disguised Weapon}.[^4-10-3]
@@ -2514,8 +2579,9 @@ the burning of the card that imposed it, and still applies if the vampire return
 
 Cards on an uncontrolled vampire are out of play, so a capacity modifier from one of them does not apply there. It
 resumes when the vampire is controlled again, and blood held for the raised capacity does not drain off in the
-meantime.[^5-1-2] With the floor of one, a vampire whose capacity comes entirely from cards on it is a 1-capacity
-vampire while uncontrolled, e.g. {The Becoming}.
+meantime.[^5-1-2] A contested vampire likewise keeps such blood until he returns *(reading)*.[^5-1-12] With the floor of
+one, a vampire whose capacity comes entirely from cards on it is a 1-capacity vampire while uncontrolled, e.g. {The
+Becoming}.
 
 Blood above capacity drains off as the vampire is moved to the ready region, before anything else happens to them. It
 drains before the vampire's own entry text fires, e.g. {Hermana Hambrienta Mayor}'s forced 2-blood burn, and before the
@@ -2540,7 +2606,7 @@ e.g. one stolen with {Graverobbing}.[^5-1-7]
 A library card put into play as a vampire is a vampire card for every purpose from then on, e.g. {Creation Rites}: sent
 to the uncontrolled region it stays a crypt card — out of play like any uncontrolled card — and can be influenced out
 again. Only in the ash heap is it the library card again, so effects reaching a vampire in the ash heap cannot see
-it.[^5-1-8]
+it.[^5-1-8] An effect that would put it into a crypt burns it instead.[^5-1-13]
 
 Such a minion is non-unique unless its card says otherwise, e.g. {Hatchling}. Where the card does make it unique,
 uniqueness runs on the card name and crosses minion types: a mummy ally created by {Spell of Life} contests a vampire of
@@ -2659,7 +2725,9 @@ Drive}.[^5-3-11]
 
 Torpor removes readiness, not control. A burn option opens when you control no minion meeting the card's requirement, so
 torpid vampires open it where the requirement names a ready minion, e.g. {Emergency Powers}, but not where it names only
-control of a vampire with a trait, e.g. {High Orun}.[^5-3-12]
+control of a vampire with a trait, e.g. {High Orun}.[^5-3-12] Only the requirement is read: whether the card has a legal
+target does not open the burn option, e.g. {Consume the Dead}, nor does a copy of the unique card already in
+play.[^5-3-17]
 
 A card may be put on a torpid vampire unless the operating clause requires readiness: {Fear of Mekhet} cannot be played
 on one but can be moved to one.[^5-3-13] A "burn this card after this minion goes to torpor" clause fires on the event,
@@ -2807,15 +2875,12 @@ type of retainer, stops it.[^5-6-2]
 An effect conditioned on the retainer being ready still resolves if the opposing strike burns the retainer that round,
 e.g. {Bestial Vengeance}.
 
-#### 5.6.4 Retainers as targets, and effects outliving them
+#### 5.6.4 Retainers as targets
 
 Cards keyed to actions directed at a minion do not apply to an action targeting its retainer, e.g. {Detect Authority}
 [ani].[^5-6-3]
 
 A secondary effect keyed to a minion does nothing when the target is a retainer, e.g. {Shadow Twin} at [OBT].
-
-An effect the retainer has already produced survives the retainer being burned or stolen: {Camarilla Vitae Slave}'s
-chosen Discipline lasts to the controller's next unlock phase.
 
 #### 5.6.5 Entering play
 
@@ -2882,6 +2947,11 @@ placing the counter that completes {Call the Great Beast} is such an action, and
 the same way. A restriction on cards *requiring* a discipline reaches only the option actually used, so a True Brujah
 may play a multi-discipline card for a non-[cel] option.
 
+A vampire follows at most one Path; following a new one replaces the old. During your influence phase, each Sabbat
+vampire of yours following none may burn 1 blood to follow a Sabbat Path. A Sabbat Path benefits a vampire only while he
+is Sabbat; no Path changes a clan.[^5-7-11] A card printing a Path icon requires a vampire following that Path, as a
+clan icon requires that clan, e.g. {Absolute Tyranny} *(reading)*.[^5-7-12]
+
 #### 5.7.7 Blood Brother circles
 
 A vampire with no printed circle is in his own circle of one, and vampires sharing a name do not share a circle and
@@ -2917,7 +2987,9 @@ Votes granted by an ability are not a title. The vampire remains untitled, so an
 untitled keeps working, e.g. {Gerald Windham}, {Xeper, Sultan of Lepers}.[^5-8-7] See
 [§1.15](#115-cumulative-and-stacking-effects) for how such votes combine with a title gained later.
 
-A vampire who leaves play and returns remembers titles gained and lost.[^5-8-8]
+A vampire who leaves play and returns remembers titles gained and lost.[^5-8-8] A vampire who gains a title loses the
+one he held for good, a printed one included: a prince who becomes {Toreador Justicar} is untitled once that card leaves
+play.[^5-8-25]
 
 A representation of a titled vampire uses that title's votes even while another instance of the title is in play; it
 does not contest.[^5-8-21]
@@ -2944,7 +3016,11 @@ A requirement naming a sect-restricted title is also a requirement for that sect
 requiring an Anarch, so {Open War} counts as Anarch-requiring for {Powerbase: Los Angeles}.[^5-8-15]
 
 A title inside a vampire's name is not a title: {The Baron} cannot play cards requiring a baron.[^5-8-16] A permission a
-card extends to Anarchs does not make the action one "requiring an Anarch", e.g. {Club Illusion}.[^5-8-17]
+card extends to Anarchs does not make the action one "requiring an Anarch", e.g. {Club Illusion}.[^5-8-17] Nor does a
+negative requirement: a card requiring a non-Camarilla vampire is not a card requiring an Anarch, e.g. {Jericho
+Founding} for {Garibaldi-Meucci Museum}.[^5-8-26] Prince, baron and archbishop are the titles tied to a city; primogen
+and bishop are not.[^5-8-28] "A city title" on a card means one of the former, e.g. {Papillon}, {Mel, a Guerreira
+Vibrante} *(reading)*.[^5-8-27]
 
 A title is a vampire trait, so a card that fakes vampire traits reaches title requirements, e.g. {Vidal
 Jarbeaux}.[^5-8-22]
@@ -3089,8 +3165,8 @@ Stealing a minion that is acting does not end the action. It continues against t
 already declined to block get no second opportunity; the new controller, if eligible and not yet declined, may still
 block with the stolen minion.[^6-2-2][^6-2-3]
 
-If the target no longer qualifies after the steal, the action still resolves, succeeds and is paid for, with no effect.
-The same holds when the target empties the action in response — {War Ghoul} locking and burning itself to burn a
+If the target no longer qualifies after the steal, the action still resolves and succeeds, with no effect and its cost
+unpaid. The same holds when the target empties the action in response — {War Ghoul} locking and burning itself to burn a
 location.
 
 Stealing a minion that is attempting to block makes the block attempt fail. Stealing the acting minion instead leaves
@@ -3150,11 +3226,12 @@ retainers.
 
 Placement happens only on an actual change of controller. A card "taken control of" by the Methuselah who already
 controls it stays where it is and cannot be moved to another of his minions.[^6-3-3] Naming your own card is still a
-legal play, e.g. {New Management} on your own location.
+legal play for a card that takes control, e.g. {New Management} on your own location. A card that steals cannot name it:
+you cannot steal a card from yourself, so {Saankaláxt} cannot take an equipment from another of your minions.[^6-3-7]
 
 #### 6.3.3 Cards carried along
 
-Control of a card on a minion follows control of the minion: take the vampire and you take its equipment and
+Control of a minion card on a minion follows control of the minion: take the vampire and you take its equipment and
 retainers.[^6-3-4] A card hosted on another card goes with its host, e.g. the face-down card on {Storage Annex}, and the
 new controller may use it. A stolen master Discipline card is controlled by the Methuselah of the vampire that took it,
 e.g. {Ethan Locke}.
@@ -3188,8 +3265,9 @@ A card moved out of play without reaching the ash heap keeps its state. The word
 {Banishment}: cards and counters stay with the vampire but are out of play while it is.
 
 On return the vampire remembers every effect that had been applied to it, exactly as a contested vampire does, including
-gained or lost titles.[^6-4-1] Cards on it return unlocked, and a contested card on it drops out of the contest until it
-comes back. A vampire brought out of the uncontrolled region keeps its blood and its cards.
+gained or lost titles.[^6-4-1] A vampire contested while in torpor returns to torpor if he wins *(reading)*.[^6-4-9]
+Cards on it return unlocked, and a contested card on it drops out of the contest until it comes back. A vampire brought
+out of the uncontrolled region keeps its blood and its cards.
 
 Leaving play breaks temporary control effects: the vampire goes face down to its permanent controller, and so does the
 card that removed it.[^6-4-2] See [§6.2](#62-taking-control-of-minions) for control changes; if the permanent
@@ -3246,7 +3324,8 @@ Withdrawal fails on any pool loss, including pool spent as a cost, and a later g
 
 An oust resolves as soon as pool reaches zero, ahead of anything else the same event triggers. A minion spending its
 last life to pay for an action still resolves it in full, e.g. {Herald of Topheth}, and the oust precedes the effects
-triggered by the minion burning. If a cancel's cost ousts a player, handle the oust before the canceled card.[^6-5-5]
+triggered by the minion burning. If a cancel's cost ousts a player, handle the oust before the canceled card.[^6-5-5] A
+Methuselah ousted by the pool he pays for votes casts none of them, e.g. {Ferraille}.[^6-5-13]
 
 Referendum-caused ousts, and what effects keyed to the referendum may do around them, are
 [§3.7.5](#375-referendum-procedure)'s.
@@ -3280,10 +3359,11 @@ after it. That decides both halves of {The Rising}.[^6-5-11]
 
 The moment an action moves or burns the Edge is its card's. {Sargon}'s Edge gain is worded after the action and applies
 after resolution — after the referendum concludes, for a political action; {Hrothulf} burns the Edge at resolution, only
-if the action succeeds. A steal of the Edge is not thwarted by the holder burning it after announcement, e.g. {Tereza
-Rostas}. A card that burns your own Edge does nothing if you no longer control it at resolution, while the rest of its
-text still applies, e.g. {Enticement}. Legality is checked on announcement: the Edge cannot be stolen while
-uncontrolled. "A new Methuselah gets the Edge" means one who did not have it, e.g. {Curse of Nitocris}.[^6-5-12]
+if the action succeeds. A steal of the Edge is not thwarted by the holder burning it after announcement: the stealer
+still gets it at resolution, e.g. {Tereza Rostas}. A card that burns your own Edge does nothing if you no longer control
+it at resolution, while the rest of its text still applies, e.g. {Enticement}. Legality is checked on announcement: the
+Edge cannot be stolen while uncontrolled. "A new Methuselah gets the Edge" means one who did not have it, e.g. {Curse of
+Nitocris}.[^6-5-12]
 
 ### 6.6 Master phase
 
@@ -3296,7 +3376,8 @@ master phase [[RBK master-cards]](https://www.vekn.net/rulebook#master-cards).
 
 Cancellation does not unwind the accounting. A canceled out-of-turn master still costs its player the master phase
 action against their next master phase, and that player still cannot play a second out-of-turn master before that
-phase.[^6-6-1] A canceled trifle grants no additional master phase action.[^6-6-2]
+phase.[^6-6-1] A canceled trifle grants no additional master phase action.[^6-6-2] A unique trifle that enters contest
+as it is played still grants it, e.g. {Agent of Power}.[^6-6-8]
 
 An additional master phase action handed to a Methuselah by a card effect is not that Methuselah's trifle bonus. A
 trifle they play afterwards still grants its one, e.g. {Wash}.[^6-6-3] The one-per-phase cap counts only actions gained
@@ -3399,9 +3480,10 @@ raises your hand size may be used during an action, e.g. {The Barrens}, {Dreams 
 
 #### 6.8.2 The discard phase
 
-"Until end of turn" durations expire in the discard phase. The acting Methuselah orders that expiry against other
-discard-phase effects under normal sequencing, e.g. {Dreams of the Sphinx}.[^6-8-3] Discard-phase effects apply before
-an ally taken until end of turn goes back; an ally you already lost control of does not go back at all.
+"Until end of turn" durations last until the turn ends, once every Methuselah has passed in the discard phase. Their
+expiry is not ordered: discard phase actions and other discard-phase effects come first, e.g. {Dreams of the
+Sphinx}.[^6-8-3] Discard-phase effects apply before an ally taken until end of turn goes back; an ally you already lost
+control of does not go back at all.
 
 Each discard phase action carries its own use of an ability keyed to one, e.g. {Josef von Bauren}. A Methuselah ousted
 during their turn gets no discard phase. A discard imposed by an action card lands after the action resolves and after
@@ -3417,10 +3499,13 @@ far as you can.
 
 "Draw, then discard" does not restrict the discard to the cards just drawn; discard any card in hand.[^6-8-5] A trigger
 reading "each time you replace a card" sees every replacement draw, whatever took the card out of hand, e.g. {Infernal
-Pursuit}. A trigger keyed to replacing a card you *played* does not see extra draws granted by other cards: {Agaitas,
-The Scholar of Antiquities} does not redirect a {Learjet} additional draw. Cards returned to an empty library are drawn
-at once if your hand is below hand size, e.g. {Waste Management Operation}; that refill precedes any random discard the
-same card imposes.
+Pursuit}. A draw up after a hand-size increase is not a replacement, e.g. for {Visit from the Capuchin}
+*(reading)*.[^6-8-7] An effect letting you draw a stored card "if you would draw a card from your library" applies card
+by card, and not at all from an empty library, e.g. {Shilmulo Tarot}, {Black Market Cache} *(reading)*.[^6-8-8] A
+trigger keyed to replacing a card you *played* does not see extra draws granted by other cards: {Agaitas, The Scholar of
+Antiquities} does not redirect a {Learjet} additional draw. Cards returned to an empty library are drawn at once if your
+hand is below hand size, e.g. {Waste Management Operation}; that refill precedes any random discard the same card
+imposes.
 
 #### 6.8.4 Visibility
 
@@ -3460,7 +3545,7 @@ exemplar cards.
 - **"does not unlock as normal"** — suppresses only the automatic unlock; wakes and unlock effects still reach the
   minion. [§5.2.2](#522-the-unlock-phase-and-its-suppression)
 - **"even if stealth/intercept is not (yet) needed"** — the printed waiver of the not-needed bar; as-announced stealth
-  always carries one. [§3.2.2](#322-reducing-the-opposing-value), [§2.2](#22-as-the-action-is-announced-effects)
+  always carries one. [§3.2.1](#321-adding-what-is-not-needed), [§2.2](#22-as-the-action-is-announced-effects)
 - **"gets X" vs "+X"** — an absolute value sets (copies do not stack, and a set can reduce); "+X" adds to whichever base
   is current. [§1.15](#115-cumulative-and-stacking-effects), [§4.4.1](#441-how-much-damage)
 - **"is considered the acting minion"** — only such text rewrites the designation; entering the combat does not, a later
@@ -3515,12 +3600,17 @@ exemplar cards.
 [^1-1-5]: [[PIB 20150418]](https://www.vekn.net/forum/rules-questions/70589-bima#70591) [[ANK
     20210309-3]](https://www.vekn.net/forum/rules-questions/79065-master-cards-attached-to-a-stolen-minion#101806) [[RBK
     important-terms-of-the-game]](https://www.vekn.net/rulebook#important-terms-of-the-game) — {Third Tradition:
-    Progeny}; {Perfectionist}, {Corporal Reservoir} (ruling removed from the database with group "Master on vampire who
-    can use it" (G00031); original at vekn.net forum thread 79065).
+    Progeny}; group "Master on vampire who can use it" (G00161), {Perfectionist}, {Corporal Reservoir}.
 
 [^1-1-6]: [[LSJ 20100723]](https://usenet.krcg.org/t/0u5KQWiutdg/#m1) [[PIB
     20111002]](https://www.vekn.net/forum/rules-questions/8235-re-coven-timing?start=18#11317) [[LSJ
     20021210-1]](https://usenet.krcg.org/t/kOZf54CTBUU/#m2) — {The Coven}, {Owain Evans, The Wanderer}, {Leandro}.
+
+[^1-1-11]: Owner's reading, no official ruling: [[rules-qa
+    33.1]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-33--pool-masters-wave-1)
+    [[rules-qa
+    57.5]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-57--legacy-cards-for-twda-decks-staples-steps-13-implemented-readings-2026-10-08)
+    — {Brujah Debate}, {Dragonbound}.
 
 [^1-1-7]: [[LSJ 20050628]](https://usenet.krcg.org/t/lN3eieA3xgs/#m4) [[LSJ
     20011214-5]](https://usenet.krcg.org/t/gI44SEC82Yk/#m2) — groups "Prevent discipline based prevention" (G00141) and
@@ -3533,6 +3623,18 @@ exemplar cards.
 [^1-1-10]: [[ANK 20180518]](https://www.vekn.net/forum/rules-questions/76623-big-game#87131) [[LSJ
     19990218]](https://usenet.krcg.org/t/B27J0sAwUuw/#m22) — {Big Game}, {Major Boon}.
 
+[^1-1-12]: Owner's reading, no official ruling: [[rules-qa
+    32.7]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-32--pool-actions-wave-2)
+    [[rules-qa
+    49.5]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-49--reign-of-stanislava-25th-anniversary-and-sabbat-paths-scoping-2026-10-05)
+    — {Open War}.
+
+[^1-1-14]: [[RBK crypt-cards]](https://www.vekn.net/rulebook#crypt-cards).
+
+[^1-1-13]: Owner's reading, no official ruling: [[rules-qa
+    64.9]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-64--legacy-cards-for-twda-decks-rounds-45-the-gangrel-decks-implemented-readings-2026-10-11-owner-2026-10-14-647-648-confirmed-2026-10-20-the-rest-646-restated)
+    — {Read the Winds}.
+
 [^1-2-1]: [[ANK 20180719-4]](https://www.vekn.net/forum/rules-questions/76833-once-each-turn#89014) [[ANK
     20230122]](https://www.vekn.net/forum/rules-questions/79926-maila-ability-new-promo-from-ec?start=0#107235) [[ANK
     20190207]](https://www.vekn.net/forum/rules-questions/77344-black-chantry-rulebook-feedback?start=18#93328) [[ANK
@@ -3540,6 +3642,10 @@ exemplar cards.
     20200729]](https://www.vekn.net/forum/rules-questions/78776-is-carver-s-meat-packing-and-storage-burn-hostage-counter-a-during-x-do-y#100448)
     [[RBK wording-templates]](https://www.vekn.net/rulebook#wording-templates) — group "Once each turn" (G00014),
     {Maila}, {Qawiyya el-Ghaduba}, {Nonu Dis}, {Carver's Meat Packing and Storage}.
+
+[^1-2-17]: Owner's reading, no official ruling: [[rules-qa
+    16.1]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-16--printed-abilities-after-an-action)
+    — {Richard de Worde}; cf. {Andre LeRoux} [[LSJ 20081123]](https://usenet.krcg.org/t/_Pb29pBJ1kU/#m2).
 
 [^1-2-2]: [[LSJ 20081123]](https://usenet.krcg.org/t/_Pb29pBJ1kU/#m2) [[LSJ
     20001102-2]](https://usenet.krcg.org/t/LlPyLJjLdx0/#m5) [[ANK
@@ -3579,6 +3685,10 @@ exemplar cards.
     bleed]](https://www.vekn.net/rulebook#bleed) [[RBK
     additional-strikes]](https://www.vekn.net/rulebook#additional-strikes) — {Mask of a Thousand Faces}.
 
+[^1-2-18]: Owner's reading, no official ruling: [[rules-qa
+    29.8]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-29--combat-cards-wave-2) —
+    {Lightning Reflexes}.
+
 [^1-2-7]: [[ANK
     20220705]](https://www.vekn.net/forum/rules-questions/79895-question-regarding-using-a-minion-card-text-ability-when-locked#105630)
     [[LSJ 20100705]](https://usenet.krcg.org/t/Dm_Zqyjdx8s/) [[RBK
@@ -3589,6 +3699,13 @@ exemplar cards.
     20210309-2]](https://www.vekn.net/forum/rules-questions/79005-rulebook-gaining-votes?start=6#101807) [[LSJ
     20020429]](https://usenet.krcg.org/t/7ZfedGTVt9g/#m1) — {Filchware's Pawn Shop}, group "Vote playable once per game"
     (G00030), group "Since your last turn" (G00010).
+
+[^1-2-19]: Owner's reading, no official ruling: [[rules-qa
+    44.10]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-44--legacy-cards-for-tournament-decks-slice-16a)
+    [[rules-qa
+    71.16]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-71--legacy-cards-for-twda-decks-round-11-the-20252026-decks-entering-the-corpus-readings-no-ruling-settles-claude-2026-10-14-owner-2026-10-14-7117120-71227127-confirmed-7121-corrected-7125s-open-part-ruled)
+    [[rules-qa 40.1]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-40--events) [[RBK
+    discard-phase]](https://www.vekn.net/rulebook#discard-phase) — {Ashur Tablets}, {Fortschritt Library}.
 
 [^1-2-12]: [[RTR 19980623]](https://usenet.krcg.org/t/tSpd9dtTElc/#m0) [[LSJ
     20021122-2]](https://usenet.krcg.org/t/1hL0-URtroc/#m5) [[ANK
@@ -3632,6 +3749,10 @@ exemplar cards.
 [^1-3-6]: [[PIB 20150924-2]](https://www.vekn.net/forum/rules-questions/73293-adana-de-sforza-combo-cards#73307) [[LSJ
     20031221]](https://usenet.krcg.org/t/OJW-3jpaM04/#m2) — {Adana de Sforza}, {Conrad Adoula}, {Horrock}, {Jane Sims},
     {Nergal}, {Rex, The Necronomist}, {Scout Youngwood}, {Henry Taylor}.
+
+[^1-3-8]: [[LSJ 20011204-3]](https://usenet.krcg.org/t/JhBwcZjDlaQ/#m1) [[PIB
+    20130704]](https://www.vekn.net/forum/rules-questions/50982-iron-heart-vs-virtuosa#50984) — group "Multi-discipline"
+    (G00086).
 
 [^1-3-7]: [[ANK 20230824]](https://www.vekn.net/forum/news-and-announcements/80782-the-line-pack-alpha?start=6#109157)
     [[RTR 20070707]](https://usenet.krcg.org/t/vSOt2c1uRzQ/#m0) [[LSJ
@@ -3707,7 +3828,7 @@ exemplar cards.
 
 [^1-5-11]: [[ANK 20221021]](https://www.vekn.net/forum/rules-questions/80108-patagia#106628) — {Watenda}, {White Lily}.
 
-[^1-5-12]: [[RTR 20010711]](https://usenet.krcg.org/t/GsI1UyH54jU/#m0) — {Drum of Xipe Totec}.
+[^1-5-12]: [[RTR 20010711]](https://usenet.krcg.org/t/GsI1UyH54jU/#m0) — {Drum of Xipe Totec}, {Hand of Conrad}.
 
 [^1-6-1]: [[LSJ 20030214]](https://usenet.krcg.org/t/A3U-Dy1yx8Y/#m1) [[ANK
     20171212]](https://www.vekn.net/forum/rules-questions/76334-slave-mental-maze-interaction?start=12#84553) [[LSJ
@@ -3715,6 +3836,11 @@ exemplar cards.
     20210124]](https://www.vekn.net/forum/rules-questions/79001-the-question-of-the-month-action-fizzles#101492) [[RBK
     requirements-for-playing-cards]](https://www.vekn.net/rulebook#requirements-for-playing-cards) — {Undead
     Persistence}, {Mental Maze}, {Maxwell}, {The Red Question}.
+
+[^1-6-29]: [[ANK
+    20210124]](https://www.vekn.net/forum/rules-questions/79001-the-question-of-the-month-action-fizzles#101492) [[ANK
+    20220218]](https://www.vekn.net/forum/rules-questions/79001-the-question-of-the-month-action-fizzles?start=12#104697)
+    — {The Red Question}, group "Action only usable by vampire in torpor" (G00079), {Warsaw Station}.
 
 [^1-6-2]: [[PIB 20121031]](https://www.vekn.net/forum/rules-questions/39816-ec-2012-can-you-answer-these?start=30#40179)
     — group "Require Gehenna" (G00009).
@@ -3733,6 +3859,9 @@ exemplar cards.
     20070707]](https://usenet.krcg.org/t/vSOt2c1uRzQ/#m0) [[PIB
     20150304]](https://www.vekn.net/forum/rules-questions/69627-vlad-tepes-regent?start=6#69653) — {Talaq, The
     Immortal}, {Kemintiri}, {Vlad Tepes}.
+
+[^1-6-26]: [[LSJ 20081120-1]](https://usenet.krcg.org/t/e2PNDpg-l_c/#m19) — {Vidal Jarbeaux}; the card text of {Masca},
+    {Hexe}, {Evil Eye}.
 
 [^1-6-6]: [[ANK
     20190203]](https://www.vekn.net/forum/rules-questions/77343-ennoia-s-theater-do-i-need-both-gangrel-and-gangrel#93265)
@@ -3758,6 +3887,8 @@ exemplar cards.
     [[ANK
     20210714]](https://www.vekn.net/forum/rules-questions/79224-can-i-do-a-3rd-villein-in-a-vampire-if-i-have-only-1-pool-remaining#102697)
     — {Bindusara, Historian of the Kindred}, {Horrid Reality}, {Vast Wealth}, {Topaz}, {Villein}.
+
+[^1-6-27]: [[TOM 19950407]](https://usenet.krcg.org/t/FWVnIu3zLAQ/#m5) — {Vast Wealth}, {Darius Styx}.
 
 [^1-6-10]: [[LSJ 19990602]](https://usenet.krcg.org/t/tnBL-IWbBV4/#m4) [[ANK
     20200320]](https://www.vekn.net/forum/rules-questions/78531-does-deviki-get-around-can-not-play-discipline-cards-on-vampires-with-superior#99397)
@@ -3798,6 +3929,9 @@ exemplar cards.
     {Kemintiri}, {Lisandro Giovanni}, {Petaniqua}, {Philip van Vermeer IV}, {Tatiana Stepanova, Alastor}, {Victor
     Gerard}, {Vlad Tepes}, {Winterlich}.
 
+[^1-6-28]: [[PIB 20150306]](https://www.vekn.net/forum/rules-questions/69627-vlad-tepes-regent?start=12#69696) — {Vlad
+    Tepes}.
+
 [^1-6-16]: [[LSJ 20050119]](https://usenet.krcg.org/t/NKWhBnp7uP4/#m11) — group "Impersonating requirements for cards
     not played normally" (G00072), {Vidal Jarbeaux}.
 
@@ -3823,8 +3957,9 @@ exemplar cards.
 
 [^1-6-21]: [[RTR 20010711]](https://usenet.krcg.org/t/GsI1UyH54jU/#m0) [[LSJ
     20021211]](https://usenet.krcg.org/t/-J07wvmidOA/#m17) [[PIB
-    20110725]](https://www.vekn.net/forum/rules-questions/6728-announcing-siphon#6740) — {Absorb the Mind}, {Call the
-    Lamprey}, {Draba}, {Night Terrors}, {Siphon}, {Kindred Segregation}, {Peace Treaty}.
+    20110725]](https://www.vekn.net/forum/rules-questions/6728-announcing-siphon#6740) [[LSJ
+    20060620]](https://usenet.krcg.org/t/aqascblOZmk/#m3) — {Absorb the Mind}, {Call the Lamprey}, {Draba}, {Night
+    Terrors}, {Siphon}, {Kindred Segregation}, {Peace Treaty}, group "Can draw from empty" (G00160).
 
 [^1-6-22]: [[RTR 19980928]](https://usenet.krcg.org/t/Xva4_IRavxM/#m0) [[RTR
     19951110]](https://usenet.krcg.org/t/TXfganI5B2o/#m0) [[ANK
@@ -3906,15 +4041,21 @@ exemplar cards.
     [[LSJ 20100302-1]](https://usenet.krcg.org/t/jmmm0WRUPvs/#m1) [[PIB
     20111101]](https://www.vekn.net/forum/rules-questions/12975-summon-history-reanimated-corpse#13169) [[ANK
     20220704]](https://www.vekn.net/forum/rules-questions/79890-charming-lobby-a-political-action-card-krc?start=0#105616)
-    — group "Cost X" (G00032), {Hidden Strength}, {Compel the Spirit}, {Pressing Flesh}, {Summon History}, {Charming
-    Lobby}.
+    [[RBK announce-the-action]](https://www.vekn.net/rulebook#announce-the-action) — group "Cost X" (G00032), {Hidden
+    Strength}, {Compel the Spirit}, {Pressing Flesh}, {Summon History}, {Charming Lobby}.
 
 [^1-7-12]: [[ANK
     20230620]](https://www.vekn.net/forum/rules-questions/80612-when-to-use-shard-the-line-when-action-becoems-to-expensive-after-announcement#108409)
     [[ANK 20170605]](https://www.vekn.net/forum/rules-questions/75862-timing-of-the-line#82113) [[LSJ
-    20090705]](https://usenet.krcg.org/t/3Ekxk6uQ_wo/#m3) [[LSJ 20030917]](https://usenet.krcg.org/t/i3Ugq5AQWFI/#m1)
-    [[LSJ 20080201]](https://usenet.krcg.org/t/y5Uoc7nEulU/#m1) — group "Lock to reduce cost" (G00130), {Powerbase:
-    Tshwane}, {The Line}, {The Shard, London}, {Eccentric Billionaire}, {Sunset Strip, Hollywood}, {Yawp Court}.
+    20090705]](https://usenet.krcg.org/t/3Ekxk6uQ_wo/#m3) [[LSJ 20030917]](https://usenet.krcg.org/t/i3Ugq5AQWFI/#m1) —
+    group "Lock to reduce cost" (G00130), {Powerbase: Tshwane}, {The Line}, {The Shard, London}, {Eccentric
+    Billionaire}, {Sunset Strip, Hollywood}.
+
+[^1-7-30]: Owner's reading, no official ruling: [[rules-qa
+    101.1]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-101--reachable-edges-mid-play-ousts-and-costs-the-cards-board-owner-2026-10-26-1011-1013-claude-2026-10-26)
+    [[rules-qa
+    36.1]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-36--cost-reductions) — {The
+    Shard, London}.
 
 [^1-7-13]: [[RTR 20070707]](https://usenet.krcg.org/t/vSOt2c1uRzQ/#m0) [[ANK
     20230824]](https://www.vekn.net/forum/news-and-announcements/80782-the-line-pack-alpha?start=6#109157) [[ANK
@@ -3960,6 +4101,12 @@ exemplar cards.
 [^1-7-20]: [[LSJ 20090901]](https://usenet.krcg.org/t/9BZPgQH9PFk/#m2) [[LSJ
     20030522-2]](https://usenet.krcg.org/t/iBfBo7CQn4Q/#m1) [[LSJ 20031219]](https://usenet.krcg.org/t/leLLrcPsiBY/#m3)
     [[LSJ 20100527]](https://usenet.krcg.org/t/Tr3X4DsZr-8/#m1) — {Sword of Nuln}.
+
+[^1-7-31]: [[ANK
+    20210124]](https://www.vekn.net/forum/rules-questions/79001-the-question-of-the-month-action-fizzles#101492) [[ANK
+    20220218]](https://www.vekn.net/forum/rules-questions/79001-the-question-of-the-month-action-fizzles?start=12#104697)
+    [[LSJ 20070411]](https://usenet.krcg.org/t/umdINigMKqs/#m1) — group "Requires successful action" (G00077), {Zephyr},
+    {Daring the Dawn}, {Forced March}.
 
 [^1-7-22]: [[LSJ 19971212]](https://usenet.krcg.org/t/jQUqciN0Z9E/#m2) [[ANK
     20181006]](https://www.vekn.net/forum/rules-questions/77053-smiling-jack#91000) — {Smiling Jack, The Anarch}.
@@ -4008,6 +4155,11 @@ exemplar cards.
 
 [^1-8-3]: [[LSJ 20100728]](https://usenet.krcg.org/t/mzzPS-cOprI/#m1) [[LSJ
     20090213]](https://usenet.krcg.org/t/hkTPcLPgZk4/#m1) — {Andrew Stuart}.
+
+[^1-8-21]: Owner's reading, no official ruling: [[rules-qa
+    64.8]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-64--legacy-cards-for-twda-decks-rounds-45-the-gangrel-decks-implemented-readings-2026-10-11-owner-2026-10-14-647-648-confirmed-2026-10-20-the-rest-646-restated)
+    — {Predator's Transformation}; the rulebook sets no unlocked condition [[RBK
+    reflex-cards]](https://www.vekn.net/rulebook#reflex-cards).
 
 [^1-8-4]: [[LSJ 20031201]](https://usenet.krcg.org/t/Mi_j7sUsZZw/#m1) [[LSJ
     20070214]](https://usenet.krcg.org/t/o_BltcAJ_So/#m2) [[ANK
@@ -4097,6 +4249,10 @@ exemplar cards.
     20080805]](https://usenet.krcg.org/t/SIbzFAwWDKs/#m1) — group "Replace next turn" (G00025), group "Permanent not
     replaced" (G00008), {Port Authority}, {The New Inquisition}, {Psyche!}.
 
+[^1-9-12]: Owner's reading, no official ruling: [[rules-qa
+    88.8]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-88--open-contradictions-that-change-play-rules-digest-23-k5k7-k15-k16-k18-k23-k26-k27-k29-readings-graded-claude-2026-10-22-owner-2026-10-22-881-888-889-confirmed-884-answered-58-kept)
+    — {The Meddling of Semsith}.
+
 [^1-9-6]: [[LSJ 20070320-1]](https://usenet.krcg.org/t/goUs4JXcqMw/#m1) [[ANK
     20200905]](https://www.vekn.net/forum/rules-questions/78836-visit-from-the-capuchin-vs-steelytenacity#100698) — {The
     Meddling of Semsith}, {Hagar Stone}, {Visit from the Capuchin}.
@@ -4109,6 +4265,9 @@ exemplar cards.
 [^1-9-8]: [[LSJ 20080702-2]](https://usenet.krcg.org/t/sCHpPQkjeAE/#m1) [[ANK
     20200517-3]](https://www.vekn.net/forum/rules-questions/78606-disguised-baseball-bat#99854) [[LSJ
     20070707]](https://usenet.krcg.org/t/ZtRk5z2TcoI/#m1) — {Baseball Bat}, {Corrupt Construction}.
+
+[^1-9-13]: [[LSJ 20081126]](https://usenet.krcg.org/t/EsG0EVCLqX4/#m2) — group "Play stored card as if from hand"
+    (G00095).
 
 [^1-9-9]: [[LSJ 20011023]](https://usenet.krcg.org/t/2GOLIrXAF8M/#m1) [[LSJ
     20080630]](https://usenet.krcg.org/t/nvuXBpEaKAA/#m2) [[LSJ 20021022]](https://usenet.krcg.org/t/WIXqYpkKuj8/#m1) —
@@ -4264,6 +4423,10 @@ exemplar cards.
     19980319]](https://usenet.krcg.org/t/i1Eqqm5Ctv0/#m1) — {Elder Library}, {Guillaume Giovanni}, {Secure Haven},
     {Byzar}, {Disguised Weapon}.
 
+[^1-13-12]: Owner's reading, no official ruling: [[rules-qa
+    83.1]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-83--the-cards-on-a-contested-vampire-z-main-2026-10-18-from-the-owners-playtest-via-z-play-owner-2026-10-19-831-confirmed)
+    — {Soul Gem of Etrius}.
+
 [^1-13-7]: [[RTR 19941109]](https://usenet.krcg.org/t/_6CXoKTSLnw/#m0) [[LSJ
     20080816]](https://usenet.krcg.org/t/FKBTEzLf0_A/#m5) — {Betrayer}, {Descent into Darkness}.
 
@@ -4342,6 +4505,10 @@ exemplar cards.
     20120808]](https://www.vekn.net/forum/rules-questions/34265-rules-tweak-suggestion-rewind-time-et-al?start=12#34448)
     [[RBK targeting-of-cards]](https://www.vekn.net/rulebook#targeting-of-cards) — {Owain Evans, The Wanderer}; group
     "Can draw during action" (G00023); group "Cancel with no action" (G00063).
+
+[^2-1-10]: Owner's reading, no official ruling: [[rules-qa
+    26.5]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-26--actions-wave-1) — {Rutor's
+    Hand}, {Qawiyya el-Ghaduba}.
 
 [^2-1-2]: [[LSJ 19990425]](https://usenet.krcg.org/t/Mmfn07ib6Yw/#m1) [[SFC
     19960819]](https://usenet.krcg.org/t/G40EE8vCBB8/#m2) [[RBK
@@ -4427,7 +4594,7 @@ exemplar cards.
     {Claiming the Body}, {The Kiss of Ra}.
 
 [^2-3-5]: [[LSJ 19981028]](https://usenet.krcg.org/t/JZHY1bTCAa0/#m1) [[LSJ
-    20100206-2]](https://usenet.krcg.org/t/reXyybyIYX8/#m1) — {Follow the Blood}, {Momentary Delay}.
+    20100206-2]](https://usenet.krcg.org/t/reXyybyIYX8/#m1) — {Momentary Delay}.
 
 [^2-3-6]: [[ANK
     20180206]](https://www.vekn.net/forum/rules-questions/76404-timing-of-shemti-s-special-and-ecstasy#85223) — {The
@@ -4492,7 +4659,7 @@ exemplar cards.
     20180511-2]](https://www.vekn.net/forum/rules-questions/76595-rules-team-rulings-rtr-11-05-2018?start=30#86840)
     [[LSJ 20001206]](https://usenet.krcg.org/t/kFIO74LxqFQ/#m4) [[ANK
     20211124]](https://www.vekn.net/forum/rules-questions/79501-addition-strikes#103982) — {Power of One}, {Quicksilver
-    Contemplation}, {Quickness}, {Command of the Beast}, {Divine Image}, {Leverage}.
+    Contemplation}, {Quickness}, {Hell-for-Leather}, {Command of the Beast}, {Divine Image}, {Leverage}.
 
 [^2-4-4]: [[ANK
     20191219]](https://www.vekn.net/forum/rules-questions/78241-relentless-reaper-vs-blissful-agony-and-scheduled-combat-rulings-ambiguity#98308)
@@ -4500,6 +4667,10 @@ exemplar cards.
 
 [^2-4-5]: [[TOM 19960413]](https://usenet.krcg.org/t/Gm-NLCP6bF0/#m8) [[LSJ
     20030213]](https://usenet.krcg.org/t/j6cuQ6pFJSA/#m1) — {Protected Resources}, {Merrill Molitor}.
+
+[^2-4-25]: Owner's reading, no official ruling: [[rules-qa
+    6.4]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-6--cards-in-play-riders-granted-actions)
+    — {Fame}.
 
 [^2-4-9]: [[RTR 20010711]](https://usenet.krcg.org/t/GsI1UyH54jU/#m0) [[LSJ
     20090304-2]](https://usenet.krcg.org/t/PcbRGxbYQUY/#m3) [[PIB
@@ -4574,6 +4745,14 @@ exemplar cards.
     20080818]](https://usenet.krcg.org/t/O5HUPRkKY-k/#m1) — {Eyes of the Beast}, {Marciana Giovanni, Investigator},
     {Valerius Maior, Hell's Fool}, {Blessing of Chaos}.
 
+[^2-5-15]: Owner's reading, no official ruling: [[rules-qa
+    53.4]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-53--sabbat-v5-the-path-of-cathari-implemented-readings-2026-10-07)
+    [[rules-qa
+    54.5]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-54--sabbat-v5-the-path-of-caine-implemented-readings-2026-10-07)
+    [[rules-qa
+    8.4]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-8--cards--effects-replacement-events)
+    — {Fotini Katsikaris}, {Fiendish Tongue}, {Mirror Walk}.
+
 [^2-5-3]: [[LSJ 20070707]](https://usenet.krcg.org/t/ZtRk5z2TcoI/#m1) [[RTR
     20201130]](https://www.blackchantry.com/2020/12/25/rtr-30-11-2020/) [[ANK
     20200415]](https://www.vekn.net/forum/rules-questions/7516-re-derange-titles-and-bloodbrothers?start=6#99609) [[ANK
@@ -4585,6 +4764,10 @@ exemplar cards.
     20180626-2]](https://www.vekn.net/forum/rules-questions/76752-tygerius-allegiance-counters-and-going-anarch#88401)
     [[ANK 20230103]](https://www.vekn.net/forum/rules-questions/80237-victim-of-habit-subsequent-prey#107123) —
     {Teresita, The Godmother}, {Tegyrius, Vizier}, {Victim of Habit}.
+
+[^2-5-16]: Owner's reading, no official ruling: [[rules-qa
+    61.2]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-61--owner-play-feedback-2026-10-10)
+    — {Enkil Cog}.
 
 [^2-5-5]: [[LSJ 20090207]](https://usenet.krcg.org/t/0UGI9W2sSpk/#m1) [[LSJ
     20100212]](https://usenet.krcg.org/t/NIIFHQg_x1c/#m1) [[ANK
@@ -4669,7 +4852,9 @@ exemplar cards.
     20090319]](https://usenet.krcg.org/t/G1w6TeymEnQ/#m1) [[ANK
     20180907]](https://www.vekn.net/forum/rules-questions/76983-secure-haven-target?start=6#90481) [[LSJ
     20051113]](https://usenet.krcg.org/t/L-ctaLucuKU/#m1) [[TOM 19951208-1]](https://usenet.krcg.org/t/tEHebi9BYfc/#m5)
-    [[LSJ 19980302-1]](https://usenet.krcg.org/t/kijV8VfB56s/#m3) — {Secure Haven}, {Aye}, group "Reflex" (G00060).
+    [[LSJ 19980302-1]](https://usenet.krcg.org/t/kijV8VfB56s/#m3) [[ANK
+    20220409]](https://www.vekn.net/forum/rules-questions/79728-blade-of-enoch-user-playing-dam-the-heart-s-river?start=0#104966)
+    — {Secure Haven}, {Aye}, group "Reflex" (G00060), {Dam the Heart's River}.
 
 [^3-1-13]: [[PIB 20121028]](https://www.vekn.net/forum/rules-questions/39816-ec-2012-can-you-answer-these?start=6#39843)
     — {Baltimore Purge}.
@@ -4741,6 +4926,12 @@ exemplar cards.
     20190416]](https://www.vekn.net/forum/rules-questions/77560-conditional-intercepts#94528) — {Talley, The Hound},
     {Abbot}, {Ministry}, {Protection Racket}, {Teresita, The Godmother}.
 
+[^3-2-11]: Owner's reading, no official ruling: [[rules-qa
+    13.2]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-13--printed-vampire-abilities)
+    [[rules-qa
+    44.6]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-44--legacy-cards-for-tournament-decks-slice-16a)
+    — {Carlton Van Wyk}.
+
 [^3-2-9]: [[ANK
     20180926]](https://www.vekn.net/forum/rules-questions/77030-is-guardian-vigil-playable-after-the-block-succeeds#90768)
     [[ANK
@@ -4761,6 +4952,10 @@ exemplar cards.
     20050224-1]](https://usenet.krcg.org/t/enxwleC-ZKw/#m27) — {Eagle's Sight}, {Falcon's Eye}, {Anneke}, {Sonja Blue}.
 
 [^3-3-2]: [[LSJ 20030227]](https://usenet.krcg.org/t/c9KLhUd-Isg/#m6) — {Eagle's Sight}.
+
+[^3-3-24]: Owner's reading, no official ruling: [[rules-qa
+    92.1]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-92--a-block-attempt-under-way-failed-by-a-bar-on-blockers-the-owners-playtest-sc-bot-game-d253f9c8dcf5bcb5-decision-459-readings-graded-claude-2026-10-24-owner-2026-10-24-921)
+    — {Daring the Dawn}.
 
 [^3-3-3]: [[LSJ 20010714-2]](https://usenet.krcg.org/t/9U-jt3p3R_Q/#m1) — {Guard Duty}, {Second Tradition: Domain},
     {Black Sunrise}, and the same wording on eight further cards.
@@ -4818,6 +5013,10 @@ exemplar cards.
     [[RBK resolve-the-action]](https://www.vekn.net/rulebook#resolve-the-action) — {Change of Target}, {Clan Loyalty},
     {Angel of Berlin}, {Faceless Night}.
 
+[^3-3-25]: Owner's reading, no official ruling: [[rules-qa
+    53.1]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-53--sabbat-v5-the-path-of-cathari-implemented-readings-2026-10-07)
+    — {Aelswith, The Irresistible}.
+
 [^3-3-19]: [[RTR 19991206]](https://usenet.krcg.org/t/N7iEmqgP9WU/#m0) [[LSJ
     20091125]](https://usenet.krcg.org/t/1dYtrdRjRI8/#m1) [[RTR 20080808]](https://usenet.krcg.org/t/1jW6GXrIRSU/#m0)
     [[ANK
@@ -4832,8 +5031,7 @@ exemplar cards.
     19941109]](https://usenet.krcg.org/t/_6CXoKTSLnw/#m0) — {Those Who Endure Judge}.
 
 [^3-4-1]: [[LSJ 20070411]](https://usenet.krcg.org/t/umdINigMKqs/#m1) [[LSJ
-    20090514]](https://usenet.krcg.org/t/PKQ6lQUBUOI/#m1) [[PIB
-    20121031]](https://www.vekn.net/forum/rules-questions/39816-ec-2012-can-you-answer-these?start=30#40179) [[ANK
+    20090514]](https://usenet.krcg.org/t/PKQ6lQUBUOI/#m1) [[ANK
     20220218]](https://www.vekn.net/forum/rules-questions/79001-the-question-of-the-month-action-fizzles?start=12#104697)
     [[ANK 20181107]](https://www.vekn.net/forum/rules-questions/77152-warsaw-station-vs-diablerie#91708) [[LSJ
     20020725]](https://usenet.krcg.org/t/wCPFIH_g5ZE/#m4) [[ANK
@@ -4922,10 +5120,16 @@ exemplar cards.
     20090220]](https://usenet.krcg.org/t/JMgZa9jdrc4/#m1) [[LSJ 20070709]](https://usenet.krcg.org/t/qKrJPLXBFFw/#m2) —
     {The Kiss of Ra}, {Tangle Atropos' Hand}.
 
+[^3-5-26]: [[ANK
+    20211015]](https://www.vekn.net/forum/rules-questions/79389-when-does-nra-apply-not-apply?start=6#103563) [[RBK
+    cancel-a-card]](https://www.vekn.net/rulebook#cancel-a-card) — {The Kiss of Ra}; the card text of {Tangle Atropos'
+    Hand}.
+
 [^3-5-4]: [[ANK
     20210124]](https://www.vekn.net/forum/rules-questions/79001-the-question-of-the-month-action-fizzles#101492) [[ANK
-    20200813-2]](https://www.vekn.net/forum/rules-questions/78799-rewind-time-inf-and-action-cards#100526) — {The Kiss
-    of Ra}, {Tangle Atropos' Hand}, {Veil the Legions}.
+    20200813-2]](https://www.vekn.net/forum/rules-questions/78799-rewind-time-inf-and-action-cards#100526) [[LSJ
+    20070526]](https://usenet.krcg.org/t/hm8eaW_dBD0/#m3) [[LSJ 20100505]](https://usenet.krcg.org/t/nAzGpZHw8eA/#m1) —
+    {The Kiss of Ra}, {Tangle Atropos' Hand}, {Veil the Legions}, {Waiting Game}, {Channel 10}.
 
 [^3-5-5]: [[LSJ 20090208]](https://usenet.krcg.org/t/07gUFmSeIxU/#m1) [[LSJ
     20070222-1]](https://usenet.krcg.org/t/jBrfK77gayo/#m4) [[ANK
@@ -4982,6 +5186,10 @@ exemplar cards.
 
 [^3-5-16]: [[LSJ 20070219]](https://usenet.krcg.org/t/HkKuwBe9LRk/#m4) — {Champion}.
 
+[^3-5-27]: [[ANK
+    20260316]](https://www.vekn.net/forum/rules-questions/82895-failing-action-before-block-attempts#116669) [[LSJ
+    20041022]](https://usenet.krcg.org/t/gqhND6kd2wE/#m3) — group "Fail an action (after 'as announced')" (G00156).
+
 [^3-5-17]: [[ANK 20200702]](https://www.vekn.net/forum/rules-questions/78711-deep-song-vs-obedience#100233) [[LSJ
     20090826]](https://usenet.krcg.org/t/KTwa1Hf_gHI/#m1) [[LSJ 20060902]](https://usenet.krcg.org/t/QAKz6Qtr7Ts/#m3)
     [[LSJ 20090325-1]](https://usenet.krcg.org/t/5CW9tD5OfGk/#m6) [[ANK
@@ -5000,6 +5208,10 @@ exemplar cards.
 
 [^3-5-20]: [[LSJ 20110419]](https://boardgamegeek.com/thread/643948) — {Crocodile's Tongue} (ruling removed from the
     database in 2024; original at boardgamegeek.com thread 643948, database wording relied on).
+
+[^3-5-28]: Owner's reading, no official ruling: [[rules-qa
+    30.1]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-30--reactions-and-action-modifiers-wave-2)
+    — {Dawn Operation}.
 
 [^3-5-21]: [[LSJ 20090322]](https://usenet.krcg.org/t/tROpvfFdgBI/#m1) [[ANK
     20181003]](https://www.vekn.net/forum/rules-questions/77036-continuing-an-action-after-stealing-with-venenation#90942)
@@ -5148,6 +5360,14 @@ exemplar cards.
     [[ANK 20210109]](https://www.vekn.net/forum/rules-questions/78983-fear-of-mekhet-and-torpor#101392) — {Flaming
     Candle}, {Fear of Mekhet}.
 
+[^3-7-3-12]: [[RBK equip]](https://www.vekn.net/rulebook#equip) [[ANK
+    20221103]](https://www.vekn.net/forum/rules-questions/80131-can-a-flaming-candle-be-moved-by-a-heidelberg-castle-germany#106697)
+    — {Flaming Candle}.
+
+[^3-7-3-10]: Owner's reading, no official ruling: [[rules-qa
+    9.2]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-9--equipment) — {Flaming
+    Candle}.
+
 [^3-7-3-6]: [[LSJ 20060222]](https://usenet.krcg.org/t/Gv-gf5sAJxM/#m2) [[ANK
     20170326]](https://www.vekn.net/forum/rules-questions/75635-transferring-weapons-and-gift-of-bellona#81215) —
     {Unlicensed Taxicab}, {Gift of Bellona}.
@@ -5160,6 +5380,10 @@ exemplar cards.
 [^3-7-3-9]: [[ANK
     20180719-3]](https://www.vekn.net/forum/rules-questions/76834-moving-equipment-with-requirements#89044) — group
     "Clan equipment" (G00013).
+
+[^3-7-3-11]: Owner's reading, no official ruling: [[rules-qa
+    9.1]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-9--equipment) — {Treasured
+    Samadji}.
 
 [^3-7-4-1]: [[LSJ 20100303]](https://usenet.krcg.org/t/jmmm0WRUPvs/#m4) [[ANK
     20180817]](https://www.vekn.net/forum/rules-questions/76933-cock-robin-jack-of-both-sides#90064) [[LSJ
@@ -5197,7 +5421,10 @@ exemplar cards.
 [^3-7-5-3]: [[LSJ 20060902]](https://usenet.krcg.org/t/QAKz6Qtr7Ts/#m3) [[LSJ
     20090325-1]](https://usenet.krcg.org/t/5CW9tD5OfGk/#m6) [[ANK
     20180910-1]](https://www.vekn.net/forum/rules-questions/76990-correct-order-impulse-for-combat-cards-after-combat#90517)
-    [[LSJ 20060903]](https://usenet.krcg.org/t/QAKz6Qtr7Ts/#m8) — {Yawp Court}.
+    [[LSJ 20060903]](https://usenet.krcg.org/t/QAKz6Qtr7Ts/#m8) [[LSJ
+    20080201]](https://usenet.krcg.org/t/y5Uoc7nEulU/#m1) [[ANK
+    20220218]](https://www.vekn.net/forum/rules-questions/79001-the-question-of-the-month-action-fizzles?start=12#104697)
+    — {Yawp Court}, {Warsaw Station}.
 
 [^3-7-5-4]: [[LSJ 20081202-2]](https://usenet.krcg.org/t/hlK89M1M9rk/#m6) [[LSJ
     19980130]](https://usenet.krcg.org/t/mtjOAd7aaYI/#m3) [[RTR 19951110]](https://usenet.krcg.org/t/TXfganI5B2o/#m0) —
@@ -5212,6 +5439,14 @@ exemplar cards.
 
 [^3-7-5-7]: [[LSJ 20010606]](https://usenet.krcg.org/t/2Dj_N6wtifI/#m2) [[LSJ
     20040518]](https://usenet.krcg.org/t/4emymfUPwAM/#m5) — {Parity Shift}, {Alastor}.
+
+[^3-7-5-20]: [[LSJ 20100129]](https://usenet.krcg.org/t/X8Uu7Sk56P4/#m8) [[ANK
+    20191228]](https://www.vekn.net/forum/rules-questions/78262-parity-shift-without-target#98358) — group "Political
+    action with illegal terms" (G00158).
+
+[^3-7-5-21]: Owner's reading, no official ruling: [[rules-qa
+    43.1]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-43--found-by-training-p4) —
+    {Parity Shift}, {Cedrick Calhoun}.
 
 [^3-7-5-8]: [[RTR 20010711]](https://usenet.krcg.org/t/GsI1UyH54jU/#m0) — {Peace Treaty}.
 
@@ -5275,6 +5510,10 @@ exemplar cards.
     20211009]](https://www.vekn.net/forum/rules-questions/79388-political-struggle-and-victim-priscus#103481) [[LSJ
     20040518-2]](https://usenet.krcg.org/t/4emymfUPwAM/#m1) — {Leadership Vacuum}, {Political Struggle}.
 
+[^3-7-6-11]: [[ANK 20251125]](https://www.vekn.net/forum/rules-questions/82686-negative-values#115870) [[ANK
+    20251220]](https://www.vekn.net/forum/rules-questions/82686-negative-values?start=12#116028) [[LSJ
+    20050221-2]](https://usenet.krcg.org/t/XJqubVDYzxQ/#m2) — group "Vote reduction" (G00146).
+
 [^3-7-6-5]: [[LSJ 20090304-2]](https://usenet.krcg.org/t/PcbRGxbYQUY/#m3) [[ANK
     20221019]](https://www.vekn.net/forum/rules-questions/80100-de-sades-special-and-kindred-manipulation#106609) —
     {Mustafa, The Heir}, {De Sade}.
@@ -5326,6 +5565,10 @@ exemplar cards.
 [^3-7-7-4]: [[LSJ 20020304-2]](https://usenet.krcg.org/t/L-8OGYP5xsE/#m6) [[PIB
     20110918]](https://www.vekn.net/forum/rules-questions/10458-frondator#10459) [[LSJ
     20100315]](https://usenet.krcg.org/t/06C5ufFEaJs/#m2) — {Frondator}, {Miriam Benyona}, {Cavalier}.
+
+[^3-7-7-7]: Owner's reading, no official ruling: [[rules-qa
+    48.8]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-48--found-by-the-owners-play-2026-10-03)
+    — group "Discounts for rescue" (G00075).
 
 [^3-7-7-5]: [[RTR 19950509]](https://usenet.krcg.org/t/_LKyR7pdMig/#m8) — {Madness Network}.
 
@@ -5433,6 +5676,8 @@ exemplar cards.
     20221102-2]](https://www.vekn.net/forum/rules-questions/80130-motf-hl-retribution#106694) — {Haqim's Law:
     Retribution}.
 
+[^3-10-5]: [[LSJ 20020926]](https://usenet.krcg.org/t/C7vgb-0Mcbo/#m1) — {Mask of a Thousand Faces}.
+
 [^3-10-3]: [[RBK traits]](https://www.vekn.net/rulebook#traits) [[LSJ
     20011023]](https://usenet.krcg.org/t/2GOLIrXAF8M/#m1) [[RTR 20020501]](https://usenet.krcg.org/t/M1snoR2msbQ/#m0) —
     {Malleable Visage}; [[ANK
@@ -5442,6 +5687,10 @@ exemplar cards.
     {FBI Special Affairs Division}; [[ANK
     20230814]](https://www.vekn.net/forum/rules-questions/80752-deep-song-and-powerbase-savannah?start=12#109035) —
     {Powerbase: Savannah}.
+
+[^3-10-6]: Owner's reading, no official ruling: [[rules-qa
+    27.5]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-27--actions-wave-2) — {Deep
+    Song}.
 
 [^3-10-4]: [[ANK 20211022]](https://www.vekn.net/forum/rules-questions/79422-nar-sheptha#103636) — {Deep Song},
     {Nar-Sheptha}.
@@ -5578,12 +5827,10 @@ exemplar cards.
     [[ANK 20180913-1]](https://www.vekn.net/forum/rules-questions/77003-stutter-step-question#90610) [[RBK
     first-strike]](https://www.vekn.net/rulebook#first-strike) — {Scorpion's Touch}, {Shambling Hordes}, {Stutter-Step}.
 
-[^4-3-17]: [[LSJ 20001206]](https://usenet.krcg.org/t/kFIO74LxqFQ/#m4) [[ANK
-    20211124]](https://www.vekn.net/forum/rules-questions/79501-addition-strikes#103982) [[LSJ
-    20030224]](https://usenet.krcg.org/t/67261v339Ds/#m5) [[LSJ 20080210]](https://usenet.krcg.org/t/nL-xqiydvYg/#m1)
-    [[RTR 19941109]](https://usenet.krcg.org/t/_6CXoKTSLnw/#m0) [[RBK
-    additional-strikes]](https://www.vekn.net/rulebook#additional-strikes) — {Hell-for-Leather}, {Quickness}, {Ghoul
-    Retainer}, group "Cancel" (G00058), group "Retainer that strike" (G00029).
+[^4-3-17]: [[LSJ 20001206]](https://usenet.krcg.org/t/kFIO74LxqFQ/#m4) [[LSJ
+    20080210]](https://usenet.krcg.org/t/nL-xqiydvYg/#m1) [[RTR 19941109]](https://usenet.krcg.org/t/_6CXoKTSLnw/#m0)
+    [[RBK additional-strikes]](https://www.vekn.net/rulebook#additional-strikes) — {Quickness}, {Ghoul Retainer}, group
+    "Retainer that strike" (G00029).
 
 [^4-3-18]: [[ANK 20171225]](https://www.vekn.net/forum/rules-questions/76349-shoulder-drop?start=0#84655) [[RBK
     combat]](https://www.vekn.net/rulebook#combat) — {Shoulder Drop}, {Coordinate Attacks}.
@@ -5717,10 +5964,6 @@ exemplar cards.
     20040805]](https://usenet.krcg.org/t/WuER8RUMzTE/#m13) [[LSJ 20100205]](https://usenet.krcg.org/t/owQe9egif0U/#m3) —
     {Blood of Acid}, {Tunnel Runner}, {Potio Martyrium}.
 
-[^4-5-16]: [[ANK
-    20170930]](https://www.vekn.net/forum/rules-questions/76197-still-confused-about-multiple-outside-the-hourglasses#83682)
-    — {Outside the Hourglass}, {Weather Control}.
-
 [^4-5-17]: [[LSJ 20010627]](https://usenet.krcg.org/t/NhNCVCCDyU0/#m5) [[LSJ
     20010629]](https://usenet.krcg.org/t/MhHKBY7II78/#m1) [[LSJ 20090304-1]](https://usenet.krcg.org/t/B7EQiAVOr1Q/#m1)
     [[RBK damage-resolution]](https://www.vekn.net/rulebook#damage-resolution) — group "Immune to damage" (G00026),
@@ -5846,6 +6089,9 @@ exemplar cards.
     — {Rigor Mortis}.
 
 [^4-8-8]: [[RTR 19970630]](https://usenet.krcg.org/t/KireUeOYY3c/#m1) — {Drawing Out the Beast}.
+
+[^4-8-9]: [[LSJ 20010312]](https://usenet.krcg.org/t/Mz0Rs9faJ9o/#m1) [[LSJ
+    20001027]](https://usenet.krcg.org/t/zUs5JBhRLgE/#m0) — group "Effect during press step" (G00114).
 
 [^4-9-1]: [[RTR 20030519]](https://usenet.krcg.org/t/NOBWXWrd-vA/#m0) — {Disarm}, {Pulled Fangs}, {Revelation of Wrath},
     {Street Cred}, {Taste of Vitae}, {Ossian}, {Masochism}.
@@ -5998,7 +6244,7 @@ exemplar cards.
     [[LSJ 20040602]](https://usenet.krcg.org/t/bEvYg3Za-fc/#m3) — {Grenade}, {Dragon's Breath Rounds}, {Jar of Skin
     Eaters}, {Smoke Grenade}.
 
-[^4-10-10]: [[LSJ 20010729]](https://usenet.krcg.org/t/RkvrP5tplXA/#m1) — {Hand of Conrad}, {Soul Gem of Etrius}.
+[^4-10-10]: [[LSJ 20010729]](https://usenet.krcg.org/t/RkvrP5tplXA/#m1) — {Soul Gem of Etrius}.
 
 [^4-10-11]: [[LSJ 20020425]](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/_Rh8P34zTZo/m/u-WavRjp5uYJ) —
     group "Improve weapon before resolution" (G00050).
@@ -6009,6 +6255,10 @@ exemplar cards.
 [^5-1-2]: [[PIB 20140122]](https://www.vekn.net/forum/rules-questions/58586-banishment-and-master-discipline#58772)
     [[TOM 19951209]](https://usenet.krcg.org/t/qP2j6CpBUDI/#m6) [[LSJ
     20090625]](https://usenet.krcg.org/t/C3daj-vYqu4/#m3) — {Banishment}, {The Becoming}.
+
+[^5-1-12]: Owner's reading, no official ruling: [[rules-qa
+    108.1]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-108--the-events-deep-sweep-a-reading-graded-the-engine-board-claude-2026-10-30)
+    — {Banishment}.
 
 [^5-1-3]: [[LSJ 20051126]](https://usenet.krcg.org/t/dDgHGEG18D0/#m1) [[ANK
     20190522]](https://www.vekn.net/forum/rules-questions/77648-tariq-merge-during-influence-phase?start=12#95023) —
@@ -6031,6 +6281,8 @@ exemplar cards.
 
 [^5-1-8]: [[RTR 19990712]](https://usenet.krcg.org/t/x5k5Vw_hkI0/#m0) [[LSJ
     20020115]](https://usenet.krcg.org/t/wG_tDLgfZso/#m1) — group "Action creating vampire" (G00054), {Creation Rites}.
+
+[^5-1-13]: [[LSJ 20041201-2]](https://usenet.krcg.org/t/DY1OggZnMvs/#m1) — group "Action creating vampire" (G00054).
 
 [^5-1-9]: [[LSJ 20100221]](https://usenet.krcg.org/t/TojSBPeGCFw/) [[LSJ
     20070928-2]](https://usenet.krcg.org/t/duRrP46XygI/#m43) [[LSJ
@@ -6189,7 +6441,10 @@ exemplar cards.
 [^5-3-12]: [[LSJ 20091203]](https://usenet.krcg.org/t/JBdmMh1udN8/#m5) [[ANK
     20240610]](https://www.vekn.net/forum/rules-questions/81521-burn-option-wording-in-rulebook-v1-1?start=12#111649)
     [[RBK unlock-phase]](https://www.vekn.net/rulebook#unlock-phase) — {Emergency Powers}, {Barrenness}, {Evil Eye},
-    {High Orun}.
+    {High Orun}, {Consume the Dead}.
+
+[^5-3-17]: [[LSJ 20100203-2]](https://usenet.krcg.org/t/tKnhKlDo8lk/#m3) — group "Unique cards with burn option"
+    (G00092).
 
 [^5-3-13]: [[PIB 20150522]](https://www.vekn.net/forum/rules-questions/71291-blood-doll-and-the-rack-clarity#71293)
     [[LSJ 20010610]](https://usenet.krcg.org/t/KVyVn-Y_UIY/#m2) [[ANK
@@ -6364,6 +6619,12 @@ exemplar cards.
     20060509]](https://usenet.krcg.org/t/KBFnBRrOGB4/#m1) [[LSJ 20050322-2]](https://usenet.krcg.org/t/jiavUD9IgIA/#m5)
     — group "Scarce" (G00043), group "True Brujah" (G00041), {Clan Impersonation}, {Call the Great Beast}, {Earthshock}.
 
+[^5-7-11]: [[RTR 20250612]](https://www.blackchantry.com/2025/06/12/new-sabbat-rules-terms-and-errata/).
+
+[^5-7-12]: Owner's reading, no official ruling: [[rules-qa
+    49.7]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-49--reign-of-stanislava-25th-anniversary-and-sabbat-paths-scoping-2026-10-05)
+    — {Absolute Tyranny}.
+
 [^5-7-10]: [[LSJ 20020609]](https://usenet.krcg.org/t/Q_Lk0DPHqC8/#m1) [[ANK
     20211113]](https://www.vekn.net/forum/rules-questions/79465-unwholesome-bond-angelo-circle-of-one-new-blood-and-circle#103879)
     [[LSJ 20050927]](https://usenet.krcg.org/t/oLMw6SSSgmA/#m13) [[LSJ
@@ -6398,6 +6659,8 @@ exemplar cards.
     19960210]](https://usenet.krcg.org/t/PiOmH08RyVw/#m10) [[RTR 20000501]](https://usenet.krcg.org/t/MKrA0hBXuaU/#m0)
     [[LSJ 20060908]](https://usenet.krcg.org/t/CTy2GjM6-Dc/#m1) — {Banishment}, {Descent into Darkness}.
 
+[^5-8-25]: [[RBK 6-vampire-sects]](https://www.vekn.net/rulebook/6-vampire-sects) — {Toreador Justicar}.
+
 [^5-8-21]: [[LSJ 20030419]](https://usenet.krcg.org/t/A0mvllC-tgs/#m5) — {Illusions of the Kindred}.
 
 [^5-8-9]: [[LSJ 20080602]](https://usenet.krcg.org/t/Y7CLzywq1Lk/#m1) [[LSJ
@@ -6424,6 +6687,16 @@ exemplar cards.
 [^5-8-17]: [[ANK
     20220317]](https://www.vekn.net/forum/rules-questions/79706-crimetheinc-anarch-free-press-club-illusion#104811) —
     {Club Illusion}.
+
+[^5-8-26]: [[ANK 20250320]](https://www.vekn.net/forum/rules-questions/82172-garibaldi-and-jericho-founding#113984) —
+    {Garibaldi-Meucci Museum}.
+
+[^5-8-28]: [[RBK 6-vampire-sects]](https://www.vekn.net/rulebook/6-vampire-sects) [[RBK
+    other-vampire-sects]](https://www.vekn.net/rulebook#other-vampire-sects).
+
+[^5-8-27]: Owner's reading, no official ruling: [[rules-qa
+    112.21]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-112--round-27-secrets-of-new-york-and-noites-brasileiras-63-cards-the-cards-board-owner-2026-11-08-red-11214-11219-11221-11247-claude-2026-11-09-the-owner-11214-11219-11221-11247-confirmed)
+    — {Papillon}, {Mel, a Guerreira Vibrante}.
 
 [^5-8-22]: [[LSJ 20081120-1]](https://usenet.krcg.org/t/e2PNDpg-l_c/#m19) [[LSJ
     20091016]](https://usenet.krcg.org/t/pqa7mYZ6NEM/#m21) [[LSJ 20100226]](https://usenet.krcg.org/t/JnycCGrNQmY/#m3) —
@@ -6523,7 +6796,9 @@ exemplar cards.
 
 [^6-2-3]: [[LSJ 20020725]](https://usenet.krcg.org/t/wCPFIH_g5ZE/#m4) [[PIB
     20121031]](https://www.vekn.net/forum/rules-questions/39816-ec-2012-can-you-answer-these?start=30#40179) [[LSJ
-    20070222-2]](https://usenet.krcg.org/t/jBrfK77gayo/#m5) — {Temptation}, {War Ghoul}, {The Diamond Thunderbolt}.
+    20070222-2]](https://usenet.krcg.org/t/jBrfK77gayo/#m5) — {Temptation}, {War Ghoul}, {The Diamond Thunderbolt}; PIB
+    20121031's "must then be paid" is superseded on payment by [[ANK
+    20210124]](https://www.vekn.net/forum/rules-questions/79001-the-question-of-the-month-action-fizzles#101492).
 
 [^6-2-4]: [[LSJ 20010119]](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/XB0IvK7I6PQ/m/foA7igsB8EEJ) [[RTR
     20020501]](https://usenet.krcg.org/t/M1snoR2msbQ/#m0) [[LSJ 20030219]](https://usenet.krcg.org/t/ugfckv9DAbo/#m5)
@@ -6555,6 +6830,8 @@ exemplar cards.
 [^6-3-3]: [[LSJ 19971002]](https://usenet.krcg.org/t/RY_nhdykKP0/#m1) [[LSJ
     20080803-2]](https://usenet.krcg.org/t/OknxGrvlaNk/#m2) — {Disputed Territory}, {New Management}.
 
+[^6-3-7]: [[RBK 8-glossaries]](https://www.vekn.net/rulebook#8-glossaries) — glossary "Steal (a card)".
+
 [^6-3-4]: [[RTR 19960708]](https://usenet.krcg.org/t/Rd3Zb61ELuw/#m0) [[LSJ
     20001031]](https://usenet.krcg.org/t/y8LNZhRyXO0/#m2) [[PIB
     20121220]](https://www.vekn.net/forum/rules-questions/43188-storage-annex-changes-control?start=6#43199) [[LSJ
@@ -6576,6 +6853,10 @@ exemplar cards.
     20010809-2]](https://usenet.krcg.org/t/9ggmJcK2De0/#m10) [[LSJ
     20010809-3]](https://usenet.krcg.org/t/gLl8F0zcCF0/#m2) — {Descent into Darkness}, {Lay Low}, {Thicker than Blood},
     {The Rack}.
+
+[^6-4-9]: Owner's reading, no official ruling: [[rules-qa
+    3.1]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-3--p0-open-items) — {Descent
+    into Darkness}.
 
 [^6-4-2]: [[LSJ 20040526]](https://usenet.krcg.org/t/M3hDKK2JSWw/#m17) [[LSJ
     20021111]](https://usenet.krcg.org/t/Y6_dPn4ONCA/#m2) — {Descent into Darkness}, {Parmenides}.
@@ -6623,6 +6904,8 @@ exemplar cards.
     20050607]](https://usenet.krcg.org/t/WLv9R8wA0Ow/#m8) [[LSJ 20050608]](https://usenet.krcg.org/t/WLv9R8wA0Ow/#m10) —
     {Herald of Topheth}, {Bima}, {Spying Mission}.
 
+[^6-5-13]: [[LSJ 20081105]](https://usenet.krcg.org/t/CYjOJtTBMGU/#m1) — {Ferraille}.
+
 [^6-5-7]: [[LSJ 20090731]](https://usenet.krcg.org/t/y6f0s6tUtqs/#m6) — {Last Stand}.
 
 [^6-5-8]: [[ANK 20180408]](https://www.vekn.net/forum/rules-questions/76500-charnas-the-imp#86191) [[LSJ
@@ -6663,6 +6946,8 @@ exemplar cards.
 [^6-6-2]: [[LSJ 20090626]](https://usenet.krcg.org/t/3Cd-DNfT7yQ/#m4) [[ANK
     20170124]](https://www.vekn.net/forum/rules-questions/75556-vessel-wash-and-mpa#80362) [[RBK
     trifle]](https://www.vekn.net/rulebook#trifle) — {Wash}, {Sudden Reversal}.
+
+[^6-6-8]: [[RBK contested-cards]](https://www.vekn.net/rulebook#contested-cards) — group "Unique Trifle" (G00082).
 
 [^6-6-3]: [[ANK 20170124]](https://www.vekn.net/forum/rules-questions/75556-vessel-wash-and-mpa#80362) [[LSJ
     20090626]](https://usenet.krcg.org/t/3Cd-DNfT7yQ/#m4) — {Wash}.
@@ -6717,7 +7002,8 @@ exemplar cards.
     20200616]](https://www.vekn.net/forum/rules-questions/78687-the-erciyes-fragments-fragment-of-the-book-of-nod-barrens-impulse#100110)
     — {Edward Neally}, {The Meddling of Semsith}, {Nahir}; group "Can draw during action" (G00023).
 
-[^6-8-3]: [[LSJ 20020904-2]](https://usenet.krcg.org/t/ObuKimgcCpI/#m10) [[ANK
+[^6-8-3]: [[LSJ 20100812]](https://usenet.krcg.org/t/C4PUHWr_xSQ/#m1) [[LSJ
+    20020904-2]](https://usenet.krcg.org/t/ObuKimgcCpI/#m10) [[ANK
     20210313]](https://www.vekn.net/forum/rules-questions/79072-until-the-end-vs-during-art-of-love-steals-informant#101841)
     [[ANK 20190725]](https://www.vekn.net/forum/rules-questions/77813-card-questions#95969) [[LSJ
     20090731]](https://usenet.krcg.org/t/y6f0s6tUtqs/#m6) [[LSJ 20060426]](https://usenet.krcg.org/t/4e6z1_JWIzA/#m1) —
@@ -6739,6 +7025,14 @@ exemplar cards.
     20080612-2]](https://usenet.krcg.org/t/dVIBPf6EX_8/#m11) [[ANK
     20211201]](https://www.vekn.net/forum/rules-questions/79519-waste-management-operations-no-cards-in-the-library-and-in-the-hand#104074)
     — {Infernal Pursuit}, {Agaitas, The Scholar of Antiquities}, {Sudario Refraction}, {Waste Management Operation}.
+
+[^6-8-7]: Owner's reading, no official ruling: [[rules-qa
+    8.3]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-8--cards--effects-replacement-events)
+    — {Visit from the Capuchin}.
+
+[^6-8-8]: Owner's reading, no official ruling: [[rules-qa
+    9.4]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-9--equipment) — {Shilmulo
+    Tarot}, {Black Market Cache}.
 
 [^6-8-6]: [[PIB 20121028]](https://www.vekn.net/forum/rules-questions/39816-ec-2012-can-you-answer-these?start=6#39843)
     [[PIB 20121031]](https://www.vekn.net/forum/rules-questions/39816-ec-2012-can-you-answer-these?start=30#40179) [[ANK

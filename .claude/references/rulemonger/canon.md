@@ -1029,6 +1029,9 @@ record supersession in the Status line; do not delete entries.
 > 2/ things happened during the course of the action that prevent the action from happening
 > 3/ the cost of the action cannot be paid anymore"
 >
+> "If the action fizzles because of 1/ or 2/, the action is not paid. If the action fizzles because of
+> 3/, the acting minion must pay as much as possible, and the action fizzles." (same post, #101492)
+>
 > "The action was not blocked, so it's successful. It fizzles because of 1/ (no valid target)."
 >
 > "The action fizzles because its cost cannot be paid (3/) and the acting vampire pays as much as possible."

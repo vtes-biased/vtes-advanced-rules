@@ -9,7 +9,7 @@ judge-level companion to the [VTES rulebook](https://www.vekn.net/rulebook) that
 synthesizes ~2,605 individual rulings into general principles organized by game mechanic.
 There is no build, no test suite, no package. The deliverable is one Markdown file.
 
-**The document is complete** — 64 sections in 6 chapters, 674 footnotes, appendix
+**The document is complete** — 64 sections in 6 chapters, 720 footnotes, appendix
 included, corrected through owner-adjudicated passes, a cross-section consistency
 sweep, and an atomicity/deduplication pass (2026-07-22: every rule given a single
 normative home, cross-references culled to the misreading-preventing ones). The project
@@ -22,9 +22,10 @@ retired and deleted on 2026-07-21; it survives only in git history. Do not resur
 
 ## Reference files
 
-- `docs/_work/review.md` — the open Rules Director questions (one entry as of
-  2026-07-22: the Edge-steal / mid-action-burn question). The rest of the
-  production-era reference shelf (WORKING-NOTES, taxonomy, tensions, the
+- `docs/_work/review.md` — the open Rules Director questions (the Edge-steal
+  entry closed 2026-11-10; twenty-five entries from the rules-digest triage,
+  2026-11-10). The rest of the production-era reference shelf (WORKING-NOTES,
+  taxonomy, tensions, the
   classification/rulings TSVs, phantom-id-audit) was retired on 2026-07-22 — recover
   any of it from git history.
 - `.claude/references/owner-rulings.md` — **the highest authority in this project.**
@@ -61,7 +62,7 @@ Submodules pin a commit: the rulings database moves upstream, so `cd vtes-ruling
 pull` (then commit the new pointer here) when rulings need refreshing — then have the
 rulemonger map the changed rulings to affected sections (the document's footnotes are the
 ruling→section index).
-- Card text for verification: `https://api.krcg.org/card/<id-or-name>`, key `card_text`.
+- Card text for verification: `https://api.krcg.org/card/<id-or-name>`, key `text`.
 - Rules-change history gist (when a rule changed or was reverted):
   https://gist.githubusercontent.com/lionel-panhaleux/a4a9cad2e492af7c45c50a1cea7e6cf6/raw/92a6f169931c08ea3a4ae62ccbf2d6da17bc8970/VTES%2520History%2520of%2520changes.md
 

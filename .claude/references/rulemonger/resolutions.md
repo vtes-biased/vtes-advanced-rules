@@ -174,9 +174,9 @@ Entry format:
 - **{Card} tokens must resolve under krcg.js's nameToImage slug** (leading "The"
   matters: {The Louvre, Paris}, not {Louvre, Paris}); braces are for card names only —
   cycle names stay unbraced. Sweep procedure in R-024.
-- **KRCG `card_text` omits the burn-option icon.** The burn option is a separate JSON
+- **KRCG `text` omits the burn-option icon.** The burn option is a separate JSON
   field (`burn_option: true/false`). {Legacy} (101085) looked stripped of its burn
-  option in `card_text` and nearly produced a false "stale ruling" upstream filing for
+  option in `text` and nearly produced a false "stale ruling" upstream filing for
   [LSJ 20091203]. Check the field before calling any burn-option ruling stale.
 - **Quote the working tree, and re-grep every residual-defect claim immediately
   before reporting (2026-07-22).** The adjudication queue's Q2/Q3 items quoted
@@ -196,6 +196,13 @@ Entry format:
   undated official publications use their publication date (RTR 20191031 newsletter,
   RTR 20250612 new-terms post). Same-day ANK IDs: bare then `-2` is the majority upstream
   form; `-1`/`-2` also occurs — both are conformant.
+- **A *(reading)* claims "no official ruling" only after the rulebook and the groups are
+  searched (2026-11-10, digest-absorb F-2–F-5).** Four reading sentences carried an
+  official half: G00130 + {The Line}'s text, [RBK crypt-cards], [RBK 6-vampire-sects] +
+  [RBK other-vampire-sects], LSJ 20021008. Grep `content.md` and `rulings.yaml` (group
+  records included) before accepting the marker; where
+  part is official, split: that part unmarked with its citation, the marker on the
+  remainder only. A reading footnote still names its card or group after the dash.
 
 ## Resolutions
 
@@ -299,6 +306,10 @@ steal to fizzle per §3.4. Live mechanisms found: {Hand Intervention} ("may burn
 card by burning the Edge" — in-play ability, no timing restriction), {Sabbat Threat}
 (burn the Edge to shed threat counters). §6.5.4 trimmed of "the stealer still gets it
 at resolution, e.g. {Tereza Rostas}" down to the bare RTR sentence.
+**Amended 2026-11-10:** the owner answered (rules-qa 90.7, 2026-10-24): reading (a) — the
+steal still gets the Edge (RTR 19980623 read literally), over TOM 19951214-2 and the
+2026-07-22 lean. §6.5.4's clause "the stealer still gets it at resolution" restored; the
+review.md entry closed.
 **Sources:** owner messages 2026-07-22; rulings.yaml @241a7e3 {Hidden Lurker},
 {Blissful Agony}; LSJ 20100604-1 thread; KRCG {Hand Intervention}, {Sabbat Threat};
 gh issue/PR list vtes-biased/vtes-rulings.
@@ -421,15 +432,19 @@ is never the test — the acting minion is normally locked. §3.7.5.1 owns; §3.
 keeps the generic ends-if-not-ready sentence + link.
 **Sources:** [LSJ 20060902] [ANK 20180910-1] [LSJ 20060903] — {Yawp Court}.
 
-### R-020 — "Fizzle" is a defined term: successful and paid, but no effect  [SETTLED]
-**Position:** A requirement-lapse mid-action fizzles the action: it still resolves
-and, if unblocked, is successful and its cost paid, but has no effect. Defined once
-in §1.6.1 (citing [ANK 20210124], {The Red Question}); §3.4.1, §3.7.3.1, §5.9.3 use
-the term and link there. Target-lapse and requirement-lapse produce the SAME outcome;
-the genuine contrast is the play-time requirement check, which bars the play itself.
-Never frame fizzle as the action failing/ending.
+### R-020 — "Fizzle" is a defined term: successful, no effect, and not paid  [SETTLED]
+**Position:** An unblocked action whose target became illegal, or whose effect something prevented, during the action
+fizzles: it still resolves and is successful, but it has no effect and its cost is not paid. An action whose cost can
+no longer be paid in full at resolution fizzles too, and the acting minion pays as much as possible [ANK 20210124].
+Defined in §1.6.1 (requirement lapse); §1.7.5 owns the cost case; §3.4.1, §5.9.3, §6.2.2 use the term. Never frame
+fizzle as the action failing/ending.
 **Sources:** [ANK 20210124] — {The Red Question}: "the action fizzles (is successful
-but has no effect)".
+but has no effect)". [ANK 20210124] original, post #101492: "If the action fizzles because of 1/ or 2/, the action is
+not paid. If the action fizzles because of 3/, the acting minion must pay as much as possible".
+**History:** 2026-11-10 — reversed on payment (was "successful and paid"): read from the original,
+coordinator-verified; [PIB 20121031] ("must then be paid", original not located) superseded; the database paraphrases
+(G00078–G00081, {Harass}, {Sleep of Reason}) invert it — listed for an upstream issue. The owner's rules-qa 28.7/17.4
+"fizzles paid" went to review.md.
 
 ### R-021 — Two ⚠ markers closed (canceled-play resource; hunt-bonus blood)  [SETTLED]
 **Position:** (a) A canceled play spends a use iff the use attached to the play
