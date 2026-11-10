@@ -9,7 +9,7 @@ judge-level companion to the [VTES rulebook](https://www.vekn.net/rulebook) that
 synthesizes ~2,605 individual rulings into general principles organized by game mechanic.
 There is no build, no test suite, no package. The deliverable is one Markdown file.
 
-**The document is complete** — 64 sections in 6 chapters, 720 footnotes, appendix
+**The document is complete** — 64 sections in 6 chapters, 723 footnotes, appendix
 included, corrected through owner-adjudicated passes, a cross-section consistency
 sweep, and an atomicity/deduplication pass (2026-07-22: every rule given a single
 normative home, cross-references culled to the misreading-preventing ones). The project
@@ -136,11 +136,12 @@ These were validated by the user; deviating from them is a regression.
   `{Red Herring}`, `{Change of Target}`).
 - `rulings.yaml` wording sometimes paraphrases the original ruling — and can even invert
   it (the {Annabelle Triabell} record, caught 2026-07-22, filed upstream as
-  vtes-biased/vtes-rulings#11). Verify against actual card text and, when it matters,
-  the original ruling: VEKN forum and Google Groups posts both fetch fine (2026-07-22
-  calibration, 30+ successes); fallbacks are the VEKN rules archive
-  (`vekn.net/history-of-vtes-rules`, hosts the RTR compilations) and the narkive usenet
-  mirror. The rulemonger's `canon.md` already holds provenanced extracts of the most
+  vtes-biased/vtes-rulings#11; the fizzle records G00078–G00081 against ANK 20210124,
+  caught 2026-11-10). Verify against actual card text and, when it matters, the original
+  ruling: VEKN forum posts fetch fine, and newsgroup and BoardGameGeek posts are read
+  and cited from the archive at `usenet.krcg.org` (upstream no longer accepts Google
+  Groups links); the fallback is the VEKN rules archive (`vekn.net/history-of-vtes-rules`,
+  hosts the RTR compilations). The rulemonger's `canon.md` already holds provenanced extracts of the most
   load-bearing rulings.
 - **Read the whole thread — Rules Directors correct themselves downthread.** LSJ
   20100604-1's later "My mistake. Neither can be used to enter combat with a non-ready

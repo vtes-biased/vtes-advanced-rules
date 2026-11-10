@@ -150,9 +150,12 @@ raise the groups' generalization upstream; not filed).
 **The record.** [ANK
 20250410](https://www.vekn.net/forum/rules-questions/82214-karl-schrekt-spoofing-a-justicar-title-to-play-camarilla-s-iron-fist#114177):
 "No, because Camarilla's Iron Fist doesn't explictly require a Justicar … the requirement … is an open list". [LSJ
-20050128](https://usenet.krcg.org/t/HVy8iPUxNbI/#m48): "When considered a Justicar, he is also implicitly considered
-Camarilla." The pinned database files ANK 20250410 under {Karl Schrekt}: "When he changes Sects, he can't play votes
-that 'requires a titled camarilla Vampire' (e.g. {Camarilla's Iron Fist})".
+20050128](https://usenet.krcg.org/t/HVy8iPUxNbI/#m48), on {Kemintiri} and {Closed Session}: "It requires a Justicar, and
+therefore a Camarilla (since you cannot be the former save that you are the latter)." The database (vtes-rulings
+629079a) files both under {Karl Schrekt}: "If Karl changes sect, he is still considered Camarilla when playing a card
+requiring a Justicar. (e.g. he can vote when playing {Closed Session} after going Anarch)" and "When he changes Sects,
+he can't play votes that 'requires a titled camarilla Vampire' (e.g. {Camarilla's Iron Fist})". The two rulings agree:
+the implicit Camarilla reaches only a card that requires a justicar.
 
 **The owner's reading.** He "can call Camarilla's Iron Fist even when no longer Camarilla" — "over ANK 20250410"
 ([rules-qa
@@ -309,7 +312,12 @@ the owner accepts the original over 28.7/17.4, or ask the Rules Director.
 the blood (to the bank) or keep it?
 
 **The record.** [LSJ 20010809-1](https://usenet.krcg.org/t/LB6Zg4bEggc/#m5), G00121 (original: exactly this case,
-"Yes"): "The blood stolen by this special hunt goes to the blood bank if it cannot be gained by the vampire."
+"Yes"): "The blood stolen by this special hunt goes to the blood bank if it cannot be gained by the vampire." G00163
+"Cannot gain blood" ([ANK
+20221019-2](https://www.vekn.net/forum/rules-questions/80101-blood-moved-by-heidelberg-castle-is-considered-a-gain-for-ex-nihilo-purposes#106607),
+database wording): "Any effect that gives a vampire more blood counts as gaining blood (… stealing blood with {Theft of
+Vitae} …) and the blood is moved to the blood bank instead"; the original confirms only the {Heidelberg Castle, Germany}
+case.
 
 **The owner's reading.** "a hunt stealing blood takes none" ([rules-qa
 59.4](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-59--legacy-cards-for-twda-decks-steps-1015-implemented-readings-2026-10-09)).

@@ -609,7 +609,7 @@ record supersession in the Status line; do not delete entries.
 ### [LSJ 20070411] — An unblocked action that reaches resolution is successful even if it fizzles; success-dependent cards like {Freak Drive} still apply.
 **Filed under:** group "Action targeting locked minion" (G00078), group "Action targeting vampire in torpor" (G00080), group "Action targeting unlocked minion" (G00081), {CrimethInc.} (+5 more records)
 **Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/umdINigMKqs/m/l6GFRVKdkMsJ), fetched 2026-07-22)
-**Status:** current
+**Status:** current — re-checked 2026-11-10 at vtes-rulings 629079a: G00080 now carries a {Lord of Serenity} override (a multi-target torpor action fizzles only if all targets have left torpor); the filed text and the original are unchanged.
 
 > Q: A. Saulot Noses of the Hound a tapped Ali Kar.
 > B. Ali untaps with Black Sunrise; attempts to block.
@@ -623,7 +623,7 @@ record supersession in the Status line; do not delete entries.
 ### [RTR 20070707] — Meeting a card's play requirement applies for all that card's effects, including duration ones; cost modifiers apply however the card is played, multiplication/division first.
 **Filed under:** group "Impersonating requirements to play cards" (G00073); group "Lock to reduce cost" (G00130); group "Equip/employ/recruit outside of an action" (G00131); {The Ankara Citadel, Turkey} (+6 more records)
 **Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/vSOt2c1uRzQ/m/MsRAv47Cd4YJ), fetched 2026-07-22)
-**Status:** current
+**Status:** current — re-checked 2026-11-10 at vtes-rulings 629079a: G00073's paraphrase reworded ("that card, and only that card") and gained a {Toreador Grand Ball} example (the in-play lock/unblockable effects do not see the faked Toreador); consistent with the extract.
 
 > Cards allies play as vampires treat them as vampires for duration effects (but not effects from the card-in-play).
 >
@@ -682,9 +682,9 @@ record supersession in the Status line; do not delete entries.
 > ends (with only A remaining)".
 
 ### [RTR 20080808] — Undirected multi-target actions proceed against the targets they can affect; any single valid target enables per-target effects; cards cannot target things not in play.
-**Filed under:** {Bauble}; {Edged Illusion}; {Lesser Boon}; {Sowing Dissension} (+3 more records)
+**Filed under:** group "Action directed at all methuselah" (G00165); {Bauble}; {Edged Illusion}; {Lesser Boon} (+3 more records)
 **Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/1jW6GXrIRSU/m/8QTYL98kB0gJ), fetched 2026-07-22)
-**Status:** current
+**Status:** current — re-checked 2026-11-10 at vtes-rulings 629079a: the {Sowing Dissension} record moved into new group G00165 (with [LSJ 20010925] [LSJ 20100713] [PIB 20121230] [PIB 20150821]); original unchanged.
 
 > Bauble cannot be burned if the target equipment isn't in play, by the general targeting rule [1.6.1.4].
 >
@@ -939,9 +939,9 @@ record supersession in the Status line; do not delete entries.
 > A: […] Matteus can use both abilities more than once per action (like Maris Streck).
 
 ### [RTR 20180719] — A failed or ended action has reached resolution; an ended action is over immediately, no further action modifier or reaction can be played.
-**Filed under:** group "Fail an Action" (G00157), {Bind the Night-Walker}, {Bloodstorm of Chorazin}, {Change of Target} (+14 more records)
+**Filed under:** group "Fail an Action" (G00157), group "Action ended by an effect" (G00166), {Bind the Night-Walker}, {Bloodstorm of Chorazin}, {Change of Target} (+4 more records)
 **Source text:** original verbatim ([Black Chantry](https://www.blackchantry.com/2018/07/18/rules-team-rulings-rtr-19-07-2018/), fetched 2026-07-22)
-**Status:** current
+**Status:** current — re-checked 2026-11-10 at vtes-rulings 629079a: the ten per-card "ends unsuccessfully immediately" rulings ({Claiming the Body}, {Gift of Sleep}, {The Kiss of Ra}, {Make an Example}, {Mental Maze}, {Mirror Walk}, {Mirror's Visage}, {Obedience}, {Promise of 1528}, {Shattered Mirror}) consolidated into G00166 (13 members; {The Kiss of Ra} override drops "unsuccessfully"); [ANK 20170105] and Mirror Walk's [ANK 20210627] no longer co-cited. Original unchanged.
 
 > c) Failing action vs ended action
 >
@@ -1022,7 +1022,7 @@ record supersession in the Status line; do not delete entries.
 ### [ANK 20210124] — An unblocked action whose targets became illegal, effects impossible, or cost unpayable fizzles; an action canceled mid-course counts as taken but never reaches resolution.
 **Filed under:** group "Action targeting locked minion" (G00078); group "Action targeting vampire in torpor" (G00080); group "Action targeting unlocked minion" (G00081); {Channel 10} (+8 more records)
 **Source text:** original verbatim ([VEKN forum](https://www.vekn.net/forum/rules-questions/79001-the-question-of-the-month-action-fizzles#101492), fetched 2026-07-22)
-**Status:** current
+**Status:** current — re-checked 2026-11-10 at vtes-rulings 629079a: G00080 gained a {Lord of Serenity} override (all targets must have left torpor to fizzle); filed text and original unchanged.
 
 > "An action that fizzles is a successful action (= not blocked) whose effects cannot be applied because:
 > 1/ the target (or ALL the targets) has become illegal during the course of the action

@@ -34,7 +34,7 @@ one or more reference IDs in brackets. Disciplines/types appear as `[pot]`/`[POT
     controller. It does not apply to actions directed at other Methuselahs. [LSJ 20061222]
 ```
 
-**`references.yaml`** — one line per reference: `LSJ 20061207: https://groups.google.com/...`.
+**`references.yaml`** — one line per reference: `LSJ 20061207: https://usenet.krcg.org/t/<thread>/#mN`.
 ID grammar: `<SOURCE> <YYYYMMDD>[-n]` where the suffix disambiguates same-day rulings.
 Sources are successive Rules Directors and institutions: `TOM`, `SFC`, `JON`, `LSJ`,
 `PIB`, `ANK`, plus `RTR` (Rules Team Ruling) and `RBK` (rulebook).
@@ -97,9 +97,9 @@ section — there are no per-section blocks:
 5. For `[RBK <anchor>]`: find the heading in `rulebook2024/content.md` (kebab-case
    anchor ↔ heading text) and read the verbatim passage.
 6. If exact wording is load-bearing and `rulings.yaml` may be paraphrasing: resolve the
-   ID in `references.yaml` and fetch the original. `vekn.net/forum` URLs fetch fine, and
-   `groups.google.com` archives usually do too (2026-07-22 calibration: 30+ successes in
-   one session). Fallbacks: the VEKN rules archive
+   ID in `references.yaml` and fetch the original. Newsgroup and BGG threads go to the
+   archive first, `https://usenet.krcg.org/t/<thread>/` (BGG: `/t/bgg-<id>/`, posts
+   anchored `#mN`); `vekn.net/forum` URLs fetch fine. Fallbacks: the VEKN rules archive
    (`https://www.vekn.net/history-of-vtes-rules`) hosts the RTR compilations; narkive
    mirrors the usenet groups. Only after those fail, record "unverifiable at source;
    database wording relied on" instead of guessing.

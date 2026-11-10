@@ -97,7 +97,8 @@ card even for a side benefit, e.g. {Acrobatics} for its dodge.
 Where the "cannot" names an outcome instead, the play remains legal and only the outcome fails. {Charnas the Imp} is
 immune to damage from its employer, but the employer may still use effects that would normally damage it.[^1-1-8] A
 vampire under {Legacy of Caine} who cannot gain blood still takes the hunt action; the blood he steals goes to the blood
-bank.
+bank. Blood moved onto a vampire who cannot gain blood is a gain all the same, e.g. with {Heidelberg Castle, Germany}
+onto an {Ex Nihilo} vampire.[^1-1-15]
 
 #### 1.1.4 Reading card text
 
@@ -340,8 +341,9 @@ Summoning} for an ally requiring an Anarch.[^1-6-14]
 #### 1.6.4 Vampires that meet requirements they do not have
 
 {Mata Hari} and her kind are treated as meeting the requirement for all effects of the card played, and only them,
-including its duration effects — never for what the card does from being in play.[^1-6-15] {Vlad Tepes}, who "uses and
-can play" such cards, also meets it for what the card does from being in play, e.g. {Abbot}'s intercept.[^1-6-28]
+including its duration effects — never for what the card does from being in play, e.g. {Lady Scarlett Churchill}, chosen
+as the locked Toreador of a {Toreador Grand Ball}, still unlocks as normal.[^1-6-15] {Vlad Tepes}, who "uses and can
+play" such cards, also meets it for what the card does from being in play, e.g. {Abbot}'s intercept.[^1-6-28]
 
 The ability operates only on a card played normally, not for a {Piper} recruit or a {Concealed Weapon} equip.[^1-6-16]
 It operates only where the card prints the requirement, never to match a trait the card merely acts on, e.g.
@@ -1019,7 +1021,9 @@ out.[^2-4-9]
 
 Effects resolve one at a time, so a later one can find nothing left to do: a second {Anathema} is burned
 unresolved.[^2-4-10] Ordering also dodges a cost or a trigger — apply a cost reduction before {Jenna Cross}'s surcharge,
-or burn the last non-Camarilla vampire before {Judgment: Camarilla Segregation} bills you.[^2-4-11]
+or burn the last non-Camarilla vampire before {Judgment: Camarilla Segregation} bills you.[^2-4-11] Separate triggers
+from one event resolve one at a time in that order, so the ousts they cause are not simultaneous: two minions burned at
+once under {Tension in the Ranks} cost their controllers 1 pool each, in the order the acting Methuselah sets.[^2-4-26]
 
 Where one effect could attach to any of several simultaneous applications, its controller chooses which, e.g. {Slake the
 Thirst}.[^2-4-12] The clauses of a single card resolve in printed order.[^2-4-13]
@@ -1168,6 +1172,10 @@ controlling it, not at the minion carrying it, e.g. {Conceal}, {Haunt}.[^3-1-15]
 {Abbot} grants intercept during actions directed at its controller, so it applies to those; {Detect Authority} requires
 an action directed at a minion or location, so it does not. An ability keyed to directed actions never fires against
 actions by its own controller's minions.[^3-1-16]
+
+A Methuselah's hand, library, crypt and uncontrolled region count as his for this test: an action that targets them, or
+cards in them, is directed at him whether or not its card is marked directed, e.g. {Petra Resonance}, directed at every
+other Methuselah.[^3-1-20]
 
 Acting on another Methuselah's ash heap is not a directed action — the ash heap is not a card in play, e.g. {Daemonic
 Possession}. Neither is a referendum, so {Secure Haven} gives no protection against a vampire being chosen by one, e.g.
@@ -1731,10 +1739,11 @@ Cargill}, but not when its own controller is ousted, e.g. {Lutz von Hohenzollern
 
 ##### 3.7.5.4 Automatic pass, cancellation, failure
 
-A referendum that passes automatically has no polling step. No "during a political action" or "during a referendum"
-effect may be played, and no card may be burned for a vote during it.[^3-7-5-14] Effects reading the number of votes it
-passed by have no effect. A card usable *after* the referendum may still be used, with X = 0, e.g. {Voter Captivation}
-after a {Cryptic Rider} referendum.[^3-7-5-15]
+A referendum that passes automatically has no polling step. No "during a political action", "during a referendum" or
+"during the polling step" effect may be played or used — a vampire's ability included, e.g. {Aisha az-Zahra} — and no
+card may be burned for a vote during it.[^3-7-5-14] Effects reading the number of votes it passed by have no effect. A
+card usable *after* the referendum may still be used, with X = 0, e.g. {Voter Captivation} after a {Cryptic Rider}
+referendum.[^3-7-5-15]
 
 Canceling the referendum stops the tally, so cards keyed to the results do nothing, e.g. {Scorn of Adonis} under
 {Delaying Tactics}.[^3-7-5-16] A referendum that fails produces none of the calling card's effects, including a
@@ -3620,6 +3629,10 @@ exemplar cards.
     20010809-1]](https://usenet.krcg.org/t/LB6Zg4bEggc/#m5) — {Charnas the Imp}, group "Steal blood as a Hunt action"
     (G00121).
 
+[^1-1-15]: [[ANK
+    20221019-2]](https://www.vekn.net/forum/rules-questions/80101-blood-moved-by-heidelberg-castle-is-considered-a-gain-for-ex-nihilo-purposes#106607)
+    — group "Cannot gain blood" (G00163).
+
 [^1-1-10]: [[ANK 20180518]](https://www.vekn.net/forum/rules-questions/76623-big-game#87131) [[LSJ
     19990218]](https://usenet.krcg.org/t/B27J0sAwUuw/#m22) — {Big Game}, {Major Boon}.
 
@@ -3925,9 +3938,8 @@ exemplar cards.
     [[ANK 20201028]](https://www.vekn.net/forum/rules-questions/78885-vlad-tepes-and-archon#100998) [[LSJ
     20091015]](https://usenet.krcg.org/t/pqa7mYZ6NEM/#m9) [[PIB
     20130128]](https://www.vekn.net/forum/rules-questions/43572-can-i-put-infernal-pact-on-vidal-jarbeaux?start=36#44503)
-    [[LSJ 20071109]](https://usenet.krcg.org/t/mXspOwNnPDc/) — {Mata Hari}, {Vidal Jarbeaux}, {Gem Ghastly},
-    {Kemintiri}, {Lisandro Giovanni}, {Petaniqua}, {Philip van Vermeer IV}, {Tatiana Stepanova, Alastor}, {Victor
-    Gerard}, {Vlad Tepes}, {Winterlich}.
+    [[LSJ 20071109]](https://usenet.krcg.org/t/mXspOwNnPDc/) — group "Impersonating requirements to play cards"
+    (G00073), {Mata Hari}, {Vidal Jarbeaux}, {Vlad Tepes}.
 
 [^1-6-28]: [[PIB 20150306]](https://www.vekn.net/forum/rules-questions/69627-vlad-tepes-regent?start=12#69696) — {Vlad
     Tepes}.
@@ -4216,6 +4228,10 @@ exemplar cards.
 [^1-8-14]: [[LSJ 20030224]](https://usenet.krcg.org/t/67261v339Ds/#m5) [[LSJ
     20100206]](https://usenet.krcg.org/t/cAGrXqpO-YQ/#m1) — group "Cancel" (G00058), {Asguresh}.
 
+[^1-8-20]: [[LSJ 20091021-2]](https://usenet.krcg.org/t/x5oG5J7Egtg/#m7) [[ANK
+    20200710]](https://www.vekn.net/forum/rules-questions/77985-vidal-jarbeaux-ability#100333) — {Nergal}, {Vidal
+    Jarbeaux}.
+
 [^1-8-15]: [[RTR 20040501]](https://usenet.krcg.org/t/7-mp3Ada86I/#m0) [[LSJ
     20100206]](https://usenet.krcg.org/t/cAGrXqpO-YQ/#m1) [[RBK
     cancel-a-card]](https://www.vekn.net/rulebook#cancel-a-card) — {Primal Instincts}, {Death Seeker}, {Asguresh}.
@@ -4228,10 +4244,6 @@ exemplar cards.
 
 [^1-8-17]: [[ANK 20200311]](https://www.vekn.net/forum/rules-questions/78506-target-retainer-cancelled#99256) — {Target
     Retainer}.
-
-[^1-8-20]: [[LSJ 20091021-2]](https://usenet.krcg.org/t/x5oG5J7Egtg/#m7) [[ANK
-    20200710]](https://www.vekn.net/forum/rules-questions/77985-vidal-jarbeaux-ability#100333) — {Nergal}, {Vidal
-    Jarbeaux}.
 
 [^1-9-1]: [[ANK
     20181208]](https://www.vekn.net/forum/rules-questions/77210-touch-of-clarity-and-fast-reaction-is-posible-to-play-with-locked-minion?start=6#92308)
@@ -4473,7 +4485,7 @@ exemplar cards.
     Segregation}, {Betrayer}.
 
 [^1-15-2]: [[LSJ 20020904]](https://usenet.krcg.org/t/Qmi4hFk6QqE/#m2) [[LSJ
-    20010819]](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/2dXfHhG98Rs/m/RMqiA8RXDncJ) [[PIB
+    20010819]](https://usenet.krcg.org/t/2dXfHhG98Rs/#m2) [[PIB
     20130723]](https://www.vekn.net/forum/rules-questions/52017-legacy-of-pander#52055) [[PIB
     20130303]](https://www.vekn.net/forum/rules-questions/45620-rock-cat-vs-torn-signpost#45626) [[LSJ
     20100813]](https://usenet.krcg.org/t/nOb3cmvA_3U/#m1) [[LSJ 20051204]](https://usenet.krcg.org/t/K-RE-nTJ_Cg/#m4)
@@ -4515,6 +4527,10 @@ exemplar cards.
     summary-of-the-course-of-an-action]](https://www.vekn.net/rulebook#summary-of-the-course-of-an-action) — {Blanket of
     Night}, {Siren's Lure}, {Veil the Legions}, {Empowering the Puppet King}, {Inspire Greatness}, {Spiridonas}.
 
+[^2-1-9]: [[LSJ 19990425]](https://usenet.krcg.org/t/Mmfn07ib6Yw/#m1) [[ANK
+    20200515]](https://www.vekn.net/forum/rules-questions/78634-blanket-of-night#99838) — {Blanket of Night}, {Cloak the
+    Gathering}, {Hidden Lurker}, {Zapaderin}.
+
 [^2-1-3]: [[ANK 20181101]](https://www.vekn.net/forum/rules-questions/77132-save-face#91633) [[LSJ
     20070403]](https://usenet.krcg.org/t/TJ2ktt_1tjk/#m9) [[LSJ 20070413]](https://usenet.krcg.org/t/umdINigMKqs/#m19) —
     {Bliss}, {Hide}, {Surge}, {Vigilance}.
@@ -4525,6 +4541,9 @@ exemplar cards.
     20001111]](https://usenet.krcg.org/t/m23Hj3OW2A4/#m1) [[PIB
     20121031]](https://www.vekn.net/forum/rules-questions/39816-ec-2012-can-you-answer-these?start=30#40179) —
     {Heidelberg Castle, Germany}, {Baltimore Purge}, {Temptation}, {Vagabond Mystic}, {The Coven}.
+
+[^2-1-8]: [[ANK 20250121]](https://www.vekn.net/forum/rules-questions/79080-nightmares-upon-nightmares?start=6#113567)
+    — {Nightmares upon Nightmares}, {Arika}.
 
 [^2-1-5]: [[ANK
     20210608]](https://www.vekn.net/forum/rules-questions/79166-correct-time-to-use-heidelberg-castle-germany-for-non-acting-player?start=12#102425)
@@ -4544,13 +4563,6 @@ exemplar cards.
 [^2-1-7]: [[LSJ 19980105]](https://usenet.krcg.org/t/PzVC-AeFuUQ/#m1) [[LSJ
     20090205]](https://usenet.krcg.org/t/l5bUtHOejmc/#m2) — {Deflection}, {Redirection}, {Lost in Translation}, {My
     Enemy's Enemy}, {Major Boon}.
-
-[^2-1-8]: [[ANK 20250121]](https://www.vekn.net/forum/rules-questions/79080-nightmares-upon-nightmares?start=6#113567)
-    — {Nightmares upon Nightmares}, {Arika}.
-
-[^2-1-9]: [[LSJ 19990425]](https://usenet.krcg.org/t/Mmfn07ib6Yw/#m1) [[ANK
-    20200515]](https://www.vekn.net/forum/rules-questions/78634-blanket-of-night#99838) — {Blanket of Night}, {Cloak the
-    Gathering}, {Hidden Lurker}, {Zapaderin}.
 
 [^2-2-1]: [[ANK
     20190425]](https://www.vekn.net/forum/rules-questions/77581-action-modifiers-played-at-beginning-and-end-of-an-action#94652)
@@ -4580,7 +4592,7 @@ exemplar cards.
     20190425]](https://www.vekn.net/forum/rules-questions/77581-action-modifiers-played-at-beginning-and-end-of-an-action#94652)
     — {Capitalist}, {Cavalier}, {Perfectionist}, {Scrying of Secrets}, {Truth of a Thousand Lies}, {Vigilance}.
 
-[^2-3-3]: [[LSJ 20110502]](https://boardgamegeek.com/thread/648695/article/6701545) [[LSJ
+[^2-3-3]: [[LSJ 20110502]](https://usenet.krcg.org/t/bgg-648695/#m1) [[LSJ
     19980105]](https://usenet.krcg.org/t/PzVC-AeFuUQ/#m1) — {Spying Mission}.
 
 [^2-3-4]: [[LSJ 20041022]](https://usenet.krcg.org/t/gqhND6kd2wE/#m3) [[RTR
@@ -4591,7 +4603,7 @@ exemplar cards.
     Heart}, {Malkavian Derangement: Alternate Personality}, {Purification}, {Scobax}. [[LSJ
     20010803-1]](https://usenet.krcg.org/t/5QuGIF5ERUI/#m1) [[ANK
     20200207]](https://www.vekn.net/forum/rules-questions/78423-mental-maze-and-obedience#98906) — {Change of Target},
-    {Claiming the Body}, {The Kiss of Ra}.
+    group "Action ended by an effect" (G00166).
 
 [^2-3-5]: [[LSJ 19981028]](https://usenet.krcg.org/t/JZHY1bTCAa0/#m1) [[LSJ
     20100206-2]](https://usenet.krcg.org/t/reXyybyIYX8/#m1) — {Momentary Delay}.
@@ -4621,16 +4633,12 @@ exemplar cards.
     20221130]](https://www.vekn.net/forum/rules-questions/80176-cats-guidance-before-psyche-combat?start=0#106906) —
     {Cats' Guidance}.
 
+[^2-3-14]: [[ANK 20250716]](https://www.vekn.net/forum/rules-questions/82396-queued-combats?start=12#114968) — {Cats'
+    Guidance}.
+
 [^2-3-11]: [[ANK 20200221]](https://www.vekn.net/forum/rules-questions/78458-strix-daring-the-dawn-and-much-more#99036)
     — {Strix}. [[LSJ 20060426]](https://usenet.krcg.org/t/4e6z1_JWIzA/#m1) — {High Aye}. [[LSJ
     20031112]](https://usenet.krcg.org/t/NW4HWUWlzDI/#m13) — {The Art of Memory}.
-
-[^2-3-12]: [[LSJ 20100112]](https://usenet.krcg.org/t/SJu0kgw_2tE/#m1) [[PIB
-    20121028]](https://www.vekn.net/forum/rules-questions/39816-ec-2012-can-you-answer-these?start=6#39843) — {Abactor}.
-    [[LSJ 20090722-2]](https://usenet.krcg.org/t/Ry0xU4IuJmQ/#m1) [[LSJ
-    20030618]](https://usenet.krcg.org/t/AdfUNNicx-Y/#m16) — {Heidelberg Castle, Germany}. [[ANK
-    20201228]](https://www.vekn.net/forum/rules-questions/78956-timing-of-blood-hunt-following-amaranth#101316) —
-    {Ritual of the Bitter Rose}. [[LSJ 20090115-2]](https://usenet.krcg.org/t/rSaiVPMbpvY/#m0) — {Guru}.
 
 [^2-3-13]: [[LSJ 19991025]](https://usenet.krcg.org/t/R94tyTGJ6VQ/#m0) [[LSJ
     20030530]](https://usenet.krcg.org/t/SZehI8SwAc4/#m21) [[ANK
@@ -4638,8 +4646,12 @@ exemplar cards.
     [[ANK 20250613]](https://www.vekn.net/forum/rules-questions/82396-queued-combats#114683) — {Cats' Guidance},
     {Hedonism}, {Psyche!}.
 
-[^2-3-14]: [[ANK 20250716]](https://www.vekn.net/forum/rules-questions/82396-queued-combats?start=12#114968) — {Cats'
-    Guidance}.
+[^2-3-12]: [[LSJ 20100112]](https://usenet.krcg.org/t/SJu0kgw_2tE/#m1) [[PIB
+    20121028]](https://www.vekn.net/forum/rules-questions/39816-ec-2012-can-you-answer-these?start=6#39843) — {Abactor}.
+    [[LSJ 20090722-2]](https://usenet.krcg.org/t/Ry0xU4IuJmQ/#m1) [[LSJ
+    20030618]](https://usenet.krcg.org/t/AdfUNNicx-Y/#m16) — {Heidelberg Castle, Germany}. [[ANK
+    20201228]](https://www.vekn.net/forum/rules-questions/78956-timing-of-blood-hunt-following-amaranth#101316) —
+    {Ritual of the Bitter Rose}. [[LSJ 20090115-2]](https://usenet.krcg.org/t/rSaiVPMbpvY/#m0) — {Guru}.
 
 [^2-4-1]: [[ANK
     20180206]](https://www.vekn.net/forum/rules-questions/76404-timing-of-shemti-s-special-and-ecstasy#85223) [[LSJ
@@ -4690,6 +4702,8 @@ exemplar cards.
     20210110]](https://www.vekn.net/forum/rules-questions/78984-first-tradition-the-masquerade-goes-first?start=6#101413)
     — {Jenna Cross}, {Judgment: Camarilla Segregation}, {Khobar Towers, Al-Khubar}, {First Tradition: The Masquerade}.
 
+[^2-4-26]: [[LSJ 20090208-2]](https://usenet.krcg.org/t/kz7qCu53zvI/#m1) — {Tension in the Ranks}.
+
 [^2-4-12]: [[LSJ 20100203]](https://usenet.krcg.org/t/HQD-UNP7Y0s/#m2) [[ANK
     20200905]](https://www.vekn.net/forum/rules-questions/78836-visit-from-the-capuchin-vs-steelytenacity#100698) [[ANK
     20220503]](https://www.vekn.net/forum/rules-questions/39040-re-ex-nihilo-can-i-choose-to-burn-my-minion#105161)
@@ -4709,8 +4723,8 @@ exemplar cards.
     20220116]](https://www.vekn.net/forum/rules-questions/79600-unleash-hell-s-fury-and-other-delayed-triggered-effects#104488)
     [[ANK
     20190524]](https://www.vekn.net/forum/rules-questions/77659-venenation-change-of-target-and-psychomachia#95070)
-    [[LSJ 20020126]](https://usenet.krcg.org/t/Fhm2Zi2RZRU/#m1) — {Unleash Hell's Fury}, {Millicent Smith, Puritan
-    Vampire Hunter}, {Mirror Walk}, {Banshee Ironwail}, {Venenation}.
+    [[LSJ 20020126]](https://usenet.krcg.org/t/Fhm2Zi2RZRU/#m1) — group "Triggered by block" (G00105), {Unleash Hell's
+    Fury}, {Millicent Smith, Puritan Vampire Hunter}, {Banshee Ironwail}, {Venenation}.
 
 [^2-4-20]: [[ANK
     20200629-2]](https://www.vekn.net/forum/rules-questions/78701-replace-during-unlock-and-other-unlock-effects#100210)
@@ -4718,7 +4732,7 @@ exemplar cards.
     19951017]](https://usenet.krcg.org/t/ouhNUbHYg50/#m2) — group "Replace next turn" (G00025); {Port Authority},
     {Malkavian Dementia}.
 
-[^2-4-21]: [[LSJ 20010121]](https://boardgamegeek.com/thread/609699/article/6142361#6142361) [[ANK
+[^2-4-21]: [[LSJ 20110121]](https://usenet.krcg.org/t/bgg-609699/#m1) [[ANK
     20200508-1]](https://www.vekn.net/forum/rules-questions/78622-scourge-of-the-enochians-timing?start=12#99786) —
     {Fame}, {Scourge of the Enochians}.
 
@@ -4878,6 +4892,11 @@ exemplar cards.
     20090324]](https://usenet.krcg.org/t/Zc_ogoVhsug/#m8) [[LSJ 20030214-2]](https://usenet.krcg.org/t/nU7PaMBymtY/#m5)
     — {Abbot}, {Detect Authority}, {Ambrosio Luis Monçada, Plenipotentiary}, {Evan Klein}.
 
+[^3-1-20]: [[LSJ 20010925]](https://usenet.krcg.org/t/rZcOI3IZOJw/#m2) [[LSJ
+    20100713]](https://usenet.krcg.org/t/sWt7HVuu4Hs/#m3) [[PIB
+    20121230]](https://www.vekn.net/forum/rules-questions/43471-petra-resonance-is-a-d-action-right?start=0#43477) —
+    group "Action directed at all methuselah" (G00165).
+
 [^3-1-17]: [[LSJ 20010627]](https://usenet.krcg.org/t/NhNCVCCDyU0/#m5) [[ANK
     20221019-3]](https://www.vekn.net/forum/rules-questions/21158-re-secure-haven-banishment?start=6#106615) — {Daemonic
     Possession}, {The Eternal Mask}, {Ghost-Eater}, {Khazar's Diary (Endless Night)}, {Pressing Flesh}, {Banishment}.
@@ -4886,8 +4905,8 @@ exemplar cards.
     20080808]](https://usenet.krcg.org/t/1jW6GXrIRSU/#m0) [[RTR
     20081119]](https://www.vekn.net/card-lists/140-keepers-of-tradition) [[ANK
     20180917]](https://www.vekn.net/forum/rules-questions/77011-condemn-the-sins-of-the-father#90639) [[LSJ
-    20080809-1]](https://usenet.krcg.org/t/1jW6GXrIRSU/#m7) — {Sowing Dissension}, {Condemn the Sins of the Father},
-    {Shepherd's Innocence}, {Wave of Insanity}.
+    20080809-1]](https://usenet.krcg.org/t/1jW6GXrIRSU/#m7) — group "Action directed at all methuselah" (G00165),
+    {Condemn the Sins of the Father}, {Shepherd's Innocence}, {Wave of Insanity}.
 
 [^3-1-19]: [[LSJ 20080809-2]](https://usenet.krcg.org/t/1jW6GXrIRSU/#m2) [[RTR
     20081119]](https://www.vekn.net/card-lists/140-keepers-of-tradition) [[RTR
@@ -4973,7 +4992,7 @@ exemplar cards.
     sequencing]](https://www.vekn.net/rulebook#sequencing) — {Hide the Heart}, {Draba}, {Netwar}, {Folderol}.
 
 [^3-3-8]: [[LSJ 20000507]](https://usenet.krcg.org/t/6-sMg4Wo7KE/#m3) [[LSJ
-    20070203]](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/37EYK3FA30k/m/QynliahgIzQJ) [[ANK
+    20070203]](https://usenet.krcg.org/t/37EYK3FA30k/#m2) [[ANK
     20211003]](https://www.vekn.net/forum/rules-questions/79372-fail-to-block-and-telepathic-misdirection#103416) —
     {Archon Investigation}, {Aksinya Daclau}, {Lost in Translation}, group "Change the target of a bleed" (G00106).
 
@@ -4981,8 +5000,7 @@ exemplar cards.
     Argus}, {Forced Awakening}.
 
 [^3-3-10]: [[LSJ 20081202]](https://usenet.krcg.org/t/GMxeDWiDXP8/#m3) [[LSJ
-    19990106]](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/tJR6Hw6CmBQ/m/1Jgm5AT7rNMJ) — {Faceless
-    Night}, {Mask of a Thousand Faces}.
+    19990106]](https://usenet.krcg.org/t/tJR6Hw6CmBQ/#m1) — {Faceless Night}, {Mask of a Thousand Faces}.
 
 [^3-3-11]: [[LSJ 20031121-2]](https://usenet.krcg.org/t/1khXmKPU0ws/#m31) — {Tenebrous Form}.
 
@@ -5039,6 +5057,10 @@ exemplar cards.
     {Ambush}, {Harass}, {Spirit Marionette}, {Warsaw Station}, {Temptation}, and the further cards carrying the same
     three templates.
 
+[^3-4-16]: [[RTR 19960221]](https://usenet.krcg.org/t/UdU535eVm0Y/#m0) [[LSJ
+    20020926]](https://usenet.krcg.org/t/C7vgb-0Mcbo/#m1) — {Bomb}, {Camera Phone}, {Chalice of Kinship}, {Guarded
+    Rubrics}, {Jar of Skin Eaters}, {Karavalanisha Vrana}.
+
 [^3-4-3]: [[LSJ 20090514]](https://usenet.krcg.org/t/PKQ6lQUBUOI/#m1) — {Coterie Tactics}, {Eternal Vigilance}, {Guard
     Duty}, {Ambush}.
 
@@ -5080,7 +5102,7 @@ exemplar cards.
 [^3-4-12]: [[ANK 20200221]](https://www.vekn.net/forum/rules-questions/78458-strix-daring-the-dawn-and-much-more#99036)
     — {Strix}.
 
-[^3-4-13]: [[LSJ 20110502]](https://boardgamegeek.com/thread/648695/article/6701545) [[LSJ
+[^3-4-13]: [[LSJ 20110502]](https://usenet.krcg.org/t/bgg-648695/#m1) [[LSJ
     20081123]](https://usenet.krcg.org/t/_Pb29pBJ1kU/#m2) [[LSJ 20050422]](https://usenet.krcg.org/t/nJPfMOuTBtw/#m3)
     [[LSJ 20090205]](https://usenet.krcg.org/t/l5bUtHOejmc/#m2) — {Spying Mission}, {Andre LeRoux}, {Dis Pater}, {Major
     Boon}.
@@ -5093,16 +5115,12 @@ exemplar cards.
 [^3-4-15]: [[PIB 20150612]](https://www.vekn.net/forum/rules-questions/71660-andre-leroux-spying-mission#71685) — {Andre
     LeRoux}.
 
-[^3-4-16]: [[RTR 19960221]](https://usenet.krcg.org/t/UdU535eVm0Y/#m0) [[LSJ
-    20020926]](https://usenet.krcg.org/t/C7vgb-0Mcbo/#m1) — {Bomb}, {Camera Phone}, {Chalice of Kinship}, {Guarded
-    Rubrics}, {Jar of Skin Eaters}, {Karavalanisha Vrana}.
-
 [^3-5-1]: [[RTR 20180719]](https://www.blackchantry.com/2018/07/18/rules-team-rulings-rtr-19-07-2018/) [[ANK
     20211015]](https://www.vekn.net/forum/rules-questions/79389-when-does-nra-apply-not-apply?start=6#103563) [[LSJ
     20070709]](https://usenet.krcg.org/t/qKrJPLXBFFw/#m2) [[RTR 20020501]](https://usenet.krcg.org/t/M1snoR2msbQ/#m0)
     [[ANK
     20221011-2]](https://www.vekn.net/forum/rules-questions/79984-force-of-wil-and-daring-the-dawn-vs-red-herring#106538)
-    [[LSJ 20011202-2]](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/qnVBhys6loo/m/5IuE9b3iTyoJ) [[LSJ
+    [[LSJ 20011202-2]](https://usenet.krcg.org/t/qnVBhys6loo/#m4) [[LSJ
     20091224]](https://usenet.krcg.org/t/AV34Lb49JlE/#m3) [[LSJ 20070214-2]](https://usenet.krcg.org/t/C_QjWH6VIh4/#m1)
     — {Change of Target}, {Champion}, {Krassimir}, {Obedience}, {Red Herring}, {Secret Passage}, {Black Forest Base},
     and sixteen further cards carrying the identical "has reached resolution" template.
@@ -5165,14 +5183,12 @@ exemplar cards.
 [^3-5-13]: [[RTR 20180719]](https://www.blackchantry.com/2018/07/18/rules-team-rulings-rtr-19-07-2018/) [[ANK
     20200207]](https://www.vekn.net/forum/rules-questions/78423-mental-maze-and-obedience#98906) [[LSJ
     20010803-1]](https://usenet.krcg.org/t/5QuGIF5ERUI/#m1) [[ANK
-    20170105]](https://www.vekn.net/forum/rules-questions/75512-raptor-obedience#80020) [[ANK
     20210627]](https://www.vekn.net/forum/rules-questions/79192-mirror-walk-and-slave?start=12#102578) [[ANK
     20211207]](https://www.vekn.net/forum/rules-questions/79528-crypt-s-sons-versus-unleash-hell-s-fury?start=6#104139)
     [[ANK
     20220116]](https://www.vekn.net/forum/rules-questions/79600-unleash-hell-s-fury-and-other-delayed-triggered-effects#104488)
-    [[TOM 19960303]](https://usenet.krcg.org/t/SEU6ztVpR94/#m2) — {Mirror Walk}, {Tangle Atropos' Hand}, {Change of
-    Target}, {Obedience}, {The Kiss of Ra}, {Spying Mission}, and eleven further cards carrying the identical "ends
-    unsuccessfully immediately" template.
+    [[TOM 19960303]](https://usenet.krcg.org/t/SEU6ztVpR94/#m2) — group "Action ended by an effect" (G00166), {Tangle
+    Atropos' Hand}, {Change of Target}, group "Triggered by block" (G00105), {Banshee Ironwail}, {Telepathic Counter}.
 
 [^3-5-14]: [[LSJ 20010806-2]](https://usenet.krcg.org/t/5QuGIF5ERUI/#m3) [[TOM
     19950829]](https://usenet.krcg.org/t/iVm2VboVp6Q/#m7) — {Blood Brother Ambush}, {Brujah Frenzy}.
@@ -5206,8 +5222,8 @@ exemplar cards.
     [[ANK 20211015]](https://www.vekn.net/forum/rules-questions/79389-when-does-nra-apply-not-apply?start=6#103563)
     [[RTR 19980623]](https://usenet.krcg.org/t/tSpd9dtTElc/#m0) — {Daring the Dawn}, {Force of Will}.
 
-[^3-5-20]: [[LSJ 20110419]](https://boardgamegeek.com/thread/643948) — {Crocodile's Tongue} (ruling removed from the
-    database in 2024; original at boardgamegeek.com thread 643948, database wording relied on).
+[^3-5-20]: [[LSJ 20110419]](https://usenet.krcg.org/t/bgg-643948/#m4) — {Crocodile's Tongue} (ruling removed from the
+    database in 2024; original verified at source).
 
 [^3-5-28]: Owner's reading, no official ruling: [[rules-qa
     30.1]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-30--reactions-and-action-modifiers-wave-2)
@@ -5368,6 +5384,14 @@ exemplar cards.
     9.2]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-9--equipment) — {Flaming
     Candle}.
 
+[^3-7-3-9]: [[ANK
+    20180719-3]](https://www.vekn.net/forum/rules-questions/76834-moving-equipment-with-requirements#89044) — group
+    "Clan equipment" (G00013).
+
+[^3-7-3-11]: Owner's reading, no official ruling: [[rules-qa
+    9.1]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-9--equipment) — {Treasured
+    Samadji}.
+
 [^3-7-3-6]: [[LSJ 20060222]](https://usenet.krcg.org/t/Gv-gf5sAJxM/#m2) [[ANK
     20170326]](https://www.vekn.net/forum/rules-questions/75635-transferring-weapons-and-gift-of-bellona#81215) —
     {Unlicensed Taxicab}, {Gift of Bellona}.
@@ -5376,14 +5400,6 @@ exemplar cards.
     20010210]](https://usenet.krcg.org/t/NtMa5w_NVOE/#m21) [[LSJ 19980206]](https://usenet.krcg.org/t/p_uyqQgE9Ms/#m1)
     [[TOM 19950407]](https://usenet.krcg.org/t/FWVnIu3zLAQ/#m5) — {Beast, The Leatherface of Detroit}, {Enkidu, The
     Noah}, {Howler}, {Lucian}, {Vast Wealth}.
-
-[^3-7-3-9]: [[ANK
-    20180719-3]](https://www.vekn.net/forum/rules-questions/76834-moving-equipment-with-requirements#89044) — group
-    "Clan equipment" (G00013).
-
-[^3-7-3-11]: Owner's reading, no official ruling: [[rules-qa
-    9.1]](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-9--equipment) — {Treasured
-    Samadji}.
 
 [^3-7-4-1]: [[LSJ 20100303]](https://usenet.krcg.org/t/jmmm0WRUPvs/#m4) [[ANK
     20180817]](https://www.vekn.net/forum/rules-questions/76933-cock-robin-jack-of-both-sides#90064) [[LSJ
@@ -5467,8 +5483,8 @@ exemplar cards.
     Cargill}, {Lutz von Hohenzollern}, {Armin Brenner}.
 
 [^3-7-5-14]: [[LSJ 19980107]](https://usenet.krcg.org/t/aUUs4VCR_Ec/#m1) [[PIB
-    20150105]](https://www.vekn.net/forum/rules-questions/68465-voting-is-complicated#68493) — group "Vote change"
-    (G00022), {Charming Lobby}, {Cryptic Rider}, {Distant Friend}, {Quicksilver Contemplation}.
+    20150105]](https://www.vekn.net/forum/rules-questions/68465-voting-is-complicated#68493) — group "Usable during the
+    polling step" (G00022), {Charming Lobby}, {Cryptic Rider}, {Distant Friend}, {Quicksilver Contemplation}.
 
 [^3-7-5-15]: [[PIB 20150105]](https://www.vekn.net/forum/rules-questions/68465-voting-is-complicated#68493) [[LSJ
     19980107]](https://usenet.krcg.org/t/aUUs4VCR_Ec/#m1) — {Voter Captivation}, {Cryptic Rider}.
@@ -5738,7 +5754,7 @@ exemplar cards.
 
 [^4-2-5]: [[ANK
     20170930]](https://www.vekn.net/forum/rules-questions/76197-still-confused-about-multiple-outside-the-hourglasses#83682)
-    — {Outside the Hourglass}, {Weather Control}.
+    — group "Damage before range is determined" (G00164), {Weather Control}.
 
 [^4-2-10]: [[ANK 20210422]](https://www.vekn.net/forum/rules-questions/79111-vampiric-disease-and-dodge#102098) [[LSJ
     20040830]](https://usenet.krcg.org/t/KHMhiNiSKo4/#m14) [[ANK
@@ -5761,6 +5777,13 @@ exemplar cards.
     {Blessed Blade}, {Projectile}.
 
 [^4-3-2]: [[ANK
+    20210928-2]](https://www.vekn.net/forum/rules-questions/79330-thoughts-betrayed-and-hunger-of-marduk?start=12#103364)
+    — {Thoughts Betrayed}.
+
+[^4-3-19]: [[LSJ 20090529]](https://usenet.krcg.org/t/LpFSLRuWONA/#m6) — {Jann Berger}, group "Adding costs to a strike
+    or strike card" (G00074).
+
+[^4-3-20]: [[ANK
     20210928-2]](https://www.vekn.net/forum/rules-questions/79330-thoughts-betrayed-and-hunger-of-marduk?start=12#103364)
     — {Thoughts Betrayed}.
 
@@ -5791,6 +5814,9 @@ exemplar cards.
     — groups "Weapon with optional maneuver" (G00024) and "Cannot strike" (G00093), {Hidden Lurker}, {Deer Rifle},
     {Lapse}, {Projectile}.
 
+[^4-3-21]: [[TOM 19960521]](https://usenet.krcg.org/t/poYD3n0TKGo/#m4) — group "Optional press" (G00096); as previously
+    recorded for member {Dust to Dust}, the ruling covered its optional maneuver as well.
+
 [^4-3-9]: [[RBK cancel-a-card]](https://www.vekn.net/rulebook#cancel-a-card) [[LSJ
     20090818]](https://usenet.krcg.org/t/jkKBGVLmFHc/#m1) [[LSJ 20100206]](https://usenet.krcg.org/t/cAGrXqpO-YQ/#m1)
     [[RTR 20040501]](https://usenet.krcg.org/t/7-mp3Ada86I/#m0) [[LSJ
@@ -5818,6 +5844,9 @@ exemplar cards.
     19980928]](https://usenet.krcg.org/t/Xva4_IRavxM/#m0) — {Target Vitals}, {Target Head}, {Talith}, {Dam the Heart's
     River}, group "Damage after combat ends" (G00091).
 
+[^4-3-18]: [[ANK 20171225]](https://www.vekn.net/forum/rules-questions/76349-shoulder-drop?start=0#84655) [[RBK
+    combat]](https://www.vekn.net/rulebook#combat) — {Shoulder Drop}, {Coordinate Attacks}.
+
 [^4-3-13]: [[LSJ 20040928]](https://usenet.krcg.org/t/GBcR6aNjIk4/#m1) [[ANK
     20170519]](https://www.vekn.net/forum/rules-questions/75805-blood-fury-vs-ivory-bow-roetschreck#81933) — {Soul
     Burn}, {Blood Fury}.
@@ -5831,19 +5860,6 @@ exemplar cards.
     20080210]](https://usenet.krcg.org/t/nL-xqiydvYg/#m1) [[RTR 19941109]](https://usenet.krcg.org/t/_6CXoKTSLnw/#m0)
     [[RBK additional-strikes]](https://www.vekn.net/rulebook#additional-strikes) — {Quickness}, {Ghoul Retainer}, group
     "Retainer that strike" (G00029).
-
-[^4-3-18]: [[ANK 20171225]](https://www.vekn.net/forum/rules-questions/76349-shoulder-drop?start=0#84655) [[RBK
-    combat]](https://www.vekn.net/rulebook#combat) — {Shoulder Drop}, {Coordinate Attacks}.
-
-[^4-3-19]: [[LSJ 20090529]](https://usenet.krcg.org/t/LpFSLRuWONA/#m6) — {Jann Berger}, group "Adding costs to a strike
-    or strike card" (G00074).
-
-[^4-3-20]: [[ANK
-    20210928-2]](https://www.vekn.net/forum/rules-questions/79330-thoughts-betrayed-and-hunger-of-marduk?start=12#103364)
-    — {Thoughts Betrayed}.
-
-[^4-3-21]: [[TOM 19960521]](https://usenet.krcg.org/t/poYD3n0TKGo/#m4) — group "Optional press" (G00096); as previously
-    recorded for member {Dust to Dust}, the ruling covered its optional maneuver as well.
 
 [^4-4-1]: [[LSJ 19971211-2]](https://usenet.krcg.org/t/2s5V_AIczYw/#m1) [[PIB
     20130303]](https://www.vekn.net/forum/rules-questions/45620-rock-cat-vs-torn-signpost#45626) [[LSJ
@@ -5977,9 +5993,8 @@ exemplar cards.
     — {Charnas the Imp}, group "Retainer doing damage" (G00016).
 
 [^4-5-20]: [[LSJ 20040802]](https://usenet.krcg.org/t/b6V_OGl-TgE/#m1) [[LSJ
-    20100519]](https://usenet.krcg.org/t/criytfhw97o/#m1) [[LSJ
-    19990106-2]](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/6dDhJmBlpXY/m/4b0RVRiwmXAJ) — {Improvised
-    Flamethrower}, {Weighted Walking Stick}, {Fleshcraft}, {Bonecraft}.
+    20100519]](https://usenet.krcg.org/t/criytfhw97o/#m1) [[LSJ 19990106-2]](https://usenet.krcg.org/t/6dDhJmBlpXY/#m0)
+    — {Improvised Flamethrower}, {Weighted Walking Stick}, {Fleshcraft}, {Bonecraft}.
 
 [^4-5-21]: [[LSJ 20090622-2]](https://usenet.krcg.org/t/1zt1SZb2TIk/#m1) — {Coma}, {Rowan Ring}, {Rabbat, The Sewer
     Goddess}, {Seren Sukardi}.
@@ -5995,8 +6010,7 @@ exemplar cards.
 [^4-6-2]: [[LSJ 20040928]](https://usenet.krcg.org/t/GBcR6aNjIk4/#m1) — {Blood Fury}, {Blood Rage}, {Personal Scourge},
     {Soul Burn}.
 
-[^4-6-3]: [[LSJ 19990106-2]](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/6dDhJmBlpXY/m/4b0RVRiwmXAJ) —
-    {Fleshcraft}, {Bonecraft}.
+[^4-6-3]: [[LSJ 19990106-2]](https://usenet.krcg.org/t/6dDhJmBlpXY/#m0) — {Fleshcraft}, {Bonecraft}.
 
 [^4-6-4]: [[RTR 19941109]](https://usenet.krcg.org/t/_6CXoKTSLnw/#m0) [[TOM
     19951216]](https://usenet.krcg.org/t/0G-jqB_fcyE/#m1) [[PIB
@@ -6057,9 +6071,8 @@ exemplar cards.
 
 [^4-7-6]: [[LSJ 20011005]](https://usenet.krcg.org/t/9fyH2X1YGAQ/#m1) [[ANK
     20211102]](https://www.vekn.net/forum/rules-questions/79447-rotschreck-and-dodge#103743) [[LSJ
-    19990217]](https://usenet.krcg.org/t/9Bsf2LC1274/#m1) [[LSJ
-    20020715]](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/-FBxPz-oms0/m/OV6b9Cc6nl4J) [[LSJ
-    20060803]](https://usenet.krcg.org/t/z8Nd8EFQsKc/#m1) — {Rötschreck}.
+    19990217]](https://usenet.krcg.org/t/9Bsf2LC1274/#m1) [[LSJ 20020715]](https://usenet.krcg.org/t/-FBxPz-oms0/#m1)
+    [[LSJ 20060803]](https://usenet.krcg.org/t/z8Nd8EFQsKc/#m1) — {Rötschreck}.
 
 [^4-7-7]: [[LSJ 20011210-1]](https://usenet.krcg.org/t/mUwzyHLcAx8/#m22) [[LSJ
     20011210-2]](https://usenet.krcg.org/t/mUwzyHLcAx8/#m6) [[LSJ
@@ -6133,6 +6146,11 @@ exemplar cards.
     20020501]](https://usenet.krcg.org/t/M1snoR2msbQ/#m0) [[LSJ 20030717]](https://usenet.krcg.org/t/IkMD8wfAcqw/#m1) —
     {Mummify}, {Meld with the Land}, {Bond with the Mountain}, {Earth Meld}, {Majesty}, {Loving Agony}.
 
+[^4-9-23]: [[RTR 20041202]](https://usenet.krcg.org/t/WUWh7AdooDU/#m5) [[LSJ
+    20060808]](https://usenet.krcg.org/t/ncZn3knH-Uo/#m1) [[LSJ 20040602]](https://usenet.krcg.org/t/bEvYg3Za-fc/#m3)
+    [[LSJ 20040601]](https://usenet.krcg.org/t/bEvYg3Za-fc/#m1) [[LSJ
+    20071009]](https://usenet.krcg.org/t/vSI2MhyB710/#m9) — {Flash Grenade}, {Earth Meld}, {Rötschreck}, {Loving Agony}.
+
 [^4-9-9]: [[RTR 20020501]](https://usenet.krcg.org/t/M1snoR2msbQ/#m0) [[LSJ
     20040602]](https://usenet.krcg.org/t/bEvYg3Za-fc/#m3) [[LSJ 20071009]](https://usenet.krcg.org/t/vSI2MhyB710/#m9)
     [[LSJ 20021126]](https://usenet.krcg.org/t/9Ui7pesvu5g/#m1) — {Smoke Grenade}, {Flash Grenade}, {Rötschreck},
@@ -6204,11 +6222,6 @@ exemplar cards.
     20020211]](https://usenet.krcg.org/t/ubqDaLeG3qo/#m2) [[LSJ 20021122]](https://usenet.krcg.org/t/LieFYA_gyFo/#m11) —
     {Undead Persistence}, {Ashes to Ashes}.
 
-[^4-9-23]: [[RTR 20041202]](https://usenet.krcg.org/t/WUWh7AdooDU/#m5) [[LSJ
-    20060808]](https://usenet.krcg.org/t/ncZn3knH-Uo/#m1) [[LSJ 20040602]](https://usenet.krcg.org/t/bEvYg3Za-fc/#m3)
-    [[LSJ 20040601]](https://usenet.krcg.org/t/bEvYg3Za-fc/#m1) [[LSJ
-    20071009]](https://usenet.krcg.org/t/vSI2MhyB710/#m9) — {Flash Grenade}, {Earth Meld}, {Rötschreck}, {Loving Agony}.
-
 [^4-10-1]: [[LSJ 19971215]](https://usenet.krcg.org/t/mfBmRrUKZQ0/#m8) [[LSJ
     20030213-2]](https://usenet.krcg.org/t/Jwj7VjhFU5o/#m4) [[LSJ 20050304]](https://usenet.krcg.org/t/X5JZBbSIj3U/#m2)
     — {Talbot's Chainsaw}, {Starshell Grenade Launcher}, {Banshee Ironwail}, {Sword of Judgment}, {Projectile}, {Jar of
@@ -6246,8 +6259,8 @@ exemplar cards.
 
 [^4-10-10]: [[LSJ 20010729]](https://usenet.krcg.org/t/RkvrP5tplXA/#m1) — {Soul Gem of Etrius}.
 
-[^4-10-11]: [[LSJ 20020425]](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/_Rh8P34zTZo/m/u-WavRjp5uYJ) —
-    group "Improve weapon before resolution" (G00050).
+[^4-10-11]: [[LSJ 20020425]](https://usenet.krcg.org/t/_Rh8P34zTZo/#m2) — group "Improve weapon before resolution"
+    (G00050).
 
 [^5-1-1]: [[RTR 19990712]](https://usenet.krcg.org/t/x5k5Vw_hkI0/#m0) [[LSJ
     20051103]](https://usenet.krcg.org/t/BD7KIWBI0Cs/#m1) — {Dual Form}.
@@ -6320,6 +6333,9 @@ exemplar cards.
 
 [^5-2-7]: [[LSJ 20080106]](https://usenet.krcg.org/t/q4s1P6ozsW8/#m1) — {Anarch Revolt}.
 
+[^5-2-30]: [[ANK 20250121]](https://www.vekn.net/forum/rules-questions/79080-nightmares-upon-nightmares?start=6#113567)
+    — {Arika}, {Nightmares upon Nightmares}.
+
 [^5-2-8]: [[PIB 20150111]](https://www.vekn.net/forum/rules-questions/68580-sensory-deprivation-ruling#68584) [[LSJ
     20031014]](https://usenet.krcg.org/t/J8eZuZCZJUY/#m1) [[ANK
     20180917]](https://www.vekn.net/forum/rules-questions/77011-condemn-the-sins-of-the-father#90639) [[LSJ
@@ -6380,9 +6396,6 @@ exemplar cards.
     20180517]](https://www.vekn.net/forum/rules-questions/76447-rules-team-rulings-rtr-03-03-2018?start=30#87041) —
     {Disarming Presence}, {Mobile HQ, Operation Antigen}, {Gianna di Canneto}.
 
-[^5-2-30]: [[ANK 20250121]](https://www.vekn.net/forum/rules-questions/79080-nightmares-upon-nightmares?start=6#113567)
-    — {Arika}, {Nightmares upon Nightmares}.
-
 [^5-3-1]: [[RTR 20010711]](https://usenet.krcg.org/t/GsI1UyH54jU/#m0) [[LSJ
     20040608]](https://usenet.krcg.org/t/p1uCHeAO7ak/#m1) [[LSJ 20030214]](https://usenet.krcg.org/t/A3U-Dy1yx8Y/#m1)
     [[LSJ 20020402]](https://usenet.krcg.org/t/eQCXHND3j5o/#m1) [[LSJ
@@ -6426,11 +6439,10 @@ exemplar cards.
 [^5-3-9]: [[PIB 20150720]](https://www.vekn.net/forum/rules-questions/72088-action-modifiers#72124) [[RTR
     19970306]](https://usenet.krcg.org/t/1dlmpgX6t14/#m0) — {Cats' Guidance}, {Make an Example}.
 
-[^5-3-10]: [[LSJ 19970325]](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/R-t138q8688/m/Zj1Y_jlq29AJ)
-    [[RTR 19950509]](https://usenet.krcg.org/t/_LKyR7pdMig/#m8) [[RTR
-    20010711]](https://usenet.krcg.org/t/GsI1UyH54jU/#m0) [[RTR 19970306]](https://usenet.krcg.org/t/1dlmpgX6t14/#m0)
-    [[RBK torpor]](https://www.vekn.net/rulebook#torpor) — {The Kiss of Ra}, {Madness Network}, {Blood Brother Ambush},
-    {Make an Example}.
+[^5-3-10]: [[LSJ 19970325]](https://usenet.krcg.org/t/R-t138q8688/#m3) [[RTR
+    19950509]](https://usenet.krcg.org/t/_LKyR7pdMig/#m8) [[RTR 20010711]](https://usenet.krcg.org/t/GsI1UyH54jU/#m0)
+    [[RTR 19970306]](https://usenet.krcg.org/t/1dlmpgX6t14/#m0) [[RBK torpor]](https://www.vekn.net/rulebook#torpor) —
+    {The Kiss of Ra}, {Madness Network}, {Blood Brother Ambush}, {Make an Example}.
 
 [^5-3-11]: [[RTR 19980623]](https://usenet.krcg.org/t/tSpd9dtTElc/#m0) [[LSJ
     20030130]](https://usenet.krcg.org/t/TUDO_4FwdyY/#m1) [[ANK
@@ -6455,8 +6467,8 @@ exemplar cards.
     20150522]](https://www.vekn.net/forum/rules-questions/71291-blood-doll-and-the-rack-clarity#71293) [[LSJ
     20010623]](https://usenet.krcg.org/t/GN5MqcCTOo8/#m1) — {Secure Haven}, {The Rack}.
 
-[^5-3-15]: [[LSJ 20010119]](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/XB0IvK7I6PQ/m/foA7igsB8EEJ)
-    [[RTR 19941109]](https://usenet.krcg.org/t/_6CXoKTSLnw/#m0) — {Puppet Master}, {Temptation}, {Uriah Winter}.
+[^5-3-15]: [[LSJ 20010119]](https://usenet.krcg.org/t/XB0IvK7I6PQ/#m2) [[RTR
+    19941109]](https://usenet.krcg.org/t/_6CXoKTSLnw/#m0) — {Puppet Master}, {Temptation}, {Uriah Winter}.
 
 [^5-3-16]: [[LSJ 20060409]](https://usenet.krcg.org/t/gsFQXsCGTG4/#m1) [[RTR
     19960112]](https://usenet.krcg.org/t/d3n3StNS7no/#m0) [[LSJ 20081016]](https://usenet.krcg.org/t/GizIs4K_HiY/#m2) —
@@ -6800,7 +6812,7 @@ exemplar cards.
     20121031's "must then be paid" is superseded on payment by [[ANK
     20210124]](https://www.vekn.net/forum/rules-questions/79001-the-question-of-the-month-action-fizzles#101492).
 
-[^6-2-4]: [[LSJ 20010119]](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/XB0IvK7I6PQ/m/foA7igsB8EEJ) [[RTR
+[^6-2-4]: [[LSJ 20010119]](https://usenet.krcg.org/t/XB0IvK7I6PQ/#m2) [[RTR
     20020501]](https://usenet.krcg.org/t/M1snoR2msbQ/#m0) [[LSJ 20030219]](https://usenet.krcg.org/t/ugfckv9DAbo/#m5)
     [[LSJ 20040526]](https://usenet.krcg.org/t/M3hDKK2JSWw/#m17) [[RTR
     20000501]](https://usenet.krcg.org/t/MKrA0hBXuaU/#m0) [[ANK
