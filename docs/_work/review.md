@@ -76,7 +76,7 @@ played" triggers and play counts?
 - owner-rulings.md B: a card played "not in the normal fashion" has still been played (equip, recruit, employ).
 - [LSJ 20060209](https://usenet.krcg.org/t/ZuOfZorIhhU/#m4) {Flaming Candle}: an effect can still "put it into play" if
   it is not an equip action (the cases are moves).
-- [ANK 20201229](https://www.vekn.net/forum/rules-questions/78959-louhi-and-piper#101325) G00131: under {Piper}-type
+- [ANK 20201229](https://usenet.krcg.org/t/vekn-78959/#m1) G00131: under {Piper}-type
   effects "the card is not 'played' by the minion".
 - [LSJ 20051116-2](https://usenet.krcg.org/t/5Bovsb8I6R0/#m1) {Abombwe}: requirements ignored "if the card is not played
   in the normal fashion (eg. diablerie or {Bima})".
@@ -100,10 +100,10 @@ Does the taken card's entry text ({Shilmulo Tarot}) apply again?
 - [RBK equip]: one Equip action, "when equipping from your hand" or "from another minion you control".
 - [LSJ 20060222](https://usenet.krcg.org/t/Gv-gf5sAJxM/#m2) {Unlicensed Taxicab}: its "action to equip" bonus applies to
   a take from a friendly minion; [ANK
-  20170326](https://www.vekn.net/forum/rules-questions/75635-transferring-weapons-and-gift-of-bellona#81215) {Gift of
+  20170326](https://usenet.krcg.org/t/vekn-75635/#m5) {Gift of
   Bellona}: "Can be used when fetching a weapon from another minion".
 - [ANK
-  20221103](https://www.vekn.net/forum/rules-questions/80131-can-a-flaming-candle-be-moved-by-a-heidelberg-castle-germany#106697)
+  20221103](https://usenet.krcg.org/t/vekn-80131/#m2)
   {Flaming Candle}: a take does not count against "played or equipped".
 - {Helicopter} [LSJ 20100119]: "comes locked if it is equipped, even in an non-standard fashion"; {Shilmulo Tarot} [LSJ
   20090506]: put in play, it gets no cards.
@@ -148,7 +148,7 @@ raise the groups' generalization upstream; not filed).
 {Camarilla's Iron Fist} ("Requires a titled Camarilla vampire")?
 
 **The record.** [ANK
-20250410](https://www.vekn.net/forum/rules-questions/82214-karl-schrekt-spoofing-a-justicar-title-to-play-camarilla-s-iron-fist#114177):
+20250410](https://usenet.krcg.org/t/vekn-82214/#m1):
 "No, because Camarilla's Iron Fist doesn't explictly require a Justicar … the requirement … is an open list". [LSJ
 20050128](https://usenet.krcg.org/t/HVy8iPUxNbI/#m48), on {Kemintiri} and {Closed Session}: "It requires a Justicar, and
 therefore a Camarilla (since you cannot be the former save that you are the latter)." The database (vtes-rulings
@@ -176,7 +176,7 @@ whose stealth depends on a random outcome ({Gathii})? If played, is the stealth 
 - [TOM 19951109](https://usenet.krcg.org/t/WhJj5K1Fa-0/#m10) {Bonding}: "[DOM] Cannot be used if you do not need the
   stealth" ("you would use the inferior form").
 - G00067 [ANK
-  20231031](https://www.vekn.net/forum/rules-questions/80911-can-you-use-gathii-s-and-or-boleslaw-s-abilities-when-you-dont-need-stealth#109706):
+  20231031](https://usenet.krcg.org/t/vekn-80911/#m4):
   "Can be used when stealth is not yet needed. Any stealth that would be gained is not gained".
 - [LSJ 20011214-2](https://usenet.krcg.org/t/TinQ8ywzIHU/#m1) {Repulsion}: a standing effect applies regardless.
 - Rulemonger R-012 (owner, 2026-07-20): "only a play whose whole effect is the unneeded one" is barred.
@@ -199,7 +199,7 @@ then not gained, e.g. {Gathii}" ([ANK 20231031], G00067).
 blood hunt referendum?
 
 **The record.** [ANK
-20201228](https://www.vekn.net/forum/rules-questions/78956-timing-of-blood-hunt-following-amaranth#101316): {Ritual of
+20201228](https://usenet.krcg.org/t/vekn-78956/#m1): {Ritual of
 the Bitter Rose}/{Slake the Thirst} "after handling steps 1 to 5 of the diablerie, and before the blood hunt referendum"
 — generic after-resolution cards not addressed. [RTR 19991206](https://usenet.krcg.org/t/N7iEmqgP9WU/#m0) {Taking the
 Skin: Minion}: before the blood hunt.
@@ -223,10 +223,10 @@ when its minion cannot pay the toll?
 **The record.**
 
 - [ANK
-  20260216](https://www.vekn.net/forum/rules-questions/82835-eagle-sight-cancelled-by-i-am-legion-while-tenebrous-form-is-in-play#116448):
+  20260216](https://usenet.krcg.org/t/vekn-82835/#m1):
   "Burning blood to attempt to block is part of the (additional) cost of playing Eagle's Sight. And I am Legion doesn't
   refund the cost." G00155 adds a Parijat example. [RBK cancel-a-card]: a canceled non-action card's cost is paid.
-- [ANK 20260317](https://www.vekn.net/forum/rules-questions/82837-parijat-special-order?start=6#116674) (upstream
+- [ANK 20260317](https://usenet.krcg.org/t/vekn-82837/#m7) (upstream
   record, not in the pinned database): "The cost is paid if the card is not cancelled and after the replacement card has
   been drawn"; #116656: "No, since you're not attempting to block". #116447: "If your library is empty, you cannot play
   Second Tradition." Neither post says it supersedes the other. {I am Legion} prints "(cost must be paid)".
@@ -292,7 +292,7 @@ attempts to block; the attempt under way fails ([rules-qa
 paid. The owner's rules-qa says the opposite.
 
 **The record.** [ANK
-20210124](https://www.vekn.net/forum/rules-questions/79001-the-question-of-the-month-action-fizzles#101492): "If the
+20210124](https://usenet.krcg.org/t/vekn-79001/#m2): "If the
 action fizzles because of 1/ or 2/, the action is not paid." [PIB 20121031] ({War Ghoul}, database wording, original not
 located): "must then be paid". Database paraphrases G00078–G00081, {Harass}, {Sleep of Reason}: "cost, if any, is paid"
 (upstream candidate, not filed).
@@ -314,7 +314,7 @@ the blood (to the bank) or keep it?
 **The record.** [LSJ 20010809-1](https://usenet.krcg.org/t/LB6Zg4bEggc/#m5), G00121 (original: exactly this case,
 "Yes"): "The blood stolen by this special hunt goes to the blood bank if it cannot be gained by the vampire." G00163
 "Cannot gain blood" ([ANK
-20221019-2](https://www.vekn.net/forum/rules-questions/80101-blood-moved-by-heidelberg-castle-is-considered-a-gain-for-ex-nihilo-purposes#106607),
+20221019-2](https://usenet.krcg.org/t/vekn-80101/#m2),
 database wording): "Any effect that gives a vampire more blood counts as gaining blood (… stealing blood with {Theft of
 Vitae} …) and the blood is moved to the blood bank instead"; the original confirms only the {Heidelberg Castle, Germany}
 case.
@@ -464,7 +464,7 @@ forced on him, the incoming title is lost, its card burned *(reading)*."
 before the oust (Boon offered after), or is the Boon played at that moment and the oust applied there and then?
 
 **The record.** [ANK
-20220210](https://www.vekn.net/forum/rules-questions/79644-timing-of-the-oust-pool-gain-vp-gain-and-life-boon#104665):
+20220210](https://usenet.krcg.org/t/vekn-79644/#m2):
 "If your pool goes down to 0, then you are ousted … you cannot slip something in between"; Life Boon is played "when the
 Methuselah is about to be ousted … but right before it happens". RTR 19970630 / ANK 20230817-2: the Boon covers the
 whole shortfall.

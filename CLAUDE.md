@@ -138,11 +138,11 @@ These were validated by the user; deviating from them is a regression.
   it (the {Annabelle Triabell} record, caught 2026-07-22, filed upstream as
   vtes-biased/vtes-rulings#11; the fizzle records G00078–G00081 against ANK 20210124,
   caught 2026-11-10). Verify against actual card text and, when it matters, the original
-  ruling: VEKN forum posts fetch fine, and newsgroup and BoardGameGeek posts are read
-  and cited from the archive at `usenet.krcg.org` (upstream no longer accepts Google
-  Groups links); the fallback is the VEKN rules archive (`vekn.net/history-of-vtes-rules`,
-  hosts the RTR compilations). The rulemonger's `canon.md` already holds provenanced extracts of the most
-  load-bearing rulings.
+  ruling, read and cited from the archive at `usenet.krcg.org` only (owner, 2026-11-11):
+  newsgroup `/t/<thread>/`, BoardGameGeek `/t/bgg-<id>/`, VEKN forum `/t/vekn-<thread>/`,
+  posts anchored `#mN`; the fallback is the VEKN rules archive
+  (`vekn.net/history-of-vtes-rules`, hosts the RTR compilations). The rulemonger's
+  `canon.md` already holds provenanced extracts of the most load-bearing rulings.
 - **Read the whole thread — Rules Directors correct themselves downthread.** LSJ
   20100604-1's later "My mistake. Neither can be used to enter combat with a non-ready
   minion." supersedes his first "Sure. Card text." answer on {Hidden Lurker}; reading

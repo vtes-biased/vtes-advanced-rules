@@ -32,9 +32,9 @@ Entry format:
   inverted-paraphrase claim (R-027(3)). An RD post's embedded images are part of the
   ruling: Ankha's "Queued combats" FAQ (#114683) flow chart settles what its text leaves
   contradictory; HTML-to-text drops it — grep the post for `<img` (2026-11-09).
-- **Archive first: usenet.krcg.org** (`/t/<thread>/#mN`, BGG as `/t/bgg-<id>/`).
-  Upstream refuses groups.google.com and BGG links (0e06daf, 2026-10); relink a phantom
-  by finding the RD's post in the archive copy (R-028).
+- **Cite only the archive, usenet.krcg.org** (`/t/<thread>/#mN`; BGG `/t/bgg-<id>/`;
+  VEKN forum `/t/vekn-<thread>/`) — owner, 2026-11-11. Upstream refuses Google Groups and
+  BGG links (0e06daf); relink a phantom by finding the RD's post in the archive (R-028).
 - **A wrong-citation finding requires a targeted `grep -A4 "|<Card>:"` coming back
   empty**, never a batch scan. Date IDs ([RTR 19951110]) are shared across unrelated
   cards, and a `head`-truncated batch produced a false wrong-citation on [^1-15-4]
@@ -164,7 +164,7 @@ controller, even on a master card another Methuselah controls ({Perfectionist},
 {Corporal Reservoir}); "you may" → the card's controller. Never the flat form. §1.1.1
 states it; §6.6.3/§6.2.5 align.
 **Sources:** [ANK 20210309-3] original,
-https://www.vekn.net/forum/rules-questions/79065-master-cards-attached-to-a-stolen-minion#101806
+https://usenet.krcg.org/t/vekn-79065/#m4
 (deleted upstream e13882a; restoration filed as vtes-rulings issue #8);
 [RBK important-terms-of-the-game]; {The Rack} + [ANK 20200130-2].
 **History:** 2026-07-21 — owner's first relayed wording (card's controller decides)
@@ -342,7 +342,7 @@ Conditional effects keep the end-of-phase check ({Anarch Revolt} [LSJ 20080106])
 §5.2.2 states both halves ([^5-2-30]); the general "resolved as a whole, and only once"
 doctrine is homed in §2.1.3 ([^2-1-8]). [ANK 20220503] is burn-choice freedom, not
 end-of-phase checking — cited at [^1-7-25], [^2-4-12], [^6-6-7], not [^5-2-7].
-**Sources:** https://www.vekn.net/forum/rules-questions/79080-nightmares-upon-nightmares?start=6#113567
+**Sources:** https://usenet.krcg.org/t/vekn-79080/#m7
 
 ### R-027 — Review-file answers  [SETTLED]
 **Position:** (1) **Diablerie blood hunt** — part of the action, not of its resolution;

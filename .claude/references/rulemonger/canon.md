@@ -89,7 +89,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [RTR 19941109] — Non-strike damage resolves despite dodge; retainer properties fix at employment; continued actions keep prior modifiers; tapping as a side effect is not a cost.
 **Filed under:** group "Environmental damage" (G00017); group "Retainer with discipline level" (G00018); group "Retainer that strike" (G00029); group "Action continue as if unblocked" (G00099) (+20 more records)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/d/msg/rec.games.deckmaster/_6CXoKTSLnw/FdG67-3HEAQJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/_6CXoKTSLnw/#m0), fetched 2026-07-22)
 **Status:** current
 
 > Form of Mist: "If the superior form is used to continue an action, then all action modifiers […] are still in effect."
@@ -102,7 +102,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [RTR 19950509] — Rulebook-provided actions are distinct when the chosen target differs; titles are not cards in play; {Madness Network} lets a torpid Malkavian act.
 **Filed under:** {Change of Target}; {Madness Network}; {Obedience}; {Red Herring} (+1 more records)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/_LKyR7pdMig/m/ZvwdGmIwUnsJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/_LKyR7pdMig/#m8), fetched 2026-07-22)
 **Status:** current
 
 > Q: Obedience says that the acting minion may not repeat the neutralized action later in the turn. What exactly counts as "the same action"?
@@ -114,7 +114,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [RTR 19951110] — Post-referendum pool gains come only after resolution, vote-punishing cards hit earlier voters too, and action modifiers carry over through {Mask of a Thousand Faces}.
 **Filed under:** group "Pool gain after referendum" (G00087); {Brujah Frenzy}; {Cheval de Bataille}; {Mask of a Thousand Faces} (+1 more records)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/TXfganI5B2o/m/QYh3AdPNbUwJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/TXfganI5B2o/#m0), fetched 2026-07-22)
 **Status:** current
 
 > "Brujah Frenzy should read 'choose a ready untapped minion'. If the only untapped minions available are vampires in torpor, Brujah Frenzy cannot be played."
@@ -131,7 +131,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [TOM 19951209] — A banished (uncontrolled) vampire keeps only blood and cards on it, and becomes controlled again once at or above capacity at influence-phase end.
 **Filed under:** {Banishment}; {Lay Low}
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/qP2j6CpBUDI/m/2qsG4E23bl4J), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/qP2j6CpBUDI/#m6), fetched 2026-07-22)
 **Status:** current for the return-to-play rule; the "loses all memory" stance was later reversed (RTR 20000501: banished vampires remember effects and titles).
 
 > Q: So, if someone was foolish enough to Banish a full vampire they would come right back into play... neato!!
@@ -144,7 +144,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [RTR 19960112] — Strike-modifying cards count only if played before strikes resolve; relocated location equipment goes to any minion of its new controller.
 **Filed under:** group "Locquipments" (G00047); group "Make strike aggravated" (G00112); {Bone Spur}; {Disputed Territory} (+6 more records)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/d3n3StNS7no/m/k2NmZFUl9fAJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/d3n3StNS7no/#m0), fetched 2026-07-22)
 **Status:** current
 
 > "Rules Team Rulings: 1/12/96"
@@ -163,7 +163,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [TOM 19960210] — Title-granted capacity is lost with the title; effects pointing at an uncontrolled vampire resume when it returns to play.
 **Filed under:** group "Title providing capacity" (G00038); {Banishment}; {Lay Low}
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/PiOmH08RyVw/m/CqzTRcOLDNIJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/PiOmH08RyVw/#m10), fetched 2026-07-22)
 **Status:** current — the quoted items stand; the thread's companion claim that banished vampires forget applied effects was later reversed (RTR 20000501).
 
 > Q: I have 2 Praxis Seizure: Paris […] and I had Delilah out (2 capacity). She had already been made Prince of Paris, and being Toreador, her capacity increased by one. I called the vote a second time later in the game, and I argued that her capacity did increase a second time […]
@@ -184,7 +184,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [TOM 19960226-1] — Taking control of a card already in play is not playing it; its requirements do not apply to the new controller.
 **Filed under:** {The Art of Love}, {The Book of Going Forth by Night}, {Disputed Territory}, {Far Mastery} (+11 more records)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/16y-ZD7Xats/m/oMeZDnSFdYAJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/16y-ZD7Xats/#m1), fetched 2026-07-22)
 **Status:** current
 
 > Q: can the superior version of far mastery be used to take over an ally(say, renegade garou)when I don't have any of
@@ -196,7 +196,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [TOM 19960521] — An optional press or maneuver from a combat card must be used during the current round or not at all.
 **Filed under:** group "Optional press" (G00096)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/poYD3n0TKGo/m/xvU5HW7lBxMJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/poYD3n0TKGo/#m4), fetched 2026-07-22)
 **Status:** current — the original covers "press or maneuver"; the G00096 paraphrase keeps only the press half
 
 > If a combat card provides an optional press or maneuver, that press or maneuver must be used during the current
@@ -208,7 +208,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 19970224] — Rules Team answers on Sabbat cards: granted abilities persist as scheduled, special hunts require a vampire target, reversed diablerie confers nothing.
 **Filed under:** group "Steal blood as a Hunt action" (G00121); {Ashes to Ashes}; {Bloodbath}; {Camarilla Vitae Slave} (+6 more records)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/80KRDjVFkyg/m/TBJso9Ra_9QJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/80KRDjVFkyg/#m1), fetched 2026-07-22)
 **Status:** current
 
 > Q ({Bloodbath}): "If the target vampire later gains a title, will that new title cause him to lose the vote he gains from Bloodbath?"
@@ -234,7 +234,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [RTR 19970630] — Damage is dealt by a minion only via strikes or explicit card text; other damage is environmental and sourceless; only vampires commit diablerie.
 **Filed under:** group "Allies who can play as a vampire" (G00011); group "Action continues not specifically from block" (G00098); group "Set range" (G00127); group "Adding damage to strikes" (G00148) (+40 more records)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/KireUeOYY3c/m/t6ifm9lur1kJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/KireUeOYY3c/#m1), fetched 2026-07-22)
 **Status:** current
 
 > "If a minion plays a combat card that deals damage, the damage is considered dealt by that minion only if it results from a strike (including strike modifiers such as ammo cards) or if the effect specifically says the damage is dealt by the minion. Damage from other effects is considered "environmental," and has no particular source."
@@ -249,7 +249,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 19980105] — Effects played "as the action would succeed" ({Spying Mission}) come at resolution; no further modifiers or reactions, e.g. {Archon Investigation}, may follow.
 **Filed under:** group "Change the target of a bleed" (G00106); {Archon Investigation}; {Lost in Translation}; {Spying Mission}
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/PzVC-AeFuUQ/m/ncbtQyYNpFQJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/PzVC-AeFuUQ/#m1), fetched 2026-07-22)
 **Status:** current
 
 > Q: If a vampire has superior Spying Mission played on him after a successful bleed of his prey, bleeds again
@@ -270,7 +270,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [RTR 19980623] — Changing a location's controller has no side effects absent card text; combat is the final step of a successful block, preceding after-block reactions.
 **Filed under:** group "Changes controller of location" (G00066); {Anathema}; {Brujah Frenzy}; {Cats' Guidance} (+9 more records)
-**Source text:** original verbatim ([VEKN rules archive](https://www.vekn.net/history-of-vtes-rules/436-rules-team-rulings-23-june-1998); canonical: [Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/tSpd9dtTElc/m/-CuHJF54_n0J); fetched 2026-07-22)
+**Source text:** original verbatim ([VEKN rules archive](https://www.vekn.net/history-of-vtes-rules/436-rules-team-rulings-23-june-1998); canonical: [archive](https://usenet.krcg.org/t/tSpd9dtTElc/#m0); fetched 2026-07-22)
 **Status:** current
 
 > Blocking: "The last step of a successful block vs. a Ready acting minion is combat. Combat is not delayed until after the block. Thus, Cat's Guidance would be played after the combat, not before."
@@ -285,7 +285,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [RTR 19980928] — A card targeting another card requires an available legal target when played; targets are announced on play; effects inapplicable at current range cannot be used.
 **Filed under:** {Betrayer}; {Blessing of Durga Syn}; {Brujah Frenzy}; {Canine Horde} (+10 more records)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/Xva4_IRavxM/m/F-_fjzTmo88J), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/Xva4_IRavxM/#m0), fetched 2026-07-22)
 **Status:** current
 
 > Requirement: another card
@@ -302,7 +302,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 19981028] — Cards played "after resolution", e.g. {Freak Drive}, are played at the end of resolution, still during the action, never entirely after it.
 **Filed under:** group "Played after resolution" (G00006), {Domain of Evernight}, {Forced March}, {Momentary Delay}
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/JZHY1bTCAa0/m/XqDVERty0roJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/JZHY1bTCAa0/#m1), fetched 2026-07-22)
 **Status:** current
 
 > Q: is spying mission played after the action is complete? if so, does this mean it is playable after a concoction is
@@ -316,7 +316,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [RTR 19991206] — {Obedience} and {Change of Target} are played after the block succeeds, so block-triggered effects still fire; {Life Boon} VP and diablerie-modifier timing.
 **Filed under:** {Aching Beauty}; {Change of Target}; {Draught of the Soul}; {Life Boon} (+2 more records)
-**Source text:** original verbatim ([VEKN rules archive](https://www.vekn.net/history-of-vtes-rules/442-rules-team-rulings-6-december-1999); canonical: [Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/N7iEmqgP9WU/m/gX80TroOBsUJ); fetched 2026-07-22)
+**Source text:** original verbatim ([VEKN rules archive](https://www.vekn.net/history-of-vtes-rules/442-rules-team-rulings-6-december-1999); canonical: [archive](https://usenet.krcg.org/t/N7iEmqgP9WU/#m0); fetched 2026-07-22)
 **Status:** current
 
 > Q: A Toreador with Aching Beauty is blocked, but then plays Change of Target (or the blocker plays Obedience). Does the blocker's controller still burn a pool?
@@ -333,7 +333,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [RTR 20000501] — Vampires moved to the uncontrolled region remember everything like contested ones, temporary control effects break, and crypt-targeting effects need a nonempty crypt.
 **Filed under:** group "Move or reveal card from crypt" (G00126); {Banishment}; {Descent into Darkness}; {Lay Low} (+2 more records)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/MKrA0hBXuaU/m/1M5LOLftKWAJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/MKrA0hBXuaU/#m0), fetched 2026-07-22)
 **Status:** current
 
 > "Banishment should be more consistent. That is, Banished vampires "remember" everything, just like contested vampires do. Additionally, cards on Banished vampires (both Master cards and Minion cards) are out of play and do not contest (just as the Banished vampire himself is out of play does not contest). This ruling applies to all methods of moving a vampire in play to the uncontrolled region (incl. The Peace of Khetamon). Examples: gained or lost titles will still be gained/lost when the vampire is returned to the controlled region, and Master discipline cards do not contribute to the capacity of the vampire while he (and they) are uncontrolled. This reverses some previous rulings."
@@ -344,7 +344,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [RTR 20001020] — Cancel effects reach only cards played from the hand in the normal fashion; cards put in play by other means cannot be canceled.
 **Filed under:** group "Cancel an action" (G00061), {Alpha Glint}, {Elysium: The Arboretum}, {Garibaldi-Meucci Museum} (+4 more records)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/GvxNYsYsWJ4/m/EY7NOjdsGCsJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/GvxNYsYsWJ4/#m0), fetched 2026-07-22)
 **Status:** current
 
 > 2\. SUDDEN REVERSAL and DIRECT INTERVENTION can only cancel cards that are played from the hand in the normal
@@ -362,7 +362,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20001127-2] — Cards and weapons burned "after use" do not burn when combat ends before their strike resolves.
 **Filed under:** {Bomb}; {Dragon's Breath Rounds}; {Elixir of Distillation}; {Escaped Mental Patient} (+6 more records)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/KInac4MQMuA/m/LnpxH08HVbMJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/KInac4MQMuA/#m4), fetched 2026-07-22)
 **Status:** current
 
 > Q: "I am succesfully blocking an action with my Escaped Mental Patient, vs Vampire X. During my strike phase, i decide to go for +1 aggravated hand damage, and then i play Rotschreck. 1) Do i have to burn him (EMP) at the end of combat?"
@@ -376,7 +376,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20010110] — Timing steps cannot be pre-empted; nothing can be played in response to an effect used in its proper window.
 **Filed under:** {Heidelberg Castle, Germany}
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/Vtm465mblX4/m/B6pCvotsfFsJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/Vtm465mblX4/#m21), fetched 2026-07-22)
 **Status:** current
 
 > Q: Heidelburg Castle may not be used during an action (including during combat). [RTR 19980707] This clearly applies
@@ -394,7 +394,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20010627] — Immunized damage is not successfully inflicted, ash-heap targets leave actions undirected, all action details are declared at announcement, one strike card per strike.
 **Filed under:** group "Immune to damage" (G00026); group "Targets card in Ash Heap" (G00122); {Bloodform}; {Compel the Spirit} (+14 more records)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/NhNCVCCDyU0/m/I5Yph3-UUPsJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/NhNCVCCDyU0/#m5), fetched 2026-07-22)
 **Status:** current
 
 > Q: "5. Does it count as "damage not succesfully inflicted" if someone strikes Ambrosius, The Ferryman with non-ag damage?"
@@ -411,7 +411,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [RTR 20010710] — Unpayable costs are paid as far as possible and the card or action resolves without effect; equipment-granted abilities are unusable while equipment use is barred.
 **Filed under:** {Blood Brother Ambush}; {Blood of the Cobra}; {Drum of Xipe Totec}; {Hand of Conrad} (+9 more records)
-**Source text:** original verbatim ([VEKN rules archive](https://www.vekn.net/history-of-vtes-rules/445-rules-team-rulings-11-july-2001); canonical: [Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/GsI1UyH54jU/m/x9LfDZX1vR4J); fetched 2026-07-22)
+**Source text:** original verbatim ([VEKN rules archive](https://www.vekn.net/history-of-vtes-rules/445-rules-team-rulings-11-july-2001); canonical: [archive](https://usenet.krcg.org/t/GsI1UyH54jU/#m0); fetched 2026-07-22)
 **Status:** current
 
 > Q: "Speaking of Vast Wealth, there are disparate rulings for what happens when a peice of equipment is found that costs too much. […]"
@@ -428,7 +428,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20010806-1] — Strike-weapons burn only at strike resolution; {Machine Blitz} does not count as using the weapon and does not inherit aggravated damage.
 **Filed under:** {Bomb}; {Elixir of Distillation}; {Flash Grenade}; {Grenade} (+5 more records)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/PuawBcgSIKI/m/D7zOKJXQDbMJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/PuawBcgSIKI/#m5), fetched 2026-07-22)
 **Status:** current
 
 > Q [Halcyan 2, answering Francois]: Correct. Bianca using Kali's Fang would do 3 damage so Machine Blitz does 3
@@ -448,7 +448,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [RTR 20020501] — End-combat effects with after-combat riders fizzle when combat continues, except unlocks, which occur at strike resolution; no new combat while one is pending.
 **Filed under:** group "After Combat Ends" (G00071); group "Continue combat" (G00145); {Blissful Agony}; {Bond with the Mountain} (+36 more records)
-**Source text:** original verbatim ([VEKN rules archive](https://www.vekn.net/history-of-vtes-rules/446-rules-team-rulings-1-may-2002); canonical: [Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/M1snoR2msbQ/m/RFwCmX3anDkJ); fetched 2026-07-22)
+**Source text:** original verbatim ([VEKN rules archive](https://www.vekn.net/history-of-vtes-rules/446-rules-team-rulings-1-may-2002); canonical: [archive](https://usenet.krcg.org/t/M1snoR2msbQ/#m0); fetched 2026-07-22)
 **Status:** current
 
 > "The untap effect of MAJESTY (and Earth Meld and Meld with the Land) occurs when the strike resolves (it is not delayed until after combat ends)."
@@ -463,7 +463,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20020814] — An ability not worded with the "during X, do Y" template can be used multiple times per turn or action.
 **Filed under:** {Edward Neally}; {Maris Streck}; {Osric Vladislav}
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/gt8wQhk76lA/m/qjDJXRLxM7cJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/gt8wQhk76lA/#m1), fetched 2026-07-22)
 **Status:** current
 
 > Q: With the new !Ventrue, whose name I forget, his ability says you can spend a master phase action to gain +1 handsize. If I have more than one MPA, can I increase my handsize more than once?
@@ -474,7 +474,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20030214] — Requirements check on each use: a vampire no longer bound for torpor cannot play another {Undead Persistence}; its benefit lapses in a new combat.
 **Filed under:** {Undead Persistence}
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/A3U-Dy1yx8Y/m/2LHXvLrmybwJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/A3U-Dy1yx8Y/#m1), fetched 2026-07-22)
 **Status:** current
 
 > Q: I researched Google and found that you can't play another UP if your opponent successfully presses to end
@@ -490,7 +490,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [RTR 20030519] — End-of-round cards are played after presses are handled; hunt modifiers apply to alternate hunt actions; each {Archon} copy grants its own repeatable action.
 **Filed under:** group "Hunt bonus" (G00004); group "Steal blood as a Hunt action" (G00121); group "Continue combat" (G00145); {Archon} (+16 more records)
-**Source text:** original verbatim ([VEKN rules archive](https://www.vekn.net/history-of-vtes-rules/447-rules-team-rulings-19-may-2003); canonical: [Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/NOBWXWrd-vA/m/iEOpQp1uhvAJ); fetched 2026-07-22)
+**Source text:** original verbatim ([VEKN rules archive](https://www.vekn.net/history-of-vtes-rules/447-rules-team-rulings-19-may-2003); canonical: [archive](https://usenet.krcg.org/t/NOBWXWrd-vA/#m0); fetched 2026-07-22)
 **Status:** current
 
 > End of round: "Things that are played "at the end of round" (Disarm, Taste of Vitae, etc.) are played after presses are handled (in the "after presses are handled" phase, much like Torn Signpost is played in the "before maneuvers are handled" phase)."
@@ -501,7 +501,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [RTR 20040501] — Referendum terms are set first; card-cycling cannot feed the "as played" cancel window; cancelling a strike card cancels its whole effect.
 **Filed under:** {The Admonitions}; {The Barrens}; {Business Pressure}; {Dreams of the Sphinx} (+4 more records)
-**Source text:** original verbatim ([VEKN rules archive](https://www.vekn.net/history-of-vtes-rules/448-rules-team-rulings-1-may-2004); canonical: [Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/7-mp3Ada86I/m/yenQ7FZ-VMIJ); fetched 2026-07-22)
+**Source text:** original verbatim ([VEKN rules archive](https://www.vekn.net/history-of-vtes-rules/448-rules-team-rulings-1-may-2004); canonical: [archive](https://usenet.krcg.org/t/7-mp3Ada86I/#m0); fetched 2026-07-22)
 **Status:** current
 
 > Q: Can card-cycling effects (Barrens, Fragment, etc.) be used during the 'as played' window?
@@ -522,7 +522,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20040518] — Placed equipment ignores requirements; the receiving vampire pays blood costs; cancelled control changes still pay bids; equipping from the ash heap is not "playing".
 **Filed under:** {Alastor}; {The Diamond Thunderbolt}; {Filchware's Pawn Shop}
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/4emymfUPwAM/m/B2SCC7L6kuMJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/4emymfUPwAM/#m5), fetched 2026-07-22)
 **Status:** current — LSJ clarified his one-word {Filchware's Pawn Shop} answer downthread; extract includes the final position.
 
 > Q: [Alastor] Since you are placing the equipment (and not equipping), does this mean that you do not have to meet the appropriate requirements?
@@ -542,7 +542,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20040726] — The ash heap, library and crypt wash cards clean: a minion leaving play loses every prior effect and returns as a new card.
 **Filed under:** {Bauble}, {The Eternal Mask}, {Possession}
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/LlqCB6LN64g/m/k98Xj1pwjPcJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/LlqCB6LN64g/#m7), fetched 2026-07-22)
 **Status:** current
 
 > Q: what about vampires returned to a crypt that then come back into play?
@@ -552,7 +552,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [RTR 20041202] — Dodge voids all effects of the opposing strike, even combat-ends riders; "prevent up to X" equals "prevent X".
 **Filed under:** group "Prevents more than 1 damage" (G00153); {Catatonic Fear}; {Flash Grenade}; {Hidden Strength} (+7 more records)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/WUWh7AdooDU/m/vojisZMCSnsJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/WUWh7AdooDU/#m5), fetched 2026-07-22)
 **Status:** current
 
 > Dodge protects the dodger from the effects of the opposing minion's strike, even if that strike is done at First
@@ -574,7 +574,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20060409] — A card an ally plays as a vampire sees the ally as a vampire only for that card's resolution; everything else sees an ally.
 **Filed under:** group "Allies who can play as a vampire" (G00011); {Kindred Segregation}
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/gsFQXsCGTG4/m/q5H8FvuKksIJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/gsFQXsCGTG4/#m1), fetched 2026-07-22)
 **Status:** current — itself reverses earlier rulings: a card played as a vampire that sends the ally to torpor now burns the ally.
 
 > Q: Kindred Segregation doesnot affect imbued, because they have no recruitment cost, right?
@@ -593,7 +593,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20061207] — A canceled card has still been played; the canceling card must be played immediately, with no delay or intervening effects.
 **Filed under:** group "Cancel" (G00058)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/nqcrJlhg4Ng/m/qQu7p-LLhfAJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/nqcrJlhg4Ng/#m2), fetched 2026-07-22)
 **Status:** current
 
 > Q: If you cancel any reaction or action modifier as it is played, then, it is my understanding, that playing a second
@@ -608,7 +608,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20070411] — An unblocked action that reaches resolution is successful even if it fizzles; success-dependent cards like {Freak Drive} still apply.
 **Filed under:** group "Action targeting locked minion" (G00078), group "Action targeting vampire in torpor" (G00080), group "Action targeting unlocked minion" (G00081), {CrimethInc.} (+5 more records)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/umdINigMKqs/m/l6GFRVKdkMsJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/umdINigMKqs/#m1), fetched 2026-07-22)
 **Status:** current — re-checked 2026-11-10 at vtes-rulings 629079a: G00080 now carries a {Lord of Serenity} override (a multi-target torpor action fizzles only if all targets have left torpor); the filed text and the original are unchanged.
 
 > Q: A. Saulot Noses of the Hound a tapped Ali Kar.
@@ -622,7 +622,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [RTR 20070707] — Meeting a card's play requirement applies for all that card's effects, including duration ones; cost modifiers apply however the card is played, multiplication/division first.
 **Filed under:** group "Impersonating requirements to play cards" (G00073); group "Lock to reduce cost" (G00130); group "Equip/employ/recruit outside of an action" (G00131); {The Ankara Citadel, Turkey} (+6 more records)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/vSOt2c1uRzQ/m/MsRAv47Cd4YJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/vSOt2c1uRzQ/#m0), fetched 2026-07-22)
 **Status:** current — re-checked 2026-11-10 at vtes-rulings 629079a: G00073's paraphrase reworded ("that card, and only that card") and gained a {Toreador Grand Ball} example (the in-play lock/unblockable effects do not see the faked Toreador); consistent with the extract.
 
 > Cards allies play as vampires treat them as vampires for duration effects (but not effects from the card-in-play).
@@ -634,7 +634,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20070808-1] — "Continue as if unblocked" moves the action card from the ash heap back to limbo; absent from the ash heap, the action cannot continue.
 **Filed under:** group "Action continue as if unblocked" (G00099), {Wamukota}
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/jzMOxZ9oxOs/m/o0X7GUFmii0J), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/jzMOxZ9oxOs/#m3), fetched 2026-07-22)
 **Status:** current — LSJ's 2009-10-12 in-thread self-correction ("Oops. After." / "So: Limbo") revises the successful-action timing discussed downthread, not this ruling
 
 > Q: >From reading another post it seems clear that if an Osebo plays Massassi's Honor (MH) while taking an action
@@ -651,7 +651,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20070928-2] — Contests key on card name across card types: {Spell of Life} mummies contest same-name minions; non-unique card text does not carry to mummies.
 **Filed under:** {Spell of Life}
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/duRrP46XygI/m/FrFYvbUYFf0J), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/duRrP46XygI/#m43), fetched 2026-07-22)
 **Status:** current
 
 > Q: >>> Yeah they're unique. But how does one define which other one's they'd contest?
@@ -665,7 +665,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20080512] — An oust resolves as soon as pool reaches zero, before other effects the same event triggers, such as the paying ally burning.
 **Filed under:** group "Allies who can play as a vampire" (G00011)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/z2DGSFph6sM/m/IjJB89nbtlsJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/z2DGSFph6sM/#m17), fetched 2026-07-22)
 **Status:** current
 
 > Q: A question here regarding the timing of when the Bima burns and when the pool is lost due to the bleed:
@@ -683,7 +683,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [RTR 20080808] — Undirected multi-target actions proceed against the targets they can affect; any single valid target enables per-target effects; cards cannot target things not in play.
 **Filed under:** group "Action directed at all methuselah" (G00165); {Bauble}; {Edged Illusion}; {Lesser Boon} (+3 more records)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/1jW6GXrIRSU/m/8QTYL98kB0gJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/1jW6GXrIRSU/#m0), fetched 2026-07-22)
 **Status:** current — re-checked 2026-11-10 at vtes-rulings 629079a: the {Sowing Dissension} record moved into new group G00165 (with [LSJ 20010925] [LSJ 20100713] [PIB 20121230] [PIB 20150821]); original unchanged.
 
 > Bauble cannot be burned if the target equipment isn't in play, by the general targeting rule [1.6.1.4].
@@ -703,7 +703,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20090324] — An action targeting a card in play targets the controlling Methuselah, not the minion it is on; targeting blood counters targets their minion.
 **Filed under:** group "Directed at a card" (G00036); group "Locquipments" (G00047); {Arcanum Investigator}; {Conceal} (+8 more records)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/Zc_ogoVhsug/m/tJ2VBYI7resJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/Zc_ogoVhsug/#m8), fetched 2026-07-22)
 **Status:** current
 
 > Q: Say you have a location with text saying that another methuselah may steal/burn counters or steal the location as a (D) action, does that action count as one targeting the location, or the methuselah?
@@ -722,7 +722,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20091021-2] — An action's cost is paid at resolution: {Nergal} decides only then whether his ability must cover it, even if the bleed was deflected.
 **Filed under:** {Nergal}
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/x5oG5J7Egtg/m/yafJrZAoqjgJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/x5oG5J7Egtg/#m7), fetched 2026-07-22)
 **Status:** current
 
 > Q: a/ Nergal has 2 blood and plays Exile (cost: 2 blood). Nergal burns 1 blood before resolution (Elder
@@ -735,7 +735,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20100112] — A referendum an action generates is handled within the action's resolution; "after resolution" effects like {Freak Drive} wait until it concludes.
 **Filed under:** {Abactor}
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/SJu0kgw_2tE/m/p5cshF90vkEJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/SJu0kgw_2tE/#m1), fetched 2026-07-22)
 **Status:** current
 
 > Q: Can Freak Drive be played before the Blood Hunt referendum Abactor generates is called?
@@ -749,7 +749,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20100119] — Equipping brings cards in locked per card text, replacement draws stay hidden, {Rötschreck} ends combat before strike resolution, strike damage set at resolution start.
 **Filed under:** {Helicopter}; {Revelations}; {Rötschreck}; {Shambling Hordes}
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/1eULCGaVcO0/m/eefMWzjoK0IJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/1eULCGaVcO0/#m1), fetched 2026-07-22)
 **Status:** current
 
 > Q: When player looks at prays hand using Revelations, and then discards a card, can he also see which card is drawn to replace it?
@@ -782,7 +782,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20100204] — "Put in play" bypasses requirements: {Summon History} fetches cards whose requirements the acting vampire does not meet, and summoned minions act the same turn.
 **Filed under:** group "Put card in play ignoring requirements" (G00110)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/o5Xnzc8G774/m/yovVizGngKsJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/o5Xnzc8G774/#m31), fetched 2026-07-22)
 **Status:** current
 
 > Q: Summon History […] tem: Search your library and/or ash heap for an ally, retainer or equipment whose cost is X
@@ -796,7 +796,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20100206-2] — Variable card amounts are set when the card is played, bleed pool gain requires resolving the action, and counters survive their Methuselah's ousting.
 **Filed under:** {Blessing of the Beast}; {Momentary Delay}; {The Rising}; {Shatter the Gate} (+2 more records)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/reXyybyIYX8/m/jeCyjdiZ5T4J), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/reXyybyIYX8/#m1), fetched 2026-07-22)
 **Status:** current
 
 > Q: "- Blessing of the Beast […]"
@@ -816,7 +816,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20100527] — Self-replacing cards redraw when a delayed replacement occurs; healing effects play without damage pending; {Delaying Tactics} retrieves no card on card-less referendums.
 **Filed under:** group "Cards that replace themselves" (G00089); {Brother's Blood}; {Bujo}; {Delaying Tactics} (+15 more records)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/Tr3X4DsZr-8/m/O06iXN6LtzsJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/Tr3X4DsZr-8/#m1), fetched 2026-07-22)
 **Status:** current
 
 > Q: [{Brother's Blood}] "Can it be played even when there is currently no damage to heal / prevent destruction from?"
@@ -830,7 +830,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20100705] — An ability that does not require the vampire to be ready can be used while in torpor.
 **Filed under:** group "Unconditional referendum ability" (G00039); {Montano}; {Paul Forrest, False Prophet}; {Toby}
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/Dm_Zqyjdx8s/m/Fw-T7QAU8mkJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/Dm_Zqyjdx8s/), fetched 2026-07-22)
 **Status:** current — LSJ's ruling is a one-word confirmation of another poster's statement, quoted above it.
 
 > Q: we were wondering if the Horde can use it's special even when in torpor. […] The Horde may tap to give another infernal minion +1 bleed for the current action.
@@ -841,7 +841,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [LSJ 20100811] — Temporary sect overrides stack on top of the underlying sect and take precedence; cards like {Go Anarch} instead replace the underlying sect itself.
 **Filed under:** {Derange}, {Fall of the Camarilla}, {Fall of the Sabbat}, {Field Training} (+6 more records)
-**Source text:** original verbatim ([Google Groups](https://groups.google.com/g/rec.games.trading-cards.jyhad/c/kGKWcs3k6vI/m/Uwx7TGC8lgYJ), fetched 2026-07-22)
+**Source text:** original verbatim ([archive](https://usenet.krcg.org/t/kGKWcs3k6vI/#m25), fetched 2026-07-22)
 **Status:** current
 
 > "Floating" (temporary change) of clan/sect/whatever (things that require you to remember the underlying
@@ -858,7 +858,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [RTR 20111202] — When a cost can be paid several ways, the payment choice is announced as part of the terms of the card.
 **Filed under:** {Gran Madre di Dio, Italy}, {Ravnos Carnival}, {Strike with Conviction}, {Travis "Traveler72" Miller}
-**Source text:** original verbatim ([VEKN forum](https://www.vekn.net/forum/rules-questions/16769-rules-team-rulings-02-dec-11#16769), fetched 2026-07-22)
+**Source text:** original verbatim ([VEKN forum](https://usenet.krcg.org/t/vekn-16769/#m0), fetched 2026-07-22)
 **Status:** current
 
 > Cost of a card
@@ -871,7 +871,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [PIB 20121028] — Additional strikes lacking "optional" wording are mandatory; searches do not reveal cards; in-play cards belong to their current controller, surviving their owner's ousting.
 **Filed under:** group "Mandatory additional strike" (G00134); {Abactor}; {Anathema}; {Baltimore Purge} (+7 more records)
-**Source text:** original verbatim ([VEKN forum](https://www.vekn.net/forum/rules-questions/39816-ec-2012-can-you-answer-these?start=6#39843), fetched 2026-07-22)
+**Source text:** original verbatim ([VEKN forum](https://usenet.krcg.org/t/vekn-39816/#m10), fetched 2026-07-22)
 **Status:** current
 
 > Q: "Renegade Garou: Is its additional strike mandatory?"
@@ -891,7 +891,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [PIB 20121031] — Play conditions are checked only when playing; canceled cards' costs stay paid; locking effects can target locked vampires; replacement draws stay hidden.
 **Filed under:** group "Require Gehenna" (G00009); {Anarch Troublemaker}; {The Coven}; {Revelations} (+12 more records)
-**Source text:** original verbatim ([VEKN forum](https://www.vekn.net/forum/rules-questions/39816-ec-2012-can-you-answer-these?start=18#39908), fetched 2026-07-22)
+**Source text:** original verbatim ([VEKN forum](https://usenet.krcg.org/t/vekn-39816/#m20), fetched 2026-07-22)
 **Status:** current — Bertrand edited the post in place on 31 Oct 2012; the {Fall of the Camarilla} answer quotes the corrected ("EDIT:yes") position.
 
 > Q: "Can I tap a tapped vampire with Anarch Troublemaker?"
@@ -911,7 +911,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [RTR 20180303] — Transfers are set at influence-phase start; crypt minions are actively moved to ready, ending self-contest; recruited allies enter the ready region but cannot act.
 **Filed under:** {Abomination}; {Ennoia's Theater}; {Anarch Convert}; {Angela Preston} (+3 more records)
-**Source text:** original verbatim ([VEKN forum](https://www.vekn.net/forum/rules-questions/76447-rules-team-rulings-rtr-03-03-2018#85536), fetched 2026-07-22)
+**Source text:** original verbatim ([VEKN forum](https://usenet.krcg.org/t/vekn-76447/#m0), fetched 2026-07-22)
 **Status:** current
 
 > Rule change #1: Timing during the Influence phase
@@ -930,7 +930,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [ANK 20180307-2] — The "during X, do Y" wording template limits an ability to once per X; abilities worded otherwise can be used multiple times per action.
 **Filed under:** group "Unconditional referendum ability" (G00039); {Ellison Humboldt}; {Maris Streck}; {Matteus, Flesh Sculptor}
-**Source text:** original verbatim ([VEKN forum](https://www.vekn.net/forum/rules-questions/76451-ellison-humboldt-and-matteus-flesh-sculptor?start=0#85598), fetched 2026-07-22)
+**Source text:** original verbatim ([VEKN forum](https://usenet.krcg.org/t/vekn-76451/#m1), fetched 2026-07-22)
 **Status:** current
 
 > Q: Simply put: Can Ellison Humboldt's ability be used multiple times during same referendum, for multiple different princes?
@@ -958,7 +958,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [ANK 20180910-1] — End-of-round and "combat would end" cards share one timing window, playable in any order; "end of combat" effects apply afterward.
 **Filed under:** group "Playable "when combat would end" or "is about to end"" (G00142); {Disarm}; {Psyche!}; {Pulled Fangs} (+3 more records)
-**Source text:** original verbatim ([VEKN forum](https://www.vekn.net/forum/rules-questions/76990-correct-order-impulse-for-combat-cards-after-combat#90517), fetched 2026-07-22)
+**Source text:** original verbatim ([VEKN forum](https://usenet.krcg.org/t/vekn-76990/#m3), fetched 2026-07-22)
 **Status:** current — the RD edited this post on 2019-12-21, removing a final sentence on the {Psyche!}/{Telepathic Tracking} interaction; extract quotes the surviving text.
 
 > Q: Yawp Court: […] does Sabbat take 2 damage before window for these cards or after multiple combat?
@@ -975,7 +975,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [ANK 20191218] — Abilities without the "during X, do Y" template are usable once per master phase action, so multiple times per phase; static bonuses persist in torpor.
 **Filed under:** {Nahir}
-**Source text:** original verbatim ([VEKN forum](https://www.vekn.net/forum/rules-questions/62700-re-nahir-and-research-counters?start=6#98297), fetched 2026-07-22)
+**Source text:** original verbatim ([VEKN forum](https://usenet.krcg.org/t/vekn-62700/#m7), fetched 2026-07-22)
 **Status:** current
 
 > Q [alasteir]: If the lasombra Nahir goes to torpor with a research counter on her do you still remain with the
@@ -997,7 +997,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [ANK 20191219] — Only one combat can be queued; combat-continuation effects ({Telepathic Tracking}, {Relentless Reaper}) are played before, and shut out, {Psyche!}'s "about to end" window.
 **Filed under:** group "Playable "when combat would end" or "is about to end"" (G00142); group "Continue combat" (G00145); {Disarm}; {Psyche!} (+4 more records)
-**Source text:** original verbatim ([VEKN forum](https://www.vekn.net/forum/rules-questions/78241-relentless-reaper-vs-blissful-agony-and-scheduled-combat-rulings-ambiguity#98308), fetched 2026-07-22)
+**Source text:** original verbatim ([VEKN forum](https://usenet.krcg.org/t/vekn-78241/#m3), fetched 2026-07-22)
 **Status:** current — Ankha's follow-up summary downthread was edited to correct the {Psyche!}-vs-{Blissful Agony} point; the extract quotes the final edited position.
 
 > Q [kschaefer]: You can play Relentless Reaper. The Relentless Reaper continuation of the current combat prevents
@@ -1021,7 +1021,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [ANK 20210124] — An unblocked action whose targets became illegal, effects impossible, or cost unpayable fizzles; an action canceled mid-course counts as taken but never reaches resolution.
 **Filed under:** group "Action targeting locked minion" (G00078); group "Action targeting vampire in torpor" (G00080); group "Action targeting unlocked minion" (G00081); {Channel 10} (+8 more records)
-**Source text:** original verbatim ([VEKN forum](https://www.vekn.net/forum/rules-questions/79001-the-question-of-the-month-action-fizzles#101492), fetched 2026-07-22)
+**Source text:** original verbatim ([VEKN forum](https://usenet.krcg.org/t/vekn-79001/#m2), fetched 2026-07-22)
 **Status:** current — re-checked 2026-11-10 at vtes-rulings 629079a: G00080 gained a {Lord of Serenity} override (all targets must have left torpor to fizzle); filed text and original unchanged.
 
 > "An action that fizzles is a successful action (= not blocked) whose effects cannot be applied because:
@@ -1042,7 +1042,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [ANK 20210630] — {Lay Low} inherits the {Banishment} rulings: influence-out return, remembered effects, and placement in the last permanent controller's uncontrolled region.
 **Filed under:** {Lay Low}
-**Source text:** original verbatim ([VEKN forum](https://www.vekn.net/forum/rules-questions/79205-lay-low-vs-banishment#102601), fetched 2026-07-22)
+**Source text:** original verbatim ([VEKN forum](https://usenet.krcg.org/t/vekn-79205/#m3), fetched 2026-07-22)
 **Status:** current
 
 > Q: "Here are the rulings I would like to be sure:
@@ -1056,7 +1056,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [ANK 20220116] — Block-triggered delayed effects resolve before other cards can be played, even if the action already ended; simultaneous delayed effects are ordered by the acting Methuselah.
 **Filed under:** group "Triggered by block" (G00105); {Unleash Hell's Fury}
-**Source text:** original verbatim ([VEKN forum](https://www.vekn.net/forum/rules-questions/79600-unleash-hell-s-fury-and-other-delayed-triggered-effects#104488), fetched 2026-07-22)
+**Source text:** original verbatim ([VEKN forum](https://usenet.krcg.org/t/vekn-79600/#m1), fetched 2026-07-22)
 **Status:** current
 
 > Q: If the acting player gets blocked by Unleash Hell's Fury, can he play Change of Target before mending the aggravated damage?
@@ -1070,7 +1070,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [ANK 20220704] — {Charming Lobby} is not a [POLITICAL ACTION] card; the named political action card is played, and provides its vote, only at successful resolution.
 **Filed under:** {Charming Lobby}
-**Source text:** original verbatim ([VEKN forum](https://www.vekn.net/forum/rules-questions/79890-charming-lobby-a-political-action-card-krc?start=0#105616), fetched 2026-07-22)
+**Source text:** original verbatim ([VEKN forum](https://usenet.krcg.org/t/vekn-79890/#m1), fetched 2026-07-22)
 **Status:** current
 
 > Q: Is Charming Lobby played to call the referendum […]?
@@ -1096,7 +1096,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [ANK 20220705] — Locking restricts only playing reaction cards and attempting to block; a minion's card-text ability remains usable while locked.
 **Filed under:** group "Unconditional referendum ability" (G00039); group "Non-locking referendum ability" (G00040); {Maris Streck}; {Montano} (+3 more records)
-**Source text:** original verbatim ([VEKN forum](https://www.vekn.net/forum/rules-questions/79895-question-regarding-using-a-minion-card-text-ability-when-locked#105630), fetched 2026-07-22)
+**Source text:** original verbatim ([VEKN forum](https://usenet.krcg.org/t/vekn-79895/#m1), fetched 2026-07-22)
 **Status:** current
 
 > Q: Can Arishat burn blood to force a vampire to abstain while she herself is locked?
@@ -1104,7 +1104,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [ANK 20221102] — Minion cards are played by both the Methuselah and the minion, so Methuselah-scoped cost reducers reach them; lock-to-act costs lock at announcement.
 **Filed under:** {Powerbase: Tshwane}; {Enhanced Coagulant}; {Mobile HQ, Operation Antigen}; {The Shard, London} (+1 more records)
-**Source text:** original verbatim ([VEKN forum](https://www.vekn.net/forum/rules-questions/80129-fall-of-london-card-rules-questions#106688), fetched 2026-07-22)
+**Source text:** original verbatim ([VEKN forum](https://usenet.krcg.org/t/vekn-80129/#m1), fetched 2026-07-22)
 **Status:** current
 
 > Q: [The Guardian] When The Guardian is locked to enter combat by special text, who is considered an acting minion
@@ -1125,7 +1125,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [ANK 20240706] — Make every possible choice when announcing an action; a choice depending on the action's outcome is made at resolution instead.
 **Filed under:** {Keystone Kine}; {Public Trust}; {The Platinum Protocol}; {Break the Bonds}
-**Source text:** original verbatim ([VEKN forum](https://www.vekn.net/forum/rules-questions/81563-break-the-bonds-presence-target?start=18#111945), fetched 2026-07-22)
+**Source text:** original verbatim ([VEKN forum](https://usenet.krcg.org/t/vekn-81563/#m19), fetched 2026-07-22)
 **Status:** current
 
 > 1. Since KK is an action, the " If this action is successful," part is in fact optional but put the emphasis on the fact that something depending on the outcome of the action must be decided when the action resolves. However, since that some something depends on the final bleed amount, it is implied that the outcome must be known before making that decision.
@@ -1154,7 +1154,7 @@ record supersession in the Status line; do not delete entries.
 
 ### [ANK 20250613] — Queued-combats FAQ and flow chart: after-block-resolution cards wait for every queued combat; all combat starters share one queue; continuation only from the final combat.
 **Filed under:** not in the pinned or upstream-HEAD database (2026-11-09); the document keys {Cats' Guidance}, {Hedonism}, {Psyche!}, {Hidden Lurker}, {Telepathic Tracking}, {Form of Mist}
-**Source text:** original verbatim ([VEKN forum](https://www.vekn.net/forum/rules-questions/82396-queued-combats#114683), fetched 2026-11-09). Post last edited 16 Feb 2026 ("updated flow chart"); the Form of Mist answers were split after Kraus's quote of the first version — the RD's correction is [ANK 20250613-2] (#114687: "Sorry, the example is a bad one. Replace Hedonism with Psyche!").
+**Source text:** original verbatim ([VEKN forum](https://usenet.krcg.org/t/vekn-82396/#m0), fetched 2026-11-09). Post last edited 16 Feb 2026 ("updated flow chart"); the Form of Mist answers were split after Kraus's quote of the first version — the RD's correction is [ANK 20250613-2] (#114687: "Sorry, the example is a bad one. Replace Hedonism with Psyche!").
 **Status:** current. Same thread: [ANK 20250614] #114696 (Siren's Lure card text over the FAQ: "The latter."); [ANK 20250710] #114910; [ANK 20250716] #114968; [ANK 20251103] #115705 (slave rule usable with a Hedonism combat queued: "Yes.", linking LSJ's 27 Jan 2004 "Slave rule and Siren's Lure" answer).
 
 > Q: If a combat is "queued" by Hedonism and the action is blocked, when is it possible to play Cats' Guidance (or Truth in Darkness)?

@@ -97,9 +97,10 @@ section — there are no per-section blocks:
 5. For `[RBK <anchor>]`: find the heading in `rulebook2024/content.md` (kebab-case
    anchor ↔ heading text) and read the verbatim passage.
 6. If exact wording is load-bearing and `rulings.yaml` may be paraphrasing: resolve the
-   ID in `references.yaml` and fetch the original. Newsgroup and BGG threads go to the
-   archive first, `https://usenet.krcg.org/t/<thread>/` (BGG: `/t/bgg-<id>/`, posts
-   anchored `#mN`); `vekn.net/forum` URLs fetch fine. Fallbacks: the VEKN rules archive
+   ID in `references.yaml` and fetch the original from the archive,
+   `https://usenet.krcg.org/t/<thread>/` (BGG: `/t/bgg-<id>/`; VEKN forum:
+   `/t/vekn-<thread>/`, the forum post number an alias anchor); cite posts by their
+   positional `#mN`. Fallbacks: the VEKN rules archive
    (`https://www.vekn.net/history-of-vtes-rules`) hosts the RTR compilations; narkive
    mirrors the usenet groups. Only after those fail, record "unverifiable at source;
    database wording relied on" instead of guessing.
