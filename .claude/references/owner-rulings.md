@@ -88,9 +88,16 @@ bypass requirements. **They are the exact opposite**, and their own text says so
 machinery, so requirements and costs apply. Only **"put ... in play"** bypasses them.
 
 **Corollary, and it is the part that gets missed.** A card played "not in the normal
-fashion" **has still been played**. What it loses is only the normal-play window: it
-cannot be canceled "as it is played" and it does not open an "as played" window.
+fashion" **has still been played**. What it loses is the normal-play window: it
+cannot be canceled "as it is played" and it does not open an "as played" window; and it
+is not played by a minion `[ANK 20201229]`: the card that brought it in played it, so an
+effect keyed to a minion playing a card does not trigger.
 Wave 1's 1.8 is imprecise on exactly this and must be fixed.
+
+**Owner, 2026-11-11:** *"I think it's played but not played in the normal fashion so it
+cannot be 'canceled as played' and triggers that require the vampire playing the card
+don't trigger (I suppose a card is playing the card, the vampire is not playing it that's
+what we mean by not played in the normal fashion)."*
 
 *Owns it:* §1.6 (requirements), §1.8 (the played-but-not-normally corollary).
 *Must not contradict:* §3.7.3, §3.7.4, §6.3, §1.9.

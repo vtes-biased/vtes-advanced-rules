@@ -9,12 +9,12 @@ judge-level companion to the [VTES rulebook](https://www.vekn.net/rulebook) that
 synthesizes ~2,605 individual rulings into general principles organized by game mechanic.
 There is no build, no test suite, no package. The deliverable is one Markdown file.
 
-**The document is complete** — 64 sections in 6 chapters, 724 footnotes, appendix
+**The document is complete** — 64 sections in 6 chapters, 736 footnotes, appendix
 included, corrected through owner-adjudicated passes, a cross-section consistency
 sweep, and an atomicity/deduplication pass (2026-07-22: every rule given a single
 normative home, cross-references culled to the misreading-preventing ones). The project
 is in maintenance mode: keep the document true as rulings evolve upstream, and track
-the open Rules Director questions in `docs/_work/review.md`.
+open Rules Director questions in `docs/_work/review.md`.
 
 **`docs/advanced-rules.md` is the sole source of truth. Edit it directly.** The
 generation pipeline (classification chunks, extracts, section drafts, `assemble.py`) was
@@ -22,10 +22,11 @@ retired and deleted on 2026-07-21; it survives only in git history. Do not resur
 
 ## Reference files
 
-- `docs/_work/review.md` — the open Rules Director questions (the Edge-steal
-  entry closed 2026-11-10; twenty-four entries from the rules-digest triage,
-  2026-11-10, the Karl Schrekt one closed 2026-11-11). The rest of the production-era reference shelf (WORKING-NOTES,
-  taxonomy, tensions, the
+- `docs/_work/review.md` — the open Rules Director questions; none open since
+  2026-11-11, when the owner closed the last of the rules-digest triage's twenty-five
+  entries (a Rules Director ruling supersedes the owner's rules-qa reading; owner's calls
+  no ruling settles are marked *(reading)* in the document). The rest of the
+  production-era reference shelf (WORKING-NOTES, taxonomy, tensions, the
   classification/rulings TSVs, phantom-id-audit) was retired on 2026-07-22 — recover
   any of it from git history.
 - `.claude/references/owner-rulings.md` — **the highest authority in this project.**
