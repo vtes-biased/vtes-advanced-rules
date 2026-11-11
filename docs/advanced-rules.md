@@ -3043,6 +3043,10 @@ card canceled as it is played has still spent that use.[^5-8-23]
 Such a requirement can be met after the sect has ceased to exist, e.g. a Camarilla or justicar requirement under {Fall
 of the Camarilla}.[^5-8-19]
 
+An ability reaching cards that require a named title reaches a requirement that lists the title among others, but not
+one the title would only satisfy: no longer Camarilla, {Karl Schrekt} can play {Parity Shift} ("a prince or justicar"),
+not {Camarilla's Iron Fist} ("a titled Camarilla vampire").[^5-8-29]
+
 Meeting a title requirement to call a political action grants none of that title's votes in the referendum.[^5-8-20]
 
 Whether the ability reaches cards the Methuselah plays is per card: {Vidal Jarbeaux} meets requirements on master cards
@@ -6726,6 +6730,8 @@ exemplar cards.
 [^5-8-19]: [[LSJ 20050124]](https://usenet.krcg.org/t/HVy8iPUxNbI/#m13) [[ANK
     20230503]](https://usenet.krcg.org/t/vekn-80486/#m7)
     — group "Impersonating title for non-existent sect" (G00070).
+
+[^5-8-29]: [[ANK 20250410]](https://usenet.krcg.org/t/vekn-82214/#m1) — {Karl Schrekt}.
 
 [^5-8-20]: [[ANK 20231221]](https://usenet.krcg.org/t/vekn-81065/#m4) — group
     "Impersonating a title for political action" (G00069).

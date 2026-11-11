@@ -210,7 +210,7 @@ reaches only the play, and only a play whose whole effect is the unneeded one
 {Blood Fury}/G00141 and {Rigor Mortis}/G00137 "cannot" bars; {Spying Mission}
 zero-bleed [PIB 20150612]; {Veil of Darkness} no-lock (card-specific); {Deep Cover
 Agent} as printed ([ANK 20240610], DB-only). §1.6.5 is home; §3.2.1/§3.2.3, §4.5.1,
-§4.6.4 are instances. Verified across 14 units 2026-07-22. (review.md §7 sets the
+§4.6.4 are instances. Verified across 14 units 2026-07-22. (review.md §6 sets the
 owner's rules-qa reading against "whole effect" — open there.)
 **Sources:** as inline; findings/no-effect-plays.md (git history).
 
@@ -255,9 +255,11 @@ master-card reach); §1.6.4 keeps the Mata Hari template plus a pointer. The
 once-per-game caps (each requirement once; each title once; generic "X votes" title
 once; a canceled-as-played card still spends the use) are {Vidal Jarbeaux}'s text and
 rulings ONLY — never {Vlad Tepes} or {Kemintiri}. Keys: G00069 no-votes, G00070
-dead-sect, [LSJ 20050526] under {Mata Hari} for sect membership.
+dead-sect, [LSJ 20050526] under {Mata Hari} for sect membership. A named-title ability
+reaches only a closed list naming it, never an open one ({Karl Schrekt}: {Parity Shift}
+yes, {Camarilla's Iron Fist} no) — owner 2026-11-11, over his rules-qa 59.14.
 **Sources:** {Vidal Jarbeaux} text; [ANK 20211019] [ANK 20200710]; {Vlad Tepes} record;
-[LSJ 20050721] (Kemintiri).
+[LSJ 20050721] (Kemintiri); [ANK 20250410] (Karl Schrekt).
 
 ### R-019 — Referendum requires a *ready* acting minion at resolution  [SETTLED]
 **Position:** No referendum only if the acting minion is *not ready* (torpor or out of
@@ -313,7 +315,7 @@ combats the after-windows stay shut but other effects fit ({Obedience} [LSJ 1999
 only MANDATORY effects must finish before passing ({Fame} [LSJ 20110121]; upstream
 renamed the key 2026, the post is 2011).
 **History:** 2026-07-22 — (b) first ruled "not part of the action at all"; reversed the
-same day on re-reading the Heidelberg ruling. review.md §8 sets rules-qa 88.4 against
+same day on re-reading the Heidelberg ruling. review.md §7 sets rules-qa 88.4 against
 (b) — open there.
 
 ### R-025 — §3 owner review pass (2026-07-22)  [SETTLED]
@@ -329,7 +331,7 @@ card and effect ({Truth of Blood} before {Obedience}). (i) Equip-target sameness
 any one of them is the same" [ANK 20200502]. (j) Locquipment cannot be moved by
 equipment-moving effects, though control can change; Enkidu exception per §1.3.1.
 (k) Referendum pool-burn polling: one blood at a time, amounts not locked ({Mob Rule}
-[LSJ 20030602]) — review.md §17 sets the owner's rules-qa reading against it.
+[LSJ 20030602]) — review.md §16 sets the owner's rules-qa reading against it.
 (m) Presses first; end of round and end of combat are ONE shared window, freely
 ordered, "would end" replacements before "about to end" effects; "after combat" waits
 outside.
@@ -346,7 +348,7 @@ end-of-phase checking — cited at [^1-7-25], [^2-4-12], [^6-6-7], not [^5-2-7].
 
 ### R-027 — Review-file answers  [SETTLED]
 **Position:** (1) **Diablerie blood hunt** — part of the action, not of its resolution;
-an after-resolution window precedes it (R-024(b); review.md §8 open). (2) **Two live
+an after-resolution window precedes it (R-024(b); review.md §7 open). (2) **Two live
 "is considered" overrides, later lapses first** — the earlier override governs again;
 the underlying trait returns only when none remains. No ruling on record (forum
 searched); owner call, footnote-less in §5.9.2. (3) **Torpor combat** — no

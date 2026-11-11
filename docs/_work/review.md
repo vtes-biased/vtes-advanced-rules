@@ -14,6 +14,9 @@ read literally); §6.5.4 restored, R-027(4) amended. The entries below came from
 = https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md). The document keeps the official ruling
 until a Rules Director answer or an owner call.
 
+The Karl Schrekt entry was closed by the owner on 2026-11-11: ANK 20250410 is right and supersedes rules-qa 59.14 (an
+open-list requirement such as {Camarilla's Iron Fist}'s is not a card requiring a justicar); §5.8.3 states it.
+
 ## 1. Reducing stealth or intercept before any block attempt
 
 **The question.** May a card or ability that reduces the acting minion's stealth (or a blocker's intercept) be used
@@ -142,30 +145,7 @@ fetches" ([rules-qa
 (the group paraphrase); §1.6.3 states the fetched case. If the owner's reading stands, delete the §3.7.4.1 sentence (and
 raise the groups' generalization upstream; not filed).
 
-## 6. Karl Schrekt and "a titled Camarilla vampire"
-
-**The question.** Karl "can play cards requiring a justicar as if he were a justicar". No longer Camarilla, can he call
-{Camarilla's Iron Fist} ("Requires a titled Camarilla vampire")?
-
-**The record.** [ANK
-20250410](https://usenet.krcg.org/t/vekn-82214/#m1):
-"No, because Camarilla's Iron Fist doesn't explictly require a Justicar … the requirement … is an open list". [LSJ
-20050128](https://usenet.krcg.org/t/HVy8iPUxNbI/#m48), on {Kemintiri} and {Closed Session}: "It requires a Justicar, and
-therefore a Camarilla (since you cannot be the former save that you are the latter)." The database (vtes-rulings
-629079a) files both under {Karl Schrekt}: "If Karl changes sect, he is still considered Camarilla when playing a card
-requiring a Justicar. (e.g. he can vote when playing {Closed Session} after going Anarch)" and "When he changes Sects,
-he can't play votes that 'requires a titled camarilla Vampire' (e.g. {Camarilla's Iron Fist})". The two rulings agree:
-the implicit Camarilla reaches only a card that requires a justicar.
-
-**The owner's reading.** He "can call Camarilla's Iron Fist even when no longer Camarilla" — "over ANK 20250410"
-([rules-qa
-59.14](https://github.com/lionel-panhaleux/zero-vtes/blob/main/docs/rules-qa.md#batch-59--legacy-cards-for-twda-decks-steps-1015-implemented-readings-2026-10-09)).
-
-**Where the document stands.** §5.8.3 does not name Karl or the open/closed-list test. If the ruling stands, add after
-[^5-8-19]: "A vampire faking one named title meets only requirements naming it: {Karl Schrekt} cannot call {Camarilla's
-Iron Fist}, which requires any titled Camarilla vampire."
-
-## 7. Unneeded stealth inside a card that does more
+## 6. Unneeded stealth inside a card that does more
 
 **The question.** When no stealth is needed, may a card be played whose effect adds stealth among other things —
 {Bonding} at [DOM] (+1 stealth and +1 bleed), {Revelation of the Serpent}'s "+1 stealth and +1 bleed" option, an ability
@@ -193,7 +173,7 @@ owner flips R-012: §1.6.5 "A card adding the unneeded value is barred even if i
 §3.2.1 "An ability whose stealth depends on a random outcome may be used before stealth is needed; a stealth result is
 then not gained, e.g. {Gathii}" ([ANK 20231031], G00067).
 
-## 8. After-resolution cards between a diablerie and its blood hunt
+## 7. After-resolution cards between a diablerie and its blood hunt
 
 **The question.** May an after-resolution card not keyed to the diablerie (e.g. {Freak Drive}) be played before the
 blood hunt referendum?
@@ -214,7 +194,7 @@ fit between the resolution and the referendum". If 88.4 stands: "Only cards keye
 the referendum, e.g. {Ritual of the Bitter Rose}; other after-resolution effects follow the blood hunt", and R-027(1) is
 amended.
 
-## 9. Block tolls and forced-attempt cards
+## 8. Block tolls and forced-attempt cards
 
 **The question.** (1) Is a toll on attempting to block ({Parijat, the Dark Oracle}, {Tenebrous Form}) paid when the card
 forcing the attempt ({Eagle's Sight}, {Second Tradition: Domain}) is canceled as played? (2) May such a card be played
@@ -241,7 +221,7 @@ attempt is "offered only while the toll is payable … (the card's other effects
 otherwise … including a blood cost imposed by {Terror Frenzy}"; §3.3.3 a toll is a cost. Upstream candidate (not filed):
 G00155's Parijat example against the upstream {Parijat, the Dark Oracle} record.
 
-## 10. Mask of a Thousand Faces and the No Repeated Action rule
+## 9. Mask of a Thousand Faces and the No Repeated Action rule
 
 **The question.** After {Mask of a Thousand Faces}, has the masker, the masked minion, or both taken the action?
 
@@ -257,7 +237,7 @@ owner 2026-10-09).
 {Malleable Visage}"; §3.10.1 "The replaced minion unlocks, but it remains the minion that took the action." Both extend
 Malleable Visage to Mask without a Mask ruling.
 
-## 11. Mask of a Thousand Faces and inherent stealth
+## 10. Mask of a Thousand Faces and inherent stealth
 
 **The question.** Does the masked minion's inherent stealth, already applied, bar the mask?
 
@@ -272,7 +252,7 @@ stealth bonus…)".
 stands, add "including the original's inherent stealth" to "nothing may have been played on the action that could not
 have been played with him".
 
-## 12. Switching blockers while an attempt is under way
+## 11. Switching blockers while an attempt is under way
 
 **The question.** A minion's attempt falls short of the stealth. May its Methuselah attempt with another minion instead,
 failing the first, before the table passes?
@@ -286,7 +266,7 @@ attempts to block; the attempt under way fails ([rules-qa
 
 **Where the document stands.** §3.3.2 "A declared attempt cannot be withdrawn" — with the rulebook.
 
-## 13. Is a fizzled action paid? (the owner's earlier reading)
+## 12. Is a fizzled action paid? (the owner's earlier reading)
 
 **The question.** §1.7.5 now states ANK 20210124 (2026-11-10): a fizzle for a lost target or a prevented effect is not
 paid. The owner's rules-qa says the opposite.
@@ -306,7 +286,7 @@ rest on the database paraphrase (G00079 cites ANK 20220218, whose post says noth
 **Where the document stands.** Since 2026-11-10: not paid, except a cost-caused fizzle (paid as far as it goes). Confirm
 the owner accepts the original over 28.7/17.4, or ask the Rules Director.
 
-## 14. "Cannot gain blood by hunting" and a blood-stealing hunt
+## 13. "Cannot gain blood by hunting" and a blood-stealing hunt
 
 **The question.** A vampire with {Vampiric Disease} hunts by stealing blood ({Legacy of Caine}). Does the target lose
 the blood (to the bank) or keep it?
@@ -324,7 +304,7 @@ case.
 
 **Where the document stands.** §1.1.3 and §3.7.2.3 follow the ruling.
 
-## 15. Rötschreck's timing
+## 14. Rötschreck's timing
 
 **The question.** May {Rötschreck} be played as the opposing aggravated strike is announced, before the vampire chooses
 its own strike, or only once both strikes are chosen?
@@ -339,7 +319,7 @@ in which that strike is announced"; database: "before or after the opponent's st
 **Where the document stands.** §2.1.4 "after a strike is declared and before resolution, in either strike order"
 ([^2-1-6]) — with the ruling.
 
-## 16. Is Target Vitals' +2 preventable?
+## 15. Is Target Vitals' +2 preventable?
 
 **The question.** {Target Vitals}: "If any damage from this strike is successfully inflicted …, they take +2 damage from
 this strike". Added after prevention (unpreventable), or additional strike damage inheriting preventability?
@@ -357,7 +337,7 @@ preventability and source. Aggravated stays aggravated when {Target Vitals} adds
 reading is adopted: "An add-on conditioned on the strike's damage being successfully inflicted is added after prevention
 and cannot itself be prevented, e.g. {Target Vitals}."
 
-## 17. Business Pressure: one choice each, or give and take?
+## 16. Business Pressure: one choice each, or give and take?
 
 **The record.** [RTR 19960530](https://usenet.krcg.org/t/DpvF2Peet9o/#m0) (database wording): "there can be some give
 and take … each Methuselah can choose to burn one pool at a time"; [LSJ 20030602] {Mob Rule}; rulemonger R-025(k).
@@ -369,7 +349,7 @@ owner 2026-10-07).
 
 **Where the document stands.** §3.7.5.3 follows the RTR ("give and take, each Methuselah free to burn one at a time").
 
-## 18. Who acts first in the "before votes and ballots are cast" stage?
+## 17. Who acts first in the "before votes and ballots are cast" stage?
 
 **The question.** Does that polling stage follow normal sequencing (acting Methuselah first), or do the other
 Methuselahs act first, from the caller's left, the caller last?
@@ -387,7 +367,7 @@ the rotation itself is engine modeling.
 with the cards usable 'before votes and ballots are cast'; no vote or ballot is cast until every Methuselah has passed
 in that stage, e.g. {Closed Session}, {Confusion of the Eye} [OBF]."
 
-## 19. Field Training and The Red Question: actual change or override?
+## 18. Field Training and The Red Question: actual change or override?
 
 **The record.** Cards (current): {Field Training} "The attached vampire **is considered Anarch** … If the attached
 vampire changes sect, burn this card"; {The Red Question} "This vampire **is considered Anarch**". Database under both
@@ -403,7 +383,7 @@ it goes back to the initial sect"; The Red Question likewise ([rules-qa
 Legacy}) or the wording test needs an exception. Upstream candidate (not filed): the {Field Training}/{The Red Question}
 records extend LSJ 20100811 to "is considered" cards.
 
-## 20. The cards on a minion removed from the game
+## 19. The cards on a minion removed from the game
 
 **The record.** [RBK important-terms-of-the-game] "Burn": "When a card is burned or removed from the game, any counters
 or other cards on it are burned." [ANK 20181110] (temporary control, minion removed): silent on its cards.
@@ -417,7 +397,7 @@ rulebook.
 
 **Where the document stands.** §1.12.1 "burned … whatever sends it away: burned, removed from the game" — the rulebook.
 
-## 21. The burn option and torpid vampires
+## 20. The burn option and torpid vampires
 
 **The question.** When does a torpid vampire meeting the requirement keep the burn option closed?
 
@@ -438,7 +418,7 @@ Eye}'s combat mode: torpor opens the option for an action card or a reaction (a 
 for an action modifier (playable on his own leave-torpor action). Choose (a) that test or (b) the rulings stated as
 found.
 
-## 22. A unique title claimed by two of one's own vampires
+## 21. A unique title claimed by two of one's own vampires
 
 **The question.** May a Methuselah give, steal or bring out a unique title one of his vampires already claims? Forced,
 is it contested between his two vampires, or is the incoming title lost?
@@ -458,7 +438,7 @@ oneself … Forced on him … the incoming title is lost … Chosen by him, it i
 §5.8.1: "A Methuselah cannot choose to give, steal or bring out a unique title one of his vampires already claims;
 forced on him, the incoming title is lost, its card burned *(reading)*."
 
-## 23. Life Boon and the oust's timing
+## 22. Life Boon and the oust's timing
 
 **The question.** When pool reaches 0 with a {Life Boon} in someone's hand, does the effect that ran the pool out finish
 before the oust (Boon offered after), or is the Boon played at that moment and the oust applied there and then?
@@ -477,7 +457,7 @@ pool out goes on as if the Methuselah were still in the game" ([rules-qa 45.1,
 **Where the document stands.** §6.5.2 "An oust resolves as soon as pool reaches zero, ahead of anything else the same
 event triggers" — with ANK 20220210.
 
-## 24. Unleash Hell's Fury's block and Change of Target
+## 23. Unleash Hell's Fury's block and Change of Target
 
 **The question.** After {Unleash Hell's Fury}'s successful block deals its damage and burns, may the acting Methuselah
 still play "before block resolution" effects such as {Change of Target}?
@@ -493,7 +473,7 @@ owner 2026-10-09).
 
 **Where the document stands.** §2.4.3 "modifiers may follow" — with the rulings.
 
-## 25. A vote gained after a vampire has cast
+## 24. A vote gained after a vampire has cast
 
 **The question.** A vote granted to a vampire that already cast ({Elysium: The Palace of Versailles} locked after, a
 {Toreador Justicar} referendum's +1, {Bewitching Oration}) — added to its cast on the same side, or not counted?
