@@ -406,4 +406,12 @@ template-to-section entries are structural, exempt). Its silences and bare point
 intended, not `gap`. Deferred, not new findings: 26 cited pointer sentences flagged
 DELETE (need per-case marker rehoming); 10 same-paragraph double-citations.
 
+### R-032 — "Inflicted" vs "successfully inflicted"  [SETTLED 2026-11-12]
+**Position (owner, 2026-11-12):** "Inflicted" = not dodged; prevented (and immunized) damage counts; "(even if
+prevented)" is reminder text. "Successfully inflicted" = not dodged, not prevented, not ignored — on every card printing
+it. LSJ's "'inflict' normally means 'successfully inflicts'" (LSJ 20040802; {Blade Clot} LSJ 20080820) is contradicted
+by his own LSJ 20020215 and ANK 20210324; the owner's ruling settles it: do not re-raise. Home §4.5.5.
+**Sources:** [RBK damage-resolution]; LSJ 20020215 (FArran2SmSQ #m1); ANK 20171226 (vekn-76349 #m8); ANK 20210324
+(vekn-79087 #m12, #m15).
+
 R-002, R-007, R-008: deleted 2026-11-10 (completed work; lessons absorbed above).

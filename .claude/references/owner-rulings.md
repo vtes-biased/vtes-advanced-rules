@@ -153,3 +153,36 @@ Do not write this as a `{Repulsion}` exception — write the general rule and us
 *Owns it:* §1.6 (the restriction), §3.2 (stealth & intercept), §4.5 (prevention).
 *Must not contradict:* §1.5 (ability use is not a card play — same shape), §1.8,
 §2.5 (persistence of in-play effects), §3.4, §4.6.
+
+---
+
+## D. "Inflicted" vs "successfully inflicted"
+
+**Owner, 2026-11-12:** *"Inflict means not dodged, but is counted even if prevented. Parenthesis text is reminder.
+Pulled Fangs and Disarm use a different 'successfully inflicted' wording that means not prevented."* Asked whether
+"successfully inflicted" means not prevented on every card printing it or only on the end-of-round ones: **all of them.**
+
+- **Damage "inflicted"** is damage not dodged. Prevented damage was inflicted and counts; so does damage the minion is
+  immune to ([RBK damage-resolution]: "inflicted unsuccessfully"). The printed "(even if prevented)" is reminder text.
+- **Damage "successfully inflicted"** is damage neither dodged nor prevented (nor ignored through immunity), on every
+  card printing the wording, not only the end-of-round ones.
+
+| card | text | verdict |
+|---|---|---|
+| `{Improvised Flamethrower}` | "If the opposing minion **inflicts** any damage on this minion at long range **(even if it is prevented)**, this weapon is burned" | prevented counts; parenthesis is reminder |
+| `{Weighted Walking Stick}` | "For each damage **inflicted** by this strike **(even if prevented)**, burn 1 counter from this card." | prevented counts |
+| `{Drink the Blood of Ahriman}` | "Burn this card if any ranged aggravated damage is **inflicted** on this vampire **(even if prevented)**." | prevented counts |
+| `{Inflict}` | "the amount of damage **inflicted** on this imbued … is also inflicted on the striking minion …, **even if this imbued prevents the damage**." | prevented counts |
+| `{Pulled Fangs}` | "at the end of a round during which this minion **successfully inflicted** more damage than the opposing vampire" | prevented does not count |
+| `{Disarm}` | "at the end of a round during which this vampire **successfully inflicted** more damage than the opposing vampire" | prevented does not count |
+| `{Target Vitals}` | "If any damage from this strike is **successfully inflicted** on the opposing minion, they take +2 damage" | all prevented → no +2 |
+
+Rulings agree: [RBK damage-resolution] "Any unprevented damage is successfully inflicted."; [LSJ 20020215] "Prevented
+damage is inflicted but not successfully inflicted."; [ANK 20171226] "Damage is successfully inflicted when it's not
+prevented"; [ANK 20210324] immune damage "is inflicted, but has no effect" ({Drink the Blood of Ahriman} burns), and
+{Pulled Fangs} gained "successfully" because "the rulings mention that the damage must be inflicted successfully".
+Contradicted: LSJ's "'Inflict' normally means 'successfully inflicts'" ([LSJ 20040802] {Improvised Flamethrower};
+[LSJ 20080820] {Blade Clot}), against his own [LSJ 20020215] and Ankha's [ANK 20210324]; the owner's ruling settles it,
+and {Blade Clot}'s counter moves on damage an immune minion takes.
+
+*Owns it:* §4.5.5. *Must not contradict:* §4.6.2 (dodge against prevention), §4.4.3, §4.9.1, Appendix A.
