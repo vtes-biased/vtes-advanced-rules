@@ -409,8 +409,9 @@ DELETE (need per-case marker rehoming); 10 same-paragraph double-citations.
 ### R-032 — "Inflicted" vs "successfully inflicted"  [SETTLED 2026-11-12]
 **Position (owner, 2026-11-12):** "Inflicted" = not dodged; prevented (and immunized) damage counts; "(even if
 prevented)" is reminder text. "Successfully inflicted" = not dodged, not prevented, not ignored — on every card printing
-it. LSJ's "'inflict' normally means 'successfully inflicts'" (LSJ 20040802; {Blade Clot} LSJ 20080820) is contradicted
-by his own LSJ 20020215 and ANK 20210324; the owner's ruling settles it: do not re-raise. Home §4.5.5.
+it. Older cards printing plain "inflicts" that an LSJ ruling reads as "successfully" keep the ruling until reprinted
+({Twisting the Knife} LSJ 20010627/20020215, {Blade Clot} LSJ 20080820); LSJ 20040802's general statement describes
+that older wording. Without a ruling the text applies ({Haymaker}, *(reading)*, open in review.md). Home §4.5.5.
 **Sources:** [RBK damage-resolution]; LSJ 20020215 (FArran2SmSQ #m1); ANK 20171226 (vekn-76349 #m8); ANK 20210324
 (vekn-79087 #m12, #m15).
 

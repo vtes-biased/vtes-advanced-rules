@@ -181,8 +181,19 @@ Rulings agree: [RBK damage-resolution] "Any unprevented damage is successfully i
 damage is inflicted but not successfully inflicted."; [ANK 20171226] "Damage is successfully inflicted when it's not
 prevented"; [ANK 20210324] immune damage "is inflicted, but has no effect" ({Drink the Blood of Ahriman} burns), and
 {Pulled Fangs} gained "successfully" because "the rulings mention that the damage must be inflicted successfully".
-Contradicted: LSJ's "'Inflict' normally means 'successfully inflicts'" ([LSJ 20040802] {Improvised Flamethrower};
-[LSJ 20080820] {Blade Clot}), against his own [LSJ 20020215] and Ankha's [ANK 20210324]; the owner's ruling settles it,
-and {Blade Clot}'s counter moves on damage an immune minion takes.
+
+**Older cards (owner, 2026-11-12):** *"There was in fact a shift in the cards wording over the decades. Those old cards
+have not been reprinted since so their writing has not been updated but should be in case they are reprinted. In the
+meantime, the LSJ rulings for them stand, as it was for Pulled fangs before it was reprinted and its card text fixed."*
+A card printing plain "inflicts" that an LSJ ruling reads as "successfully inflicts" keeps that ruling until a reprint
+updates its text: `{Twisting the Knife}` ("only usable if this vampire inflicts 3 or more damage"; [LSJ 20010627], [LSJ
+20020215]: prevented or immune damage does not count), `{Blade Clot}` ("When an anarch you control inflicts hand or
+melee weapon damage"; [LSJ 20080820]: damage a minion is immune to does not move a counter). LSJ's "'Inflict' normally
+means 'successfully inflicts'" ([LSJ 20040802], [LSJ 20080820]) describes that older wording.
+
+**Without a ruling, the text applies exactly** — `{Haymaker}` ("If either minion inflicts more damage than the other
+this round, that minion gets an optional press this round"): its "inflicts" counts prevented damage *(reading)*. The
+owner: *"it is likely to be of the same category as Twisted the Knife or Blood Clot if I'm being honest. But we would
+need a Rules Director ruling (which we could not find) to make it sure."* Open in `docs/_work/review.md`.
 
 *Owns it:* §4.5.5. *Must not contradict:* §4.6.2 (dodge against prevention), §4.4.3, §4.9.1, Appendix A.

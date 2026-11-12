@@ -30,4 +30,11 @@ Boon and the oust's timing, Unleash Hell's Fury's block and Change of Target, an
 cast. Where no ruling settles the point, the document states the owner's call marked *(reading)*. Dispositions in
 rulemonger memory R-012, R-020, R-024(b), R-025(k), R-027(1) and R-027(5).
 
-No open questions.
+## Haymaker: does its "inflicts" count prevented damage?
+
+{Haymaker}: "If either minion inflicts more damage than the other this round, that minion gets an optional press this
+round." The owner's ruling of 2026-11-12 (owner-rulings.md D): "inflicted" counts prevented damage, "successfully
+inflicted" does not; older cards printing plain "inflicts" that an LSJ ruling reads as "successfully" keep it
+({Twisting the Knife}, {Blade Clot}). No ruling covers {Haymaker}, so §4.5.5 applies its text exactly *(reading)*,
+though the owner thinks it likely of the older cards' category. A Rules Director ruling would settle whether a fully
+prevented strike counts toward "inflicts more damage than the other".
