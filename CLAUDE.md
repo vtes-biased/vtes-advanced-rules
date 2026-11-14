@@ -5,7 +5,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## What this repository is
 
 A **writing project**, not a software project: it produces `docs/advanced-rules.md`, a
-judge-level companion to the [VTES rulebook](https://www.vekn.net/rulebook) that
+judge-level companion to the [VTES rulebook](https://archon.vekn.net/help/rules) that
 synthesizes ~2,605 individual rulings into general principles organized by game mechanic.
 There is no build, no test suite, no package. The deliverable is one Markdown file.
 
@@ -57,7 +57,9 @@ submodules** — run `git submodule update --init` on a fresh clone:
   (ruling ID → URL).
 - `rulebook2024/` ([GiottoVerducci/rulebook2024](https://github.com/GiottoVerducci/rulebook2024))
   — `content.md` is the base 2024 rulebook, verbatim with `vekn.net/rulebook` anchors.
-  This is the citable rulebook (`[RBK …]` footnotes).
+  This is the citable rulebook (`[RBK …]` footnotes). An `[RBK …]` label is a
+  `vekn.net/rulebook` anchor, its link the id of `archon.vekn.net/help/rules` that
+  `references.yaml` gives the label: Archon's copy is the official, maintained one.
 
 Submodules pin a commit: the rulings database moves upstream, so `cd vtes-rulings && git
 pull` (then commit the new pointer here) when rulings need refreshing — then have the
@@ -113,10 +115,10 @@ These were validated by the user; deviating from them is a regression.
   one inline marker per footnote — its first occurrence only; all definitions live in a
   single `## References` section at the end of the document (no per-section blocks);
   labels are section-prefixed (`[^4-4-1]`) and unique document-wide; ruling IDs in a
-  definition are markdown links to their `references.yaml` URLs and `[RBK anchor]` links
-  to `https://www.vekn.net/rulebook#anchor`, **double-bracketed so the brackets display**
-  (since 2026-07-22), e.g.
-  `[^1-8-1]: [[LSJ 20061207]](https://…) [[RBK playing-a-card]](https://www.vekn.net/rulebook#playing-a-card) — group "Cancel" (G00058).`
+  definition are markdown links to their `references.yaml` URLs, `[RBK <label>]` too (an id
+  of `https://archon.vekn.net/help/rules`; a label `references.yaml` lacks is not cited),
+  **double-bracketed so the brackets display** (since 2026-07-22), e.g.
+  `[^1-8-1]: [[LSJ 20061207]](https://…) [[RBK playing-a-card]](https://archon.vekn.net/help/rules#playing-a-card) — group "Cancel" (G00058).`
   Definitions are separated by blank lines — kramdown otherwise lazily absorbs the next
   definition as paragraph content (this silently broke all footnotes once). IDs with no
   URL (phantoms, upstream holes) stay as plain unlinked single-bracket labels — do not

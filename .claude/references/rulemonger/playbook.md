@@ -9,7 +9,7 @@ verify a claim end-to-end. Static reference — lived experience goes in
 | Source | Location | Role |
 |---|---|---|
 | Advanced rules (the document) | `docs/advanced-rules.md` | Under review. ~7,600 lines, 6 chapters + Appendix A (glossary of wording templates) + a consolidated `## References` section. |
-| 2024 rulebook, verbatim | `rulebook2024/content.md` | The citable base rules. Headings carry `vekn.net/rulebook` anchors. |
+| 2024 rulebook, verbatim | `rulebook2024/content.md` | The citable base rules. Headings carry the `vekn.net/rulebook` anchors `[RBK …]` labels are named after. |
 | Rulings database | `vtes-rulings/rulings/rulings.yaml` | ~2,605 curated rulings. May paraphrase originals. |
 | Reference URLs | `vtes-rulings/rulings/references.yaml` | Ruling reference ID → original URL. |
 | Card groups | `vtes-rulings/rulings/groups.yaml` | Group ID (`G#####|Name`) → member cards, with per-card symbol annotations. |
@@ -76,8 +76,8 @@ section — there are no per-section blocks:
 
 - Label: section-prefixed and unique document-wide (`[^1-1-5]`, `[^3-7-2-5]`).
 - Before the em-dash: the reference IDs. Linked IDs are double-bracketed
-  `[[LSJ …]](url)` so the brackets render; `[RBK <anchor>]` links to
-  `https://www.vekn.net/rulebook#<anchor>`; IDs with no URL (phantoms) stay as plain
+  `[[LSJ …]](url)` so the brackets render; `[RBK <label>]` links its `references.yaml`
+  URL, an id of `https://archon.vekn.net/help/rules`; IDs with no URL (phantoms) stay as plain
   unlinked labels. Definitions are blank-line-separated (kramdown lazy-absorption
   fix); external links open in a new tab via card-links.js.
 - After the em-dash: the record keys — the cards `{...}` and/or groups `"..." (G#####)`
