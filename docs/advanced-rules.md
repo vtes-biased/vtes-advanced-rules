@@ -2355,8 +2355,8 @@ Agony} [VAL] starts no new combat.[^4-6-1]
 A strike that would move its own card onto the opposing minion leaves that card where it was: a weapon so worded stays
 equipped on the bearer, e.g. {Rowan Ring}, {Enhanced Coagulant}.
 
-An effect worded as a step following strike resolution is still part of the strike and is dodged with it, e.g.
-{Contagion} [DAI] steals the minion only if the strike resolves.
+An effect worded as a step following strike resolution is still part of the strike and does not apply to the dodging
+minion: a dodged strike resolves, but {Contagion} [DAI] does not steal the minion that dodged it.
 
 A secondary effect that disables the opponent's weapons fails too. Dodge the {Blood Fury} template and the dodging
 minion's weapon strikes inflict damage normally that round.[^4-6-2]
@@ -2364,8 +2364,10 @@ minion's weapon strikes inflict damage normally that round.[^4-6-2]
 #### 4.6.2 Dodge against prevention
 
 Preventing the damage leaves the strike resolved, so the rest of the strike's effect still applies unless it requires
-damage successfully inflicted ([§4.5.5](#455-immunity)). Dodging means the strike never resolved and none of it
-applies. {Fleshcraft} prevented still places the card; {Fleshcraft} dodged does not.[^4-6-3]
+damage successfully inflicted ([§4.5.5](#455-immunity)). A dodged strike resolves too, but none of it applies to the
+dodging minion or their possessions; what it does to its own striker still happens, e.g. {Escaped Mental Patient} still
+burns at the end of combat and {Molotov Cocktail} still goes on its striker. A strike that never happens because the
+combat ended first has not resolved. {Fleshcraft} prevented still places the card; {Fleshcraft} dodged does not.[^4-6-3]
 
 #### 4.6.3 What survives a dodge
 
