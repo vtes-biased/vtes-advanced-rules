@@ -2187,9 +2187,9 @@ may choose the same again, e.g. {Supernatural Resistance}.[^4-3-9]
 
 #### 4.3.3 Strike resolution
 
-Everything printed on a strike happens at strike resolution, and none of it if the strike does not resolve:
-{Contagion}'s steal is dodgeable, {Escaped Mental Patient} does not burn, and burning a committed weapon leaves that
-strike with no effect.[^4-3-10]
+Everything printed on a strike happens at strike resolution, and none of it if the strike does not resolve: against a
+strike: combat ends, {Escaped Mental Patient} does not burn, and burning a committed weapon leaves that strike with no
+effect.[^4-3-10]
 
 The strike's effects apply, then damage is resolved. Blood a strike moves is moved before damage is mended, e.g.
 {Darkness Within}; blood from burning a minion with a strike arrives after strike resolution and cannot mend that
@@ -5910,14 +5910,11 @@ exemplar cards.
     20230111]](https://usenet.krcg.org/t/vekn-80258/#m2)
     — {Supernatural Resistance}, {Death Seeker}, {Primal Instincts}, {Rigor Mortis}.
 
-[^4-3-10]: [[ANK
-    20200909]](https://usenet.krcg.org/t/vekn-78845/#m2)
-    [[LSJ 20040130]](https://usenet.krcg.org/t/wvuR79dNCDU/#m2) [[LSJ
-    20001127-2]](https://usenet.krcg.org/t/KInac4MQMuA/#m4) [[LSJ 20070508]](https://usenet.krcg.org/t/FOLkbrSh0Ns/#m5)
-    [[LSJ 20010806-1]](https://usenet.krcg.org/t/PuawBcgSIKI/#m5) [[PIB
-    20141026]](https://usenet.krcg.org/t/vekn-66960/#m3) [[LSJ
-    20100310]](https://usenet.krcg.org/t/hYN6L3COpqw/#m1) — {Contagion}, {Escaped Mental Patient}, {Flash Grenade},
-    {Gianna di Canneto}, {Zip Gun}.
+[^4-3-10]: [[LSJ 20001127-2]](https://usenet.krcg.org/t/KInac4MQMuA/#m4) [[LSJ
+    20070508]](https://usenet.krcg.org/t/FOLkbrSh0Ns/#m5) [[LSJ 20010806-1]](https://usenet.krcg.org/t/PuawBcgSIKI/#m5)
+    [[PIB 20141026]](https://usenet.krcg.org/t/vekn-66960/#m3) [[LSJ
+    20100310]](https://usenet.krcg.org/t/hYN6L3COpqw/#m1) — {Escaped Mental Patient}, {Flash Grenade}, {Gianna di
+    Canneto}, {Zip Gun}.
 
 [^4-3-11]: [[LSJ 20051123]](https://usenet.krcg.org/t/Ww3zSY8cVNs/#m2) [[LSJ
     20080212]](https://usenet.krcg.org/t/Yg1nZfgkpGM/#m3) [[RBK

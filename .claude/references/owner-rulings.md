@@ -197,3 +197,19 @@ owner: *"it is likely to be of the same category as Twisted the Knife or Blood C
 need a Rules Director ruling (which we could not find) to make it sure."* Open in `docs/_work/review.md`.
 
 *Owns it:* §4.5.5. *Must not contradict:* §4.6.2 (dodge against prevention), §4.4.3, §4.9.1, Appendix A.
+
+---
+
+## E. A dodged strike resolves
+
+**Owner, 2026-11-16, confirmed 2026-11-18:** *"Escaped Mental Patient burns if its strike is dodged, but does not burn
+if the opponent uses a strike: combat ends."*
+
+- **A dodged strike resolves**, but none of it applies to the dodging minion or their possessions; what it does to its
+  own striker still happens. `{Escaped Mental Patient}`: "burn him at the end of combat if this strike has resolved".
+- **A strike that never happens because combat ended first has not resolved**: [LSJ 20001127-2], [LSJ 20010627], [LSJ
+  20070508] ("Does not burn at the end of combat if his strike does not resolve (eg. if his opponent uses a strike:
+  combat ends or Rötschreck is played)").
+- {Contagion}'s steal does not take the minion that dodged it ([ANK 20200909], [LSJ 20040130]: "it can be dodged").
+
+*Owns it:* §4.6.1–4.6.2. *Must not contradict:* §4.3.3 (strike resolution).
