@@ -207,6 +207,9 @@ if the opponent uses a strike: combat ends."*
 
 - **A dodged strike resolves**, but none of it applies to the dodging minion or their possessions; what it does to its
   own striker still happens. `{Escaped Mental Patient}`: "burn him at the end of combat if this strike has resolved".
+  LSJ, 2007-05-08 (https://usenet.krcg.org/t/FOLkbrSh0Ns/#m3, no reference id of its own): "Dodge doesn't protect the
+  EMP. Dodge only protects the dodger." [RBK strike-effects]: "dodge only cancels effects that are directed at the
+  dodging minion", hence `{Molotov Cocktail}` still goes on its striker.
 - **A strike that never happens because combat ended first has not resolved**: [LSJ 20001127-2], [LSJ 20010627], [LSJ
   20070508] ("Does not burn at the end of combat if his strike does not resolve (eg. if his opponent uses a strike:
   combat ends or Rötschreck is played)").

@@ -2347,10 +2347,10 @@ combat but not the wound, e.g. {Coma}.[^4-5-21]
 **Base rules.** A dodge is a strike that deals no damage and protects the dodging minion and their possessions from the
 effects of the opposing strike; retainers are not protected.
 
-#### 4.6.1 A dodge negates the whole strike
+#### 4.6.1 A dodge negates the whole strike against the dodger
 
-A dodge stops the strike, not merely its damage: {Serpent's Numbing Kiss} places no card and locks no one; {Blissful
-Agony} [VAL] starts no new combat.[^4-6-1]
+A dodge stops everything the strike does to the dodging minion, not merely its damage: {Serpent's Numbing Kiss} places
+no card and locks no one; {Blissful Agony} [VAL] starts no new combat.[^4-6-1]
 
 A strike that would move its own card onto the opposing minion leaves that card where it was: a weapon so worded stays
 equipped on the bearer, e.g. {Rowan Ring}, {Enhanced Coagulant}.
@@ -3583,7 +3583,8 @@ exemplar cards.
   (e.g. {Rowan Ring}, {Wooden Stake}). [§2.5.3](#253-effects-outliving-their-source)
 - **"cannot be prevented by cards requiring …"** — a "cannot" naming the cards it forbids bars playing them entirely,
   even to cycle ("cannot use any additional strikes" is read the same way); dodging the strike defeats the disabling
-  (e.g. {Blood Fury}, {Rigor Mortis}). [§1.1.3](#113-cannot), [§4.6.1](#461-a-dodge-negates-the-whole-strike)
+  (e.g. {Blood Fury}, {Rigor Mortis}). [§1.1.3](#113-cannot),
+  [§4.6.1](#461-a-dodge-negates-the-whole-strike-against-the-dodger)
 - **"do not replace until"** — the delayed card is drawn at the first moment its condition is met, ahead of anything
   else triggering then, even if the card was since burned; canceled with the card, and governing only normal plays.
   [§1.9.2](#192-delayed-replacement), [§1.9.3](#193-abnormal-entry-and-cancellation)
@@ -6101,7 +6102,9 @@ exemplar cards.
 [^4-6-2]: [[LSJ 20040928]](https://usenet.krcg.org/t/GBcR6aNjIk4/#m1) — {Blood Fury}, {Blood Rage}, {Personal Scourge},
     {Soul Burn}.
 
-[^4-6-3]: [[LSJ 19990106-2]](https://usenet.krcg.org/t/6dDhJmBlpXY/#m0) — {Fleshcraft}, {Bonecraft}.
+[^4-6-3]: [[LSJ 19990106-2]](https://usenet.krcg.org/t/6dDhJmBlpXY/#m0)
+    [[RBK strike-effects]](https://archon.vekn.net/help/rules#strike-effects) — {Escaped Mental Patient}, {Molotov
+    Cocktail}, {Fleshcraft}, {Bonecraft}.
 
 [^4-6-4]: [[RTR 19941109]](https://usenet.krcg.org/t/_6CXoKTSLnw/#m0) [[TOM
     19951216]](https://usenet.krcg.org/t/0G-jqB_fcyE/#m1) [[PIB
